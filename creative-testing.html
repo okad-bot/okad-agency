@@ -1,0 +1,1401 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creative Testing — OKAD Agency</title>
+<meta name="description" content="We make video ads and find which ones actually work. 40-70 creatives per batch with real UGC creators and AI.">
+<link href="https://framerusercontent.com/images/9rU7XfzW4mHPYwiTjfyQcoLY.png" rel="icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --black: #1a1a1a;
+  --dark: #111;
+  --dark-bg: #212121;
+  --text: #383838;
+  --text-light: #4c4c4c;
+  --muted: #8e8e8e;
+  --border: #e6e6e6;
+  --light: #f2f2f2;
+  --off-white: #f7f7f7;
+  --white: #fff;
+  --green: #aed058;
+  --green-dark: #92c610;
+  --green-bg: #f4f9e8;
+  --green-muted: #626959;
+  --purple: #932efa;
+  --purple-bg: #f3e5f5;
+  --purple-light: #d1b5ff;
+  --blue: #2341ff;
+  --blue-bg: #e1f5fe;
+  --blue-accent: #29b6f6;
+  --pink: #ff5dd1;
+  --orange-bg: #feefdb;
+  --orange-muted: #bd9156;
+  --yellow-bg: #f9fbe7;
+  --yellow: #cede3f;
+  --coral-bg: #fbe9e7;
+  --coral: #ffaa93;
+  --warm-bg: #f6f5f4;
+  --warm-border: #ded8d3;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text);
+  background: var(--light);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === NAVBAR === */
+.navbar {
+  background: var(--black);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.navbar-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.navbar-logo img { height: 24px; }
+.navbar-logo span {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--white);
+  letter-spacing: -0.5px;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.navbar-links a {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar-links a:hover { color: var(--white); }
+.navbar-links a.active { color: var(--white); }
+.nav-cta {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--black);
+  background: var(--green);
+  padding: 8px 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+.nav-cta:hover { background: var(--green-dark); }
+
+/* === SECTION NAV (sticky) === */
+.section-nav {
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 56px;
+  z-index: 90;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.section-nav::-webkit-scrollbar { display: none; }
+.section-nav-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  gap: 32px;
+  white-space: nowrap;
+}
+.section-nav a {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 12px 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+.section-nav a:hover { color: var(--dark); border-bottom-color: var(--border); }
+
+/* === HERO (light) === */
+.hero-banner {
+  background: var(--light);
+  padding: 0 32px;
+  position: relative;
+  overflow: hidden;
+}
+.hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 56px 0 64px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+.hero-text { position: relative; z-index: 2; }
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+.hero-tag {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 5px 12px;
+  border-radius: 100px;
+  border: 1px solid var(--border);
+  background: var(--white);
+  color: var(--text-light);
+}
+.hero-tag.accent-green { background: var(--green-bg); color: var(--green-dark); border-color: var(--green); }
+.hero-tag.accent-purple { background: var(--purple-bg); color: var(--purple); border-color: var(--purple-light); }
+.hero-tag.accent-blue { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-accent); }
+.hero-banner h1 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: clamp(32px, 4vw, 48px);
+  line-height: 1.12;
+  letter-spacing: -2px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+.hero-banner h1 em {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.hero-subtitle {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-light);
+  max-width: 480px;
+  margin-bottom: 32px;
+}
+.hero-media { position: relative; z-index: 1; }
+.hero-media .hero-gif {
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+}
+.hero-media .hero-gif-secondary {
+  position: absolute;
+  bottom: -24px;
+  left: -32px;
+  width: 55%;
+  border-radius: 16px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.12);
+  border: 3px solid var(--light);
+}
+
+/* === BUTTONS === */
+.btn {
+  display: inline-block;
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 14px 32px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: all 0.2s;
+  cursor: pointer;
+  border: none;
+}
+.btn-green { background: var(--green); color: var(--dark); }
+.btn-green:hover { background: var(--green-dark); }
+.btn-outline-dark {
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--border);
+}
+.btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+.btn-outline {
+  background: transparent;
+  color: var(--muted);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.btn-outline:hover { color: var(--white); border-color: rgba(255,255,255,0.3); }
+.hero-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* === TRUST STRIP === */
+.trust-strip {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px 32px 0;
+  text-align: center;
+}
+.trust-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--muted);
+  margin-bottom: 16px;
+}
+.trust-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.trust-logos span {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  color: var(--text-light);
+  opacity: 0.5;
+}
+
+/* === CONTENT WRAP === */
+.content-wrap {
+  background: var(--off-white);
+  position: relative;
+}
+
+/* === STATS ROW === */
+.stats-row {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+.stat { text-align: center; }
+.stat-num {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: clamp(28px, 3vw, 40px);
+  letter-spacing: -1px;
+  color: var(--dark);
+}
+.stat-desc {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+/* === SECTIONS === */
+.section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 64px 32px;
+}
+.section-divider {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.section-divider hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+}
+
+/* === TYPOGRAPHY === */
+.section h2 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+.section h2 em {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.section p {
+  font-size: 16px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  max-width: 680px;
+}
+.section p strong {
+  font-weight: 500;
+  color: var(--dark);
+}
+
+/* === SHOWCASE GRID === */
+.showcase-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.showcase-card {
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  aspect-ratio: 4/3;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.showcase-card:hover { transform: scale(1.01); }
+.showcase-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.showcase-card .showcase-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 24px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+}
+.showcase-card .showcase-tag {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--green);
+  margin-bottom: 6px;
+}
+.showcase-card h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.5px;
+  color: #fff;
+  line-height: 1.25;
+  margin-bottom: 4px;
+}
+.showcase-card .showcase-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.45;
+}
+
+/* === STEPS (How it works) === */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.step {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px;
+}
+.step-num {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--green-dark);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+.step h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: -0.3px;
+  color: var(--dark);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+.step p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+  margin-bottom: 0;
+  max-width: none;
+}
+.step .step-highlight {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--green-dark);
+  margin-top: 12px;
+}
+
+/* === COMPARISON === */
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 32px;
+}
+.compare-card {
+  border-radius: 20px;
+  padding: 28px;
+}
+.compare-card.compare-before {
+  background: var(--warm-bg);
+  border: 1px solid var(--warm-border);
+}
+.compare-card.compare-after {
+  background: var(--green-bg);
+  border: 1px solid var(--green);
+}
+.compare-card .compare-label {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 16px;
+}
+.compare-before .compare-label { color: var(--muted); }
+.compare-after .compare-label { color: var(--green-dark); }
+.compare-card ul {
+  list-style: none;
+  padding: 0;
+}
+.compare-card li {
+  font-size: 14px;
+  line-height: 1.55;
+  padding: 6px 0;
+  padding-left: 20px;
+  position: relative;
+  color: var(--text);
+}
+.compare-card li::before {
+  position: absolute;
+  left: 0;
+  font-size: 13px;
+}
+.compare-before li::before { content: '—'; color: var(--muted); }
+.compare-after li::before { content: '✓'; color: var(--green-dark); }
+
+/* === COLOR CARDS === */
+.color-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.color-card {
+  border-radius: 20px;
+  padding: 28px;
+  min-height: 180px;
+}
+.color-card h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+.color-card p {
+  font-size: 14px;
+  line-height: 1.55;
+  margin-bottom: 0;
+  max-width: none;
+}
+.color-card .card-tag {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+  opacity: 0.6;
+}
+.card-green { background: var(--green-bg); color: var(--green-muted); }
+.card-green h3 { color: var(--dark); }
+.card-purple { background: var(--purple-bg); color: #7b1fa2; }
+.card-purple h3 { color: var(--dark); }
+.card-blue { background: var(--blue-bg); color: #0277bd; }
+.card-blue h3 { color: var(--dark); }
+.card-orange { background: var(--orange-bg); color: var(--orange-muted); }
+.card-orange h3 { color: var(--dark); }
+.card-yellow { background: var(--yellow-bg); color: #827717; }
+.card-yellow h3 { color: var(--dark); }
+
+/* === RESULTS TABLE === */
+.table-wrap {
+  overflow-x: auto;
+  margin: 24px 0;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--white);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+thead { background: var(--light); }
+th {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--muted);
+  padding: 14px 16px;
+  text-align: left;
+  white-space: nowrap;
+}
+td {
+  padding: 14px 16px;
+  border-top: 1px solid var(--light);
+  white-space: nowrap;
+  color: var(--text);
+}
+td strong { color: var(--dark); font-weight: 500; }
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+.tag-scale { background: #e8f5e9; color: #2e7d32; }
+.tag-iterate { background: #fff8e1; color: #f57f17; }
+.tag-kill { background: #fce4ec; color: #c62828; }
+
+/* === KEY NUMBERS === */
+.key-numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.key-number {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+}
+.key-number .kn-value {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  letter-spacing: -1px;
+  color: var(--dark);
+  margin-bottom: 4px;
+}
+.key-number .kn-label {
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+
+/* === BATCH CARDS === */
+.batch-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.batch-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 28px;
+}
+.batch-card .batch-num {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--green-dark);
+  margin-bottom: 12px;
+}
+.batch-card h3 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  color: var(--dark);
+  margin-bottom: 10px;
+}
+.batch-card ul {
+  list-style: none;
+  padding: 0;
+}
+.batch-card li {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text);
+  padding: 3px 0;
+  padding-left: 18px;
+  position: relative;
+}
+.batch-card li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--green-dark);
+  font-size: 13px;
+}
+
+/* === TIMELINE === */
+.timeline { margin-top: 32px; }
+.tl-row {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 24px;
+  padding: 20px 0;
+  border-top: 1px solid var(--border);
+}
+.tl-row:last-child { border-bottom: 1px solid var(--border); }
+.tl-label {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--green-dark);
+}
+.tl-desc {
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text);
+}
+
+/* === PRICING === */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 32px;
+}
+.pricing-card {
+  border-radius: 20px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-card .plan-name {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+.pricing-card .plan-price {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  letter-spacing: -1px;
+  margin-bottom: 4px;
+}
+.pricing-card .plan-period {
+  font-size: 13px;
+  margin-bottom: 16px;
+  opacity: 0.6;
+}
+.pricing-card p {
+  font-size: 14px;
+  line-height: 1.55;
+  margin-bottom: 0;
+  max-width: none;
+}
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+.pricing-card li {
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 3px 0;
+  padding-left: 18px;
+  position: relative;
+}
+.pricing-card li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  font-size: 12px;
+}
+.price-green { background: var(--green-bg); color: var(--green-muted); }
+.price-green .plan-price { color: var(--dark); }
+.price-green li::before { color: var(--green-dark); }
+.price-purple { background: var(--purple-bg); color: #7b1fa2; }
+.price-purple .plan-price { color: var(--dark); }
+.price-purple li::before { color: var(--purple); }
+.price-dark { background: var(--dark); color: var(--muted); }
+.price-dark .plan-price { color: var(--white); }
+.price-dark .plan-name { color: var(--green); }
+.price-dark li::before { color: var(--green); }
+
+/* === MID-PAGE CTA === */
+.mid-cta {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 32px;
+  text-align: center;
+}
+.mid-cta p {
+  font-size: 16px;
+  color: var(--text-light);
+  margin: 0 auto 20px;
+  max-width: 480px;
+  line-height: 1.6;
+}
+.mid-cta .btn { margin: 0 6px; }
+
+/* === CTA BLOCK === */
+.cta-block {
+  background: var(--dark);
+  border-radius: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 72px 48px;
+  text-align: center;
+}
+.cta-block h2 {
+  font-family: 'Instrument Sans', sans-serif;
+  font-weight: 500;
+  font-size: clamp(28px, 3.5vw, 44px);
+  letter-spacing: -1.5px;
+  line-height: 1.15;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+.cta-block h2 em {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.cta-block p {
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 480px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+.cta-block .btn { margin: 0 6px; }
+.cta-steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.cta-step {
+  font-size: 13px;
+  color: var(--muted);
+}
+.cta-step strong {
+  color: var(--green);
+  font-weight: 500;
+}
+
+/* === FOOTER === */
+.footer {
+  background: var(--dark-bg);
+  padding: 40px 32px;
+  text-align: center;
+}
+.footer p {
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 0;
+  max-width: none;
+}
+.footer a { color: var(--muted); text-decoration: none; }
+.footer a:hover { color: var(--white); }
+
+/* === MOBILE CTA (sticky) === */
+.mobile-cta {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--white);
+  border-top: 1px solid var(--border);
+  padding: 12px 16px;
+  z-index: 100;
+  text-align: center;
+}
+.mobile-cta .btn { width: 100%; font-size: 14px; padding: 12px 24px; }
+
+/* === RESPONSIVE === */
+@media (max-width: 900px) {
+  .hero-inner { grid-template-columns: 1fr; text-align: center; }
+  .hero-tags { justify-content: center; }
+  .hero-subtitle { margin-left: auto; margin-right: auto; }
+  .hero-buttons { justify-content: center; }
+  .hero-media { max-width: 480px; margin: 0 auto; }
+  .hero-media .hero-gif-secondary { left: -16px; bottom: -16px; }
+  .color-cards, .steps, .compare-grid { grid-template-columns: 1fr; }
+  .batch-cards, .pricing-cards { grid-template-columns: 1fr; }
+  .key-numbers { grid-template-columns: repeat(3, 1fr); }
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+  .navbar-links { display: none; }
+  .showcase-grid { grid-template-columns: 1fr; }
+  .mobile-cta { display: block; }
+  body { padding-bottom: 60px; }
+}
+@media (max-width: 600px) {
+  .hero-inner { padding: 40px 0 48px; }
+  .section { padding: 48px 24px; }
+  .stats-row { padding: 36px 24px; }
+  .cta-block { margin: 0 16px; padding: 48px 24px; border-radius: 20px; }
+  .tl-row { grid-template-columns: 80px 1fr; gap: 16px; }
+  .table-wrap { margin: 24px -24px; border-radius: 0; border-left: 0; border-right: 0; }
+  .key-numbers { grid-template-columns: 1fr; }
+  .trust-logos { gap: 24px; }
+  .mid-cta { padding: 32px 24px; }
+  .section-nav-inner { padding: 0 16px; gap: 20px; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="/" class="navbar-logo">
+      <img src="https://framerusercontent.com/images/9rU7XfzW4mHPYwiTjfyQcoLY.png" alt="OKAD" />
+      <span>OKAD</span>
+    </a>
+    <div class="navbar-links">
+      <a href="/ugc-video">Content</a>
+      <a href="/design">Design</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/cases/high-roas-ugc-ads">Cases</a>
+      <a href="/creative-testing.html" class="active">Creative Testing</a>
+      <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="nav-cta">Write to us</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== SECTION NAV ===== -->
+<nav class="section-nav">
+  <div class="section-nav-inner">
+    <a href="#work">Work</a>
+    <a href="#how">How it works</a>
+    <a href="#batch">What's inside</a>
+    <a href="#results">Results</a>
+    <a href="#process">Process</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section class="hero-banner">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-tags">
+        <span class="hero-tag accent-green">#creative_testing</span>
+        <span class="hero-tag accent-purple">#ugc</span>
+        <span class="hero-tag">#paid_ads</span>
+        <span class="hero-tag accent-blue">#dtc</span>
+        <span class="hero-tag">#static &amp; video</span>
+      </div>
+      <h1>We make video ads<br>and find which ones<br><em>actually work</em></h1>
+      <p class="hero-subtitle">Creative testing agency for DTC and e-com brands. 40-70 creatives per batch, real UGC creators + AI. Your CPA goes down, your winning creatives multiply.</p>
+      <div class="hero-buttons">
+        <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="btn btn-green">Tell us about your product</a>
+        <a href="#how" class="btn btn-outline-dark">How it works &darr;</a>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img class="hero-gif" src="https://framerusercontent.com/images/BmUk0KMAPqqpLzpARwDdXhfg.gif" alt="UGC Ad Example">
+      <img class="hero-gif-secondary" src="https://framerusercontent.com/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif" alt="Creative Testing" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTENT ===== -->
+<div class="content-wrap">
+
+  <!-- TRUST STRIP -->
+  <div class="trust-strip">
+    <div class="trust-label">Trusted by</div>
+    <div class="trust-logos">
+      <span>VUE SWISS</span>
+      <span>Douxds</span>
+      <span>YPM Agency</span>
+      <span>Mushroom Genetics</span>
+      <span>InstaHeadshots</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-num">150+</div>
+      <div class="stat-desc">creatives tested<br>per client</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">32%</div>
+      <div class="stat-desc">winner<br>hit rate</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">$26</div>
+      <div class="stat-desc">best cost<br>per customer</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">600+</div>
+      <div class="stat-desc">creators<br>in our network</div>
+    </div>
+  </div>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- CASE SHOWCASE -->
+  <section class="section" id="work">
+    <h2>Our <em>work</em></h2>
+    <p>UGC ads, AI statics, creator content, video production &mdash; here's what we make for brands like yours.</p>
+    <div class="showcase-grid">
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/BmUk0KMAPqqpLzpARwDdXhfg.gif" alt="High ROAS UGC Ads" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#paid_ads</div>
+          <h3>High ROAS UGC Ads</h3>
+          <div class="showcase-desc">71 videos, 14 winners. Best CPA $26 against $70 target. Modular scripts with 3+ hooks per concept.</div>
+        </div>
+      </div>
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png" alt="AI Static Ads" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#paid_ads</div>
+          <h3>AI Static Ads &mdash; 3x CTR</h3>
+          <div class="showcase-desc">AI-generated statics brought customers at half the cost of traditional creatives.</div>
+        </div>
+      </div>
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/FXMkq1jH116yCF0nIQPl2N2vc.png" alt="UGC Ads by Creators 45+" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#silver_age</div>
+          <h3>UGC Ads by Creators 45+</h3>
+          <div class="showcase-desc">Underserved demographic, higher trust. Outperformed younger creators on health &amp; wellness products.</div>
+        </div>
+      </div>
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif" alt="1M Views Video Content" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#organic</div>
+          <h3>1M Views Video Content</h3>
+          <div class="showcase-desc">Organic content for digital brands. Same production pipeline, optimized for engagement instead of conversions.</div>
+        </div>
+      </div>
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png" alt="High CPA Ads for Digital" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#paid_ads</div>
+          <h3>High CPA Ads for Digital</h3>
+          <div class="showcase-desc">Voiceover + B-roll format brought 25% lower CPA than talking heads across all creatives.</div>
+        </div>
+      </div>
+      <div class="showcase-card">
+        <img src="https://framerusercontent.com/images/SBAkW2rwVUXKWpG9XA9enjK968.png" alt="UGC &amp; AI for Alco Brands" loading="lazy">
+        <div class="showcase-overlay">
+          <div class="showcase-tag">#alco</div>
+          <h3>UGC &amp; AI for Alco Brands</h3>
+          <div class="showcase-desc">Regulated category, restricted placements. AI statics + UGC with compliance-safe scripts.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- HOW IT WORKS -->
+  <section class="section" id="how">
+    <h2>How <em>it works</em></h2>
+    <p>Most teams test 5-10 video ads per month. That's not enough data to find patterns. Here's what we do differently.</p>
+
+    <!-- Comparison -->
+    <div class="compare-grid">
+      <div class="compare-card compare-before">
+        <div class="compare-label">How most brands do it</div>
+        <ul>
+          <li>Hire a videographer or agency for 5-10 videos</li>
+          <li>Pick the "best" creative based on gut feeling</li>
+          <li>Run it until it burns out</li>
+          <li>Start from scratch next month</li>
+          <li>No data on what actually worked or why</li>
+        </ul>
+      </div>
+      <div class="compare-card compare-after">
+        <div class="compare-label">Our approach</div>
+        <ul>
+          <li>40-70 videos per batch, each testing one idea</li>
+          <li>Modular scripts: 3 hooks &times; 2 creators &times; 2 formats = 12 videos from one concept</li>
+          <li>Real purchase data after 2-3 weeks</li>
+          <li>Scale winners, kill losers, iterate the middle</li>
+          <li>You know exactly what worked and why</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Steps -->
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 1</div>
+        <h3>Research &amp; hypotheses</h3>
+        <p>We analyze your competitors' ads, your existing data, customer reviews. We build 5-8 testing angles &mdash; real pain points your customers have.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 2</div>
+        <h3>Scripts &amp; creators</h3>
+        <p>Modular scripts: one proven body, multiple openings. We match 2-3 creators from our 600+ network to each concept based on product fit.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 3</div>
+        <h3>Production &amp; launch</h3>
+        <p>Creators shoot, we edit, first batch goes live as ads. 40-70 videos in 2 weeks. UGC, voiceover + B-roll, AI statics, product demos.</p>
+        <div class="step-highlight">40-70 videos in 2 weeks</div>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 4</div>
+        <h3>Data &amp; decisions</h3>
+        <p>After 2-3 weeks of ad data, we tag every creative: Scale, Iterate, or Kill. Not likes &mdash; actual purchases. Then we scale winners and test new ideas.</p>
+        <div class="step-highlight">Decisions from purchase data, not guesswork</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MID-PAGE CTA -->
+  <div class="mid-cta">
+    <p>Have a product and wondering what we'd test? Describe your situation &mdash; we'll think about it and suggest next steps.</p>
+    <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="btn btn-green">Write to us</a>
+  </div>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- WHAT'S INSIDE -->
+  <section class="section" id="batch">
+    <h2>What's inside <em>each batch</em></h2>
+    <p>Everything you need to go from zero to tested at scale.</p>
+    <div class="color-cards">
+      <div class="color-card card-green">
+        <div class="card-tag">Angles</div>
+        <h3>5-8 reasons people buy your product</h3>
+        <p>Real pain points, not marketing guesses. For supplements: bloating, fatigue, sleep. For AI products: speed, social proof, before/after. Each angle is a testing track.</p>
+      </div>
+      <div class="color-card card-purple">
+        <div class="card-tag">Scripts</div>
+        <h3>Modular: hook + body + CTA</h3>
+        <p>3+ openings per concept. Written from research &mdash; competitor ads, customer surveys, your ad data. Scripts are the core of what we deliver.</p>
+      </div>
+      <div class="color-card card-orange">
+        <div class="card-tag">Creators</div>
+        <h3>The person matters more than the script</h3>
+        <p>Same script can cost $32/customer with one creator and $92 with another. We test 2-3 creators per batch from our 600+ network to find the best fit.</p>
+      </div>
+      <div class="color-card card-blue">
+        <div class="card-tag">Formats</div>
+        <h3>6 formats, tested &mdash; not assumed</h3>
+        <p>UGC talking head, voiceover + B-roll, before/after, product demo, POV, AI statics. In our data, VO + B-roll costs 25% less per customer than talking heads.</p>
+      </div>
+      <div class="color-card card-yellow" style="grid-column: 1 / -1;">
+        <div class="card-tag">AI visuals</div>
+        <h3>AI-generated scenes and statics at half the cost</h3>
+        <p>AI statics brought customers at half the cost of traditional statics. Combined with UGC and scripts &mdash; AI handles visual variety while creators handle trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- RESULTS -->
+  <section class="section" id="results">
+    <h2>What a real <em>results table</em> looks like</h2>
+    <p>From an actual first batch for an AI product. Every creative is tagged with what it tested and what happened.</p>
+
+    <!-- Key numbers pulled out -->
+    <div class="key-numbers">
+      <div class="key-number">
+        <div class="kn-value">$26</div>
+        <div class="kn-label">best CPA<br>(target was $70)</div>
+      </div>
+      <div class="key-number">
+        <div class="kn-value">32%</div>
+        <div class="kn-label">winner hit rate<br>(14 out of 44)</div>
+      </div>
+      <div class="key-number">
+        <div class="kn-value">3x</div>
+        <div class="kn-label">cost difference<br>same script, different creator</div>
+      </div>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Creative</th>
+            <th>Angle</th>
+            <th>Format</th>
+            <th>Cost / customer</th>
+            <th>Customers</th>
+            <th>Ad spend</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>15MinStart</strong></td>
+            <td>Speed</td>
+            <td>UGC</td>
+            <td>$26</td>
+            <td>4</td>
+            <td>$106</td>
+            <td><span class="tag tag-scale">Scale</span></td>
+          </tr>
+          <tr>
+            <td><strong>RecruitersNotice</strong></td>
+            <td>Pain</td>
+            <td>VO + B-roll</td>
+            <td>$32</td>
+            <td>16</td>
+            <td>$506</td>
+            <td><span class="tag tag-scale">Scale</span></td>
+          </tr>
+          <tr>
+            <td><strong>WorstToBest</strong></td>
+            <td>Before/After</td>
+            <td>UGC</td>
+            <td>$40</td>
+            <td>93</td>
+            <td>$3,684</td>
+            <td><span class="tag tag-scale">Scale</span></td>
+          </tr>
+          <tr>
+            <td><strong>ViewsTripled</strong></td>
+            <td>Social Proof</td>
+            <td>UGC</td>
+            <td>$47</td>
+            <td>23</td>
+            <td>$1,082</td>
+            <td><span class="tag tag-scale">Scale</span></td>
+          </tr>
+          <tr>
+            <td><strong>LinkedInMakeover</strong></td>
+            <td>Aspiration</td>
+            <td>VO + B-roll</td>
+            <td>$73</td>
+            <td>8</td>
+            <td>$584</td>
+            <td><span class="tag tag-iterate">Iterate</span></td>
+          </tr>
+          <tr>
+            <td><strong>NoMoreAwkward</strong></td>
+            <td>Pain</td>
+            <td>UGC</td>
+            <td>$82</td>
+            <td>5</td>
+            <td>$410</td>
+            <td><span class="tag tag-iterate">Iterate</span></td>
+          </tr>
+          <tr>
+            <td><strong>CareerCredibility</strong></td>
+            <td>Career</td>
+            <td>UGC</td>
+            <td>$116</td>
+            <td>3</td>
+            <td>$348</td>
+            <td><span class="tag tag-kill">Kill</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="color:var(--muted);font-size:14px;">71 videos produced. 44 launched. 14 winners. The $30 median CPM was stable across all creatives &mdash; every cost difference came from the creative itself.</p>
+  </section>
+
+  <!-- MID-PAGE CTA -->
+  <div class="mid-cta">
+    <p>Want to see what a batch would look like for your product?</p>
+    <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="btn btn-green">Tell us about your product</a>
+    <a href="https://calendly.com/okad-agency/30min" class="btn btn-outline-dark" target="_blank">Or book a call</a>
+  </div>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- BATCHES -->
+  <section class="section" id="process">
+    <h2>Three batches, <em>two months</em></h2>
+    <p>By the end of month 2: 100-150 tested creatives, a clear picture of what works, and a system to keep finding winners.</p>
+    <div class="batch-cards">
+      <div class="batch-card">
+        <div class="batch-num">Batch 1</div>
+        <h3>Find what works</h3>
+        <ul>
+          <li>40-70 original videos</li>
+          <li>Multiple angles, creators, formats</li>
+          <li>Every video = a hypothesis</li>
+          <li>Clear pass/fail after 2-3 weeks of ad data</li>
+        </ul>
+      </div>
+      <div class="batch-card">
+        <div class="batch-num">Batch 2</div>
+        <h3>Scale the winners</h3>
+        <ul>
+          <li>10+ variations of every Batch 1 winner</li>
+          <li>New hooks, re-edited middles, different CTAs</li>
+          <li>Budget follows performance, not volume</li>
+        </ul>
+      </div>
+      <div class="batch-card">
+        <div class="batch-num">Batch 3</div>
+        <h3>Find more</h3>
+        <ul>
+          <li>50 new concepts, untested ideas</li>
+          <li>New pain points, audiences, formats</li>
+          <li>Runs in parallel with Batch 2</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- TIMELINE -->
+  <section class="section">
+    <h2>Timeline</h2>
+    <div class="timeline">
+      <div class="tl-row">
+        <div class="tl-label">Week 1-2</div>
+        <div class="tl-desc">Research competitors' ads, analyze your data, build testing hypotheses, write all scripts.</div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-label">Week 3-4</div>
+        <div class="tl-desc">Creators shoot. We edit. First batch goes live as ads.</div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-label">Week 5-6</div>
+        <div class="tl-desc">Purchase data comes in. Tag every creative: Scale, Iterate, Kill. Start producing variations of winners.</div>
+      </div>
+      <div class="tl-row">
+        <div class="tl-label">Month 2</div>
+        <div class="tl-desc">Batch 2 scales winners. Batch 3 tests new ideas. You have 100-150 tested creatives and a scaling playbook.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- PRICING -->
+  <section class="section" id="pricing">
+    <h2>Pricing</h2>
+    <p>A full-time videographer costs $4-5K/month and produces 10-15 videos. We deliver 40-70 with strategy, scripts, creators, editing, and a results dashboard.</p>
+    <div class="pricing-cards">
+      <div class="pricing-card price-green">
+        <div>
+          <div class="plan-name">Launch</div>
+          <div class="plan-price">$2,650</div>
+          <div class="plan-period">per month</div>
+          <p>Test the approach before committing to scale.</p>
+          <ul>
+            <li>15 videos</li>
+            <li>1 creator</li>
+            <li>3-4 angles</li>
+            <li>Modular scripts</li>
+            <li>Results dashboard</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pricing-card price-purple">
+        <div>
+          <div class="plan-name">Growth</div>
+          <div class="plan-price">$3,450</div>
+          <div class="plan-period">per month</div>
+          <p>Full creative testing with creator-fit analysis.</p>
+          <ul>
+            <li>20 videos</li>
+            <li>2 creators</li>
+            <li>5-6 angles</li>
+            <li>Modular scripts</li>
+            <li>Creator-angle fit analysis</li>
+            <li>AI statics included</li>
+          </ul>
+        </div>
+      </div>
+      <div class="pricing-card price-dark">
+        <div>
+          <div class="plan-name">Scale</div>
+          <div class="plan-price">$5,050</div>
+          <div class="plan-period">per month</div>
+          <p>For teams spending $100K+/month on ads.</p>
+          <ul>
+            <li>30+ videos</li>
+            <li>2-3 creators</li>
+            <li>6-8 angles</li>
+            <li>Modular scripts</li>
+            <li>Full format testing</li>
+            <li>AI statics + video</li>
+            <li>Weekly reporting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:14px;margin-top:24px;">Already have creators or scripts? We can work with what you have. Write to us and we'll figure out the right setup.</p>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="section" id="contact" style="padding-bottom:80px;">
+    <div class="cta-block">
+      <h2>Want to see if this works<br><em>for your product?</em></h2>
+      <p>Write to us about your product and current situation. We'll review it, think about what we'd test, and suggest next steps. No commitment needed.</p>
+      <div>
+        <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="btn btn-green">Tell us about your product</a>
+        <a href="https://calendly.com/okad-agency/30min" class="btn btn-outline" target="_blank">Or book a call</a>
+      </div>
+      <div class="cta-steps">
+        <div class="cta-step"><strong>1.</strong> You write about your product</div>
+        <div class="cta-step"><strong>2.</strong> We think about what to test</div>
+        <div class="cta-step"><strong>3.</strong> 30-min call to discuss</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+</footer>
+
+<!-- ===== MOBILE STICKY CTA ===== -->
+<div class="mobile-cta">
+  <a href="mailto:olga@okad.agency?subject=Creative%20testing%20—%20tell%20us%20about%20your%20product" class="btn btn-green">Tell us about your product</a>
+</div>
+
+</body>
+</html>
