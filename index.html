@@ -683,9 +683,6 @@ fbq('track', 'PageView');
 <!-- SnippetEnd: legacy-headEnd -->
 
     <!-- End of headEnd -->
-<style>
-[data-framer-name="chips"]{display:none!important}
-</style>
 </head>
 <body>
 	<script async src="https://events.framer.com/script?v=2" data-fid="a6f470dac2eaec6a206f0198e6f5f361f0240fc93bbc7df1e96d25ca82aeda2e" data-no-nt></script>
@@ -730,28 +727,5 @@ fbq('track', 'PageView');
 	<!-- Start of bodyEnd -->
     
     <!-- End of bodyEnd -->
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-  document.querySelectorAll('[data-framer-name="chips"]').forEach(function(el){
-    var texts=[],seen={};
-    el.querySelectorAll('.framer-text').forEach(function(t){
-      var v=t.textContent.trim(),k=v.toUpperCase();
-      if(v&&!seen[k]){seen[k]=true;texts.push(k)}
-    });
-    if(!texts.length)return;
-    var suffix=texts.map(function(x){return'  #'+x}).join('');
-    var prev=el.previousElementSibling;
-    while(prev){
-      var tags=prev.querySelectorAll('.framer-text');
-      if(tags.length>0){
-        tags.forEach(function(t){t.textContent=t.textContent+suffix});
-        break;
-      }
-      prev=prev.previousElementSibling;
-    }
-    el.style.display='none';
-  });
-});
-</script>
 </body>
 </html>
