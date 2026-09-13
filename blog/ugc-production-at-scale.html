@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Scale UGC Production Without Losing Quality — OKAD Agency</title>
+<meta name="description" content="A practical framework for scaling UGC video production from 10 to 100+ videos per month while maintaining creative quality, creator relationships, and performance.">
+<link rel="icon" href="../assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+  --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+  --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+  --purple: #932efa; --purple-bg: #f3e5f5;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+/* NAVBAR */
+.navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+.navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+.navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+.navbar-links { display: flex; align-items: center; gap: 32px; }
+.navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+.navbar-links a:hover { color: var(--white); }
+.nav-cta { font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; transition: background 0.2s; }
+.nav-cta:hover { background: var(--green-dark); }
+
+/* ARTICLE */
+.article-header { max-width: 800px; margin: 0 auto; padding: 64px 32px 0; }
+.article-header .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+.article-header .breadcrumb a { color: var(--muted); text-decoration: none; }
+.article-header .breadcrumb a:hover { color: var(--dark); }
+.article-header h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(32px, 4.5vw, 44px); line-height: 1.15; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 16px; }
+.article-header .subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); margin-bottom: 24px; max-width: 640px; }
+.article-meta { font-size: 13px; color: var(--muted); display: flex; gap: 20px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+
+.article-body { max-width: 800px; margin: 0 auto; padding: 48px 32px; }
+.article-body h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 28px; letter-spacing: -1px; color: var(--dark); margin: 48px 0 16px; line-height: 1.2; }
+.article-body h2:first-child { margin-top: 0; }
+.article-body h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 20px; letter-spacing: -0.5px; color: var(--dark); margin: 32px 0 12px; line-height: 1.3; }
+.article-body p { font-size: 16px; line-height: 1.7; margin-bottom: 16px; color: var(--text); }
+.article-body ul, .article-body ol { margin: 16px 0; padding-left: 24px; }
+.article-body li { font-size: 16px; line-height: 1.7; margin-bottom: 8px; color: var(--text); }
+.article-body strong { font-weight: 500; color: var(--dark); }
+.article-body a { color: var(--purple); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.article-body a:hover { border-bottom-color: var(--purple); }
+
+/* TOC */
+.toc { background: var(--light); border-radius: 16px; padding: 28px 32px; margin-bottom: 48px; }
+.toc-title { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 16px; }
+.toc ol { padding-left: 20px; margin: 0; }
+.toc li { font-size: 15px; line-height: 1.6; margin-bottom: 6px; color: var(--text-light); }
+.toc a { color: var(--text); text-decoration: none; }
+.toc a:hover { color: var(--purple); }
+
+/* CALLOUT */
+.callout { border-radius: 16px; padding: 24px 28px; margin: 24px 0; }
+.callout-green { background: var(--green-bg); }
+.callout-purple { background: var(--purple-bg); }
+.callout p { margin-bottom: 0; }
+.callout p + p { margin-top: 12px; }
+.callout strong { color: var(--dark); }
+
+/* FAQ */
+.faq { margin-top: 48px; }
+.faq h2 { margin-bottom: 24px; }
+details { border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; background: var(--white); }
+details + details { margin-top: 0; }
+summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 24px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: '+'; font-size: 20px; color: var(--muted); transition: transform 0.2s; }
+details[open] summary::after { content: '-'; }
+details[open] summary { border-bottom: 1px solid var(--border); }
+.faq-answer { padding: 20px 24px; font-size: 15px; line-height: 1.7; color: var(--text); }
+
+/* CTA BLOCK */
+.cta-section { max-width: 800px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-block { background: var(--dark); border-radius: 24px; padding: 64px 48px; text-align: center; }
+.cta-block h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3.5vw, 36px); letter-spacing: -1.5px; line-height: 1.15; color: var(--white); margin-bottom: 16px; }
+.cta-block h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+.cta-block p { color: var(--muted); font-size: 16px; max-width: 480px; margin: 0 auto 32px; line-height: 1.6; }
+.btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; }
+.btn-green { background: var(--green); color: var(--dark); }
+.btn-green:hover { background: var(--green-dark); }
+.btn-outline { background: transparent; color: var(--muted); border: 1px solid rgba(255,255,255,0.15); }
+.btn-outline:hover { color: var(--white); border-color: rgba(255,255,255,0.3); }
+.cta-block .btn { margin: 0 6px; }
+
+/* FOOTER */
+.footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+.footer p { font-size: 13px; color: var(--muted); margin: 0; }
+.footer a { color: var(--muted); text-decoration: none; }
+.footer a:hover { color: var(--white); }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .navbar-links { display: none; }
+}
+@media (max-width: 600px) {
+  .article-header { padding: 40px 20px 0; }
+  .article-body { padding: 32px 20px; }
+  .cta-section { padding: 0 20px 60px; }
+  .cta-block { padding: 48px 24px; border-radius: 20px; }
+  .article-meta { flex-wrap: wrap; gap: 12px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="/" class="navbar-logo"><span>OKAD</span></a>
+    <div class="navbar-links">
+      <a href="/">Home</a>
+      <a href="/creative-testing.html">Creative Testing</a>
+      <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header">
+  <div class="breadcrumb"><a href="/">OKAD</a> / <a href="/blog/ugc-production-at-scale.html">Blog</a></div>
+  <h1>How to Scale UGC Production Without Losing Quality</h1>
+  <p class="subtitle">A practical framework for going from 10 videos a month to 100+ while keeping creative quality high, creators happy, and performance on track.</p>
+  <div class="article-meta">
+    <span>September 2026</span>
+    <span>12 min read</span>
+    <span>UGC Production</span>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#why-hard">Why Scaling UGC Is Hard</a></li>
+      <li><a href="#framework">The Scaling Framework</a></li>
+      <li><a href="#creators">Creator Sourcing and Management</a></li>
+      <li><a href="#qc">Quality Control Processes</a></li>
+      <li><a href="#tools">Tools and Technology</a></li>
+      <li><a href="#modular">The Modular Content Approach</a></li>
+      <li><a href="#agency-vs-inhouse">Agency vs In-House</a></li>
+      <li><a href="#measuring">Measuring Production Efficiency</a></li>
+      <li><a href="#mistakes">Common Mistakes</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="why-hard">Why Scaling UGC Is Hard</h2>
+
+  <p>Most brands start UGC the same way: they find a few creators, send them products, and hope for the best. It works at low volumes. You can personally review every video, give detailed feedback, and maintain a consistent level of quality across five or ten pieces of content per month.</p>
+
+  <p>The problem starts when you need more. Performance advertising demands volume. Creative fatigue sets in faster than most marketers expect. Meta and TikTok algorithms reward fresh creative, and the only way to find winners is to test at scale. Suddenly, you need 40, 60, or 100 videos per month, and the system that worked for 10 breaks completely.</p>
+
+  <p>The core tension is this: <strong>quality requires attention, but scale requires systems</strong>. Every creator interaction, every review cycle, every revision request takes time. Multiply that by 50 creators and you have a full-time job just managing the pipeline, with no time left for strategy or analysis.</p>
+
+  <p>We have produced over 3,000 UGC videos across dozens of brands. The path from "a few videos" to "consistent production at scale" is predictable, and so are the failure points. This guide covers what actually works.</p>
+
+  <h2 id="framework">The Scaling Framework: Building a Production System</h2>
+
+  <p>Scaling UGC is not about hiring more people or finding more creators. It is about building a production system with repeatable processes, clear standards, and feedback loops that improve output over time.</p>
+
+  <h3>The four pillars of scalable UGC production</h3>
+
+  <ol>
+    <li><strong>Standardized briefing.</strong> Every creator receives the same brief format. The brief is specific enough to produce on-brand content, but flexible enough to preserve authenticity. A good brief takes 30 minutes to write and saves 3 hours of revision.</li>
+    <li><strong>Modular scripts.</strong> Instead of writing a unique script for every video, build scripts from interchangeable components: hooks, bodies, and CTAs. One concept can generate 12 or more unique videos through recombination.</li>
+    <li><strong>Tiered review process.</strong> Not every video needs the same level of scrutiny. First-time creators get detailed review. Proven creators get a faster approval path. This alone can cut review time by 40%.</li>
+    <li><strong>Data-driven iteration.</strong> Every video that runs as an ad generates performance data. That data feeds back into the briefing process, informing which angles, formats, and creators to prioritize in the next batch.</li>
+  </ol>
+
+  <div class="callout callout-green">
+    <p><strong>The 10x principle.</strong> If your production process cannot handle 10 times your current volume without hiring 10 times the people, it is not a system. It is a collection of manual tasks. Build the system before you scale.</p>
+  </div>
+
+  <h3>Batch production vs continuous flow</h3>
+
+  <p>There are two models for organizing UGC production at scale. Batch production groups videos into defined batches (typically 40-70 videos) produced over a 2-3 week cycle. Continuous flow maintains a steady stream of smaller deliveries on a weekly basis.</p>
+
+  <p>For most brands spending under $200K per month on ads, batch production is more efficient. It allows concentrated research and strategy at the start of each cycle, followed by focused production. The data from each batch directly informs the next, creating a tight feedback loop.</p>
+
+  <p>Continuous flow makes sense for brands with very high creative consumption rates, multiple product lines, or seasonal demands that require constant fresh content. The tradeoff is that strategy and analysis get diluted across the continuous stream.</p>
+
+  <h2 id="creators">Creator Sourcing and Management at Scale</h2>
+
+  <p>Your creator network is the engine of your UGC operation. Building it takes time, but maintaining it is what separates consistent production from chaotic scrambles.</p>
+
+  <h3>Vetting creators: what to look for</h3>
+
+  <p>Most brands over-index on follower count and under-index on production quality. For UGC ads, you need creators who can deliver clean footage, follow a brief, and hit deadlines. Their personal audience size is irrelevant.</p>
+
+  <p>Our vetting process evaluates five criteria:</p>
+
+  <ul>
+    <li><strong>Technical quality.</strong> Lighting, audio, framing. A creator who shoots in natural light with a clean background will outperform one with a ring light and a messy room every time.</li>
+    <li><strong>Delivery ability.</strong> Can they read a script naturally? Do they sound conversational or scripted? This is the hardest skill to assess from a portfolio and the most important for ad performance.</li>
+    <li><strong>Reliability.</strong> Do they respond within 24 hours? Do they deliver on time? Do they follow brief instructions? One unreliable creator in a batch of 20 can delay the entire production cycle.</li>
+    <li><strong>Versatility.</strong> Can they adapt to different tones, products, and formats? Versatile creators earn more work and reduce the number of creators you need to manage.</li>
+    <li><strong>Product fit.</strong> Demographics, energy, and style should match your target customer. The same script performed by different creators can produce cost-per-acquisition differences of 3x or more.</li>
+  </ul>
+
+  <h3>Onboarding new creators</h3>
+
+  <p>A structured onboarding process pays for itself immediately. We send every new creator a welcome kit that includes brand guidelines, example videos (both good and bad, with annotations), technical requirements, and a test brief.</p>
+
+  <p>The test brief is non-negotiable. Before a creator enters production, they complete one paid test video. This filters out about 30% of creators who look good on paper but cannot deliver to standard. The cost of a test video is negligible compared to the cost of a failed production batch.</p>
+
+  <h3>Managing relationships at scale</h3>
+
+  <p>At 10 creators, you can manage relationships over DMs. At 50, you need a system. We track every creator in a centralized database with performance history, availability, rates, specialties, and reliability scores. When a new brief comes in, we can immediately identify the three best creators for that concept.</p>
+
+  <p>Two principles keep creator relationships healthy at scale:</p>
+
+  <ol>
+    <li><strong>Pay fairly and promptly.</strong> Creators talk to each other. If you are slow to pay or constantly negotiating rates down, your best creators will leave. Set clear rates, pay within 7 days of delivery, and increase rates for consistently high performers.</li>
+    <li><strong>Give specific feedback.</strong> "This is not what we wanted" is useless. "The lighting is too dark in the first 3 seconds, and the CTA needs to mention the discount code" is actionable. Specific feedback reduces revision cycles and builds creator skill over time.</li>
+  </ol>
+
+  <h2 id="qc">Quality Control Processes</h2>
+
+  <p>Quality control is where most scaling efforts fail. The natural instinct is to review everything yourself, which creates a bottleneck. The alternative, skipping review entirely, results in off-brand content reaching your audience.</p>
+
+  <h3>The three-tier review system</h3>
+
+  <p>We use a tiered approach that matches review intensity to risk level:</p>
+
+  <ul>
+    <li><strong>Tier 1: Full review.</strong> Applied to first-time creators, new product launches, or sensitive topics. Every aspect of the video is reviewed: script adherence, visual quality, audio, brand compliance, and performance potential. Turnaround: 24-48 hours.</li>
+    <li><strong>Tier 2: Spot check.</strong> Applied to established creators working on familiar products. Review focuses on technical quality and script accuracy. Creative interpretation is trusted. Turnaround: same day.</li>
+    <li><strong>Tier 3: Auto-approve.</strong> Applied to top-tier creators with a proven track record. Videos are checked against a technical checklist (resolution, audio levels, length) and approved automatically. Turnaround: immediate.</li>
+  </ul>
+
+  <p>About 20% of our creator base operates at Tier 3, handling roughly 40% of total volume. This is the leverage that makes scale possible without proportionally scaling the review team.</p>
+
+  <h3>Style guides that actually work</h3>
+
+  <p>A 40-page brand guidelines document is not a style guide. Creators will not read it. An effective UGC style guide is a one-page document with visual examples covering: lighting standards (with photo examples), audio requirements, framing guidelines, wardrobe dos and don'ts, and background requirements.</p>
+
+  <p>We pair the one-page guide with a "best of" reel showing 3-5 example videos that represent the quality standard. Creators learn more from watching examples than reading instructions.</p>
+
+  <h3>Feedback loops that improve quality over time</h3>
+
+  <p>The most powerful quality mechanism is not the review itself, but the feedback loop between ad performance and production. When a video performs well, we analyze why: was it the hook, the creator's delivery, the setting, the script angle? That insight feeds directly into the next batch of briefs.</p>
+
+  <p>Over three to four production cycles, this feedback loop produces measurable improvement. First-batch hit rates typically run 20-25%. By the fourth batch, hit rates climb to 35-40% as the system learns what works for each specific product and audience.</p>
+
+  <h2 id="tools">Tools and Technology for Scaling</h2>
+
+  <p>Technology should eliminate manual work, not add complexity. We see brands adopt elaborate tech stacks that require more maintenance than the problems they solve. The right approach is choosing a few tools that handle the highest-friction parts of your workflow.</p>
+
+  <h3>Essential tools</h3>
+
+  <ul>
+    <li><strong>Project management.</strong> Notion, Asana, or Monday.com for tracking briefs, assignments, deadlines, and deliveries. The specific tool matters less than having a single source of truth.</li>
+    <li><strong>Asset management.</strong> Frame.io or a shared Google Drive structure for receiving, reviewing, and organizing raw footage and final videos. Centralized storage prevents the "which version is final?" problem.</li>
+    <li><strong>Communication.</strong> Slack or a dedicated messaging platform for creator communication. Email is too slow for production coordination. Group channels by batch or project.</li>
+    <li><strong>Performance tracking.</strong> A spreadsheet or dashboard that connects ad performance data to specific videos, creators, scripts, and angles. This is the core of the feedback loop.</li>
+  </ul>
+
+  <h3>What to automate</h3>
+
+  <p>Automate the repetitive, low-judgment tasks: sending brief templates, collecting deliverables, tracking deadlines, generating performance reports. Do not automate creative decisions, feedback, or creator selection. These require human judgment and directly affect output quality.</p>
+
+  <h2 id="modular">The Modular Content Approach</h2>
+
+  <p>The single most impactful technique for scaling UGC production is modular scripting. Instead of writing each video as a standalone piece, you decompose content into interchangeable components.</p>
+
+  <h3>How modular scripts work</h3>
+
+  <p>Every ad video has three structural elements: a hook (the first 2-3 seconds that stop the scroll), a body (the persuasive middle section), and a CTA (the closing action prompt). In a modular system, each element is written independently and can be combined with any other.</p>
+
+  <p>A single concept with 3 hooks, 2 body variations, and 2 CTAs produces 12 unique videos. Add 2 different creators and you have 24 videos from one core idea. The math is powerful: <strong>5 concepts with modular scripts can produce 60-120 unique videos</strong>, each testing a specific combination of variables.</p>
+
+  <div class="callout callout-purple">
+    <p><strong>Why modularity matters for testing.</strong> When you test modular videos, you can isolate which variable drives performance. If Hook A outperforms Hook B across all body variations and creators, you know the hook is the variable that matters. This precision is impossible with monolithic scripts.</p>
+  </div>
+
+  <h3>Writing hooks that test cleanly</h3>
+
+  <p>Each hook should test a single hypothesis about what captures attention. Effective hook categories include: pain point (addressing a specific frustration), social proof (citing a result or testimonial), curiosity gap (posing a question or incomplete statement), and pattern interrupt (unexpected visual or statement).</p>
+
+  <p>Write hooks so they are genuinely interchangeable with the body. If a hook only makes sense with a specific body, the modularity breaks down. The best hooks establish emotional context without being dependent on specific content that follows.</p>
+
+  <h3>Scaling through recombination</h3>
+
+  <p>As your library of tested modules grows, recombination becomes increasingly powerful. A winning hook from one campaign can be paired with a new body for a different product line. A high-performing CTA can be reused across dozens of videos. Over time, you build a library of proven components that de-risk new content production.</p>
+
+  <p>This approach is central to how we run <a href="/creative-testing.html">creative testing at scale</a>. Each batch tests specific variables systematically, building a knowledge base of what works.</p>
+
+  <h2 id="agency-vs-inhouse">Agency vs In-House: When to Outsource</h2>
+
+  <p>The decision between building an in-house UGC team and working with an agency depends on volume, expertise, and where you are in the learning curve.</p>
+
+  <h3>When in-house makes sense</h3>
+
+  <ul>
+    <li>You have a dedicated content team with production experience</li>
+    <li>Your brand voice is highly specific and difficult to communicate externally</li>
+    <li>You need real-time content (events, product launches, trending topics)</li>
+    <li>Your monthly volume is under 15 videos and a single producer can handle it</li>
+  </ul>
+
+  <h3>When an agency makes sense</h3>
+
+  <ul>
+    <li>You need 30+ videos per month and do not have the team to produce them</li>
+    <li>You want access to a large, vetted creator network without building one from scratch</li>
+    <li>You need strategic direction on what to test, not just production execution</li>
+    <li>Your current approach is not producing enough winners to sustain ad spend</li>
+    <li>You are spending $50K+ per month on ads and creative is the bottleneck</li>
+  </ul>
+
+  <div class="callout callout-green">
+    <p><strong>Cost comparison.</strong> A full-time in-house UGC producer costs $4,000-6,000 per month in salary alone, plus tools, creator payments, and management overhead. A typical output is 10-15 videos per month. An agency producing 40-70 videos per batch, with strategy, scripts, creator management, and editing included, often costs less per video while delivering higher volume and strategic depth.</p>
+  </div>
+
+  <h3>The hybrid model</h3>
+
+  <p>Many brands at scale use a hybrid model: an internal team handles brand-critical content and rapid-response needs, while an agency handles high-volume testing batches. This gives you the control of in-house with the scale of an agency. The key to making it work is clear ownership: define which content streams are internal and which are external, and maintain a shared performance dashboard.</p>
+
+  <h2 id="measuring">Measuring Production Efficiency</h2>
+
+  <p>You cannot improve what you do not measure. These are the metrics that matter for UGC production at scale:</p>
+
+  <h3>Production metrics</h3>
+
+  <ul>
+    <li><strong>Cost per video.</strong> Total production cost (creator fees + editing + management time) divided by number of delivered videos. Industry range: $150-500 per video. Below $200 is efficient at scale.</li>
+    <li><strong>Turnaround time.</strong> Days from brief to final delivered video. Target: 7-10 days for a standard batch. Under 5 days for rush orders.</li>
+    <li><strong>Revision rate.</strong> Percentage of videos requiring revisions. Above 30% indicates briefing problems. Below 15% is excellent.</li>
+    <li><strong>Creator utilization.</strong> Percentage of your active creator network that produced content in the last 30 days. Low utilization means you are over-recruiting or under-briefing.</li>
+  </ul>
+
+  <h3>Performance metrics</h3>
+
+  <ul>
+    <li><strong>Winner hit rate.</strong> Percentage of videos that meet or exceed your CPA target when run as ads. Industry average: 15-20%. Our target: 30%+.</li>
+    <li><strong>Cost per winner.</strong> Total production investment divided by number of winning videos. This is the true efficiency metric. A $500 video that becomes a winner is infinitely more valuable than a $100 video that never performs.</li>
+    <li><strong>Creative lifespan.</strong> How many days a winning creative runs before performance degrades. Longer lifespan means fewer new videos needed to sustain performance.</li>
+  </ul>
+
+  <h2 id="mistakes">Common Mistakes When Scaling UGC Production</h2>
+
+  <p>After working with dozens of brands at different stages of UGC maturity, these are the mistakes we see most often:</p>
+
+  <ol>
+    <li><strong>Scaling volume without scaling strategy.</strong> Producing 100 videos is pointless if they all test the same angle. Volume without strategic variation is just expensive noise.</li>
+    <li><strong>Treating all creators the same.</strong> Your top 20% of creators produce 80% of your winners. Identify them early, pay them well, and give them priority on high-value briefs.</li>
+    <li><strong>Skipping the test batch.</strong> Every new creator should complete a paid test before entering full production. The cost of one test video is trivial compared to the cost of unusable footage from an untested creator.</li>
+    <li><strong>Over-scripting.</strong> UGC works because it feels authentic. If your scripts read like teleprompter copy, the content will feel like what it is: a script. Give creators talking points and key messages, not word-for-word scripts.</li>
+    <li><strong>Ignoring the data.</strong> If your Hook A consistently outperforms Hook B but you keep writing Hook B variants, you are wasting production capacity. Let performance data drive creative decisions.</li>
+    <li><strong>No feedback to creators.</strong> Creators improve when they understand what works. Share performance data (at least directionally) so they can calibrate their delivery. "Your last three videos outperformed the batch average" is motivating and informative.</li>
+    <li><strong>Optimizing for cost instead of value.</strong> The cheapest video is not the best investment. Optimize for cost per winning video, not cost per video produced.</li>
+  </ol>
+
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>How many UGC videos do I need per month to run effective ad tests?</summary>
+      <div class="faq-answer">For meaningful creative testing, you need a minimum of 20-30 new videos per month. This gives you enough variation to test different hooks, angles, creators, and formats while generating statistically meaningful performance data. Brands spending over $100K per month on ads typically need 50-100 new videos monthly to maintain creative freshness and sustain testing velocity.</div>
+    </details>
+
+    <details>
+      <summary>How do I find reliable UGC creators at scale?</summary>
+      <div class="faq-answer">Start with creator platforms like Billo, Insense, or JoinBrands for initial sourcing. Then build your own vetted network over time. The key is a structured vetting process: portfolio review, test brief, communication responsiveness check, and technical quality assessment. Expect about 30% of applicants to pass vetting. Retain the best performers with fair rates and consistent work.</div>
+    </details>
+
+    <details>
+      <summary>What is a good hit rate for UGC ad creatives?</summary>
+      <div class="faq-answer">Industry average for UGC ad winner hit rates is 15-20%, meaning 15-20% of produced videos meet or beat the target CPA when run as ads. With a systematic testing approach and data-driven iteration, we consistently achieve 30-35% hit rates by the third or fourth production batch. The improvement comes from learning which angles, creators, and formats work for each specific product.</div>
+    </details>
+
+    <details>
+      <summary>How much should I budget for UGC production per video?</summary>
+      <div class="faq-answer">At scale (30+ videos per month), expect to spend $150-350 per finished video, including creator fees, editing, and project management. This varies by complexity: a simple talking-head UGC video costs less than a multi-scene product demo. More important than cost per video is cost per winning video. A $300 video that generates $50K in revenue at target CPA is a far better investment than a $100 video that never performs.</div>
+    </details>
+
+    <details>
+      <summary>How long does it take to build a scalable UGC production system?</summary>
+      <div class="faq-answer">Expect 2-3 months to build the core infrastructure: creator network, briefing templates, review processes, and performance tracking. The first production batch is the slowest as you calibrate quality standards and creator relationships. By the third batch, most processes are running smoothly and you can focus on strategy and optimization rather than production management.</div>
+    </details>
+
+    <details>
+      <summary>Should I use AI tools for UGC production?</summary>
+      <div class="faq-answer">AI tools are effective for specific parts of the UGC workflow: script generation (as a starting point, not final copy), performance analysis, trend identification, and static ad creation. They are not yet a replacement for human creators on camera. The highest-performing approach combines AI for research, scripting assistance, and visual content with real creators for on-camera delivery and authentic storytelling.</div>
+    </details>
+
+    <details>
+      <summary>What is the difference between UGC for organic and UGC for paid ads?</summary>
+      <div class="faq-answer">UGC for organic social optimizes for engagement: shares, saves, comments. It tends to be more editorial, trend-driven, and platform-native. UGC for paid ads optimizes for conversion: clicks, sign-ups, purchases. It needs a clear CTA, a persuasive structure (hook, body, CTA), and testing variables that isolate what drives action. Production quality standards are similar, but the creative strategy and success metrics are fundamentally different.</div>
+    </details>
+  </div>
+
+</article>
+
+<section class="cta-section">
+  <div class="cta-block">
+    <h2>Ready to scale your<br><em>UGC production?</em></h2>
+    <p>We produce 40-70 tested UGC videos per batch with a vetted creator network of 600+. Tell us about your product and current creative needs.</p>
+    <div>
+      <a href="mailto:olga@okad.agency?subject=UGC%20production%20at%20scale" class="btn btn-green">Get in touch</a>
+      <a href="https://calendly.com/okad_calls/first" class="btn btn-outline" target="_blank">Book a call</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+</footer>
+
+</body>
+</html>

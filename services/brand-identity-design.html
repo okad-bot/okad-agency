@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand Identity Design — OKAD Agency</title>
+  <meta name="description" content="Professional brand identity design services. Logo, color system, typography, brand guidelines, and visual assets. 3-4 week delivery. From $4,500.">
+  <link rel="icon" href="assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+      --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+      --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+      --purple: #932efa; --purple-bg: #f3e5f5; --purple-light: #d1b5ff;
+      --blue: #2341ff; --blue-bg: #e1f5fe; --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4; --warm-border: #ded8d3;
+      --orange-bg: #feefdb; --orange-muted: #bd9156;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark); color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-outline-dark { background: transparent; color: var(--text-light); border: 1px solid var(--border); }
+    .btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+    .btn-outline-light { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-outline-light:hover { border-color: rgba(255,255,255,0.5); }
+
+    /* Section */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+
+    /* Hero */
+    .hero {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 32px 64px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: clamp(36px, 5vw, 56px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+      color: var(--dark);
+      margin-bottom: 20px;
+    }
+    .hero h1 em {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .hero .subtitle {
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--text-light);
+      max-width: 600px;
+      margin: 0 auto 32px;
+    }
+    .hero-ctas {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Stats */
+    .stats-row {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 32px 64px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .stat {
+      background: var(--off-white);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+    }
+    .stat-number {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 28px;
+      letter-spacing: -1px;
+      color: var(--dark);
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* Deliverables cards */
+    .deliverables-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .deliverable-card {
+      border-radius: 20px;
+      padding: 28px;
+      border: 1px solid var(--border);
+    }
+    .deliverable-card.green-card { background: var(--green-bg); border-color: transparent; }
+    .deliverable-card.purple-card { background: var(--purple-bg); border-color: transparent; }
+    .deliverable-card.blue-card { background: var(--blue-bg); border-color: transparent; }
+    .deliverable-card.warm-card { background: var(--warm-bg); border-color: transparent; }
+    .deliverable-card.orange-card { background: var(--orange-bg); border-color: transparent; }
+    .deliverable-card.white-card { background: var(--white); }
+    .deliverable-card h3 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+      color: var(--dark);
+      margin-bottom: 10px;
+      line-height: 1.3;
+    }
+    .deliverable-card p {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      margin-bottom: 0;
+      max-width: none;
+    }
+    .deliverable-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .deliverable-card ul li {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      padding: 4px 0;
+      padding-left: 18px;
+      position: relative;
+    }
+    .deliverable-card ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--green-dark);
+    }
+
+    /* Steps */
+    .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .step { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .step-num { font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--green-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .step h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .step p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .step.full-width { grid-column: 1 / -1; }
+
+    /* Pricing */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .pricing-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 28px;
+      display: flex;
+      flex-direction: column;
+    }
+    .pricing-card.featured {
+      border-color: var(--green-dark);
+      box-shadow: 0 0 0 1px var(--green-dark);
+      position: relative;
+    }
+    .pricing-badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--green);
+      color: var(--dark);
+      font-family: 'Instrument Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 4px 14px;
+      border-radius: 100px;
+      white-space: nowrap;
+    }
+    .pricing-tier {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    .pricing-price {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      letter-spacing: -1.5px;
+      color: var(--dark);
+      margin-bottom: 16px;
+    }
+    .pricing-desc {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text-light);
+      margin-bottom: 20px;
+      flex-grow: 0;
+    }
+    .pricing-features {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 24px 0;
+      flex-grow: 1;
+    }
+    .pricing-features li {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      padding: 6px 0;
+      padding-left: 20px;
+      position: relative;
+    }
+    .pricing-features li::before {
+      content: '\2713';
+      position: absolute;
+      left: 0;
+      color: var(--green-dark);
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .pricing-card .btn { text-align: center; width: 100%; }
+
+    /* Case studies */
+    .case-studies-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .case-card {
+      background: var(--off-white);
+      border-radius: 20px;
+      padding: 28px;
+    }
+    .case-category {
+      font-family: 'Instrument Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      color: var(--green-dark);
+      margin-bottom: 10px;
+    }
+    .case-card h3 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+      color: var(--dark);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .case-card p {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      margin-bottom: 0;
+      max-width: none;
+    }
+
+    /* Why OKAD */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .why-card {
+      background: var(--off-white);
+      border-radius: 20px;
+      padding: 28px;
+    }
+    .why-card h3 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: 18px;
+      letter-spacing: -0.3px;
+      color: var(--dark);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .why-card p {
+      font-size: 14px;
+      line-height: 1.55;
+      color: var(--text);
+      margin-bottom: 0;
+      max-width: none;
+    }
+
+    /* FAQ */
+    .faq-list {
+      margin-top: 32px;
+    }
+    .faq-list details {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-list details:first-child {
+      border-top: 1px solid var(--border);
+    }
+    .faq-list summary {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: 17px;
+      letter-spacing: -0.3px;
+      color: var(--dark);
+      cursor: pointer;
+      padding: 20px 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .faq-list summary::-webkit-details-marker { display: none; }
+    .faq-list summary::after {
+      content: '+';
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--muted);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+    .faq-list details[open] summary::after {
+      content: '\2212';
+    }
+    .faq-list .faq-answer {
+      padding-bottom: 20px;
+    }
+    .faq-list .faq-answer p {
+      font-size: 15px;
+      line-height: 1.6;
+      color: var(--text-light);
+      margin-bottom: 12px;
+    }
+    .faq-list .faq-answer p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Final CTA */
+    .final-cta {
+      background: var(--dark-bg);
+      padding: 80px 32px;
+      text-align: center;
+    }
+    .final-cta-inner {
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .final-cta h2 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: clamp(28px, 3.5vw, 40px);
+      line-height: 1.15;
+      letter-spacing: -1.5px;
+      color: var(--white);
+      margin-bottom: 16px;
+    }
+    .final-cta h2 em {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .final-cta p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--muted);
+      margin-bottom: 32px;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .final-cta-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Divider */
+    .section-divider {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+    .section-divider hr {
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Alt background */
+    .bg-warm { background: var(--warm-bg); }
+    .bg-off-white { background: var(--off-white); }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero { padding: 48px 20px 40px; }
+      .hero h1 { font-size: 32px; letter-spacing: -1.5px; }
+      .hero .subtitle { font-size: 16px; }
+
+      .stats-row { grid-template-columns: repeat(2, 1fr); gap: 12px; padding: 0 20px 48px; }
+      .stat { padding: 20px 16px; }
+      .stat-number { font-size: 24px; }
+
+      .section { padding: 48px 20px; }
+      .section h2 { font-size: 26px; }
+
+      .deliverables-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; max-width: 400px; }
+      .case-studies-grid { grid-template-columns: 1fr; }
+      .why-grid { grid-template-columns: 1fr; }
+
+      .navbar-inner { padding: 0 20px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { display: none; }
+
+      .final-cta { padding: 56px 20px; }
+      .final-cta h2 { font-size: 28px; }
+
+      .hero-ctas { flex-direction: column; align-items: center; }
+      .hero-ctas .btn { width: 100%; max-width: 280px; text-align: center; }
+      .final-cta-buttons { flex-direction: column; align-items: center; }
+      .final-cta-buttons .btn { width: 100%; max-width: 280px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Brand Identity That <em>Stands Apart</em></h1>
+    <p class="subtitle">We build distinctive, cohesive brand systems that make companies instantly recognizable, deeply memorable, and inherently trustworthy. Not just a logo. A complete visual language your audience connects with.</p>
+    <div class="hero-ctas">
+      <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+      <a href="mailto:olga@okad.agency" class="btn btn-outline-dark">Send Us an Email</a>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-number">50+</div>
+      <div class="stat-label">Brands Built</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">98%</div>
+      <div class="stat-label">Client Satisfaction</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3-4 Wk</div>
+      <div class="stat-label">Average Delivery</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">Full</div>
+      <div class="stat-label">Brand Systems</div>
+    </div>
+  </div>
+
+  <!-- What's Included -->
+  <div class="bg-warm">
+    <section class="section">
+      <h2>What's <em>Included</em></h2>
+      <p>Every brand identity project is a system, not a single asset. Here is what you receive when you work with us, with every element designed to work together and scale across every touchpoint your brand will ever need.</p>
+
+      <div class="deliverables-grid">
+        <div class="deliverable-card green-card">
+          <h3>Logo Design</h3>
+          <p>Your logo is the anchor of your entire visual identity. We design a primary logo, a secondary (stacked or horizontal) variation, a standalone icon or brandmark, and a monochrome version for single-color applications. Each version is tested across backgrounds, sizes, and contexts to ensure it performs everywhere, from a 16-pixel favicon to a billboard. You receive vector files (SVG, AI, EPS) and raster exports (PNG, JPG) in every configuration.</p>
+        </div>
+
+        <div class="deliverable-card purple-card">
+          <h3>Color System</h3>
+          <p>Color drives recognition faster than any other visual element. We define your primary brand color, a secondary palette of 2-3 supporting hues, and accent colors for CTAs, highlights, and interactive states. Every color comes with exact HEX, RGB, CMYK, and Pantone values, plus clear usage rules: background ratios, minimum contrast requirements for accessibility (WCAG AA), and combinations to avoid. No guesswork for your team or any vendor who touches the brand.</p>
+        </div>
+
+        <div class="deliverable-card blue-card">
+          <h3>Typography System</h3>
+          <p>We select and pair a heading typeface and a body typeface that reinforce your brand personality, whether that is authoritative and sharp, warm and approachable, or bold and contemporary. The system includes a full sizing scale (H1 through body text and captions), line-height and letter-spacing specifications, weight usage rules, and web-safe fallback stacks. If you need a custom or licensed font, we handle the sourcing and provide licensing guidance.</p>
+        </div>
+
+        <div class="deliverable-card warm-card">
+          <h3>Brand Guidelines Document</h3>
+          <p>The guidelines document is the single source of truth for your brand. At 40 to 60 pages, it covers logo usage and clear-space rules, color specifications, typography hierarchy, photography and imagery direction, tone of voice principles, and real-world application examples. This document ensures every designer, developer, marketer, and external vendor who works with your brand produces consistent, on-brand materials without needing to ask you how things should look.</p>
+        </div>
+
+        <div class="deliverable-card orange-card">
+          <h3>Visual Elements</h3>
+          <p>Brands are more than logos and colors. We develop a library of supporting visual elements that give your identity depth and texture: custom patterns or geometric motifs, textural overlays, a cohesive iconography style (outline, filled, or duotone), and direction for illustration or photography treatment. These elements transform a flat identity into a rich, dimensional brand world your audience can feel across every surface.</p>
+        </div>
+
+        <div class="deliverable-card white-card">
+          <h3>Brand Applications</h3>
+          <p>We bring your identity to life on the materials you actually use. Standard applications include business card design (front and back), letterhead and envelope layout, email signature template, and social media profile and cover image templates for LinkedIn, Instagram, Facebook, and X. Each application file is delivered print-ready or pixel-perfect for digital, so you can go live the day we deliver, without spending another dollar on production design.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Process -->
+  <section class="section">
+    <h2>Our <em>Process</em></h2>
+    <p>We follow a five-phase process that moves from research through strategy into design. Every phase has a defined deliverable and a feedback checkpoint, so you always know exactly where we are and what comes next. No disappearing for weeks. No surprises at the reveal.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Phase 01</div>
+        <h3>Discovery & Research</h3>
+        <p>We start with a deep-dive into your business, your market, and your audience. This phase includes a brand audit of your current materials (if they exist), a competitive landscape analysis covering 5 to 8 direct competitors, audience persona development, and a stakeholder interview to surface the ambitions and constraints that shape the brand. The output is a research brief that grounds every creative decision we make from this point forward. Duration: 3 to 5 business days.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-num">Phase 02</div>
+        <h3>Strategy & Positioning</h3>
+        <p>Before we open a design tool, we define the strategic foundation. We establish your brand archetype (the psychological framework that drives emotional resonance), articulate your value proposition in a single sentence, map your positioning against competitors, and set the guardrails for tone of voice and messaging style. This is the phase where the brand goes from abstract to intentional. Duration: 2 to 3 business days.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-num">Phase 03</div>
+        <h3>Concept Development</h3>
+        <p>We develop three distinct creative directions, each presented as a mood board with preliminary logo concepts, color palettes, type pairings, and example applications. These are not minor variations of the same idea. They are genuinely different interpretations of your brand strategy, giving you a meaningful choice. You select one direction, and you can pull elements from the others if something resonates. Duration: 4 to 5 business days.</p>
+      </div>
+
+      <div class="step">
+        <div class="step-num">Phase 04</div>
+        <h3>Design & Refinement</h3>
+        <p>The chosen direction gets developed into the full identity system: finalized logo in all variations, complete color palette, typography scale, visual elements, and initial brand applications. You receive two rounds of refinement to adjust details, tweak proportions, and polish. We present everything in context, on realistic mockups, so you see how the brand behaves in the real world, not just as isolated assets on a white screen. Duration: 5 to 7 business days.</p>
+      </div>
+
+      <div class="step full-width">
+        <div class="step-num">Phase 05</div>
+        <h3>Delivery & Brand Guidelines</h3>
+        <p>We compile the complete brand guidelines document, export all final assets in every file format you need (vector, raster, print-ready, web-optimized), and organize everything in a clearly labeled folder structure. The handoff includes a 30-minute walkthrough call where we walk your team through the guidelines, explain the rationale behind each decision, and answer questions about implementation. You leave this phase with everything you need to deploy the brand across every channel, immediately. Duration: 2 to 3 business days.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <div class="bg-off-white">
+    <section class="section">
+      <h2>Pricing That <em>Makes Sense</em></h2>
+      <p>Three tiers to match the scope of your brand project. Every tier includes direct access to a senior designer, structured feedback rounds, and final files in all formats. No hidden fees. No hourly billing that spirals beyond your budget.</p>
+
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-tier">Essential</div>
+          <div class="pricing-price">$4,500</div>
+          <p class="pricing-desc">For startups and small businesses that need a polished, professional identity to launch with confidence.</p>
+          <ul class="pricing-features">
+            <li>Primary logo + 2 variations</li>
+            <li>Core color palette (3-4 colors)</li>
+            <li>Primary + secondary font pairing</li>
+            <li>10-page brand guidelines PDF</li>
+            <li>Business card design</li>
+            <li>Social media profile templates</li>
+            <li>All source files (AI, SVG, PNG)</li>
+            <li>1 round of revisions</li>
+            <li>2-week delivery</li>
+          </ul>
+          <a href="https://calendly.com/okad_calls/first" class="btn btn-outline-dark">Get Started</a>
+        </div>
+
+        <div class="pricing-card featured">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-tier">Professional</div>
+          <div class="pricing-price">$8,500</div>
+          <p class="pricing-desc">The complete brand identity system. Everything a growing company needs to look established from day one.</p>
+          <ul class="pricing-features">
+            <li>Full logo system (primary, secondary, icon, monochrome)</li>
+            <li>Complete color system with usage rules</li>
+            <li>Typography system with sizing scale</li>
+            <li>40-page brand guidelines document</li>
+            <li>Custom pattern and visual elements</li>
+            <li>Business cards, letterhead, envelope</li>
+            <li>Social media templates (4 platforms)</li>
+            <li>Email signature template</li>
+            <li>2 rounds of revisions</li>
+            <li>3-4 week delivery</li>
+          </ul>
+          <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+        </div>
+
+        <div class="pricing-card">
+          <div class="pricing-tier">Enterprise</div>
+          <div class="pricing-price">$15,000+</div>
+          <p class="pricing-desc">For established companies building a brand ecosystem with sub-brands, motion, and deep strategic work.</p>
+          <ul class="pricing-features">
+            <li>Everything in Professional</li>
+            <li>Brand strategy workshop (half-day)</li>
+            <li>Sub-brand architecture + visual system</li>
+            <li>Motion guidelines (logo animation, transitions)</li>
+            <li>60+ page brand guidelines document</li>
+            <li>Presentation template (Keynote/PPT)</li>
+            <li>Iconography set (20+ custom icons)</li>
+            <li>Photography and imagery art direction</li>
+            <li>3 rounds of revisions</li>
+            <li>4-6 week delivery</li>
+          </ul>
+          <a href="https://calendly.com/okad_calls/first" class="btn btn-outline-dark">Let's Talk</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Case Studies -->
+  <section class="section">
+    <h2>Brands We've <em>Built</em></h2>
+    <p>A selection of recent brand identity projects across industries. Each one started with a strategic foundation and ended with a system the client could deploy across every channel from day one.</p>
+
+    <div class="case-studies-grid">
+      <div class="case-card">
+        <div class="case-category">FinTech</div>
+        <h3>Digital Banking Platform</h3>
+        <p>Complete identity system for a European neobank targeting freelancers and small business owners. We developed a brand that balances trust and approachability, with a geometric wordmark, a deep navy and mint color system, and a modular illustration style for onboarding flows. The 52-page guidelines enabled their internal team to launch web, mobile, and marketing materials simultaneously without a single off-brand asset.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-category">Health & Wellness</div>
+        <h3>Premium Supplement Brand</h3>
+        <p>Identity and packaging system for a direct-to-consumer supplement line entering a crowded market. The strategy centered the brand on clinical credibility rather than lifestyle aspiration. We designed a clean, typographic logo, a restrained earth-tone palette, and a packaging grid system flexible enough to accommodate 14 SKUs at launch. The brand secured shelf placement in two national retailers within three months of launch.</p>
+      </div>
+
+      <div class="case-card">
+        <div class="case-category">SaaS</div>
+        <h3>Developer Tools Startup</h3>
+        <p>Brand identity and sub-brand architecture for a developer tooling company with three product lines under one umbrella. The challenge was creating a parent brand that felt technical and precise while allowing each product to have its own personality. We built a monospace-inspired wordmark, a modular color system where each product owns a distinct hue, and a visual language of code-block-styled frames and sharp geometric patterns.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why OKAD -->
+  <div class="bg-warm">
+    <section class="section">
+      <h2>Why Brands <em>Choose OKAD</em></h2>
+      <p>You are not just hiring a designer. You are hiring a team that treats brand identity as a strategic asset, not a cosmetic exercise. Here is what sets us apart from agencies three times our price and freelancers half our quality.</p>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <h3>European Design Sensibility</h3>
+          <p>Our design team brings a European aesthetic rooted in Swiss typography, Scandinavian minimalism, and a preference for restraint over decoration. The result is work that looks premium and timeless rather than trendy and disposable. We design brands that will still feel contemporary five years from now, because they are built on principles, not on whatever gradient or shadow effect is popular this quarter.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Strategy-Led, Not Decoration-Led</h3>
+          <p>Every visual decision traces back to a strategic rationale. We do not pick colors because they look nice. We pick them because they position you correctly in your competitive landscape, resonate with your audience's psychology, and differentiate you from the three closest competitors your prospects are comparing you against. This is why our brands perform. They are built to influence perception, not just to look pretty on a Behance case study.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Fast, Predictable Delivery</h3>
+          <p>Three to four weeks for a complete brand identity system, with clear milestones and a structured feedback process. We do not disappear for six weeks and return with a mystery reveal. You see research output in week one, concepts in week two, and refined designs in week three. Every phase has a scheduled checkpoint where you provide feedback and we adjust before moving forward. No wasted time. No scope drift.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Competitive, Transparent Pricing</h3>
+          <p>Comparable agencies in New York, London, or Berlin charge $25,000 to $80,000 for the same scope. We deliver the same caliber of work at a fraction of the cost because we operate from Portugal with lower overhead and zero interest in inflating hours. Our pricing is project-based, stated upfront, and fixed. If the scope does not change, the price does not change. You will never receive an invoice larger than the one you agreed to.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Ongoing Brand Support</h3>
+          <p>The relationship does not end at handoff. We offer optional retainer packages for ongoing brand support: new collateral design, templates for campaigns, seasonal adaptations, and brand audits to ensure consistency as your team grows. Many clients come back months or years later for extensions, and because we built the original system, the work is faster, cheaper, and perfectly aligned every time.</p>
+        </div>
+
+        <div class="why-card">
+          <h3>Real-World Tested</h3>
+          <p>We do not design in a vacuum. Every logo is tested at extreme sizes (16px to 1600px). Every color combination is checked for WCAG accessibility contrast. Every font pairing is validated for web rendering across browsers. We present work on realistic mockups, printed materials, and device screens so you see exactly how the brand will perform in the contexts that matter to your business. The brand works on launch day, not after three rounds of post-delivery fixes.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h2>Frequently Asked <em>Questions</em></h2>
+    <p>Answers to the questions we hear most from clients considering a brand identity project.</p>
+
+    <div class="faq-list">
+      <details>
+        <summary>How long does brand identity design take?</summary>
+        <div class="faq-answer">
+          <p>Our standard timeline is three to four weeks for the Professional tier, from kickoff to final file delivery. The Essential package can be completed in two weeks, and Enterprise projects typically run four to six weeks depending on the number of sub-brands and the depth of the strategy phase. These timelines assume timely feedback at each checkpoint. We schedule review windows in advance so there are no bottlenecks on your side.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What if I already have a logo?</summary>
+        <div class="faq-answer">
+          <p>If your existing logo is strong but the rest of your brand identity is inconsistent or undeveloped, we can build the full system around your current mark. This includes color system, typography, visual elements, brand applications, and guidelines. We will assess the logo during the Discovery phase and let you know honestly whether it can serve as the foundation for a cohesive system or whether a refresh would significantly improve the outcome. There is no pressure either way. The decision is yours.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How many concepts will I see?</summary>
+        <div class="faq-answer">
+          <p>You will see three distinct creative directions during the Concept Development phase. Each direction includes a mood board, preliminary logo concepts, color palette, type pairing, and example applications. These are not minor variations of one idea. They are genuinely different interpretations of your brand strategy. You choose one direction to develop, and you are welcome to pull specific elements from the other directions if something resonates.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What file formats do I receive?</summary>
+        <div class="faq-answer">
+          <p>You receive everything you need for both digital and print. Logo files are delivered in SVG, AI (Adobe Illustrator), EPS, PNG (transparent and on-background), and JPG. Color specifications include HEX, RGB, CMYK, and Pantone references. Brand guidelines are delivered as a designed PDF. Application templates are provided in their native format (Figma, Illustrator, or InDesign) plus export-ready PDF. Social media templates are delivered as Figma files with export presets configured for each platform.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Do you do brand naming?</summary>
+        <div class="faq-answer">
+          <p>We do not offer brand naming as a standalone service, but we can recommend naming partners we have worked with. If you are actively deciding between two or three name options, we are happy to weigh in from a design perspective during the Discovery phase, since some names lend themselves to stronger visual identities than others. The identity design process begins once the name is finalized.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Can you create brand guidelines for an existing identity?</summary>
+        <div class="faq-answer">
+          <p>Yes. If you already have a logo, colors, and fonts but lack a formal guidelines document, we can audit your existing assets, identify inconsistencies, fill gaps in the system, and produce a comprehensive brand guidelines document that standardizes everything. This is particularly common for companies that have grown organically and accumulated brand materials from different designers over the years. Pricing for guidelines-only projects starts at $3,000 depending on the complexity of the existing identity.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What's the difference between a logo and a brand identity?</summary>
+        <div class="faq-answer">
+          <p>A logo is a single mark. A brand identity is the complete visual system that makes a company recognizable across every touchpoint. It includes the logo, but also the color palette, typography, visual elements, photography direction, tone of voice, and the rules governing how all of these work together. A logo alone cannot create consistency. A brand identity can. Think of the logo as a signature and the brand identity as the entire personality behind it. Companies that invest only in a logo almost always end up with inconsistent, fragmented visuals within six months.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Do you offer ongoing brand support?</summary>
+        <div class="faq-answer">
+          <p>We offer optional monthly retainer packages starting at $1,500 per month for ongoing brand support. This covers new collateral design (pitch decks, one-pagers, campaign graphics), template creation for recurring needs, seasonal brand adaptations, and periodic brand audits to ensure consistency as your team and vendor network grows. Retainer clients also receive priority scheduling and a 15% discount on any new project work. There is no long-term commitment. You can start, pause, or stop the retainer at any time with 30 days notice.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>What if I need changes after the project is delivered?</summary>
+        <div class="faq-answer">
+          <p>Each pricing tier includes a defined number of revision rounds during the project. After final delivery, we include a 14-day window for minor adjustments at no additional charge. Beyond that, changes and additions are billed at our standard hourly rate of $95 per hour, or you can move to a monthly retainer for ongoing support. In practice, our structured process and detailed guidelines mean that most clients launch successfully without needing post-delivery changes.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>How do we get started?</summary>
+        <div class="faq-answer">
+          <p>Book a 30-minute introductory call through our Calendly link. On the call, we will discuss your business, your goals for the brand, your timeline, and which pricing tier fits your needs. If we are a good fit, we send a proposal and contract within 24 hours. The project kicks off once the contract is signed and the 50% deposit is received. From there, you are typically seeing research output within the first week.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="final-cta">
+    <div class="final-cta-inner">
+      <h2>Ready to Build a Brand That <em>Lasts</em>?</h2>
+      <p>Book a free 30-minute call to discuss your project, or send us an email with your brief. No commitment. No pitch deck. Just a honest conversation about what your brand needs.</p>
+      <div class="final-cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+        <a href="mailto:olga@okad.agency" class="btn btn-outline-light">Send Us an Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+  </footer>
+
+</body>
+</html>

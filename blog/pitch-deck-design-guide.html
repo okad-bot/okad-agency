@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitch Deck Design Guide: How to Create a Deck That Closes Deals | OKAD Agency</title>
+  <meta name="description" content="A comprehensive guide to pitch deck design: slide-by-slide framework, design principles, common mistakes, and real examples from Airbnb and Buffer. Learn how to create a pitch deck that wins investors.">
+  <meta name="keywords" content="pitch deck design, investor presentation, startup pitch deck, pitch deck template, fundraising deck">
+  <meta property="og:title" content="Pitch Deck Design Guide: How to Create a Deck That Closes Deals">
+  <meta property="og:description" content="A comprehensive guide to pitch deck design: slide-by-slide framework, design principles, common mistakes, and real examples.">
+  <meta property="og:type" content="article">
+  <link rel="icon" href="../assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a;
+      --dark: #111;
+      --dark-bg: #212121;
+      --text: #383838;
+      --text-light: #4c4c4c;
+      --muted: #8e8e8e;
+      --border: #e6e6e6;
+      --light: #f2f2f2;
+      --off-white: #f7f7f7;
+      --white: #fff;
+      --green: #aed058;
+      --green-dark: #92c610;
+      --green-bg: #f4f9e8;
+      --purple: #932efa;
+      --purple-bg: #f3e5f5;
+      --purple-light: #d1b5ff;
+      --blue: #2341ff;
+      --blue-bg: #e1f5fe;
+      --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4;
+      --warm-border: #ded8d3;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--white);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark) !important; color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+
+    /* Section */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+
+    /* Breadcrumb */
+    .breadcrumb { max-width: 1000px; margin: 0 auto; padding: 20px 32px 0; }
+    .breadcrumb a, .breadcrumb span { font-family: 'Inter', sans-serif; font-size: 13px; color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--text); }
+    .breadcrumb .sep { margin: 0 8px; color: var(--border); }
+
+    /* Hero */
+    .article-hero { max-width: 1000px; margin: 0 auto; padding: 40px 32px 0; }
+    .article-hero h1 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 1.1;
+      letter-spacing: -2px;
+      color: var(--dark);
+      margin-bottom: 16px;
+      max-width: 800px;
+    }
+    .article-hero h1 em {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .article-meta { font-size: 14px; color: var(--muted); margin-bottom: 32px; }
+    .article-meta span { margin-right: 16px; }
+    .article-intro {
+      font-size: 18px;
+      line-height: 1.7;
+      color: var(--text-light);
+      max-width: 720px;
+      margin-bottom: 40px;
+      border-left: 3px solid var(--green);
+      padding-left: 20px;
+    }
+
+    /* Article body */
+    .article-body { max-width: 720px; margin: 0 auto; padding: 0 32px 64px; }
+    .article-body h2 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 500;
+      font-size: clamp(24px, 3vw, 32px);
+      line-height: 1.2;
+      letter-spacing: -1.2px;
+      color: var(--dark);
+      margin: 48px 0 16px;
+    }
+    .article-body h2 em {
+      font-family: 'Instrument Serif', serif;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .article-body h3 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.3;
+      letter-spacing: -0.5px;
+      color: var(--dark);
+      margin: 32px 0 12px;
+    }
+    .article-body p { font-size: 16px; line-height: 1.7; margin-bottom: 16px; color: var(--text); }
+    .article-body ul, .article-body ol { margin: 0 0 16px 20px; }
+    .article-body li { font-size: 16px; line-height: 1.7; margin-bottom: 8px; color: var(--text); }
+    .article-body strong { color: var(--dark); font-weight: 500; }
+
+    /* Table of contents */
+    .toc {
+      background: var(--off-white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 32px;
+      margin: 0 0 48px;
+    }
+    .toc-title {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--muted);
+      margin-bottom: 16px;
+    }
+    .toc ol { list-style: decimal; margin: 0 0 0 20px; }
+    .toc li { margin-bottom: 8px; }
+    .toc a { font-size: 15px; color: var(--text-light); text-decoration: none; transition: color 0.2s; }
+    .toc a:hover { color: var(--purple); }
+
+    /* Callout */
+    .callout {
+      background: var(--green-bg);
+      border-left: 4px solid var(--green-dark);
+      border-radius: 0 8px 8px 0;
+      padding: 20px 24px;
+      margin: 24px 0;
+    }
+    .callout-purple {
+      background: var(--purple-bg);
+      border-left-color: var(--purple);
+    }
+    .callout-blue {
+      background: var(--blue-bg);
+      border-left-color: var(--blue-accent);
+    }
+    .callout-label {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--dark);
+      margin-bottom: 6px;
+    }
+    .callout p { margin-bottom: 0; font-size: 15px; }
+
+    /* Slide card */
+    .slide-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 20px 0;
+      transition: box-shadow 0.2s;
+    }
+    .slide-card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+    .slide-card-number {
+      display: inline-block;
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--white);
+      background: var(--dark);
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 28px;
+      margin-bottom: 12px;
+    }
+    .slide-card h4 {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--dark);
+      margin-bottom: 8px;
+      letter-spacing: -0.3px;
+    }
+    .slide-card p { font-size: 15px; margin-bottom: 8px; }
+    .slide-card ul { margin: 8px 0 0 18px; }
+    .slide-card li { font-size: 14px; line-height: 1.6; color: var(--text-light); margin-bottom: 4px; }
+
+    /* FAQ */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+      padding: 24px 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question {
+      font-family: 'Instrument Sans', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: var(--dark);
+      margin-bottom: 10px;
+      letter-spacing: -0.3px;
+    }
+    .faq-answer p { font-size: 15px; margin-bottom: 0; }
+
+    /* CTA Section */
+    .cta-section {
+      background: var(--dark);
+      border-radius: 16px;
+      padding: 48px 40px;
+      margin: 48px 0 0;
+      text-align: center;
+    }
+    .cta-section h2 { color: var(--white) !important; margin-bottom: 12px; }
+    .cta-section p { color: var(--muted); max-width: 560px; margin: 0 auto 28px; }
+    .cta-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    .btn-outline:hover {
+      border-color: rgba(255,255,255,0.5);
+      color: var(--white);
+    }
+
+    /* Divider */
+    .divider { border: none; border-top: 1px solid var(--border); margin: 48px 0; }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-inner { padding: 0 16px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { font-size: 12px; }
+      .breadcrumb { padding: 16px 16px 0; }
+      .article-hero { padding: 24px 16px 0; }
+      .article-hero h1 { font-size: 28px; letter-spacing: -1px; }
+      .article-intro { font-size: 16px; padding-left: 16px; }
+      .article-body { padding: 0 16px 48px; }
+      .article-body h2 { font-size: 22px; margin-top: 36px; }
+      .article-body h3 { font-size: 18px; }
+      .section { padding: 40px 16px; }
+      .toc { padding: 20px; }
+      .slide-card { padding: 20px; }
+      .cta-section { padding: 32px 20px; margin: 36px 0 0; }
+      .cta-buttons { flex-direction: column; align-items: center; }
+      .footer { padding: 32px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="breadcrumb">
+    <a href="/">Home</a><span class="sep">/</span>
+    <a href="/blog">Blog</a><span class="sep">/</span>
+    <span>Pitch Deck Design Guide</span>
+  </div>
+
+  <header class="article-hero">
+    <h1>Pitch Deck Design Guide: How to Create a Deck That <em>Closes Deals</em></h1>
+    <div class="article-meta">
+      <span>September 2026</span>
+      <span>18 min read</span>
+    </div>
+    <p class="article-intro">
+      Your pitch deck is often the first impression an investor, partner, or client will ever have of your company. It is not just a slideshow. It is a narrative device, a trust signal, and a decision-making tool rolled into one. This guide breaks down exactly how to build a pitch deck that earns attention, communicates value, and moves people to action.
+    </p>
+  </header>
+
+  <article class="article-body">
+
+    <div class="toc">
+      <div class="toc-title">Table of Contents</div>
+      <ol>
+        <li><a href="#why-design-matters">Why Pitch Deck Design Matters</a></li>
+        <li><a href="#essential-slides">The Essential Slides: A Slide-by-Slide Framework</a></li>
+        <li><a href="#design-principles">Design Principles for Pitch Decks</a></li>
+        <li><a href="#common-mistakes">Common Pitch Deck Mistakes to Avoid</a></li>
+        <li><a href="#how-long">How Long Should a Pitch Deck Be?</a></li>
+        <li><a href="#great-examples">Examples of Great Pitch Decks</a></li>
+        <li><a href="#faq">Frequently Asked Questions</a></li>
+        <li><a href="#get-help">Get Help With Your Pitch Deck</a></li>
+      </ol>
+    </div>
+
+    <!-- Section 1 -->
+    <h2 id="why-design-matters">Why Pitch Deck Design <em>Matters</em></h2>
+
+    <p>
+      Investors receive hundreds of pitch decks every month. According to DocSend's research, the average investor spends just three minutes and forty-four seconds reviewing a deck before deciding whether to take a meeting. That is less time than it takes to brew a cup of coffee. In that narrow window, your design is doing the heavy lifting: it signals professionalism, communicates clarity of thought, and determines whether your story gets heard at all.
+    </p>
+    <p>
+      A poorly designed deck does not just look bad. It actively undermines your credibility. When slides are cluttered, fonts are inconsistent, or data is presented without context, the investor's brain has to work harder to extract meaning. That cognitive friction translates directly into doubt. If you cannot organize sixteen slides, how will you organize a company?
+    </p>
+    <p>
+      Conversely, a well-designed pitch deck acts as a silent co-founder. It demonstrates that you understand your audience, that you can distill complexity into clarity, and that you care about the details. Design is not decoration. It is a communication strategy. The most successful founders treat their pitch deck as a product in itself, refining it through dozens of iterations based on feedback, data, and audience response.
+    </p>
+    <p>
+      This guide will walk you through every dimension of pitch deck design: the slides you need, the principles that govern great visual communication, the mistakes that kill deals, and real-world examples you can study. Whether you are raising a seed round, pitching a client, or presenting a business case internally, the fundamentals are the same.
+    </p>
+
+    <!-- Section 2 -->
+    <h2 id="essential-slides">The Essential Slides: A <em>Slide-by-Slide</em> Framework</h2>
+
+    <p>
+      Every pitch deck tells a story. The structure below is not arbitrary; it follows the natural arc of persuasion. You establish credibility, define the problem, present your solution, prove demand, and close with a specific request. Here is each slide, what it must accomplish, and how to design it effectively.
+    </p>
+
+    <div class="slide-card">
+      <span class="slide-card-number">1</span>
+      <h4>Title / Cover Slide</h4>
+      <p>
+        Your cover slide has one job: make people want to see the next slide. It should include your company name, a concise tagline that captures what you do, and your logo. Nothing else. Resist the urge to add team photos, contact info, or funding targets here. Those details have their own slides.
+      </p>
+      <p>
+        The tagline should be specific enough that a stranger can understand your business category within five seconds. "We make the world better" tells nobody anything. "AI-powered inventory management for mid-market retailers" tells them everything they need to know to decide if they are interested.
+      </p>
+      <ul>
+        <li>Company name and logo prominently placed</li>
+        <li>One-line tagline describing what you do</li>
+        <li>Clean, uncluttered layout with strong visual identity</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">2</span>
+      <h4>Problem Slide</h4>
+      <p>
+        The problem slide is arguably the most important slide in your entire deck. If investors do not believe the problem is real, painful, and widespread, nothing else matters. Your job here is to make the audience feel the problem viscerally, not just understand it intellectually.
+      </p>
+      <p>
+        Use concrete numbers, real quotes from potential customers, or a brief scenario that illustrates the pain point. Avoid abstract language. Instead of saying "Businesses struggle with employee engagement," say "67% of US employees are disengaged at work, costing companies $450 billion annually in lost productivity." The second version is specific, quantified, and impossible to dismiss.
+      </p>
+      <ul>
+        <li>State the problem in one clear sentence</li>
+        <li>Quantify the pain with real data or research</li>
+        <li>Make it relatable with a specific example or customer quote</li>
+        <li>Avoid listing multiple problems; focus on the core issue</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">3</span>
+      <h4>Solution Slide</h4>
+      <p>
+        Now that you have established the problem, present your solution with equal clarity. Describe what your product or service does in plain language, then immediately connect it back to the problem. The audience should be able to draw a straight line from the pain you described to the relief your solution provides.
+      </p>
+      <p>
+        A product screenshot, a simple diagram, or a short workflow illustration can be worth a thousand words here. Visual proof that your solution exists, works, and is not just a concept on paper carries enormous weight. If your product has a user interface, show it. If it is a service, show the process. Make the abstract concrete.
+      </p>
+      <ul>
+        <li>Explain the solution in one or two sentences</li>
+        <li>Include a product screenshot, mockup, or diagram</li>
+        <li>Connect directly to the problem from the previous slide</li>
+        <li>Highlight what makes your approach unique</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">4</span>
+      <h4>Market Opportunity</h4>
+      <p>
+        Investors need to know the market is large enough to justify their investment. This slide should present your Total Addressable Market (TAM), Serviceable Addressable Market (SAM), and Serviceable Obtainable Market (SOM). But raw numbers alone are not enough. You need to show that you understand how to narrow from the total universe to the segment you can realistically capture.
+      </p>
+      <p>
+        Use a bottom-up calculation whenever possible. Saying "the global SaaS market is $200 billion" is a top-down number that tells an investor nothing about your specific opportunity. Saying "there are 45,000 mid-market retailers in the US, each spending an average of $28,000 per year on inventory management, giving us a SAM of $1.26 billion" is far more credible because it shows you have done the work.
+      </p>
+      <ul>
+        <li>Present TAM, SAM, and SOM with clear methodology</li>
+        <li>Use bottom-up calculations for credibility</li>
+        <li>Cite sources for market data</li>
+        <li>Show market growth trends if favorable</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">5</span>
+      <h4>Business Model</h4>
+      <p>
+        This slide answers the question every investor is already asking: how do you make money? Be direct and specific. Name your revenue streams, your pricing model, and your unit economics if you have them. A subscription model? State the price tiers. Transaction-based? Show the fee structure. Enterprise sales? Outline the average contract value and sales cycle length.
+      </p>
+      <p>
+        If you are pre-revenue, focus on your planned pricing strategy and the logic behind it. Reference comparable companies or industry benchmarks. The goal is not to prove you are profitable today, but to prove you have a realistic, defensible path to revenue that investors can model.
+      </p>
+      <ul>
+        <li>Clearly state how you make money</li>
+        <li>Include pricing tiers or fee structures</li>
+        <li>Show unit economics (LTV, CAC, margins) if available</li>
+        <li>Reference comparable companies for validation</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">6</span>
+      <h4>Traction</h4>
+      <p>
+        Traction is proof that the market wants what you are building. This is where you show revenue growth, user numbers, engagement metrics, partnerships, pilot programs, or any other evidence that your solution is gaining momentum. For early-stage companies, traction might be waitlist signups, letters of intent, or successful pilot results.
+      </p>
+      <p>
+        Present traction visually. A well-designed graph showing month-over-month growth is infinitely more compelling than a bullet list of numbers. If your growth curve is steep, let the chart do the talking. If your numbers are more modest, contextualize them: show the growth rate, highlight a key inflection point, or compare your trajectory to successful companies at a similar stage.
+      </p>
+      <ul>
+        <li>Show your strongest metrics in a clear chart or graph</li>
+        <li>Highlight growth rate, not just absolute numbers</li>
+        <li>Include notable partnerships, clients, or milestones</li>
+        <li>If pre-revenue, show engagement, waitlist, or LOI data</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">7</span>
+      <h4>Team</h4>
+      <p>
+        Investors bet on people as much as ideas. Your team slide should feature headshots, names, titles, and the one or two most relevant credentials for each team member. "Relevant" means directly related to your ability to execute on this specific business. A PhD in machine learning matters if you are building an AI company. A decade at Goldman Sachs matters if you are building a fintech.
+      </p>
+      <p>
+        Do not list every team member. Focus on the founding team and key executives. If you have notable advisors or board members, include them in a smaller section below the core team. And if your team has worked together before, call that out. Prior working relationships reduce execution risk, and smart investors know this.
+      </p>
+      <ul>
+        <li>Professional headshots with consistent styling</li>
+        <li>Name, title, and one key credential per person</li>
+        <li>Highlight relevant industry experience</li>
+        <li>Mention advisors or board members if notable</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">8</span>
+      <h4>Financial Projections</h4>
+      <p>
+        Show a three-to-five year financial forecast that includes revenue, costs, and key profitability metrics. Investors understand that early projections are directional, not precise. What they are evaluating is whether your assumptions are reasonable and whether you understand your own business model well enough to build a credible model.
+      </p>
+      <p>
+        Use simple, clean charts. A stacked bar chart showing revenue growth alongside a line for expenses is easy to read and communicates the essential story. Below the chart, list your three or four key assumptions: customer acquisition cost, churn rate, average revenue per user, and growth rate. Making your assumptions explicit invites a productive conversation rather than a skeptical interrogation.
+      </p>
+      <ul>
+        <li>Three to five year revenue and expense projections</li>
+        <li>Key assumptions clearly stated</li>
+        <li>Simple chart format that is easy to read</li>
+        <li>Show path to profitability or breakeven</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">9</span>
+      <h4>The Ask</h4>
+      <p>
+        State exactly how much you are raising and what you will use the funds for. Vague asks like "we are looking for strategic partners" waste everyone's time. Be direct: "We are raising $2.5 million to fund 18 months of growth, allocated across product development (40%), sales and marketing (35%), and operations (25%)."
+      </p>
+      <p>
+        A simple pie chart or allocation breakdown makes this instantly digestible. Include your timeline for key milestones the funding will enable. Investors want to know what you will accomplish with their money and when they can expect the next round of results.
+      </p>
+      <ul>
+        <li>Specific funding amount</li>
+        <li>Clear use of funds breakdown</li>
+        <li>Key milestones the funding will enable</li>
+        <li>Timeline for achieving those milestones</li>
+      </ul>
+    </div>
+
+    <div class="slide-card">
+      <span class="slide-card-number">10</span>
+      <h4>Contact / Closing Slide</h4>
+      <p>
+        End with a clean slide that includes your name, email, phone number, and website. Add your logo and tagline again for reinforcement. This slide should feel like an invitation to continue the conversation, not an afterthought. Some founders include a single memorable data point or quote from the deck as a closing anchor, which is an effective technique for leaving a lasting impression.
+      </p>
+      <ul>
+        <li>Full contact information</li>
+        <li>Logo and tagline for brand reinforcement</li>
+        <li>Optional: a memorable closing statement or key metric</li>
+      </ul>
+    </div>
+
+    <!-- Section 3 -->
+    <h2 id="design-principles">Design Principles for <em>Pitch Decks</em></h2>
+
+    <p>
+      Great pitch deck design is not about making slides look pretty. It is about reducing cognitive load so your audience can absorb your message without friction. The following principles are the foundation of every effective presentation.
+    </p>
+
+    <h3>Visual Hierarchy</h3>
+    <p>
+      Every slide needs a clear visual hierarchy: a primary element (usually a headline or key metric), secondary elements (supporting text or visuals), and tertiary elements (source citations, footnotes). When everything on a slide competes for attention at the same visual weight, nothing gets read. Use size, color, and position to guide the eye from most important to least important.
+    </p>
+    <p>
+      A practical test: squint at your slide from three feet away. If you can identify the main point while squinting, your hierarchy works. If everything blurs together, you need to increase the contrast between primary and secondary elements.
+    </p>
+
+    <h3>Consistency</h3>
+    <p>
+      Consistency builds trust subconsciously. Use the same font pairings, color palette, spacing system, and layout grid throughout your deck. If your headings are 36px Instrument Sans on one slide, they should be 36px Instrument Sans on every slide. If your accent color is green, do not suddenly introduce orange on slide nine.
+    </p>
+    <p>
+      Create a simple style system before you start designing individual slides. Define your heading font and size, body font and size, one or two accent colors, and your spacing unit (typically 8px or 16px multiples). This takes thirty minutes and saves hours of inconsistency corrections later.
+    </p>
+
+    <div class="callout">
+      <div class="callout-label">Pro Tip</div>
+      <p>Build a "master slide" template with your fonts, colors, logo placement, and grid before creating any content slides. This ensures consistency from the first slide to the last and makes revisions dramatically faster.</p>
+    </div>
+
+    <h3>White Space</h3>
+    <p>
+      White space (or negative space) is not wasted space. It is one of the most powerful design tools available to you. Generous margins, padding around text blocks, and breathing room between elements make your slides feel calm, confident, and professional. Cramped slides feel anxious and disorganized.
+    </p>
+    <p>
+      A useful rule of thumb: if you think a slide has enough white space, add twenty percent more. Most first-time deck designers dramatically underestimate how much breathing room a slide needs. Look at any Apple keynote for reference. The slides use enormous amounts of white space, which forces every element on screen to carry its weight.
+    </p>
+
+    <h3>Typography</h3>
+    <p>
+      Limit your deck to two typefaces: one for headings and one for body text. A sans-serif heading font paired with a readable body font is a safe, effective combination. Avoid decorative or novelty fonts entirely. They might feel creative in the moment, but they reduce readability and often look unprofessional on different screens and projectors.
+    </p>
+    <p>
+      Size matters more than most people realize. Your heading text should be readable from the back of a conference room or at 50% zoom on a laptop screen. Body text on a slide deck should rarely be smaller than 16px, and headings should be at least 28px. If you need to reduce font size to fit more content on a slide, the correct solution is to cut content, not shrink text.
+    </p>
+
+    <h3>Data Visualization</h3>
+    <p>
+      When presenting data, the chart type you choose determines whether your audience understands the insight or gets lost in the numbers. Use bar charts for comparisons, line charts for trends over time, and pie charts sparingly and only for showing parts of a whole (with no more than five segments). Avoid 3D charts, excessive gridlines, and decorative chart elements. Every pixel should serve the data.
+    </p>
+    <p>
+      Label your charts clearly. Every axis needs a label, every data series needs a legend, and the key takeaway should be stated in the chart title. Do not make your audience figure out what the chart means. Tell them directly: "Revenue grew 340% year-over-year" is a better chart title than "Revenue 2023-2026."
+    </p>
+
+    <div class="callout callout-purple">
+      <div class="callout-label">Design Rule</div>
+      <p>If a chart needs more than ten seconds to understand, it is too complex. Simplify the data, split it across two slides, or add annotations that guide the reader's eye to the insight.</p>
+    </div>
+
+    <!-- Section 4 -->
+    <h2 id="common-mistakes">Common Pitch Deck <em>Mistakes</em> to Avoid</h2>
+
+    <p>
+      Even experienced founders make these errors. Each one creates friction that makes your audience work harder than they should, and every unit of friction increases the chance that they will disengage entirely.
+    </p>
+
+    <h3>Text Overload</h3>
+    <p>
+      This is the single most common pitch deck mistake. Slides are not documents. They are visual aids for a narrative you are delivering verbally or supporting with a written memo. When a slide contains six paragraphs of text, the audience reads ahead of you, stops listening, and processes neither the text nor your commentary effectively.
+    </p>
+    <p>
+      Apply the six-word rule for headings: if your headline is longer than six words, it is probably trying to do too much. For body text, aim for no more than three short bullet points per slide, each containing a single idea. If you need to convey complex information, split it across multiple slides rather than cramming it into one.
+    </p>
+
+    <h3>Inconsistent Branding</h3>
+    <p>
+      Slides with different backgrounds, mismatched fonts, varying logo placements, and clashing color schemes signal carelessness. Inconsistency is one of the fastest ways to erode trust. If your brand guidelines say your primary color is blue, every accent element in your deck should be blue. If your logo has a specific clear space requirement, respect it on every slide.
+    </p>
+    <p>
+      This extends to imagery. If you use flat illustrations on one slide and stock photography on another, the visual language feels incoherent. Choose one visual style and commit to it throughout the entire deck.
+    </p>
+
+    <h3>Weak Opening</h3>
+    <p>
+      Starting with a company history, a mission statement, or a team slide is a missed opportunity. Your opening slides need to hook the audience emotionally or intellectually. Lead with the problem. Make them feel the pain before you introduce yourself as the painkiller. The narrative arc of problem-solution is one of the oldest and most effective storytelling structures in human history, and it works just as well in a boardroom as it does in a theater.
+    </p>
+
+    <h3>No Clear Ask</h3>
+    <p>
+      A surprising number of pitch decks end without telling the audience what they want. Are you raising money? How much? Are you looking for a partnership? What kind? Are you selling a service? What is the next step? Ambiguity in your ask is a death sentence for conversion. Be explicit, be specific, and make it easy for the audience to say yes.
+    </p>
+
+    <h3>Poor Data Presentation</h3>
+    <p>
+      Unlabeled axes, rainbow-colored pie charts with twelve slices, tables with fifty rows of raw data, and charts without titles. These are all variations of the same problem: putting data on a slide without thinking about what insight the data needs to communicate. Every data visualization should answer one question, and that question should be obvious within three seconds of looking at the slide.
+    </p>
+
+    <div class="callout callout-blue">
+      <div class="callout-label">Quick Check</div>
+      <p>Before finalizing your deck, show it to someone who knows nothing about your business. If they cannot summarize your problem, solution, and ask after one read-through, your deck needs more work.</p>
+    </div>
+
+    <!-- Section 5 -->
+    <h2 id="how-long">How Long Should a <em>Pitch Deck</em> Be?</h2>
+
+    <p>
+      The ideal pitch deck is between ten and fifteen slides. This is not an arbitrary number. It is the result of decades of presentation science and the practical reality of investor attention spans. Guy Kawasaki popularized the 10/20/30 rule: ten slides, twenty minutes, thirty-point font minimum. While this is a useful starting framework, the more important principle is that every slide must earn its place.
+    </p>
+    <p>
+      A twelve-slide deck where every slide delivers essential information is better than a nine-slide deck that skips the business model. Equally, a fifteen-slide deck where every slide is tight and purposeful is better than a ten-slide deck that crams three ideas into each slide. Let the content determine the count, within the ten-to-fifteen range.
+    </p>
+    <p>
+      If you find yourself going beyond fifteen slides, it usually means one of two things: you are including appendix-level detail that belongs in a data room, or you are not being ruthless enough in editing your content. The pitch deck is a conversation starter, not an encyclopedia. Its job is to generate enough interest to earn the next meeting, where you can go deeper.
+    </p>
+    <p>
+      For emailed decks (as opposed to live presentations), consider keeping things tighter, around ten to twelve slides. The reader has no presenter to guide them, so the deck needs to be self-explanatory and quick to scan. For in-person or video call presentations, you can go up to fifteen slides because you are providing narration and can gauge audience engagement in real time.
+    </p>
+
+    <!-- Section 6 -->
+    <h2 id="great-examples">Examples of <em>Great</em> Pitch Decks</h2>
+
+    <p>
+      Studying successful pitch decks is one of the fastest ways to internalize what works. Here are three examples that demonstrate different strengths, each of which you can apply to your own deck.
+    </p>
+
+    <h3>Airbnb's Original Pitch Deck (2009)</h3>
+    <p>
+      Airbnb's seed-round deck is legendary for its simplicity. In just ten slides, the founders established a massive market problem (hotels are expensive, impersonal, and disconnected from local culture), presented their solution (a marketplace for unique accommodations), and demonstrated early traction. The design was minimal, almost crude by today's standards, but the clarity of the narrative was exceptional.
+    </p>
+    <p>
+      Key takeaways from Airbnb's deck: the problem slide used a simple three-column comparison showing hotel prices versus Airbnb prices in major cities. No fancy graphics. Just numbers that told a compelling story. The market size slide used a bottom-up calculation that felt credible rather than aspirational. And the entire deck could be understood by someone with zero context about the company, which is the gold standard for any pitch deck.
+    </p>
+
+    <h3>Buffer's Fundraising Deck (2011)</h3>
+    <p>
+      Buffer's Series A deck is notable for its radical transparency, which matched the company's brand values. The founders included actual revenue numbers, real user metrics, and honest assessments of their challenges. The deck was not visually flashy, but it was structured with clear section dividers, consistent typography, and a logical flow from problem to ask.
+    </p>
+    <p>
+      What made Buffer's deck effective was the alignment between content and brand. Buffer is known for transparency, and their deck embodied that value. The lesson here is that your deck should feel like an extension of your company's identity. If your brand is playful, your deck can be playful. If your brand is data-driven, lead with data. Authenticity in design builds trust faster than any visual technique.
+    </p>
+
+    <h3>Trusto Case Study by OKAD</h3>
+    <p>
+      At OKAD, we worked with Trusto, a fintech startup, to redesign their investor pitch deck from the ground up. The original deck had the right content but suffered from text overload, inconsistent branding, and a weak visual hierarchy. We restructured the narrative, designed a cohesive visual system, and transformed dense text slides into clean, scannable layouts with strategic use of data visualization.
+    </p>
+    <p>
+      The result was a deck that communicated the same information in half the word count, with significantly higher visual impact. Trusto's founders reported that investor meetings became more conversational after the redesign, because the deck did the heavy lifting of establishing context, freeing the founders to focus on answering questions and building rapport. That is the hallmark of a well-designed pitch deck: it works for you, not against you.
+    </p>
+
+    <div class="callout">
+      <div class="callout-label">Key Insight</div>
+      <p>The best pitch decks share one trait: they are relentlessly edited. Every sentence, every data point, every visual element has survived multiple rounds of "does this earn its place on this slide?" If it does not, it gets cut. Treat your deck like a product and iterate ruthlessly.</p>
+    </div>
+
+    <hr class="divider">
+
+    <!-- FAQ Section -->
+    <h2 id="faq">Frequently Asked <em>Questions</em></h2>
+
+    <div class="faq-item">
+      <div class="faq-question">What software should I use to create a pitch deck?</div>
+      <div class="faq-answer">
+        <p>
+          The most popular tools are Figma, Google Slides, Keynote, and PowerPoint. Figma is ideal if you want pixel-perfect design control and easy collaboration. Google Slides works well for teams that need real-time editing and commenting. Keynote produces beautiful animations and transitions for live presentations. PowerPoint is the standard for corporate environments where compatibility matters. Choose the tool your team is most comfortable with; the design principles matter far more than the software.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Should I include animations and transitions in my pitch deck?</div>
+      <div class="faq-answer">
+        <p>
+          Use animations sparingly, if at all. Simple fade-ins or build-ons can help pace information delivery during a live presentation, but elaborate transitions distract from your content. For emailed decks, avoid animations entirely since they do not translate to PDF format, which is how most investors will view your deck. The safest approach is to design your deck so it works perfectly as a static document, then add subtle animations only if you are presenting live.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">How much should a professional pitch deck design cost?</div>
+      <div class="faq-answer">
+        <p>
+          Professional pitch deck design ranges from $2,000 to $15,000 depending on the complexity, number of slides, and level of custom illustration or data visualization required. Template-based designs sit at the lower end, while fully custom decks with original graphics, custom data visualizations, and multiple revision rounds sit at the higher end. The investment typically pays for itself many times over if the deck helps you close funding or win a major client. Consider it a critical business expense, not a discretionary one.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">Can I use a pitch deck template instead of custom design?</div>
+      <div class="faq-answer">
+        <p>
+          Templates can be a reasonable starting point, especially for very early-stage companies with limited budgets. However, templates come with significant drawbacks: they look generic, they often do not align with your brand identity, and experienced investors can spot template decks instantly. If you use a template, customize it heavily: replace all placeholder imagery, adjust the color palette to match your brand, and restructure layouts that do not fit your content. A heavily customized template is far better than a default one, but a custom-designed deck will always outperform both.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">What is the difference between a pitch deck and an investor memo?</div>
+      <div class="faq-answer">
+        <p>
+          A pitch deck is a visual presentation designed to be shown during a meeting or skimmed quickly by an investor. It should be concise, visual, and narrative-driven. An investor memo is a longer-form written document (typically three to eight pages) that provides detailed analysis of your business, market, financials, and strategy. Many founders use both: the pitch deck opens the door, and the investor memo provides the depth needed for due diligence. They serve complementary purposes and should not be conflated. Do not turn your deck into a memo by adding paragraphs of text to each slide.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">How often should I update my pitch deck?</div>
+      <div class="faq-answer">
+        <p>
+          Update your deck whenever your metrics, strategy, or team change materially. At minimum, refresh traction data monthly during an active fundraise. Beyond metrics, refine your narrative based on feedback from every investor meeting. If the same question comes up repeatedly, it means your deck is not addressing that topic clearly enough. The best founders treat their pitch deck as a living document that evolves continuously, not a static artifact that gets created once and forgotten.
+        </p>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <!-- CTA Section -->
+    <div class="cta-section" id="get-help">
+      <h2>Need a Pitch Deck That <em>Wins?</em></h2>
+      <p>
+        OKAD designs pitch decks for startups, agencies, and enterprise teams. We handle everything from narrative structure to visual design, so you can walk into your next meeting with confidence.
+      </p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Free Consultation</a>
+        <a href="mailto:olga@okad.agency" class="btn btn-outline">Email Us</a>
+      </div>
+    </div>
+
+  </article>
+
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+  </footer>
+
+</body>
+</html>

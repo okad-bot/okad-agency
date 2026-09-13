@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website Redesign Checklist: 40 Steps to a Better Site — OKAD Agency</title>
+<meta name="description" content="A comprehensive 40-step website redesign checklist covering planning, design, development, content migration, SEO, launch, and post-launch optimization.">
+<link rel="icon" href="../assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+  --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+  --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+  --purple: #932efa; --purple-bg: #f3e5f5;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+.navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+.navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+.navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+.navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+.navbar-links { display: flex; align-items: center; gap: 32px; }
+.navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+.navbar-links a:hover { color: var(--white); }
+.nav-cta { font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; transition: background 0.2s; }
+.nav-cta:hover { background: var(--green-dark); }
+
+.article-header { max-width: 800px; margin: 0 auto; padding: 64px 32px 0; }
+.article-header .breadcrumb { font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+.article-header .breadcrumb a { color: var(--muted); text-decoration: none; }
+.article-header .breadcrumb a:hover { color: var(--dark); }
+.article-header h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(32px, 4.5vw, 44px); line-height: 1.15; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 16px; }
+.article-header .subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); margin-bottom: 24px; max-width: 640px; }
+.article-meta { font-size: 13px; color: var(--muted); display: flex; gap: 20px; padding-bottom: 32px; border-bottom: 1px solid var(--border); }
+
+.article-body { max-width: 800px; margin: 0 auto; padding: 48px 32px; }
+.article-body h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 28px; letter-spacing: -1px; color: var(--dark); margin: 48px 0 16px; line-height: 1.2; }
+.article-body h2:first-child { margin-top: 0; }
+.article-body h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 20px; letter-spacing: -0.5px; color: var(--dark); margin: 32px 0 12px; line-height: 1.3; }
+.article-body p { font-size: 16px; line-height: 1.7; margin-bottom: 16px; color: var(--text); }
+.article-body ul, .article-body ol { margin: 16px 0; padding-left: 24px; }
+.article-body li { font-size: 16px; line-height: 1.7; margin-bottom: 8px; color: var(--text); }
+.article-body strong { font-weight: 500; color: var(--dark); }
+.article-body a { color: var(--purple); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+.article-body a:hover { border-bottom-color: var(--purple); }
+
+.toc { background: var(--light); border-radius: 16px; padding: 28px 32px; margin-bottom: 48px; }
+.toc-title { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 16px; }
+.toc ol { padding-left: 20px; margin: 0; }
+.toc li { font-size: 15px; line-height: 1.6; margin-bottom: 6px; color: var(--text-light); }
+.toc a { color: var(--text); text-decoration: none; }
+.toc a:hover { color: var(--purple); }
+
+.callout { border-radius: 16px; padding: 24px 28px; margin: 24px 0; }
+.callout-green { background: var(--green-bg); }
+.callout-purple { background: var(--purple-bg); }
+.callout p { margin-bottom: 0; }
+.callout p + p { margin-top: 12px; }
+.callout strong { color: var(--dark); }
+
+/* CHECKLIST */
+.checklist { list-style: none; padding: 0; margin: 24px 0; }
+.checklist li { position: relative; padding: 16px 16px 16px 48px; margin-bottom: 8px; background: var(--off-white); border-radius: 12px; font-size: 15px; line-height: 1.6; border: 1px solid var(--border); }
+.checklist li::before { content: ''; position: absolute; left: 16px; top: 18px; width: 18px; height: 18px; border: 2px solid var(--border); border-radius: 4px; background: var(--white); }
+.checklist .step-num { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 13px; color: var(--green-dark); display: block; margin-bottom: 4px; }
+.checklist .step-title { font-weight: 500; color: var(--dark); }
+.checklist .step-desc { color: var(--text-light); font-size: 14px; margin-top: 4px; display: block; }
+
+/* PHASE HEADER */
+.phase-header { display: flex; align-items: center; gap: 12px; margin: 48px 0 8px; }
+.phase-header:first-child { margin-top: 0; }
+.phase-badge { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 1px; padding: 5px 12px; border-radius: 100px; white-space: nowrap; }
+.badge-planning { background: var(--green-bg); color: var(--green-dark); }
+.badge-content { background: var(--purple-bg); color: var(--purple); }
+.badge-design { background: #e1f5fe; color: #0277bd; }
+.badge-dev { background: #fff8e1; color: #f57f17; }
+.badge-migration { background: #feefdb; color: #bd9156; }
+.badge-launch { background: #fce4ec; color: #c62828; }
+.badge-post { background: var(--light); color: var(--text-light); }
+
+.faq { margin-top: 48px; }
+.faq h2 { margin-bottom: 24px; }
+details { border: 1px solid var(--border); border-radius: 12px; margin-bottom: 12px; background: var(--white); }
+summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 24px; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: '+'; font-size: 20px; color: var(--muted); transition: transform 0.2s; }
+details[open] summary::after { content: '-'; }
+details[open] summary { border-bottom: 1px solid var(--border); }
+.faq-answer { padding: 20px 24px; font-size: 15px; line-height: 1.7; color: var(--text); }
+
+.cta-section { max-width: 800px; margin: 0 auto; padding: 0 32px 80px; }
+.cta-block { background: var(--dark); border-radius: 24px; padding: 64px 48px; text-align: center; }
+.cta-block h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3.5vw, 36px); letter-spacing: -1.5px; line-height: 1.15; color: var(--white); margin-bottom: 16px; }
+.cta-block h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+.cta-block p { color: var(--muted); font-size: 16px; max-width: 480px; margin: 0 auto 32px; line-height: 1.6; }
+.btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; }
+.btn-green { background: var(--green); color: var(--dark); }
+.btn-green:hover { background: var(--green-dark); }
+.btn-outline { background: transparent; color: var(--muted); border: 1px solid rgba(255,255,255,0.15); }
+.btn-outline:hover { color: var(--white); border-color: rgba(255,255,255,0.3); }
+.cta-block .btn { margin: 0 6px; }
+
+.footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+.footer p { font-size: 13px; color: var(--muted); margin: 0; }
+.footer a { color: var(--muted); text-decoration: none; }
+.footer a:hover { color: var(--white); }
+
+@media (max-width: 900px) { .navbar-links { display: none; } }
+@media (max-width: 600px) {
+  .article-header { padding: 40px 20px 0; }
+  .article-body { padding: 32px 20px; }
+  .cta-section { padding: 0 20px 60px; }
+  .cta-block { padding: 48px 24px; border-radius: 20px; }
+  .article-meta { flex-wrap: wrap; gap: 12px; }
+  .checklist li { padding: 14px 14px 14px 44px; }
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a href="/" class="navbar-logo"><span>OKAD</span></a>
+    <div class="navbar-links">
+      <a href="/">Home</a>
+      <a href="/creative-testing.html">Creative Testing</a>
+      <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+    </div>
+  </div>
+</nav>
+
+<header class="article-header">
+  <div class="breadcrumb"><a href="/">OKAD</a> / <a href="/blog/website-redesign-checklist.html">Blog</a></div>
+  <h1>Website Redesign Checklist: 40 Steps to a Better Site</h1>
+  <p class="subtitle">A complete, phase-by-phase checklist for planning, designing, building, and launching a website that actually performs. Based on dozens of redesign projects.</p>
+  <div class="article-meta">
+    <span>September 2026</span>
+    <span>16 min read</span>
+    <span>Web Design</span>
+  </div>
+</header>
+
+<article class="article-body">
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#intro">Before You Start</a></li>
+      <li><a href="#phase-1">Phase 1: Discovery and Planning (Steps 1-8)</a></li>
+      <li><a href="#phase-2">Phase 2: Content Strategy (Steps 9-14)</a></li>
+      <li><a href="#phase-3">Phase 3: UX and Design (Steps 15-22)</a></li>
+      <li><a href="#phase-4">Phase 4: Development (Steps 23-30)</a></li>
+      <li><a href="#phase-5">Phase 5: Content Migration (Steps 31-34)</a></li>
+      <li><a href="#phase-6">Phase 6: Testing and Launch (Steps 35-38)</a></li>
+      <li><a href="#phase-7">Phase 7: Post-Launch (Steps 39-40)</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="intro">Before You Start</h2>
+
+  <p>A website redesign is one of the highest-impact investments a business can make. It is also one of the most common sources of wasted budget, missed deadlines, and internal frustration. The difference between a successful redesign and a painful one almost always comes down to process.</p>
+
+  <p>Most redesign failures share the same root cause: the team jumps straight to visual design without sufficient planning, content strategy, or technical due diligence. Then, halfway through development, stakeholders realize the content does not fit the layouts, the SEO migration plan is missing, or the timeline has doubled.</p>
+
+  <p>This 40-step checklist is the process we use at OKAD for every redesign project. It is organized into seven phases, each with specific deliverables and decision points. You can use it as-is for a complete redesign, or extract individual phases for smaller projects like a homepage refresh or a landing page overhaul.</p>
+
+  <div class="callout callout-green">
+    <p><strong>How to use this checklist.</strong> Work through each phase sequentially. Do not skip to design before completing planning, and do not skip to development before design is approved. Each phase builds on the previous one. The steps within each phase can often run in parallel.</p>
+  </div>
+
+  <!-- PHASE 1 -->
+  <div class="phase-header" id="phase-1">
+    <span class="phase-badge badge-planning">Phase 1</span>
+    <h2 style="margin:0;">Discovery and Planning</h2>
+  </div>
+  <p>The planning phase sets the strategic foundation. Skip it and you will spend the rest of the project making expensive corrections. Invest two to three weeks here and the remaining phases move faster.</p>
+
+  <ol class="checklist">
+    <li>
+      <span class="step-num">Step 1</span>
+      <span class="step-title">Audit current site analytics</span>
+      <span class="step-desc">Pull 6-12 months of data from Google Analytics. Identify your top 20 pages by traffic, your top conversion paths, and your highest bounce-rate pages. This tells you what is working (protect it) and what is failing (fix it). Every redesign decision should reference this data.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 2</span>
+      <span class="step-title">Define business goals for the redesign</span>
+      <span class="step-desc">Write down 3-5 specific, measurable goals. "Increase demo requests by 30%" is a goal. "Make the site look modern" is not. Goals should be tied to business outcomes (revenue, leads, retention), not aesthetic preferences. These goals become the acceptance criteria for the finished site.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 3</span>
+      <span class="step-title">Identify target audience personas</span>
+      <span class="step-desc">Define 2-4 primary user personas with their goals, pain points, and typical behavior on your site. If you serve multiple audiences (buyers, partners, job seekers), map how each persona navigates the site. The redesigned information architecture should prioritize these paths.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 4</span>
+      <span class="step-title">Conduct competitor analysis</span>
+      <span class="step-desc">Review 5-8 competitor websites and 3-5 best-in-class sites from adjacent industries. Document what they do well (navigation patterns, content structure, conversion flows) and where they fall short. This is not about copying; it is about understanding the baseline your audience expects.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 5</span>
+      <span class="step-title">Gather stakeholder requirements</span>
+      <span class="step-desc">Interview every stakeholder who will need to sign off on the finished site. Collect their functional requirements, content needs, and concerns. Get these on record now. Unstated expectations that surface during development are the leading cause of scope creep and timeline delays.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 6</span>
+      <span class="step-title">Set measurable KPIs</span>
+      <span class="step-desc">Translate your business goals into specific metrics with targets and timelines. Example: "Reduce homepage bounce rate from 65% to 45% within 90 days of launch." Define how you will measure each KPI, what tools you will use, and who is responsible for tracking. Without measurable KPIs, you cannot evaluate whether the redesign succeeded.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 7</span>
+      <span class="step-title">Define project timeline and milestones</span>
+      <span class="step-desc">Build a realistic timeline with milestones for each phase. A typical full-site redesign takes 8-16 weeks depending on complexity. Build in buffer for stakeholder review cycles, which typically take 2-3 times longer than teams expect. Identify hard deadlines (product launches, seasonal campaigns) that the site must be live for.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 8</span>
+      <span class="step-title">Establish budget parameters</span>
+      <span class="step-desc">Define the total budget including design, development, content creation, photography, and post-launch optimization. Allocate 60-70% to design and development, 15-20% to content, and 10-15% to testing and post-launch optimization. If the budget does not support the scope, reduce scope now rather than cutting corners during production.</span>
+    </li>
+  </ol>
+
+  <!-- PHASE 2 -->
+  <div class="phase-header" id="phase-2">
+    <span class="phase-badge badge-content">Phase 2</span>
+    <h2 style="margin:0;">Content Strategy</h2>
+  </div>
+  <p>Content strategy should precede visual design, not follow it. Designing layouts before you know what content they need to hold leads to the most common redesign problem: beautiful designs that break as soon as real content replaces placeholder text.</p>
+
+  <ol class="checklist" start="9">
+    <li>
+      <span class="step-num">Step 9</span>
+      <span class="step-title">Audit existing content</span>
+      <span class="step-desc">Catalog every page on your current site. For each page, note: traffic volume, conversion contribution, content quality, and relevance. Categorize pages as keep, update, merge, or remove. Most sites have 30-50% more pages than they need. A redesign is the right time to prune.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 10</span>
+      <span class="step-title">Map content to user journey stages</span>
+      <span class="step-desc">For each persona, map the content they need at each stage: awareness (blog posts, guides), consideration (case studies, comparisons, features), and decision (pricing, testimonials, contact). Identify gaps where you have no content for a critical journey stage. These gaps become your content creation priorities.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 11</span>
+      <span class="step-title">Plan new content needs</span>
+      <span class="step-desc">Based on the gap analysis, define specific content pieces that need to be created. Assign word counts, formats, and deadlines. Content creation is typically the longest lead-time item in a redesign. Start writing early, even before designs are final. Content that is ready when development starts saves weeks.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 12</span>
+      <span class="step-title">Define brand voice and messaging</span>
+      <span class="step-desc">Document your brand voice with specific guidelines: tone (formal vs conversational), vocabulary (technical vs accessible), personality traits (3-5 adjectives). Include examples of on-brand and off-brand writing. This document ensures consistency across all writers and content types.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 13</span>
+      <span class="step-title">Create SEO keyword strategy</span>
+      <span class="step-desc">Identify target keywords for every key page. Map primary and secondary keywords, search intent, and current ranking positions. Your URL structure, page titles, meta descriptions, heading hierarchy, and internal linking strategy should all align with this keyword map. Do not bolt on SEO after the site is built; build it into the structure.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 14</span>
+      <span class="step-title">Plan URL structure and redirects</span>
+      <span class="step-desc">Design your new URL structure to be clean, logical, and keyword-relevant. Map every old URL to its new equivalent. Create a comprehensive 301 redirect plan. This is the single most overlooked step in redesigns, and getting it wrong can destroy years of SEO equity overnight. Document every redirect and test them before launch.</span>
+    </li>
+  </ol>
+
+  <div class="callout callout-purple">
+    <p><strong>The content-first principle.</strong> The best redesign process is content-first, not design-first. When designers work with real content (real headlines, real body copy, real images), the result is layouts that actually work. When designers work with lorem ipsum, the result is layouts that look great in Figma and break on launch day.</p>
+  </div>
+
+  <!-- PHASE 3 -->
+  <div class="phase-header" id="phase-3">
+    <span class="phase-badge badge-design">Phase 3</span>
+    <h2 style="margin:0;">UX and Design</h2>
+  </div>
+  <p>Design is where strategy becomes tangible. The key discipline in this phase is resisting the urge to jump to high-fidelity visuals before the structure and user flows are validated.</p>
+
+  <ol class="checklist" start="15">
+    <li>
+      <span class="step-num">Step 15</span>
+      <span class="step-title">Create site architecture and sitemap</span>
+      <span class="step-desc">Build a visual sitemap showing every page, its hierarchy, and how pages connect. Keep the structure as flat as possible: no page should be more than 3 clicks from the homepage. Group related content logically and ensure the navigation reflects how users think, not how your org chart is structured.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 16</span>
+      <span class="step-title">Design user flows for key conversions</span>
+      <span class="step-desc">Map the exact steps a user takes from landing on your site to completing a key action (purchasing, requesting a demo, signing up). Identify friction points: unnecessary form fields, confusing navigation, missing trust signals. Every redesigned page should explicitly support at least one conversion path.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 17</span>
+      <span class="step-title">Build wireframes for key pages</span>
+      <span class="step-desc">Create low-fidelity wireframes for your 8-12 most important page templates. Focus on content hierarchy, layout structure, and component placement. Wireframes should use real content where possible. Review with stakeholders at this stage; changing a wireframe costs 10 minutes, changing a finished design costs hours.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 18</span>
+      <span class="step-title">Design mobile-first responsive layouts</span>
+      <span class="step-desc">Start with mobile layouts, then expand to tablet and desktop. Over 60% of web traffic is mobile, and mobile-first design forces you to prioritize content hierarchy. Every element must earn its place on the smallest screen. If it does not matter enough to show on mobile, question whether it matters on desktop.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 19</span>
+      <span class="step-title">Establish design system</span>
+      <span class="step-desc">Define your colors (primary, secondary, accent, neutrals), typography scale (heading levels, body text, captions), spacing system (consistent padding and margins using a 4px or 8px grid), and reusable components (buttons, cards, forms, navigation patterns). A design system ensures visual consistency and speeds up both design and development.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 20</span>
+      <span class="step-title">Design key page templates</span>
+      <span class="step-desc">Create high-fidelity designs for your homepage, primary landing page, product or service page, blog post template, and contact or conversion page. These five templates typically cover 80% of your site. Design them with real content, not placeholders.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 21</span>
+      <span class="step-title">Create interactive prototypes</span>
+      <span class="step-desc">Build clickable prototypes in Figma, Sketch, or your preferred tool. Connect the key user flows so stakeholders and testers can experience the navigation, page transitions, and interaction patterns. A prototype reveals usability issues that static mockups hide.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 22</span>
+      <span class="step-title">Conduct usability testing</span>
+      <span class="step-desc">Test prototypes with 5-8 real users from your target audience. Give them specific tasks ("Find the pricing page and request a demo") and observe where they struggle. Five users will uncover approximately 85% of usability issues. Fix critical issues before entering development. Testing at this stage costs hours; fixing issues after launch costs weeks.</span>
+    </li>
+  </ol>
+
+  <!-- PHASE 4 -->
+  <div class="phase-header" id="phase-4">
+    <span class="phase-badge badge-dev">Phase 4</span>
+    <h2 style="margin:0;">Development</h2>
+  </div>
+  <p>Development transforms approved designs into a functional website. The key to this phase is maintaining design fidelity while building for performance, accessibility, and maintainability.</p>
+
+  <ol class="checklist" start="23">
+    <li>
+      <span class="step-num">Step 23</span>
+      <span class="step-title">Choose technology stack</span>
+      <span class="step-desc">Select your CMS, hosting, and front-end framework based on your team's capabilities, performance requirements, and content management needs. For most business websites, a modern CMS (Webflow, WordPress, or a headless CMS) with static or server-rendered pages delivers the best balance of performance, flexibility, and maintainability. Do not over-engineer: choose the simplest stack that meets your requirements.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 24</span>
+      <span class="step-title">Set up development environment</span>
+      <span class="step-desc">Configure version control, staging environment, and deployment pipeline before writing a single line of code. Use a staging URL that mirrors production for stakeholder review. Establish coding standards and review processes. A proper development environment prevents the chaos of working directly on a live site.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 25</span>
+      <span class="step-title">Build responsive front-end</span>
+      <span class="step-desc">Implement the design system as reusable components, then build page templates from those components. Test responsive behavior at every breakpoint as you build, not as a separate QA step later. Use CSS Grid and Flexbox for layout. Ensure fluid typography and spacing that scales smoothly between mobile and desktop viewports.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 26</span>
+      <span class="step-title">Implement CMS and content models</span>
+      <span class="step-desc">Structure your CMS content models to match the design components. Create content types for each page template with appropriate fields, validation rules, and editorial workflows. Train content editors on the CMS. A well-structured CMS makes ongoing content management efficient; a poorly structured one creates bottlenecks.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 27</span>
+      <span class="step-title">Integrate analytics and tracking</span>
+      <span class="step-desc">Implement Google Analytics 4, conversion tracking pixels, and event tracking for key interactions (form submissions, CTA clicks, scroll depth, video plays). Set up Google Tag Manager for flexible tag deployment. Define a data layer that captures user interactions consistently. Test every tracking event before launch.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 28</span>
+      <span class="step-title">Set up forms and lead capture</span>
+      <span class="step-desc">Build all forms with proper validation, error handling, and success states. Connect forms to your CRM or email marketing platform. Implement anti-spam measures (honeypot fields, reCAPTCHA) that do not create friction for real users. Test the complete flow from form submission to CRM record to confirmation email.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 29</span>
+      <span class="step-title">Implement page speed optimizations</span>
+      <span class="step-desc">Optimize images (WebP format, proper sizing, lazy loading), minimize CSS and JavaScript, implement caching, and use a CDN. Target a Largest Contentful Paint (LCP) under 2.5 seconds and a Cumulative Layout Shift (CLS) under 0.1. Page speed directly impacts conversion rates and SEO rankings. Test with Google PageSpeed Insights and Lighthouse.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 30</span>
+      <span class="step-title">Build accessibility features (WCAG 2.1)</span>
+      <span class="step-desc">Implement semantic HTML, proper heading hierarchy, alt text for all images, keyboard navigation, ARIA labels for interactive elements, and sufficient color contrast (4.5:1 minimum). Accessibility is not optional: it is a legal requirement in many jurisdictions and a quality indicator for all users. Test with screen readers (NVDA, VoiceOver) and automated tools (axe, WAVE).</span>
+    </li>
+  </ol>
+
+  <!-- PHASE 5 -->
+  <div class="phase-header" id="phase-5">
+    <span class="phase-badge badge-migration">Phase 5</span>
+    <h2 style="margin:0;">Content Migration</h2>
+  </div>
+  <p>Content migration is the most tedious phase and the one most likely to be rushed. Resist that temptation. Poorly migrated content undermines every investment made in design and development.</p>
+
+  <ol class="checklist" start="31">
+    <li>
+      <span class="step-num">Step 31</span>
+      <span class="step-title">Migrate and optimize existing content</span>
+      <span class="step-desc">Move approved content from the old site to the new CMS. Use this as an opportunity to optimize: update outdated information, improve readability, add internal links, and ensure every page has a clear purpose. Do not copy and paste blindly. Migrate with intention.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 32</span>
+      <span class="step-title">Create new page content</span>
+      <span class="step-desc">Write and publish all new content identified in your content strategy phase. Ensure consistency with your brand voice guidelines. Have a second editor review all content for accuracy, tone, and SEO alignment. Content that is not ready by launch delays the entire project.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 33</span>
+      <span class="step-title">Optimize all images and media</span>
+      <span class="step-desc">Compress every image without visible quality loss. Use modern formats (WebP, AVIF) with JPEG/PNG fallbacks. Ensure every image has descriptive alt text. Size images to their maximum display dimensions, not larger. Unoptimized images are the most common cause of slow page loads, and slow pages lose visitors and rankings.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 34</span>
+      <span class="step-title">Set up 301 redirects for changed URLs</span>
+      <span class="step-desc">Implement every redirect from your URL migration plan. Test each one individually. Pay special attention to high-traffic pages and pages with external backlinks. A single broken redirect on a high-authority page can cost months of SEO recovery. Use a crawling tool like Screaming Frog to verify all old URLs resolve correctly.</span>
+    </li>
+  </ol>
+
+  <div class="callout callout-green">
+    <p><strong>The redirect rule.</strong> Every URL on your old site must either have an equivalent page on the new site or a 301 redirect pointing to the most relevant alternative. No exceptions. Broken URLs mean lost traffic, lost backlinks, and lost trust with search engines. Build and test your redirect map before launch day.</p>
+  </div>
+
+  <!-- PHASE 6 -->
+  <div class="phase-header" id="phase-6">
+    <span class="phase-badge badge-launch">Phase 6</span>
+    <h2 style="margin:0;">Testing and Launch</h2>
+  </div>
+  <p>The final pre-launch phase is about risk reduction. Every hour spent testing saves days of firefighting after launch.</p>
+
+  <ol class="checklist" start="35">
+    <li>
+      <span class="step-num">Step 35</span>
+      <span class="step-title">Cross-browser and device testing</span>
+      <span class="step-desc">Test on Chrome, Safari, Firefox, and Edge on both desktop and mobile. Test on real iOS and Android devices, not just browser emulators. Check your analytics to identify which browsers and devices your audience actually uses and prioritize those. Focus on functional correctness: forms work, navigation works, content displays correctly.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 36</span>
+      <span class="step-title">Performance and load testing</span>
+      <span class="step-desc">Run Lighthouse audits on every key page. Target scores above 90 for Performance, Accessibility, Best Practices, and SEO. Test page load under realistic network conditions (3G, 4G). If your site receives high traffic, load test with tools like k6 or Artillery to ensure the server handles peak volumes without degrading.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 37</span>
+      <span class="step-title">SEO pre-launch checklist</span>
+      <span class="step-desc">Verify: XML sitemap is generated and submitted, robots.txt allows crawling of all public pages, canonical tags are correct on every page, meta titles and descriptions are unique and optimized, structured data (schema markup) is implemented and validated, Open Graph tags are set for social sharing, and all internal links point to live pages (no broken links).</span>
+    </li>
+    <li>
+      <span class="step-num">Step 38</span>
+      <span class="step-title">Staged deployment plan</span>
+      <span class="step-desc">Do not launch on a Friday. Plan your deployment for a Tuesday or Wednesday morning when your team is available to monitor. Have a rollback plan if critical issues emerge. Verify DNS propagation, SSL certificates, and CDN configuration. Monitor error logs and analytics in real-time for the first 24 hours after launch.</span>
+    </li>
+  </ol>
+
+  <!-- PHASE 7 -->
+  <div class="phase-header" id="phase-7">
+    <span class="phase-badge badge-post">Phase 7</span>
+    <h2 style="margin:0;">Post-Launch</h2>
+  </div>
+  <p>Launch is not the finish line. The first 30-90 days after launch are when you validate whether the redesign achieved its goals and make data-driven adjustments.</p>
+
+  <ol class="checklist" start="39">
+    <li>
+      <span class="step-num">Step 39</span>
+      <span class="step-title">Monitor analytics and fix issues</span>
+      <span class="step-desc">Watch your KPIs daily for the first two weeks. Compare traffic, bounce rates, conversion rates, and page load times to your pre-launch baseline. Some metrics will temporarily dip as search engines reindex and users adapt to the new navigation. Look for 404 errors, broken forms, and tracking gaps. Fix issues immediately; they compound when ignored.</span>
+    </li>
+    <li>
+      <span class="step-num">Step 40</span>
+      <span class="step-title">Plan ongoing optimization cycle</span>
+      <span class="step-desc">Schedule monthly reviews of site performance against your KPIs. Set up A/B testing for key conversion pages (homepage hero, pricing page, contact forms). Gather user feedback through surveys or session recordings (Hotjar, FullStory). Your redesigned site is not "done" at launch; it is a starting point for continuous improvement. The best-performing websites are optimized monthly, not redesigned every three years.</span>
+    </li>
+  </ol>
+
+  <div class="callout callout-purple">
+    <p><strong>The 90-day rule.</strong> Reserve 10-15% of your redesign budget for post-launch optimization. The first 90 days after launch are when real user behavior reveals what works and what needs adjustment. Having budget and team availability for rapid changes during this period is the difference between a redesign that stalls and one that continuously improves.</p>
+  </div>
+
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <details>
+      <summary>How long does a website redesign typically take?</summary>
+      <div class="faq-answer">A full website redesign for a business site with 20-50 pages typically takes 10-16 weeks from kickoff to launch. Simple brochure sites (5-10 pages) can be completed in 6-8 weeks. Large sites with complex functionality (e-commerce, membership, integrations) may take 16-24 weeks. The most common cause of delays is not development complexity but stakeholder review cycles and content readiness.</div>
+    </details>
+
+    <details>
+      <summary>How much does a website redesign cost?</summary>
+      <div class="faq-answer">Costs vary widely based on complexity. A basic business website redesign (10-20 pages, standard CMS) runs $8,000-25,000. A mid-range redesign with custom design, animations, and integrations runs $25,000-60,000. Enterprise redesigns with complex functionality, multiple languages, and custom development start at $60,000 and can exceed $150,000. These ranges include design, development, and content migration but not ongoing hosting or maintenance.</div>
+    </details>
+
+    <details>
+      <summary>Will a redesign hurt my SEO rankings?</summary>
+      <div class="faq-answer">It can if the URL structure and redirect strategy are not handled properly. A well-executed redesign with comprehensive 301 redirects, maintained meta data, and improved content typically recovers any initial ranking fluctuation within 4-8 weeks and ultimately improves SEO performance through better page speed, mobile experience, and content quality. The critical factor is the redirect plan: every old URL must resolve to a relevant new page.</div>
+    </details>
+
+    <details>
+      <summary>How do I know when it is time to redesign my website?</summary>
+      <div class="faq-answer">Redesign when: your site is not mobile-responsive (or mobile performance is poor), conversion rates have been declining for 6+ months, the visual design no longer reflects your brand positioning, page load times exceed 3 seconds, the CMS is difficult to update and maintain, or your competitors' sites significantly outperform yours in user experience. Do not redesign purely for aesthetic freshness; redesign when the current site is measurably failing to meet business objectives.</div>
+    </details>
+
+    <details>
+      <summary>Should I redesign my entire site at once or in phases?</summary>
+      <div class="faq-answer">A phased approach reduces risk and spreads investment over time. Start with the highest-impact pages: homepage, primary landing pages, and key conversion pages. Once those are live and validated, proceed to secondary pages, blog redesign, and supporting content. The phased approach is particularly effective for large sites (100+ pages) where a complete simultaneous launch creates excessive risk.</div>
+    </details>
+
+    <details>
+      <summary>Can I redesign my website without losing existing content?</summary>
+      <div class="faq-answer">Yes, and you should plan to preserve your best-performing content. The content audit in Phase 2 identifies which content to keep, update, merge, or remove. High-performing blog posts, resource pages, and SEO-ranked content should be migrated carefully with their URL structure preserved or properly redirected. A redesign is an opportunity to improve your content, not an excuse to start from scratch and lose years of SEO equity.</div>
+    </details>
+
+    <details>
+      <summary>Do I need to hire a design agency or can I use a website builder?</summary>
+      <div class="faq-answer">It depends on your goals. Website builders like Webflow, Squarespace, and Wix are excellent for simple business sites with standard layouts and limited custom functionality. They are cost-effective and allow non-technical team members to make updates. Hire a design agency when you need custom design that differentiates your brand, complex user flows, integrations with business systems, or a level of polish and performance that templates cannot deliver.</div>
+    </details>
+  </div>
+
+</article>
+
+<section class="cta-section">
+  <div class="cta-block">
+    <h2>Ready to redesign<br><em>your website?</em></h2>
+    <p>We design and build websites that convert. Tell us about your project and we will outline the right approach for your goals, timeline, and budget.</p>
+    <div>
+      <a href="mailto:olga@okad.agency?subject=Website%20redesign%20project" class="btn btn-green">Get in touch</a>
+      <a href="https://calendly.com/okad_calls/first" class="btn btn-outline" target="_blank">Book a call</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+</footer>
+
+</body>
+</html>
