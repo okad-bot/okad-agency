@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Ads Production — OKAD Agency</title>
+  <meta name="description" content="Scroll-stopping video ads for DTC brands, apps, and SaaS. 500+ videos produced. UGC, product demos, testimonials — delivered in 7 days. Book a call with OKAD Agency.">
+  <link rel="icon" href="assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+      --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+      --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+      --purple: #932efa; --purple-bg: #f3e5f5; --purple-light: #d1b5ff;
+      --blue: #2341ff; --blue-bg: #e1f5fe; --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4; --warm-border: #ded8d3;
+      --orange-bg: #feefdb; --orange-muted: #bd9156;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark); color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-outline-dark { background: transparent; color: var(--text-light); border: 1px solid var(--border); }
+    .btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+    .btn-outline-light { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-outline-light:hover { border-color: rgba(255,255,255,0.5); }
+    .btn-green-on-dark { background: var(--green); color: var(--dark); }
+    .btn-green-on-dark:hover { background: var(--green-dark); }
+
+    /* Hero */
+    .hero { background: var(--light); padding: 80px 32px; }
+    .hero-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; letter-spacing: -2px; color: var(--dark); margin-bottom: 20px; }
+    .hero h1 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .hero-subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); max-width: 600px; margin: 0 auto 32px; }
+    .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Sections */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+    .section-center p { max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
+    .section-center h2 { text-align: center; }
+
+    /* Stats Row */
+    .stats-row { background: var(--dark); padding: 48px 32px; }
+    .stats-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+    .stat-item h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(28px, 3.5vw, 40px); color: var(--green); letter-spacing: -1px; margin-bottom: 4px; }
+    .stat-item p { font-size: 14px; color: var(--muted); line-height: 1.4; margin-bottom: 0; max-width: none; }
+
+    /* Color Cards Grid */
+    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .card { border-radius: 20px; padding: 28px; }
+    .card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .card p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .card-green { background: var(--green-bg); }
+    .card-purple { background: var(--purple-bg); }
+    .card-blue { background: var(--blue-bg); }
+    .card-warm { background: var(--warm-bg); }
+    .card-orange { background: var(--orange-bg); }
+    .card-off-white { background: var(--off-white); border: 1px solid var(--border); }
+
+    /* Steps */
+    .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .step { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .step-num { font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--green-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .step h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .step p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+
+    /* Deliverables */
+    .deliverables-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 32px; }
+    .deliverable { background: var(--off-white); border-radius: 16px; padding: 24px; }
+    .deliverable-icon { font-size: 24px; margin-bottom: 12px; }
+    .deliverable h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); margin-bottom: 8px; letter-spacing: -0.2px; }
+    .deliverable p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+
+    /* Pricing */
+    .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
+    .pricing-card { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 32px; display: flex; flex-direction: column; }
+    .pricing-card.featured { border-color: var(--green-dark); box-shadow: 0 0 0 1px var(--green-dark); position: relative; }
+    .pricing-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: var(--green); color: var(--dark); font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; padding: 4px 16px; border-radius: 100px; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
+    .pricing-card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 20px; color: var(--dark); margin-bottom: 4px; letter-spacing: -0.3px; }
+    .pricing-card .price { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 32px; color: var(--dark); letter-spacing: -1px; margin-bottom: 16px; }
+    .pricing-card .price span { font-size: 16px; color: var(--muted); font-weight: 400; }
+    .pricing-card ul { list-style: none; padding: 0; margin: 0 0 24px; flex-grow: 1; }
+    .pricing-card ul li { font-size: 14px; line-height: 1.5; color: var(--text); padding: 8px 0; border-bottom: 1px solid var(--border); display: flex; align-items: flex-start; gap: 8px; }
+    .pricing-card ul li::before { content: "\2713"; color: var(--green-dark); font-weight: 600; flex-shrink: 0; }
+    .pricing-card .btn { text-align: center; width: 100%; }
+
+    /* Who This Is For */
+    .audience-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .audience-card { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .audience-card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; color: var(--dark); margin-bottom: 8px; letter-spacing: -0.3px; }
+    .audience-card p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .audience-card .tag { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--green-dark); background: var(--green-bg); padding: 4px 10px; border-radius: 100px; margin-bottom: 12px; }
+
+    /* FAQ */
+    .faq-list { margin-top: 32px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-item summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 0; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; letter-spacing: -0.2px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; font-size: 20px; color: var(--muted); transition: transform 0.2s; flex-shrink: 0; margin-left: 16px; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item .faq-answer { padding: 0 0 20px; font-size: 15px; line-height: 1.65; color: var(--text); max-width: 680px; }
+
+    /* Final CTA */
+    .cta-section { background: var(--dark); padding: 80px 32px; text-align: center; }
+    .cta-inner { max-width: 700px; margin: 0 auto; }
+    .cta-section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(28px, 3.5vw, 40px); line-height: 1.15; letter-spacing: -1.5px; color: var(--white); margin-bottom: 16px; }
+    .cta-section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .cta-section p { font-size: 16px; line-height: 1.6; color: var(--muted); max-width: 520px; margin: 0 auto 32px; }
+    .cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Divider */
+    .section-divider { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+    .section-divider hr { border: none; border-top: 1px solid var(--border); }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-inner { padding: 0 16px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { display: none; }
+
+      .hero { padding: 48px 16px; }
+      .hero h1 { font-size: 32px; letter-spacing: -1px; }
+      .hero-subtitle { font-size: 16px; margin-bottom: 24px; }
+
+      .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+      .stats-row { padding: 32px 16px; }
+      .stat-item h3 { font-size: 28px; }
+
+      .section { padding: 40px 16px; }
+
+      .cards-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .deliverables-grid { grid-template-columns: 1fr; }
+      .pricing-grid { grid-template-columns: 1fr; }
+      .audience-grid { grid-template-columns: 1fr; }
+
+      .pricing-card.featured { margin-top: 12px; }
+
+      .cta-section { padding: 48px 16px; }
+      .cta-section h2 { font-size: 28px; }
+
+      .section-divider { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Video Ads That <em>Actually Convert</em></h1>
+      <p class="hero-subtitle">We produce scroll-stopping video ads for DTC brands, apps, and SaaS companies. From raw UGC to polished product demos, every frame is built to drive clicks, signups, and sales on Meta, TikTok, and YouTube Shorts.</p>
+      <div class="hero-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Strategy Call</a>
+        <a href="mailto:olga@okad.agency" class="btn btn-outline-dark">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Row -->
+  <section class="stats-row">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <h3>500+</h3>
+        <p>Videos Produced</p>
+      </div>
+      <div class="stat-item">
+        <h3>40-70</h3>
+        <p>Creatives per Batch</p>
+      </div>
+      <div class="stat-item">
+        <h3>3x</h3>
+        <p>Average ROAS Lift</p>
+      </div>
+      <div class="stat-item">
+        <h3>7 Days</h3>
+        <p>Average Turnaround</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Produce -->
+  <section class="section">
+    <h2>What We <em>Produce</em></h2>
+    <p>Every brand needs a different mix of creative formats. We produce the full spectrum of video ad types so you can test broadly, find your winners, and scale what works. Here is exactly what we deliver.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>UGC-Style Ads</h3>
+        <p>Authentic, creator-driven content that looks native to the feed. Real people talking about your product in their own words, filmed on their own phones. This format consistently outperforms polished brand content on Meta and TikTok because it feels like a recommendation from a friend, not an advertisement. We brief creators with proven hook structures and talking points while leaving room for genuine delivery that algorithms reward with lower CPMs.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Product Demos</h3>
+        <p>Clear, compelling demonstrations that show your product in action. Whether it is a physical item being unboxed and used or a software walkthrough with screen recording, product demos remove the guesswork for potential buyers. We shoot these with close-up detail shots, clean lighting, and tight editing so viewers understand the value proposition in under 30 seconds. These work especially well for mid-funnel retargeting on Meta and YouTube.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Testimonial Videos</h3>
+        <p>Nothing sells like social proof. We coordinate with your existing customers or match you with creators who genuinely use products in your category. Each testimonial follows a proven structure: the problem they had, how they found your product, and the specific results they experienced. We capture these in both short-form (15-30 seconds) for TikTok and longer-form (60-90 seconds) for YouTube Shorts and Meta.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Before/After Transformations</h3>
+        <p>The most psychologically compelling format in performance marketing. Show the problem state, introduce your product, and reveal the result. This format drives some of the highest click-through rates we see across all categories because it creates an immediate emotional response. Particularly effective for skincare, fitness, home improvement, cleaning products, and any category where visual transformation is possible.</p>
+      </div>
+      <div class="card card-orange">
+        <h3>Unboxing &amp; First Impressions</h3>
+        <p>Capture the excitement of receiving and opening your product for the first time. Unboxing videos tap into the anticipation and discovery that drives impulse purchases. We film these with multiple camera angles and genuine reactions, then cut them into fast-paced, attention-grabbing sequences. The first three seconds always feature a compelling hook because that is where 70% of viewers decide to keep watching or scroll past.</p>
+      </div>
+      <div class="card card-off-white">
+        <h3>Lifestyle &amp; Talking Head</h3>
+        <p>Lifestyle content places your product in real-world context, showing how it fits into daily routines and solves everyday problems. Talking head videos pair a creator directly addressing the camera with B-roll footage that reinforces the message. We combine both formats with text overlays, captions, and trending audio to maximize engagement. These are the workhorse formats for top-of-funnel awareness campaigns on every major platform.</p>
+      </div>
+      <div class="card card-green">
+        <h3>AI-Enhanced Creatives</h3>
+        <p>We use AI tools to extend what is possible in post-production: background replacement, visual effects, dynamic text animations, and intelligent scene transitions. This is not about replacing human creators. It is about making each piece of footage work harder. A single shoot can produce three to five distinct visual treatments, each testing a different aesthetic or messaging angle. This multiplies your creative volume without multiplying your production budget.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Platform-Native Formats</h3>
+        <p>Every platform has different specs, different audience behaviors, and different algorithmic preferences. We do not just resize your ads. We re-edit them for each platform. TikTok gets faster cuts, trending sounds, and native text styling. Meta gets optimized hooks and aspect ratios for Stories, Reels, and Feed. YouTube Shorts gets slightly longer builds with stronger retention hooks. Each version is a standalone creative optimized for where it will run.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Our Process -->
+  <section class="section">
+    <h2>Our <em>Process</em></h2>
+    <p>We have refined this workflow across hundreds of campaigns. Every step is designed to move fast without cutting corners. Most clients go from kickoff to first deliverables in seven business days.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 01</div>
+        <h3>Brief &amp; Strategy</h3>
+        <p>We start by understanding your product, your audience, and your current ad performance. You fill out our creative brief or hop on a 30-minute strategy call where we audit your existing ads, identify gaps in your creative mix, and define the formats, angles, and hooks most likely to move your key metrics. We research your competitors and analyze what is working in your category right now. By the end of this step, we have a clear production plan with specific concepts, scripts, and a creator shortlist tailored to your brand.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 02</div>
+        <h3>Script Development</h3>
+        <p>Our copywriters develop scripts using proven direct-response frameworks. Every script starts with a hook designed to stop the scroll in the first 1.5 seconds, followed by a problem-agitation sequence, your product as the solution, social proof or a specific benefit, and a clear call to action. We typically write three to five script variations per concept so you have multiple angles to test. You review and approve before anything goes into production. We also prepare visual shot lists and text overlay copy for the editing team.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 03</div>
+        <h3>Creator Matching</h3>
+        <p>We maintain a vetted network of over 600 UGC creators across demographics, niches, and content styles. Based on your brand voice and target audience, we select creators who authentically match your product category. You get profile cards with sample work, audience demographics, and past performance data for each recommended creator. Once you approve the selection, we handle all creator coordination: contracts, product shipping, briefing, and timeline management. No chasing freelancers or managing spreadsheets on your end.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 04</div>
+        <h3>Production</h3>
+        <p>Creators film according to the approved scripts and shot lists. We provide detailed filming guidelines covering lighting, framing, audio quality, and platform-specific requirements. Every creator submits raw footage for quality review before we move to editing. If anything does not meet our standards, we request reshoots immediately. For product demos and studio content, we handle production in-house with professional equipment. This step typically takes three to four days, and we can run multiple creators simultaneously to compress the timeline further.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 05</div>
+        <h3>Editing &amp; Optimization</h3>
+        <p>Our editors cut each video with performance in mind. That means tight pacing, dynamic text overlays, branded lower thirds, sound design, and platform-native formatting. We create multiple versions of each core creative: different hooks, different lengths (15, 30, and 60 seconds), and different aspect ratios (9:16, 1:1, and 4:5). Each version is a distinct testable asset, not just a crop. We also generate thumbnail stills from key frames for use in static ad placements. You receive organized deliverables labeled by concept, creator, platform, and duration.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 06</div>
+        <h3>Testing &amp; Iteration</h3>
+        <p>Delivery is not the finish line. We provide a testing framework that tells you exactly how to structure your ad sets for maximum learning. After your first round of spend, we analyze performance data with you: which hooks are stopping the scroll, which creators drive the most conversions, which formats deliver the best ROAS. We use these insights to inform the next production batch, doubling down on what works and replacing what does not. Clients who commit to iterative testing cycles consistently see ROAS improvements of two to three times within the first 60 days.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- What You Get -->
+  <section class="section">
+    <h2>What You <em>Get</em></h2>
+    <p>Every engagement comes with a complete deliverable package. No hidden fees, no surprise upcharges. Here is everything included in your production order.</p>
+
+    <div class="deliverables-grid">
+      <div class="deliverable">
+        <div class="deliverable-icon">&#127916;</div>
+        <h3>Raw Footage Files</h3>
+        <p>Full unedited footage from every creator and every shoot. You own all raw files and can repurpose them for organic social, email marketing, landing pages, or future ad iterations. Delivered via cloud drive within 24 hours of production completion.</p>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-icon">&#9999;&#65039;</div>
+        <h3>Edited Video Ads</h3>
+        <p>Professionally edited videos with text overlays, sound design, branded elements, and platform-optimized pacing. Each core creative is delivered in multiple hook variations and length cuts so you can test systematically without re-editing.</p>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-icon">&#128250;</div>
+        <h3>Platform-Specific Cuts</h3>
+        <p>Every video is delivered in the aspect ratios and specifications required by your target platforms. Vertical 9:16 for TikTok, Instagram Reels, and YouTube Shorts. Square 1:1 for Meta Feed. Vertical 4:5 for Meta Feed optimization. Each is a standalone creative, not a lazy crop.</p>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-icon">&#128247;</div>
+        <h3>Thumbnail Stills</h3>
+        <p>High-resolution still frames pulled from key moments in each video. Use these as ad thumbnails, social media posts, email banners, or landing page hero images. We select frames that capture attention and communicate the core message at a glance.</p>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-icon">&#128202;</div>
+        <h3>Performance Tracking Guide</h3>
+        <p>A structured testing playbook that tells you exactly how to set up your campaigns for each platform, which metrics to watch in the first 48 hours, and when to kill or scale each creative. This is not generic advice. It is a specific plan built around the exact assets we delivered.</p>
+      </div>
+      <div class="deliverable">
+        <div class="deliverable-icon">&#128221;</div>
+        <h3>Scripts &amp; Hook Library</h3>
+        <p>All approved scripts, hook variations, and copywriting frameworks used in your production. You retain full ownership and can use these as templates for future content, organic social captions, email subject lines, or landing page copy. We label each script with its performance angle for easy reference.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Pricing -->
+  <section class="section section-center">
+    <h2>Pricing <em>Tiers</em></h2>
+    <p>Transparent pricing. No retainers, no long-term contracts. Pay per batch, scale when you are ready. Every tier includes raw footage, edited videos, platform cuts, and thumbnail stills.</p>
+
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <div class="price">$3,500 <span>/ batch</span></div>
+        <ul>
+          <li>10 edited video ads</li>
+          <li>2 UGC creators</li>
+          <li>3 concept angles</li>
+          <li>Hook variations per video</li>
+          <li>Multi-platform cuts (9:16, 1:1, 4:5)</li>
+          <li>1 round of revisions</li>
+          <li>Raw footage included</li>
+          <li>7-day turnaround</li>
+        </ul>
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-outline-dark">Get Started</a>
+      </div>
+      <div class="pricing-card featured">
+        <div class="pricing-badge">Most Popular</div>
+        <h3>Growth</h3>
+        <div class="price">$7,500 <span>/ batch</span></div>
+        <ul>
+          <li>30 edited video ads</li>
+          <li>4 UGC creators</li>
+          <li>6 concept angles</li>
+          <li>A/B hook and CTA variants</li>
+          <li>Multi-platform cuts (9:16, 1:1, 4:5)</li>
+          <li>2 rounds of revisions</li>
+          <li>Raw footage included</li>
+          <li>Thumbnail stills package</li>
+          <li>Testing playbook included</li>
+          <li>7-day turnaround</li>
+        </ul>
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+      </div>
+      <div class="pricing-card">
+        <h3>Scale</h3>
+        <div class="price">$12,000+ <span>/ batch</span></div>
+        <ul>
+          <li>50-70 edited video ads</li>
+          <li>6+ UGC creators</li>
+          <li>10+ concept angles</li>
+          <li>Full A/B testing matrix</li>
+          <li>Multi-platform cuts (9:16, 1:1, 4:5)</li>
+          <li>Unlimited revisions</li>
+          <li>Raw footage included</li>
+          <li>Dedicated creative strategist</li>
+          <li>Monthly performance reviews</li>
+          <li>Priority 5-day turnaround</li>
+        </ul>
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-outline-dark">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Who This Is For -->
+  <section class="section">
+    <h2>Who This Is <em>For</em></h2>
+    <p>We work with growth-focused companies that treat creative as a performance lever, not an afterthought. If you are spending on paid media and need a reliable pipeline of fresh video content, we are built for you.</p>
+
+    <div class="audience-grid">
+      <div class="audience-card">
+        <div class="tag">DTC Brands</div>
+        <h3>Direct-to-Consumer Brands</h3>
+        <p>You sell a physical product online and you know that creative fatigue is the silent killer of profitable campaigns. Your Meta and TikTok ads need constant refreshing, and your internal team cannot keep up with the volume required to test properly. We produce 30 to 70 unique creatives per batch so you always have fresh assets in rotation. Our clients in skincare, supplements, fashion, food, and home goods consistently see CPAs drop by 20 to 40 percent when they switch from sporadic creative refreshes to a systematic production cadence.</p>
+      </div>
+      <div class="audience-card">
+        <div class="tag">Mobile Apps</div>
+        <h3>App &amp; Mobile Products</h3>
+        <p>User acquisition for apps demands a high volume of creative testing. You need videos that communicate your value proposition fast, demonstrate the in-app experience clearly, and drive installs at a sustainable cost. We produce screen recording walkthroughs, creator reaction videos, problem-solution narratives, and hybrid formats that combine live action with app UI footage. Whether you are a fitness app, a fintech product, or a social platform, we know how to make your first-session experience feel irresistible in a 15-second vertical video.</p>
+      </div>
+      <div class="audience-card">
+        <div class="tag">SaaS</div>
+        <h3>SaaS &amp; Software Companies</h3>
+        <p>B2B and B2C software companies often struggle with video because their product is not physical. That is exactly where our expertise matters. We create screen capture demos with professional voiceover, talking head explainers from credible creators in your niche, customer testimonial compilations, and comparison videos that position your product against alternatives. For SaaS companies running paid acquisition on Meta, LinkedIn, or YouTube, high-quality video ads routinely deliver two to four times better conversion rates compared to static image ads.</p>
+      </div>
+      <div class="audience-card">
+        <div class="tag">E-Commerce</div>
+        <h3>E-Commerce &amp; Marketplaces</h3>
+        <p>Whether you are selling on your own Shopify store or driving traffic to Amazon listings, video ads are the highest-leverage investment in your marketing stack right now. We help e-commerce brands build a library of tested creative assets that can be deployed across Meta, TikTok, Google, and Amazon video placements. Our batch model means you get enough creative diversity to run proper split tests: different hooks, different creators, different formats, all competing to find the combination that delivers the lowest cost per acquisition at scale.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h2>Frequently Asked <em>Questions</em></h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>How long does it take to receive the finished videos?</summary>
+        <div class="faq-answer">Our standard turnaround is seven business days from brief approval to final delivery. This includes creator coordination, filming, editing, and quality review. For Scale tier clients, we offer a priority five-day turnaround. If you need assets faster for a specific launch or campaign, let us know during the strategy call and we will build a custom timeline. Rush delivery is available for an additional fee when creator schedules allow it.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do I own the content you produce?</summary>
+        <div class="faq-answer">Yes. You receive full ownership and usage rights for all deliverables, including raw footage, edited videos, scripts, and thumbnail stills. There are no licensing fees, no royalties, and no usage restrictions. You can run the content on any platform, repurpose it for organic social, embed it on your website, or use it in email marketing. Creator agreements include full commercial usage rights as part of the production fee.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I choose specific creators for my brand?</summary>
+        <div class="faq-answer">Absolutely. During the creator matching phase, we present you with a shortlist of recommended creators complete with profile cards, sample work, and demographic information. You approve every creator before production begins. If you have specific requirements around age, gender, ethnicity, location, or content style, we filter our 600+ creator network accordingly. If you already work with creators you like, we can integrate them into our production workflow as well.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What platforms do you optimize videos for?</summary>
+        <div class="faq-answer">We deliver platform-specific versions for Meta (Facebook and Instagram Feed, Stories, and Reels), TikTok, YouTube Shorts, Snapchat, Pinterest, and LinkedIn. Each platform version is re-edited to match that platform's best practices, not just resized. TikTok versions get faster pacing and native text styling. Meta versions get optimized hooks for autoplay environments. YouTube Shorts versions get slightly longer retention builds. We include all platform versions in every tier at no extra charge.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What if I am not happy with the videos?</summary>
+        <div class="faq-answer">Every tier includes revision rounds. Starter includes one round, Growth includes two rounds, and Scale includes unlimited revisions. A revision round covers changes to editing, text overlays, music, pacing, and color grading. If a fundamental creative direction change is needed, we will reshoot with the same creator at no cost. Our approval rate on first delivery is above 90% because we align closely during the brief and script approval stages before any filming begins.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you handle the ad buying and media placement?</summary>
+        <div class="faq-answer">Our core service is creative production, not media buying. However, we provide a detailed testing playbook with every order that shows you exactly how to structure your ad sets, which metrics to monitor, and when to scale or kill each creative. If you need a full-service solution that includes media buying, we can recommend trusted partners or discuss a custom engagement. Many of our clients work with a separate media buyer and use us exclusively for creative production.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How is this different from hiring freelancers or an in-house team?</summary>
+        <div class="faq-answer">Hiring freelancers means you manage the entire workflow yourself: finding creators, negotiating rates, writing briefs, coordinating shipping, reviewing footage, managing revisions, and handling contracts. With an in-house team, you are looking at salaries, equipment, software, and the overhead of managing creative staff. We are the middle path: you get agency-quality production with a vetted creator network and a proven process, but you pay per batch instead of carrying fixed costs. Our clients tell us they save 60 to 80 hours per month compared to managing production in-house.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What information do you need from me to get started?</summary>
+        <div class="faq-answer">We need four things: access to your product (physical samples or software login), your brand guidelines if you have them (logos, fonts, color palette, tone of voice), access to your current ad account so we can review past performance, and a completed creative brief or a 30-minute strategy call. If you do not have brand guidelines, we will establish the creative direction during the brief phase. If you have not run video ads before, that is fine too. We will build the strategy from scratch based on what is working in your category.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I order a single test batch before committing to a larger package?</summary>
+        <div class="faq-answer">Yes. There are no contracts or minimums beyond a single batch. Most clients start with a Starter or Growth batch to validate the quality and workflow, then move to recurring monthly orders once they see performance data. We do not lock you into retainers or long-term commitments. If the first batch delivers results, you will want to keep ordering. If it does not, you have no obligation to continue. That said, creative testing is inherently iterative, and we see the best results from clients who commit to at least two to three consecutive batches to build a meaningful dataset.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you work with international brands or only US-based companies?</summary>
+        <div class="faq-answer">We work with brands globally. Our creator network spans the United States, United Kingdom, Canada, Australia, and Europe, so we can match creators who speak the right language and fit the right market. We have produced campaigns in English, Spanish, Portuguese, German, and French. Communication with our team is in English, and all project management happens asynchronously via shared drives and messaging, so timezone differences are never a blocker. Payment is accepted in USD via wire transfer or cryptocurrency.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to Fill Your Ad Account with <em>Winning Creatives</em>?</h2>
+      <p>Book a free strategy call and we will audit your current creative, identify your biggest opportunities, and map out a production plan tailored to your goals and budget.</p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green-on-dark">Book a Free Strategy Call</a>
+        <a href="mailto:olga@okad.agency" class="btn btn-outline-light">Email olga@okad.agency</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
+  </footer>
+
+</body>
+</html>
