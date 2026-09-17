@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motion Design Studio — OKAD Agency</title>
+  <meta name="description" content="Professional motion design and animation for ads, social media, and product marketing. Animated explainers, logo animations, social video, and motion graphics from OKAD Agency.">
+  <link rel="canonical" href="https://okad.agency/services/motion-design.html">
+  <meta property="og:title" content="Motion Design Studio — OKAD Agency">
+  <meta property="og:description" content="Professional motion design and animation for ads, social media, and product marketing. Animated explainers, logo animations, social video, and motion graphics from OKAD Agency.">
+  <meta property="og:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <meta property="og:url" content="https://okad.agency/services/motion-design.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Motion Design Studio — OKAD Agency">
+  <meta name="twitter:description" content="Professional motion design and animation for ads, social media, and product marketing. Animated explainers, logo animations, social video, and motion graphics from OKAD Agency.">
+  <meta name="twitter:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <link rel="icon" href="assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+      --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+      --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+      --purple: #932efa; --purple-bg: #f3e5f5; --purple-light: #d1b5ff;
+      --blue: #2341ff; --blue-bg: #e1f5fe; --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4; --warm-border: #ded8d3;
+      --orange-bg: #feefdb; --orange-muted: #bd9156;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark); color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-outline-dark { background: transparent; color: var(--text-light); border: 1px solid var(--border); }
+    .btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+    .btn-outline-light { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-outline-light:hover { border-color: rgba(255,255,255,0.5); }
+    .btn-green-on-dark { background: var(--green); color: var(--dark); }
+    .btn-green-on-dark:hover { background: var(--green-dark); }
+
+    /* Hero */
+    .hero { background: var(--light); padding: 80px 32px; }
+    .hero-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; letter-spacing: -2px; color: var(--dark); margin-bottom: 20px; }
+    .hero h1 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .hero-subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); max-width: 600px; margin: 0 auto 32px; }
+    .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Sections */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+    .section-center p { max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
+    .section-center h2 { text-align: center; }
+
+    /* Stats Row */
+    .stats-row { background: var(--dark); padding: 48px 32px; }
+    .stats-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+    .stat-item h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(28px, 3.5vw, 40px); color: var(--green); letter-spacing: -1px; margin-bottom: 4px; }
+    .stat-item p { font-size: 14px; color: var(--muted); line-height: 1.4; margin-bottom: 0; max-width: none; }
+
+    /* Color Cards Grid */
+    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .card { border-radius: 20px; padding: 28px; }
+    .card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .card p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .card-green { background: var(--green-bg); }
+    .card-purple { background: var(--purple-bg); }
+    .card-blue { background: var(--blue-bg); }
+    .card-warm { background: var(--warm-bg); }
+    .card-orange { background: var(--orange-bg); }
+    .card-off-white { background: var(--off-white); border: 1px solid var(--border); }
+
+    /* Steps */
+    .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .step { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .step-num { font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--green-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .step h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .step p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+
+    /* FAQ */
+    .faq-list { margin-top: 32px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-item summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 0; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; letter-spacing: -0.2px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; font-size: 20px; color: var(--muted); transition: transform 0.2s; flex-shrink: 0; margin-left: 16px; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item .faq-answer { padding: 0 0 20px; font-size: 15px; line-height: 1.65; color: var(--text); max-width: 680px; }
+
+    /* Final CTA */
+    .cta-section { background: var(--dark); padding: 80px 32px; text-align: center; }
+    .cta-inner { max-width: 700px; margin: 0 auto; }
+    .cta-section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(28px, 3.5vw, 40px); line-height: 1.15; letter-spacing: -1.5px; color: var(--white); margin-bottom: 16px; }
+    .cta-section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .cta-section p { font-size: 16px; line-height: 1.6; color: var(--muted); max-width: 520px; margin: 0 auto 32px; }
+    .cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Divider */
+    .section-divider { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+    .section-divider hr { border: none; border-top: 1px solid var(--border); }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-inner { padding: 0 16px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { display: none; }
+
+      .hero { padding: 48px 16px; }
+      .hero h1 { font-size: 32px; letter-spacing: -1px; }
+      .hero-subtitle { font-size: 16px; margin-bottom: 24px; }
+
+      .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+      .stats-row { padding: 32px 16px; }
+      .stat-item h3 { font-size: 28px; }
+
+      .section { padding: 40px 16px; }
+
+      .cards-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+
+      .cta-section { padding: 48px 16px; }
+      .cta-section h2 { font-size: 28px; }
+
+      .section-divider { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Motion Design — Animated Content for <em>Ads &amp; Social</em></h1>
+      <p class="hero-subtitle">We create motion graphics, animated explainers, social video content, and logo animations that capture attention and communicate complex ideas in seconds. Every animation is designed to stop the scroll and drive engagement across paid and organic channels.</p>
+      <div class="hero-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-dark">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Row -->
+  <section class="stats-row">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <h3>400+</h3>
+        <p>Animations Delivered</p>
+      </div>
+      <div class="stat-item">
+        <h3>15s</h3>
+        <p>Avg Attention Captured</p>
+      </div>
+      <div class="stat-item">
+        <h3>5-7 Days</h3>
+        <p>Average Turnaround</p>
+      </div>
+      <div class="stat-item">
+        <h3>60+</h3>
+        <p>Brands Served</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Animate -->
+  <section class="section">
+    <h2>What We <em>Animate</em></h2>
+    <p>From subtle logo reveals to full explainer videos, we produce the motion design formats that modern brands need to stand out. Every animation is built with purpose, performance, and platform requirements in mind.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Logo Animations &amp; Idents</h3>
+        <p>Your logo is the most recognized element of your brand, and a well-crafted animation brings it to life. We design logo reveals, stingers, and broadcast idents that work across video intros, social posts, presentations, and digital signage. Each animation is delivered in multiple formats and loop-ready versions so you can use it everywhere your brand appears on screen.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Explainer Videos</h3>
+        <p>Complex products and services need clear communication. Our animated explainers break down how your product works, why it matters, and what makes it different in 30 to 90 seconds. We handle the full pipeline from script and voiceover direction to storyboarding and final animation. These are the highest-converting assets on landing pages, in sales decks, and across paid campaigns.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Social Media Animations</h3>
+        <p>Static posts get scrolled past. Animated content stops thumbs. We produce short-form motion graphics optimized for Instagram Reels, TikTok, LinkedIn, and Stories. Whether it is an animated quote, a data visualization, a product feature callout, or a promotional announcement, every piece is designed to maximize engagement within each platform's native format and autoplay behavior.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Product Feature Highlights</h3>
+        <p>Show what your product does without requiring a full demo video. Animated feature highlights isolate individual capabilities with clean visuals, kinetic typography, and smooth transitions. These modular assets work in ads, onboarding flows, app store listings, and email campaigns. We produce them as a series so you can roll out features one at a time or combine them into a comprehensive overview.</p>
+      </div>
+      <div class="card card-orange">
+        <h3>Ad Creative Motion</h3>
+        <p>Performance advertising demands volume and variety. We produce animated ad creatives built for testing across Meta, TikTok, YouTube, and programmatic display. Each creative includes hook variations, multiple aspect ratios, and platform-specific pacing. Motion-based ads consistently outperform static images on click-through rate and cost per acquisition because movement captures attention in crowded feeds.</p>
+      </div>
+      <div class="card card-off-white">
+        <h3>UI/UX Micro-Animations</h3>
+        <p>The small interactions inside your product shape how users feel about it. We design and prototype micro-animations for buttons, loaders, transitions, tooltips, and navigation elements. These details reduce cognitive load, guide user attention, and make your interface feel polished and responsive. We deliver production-ready specifications with timing curves, easing values, and Lottie files your development team can implement directly.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Our Process -->
+  <section class="section">
+    <h2>Our <em>Process</em></h2>
+    <p>Every animation project follows a structured four-step workflow that keeps timelines tight and revisions minimal. Most projects go from kickoff to final delivery in five to seven business days.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 01</div>
+        <h3>Creative Brief &amp; Storyboard</h3>
+        <p>We start with a detailed creative brief to understand your goals, audience, brand guidelines, and where the animation will be used. From there, we develop a storyboard that maps out the visual narrative frame by frame. You see exactly what the final animation will look like before any motion work begins. This step eliminates surprises and ensures alignment on creative direction, messaging, and pacing before we invest production hours. We also define the technical specifications: aspect ratios, durations, file formats, and any platform-specific requirements.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 02</div>
+        <h3>Style Frames &amp; Mood</h3>
+        <p>Once the storyboard is approved, we produce high-fidelity style frames that define the visual identity of the animation. These are fully rendered static frames that establish the color palette, typography treatment, illustration style, iconography, and overall art direction. You get two to three style directions to choose from or refine. This step is where the look and feel of your animation is locked in. It is far more efficient to iterate on style at this stage than to rework finished animation, so we invest the time here to get it right.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 03</div>
+        <h3>Animation Production</h3>
+        <p>With storyboard and style frames approved, our motion designers bring everything to life. We animate each scene with attention to timing, easing curves, transitions, and rhythm. Sound design and music are layered in during this phase to create a cohesive viewing experience. For explainer videos, we sync animation to voiceover with precise lip-timing and emphasis cues. You receive a work-in-progress review at the midpoint so we can catch any adjustments early. Production typically takes three to four days depending on complexity and total duration.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 04</div>
+        <h3>Review &amp; Delivery</h3>
+        <p>We deliver the completed animation for your review with a structured feedback process. Each project includes revision rounds to fine-tune timing, color, copy, or transitions. Once approved, we export final files in every format you need: MP4 for web and social, MOV with alpha channel for compositing, GIF for email and lightweight placements, and Lottie or JSON for interactive web and app implementations. All project files are organized, labeled, and delivered via cloud drive with a summary document that maps each asset to its intended use.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Where Motion Works -->
+  <section class="section">
+    <h2>Where Motion <em>Works</em></h2>
+    <p>Motion design is not a nice-to-have. It is a performance tool. Here are the contexts where animation delivers the most measurable impact for brands.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Paid Advertising</h3>
+        <p>Animated ads consistently outperform static creatives on click-through rate and cost per acquisition across Meta, TikTok, YouTube, and programmatic display. Motion captures attention in the first second, which is the moment that determines whether someone engages or scrolls past. We produce ad animations in multiple hook variations and aspect ratios so you can test systematically and scale the winners without producing entirely new assets each time.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Social Media Content</h3>
+        <p>Algorithms on every major platform prioritize video and motion content over static images. Animated posts earn higher engagement rates, longer view times, and more shares. We produce motion content designed for the specific behaviors of each platform: fast-paced loops for TikTok, polished animations for LinkedIn, eye-catching Stories for Instagram, and autoplay-optimized clips for Facebook Feed. A consistent stream of animated content keeps your brand visible and your audience engaged.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Product Marketing</h3>
+        <p>Landing pages with animated explainers convert at significantly higher rates than those with text or static images alone. Product feature animations reduce support tickets by showing users exactly how things work. App store preview videos drive more installs when they demonstrate the interface with smooth, professional animation rather than raw screen recordings. Whether you are launching a new product or repositioning an existing one, motion design makes your value proposition immediately tangible and memorable.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Brand Identity</h3>
+        <p>A static logo and color palette are table stakes. Modern brand systems include animated logo reveals, motion guidelines, transition libraries, and kinetic typography treatments. These assets ensure your brand feels alive and consistent across every digital touchpoint: website headers, video intros and outros, email signatures, event screens, and app loading states. We build motion into your brand identity system so every piece of content you produce carries a cohesive visual signature.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h2>Frequently Asked <em>Questions</em></h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>What is the typical turnaround time for a motion design project?</summary>
+        <div class="faq-answer">Most projects are completed in five to seven business days from brief approval to final delivery. Simple animations like logo reveals or social media loops can be delivered in three to four days. Longer explainer videos or complex campaigns may take up to ten business days. We confirm the timeline during the creative brief stage so you know exactly when to expect deliverables. Rush delivery is available for time-sensitive launches.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What file formats do you deliver?</summary>
+        <div class="faq-answer">We deliver in every format you need for your intended use. Standard deliverables include MP4 (H.264 and H.265) for web and social media, MOV with alpha channel transparency for compositing over other footage or backgrounds, GIF for email and lightweight web placements, and Lottie or JSON files for interactive implementations in web and mobile apps. We also provide platform-specific exports optimized for Meta, TikTok, YouTube, and LinkedIn specifications. All files are organized and labeled by format, resolution, and intended placement.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you provide music and sound design?</summary>
+        <div class="faq-answer">Yes. Sound design is included in every animation project. We add sound effects, ambient audio, and transitions that enhance the visual experience and create a more immersive result. For background music, we source from licensed libraries and include the licensing cost in our pricing. If you have specific music requirements, a branded audio identity, or need original composition, we can accommodate that as well. Voiceover production, including script refinement, casting, and recording direction, is available as an add-on for explainer videos and narrated content.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How many revisions are included?</summary>
+        <div class="faq-answer">Every project includes two rounds of revisions as standard. A revision round covers changes to timing, color, typography, transitions, copy, and sound. Because we align closely during the storyboard and style frame stages, most projects require only minor adjustments at the review stage. Our first-delivery approval rate is above 85 percent. If your project requires more extensive iteration, we are happy to discuss additional revision rounds as part of the project scope.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What does motion design typically cost?</summary>
+        <div class="faq-answer">Pricing depends on the type and complexity of the animation. Simple logo animations and social media loops start at $500 to $1,500. Animated ad creatives with multiple variations typically range from $1,500 to $4,000. Full explainer videos with script, voiceover, and custom illustration range from $3,000 to $8,000. We are based in Portugal, which means you get European creative quality at rates that are 40 to 60 percent lower than comparable studios in the US or UK. Every project includes a detailed quote before work begins so there are no surprises.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you work in 2D, 3D, or both?</summary>
+        <div class="faq-answer">We specialize in 2D motion design, which covers the vast majority of brand, advertising, and social media animation needs. This includes flat and isometric illustration, kinetic typography, icon animation, character animation, infographic motion, and UI animation. For projects that require 3D elements such as product renders, architectural visualization, or photorealistic environments, we collaborate with specialized 3D artists within our network and manage the full production pipeline so you have a single point of contact throughout.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do I receive the source project files?</summary>
+        <div class="faq-answer">Source files, including After Effects projects, Illustrator assets, and animation rigs, are available as an add-on. Our standard deliverables include all final rendered files in the formats you need for deployment. If you have an in-house team that needs to make future edits or build on the animation, we provide a source file package with organized layers, labeled compositions, and documentation. This is especially useful for clients who want to maintain and extend their motion assets internally over time.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I get started?</summary>
+        <div class="faq-answer">Book a free 30-minute call where we discuss your project goals, timeline, and budget. You can also email us directly at hello@okad.agency with a brief description of what you need. We will respond within 24 hours with questions, a preliminary scope, and next steps. If you already have a detailed brief, storyboard, or reference examples, send those along and we can move straight to a quote. There are no contracts or minimums. Every project starts with a clear scope, a fixed price, and an agreed timeline before any work begins.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to Bring Your Brand to <em>Life</em>?</h2>
+      <p>Book a free call and we will discuss your animation needs, share relevant examples from our portfolio, and map out a production plan that fits your timeline and budget.</p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green-on-dark">Book a Free Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-light">Email hello@okad.agency</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:hello@okad.agency">hello@okad.agency</a></p>
+  </footer>
+
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the typical turnaround time for a motion design project?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most projects are completed in five to seven business days from brief approval to final delivery. Simple animations like logo reveals or social media loops can be delivered in three to four days. Longer explainer videos or complex campaigns may take up to ten business days. Rush delivery is available for time-sensitive launches."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What file formats do you deliver?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We deliver MP4 (H.264 and H.265) for web and social media, MOV with alpha channel transparency for compositing, GIF for email and lightweight web placements, and Lottie or JSON files for interactive implementations in web and mobile apps. We also provide platform-specific exports optimized for Meta, TikTok, YouTube, and LinkedIn specifications."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you provide music and sound design?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Sound design is included in every animation project. We add sound effects, ambient audio, and transitions. For background music, we source from licensed libraries and include the licensing cost in our pricing. Voiceover production is available as an add-on for explainer videos and narrated content."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many revisions are included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every project includes two rounds of revisions as standard. A revision round covers changes to timing, color, typography, transitions, copy, and sound. Our first-delivery approval rate is above 85 percent. Additional revision rounds can be discussed as part of the project scope."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does motion design typically cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Simple logo animations and social media loops start at $500 to $1,500. Animated ad creatives with multiple variations typically range from $1,500 to $4,000. Full explainer videos with script, voiceover, and custom illustration range from $3,000 to $8,000. We are based in Portugal, offering rates 40 to 60 percent lower than comparable US or UK studios."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work in 2D, 3D, or both?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We specialize in 2D motion design, covering flat and isometric illustration, kinetic typography, icon animation, character animation, infographic motion, and UI animation. For projects requiring 3D elements, we collaborate with specialized 3D artists within our network and manage the full production pipeline."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I receive the source project files?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Source files including After Effects projects, Illustrator assets, and animation rigs are available as an add-on. Standard deliverables include all final rendered files. A source file package with organized layers, labeled compositions, and documentation is available for clients who want to maintain and extend their motion assets internally."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a free 30-minute call to discuss your project goals, timeline, and budget. You can also email hello@okad.agency with a brief description. We respond within 24 hours. There are no contracts or minimums — every project starts with a clear scope, a fixed price, and an agreed timeline."
+        }
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
