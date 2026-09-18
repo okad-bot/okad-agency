@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify Store Design — OKAD Agency</title>
+  <meta name="description" content="Custom Shopify store design that converts browsers into buyers. Theme customization, product page optimization, and checkout UX. Beautiful stores built to sell, from OKAD Agency.">
+  <link rel="canonical" href="https://okad.agency/services/shopify-design.html">
+  <link rel="icon" href="assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png" type="image/png">
+  <meta property="og:title" content="Shopify Store Design — OKAD Agency">
+  <meta property="og:description" content="Custom Shopify store design that converts browsers into buyers. Theme customization, product page optimization, and checkout UX. Beautiful stores built to sell, from OKAD Agency.">
+  <meta property="og:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <meta property="og:url" content="https://okad.agency/services/shopify-design.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Shopify Store Design — OKAD Agency">
+  <meta name="twitter:description" content="Custom Shopify store design that converts browsers into buyers. Theme customization, product page optimization, and checkout UX. Beautiful stores built to sell, from OKAD Agency.">
+  <meta name="twitter:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+      --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+      --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+      --purple: #932efa; --purple-bg: #f3e5f5; --purple-light: #d1b5ff;
+      --blue: #2341ff; --blue-bg: #e1f5fe; --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4; --warm-border: #ded8d3;
+      --orange-bg: #feefdb; --orange-muted: #bd9156;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark); color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-outline-dark { background: transparent; color: var(--text-light); border: 1px solid var(--border); }
+    .btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+    .btn-outline-light { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-outline-light:hover { border-color: rgba(255,255,255,0.5); }
+    .btn-green-on-dark { background: var(--green); color: var(--dark); }
+    .btn-green-on-dark:hover { background: var(--green-dark); }
+
+    /* Hero */
+    .hero { background: var(--light); padding: 80px 32px; }
+    .hero-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; letter-spacing: -2px; color: var(--dark); margin-bottom: 20px; }
+    .hero h1 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .hero-subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); max-width: 600px; margin: 0 auto 32px; }
+    .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Sections */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+    .section-center p { max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
+    .section-center h2 { text-align: center; }
+
+    /* Stats Row */
+    .stats-row { background: var(--dark); padding: 48px 32px; }
+    .stats-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+    .stat-item h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(28px, 3.5vw, 40px); color: var(--green); letter-spacing: -1px; margin-bottom: 4px; }
+    .stat-item p { font-size: 14px; color: var(--muted); line-height: 1.4; margin-bottom: 0; max-width: none; }
+
+    /* Color Cards Grid */
+    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .card { border-radius: 20px; padding: 28px; }
+    .card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .card p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .card-green { background: var(--green-bg); }
+    .card-purple { background: var(--purple-bg); }
+    .card-blue { background: var(--blue-bg); }
+    .card-warm { background: var(--warm-bg); }
+    .card-orange { background: var(--orange-bg); }
+    .card-off-white { background: var(--off-white); border: 1px solid var(--border); }
+
+    /* Steps */
+    .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .step { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .step-num { font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--green-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .step h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .step p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+
+    /* FAQ */
+    .faq-list { margin-top: 32px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-item summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 0; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; letter-spacing: -0.2px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; font-size: 20px; color: var(--muted); transition: transform 0.2s; flex-shrink: 0; margin-left: 16px; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item .faq-answer { padding: 0 0 20px; font-size: 15px; line-height: 1.65; color: var(--text); max-width: 680px; }
+
+    /* Final CTA */
+    .cta-section { background: var(--dark); padding: 80px 32px; text-align: center; }
+    .cta-inner { max-width: 700px; margin: 0 auto; }
+    .cta-section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(28px, 3.5vw, 40px); line-height: 1.15; letter-spacing: -1.5px; color: var(--white); margin-bottom: 16px; }
+    .cta-section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .cta-section p { font-size: 16px; line-height: 1.6; color: var(--muted); max-width: 520px; margin: 0 auto 32px; }
+    .cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Divider */
+    .section-divider { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+    .section-divider hr { border: none; border-top: 1px solid var(--border); }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-inner { padding: 0 16px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { display: none; }
+
+      .hero { padding: 48px 16px; }
+      .hero h1 { font-size: 32px; letter-spacing: -1px; }
+      .hero-subtitle { font-size: 16px; margin-bottom: 24px; }
+
+      .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+      .stats-row { padding: 32px 16px; }
+      .stat-item h3 { font-size: 28px; }
+
+      .section { padding: 40px 16px; }
+
+      .cards-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+
+      .cta-section { padding: 48px 16px; }
+      .cta-section h2 { font-size: 28px; }
+
+      .section-divider { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Shopify Store Design — Beautiful Stores That <em>Convert</em></h1>
+      <p class="hero-subtitle">We design custom Shopify stores that look premium and drive sales. Custom themes, optimized product pages, and checkout experiences that reduce cart abandonment. OKAD helps DTC brands stand out in crowded markets with stores built to convert browsers into buyers.</p>
+      <div class="hero-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Strategy Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-dark">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Row -->
+  <section class="stats-row">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <h3>100+</h3>
+        <p>Stores Designed</p>
+      </div>
+      <div class="stat-item">
+        <h3>35%</h3>
+        <p>Avg Conversion Lift</p>
+      </div>
+      <div class="stat-item">
+        <h3>2-4 Wk</h3>
+        <p>Delivery</p>
+      </div>
+      <div class="stat-item">
+        <h3>Shopify</h3>
+        <p>Experts</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Build -->
+  <section class="section">
+    <h2>What We <em>Build</em></h2>
+    <p>Every Shopify store has different needs depending on the product, the audience, and the brand. We design and build every layer of the storefront to work together as a cohesive, high-converting shopping experience.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Custom Theme Design</h3>
+        <p>We design bespoke Shopify themes from scratch that reflect your brand identity and stand apart from the thousands of stores running the same templates. Every layout decision is informed by conversion data and user behavior patterns. You get a store that looks like a premium brand experience, not a cookie-cutter template with your logo swapped in. We deliver clean, maintainable theme code built on Shopify 2.0 architecture so your team can make content updates without touching code.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Product Page Optimization</h3>
+        <p>Your product pages are where buying decisions happen. We design them to answer every question a hesitant buyer might have: clear product photography layouts, benefit-driven descriptions, trust badges, size guides, and social proof sections positioned exactly where they reduce friction. We structure product pages with a visual hierarchy that guides the eye from headline to add-to-cart button. A/B tested layouts ensure each element earns its place on the page.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Collection &amp; Category Pages</h3>
+        <p>Well-designed collection pages make browsing effortless and help shoppers find what they want faster. We build filterable, sortable collection layouts with clear product cards, quick-view functionality, and smart merchandising options. Each collection page is designed to reduce decision fatigue and encourage exploration. We also implement dynamic collections that automatically update based on tags, inventory, and seasonal rules so your store stays fresh without manual curation.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Checkout &amp; Cart UX</h3>
+        <p>Cart abandonment kills revenue. We redesign the entire cart-to-checkout flow to eliminate every unnecessary step and moment of hesitation. That means clear order summaries, trust signals at every stage, progress indicators, and mobile-optimized form fields that autofill correctly. We implement upsell and cross-sell modules in the cart drawer that increase average order value without feeling pushy. For Shopify Plus merchants, we customize the checkout page itself with branded elements and conversion-focused layouts.</p>
+      </div>
+      <div class="card card-orange">
+        <h3>Mobile-First Responsive Design</h3>
+        <p>Over 70% of Shopify traffic comes from mobile devices. We design mobile-first, meaning every layout, interaction, and content block is optimized for thumb-friendly navigation on small screens before we scale up to desktop. Touch targets are appropriately sized, images load fast with lazy loading and responsive srcsets, and the mobile checkout flow is streamlined to minimize typing. Your store will look and perform beautifully on every device from a 4-inch phone screen to a 27-inch monitor.</p>
+      </div>
+      <div class="card card-off-white">
+        <h3>App Integration &amp; Setup</h3>
+        <p>The right Shopify apps can transform your store's functionality, but poor integration creates bloat, conflicts, and slow load times. We audit, select, and integrate the apps your store actually needs: reviews, loyalty programs, subscriptions, email capture, analytics, and shipping solutions. Every app is configured to match your theme design seamlessly so nothing looks bolted on. We also optimize app loading order to protect your page speed scores, because a one-second delay in load time can reduce conversions by up to 7%.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Our Process -->
+  <section class="section">
+    <h2>Our <em>Process</em></h2>
+    <p>We follow a structured process refined across hundreds of Shopify builds. Every phase has clear deliverables and approval gates so you know exactly where your project stands at all times.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 01</div>
+        <h3>Discovery &amp; Audit</h3>
+        <p>We start by understanding your brand, your products, your customers, and your business goals. If you have an existing store, we run a comprehensive audit covering design, UX, page speed, SEO, and conversion funnel performance. We analyze your competitors and identify what the top-performing stores in your niche are doing right. By the end of discovery, we deliver a detailed findings report with prioritized recommendations and a project roadmap that maps design decisions directly to revenue opportunities.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 02</div>
+        <h3>Wireframing &amp; UX</h3>
+        <p>Before any visual design begins, we map out the user experience with wireframes for every key page: homepage, collection pages, product pages, cart, and checkout. Wireframes let us test information architecture, navigation flow, and content hierarchy without getting distracted by colors and typography. We use real product data and realistic content blocks so you can evaluate layouts in context, not with placeholder lorem ipsum text. You review and approve the wireframes before we move into visual design.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 03</div>
+        <h3>Visual Design</h3>
+        <p>This is where your brand comes to life on screen. We create high-fidelity mockups in Figma for desktop and mobile that translate your brand identity into a complete Shopify storefront. Every detail is considered: typography scales, color application, spacing rhythms, button styles, hover states, and micro-interactions. You see exactly how your store will look and feel before a single line of code is written. We present two to three design directions and refine your chosen direction through focused revision rounds until it is pixel-perfect.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 04</div>
+        <h3>Shopify Development</h3>
+        <p>Our developers build your approved designs into a fully functional Shopify theme using clean, semantic Liquid code and modern front-end practices. We develop on a staging environment so you can review progress without affecting your live store. Every section is built as a customizable Shopify 2.0 block so you can rearrange, show, hide, and edit content from the theme editor without developer help. We integrate all required apps, set up collections, configure shipping and tax rules, and populate your store with real products.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 05</div>
+        <h3>Launch &amp; Optimization</h3>
+        <p>Before going live, we run a comprehensive launch checklist: cross-browser testing, mobile device testing, page speed optimization, SEO configuration, analytics setup, payment gateway verification, and order flow testing. We handle the DNS transition and theme publish to make launch day smooth and stress-free. After launch, we monitor performance for two weeks, fix any issues that surface with real traffic, and deliver a post-launch optimization report with data-driven recommendations for ongoing improvements to your conversion rate.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Why Choose OKAD -->
+  <section class="section">
+    <h2>Why Choose OKAD for <em>Shopify</em></h2>
+    <p>Not all Shopify agencies are created equal. Here is what makes working with OKAD different from the hundreds of other agencies and freelancers offering Shopify services.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Design + Development Under One Roof</h3>
+        <p>You do not need to hire a designer, then find a developer, then hope they communicate well. Our team handles the entire process from brand strategy and UX wireframing through visual design and Shopify development. One team, one workflow, one point of contact. This eliminates the miscommunication, version control problems, and timeline delays that happen when you stitch together separate freelancers or agencies for design and development.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Conversion-Focused Approach</h3>
+        <p>A beautiful store that does not sell is just an expensive brochure. Every design decision we make is grounded in conversion rate optimization principles. We position trust signals where hesitation happens, structure product pages to move buyers toward the add-to-cart button, and design checkout flows that minimize abandonment. Our clients consistently see measurable conversion lifts after launching their redesigned stores because aesthetics and performance are never treated as separate goals.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Competitive Portugal-Based Pricing</h3>
+        <p>We are based in Portugal, which means you get senior-level design and development talent at rates significantly below what US and UK agencies charge. This is not a quality tradeoff. Our team has the same skills, tools, and experience as top-tier agencies in New York or London, but our operating costs are lower. The savings get passed directly to you. You get more design iterations, more development hours, and better results for the same budget you would spend on a mid-tier agency in higher-cost markets.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Ongoing Store Support</h3>
+        <p>Launching your store is the beginning, not the end. We offer ongoing support packages for clients who want a design and development partner on retainer. Whether you need seasonal homepage refreshes, new product page templates, landing pages for campaigns, or app integrations as your business grows, we are available without the overhead of re-onboarding a new agency every time. Our support clients get priority response times and a team that already knows their codebase, brand guidelines, and business goals inside and out.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h2>Frequently Asked <em>Questions</em></h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Do you work with Shopify Plus?</summary>
+        <div class="faq-answer">Yes. We work with both standard Shopify and Shopify Plus. For Plus merchants, we take advantage of the additional customization options including checkout.liquid customization, Shopify Scripts for dynamic pricing and discounts, multi-currency and multi-language storefronts, and advanced API integrations. If you are considering upgrading to Plus, we can advise on whether the additional features justify the cost for your specific business needs and help manage the migration.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How long does a typical Shopify store project take?</summary>
+        <div class="faq-answer">Most projects take two to four weeks from kickoff to launch. A straightforward theme customization with standard pages can be completed in two weeks. A fully custom design with multiple collection templates, custom product page layouts, and app integrations typically takes three to four weeks. Complex builds with Shopify Plus checkout customization, custom app development, or migration from another platform may take four to six weeks. We provide a detailed timeline during the discovery phase so you know exactly what to expect.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What does a Shopify store design project typically cost?</summary>
+        <div class="faq-answer">Our Shopify projects typically range from $4,000 to $15,000 depending on scope and complexity. A theme customization with optimized product pages and standard sections starts around $4,000. A fully custom design with bespoke layouts, multiple templates, and app integrations ranges from $7,000 to $12,000. Enterprise-level Shopify Plus builds with checkout customization and advanced functionality start at $12,000. We provide a detailed fixed-price quote after the discovery call so there are no surprises.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Can you migrate my store from another platform to Shopify?</summary>
+        <div class="faq-answer">Yes. We handle migrations from WooCommerce, Magento, BigCommerce, Squarespace, Wix, and custom-built platforms. We migrate your products, customers, order history, blog content, and URL structures. SEO is a critical concern during any migration, so we set up 301 redirects for every existing URL to preserve your search rankings and incoming links. We also handle domain transfer and DNS configuration. The migration runs in parallel with the design work so the timeline is not significantly longer than a new build.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you build custom Shopify apps?</summary>
+        <div class="faq-answer">Yes. If your store needs functionality that existing apps do not provide or if you want to reduce app dependencies for performance reasons, we can build custom Shopify apps. Common custom builds include product configurators, subscription logic, custom pricing rules, loyalty programs, and integrations with third-party systems like ERP or warehouse management software. Custom apps are scoped and quoted separately from the design project. We recommend exhausting existing app options first since custom development adds cost and maintenance overhead.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How do you handle SEO for Shopify stores?</summary>
+        <div class="faq-answer">SEO is built into every store we design, not bolted on as an afterthought. We configure proper heading hierarchies, structured data markup, clean URL structures, optimized meta titles and descriptions, alt text for all images, and fast page load times. We also set up a proper sitemap, configure robots.txt, and implement canonical tags to prevent duplicate content issues. For migrations, we create comprehensive redirect maps. Our stores consistently score above 90 on Google PageSpeed Insights because search engines reward fast, well-structured sites with better rankings.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer post-launch support and maintenance?</summary>
+        <div class="faq-answer">Yes. Every project includes two weeks of post-launch support at no additional cost to address any issues that arise with real traffic. Beyond that, we offer monthly retainer packages for ongoing design updates, seasonal refreshes, new page templates, app management, and performance optimization. Retainer clients get priority response times and a team that already understands their codebase and brand. We also offer one-off support for specific tasks like adding new product templates, building landing pages, or integrating new tools as your business grows.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How do I get started with a Shopify store project?</summary>
+        <div class="faq-answer">The easiest way to start is to book a free strategy call where we discuss your brand, your goals, and the scope of work. If you prefer email, send us a brief description of your project at hello@okad.agency and we will respond within 24 hours with follow-up questions and a preliminary timeline estimate. After the initial conversation, we provide a detailed proposal with a fixed-price quote, project scope, timeline, and deliverables list. Once approved, we begin with the discovery and audit phase and your project is underway. No long-term contracts required.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to Build a Shopify Store That <em>Sells</em>?</h2>
+      <p>Book a free strategy call and we will audit your current store, identify your biggest conversion opportunities, and map out a design plan tailored to your brand and budget.</p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green-on-dark">Book a Free Strategy Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-light">Email hello@okad.agency</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:hello@okad.agency">hello@okad.agency</a></p>
+  </footer>
+
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do you work with Shopify Plus?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We work with both standard Shopify and Shopify Plus. For Plus merchants, we take advantage of the additional customization options including checkout.liquid customization, Shopify Scripts for dynamic pricing and discounts, multi-currency and multi-language storefronts, and advanced API integrations. If you are considering upgrading to Plus, we can advise on whether the additional features justify the cost for your specific business needs and help manage the migration."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a typical Shopify store project take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most projects take two to four weeks from kickoff to launch. A straightforward theme customization with standard pages can be completed in two weeks. A fully custom design with multiple collection templates, custom product page layouts, and app integrations typically takes three to four weeks. Complex builds with Shopify Plus checkout customization, custom app development, or migration from another platform may take four to six weeks. We provide a detailed timeline during the discovery phase so you know exactly what to expect."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does a Shopify store design project typically cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our Shopify projects typically range from $4,000 to $15,000 depending on scope and complexity. A theme customization with optimized product pages and standard sections starts around $4,000. A fully custom design with bespoke layouts, multiple templates, and app integrations ranges from $7,000 to $12,000. Enterprise-level Shopify Plus builds with checkout customization and advanced functionality start at $12,000. We provide a detailed fixed-price quote after the discovery call so there are no surprises."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you migrate my store from another platform to Shopify?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We handle migrations from WooCommerce, Magento, BigCommerce, Squarespace, Wix, and custom-built platforms. We migrate your products, customers, order history, blog content, and URL structures. SEO is a critical concern during any migration, so we set up 301 redirects for every existing URL to preserve your search rankings and incoming links. We also handle domain transfer and DNS configuration. The migration runs in parallel with the design work so the timeline is not significantly longer than a new build."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you build custom Shopify apps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If your store needs functionality that existing apps do not provide or if you want to reduce app dependencies for performance reasons, we can build custom Shopify apps. Common custom builds include product configurators, subscription logic, custom pricing rules, loyalty programs, and integrations with third-party systems like ERP or warehouse management software. Custom apps are scoped and quoted separately from the design project. We recommend exhausting existing app options first since custom development adds cost and maintenance overhead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you handle SEO for Shopify stores?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO is built into every store we design, not bolted on as an afterthought. We configure proper heading hierarchies, structured data markup, clean URL structures, optimized meta titles and descriptions, alt text for all images, and fast page load times. We also set up a proper sitemap, configure robots.txt, and implement canonical tags to prevent duplicate content issues. For migrations, we create comprehensive redirect maps. Our stores consistently score above 90 on Google PageSpeed Insights because search engines reward fast, well-structured sites with better rankings."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer post-launch support and maintenance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every project includes two weeks of post-launch support at no additional cost to address any issues that arise with real traffic. Beyond that, we offer monthly retainer packages for ongoing design updates, seasonal refreshes, new page templates, app management, and performance optimization. Retainer clients get priority response times and a team that already understands their codebase and brand. We also offer one-off support for specific tasks like adding new product templates, building landing pages, or integrating new tools as your business grows."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I get started with a Shopify store project?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The easiest way to start is to book a free strategy call where we discuss your brand, your goals, and the scope of work. If you prefer email, send us a brief description of your project at hello@okad.agency and we will respond within 24 hours with follow-up questions and a preliminary timeline estimate. After the initial conversation, we provide a detailed proposal with a fixed-price quote, project scope, timeline, and deliverables list. Once approved, we begin with the discovery and audit phase and your project is underway. No long-term contracts required."
+        }
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>

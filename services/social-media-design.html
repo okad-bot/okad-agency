@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Design Agency — OKAD Agency</title>
+  <meta name="description" content="Consistent, scroll-stopping social media design for brands that take their feed seriously. Templates, content calendars, platform-specific formats. Professional social media creative from OKAD Agency.">
+  <link rel="canonical" href="https://okad.agency/services/social-media-design.html">
+  <meta property="og:title" content="Social Media Design Agency — OKAD Agency">
+  <meta property="og:description" content="Consistent, scroll-stopping social media design for brands that take their feed seriously. Templates, content calendars, platform-specific formats.">
+  <meta property="og:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <meta property="og:url" content="https://okad.agency/services/social-media-design.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Social Media Design Agency — OKAD Agency">
+  <meta name="twitter:description" content="Consistent, scroll-stopping social media design for brands that take their feed seriously. Templates, content calendars, platform-specific formats.">
+  <meta name="twitter:image" content="assets/assets_ZaNyqy3qatRFYkDiXwuicu0tkw.png">
+  <link rel="icon" href="assets/images_9rU7XfzW4mHPYwiTjfyQcoLY.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Instrument+Serif:ital@1&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --black: #1a1a1a; --dark: #111; --dark-bg: #212121; --text: #383838; --text-light: #4c4c4c;
+      --muted: #8e8e8e; --border: #e6e6e6; --light: #f2f2f2; --off-white: #f7f7f7; --white: #fff;
+      --green: #aed058; --green-dark: #92c610; --green-bg: #f4f9e8; --green-muted: #626959;
+      --purple: #932efa; --purple-bg: #f3e5f5; --purple-light: #d1b5ff;
+      --blue: #2341ff; --blue-bg: #e1f5fe; --blue-accent: #29b6f6;
+      --warm-bg: #f6f5f4; --warm-border: #ded8d3;
+      --orange-bg: #feefdb; --orange-muted: #bd9156;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', sans-serif; color: var(--text); background: var(--white); -webkit-font-smoothing: antialiased; }
+
+    /* Navbar */
+    .navbar { background: var(--black); position: sticky; top: 0; z-index: 100; }
+    .navbar-inner { max-width: 1280px; margin: 0 auto; padding: 0 32px; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .navbar-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; }
+    .navbar-logo span { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: 18px; color: var(--white); letter-spacing: -0.5px; }
+    .navbar-links { display: flex; align-items: center; gap: 32px; }
+    .navbar-links a { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 400; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .navbar-links a:hover { color: var(--white); }
+    .nav-cta { font-family: 'Inter', sans-serif; font-size: 13px !important; font-weight: 500 !important; color: var(--black) !important; background: var(--green); padding: 8px 20px; border-radius: 100px; text-decoration: none; transition: background 0.2s; }
+    .nav-cta:hover { background: var(--green-dark); color: var(--black) !important; }
+
+    /* Buttons */
+    .btn { display: inline-block; font-family: 'Instrument Sans', sans-serif; font-size: 15px; font-weight: 500; padding: 14px 32px; border-radius: 100px; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-green { background: var(--green); color: var(--dark); }
+    .btn-green:hover { background: var(--green-dark); }
+    .btn-outline-dark { background: transparent; color: var(--text-light); border: 1px solid var(--border); }
+    .btn-outline-dark:hover { color: var(--dark); border-color: var(--text-light); }
+    .btn-outline-light { background: transparent; color: var(--white); border: 1px solid rgba(255,255,255,0.25); }
+    .btn-outline-light:hover { border-color: rgba(255,255,255,0.5); }
+    .btn-green-on-dark { background: var(--green); color: var(--dark); }
+    .btn-green-on-dark:hover { background: var(--green-dark); }
+
+    /* Hero */
+    .hero { background: var(--light); padding: 80px 32px; }
+    .hero-inner { max-width: 1100px; margin: 0 auto; text-align: center; }
+    .hero h1 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(36px, 5vw, 56px); line-height: 1.1; letter-spacing: -2px; color: var(--dark); margin-bottom: 20px; }
+    .hero h1 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .hero-subtitle { font-size: 18px; line-height: 1.6; color: var(--text-light); max-width: 600px; margin: 0 auto 32px; }
+    .hero-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Sections */
+    .section { max-width: 1000px; margin: 0 auto; padding: 64px 32px; }
+    .section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(26px, 3vw, 36px); line-height: 1.2; letter-spacing: -1.5px; color: var(--dark); margin-bottom: 20px; }
+    .section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .section p { font-size: 16px; line-height: 1.65; margin-bottom: 16px; max-width: 680px; }
+    .section-center p { max-width: 680px; margin-left: auto; margin-right: auto; text-align: center; }
+    .section-center h2 { text-align: center; }
+
+    /* Stats Row */
+    .stats-row { background: var(--dark); padding: 48px 32px; }
+    .stats-inner { max-width: 1100px; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; text-align: center; }
+    .stat-item h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 600; font-size: clamp(28px, 3.5vw, 40px); color: var(--green); letter-spacing: -1px; margin-bottom: 4px; }
+    .stat-item p { font-size: 14px; color: var(--muted); line-height: 1.4; margin-bottom: 0; max-width: none; }
+
+    /* Color Cards Grid */
+    .cards-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .card { border-radius: 20px; padding: 28px; }
+    .card h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .card p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+    .card-green { background: var(--green-bg); }
+    .card-purple { background: var(--purple-bg); }
+    .card-blue { background: var(--blue-bg); }
+    .card-warm { background: var(--warm-bg); }
+    .card-orange { background: var(--orange-bg); }
+    .card-off-white { background: var(--off-white); border: 1px solid var(--border); }
+
+    /* Steps */
+    .steps { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-top: 32px; }
+    .step { background: var(--white); border: 1px solid var(--border); border-radius: 20px; padding: 28px; }
+    .step-num { font-family: 'Instrument Sans', sans-serif; font-size: 12px; font-weight: 600; color: var(--green-dark); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+    .step h3 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 18px; letter-spacing: -0.3px; color: var(--dark); margin-bottom: 8px; line-height: 1.3; }
+    .step p { font-size: 14px; line-height: 1.55; color: var(--text); margin-bottom: 0; max-width: none; }
+
+    /* FAQ */
+    .faq-list { margin-top: 32px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-item summary { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: 16px; color: var(--dark); padding: 20px 0; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; letter-spacing: -0.2px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: "+"; font-size: 20px; color: var(--muted); transition: transform 0.2s; flex-shrink: 0; margin-left: 16px; }
+    .faq-item[open] summary::after { content: "\2212"; }
+    .faq-item .faq-answer { padding: 0 0 20px; font-size: 15px; line-height: 1.65; color: var(--text); max-width: 680px; }
+
+    /* Final CTA */
+    .cta-section { background: var(--dark); padding: 80px 32px; text-align: center; }
+    .cta-inner { max-width: 700px; margin: 0 auto; }
+    .cta-section h2 { font-family: 'Instrument Sans', sans-serif; font-weight: 500; font-size: clamp(28px, 3.5vw, 40px); line-height: 1.15; letter-spacing: -1.5px; color: var(--white); margin-bottom: 16px; }
+    .cta-section h2 em { font-family: 'Instrument Serif', serif; font-style: italic; font-weight: 400; }
+    .cta-section p { font-size: 16px; line-height: 1.6; color: var(--muted); max-width: 520px; margin: 0 auto 32px; }
+    .cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+    /* Divider */
+    .section-divider { max-width: 1000px; margin: 0 auto; padding: 0 32px; }
+    .section-divider hr { border: none; border-top: 1px solid var(--border); }
+
+    /* Footer */
+    .footer { background: var(--dark-bg); padding: 40px 32px; text-align: center; }
+    .footer p { font-size: 13px; color: var(--muted); margin-bottom: 0; max-width: none; }
+    .footer a { color: var(--muted); text-decoration: none; }
+    .footer a:hover { color: var(--white); }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .navbar-inner { padding: 0 16px; }
+      .navbar-links { gap: 16px; }
+      .navbar-links a:not(.nav-cta) { display: none; }
+
+      .hero { padding: 48px 16px; }
+      .hero h1 { font-size: 32px; letter-spacing: -1px; }
+      .hero-subtitle { font-size: 16px; margin-bottom: 24px; }
+
+      .stats-inner { grid-template-columns: repeat(2, 1fr); gap: 24px 16px; }
+      .stats-row { padding: 32px 16px; }
+      .stat-item h3 { font-size: 28px; }
+
+      .section { padding: 40px 16px; }
+
+      .cards-grid { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+
+      .cta-section { padding: 48px 16px; }
+      .cta-section h2 { font-size: 28px; }
+
+      .section-divider { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="navbar-logo"><span>OKAD</span></a>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="/creative-testing.html">Creative Testing</a>
+        <a href="https://calendly.com/okad_calls/first" class="nav-cta">Book a Call</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Social Media Design — Consistent Visuals That <em>Build Brands</em></h1>
+      <p class="hero-subtitle">We create cohesive social media presences with templates, content calendars, and platform-specific formats that keep your brand looking polished across every channel. No more scrambling for last-minute posts or inconsistent visuals that confuse your audience.</p>
+      <div class="hero-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green">Book a Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-dark">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Row -->
+  <section class="stats-row">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <h3>300+</h3>
+        <p>Brands Designed For</p>
+      </div>
+      <div class="stat-item">
+        <h3>12</h3>
+        <p>Platform Formats</p>
+      </div>
+      <div class="stat-item">
+        <h3>5 Days</h3>
+        <p>Template Delivery</p>
+      </div>
+      <div class="stat-item">
+        <h3>100%</h3>
+        <p>Consistent Feed Guaranteed</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What We Create -->
+  <section class="section">
+    <h2>What We <em>Create</em></h2>
+    <p>Every platform has its own visual language. We design the full range of social media assets so your brand shows up consistently everywhere your audience scrolls. Here is exactly what we deliver.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Instagram Feed &amp; Stories Templates</h3>
+        <p>Scroll-stopping feed posts and Stories that maintain a cohesive grid aesthetic while giving your team flexibility to create content quickly. We design reusable templates in Figma and Canva with locked brand elements and editable text zones, so every post feels on-brand without needing a designer in the loop. Includes single-image posts, quote graphics, announcement templates, and interactive Story formats like polls, Q&amp;As, and countdowns.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>LinkedIn &amp; Twitter Graphics</h3>
+        <p>Professional yet distinctive visuals that stand out in text-heavy feeds. LinkedIn and Twitter reward content that stops the scroll with sharp visuals paired with insight-driven copy. We create header images, post graphics, infographic templates, and thread visuals optimized for each platform's aspect ratios and compression algorithms. Your thought leadership and company updates get the visual treatment they deserve to drive engagement and shares.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>TikTok &amp; Reels Covers</h3>
+        <p>Custom cover images that turn your video grid into a branded content library. Most brands overlook cover design and end up with a chaotic profile that undermines the quality of their video content. We design cover templates with consistent typography, color blocking, and visual hierarchy so your TikTok and Reels profile looks intentional and professional. Each cover is designed to communicate the video topic at a glance and encourage binge-watching.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Carousel Post Design</h3>
+        <p>Multi-slide carousels are the highest-engagement format on Instagram and LinkedIn. We design carousel templates that guide the viewer through a narrative with clean transitions between slides, progressive information reveals, and a strong closing CTA. Whether you are sharing tips, case studies, product features, or educational content, our carousel systems make it easy to produce new decks weekly without starting from scratch every time.</p>
+      </div>
+      <div class="card card-orange">
+        <h3>Social Media Style Guides</h3>
+        <p>A comprehensive document that defines how your brand shows up on social media. This goes beyond your standard brand guidelines to cover platform-specific rules: approved color overlays, text placement zones, photography filters, icon usage, caption formatting, and emoji guidelines. Your team and any external collaborators get a single reference that ensures every piece of content looks like it came from the same brand, no matter who created it.</p>
+      </div>
+      <div class="card card-off-white">
+        <h3>Content Calendar Templates</h3>
+        <p>Strategic planning templates that map out your posting schedule across platforms with content pillars, themes, and visual formats pre-assigned to each slot. We build these in spreadsheet and project management formats so they integrate with your existing workflow. Each calendar includes recommended posting frequencies per platform, content mix ratios, and seasonal hooks so your team always knows what to post and when to post it.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Our Process -->
+  <section class="section">
+    <h2>Our <em>Process</em></h2>
+    <p>We have refined this workflow across hundreds of brands. Every step is designed to build a visual system that scales with your content needs and keeps your feed looking sharp month after month.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">Step 01</div>
+        <h3>Brand Audit &amp; Strategy</h3>
+        <p>We start by reviewing your existing social media presence, brand guidelines, competitor landscape, and audience demographics. We audit your current content performance to identify what is working visually and where the gaps are. We analyze your top-performing posts alongside competitor content to establish a creative direction that differentiates your brand. By the end of this phase, you have a detailed social media design strategy document with mood boards, color direction, typography recommendations, and a content format plan tailored to your platforms and goals.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 02</div>
+        <h3>Template System Design</h3>
+        <p>We design a modular template system that covers every content type your brand needs. Each template is built with flexibility in mind: locked brand elements like logos, colors, and typography ensure consistency while editable zones let your team swap photos, headlines, and body copy without breaking the design. Templates are delivered in both Figma for design teams and Canva for marketing teams who need to self-serve. We create between 15 and 30 unique templates per engagement depending on the scope of your content strategy.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 03</div>
+        <h3>Content Production</h3>
+        <p>With the template system approved, we produce your first batch of ready-to-publish content. This includes fully designed posts, Stories, carousels, and cover images for your initial content calendar. Every piece is exported in the correct dimensions and file formats for each platform, with proper naming conventions so your team can find and schedule content efficiently. We also create a shared asset library with all source files, stock imagery, icons, and brand elements organized for easy access and future use by your team.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">Step 04</div>
+        <h3>Monthly Iteration</h3>
+        <p>Social media design is not a one-time project. Trends shift, platforms update their formats, and your brand evolves. We review your content performance monthly and refine the template system based on real engagement data. Templates that drive high engagement get expanded into new variations. Underperforming formats get redesigned or replaced. We also introduce seasonal and campaign-specific templates as needed so your feed stays fresh without losing the visual consistency that builds brand recognition over time.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- Why It Matters -->
+  <section class="section">
+    <h2>Why It <em>Matters</em></h2>
+    <p>Professional social media design is not a luxury. It is a growth lever. Here is why the brands that invest in consistent visual identity on social media outperform those that do not.</p>
+
+    <div class="cards-grid">
+      <div class="card card-green">
+        <h3>Brand Consistency Drives Trust</h3>
+        <p>Research consistently shows that brand consistency across channels increases revenue by up to 23 percent. When your social media looks polished and cohesive, audiences perceive your brand as more professional, more reliable, and more established. Every inconsistent post chips away at that perception. A systematic approach to social media design ensures that whether someone finds you on Instagram, LinkedIn, or TikTok, they immediately recognize your brand and trust what you are offering.</p>
+      </div>
+      <div class="card card-purple">
+        <h3>Save Your Team Hours</h3>
+        <p>Without templates, every social media post starts from a blank canvas. Your marketing team spends hours each week wrestling with design tools, debating font choices, and trying to make posts look good enough to publish. A proper template system cuts content production time by 60 to 80 percent. Your team opens a template, drops in the content, and exports. No design decisions, no guessing, no wasted afternoons. That time goes back into strategy, community management, and the work that actually moves the needle.</p>
+      </div>
+      <div class="card card-blue">
+        <h3>Platform-Native Design</h3>
+        <p>Each social media platform has its own visual culture, technical specifications, and user behavior patterns. What works on Instagram looks out of place on LinkedIn. What performs on TikTok falls flat on Twitter. We design assets that feel native to each platform while maintaining your brand identity across all of them. This means your content gets better engagement because it matches the visual expectations of each platform's audience instead of looking like a generic cross-post.</p>
+      </div>
+      <div class="card card-warm">
+        <h3>Scale Without Hiring</h3>
+        <p>Hiring a full-time designer to manage your social media visuals costs between $50,000 and $80,000 per year before benefits and software subscriptions. A well-designed template system lets your existing marketing team produce professional-quality social content independently. You get the output of a dedicated designer at a fraction of the cost, and the templates work whether your team is two people or twenty. As your content volume grows, the system scales with you without adding headcount.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-divider"><hr></div>
+
+  <!-- FAQ -->
+  <section class="section">
+    <h2>Frequently Asked <em>Questions</em></h2>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Which social media platforms do you design for?</summary>
+        <div class="faq-answer">We design for all major platforms: Instagram (Feed, Stories, Reels), TikTok, LinkedIn, Twitter/X, Facebook, Pinterest, and YouTube (thumbnails and community posts). Each platform gets assets designed to its specific dimensions, aspect ratios, and visual conventions. We do not simply resize one design to fit every platform. Every template is built from the ground up to feel native to the platform where it will be published, because that is what drives engagement.</div>
+      </details>
+      <details class="faq-item">
+        <summary>What format are the templates delivered in?</summary>
+        <div class="faq-answer">We deliver templates in both Figma and Canva. Figma files are fully layered and organized for design teams who want granular control over every element. Canva templates are set up with locked brand elements and editable text and image zones for marketing teams who need to self-serve without design skills. If your team uses a different tool like Adobe Illustrator or Sketch, we can accommodate that as well. All final assets are also exported as ready-to-post PNG and JPG files at platform-optimized resolutions.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How quickly can you deliver the first set of templates?</summary>
+        <div class="faq-answer">Our standard turnaround for a complete template system is five business days from brand audit approval. This includes the initial design exploration, template creation, and one round of revisions. The first batch of ready-to-publish content follows within two to three additional business days. For clients with urgent launch timelines, we offer expedited delivery. Let us know your deadline during the initial call and we will confirm whether we can accommodate it.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you create content calendars as part of the service?</summary>
+        <div class="faq-answer">Yes. Every engagement includes a content calendar template that maps out your posting schedule with content pillars, themes, and format assignments. We provide a strategic framework based on your goals, audience behavior data, and platform best practices. The calendar covers recommended posting frequencies, content mix ratios between educational, promotional, and engagement-driven posts, and seasonal or campaign hooks. You can use it as-is or adapt it to your specific workflow and scheduling tools.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do I need existing brand guidelines before we start?</summary>
+        <div class="faq-answer">Having existing brand guidelines makes the process faster, but they are not required. If you have a logo, brand colors, and typography defined, we use those as the foundation. If your brand guidelines are incomplete or nonexistent, we establish the visual direction during the brand audit phase. We will create a social media style guide as part of the deliverables that defines how your brand appears on social platforms, which you can then use as a reference for all future content creation across your team and any external partners.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How many rounds of revisions are included?</summary>
+        <div class="faq-answer">Every project includes two rounds of revisions at the template design stage. This covers changes to layout, color application, typography treatment, imagery direction, and overall visual tone. We find that two rounds are sufficient for the vast majority of clients because we align closely during the brand audit and strategy phase before any design work begins. If additional revisions are needed beyond the included rounds, we accommodate them at a reasonable hourly rate. Our first-round approval rate is above 85 percent.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Do you offer monthly retainers for ongoing content design?</summary>
+        <div class="faq-answer">Yes. After the initial template system is delivered, many clients move to a monthly retainer for ongoing content production, seasonal template updates, and campaign-specific design. Monthly retainers include a set number of custom-designed posts, Story sequences, carousels, and cover images each month, plus quarterly template refreshes to keep your feed evolving. Retainer clients also get priority turnaround and a dedicated designer who understands your brand intimately. We structure retainers based on your content volume and platform coverage needs.</div>
+      </details>
+      <details class="faq-item">
+        <summary>How do we get started?</summary>
+        <div class="faq-answer">Book a 30-minute call through our Calendly link or email us at hello@okad.agency. On the call, we will review your current social media presence, discuss your goals and content strategy, and determine the scope of work. After the call, we send a proposal with a clear deliverable list, timeline, and pricing. Once approved, we kick off with the brand audit and have your template system ready within five business days. If you prefer to start with a smaller engagement, we can begin with a single platform and expand from there.</div>
+      </details>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to Make Your Brand's Social Presence <em>Unmistakable</em>?</h2>
+      <p>Book a free strategy call and we will audit your current social media, identify your biggest visual gaps, and map out a design system tailored to your brand and platforms.</p>
+      <div class="cta-buttons">
+        <a href="https://calendly.com/okad_calls/first" class="btn btn-green-on-dark">Book a Free Strategy Call</a>
+        <a href="mailto:hello@okad.agency" class="btn btn-outline-light">Email hello@okad.agency</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 <a href="/">OKAD GROUP LLC</a>. All rights reserved. &middot; <a href="mailto:hello@okad.agency">hello@okad.agency</a></p>
+  </footer>
+
+  <!-- FAQ Schema JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Which social media platforms do you design for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We design for all major platforms: Instagram (Feed, Stories, Reels), TikTok, LinkedIn, Twitter/X, Facebook, Pinterest, and YouTube (thumbnails and community posts). Each platform gets assets designed to its specific dimensions, aspect ratios, and visual conventions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What format are the templates delivered in?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We deliver templates in both Figma and Canva. Figma files are fully layered and organized for design teams who want granular control. Canva templates are set up with locked brand elements and editable zones for marketing teams who need to self-serve without design skills."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can you deliver the first set of templates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our standard turnaround for a complete template system is five business days from brand audit approval. This includes the initial design exploration, template creation, and one round of revisions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you create content calendars as part of the service?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every engagement includes a content calendar template that maps out your posting schedule with content pillars, themes, and format assignments based on your goals, audience behavior data, and platform best practices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need existing brand guidelines before we start?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Having existing brand guidelines makes the process faster, but they are not required. If your brand guidelines are incomplete or nonexistent, we establish the visual direction during the brand audit phase and create a social media style guide as part of the deliverables."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How many rounds of revisions are included?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every project includes two rounds of revisions at the template design stage. This covers changes to layout, color application, typography treatment, imagery direction, and overall visual tone."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer monthly retainers for ongoing content design?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. After the initial template system is delivered, many clients move to a monthly retainer for ongoing content production, seasonal template updates, and campaign-specific design, with a dedicated designer and priority turnaround."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do we get started?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Book a 30-minute call through our Calendly link or email us at hello@okad.agency. On the call, we review your current social media presence, discuss your goals, and determine the scope of work. After approval, we kick off with the brand audit and have your template system ready within five business days."
+        }
+      }
+    ]
+  }
+  </script>
+
+</body>
+</html>
