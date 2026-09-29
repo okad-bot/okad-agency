@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allCases = await getCollection('cases');
+const cases = allCases
+  .filter(c => c.data.type === 'case')
+  .sort((a, b) => a.id.localeCompare(b.id));
+---
+
+<Base title="Cases — OKAD Agency" description="Case studies and portfolio">
+  <div class="page-header">
+    <h1>Our Cases</h1>
+    <p>Design, branding, UGC, and marketing projects for global brands</p>
+  </div>
+  <div class="cases-listing">
+    <div class="cases-grid">
+      {cases.map(c => (
+        <a href={`/cases/${c.id}`} class="case-list-card">
+          {c.data.cover && <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" />}
+          <div class="card-body">
+            <span class="card-tag">{c.data.type}</span>
+            <h3>{c.data.title}</h3>
+            <p>{c.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

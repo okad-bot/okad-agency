@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  return cases.map(entry => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Base title={`${entry.data.title} — OKAD Agency`} description={entry.data.description} lang={entry.data.lang}>
+  <article class="case-detail">
+    <div class="case-meta">
+      <span class="case-tag">{entry.data.type}</span>
+    </div>
+    <h1>{entry.data.title}</h1>
+    {entry.data.cover && <img src={entry.data.cover} alt={entry.data.coverAlt || entry.data.title} />}
+    <Content />
+  </article>
+</Base>
