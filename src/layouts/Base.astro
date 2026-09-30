@@ -1,0 +1,110 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  lang?: string;
+  noindex?: boolean;
+}
+
+const {
+  title = 'OKAD Agency',
+  description = 'OKAD Agency delivers standout web design, pitch decks, captivating video production, content creation & graphic design to help global brands stand out.',
+  ogImage = '/assets/og-image.png',
+  lang = 'en',
+  noindex = false,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:url" content={canonicalURL} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Handjet&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <div class="topbar">
+      <span>No content? Wrong content? &gt; We solve both.</span>
+      <div class="topbar-links">
+        <a href="mailto:olga@okad.agency">Book a free audit</a>
+        <span class="topbar-sep">|</span>
+        <a href="/pricing">View pricing</a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="logo">OKAD</a>
+        <nav class="main-nav">
+          <a href="/">Home</a>
+          <a href="/design">Design</a>
+          <a href="/ugc-video">Video</a>
+          <a href="/pricing">Pricing</a>
+          <a href="mailto:olga@okad.agency">Email</a>
+          <a href="https://calendly.com/okad-agency/30min" class="nav-cta" target="_blank" rel="noopener">Book a call</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a href="/" class="footer-logo">OKAD</a>
+            <p class="footer-tagline">Your best solution for business growth and increasing its effectiveness</p>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <a href="/">Home</a>
+            <a href="/design">Design</a>
+            <a href="/ugc-video">Video</a>
+            <a href="/pricing">Pricing</a>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <span>Content-marketing</span>
+            <span>Digital marketing</span>
+            <span>Branding</span>
+            <span>Web-design</span>
+            <span>Product design</span>
+            <span>NoCode development</span>
+            <span>UX-research</span>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:olga@okad.agency">Email us</a>
+            <a href="https://calendly.com/okad-agency/30min" target="_blank" rel="noopener">Book a call</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 OKAD GROUP LLC. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
