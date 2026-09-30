@@ -56,6 +56,9 @@ import '../styles/global.css';
     <header class="site-header">
       <div class="header-inner">
         <a href="/" class="logo">OKAD</a>
+        <button class="menu-toggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
         <nav class="main-nav">
           <a href="/">Home</a>
           <a href="/design">Design</a>
@@ -66,6 +69,19 @@ import '../styles/global.css';
         </nav>
       </div>
     </header>
+
+    <script>
+      const toggle = document.querySelector('.menu-toggle');
+      const nav = document.querySelector('.main-nav');
+      toggle?.addEventListener('click', () => {
+        const open = nav?.classList.toggle('open');
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+      nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+        nav.classList.remove('open');
+        toggle?.setAttribute('aria-expanded', 'false');
+      }));
+    </script>
 
     <main>
       <slot />
