@@ -21,6 +21,7 @@
 html { scroll-behavior: smooth; }
 body {
   font-family: var(--font-sans);
+  font-feature-settings: 'cv03' on, 'cv04' on, 'cv09' on, 'cv11' on;
   color: var(--color-text);
   background: var(--color-bg);
   line-height: 1.6;
