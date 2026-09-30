@@ -8,6 +8,10 @@ import Base from '../layouts/Base.astro';
   <div class="hero">
     <h1>Quality <em>[Scroll-Stopping Content]</em> At The Volume Your Marketing Needs</h1>
     <p class="hero-sub">Ad creatives, UGC video, marketing assets design. From your first ad to 200+ creatives/month — we scale with you.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn">Boost your sales</a>
+      <a href="#contact" class="btn btn-outline">Find new audience</a>
+    </div>
   </div>
 
   <!-- Stats Row -->
@@ -55,204 +59,132 @@ import Base from '../layouts/Base.astro';
     </div>
   </section>
 
-  <!-- Content Cases -->
+  <!-- Client Logos -->
+  <div class="logos-strip">
+    <span>TISA</span>
+    <span>samto</span>
+    <span>Trustio</span>
+    <span>Tray Freelance</span>
+    <span>Mobi's</span>
+    <span>Tray Freelance</span>
+    <span>TISA</span>
+  </div>
+
+  <!-- Content Cases Carousel -->
   <h2 class="section-title">Explore Our Content Cases</h2>
-  <section class="cases-section">
-
-    <!-- Case 1 -->
-    <div class="case-card">
-      <div class="case-img">
+  <div class="carousel">
+    <div class="carousel-track">
+      <a href="/cases/high-roas-ugc-ads" class="carousel-card">
         <img src="https://framerusercontent.com/images/BmUk0KMAPqqpLzpARwDdXhfg.gif" alt="High ROAS UGC Ads" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#dtc</span>
-          <span class="case-tag">#e-com</span>
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#DTC</span><span>#E-COM</span></div>
+          <h3>High ROAS UGC Ads</h3>
+          <p>Multiple Hooks → Body → CTAs. 8+ sec watch time.</p>
         </div>
-        <h3>High ROAS UGC Ads</h3>
-        <p>Every script follows Multiple Hooks → Body → CTAs structure engineered for watch time and conversions.</p>
-        <p>The challenge: most UGC ads lose viewers by second 3. We write scripts driving 8+ sec watch time, test 3+ hooks per concept, and scale winners into new formats.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Digital Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Case 2 -->
-    <div class="case-card">
-      <div class="case-img">
+      </a>
+      <a href="/cases/high-converting-video-ads-for-dtc-brands" class="carousel-card">
         <img src="https://framerusercontent.com/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png" alt="AI static Ads" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#dtc</span>
-          <span class="case-tag">UGC content</span>
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#DTC</span><span>UGC</span></div>
+          <h3>AI static Ads — 3x CTR</h3>
+          <p>Raw UGC reworked into premium visuals that convert.</p>
         </div>
-        <h3>AI static Ads &mdash; 3x CTR vs original creo</h3>
-        <p>When parents are choosing a $500+ crib for their newborn, they don't click on flashy ads. They click on trust.</p>
-        <p>The challenge: we reworked raw UGC with oversized product into premium visuals that feel native to the feed — and outperformed studio shots 3x on CTR.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Dadadababy Case</a>
-          <a href="#contact" class="btn">Get a quote</a>
+      </a>
+      <a href="/cases" class="carousel-card">
+        <img src="https://framerusercontent.com/images/FXMkq1jH116yCF0nIQPl2N2vc.png" alt="UGC Creators 45+" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#SILVER_AGE</span><span>VIDEO</span></div>
+          <h3>Creators 45+</h3>
+          <p>Trust-first content for mature audiences.</p>
         </div>
-      </div>
-    </div>
-
-    <!-- Case 3 -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/FXMkq1jH116yCF0nIQPl2N2vc.png" alt="UGC Ads by Creators 45+" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#silver_age</span>
-          <span class="case-tag">Video</span>
-        </div>
-        <h3>UGC Ads & Content by Creators 45+</h3>
-        <p>Most agencies use 22-year-old creators and miss mature audiences. We work with 30+ creators aged 45–65 across health, dating, and lifestyle verticals.</p>
-        <p>The challenge: match creators to the audience, shift to trust-first messaging, and make content that feels real without being cringy.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore e-com &amp; Dating 45+ Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Case 4 -->
-    <div class="case-card">
-      <div class="case-img">
+      </a>
+      <a href="/cases" class="carousel-card">
         <img src="https://framerusercontent.com/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif" alt="1M views video content" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#digital</span>
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#DIGITAL</span><span>#ORGANIC</span></div>
+          <h3>1M Views for Digital</h3>
+          <p>900K views dating app. 990K + 22K saves EdTech.</p>
         </div>
-        <h3>1M views Video-content for Digital</h3>
-        <p>Talking-head UGC for products you can't hold in your hands — dating apps, EdTech, SaaS. We script for retention, not virality.</p>
-        <p>Results: 900K views for a dating app, 990K views + 22K saves for EdTech.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Digital Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
+      </a>
+      <a href="/cases" class="carousel-card">
+        <img src="https://framerusercontent.com/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png" alt="High CPA Ads" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#PAID_ADS</span><span>#DIGITAL</span></div>
+          <h3>High CPA Ads for Digital</h3>
+          <p>Static creatives for Meta & TikTok built to convert.</p>
         </div>
-      </div>
+      </a>
+      <a href="/cases" class="carousel-card">
+        <img src="https://framerusercontent.com/images/SBAkW2rwVUXKWpG9XA9enjK968.png" alt="Alco Brands" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>#ALCO</span><span>UGC</span></div>
+          <h3>UGC for Alco Brands</h3>
+          <p>Creator network for alcohol. No shipping. No unboxings.</p>
+        </div>
+      </a>
     </div>
+  </div>
 
-    <!-- Case 5 -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png" alt="High CPA Ads for Digital" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#Digital</span>
-        </div>
-        <h3>High CPA Ads creatives for Digital</h3>
-        <p>Static ad creatives for Meta and TikTok built to convert on cost-per-action. Every visual is data-backed with tested hooks, copy frameworks, and brand-safe design.</p>
-        <p>The challenge: we design for info products, HR Tech, real estate, investing platforms — verticals where trust and clarity beat flash.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Digital Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Case 6 -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/SBAkW2rwVUXKWpG9XA9enjK968.png" alt="UGC & AI content for Alco Brands" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#Alco</span>
-        </div>
-        <h3>UGC & AI-content for Alco Brands</h3>
-        <p>Alcohol UGC is the hardest content to produce. Your creator needs a full bar setup, the right glassware, ice, garnishes — and the confidence to pour on camera without looking like an infomercial.</p>
-        <p>The challenge: we built a creator network specifically for alcohol — people who already have the setup, the lighting, and the pouring technique. No shipping product. No awkward unboxings.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Alco Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Design Cases -->
+  <!-- Design Cases Carousel -->
   <h2 class="section-title">Explore Design Cases</h2>
-  <section class="cases-section">
-
-    <!-- Jumpman -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/okMGXM3X1P3IbyA8etRfLQXsTCk.png" alt="Jumpman branding case" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">Branding</span>
+  <div class="carousel">
+    <div class="carousel-track">
+      <a href="/cases/case-jumpman" class="carousel-card">
+        <img src="https://framerusercontent.com/images/okMGXM3X1P3IbyA8etRfLQXsTCk.png" alt="Jumpman branding" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>BRANDING</span></div>
+          <h3>Jumpman — Paris</h3>
+          <p>Premium identity for a trampoline cardio studio.</p>
         </div>
-        <h3>Branding &mdash; Jumpman</h3>
-        <p>We built an identity for a Paris trampoline cardio studio where every touchpoint — from the logo to the wayfinding — had to feel like a luxury fitness brand, not a kids' bounce house.</p>
-        <p>The challenge: make a trampoline gym feel like a premium Parisian experience — something you'd post about, not something you'd hide.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Branding Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
+      </a>
+      <a href="/cases/case-jumpman-website-main" class="carousel-card">
+        <img src="https://framerusercontent.com/images/Tdc8KUYgkNnSE3YxS5uEyJX4.png" alt="Intalent web design" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>WEBFLOW</span><span>FRAMER</span><span>SHOPIFY</span></div>
+          <h3>Web Design — Intalent</h3>
+          <p>Mobile-first, fast, converts on first visit.</p>
         </div>
-      </div>
-    </div>
-
-    <!-- Intalent -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/Tdc8KUYgkNnSE3YxS5uEyJX4.png" alt="Intalent web design case" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#Webflow</span>
-          <span class="case-tag">#Framer</span>
-          <span class="case-tag">#Shopify</span>
+      </a>
+      <a href="/cases/case-trusto" class="carousel-card">
+        <img src="https://framerusercontent.com/images/S1E8qDxE6cil2qXKc8AMtz6wVs.png" alt="Trusto branding" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>BRANDING</span><span>WEB</span></div>
+          <h3>Trusto — Brand & Web</h3>
+          <p>Full digital presence for a fintech startup.</p>
         </div>
-        <h3>Web Design &mdash; Intalent</h3>
-        <p>Conversion-focused website design for SaaS, HR Tech, and digital products. Every section is structured around a single action — sign up, book a demo, start a trial.</p>
-        <p>The challenge: mobile-first, built to load fast and convert on the first visit.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore Web Design Cases</a>
-          <a href="#contact" class="btn">Get a quote</a>
+      </a>
+      <a href="/cases/case-sardana" class="carousel-card">
+        <img src="https://framerusercontent.com/images/b62qjvUmjLVTCd8WJ9SfsEpF8o.png" alt="Sardana design" loading="lazy" />
+        <div class="carousel-overlay">
+          <div class="carousel-tags"><span>PACKAGING</span></div>
+          <h3>Sardana — Packaging</h3>
+          <p>From brand identity to shelf-ready packaging.</p>
         </div>
-      </div>
+      </a>
     </div>
-
-  </section>
-
-  <!-- Portfolio Grid -->
-  <section class="portfolio-section">
-    <div class="portfolio-grid">
-      <img src="https://framerusercontent.com/images/S1E8qDxE6cil2qXKc8AMtz6wVs.png" alt="Portfolio work 1" loading="lazy" />
-      <img src="https://framerusercontent.com/images/b62qjvUmjLVTCd8WJ9SfsEpF8o.png" alt="Portfolio work 2" loading="lazy" />
-      <img src="https://framerusercontent.com/images/kAkM8v5CwAIerVmAdmMIBTqM30.png" alt="Portfolio work 3" loading="lazy" />
-      <img src="https://framerusercontent.com/images/yRU505Z52FJaY1wv77laoTUjxM.png" alt="Portfolio work 4" loading="lazy" />
-      <img src="https://framerusercontent.com/images/w6fb6Lk9NVFWGcErwOjxMxsCrAs.png" alt="Portfolio work 5" loading="lazy" />
-      <img src="https://framerusercontent.com/images/Hj87aXoVNswA39nVTP8YSDd3G00.png" alt="Portfolio work 6" loading="lazy" />
-      <img src="https://framerusercontent.com/images/BNfMlg3TE8O0W6ihW5ISITW9eDQ.jpg" alt="Portfolio work 7" loading="lazy" />
-      <img src="https://framerusercontent.com/images/wn57Y0QCiso41hmr5dSwHLFY.jpg" alt="Portfolio work 8" loading="lazy" />
-    </div>
-    <div class="portfolio-cta">
-      <a href="https://www.behance.net/okad_agency" class="btn btn-outline" target="_blank" rel="noopener">Explore More Design Cases on Behance</a>
-    </div>
-  </section>
+  </div>
+  <div style="text-align:center; padding: 16px 24px 40px;">
+    <a href="https://www.behance.net/okad_agency" class="btn btn-outline" target="_blank" rel="noopener">Explore More Design Cases on Behance</a>
+  </div>
 
   <!-- Contact Section -->
   <section class="contact-section" id="contact">
     <div class="contact-inner">
       <h2>Start with a Conversation</h2>
       <p>I'm Olga, founder of OKAD. Most projects start with a quick 20-min call to understand your brand and share relevant cases.</p>
-      <p>Email: <a href="mailto:olga@okad.agency">olga@okad.agency</a></p>
-      <p>Founder: Olga Kad Miller</p>
-      <p>WhatsApp: <a href="https://wa.me/351939209099">+351 939 209 099</a></p>
-      <div class="contact-buttons">
-        <a href="mailto:olga@okad.agency" class="contact-btn">Email Us</a>
-        <a href="https://www.linkedin.com/in/o-kad/" class="contact-btn" target="_blank" rel="noopener">Add on LinkedIn</a>
-        <a href="https://wa.me/351939209099" class="contact-btn" target="_blank" rel="noopener">WA Us</a>
+      <div class="contact-rows">
+        <div class="contact-row">
+          <span class="contact-label">Email: olga@okad.agency</span>
+          <a href="mailto:olga@okad.agency" class="contact-btn">Email Us</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">Founder: Olga Kad Miller</span>
+          <a href="https://www.linkedin.com/in/o-kad/" class="contact-btn" target="_blank" rel="noopener">Add on LinkedIn</a>
+        </div>
+        <div class="contact-row">
+          <span class="contact-label">WhatsApp: +351 939 209 099</span>
+          <a href="https://wa.me/351939209099" class="contact-btn" target="_blank" rel="noopener">WA Us</a>
+        </div>
       </div>
       <img src="https://framerusercontent.com/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="Olga Kad Miller" class="contact-avatar" />
     </div>
