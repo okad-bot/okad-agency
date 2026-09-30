@@ -269,6 +269,12 @@ a { color: inherit; text-decoration: none; }
   padding: 60px 24px 40px;
   color: var(--color-muted);
 }
+h2 em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--color-accent);
+}
 
 /* Carousel */
 .carousel {
