@@ -79,9 +79,11 @@ a { color: inherit; text-decoration: none; }
   height: 64px;
 }
 .logo {
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: 0.1em;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.02em;
 }
 .main-nav { display: flex; gap: 28px; align-items: center; font-size: 15px; }
 .main-nav a { transition: opacity 0.2s; }
@@ -126,9 +128,13 @@ a { color: inherit; text-decoration: none; }
 /* Hero */
 .hero {
   text-align: center;
-  padding: 80px 24px 60px;
+  padding: 80px 24px 40px;
   max-width: 900px;
   margin: 0 auto;
+}
+.hero-carousel {
+  padding-top: 0;
+  padding-bottom: 32px;
 }
 .hero h1 {
   font-size: clamp(30px, 4vw, 52px);
@@ -265,13 +271,13 @@ a { color: inherit; text-decoration: none; }
   border-radius: 20px;
   overflow: hidden;
   position: relative;
-  aspect-ratio: 4/5;
   display: block;
 }
 .carousel-card img {
   width: 100%;
-  height: 100%;
+  aspect-ratio: 3/4;
   object-fit: cover;
+  display: block;
 }
 .carousel-overlay {
   position: absolute;
@@ -482,9 +488,11 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 32px;
 }
 .footer-logo {
-  font-weight: 700;
-  font-size: 24px;
-  letter-spacing: 0.1em;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  letter-spacing: 0.02em;
 }
 .footer-tagline { color: var(--color-muted); font-size: 13px; line-height: 1.5; margin-top: 8px; }
 .footer-nav {
@@ -504,9 +512,11 @@ a { color: inherit; text-decoration: none; }
 }
 .footer-nav a:hover { color: var(--color-text); }
 .footer-logo-mid {
-  font-weight: 700 !important;
-  font-size: 20px !important;
-  letter-spacing: 0.1em;
+  font-family: var(--font-serif) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  font-size: 22px !important;
+  letter-spacing: 0.02em;
   color: var(--color-text) !important;
 }
 .footer-social {
