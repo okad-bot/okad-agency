@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const allCases = await getCollection('cases');
+const posts = allCases
+  .filter(c => c.data.type === 'blog')
+  .sort((a, b) => b.id.localeCompare(a.id));
+---
+
+<Base title="Blog — OKAD Agency" description="Insights on UGC video ads, web design, branding, and creative strategy from 200+ brand projects.">
+
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "OKAD Agency Blog",
+    "description": "Insights on UGC video ads, web design, branding, and creative strategy.",
+    "url": "https://okad.agency/blog/",
+    "publisher": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" }
+  })} />
+
+  <div class="page-header page-header--left">
+    <h1>The <em>Blog</em></h1>
+    <p>UGC, ad creative, web design, and branding — what we've learned from 200+ projects</p>
+  </div>
+  <div class="cases-listing">
+    <div class="cases-grid">
+      {posts.map(c => (
+        <a href={`/blog/${c.id}`} class="case-list-card">
+          {c.data.cover && <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" />}
+          <div class="card-body">
+            <h3>{c.data.title}</h3>
+            <p>{c.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+
+</Base>

@@ -35,6 +35,7 @@ import '../styles/global.css';
     <meta property="og:image" content={ogImage} />
     <meta property="og:url" content={canonicalURL} />
 
+    <slot name="head" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,12 +46,7 @@ import '../styles/global.css';
   </head>
   <body>
     <div class="topbar">
-      <span>No content? Wrong content? &gt; We solve both.</span>
-      <div class="topbar-links">
-        <a href="mailto:olga@okad.agency">Book a free audit</a>
-        <span class="topbar-sep">|</span>
-        <a href="/pricing">View pricing</a>
-      </div>
+      <span>Start with 1 task or 10 hours — scale when ready. <a href="/pricing">View pricing →</a></span>
     </div>
 
     <header class="site-header">
@@ -64,6 +60,7 @@ import '../styles/global.css';
           <a href="/design">Design</a>
           <a href="/ugc-video">Video</a>
           <a href="/pricing">Pricing</a>
+          <a href="/blog">Blog</a>
           <a href="mailto:olga@okad.agency">Email</a>
           <a href="https://calendly.com/okad-agency/30min" class="nav-cta" target="_blank" rel="noopener">Book a call</a>
         </nav>
@@ -98,16 +95,16 @@ import '../styles/global.css';
       <div class="footer-inner">
         <div class="footer-top">
           <a href="/" class="footer-logo">OKAD</a>
-          <p class="footer-tagline">Your best solution for business growth and increasing its effectiveness</p>
+          <p class="footer-tagline">Ad creatives, UGC video, web design & branding — 100+ brands, 10,000+ assets.</p>
         </div>
         <nav class="footer-nav">
-          <a href="/">Product design</a>
-          <a href="/">NoCode development</a>
-          <a href="/">UX-research</a>
-          <a href="/">Content marketing</a>
+          <a href="/cases">Cases</a>
+          <a href="/design">Design</a>
+          <a href="/ugc-video">UGC Video</a>
           <a href="/" class="footer-logo-mid">OKAD</a>
-          <a href="/">Digital marketing</a>
-          <a href="/">Branding</a>
+          <a href="/ads-video">Ad Creatives</a>
+          <a href="/pricing">Pricing</a>
+          <a href="/blog">Blog</a>
         </nav>
         <div class="footer-social">
           <a href="https://x.com/okad_agency" target="_blank" rel="noopener" aria-label="X/Twitter">𝕏</a>

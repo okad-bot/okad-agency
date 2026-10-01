@@ -4,5 +4,4 @@ description: "Article: Effective Content Templates How To Empower Non Designers 
 type: article
 lang: en
 ---
-
 <!-- Content pending migration from Framer -->

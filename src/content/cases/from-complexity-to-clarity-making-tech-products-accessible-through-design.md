@@ -4,5 +4,4 @@ description: "Article: From Complexity To Clarity Making Tech Products Accessibl
 type: article
 lang: en
 ---
-
 <!-- Content pending migration from Framer -->

@@ -6,36 +6,10 @@ lang: en
 cover: "https://framerusercontent.com/images/JcqAbfMXEavS66eYHy6eoeZiv8.jpg?width=3840&height=2160"
 coverAlt: "Case Study: How Fixing UX Mistakes Helped Keep Users from Leaving"
 ---
-
-Home
-
-Design
-
-Video
-
-Pricing
-
-Email us
-
-Book a call
-
-All articles
-
-
-![](https://framerusercontent.com/images/JcqAbfMXEavS66eYHy6eoeZiv8.jpg?width=3840&height=2160)
-
-
-## Case Study: How Fixing UX Mistakes Helped Keep Users from Leaving
-
-Discover how targeted UX research and quick-win optimizations transformed Unistream Bank’s money transfer app for migrant users—eliminating form frustration, clarifying sender/recipient roles, and cutting task completion time without a full redesign. Learn actionable mobile app UX optimization strategies to boost conversions, reduce drop-offs, and elevate customer trust—read now!
-
 UX research
 
-14
 
-min reading
 
-April 8, 2025
 
 In today’s digital world, ignoring user experience is like building a beautiful bridge without considering how people will actually cross it—eventually, everyone will turn around and find another way.
 
@@ -212,49 +186,3 @@ How do you measure ROI on UX fixes?We track task‑completion rates, drop‑off 
 Can we run UX research remotely if our users are spread across countries?Yes. We use moderated video sessions, unmoderated tasks, and remote diary studies. For sensitive cohorts, we add local community facilitators to ensure cultural alignment and richer insights.
 
 What if we plan a full redesign later—should we still invest in smaller UX fixes now?Absolutely. Quick wins relieve immediate friction, boost user trust, and provide validated insights that de‑risk the larger redesign. Think of them as stepping‑stones rather than sunk effort.
-
-
-![](https://framerusercontent.com/images/WF8QibW3g97lNWib7bxdwp8gD8.png?width=379&height=378)
-
-
-![](https://framerusercontent.com/images/opDB84NuVmQb7T1n40nYHQy4.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/3GQeI753ODdElc8RK9lBChrrtSQ.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/F8ruXBlv1e15Q6HkaCulqqxN83Q.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/7nI7q7tdpSXuNilrDbfPPurtX3Q.png?width=320&height=320)
-
-Like our designs & video storytelling?
-
-Starting to work with us is easy!
-
-
-### Discuss the project
-
-Write to us about your idea and we will calculate the cost of the work, as well as offer a step-by-step project management.
-
-Let's start
-
-Content-marketing
-
-Digital marketing
-
-Branding
-
-Web-design
-
-Product design
-
-NoCode development
-
-UX-research
-
-Your best solution for business growth and increasing its effectiveness
-
-© 2026 OKAD GROUP LLC. All rights reserved.
-
-We use cookies to personalize content, run ads, and analyze traffic.
