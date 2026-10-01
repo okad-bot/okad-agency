@@ -4,5 +4,4 @@ description: "Article: Managing Large Scale Branding Projects Essential Guidelin
 type: article
 lang: en
 ---
-
 <!-- Content pending migration from Framer -->

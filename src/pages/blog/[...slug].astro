@@ -1,0 +1,103 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const cases = await getCollection('cases');
+  return cases
+    .filter(c => c.data.type === 'blog')
+    .map(entry => ({
+      params: { slug: entry.id },
+      props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const allCases = await getCollection('cases');
+const related = allCases
+  .filter(c => c.id !== entry.id && c.data.type === 'blog' && c.data.cover)
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+const faqs = entry.data.faqs || [];
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": entry.data.title,
+  "description": entry.data.description || "",
+  "image": entry.data.cover || "",
+  "author": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" },
+  "publisher": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": `https://okad.agency/blog/${entry.id}/` },
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://okad.agency/" },
+    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://okad.agency/blog/" },
+    { "@type": "ListItem", "position": 3, "name": entry.data.title },
+  ],
+};
+
+const faqSchema = faqs.length > 0 ? {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+} : null;
+---
+
+<Base title={`${entry.data.title} — OKAD Agency`} description={entry.data.description} ogImage={entry.data.cover} lang={entry.data.lang}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} slot="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} slot="head" />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} slot="head" />}
+
+  <article class="case-detail">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="/">Home</a> <span>/</span> <a href="/blog">Blog</a> <span>/</span> <span>{entry.data.title}</span>
+    </nav>
+    <h1>{entry.data.title}</h1>
+    {entry.data.cover && <img src={entry.data.cover} alt={entry.data.coverAlt || entry.data.title} class="case-cover" />}
+    <Content />
+
+    {faqs.length > 0 && (
+      <section class="case-faq">
+        <h2>Frequently Asked Questions</h2>
+        {faqs.map(f => (
+          <details class="faq-item">
+            <summary>{f.q}</summary>
+            <p>{f.a}</p>
+          </details>
+        ))}
+      </section>
+    )}
+
+    <div class="case-cta">
+      <h2>Need help with this?</h2>
+      <p>We'll review your project, share relevant work, and suggest an approach — no pitch decks, just a straight conversation.</p>
+      <a href="https://calendly.com/okad_calls/first" class="btn" target="_blank" rel="noopener">Book a Call</a>
+    </div>
+  </article>
+
+  {related.length > 0 && (
+    <section class="related-cases">
+      <h2>More from the Blog</h2>
+      <div class="related-grid">
+        {related.map(c => (
+          <a href={`/blog/${c.id}`} class="related-card">
+            {c.data.cover && <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" />}
+            <h3>{c.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</Base>

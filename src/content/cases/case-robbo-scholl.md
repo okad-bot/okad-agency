@@ -1,222 +1,89 @@
 ---
-title: "Case Study: How We Attracted Kids to Lego and Minecraft Courses Through Social Media"
-description: "Discover how Robbo’s Vienna launch conquered the challenge of no local presence with a fully remote, data-driven digital marketing strategy: German-localized rebranding of social profiles, bespoke content for Lego Robotics, Minecraft Modding, and coding courses, plus rigorous ad creative and geo-targeting tests. The result? Surge in organic reach, engagement, and course enrollments—ready to replicate this success?
-"
+title: "Robbo School — Social Media Strategy for Kids' Robotics Courses"
+description: "Social media marketing and paid ads for Robbo's Vienna launch. German-localized content for Lego Robotics, Minecraft, and coding courses boosted enrollments."
 type: case
 lang: en
 cover: "https://framerusercontent.com/images/l1amAnkh3DQ8yUtR4pxkdPX20Y.jpg?width=2800&height=2190"
-coverAlt: "Case Study: How We Attracted Kids to Lego and Minecraft Courses Through Social Media"
+coverAlt: "Robbo School Vienna social media marketing campaign showing content for kids' robotics and coding courses"
+faqs:
+  - q: "How did you market Robbo without a local presence in Austria?"
+    a: "We worked fully remote using available German-language materials, producing localized graphics and video content tailored to Viennese parents and children."
+  - q: "What courses were promoted and how was content tailored?"
+    a: "We created distinct content strategies for Lego Robotics, Minecraft Modding, and coding courses — each with unique creatives matching the interests of different age groups."
+  - q: "What results did the social media strategy achieve?"
+    a: "Significant increases in organic reach and engagement, successful conversion from introductory courses to the main robotics program, and improved brand perception through rebranded social profiles."
 ---
 
-Home
+Robbo is a Finnish educational franchise offering robotics classes for children. When they launched a new location in Vienna, they faced a core challenge: promoting courses locally without any physical presence in Austria. We were tasked with creating a full social media marketing strategy and targeted advertising campaign to drive enrollments.
 
-Design
+## Project Overview
 
-Video
+![Robbo School Vienna social media profile redesign with German-language content](https://framerusercontent.com/images/V4dFKuZrK5pOFXxas49teKQE4qw.jpg?width=2800&height=1321)
 
-Pricing
+The goal was to attract families to enroll their children in Robbo's courses — Lego Robotics, Minecraft Modding, and coding programs. We needed to increase brand awareness, boost enrollment, and drive conversions while maintaining consistency with Robbo's global brand.
 
-Email us
-
-Book a call
-
-All articles
+![Robbo School course offerings overview with age group segmentation](https://framerusercontent.com/images/Ev1xAowddIU8ly8PhqL0x0Hd1es.jpg?width=2800&height=589)
 
 
-![](https://framerusercontent.com/images/l1amAnkh3DQ8yUtR4pxkdPX20Y.jpg?width=2800&height=2190)
-
-
-## Case Study: How We Attracted Kids to Lego and Minecraft Courses Through Social Media
-
-Discover how Robbo’s Vienna launch conquered the challenge of no local presence with a fully remote, data-driven digital marketing strategy: German-localized rebranding of social profiles, bespoke content for Lego Robotics, Minecraft Modding, and coding courses, plus rigorous ad creative and geo-targeting tests. The result? Surge in organic reach, engagement, and course enrollments—ready to replicate this success?
-
-Marketing
-
-10
-
-min reading
-
-April 27, 2025
-
-If you’re not investing in strategic content and targeted ads for your education business, you’re not just missing out—you’re silently handing your audience to someone else. In a digital landscape where attention spans are short and trust is hard-won, relying on word of mouth or the occasional post is the fastest way to ensure your classes stay half-empty.
-
-In today’s fast-paced digital world, simply offering a great product isn’t enough. If your business isn't visible and consistently engaging with the right audience, you might as well be invisible. This is exactly the challenge faced by Robbo, a Finnish franchise providing robotics education to kids, which opened a branch in Vienna, Austria. Despite being part of an international network, Robbo had to handle its own local marketing efforts in a new market. Our task was clear: create and implement a comprehensive digital marketing strategy to promote their robotics courses through social media and targeted ads—without the luxury of physical presence in Austria.
-
-
-### Project Overview
-
-
-![](https://framerusercontent.com/images/V4dFKuZrK5pOFXxas49teKQE4qw.jpg?width=2800&height=1321)
-
-Robbo is a Finnish educational franchise that offers robotics classes for children. With the launch of their new location in Vienna, Austria, they faced the challenge of promoting their courses locally without a physical presence. We were tasked with creating a strategic approach to social media marketing and targeted advertising, aiming to engage both local parents and kids interested in technology and robotics education.
-
-The goal was simple but crucial: attract families to enroll their children in Robbo's courses, particularly in programs like Lego Robotics, Minecraft Modding, and coding courses. We needed to increase brand awareness, boost enrollment, and drive conversions, all while maintaining consistency with Robbo's global brand.
-
-
-![](https://framerusercontent.com/images/Ev1xAowddIU8ly8PhqL0x0Hd1es.jpg?width=2800&height=589)
-
-
-### Challenges and Our Solutions
-
-
-![](https://framerusercontent.com/images/0pJpMcLrRd7a78GsPWq51RbkeVo.jpg?width=2800&height=3277)
-
+## Challenges and Solutions
 
 ### No Physical Presence in Austria
 
-The first challenge was the lack of a local presence in Austria, which meant we had to rely on remote collaboration and the available materials in German. To compensate, we created high-quality graphics and video content based on previously shot materials, ensuring that everything was relevant and localized for the target audience.
+![Robbo School German-localized content creation process and examples](https://framerusercontent.com/images/0pJpMcLrRd7a78GsPWq51RbkeVo.jpg?width=2800&height=3277)
 
+We relied on remote collaboration and available German-language materials. We produced high-quality graphics and video content from previously shot materials, ensuring everything was localized for the Viennese audience.
 
-![](https://framerusercontent.com/images/IlBH2ilKvJn01TrEzMYQhvDwDNU.jpg?width=2800&height=1321)
-
+![Robbo School Instagram and Facebook profile before-and-after rebranding](https://framerusercontent.com/images/IlBH2ilKvJn01TrEzMYQhvDwDNU.jpg?width=2800&height=1321)
 
 ### Adapting Content for Different Educational Tracks
 
+![Robbo School tailored creatives for Lego, Minecraft, and coding courses](https://framerusercontent.com/images/izgwZZfqtfjZndtKq4V4pBumRQ.jpg?width=2800&height=2601)
 
-![](https://framerusercontent.com/images/izgwZZfqtfjZndtKq4V4pBumRQ.jpg?width=2800&height=2601)
+Robbo offers courses appealing to different audiences. We analyzed each course's unique selling points and created tailored content:
 
-Robbo offers various courses that appeal to different audiences. We conducted a detailed analysis to understand the unique selling points of each course (Lego, Minecraft, and coding) and created tailored creative content for each. This approach helped us effectively communicate with distinct segments of the audience, ensuring that the messaging resonated with parents and children alike.
-
+- **Lego Robotics** — Hands-on building and programming for younger children
+- **Minecraft Modding** — Game-based learning that appeals to older kids
+- **Coding courses** — Structured programming fundamentals for teens
 
 ### Optimizing Ads and Content Strategy
 
+![Robbo School ad creative A/B testing results and performance comparison](https://framerusercontent.com/images/QEEJAP60TMR05Uws316uBIWGs.jpg?width=2800&height=3277)
 
-![](https://framerusercontent.com/images/QEEJAP60TMR05Uws316uBIWGs.jpg?width=2800&height=3277)
+We implemented regular testing for ads and creatives, including geographical targeting tests. By experimenting with different messaging, visuals, and formats, we identified the most effective approaches to reach our audience.
 
-To maximize engagement and conversion rates, we implemented a strategy of regular testing for ads and creatives, including geographical targeting tests. By experimenting with different messaging, visuals, and formats, we identified the most effective approaches to reach our audience.
+### Rebranding Social Media Accounts
 
+![Robbo School social media highlights and FAQ sections redesign](https://framerusercontent.com/images/bFSPe877FnOVOQcyhvKbZbwk2I.jpg?width=2800&height=2601)
 
-### Rebranding and Optimizing Social Media Accounts
-
-
-![](https://framerusercontent.com/images/bFSPe877FnOVOQcyhvKbZbwk2I.jpg?width=2800&height=2601)
-
-One of the core elements of the strategy was the rebranding of Robbo’s social media profiles. We redesigned the navigation, made the profiles visually appealing, and created informative highlights to address frequently asked questions. This streamlined experience made it easier for potential customers to find relevant information and engage with the brand.
+We redesigned the profile navigation, created visually appealing layouts, and built informative highlights addressing frequently asked questions. This streamlined experience made it easier for potential customers to find information and engage with the brand.
 
 
-### Key Results
+## Results
 
-
-![](https://framerusercontent.com/images/2zvZqHuvOwQm7T9V04eRRKi0jtw.jpg?width=2800&height=3277)
-
+![Robbo School campaign performance metrics and growth charts](https://framerusercontent.com/images/2zvZqHuvOwQm7T9V04eRRKi0jtw.jpg?width=2800&height=3277)
 
 ### Increased Organic Reach and Engagement
 
-By consistently posting high-quality content, we saw a significant increase in organic views, clicks, and interactions. Our content strategy focused on making educational posts visually appealing while providing value through relevant information. This approach built trust and strengthened Robbo’s brand presence on social media.
+Consistent high-quality content posting led to significant increases in organic views, clicks, and interactions. Educational posts with strong visuals built trust and strengthened Robbo's brand presence.
 
+![Robbo School organic reach and engagement analytics dashboard](https://framerusercontent.com/images/7PL3CR4MLRYv3KH3qGcODkawfA.jpg?width=2800&height=1267)
 
-![](https://framerusercontent.com/images/7PL3CR4MLRYv3KH3qGcODkawfA.jpg?width=2800&height=1267)
+### Conversion from Introductory to Main Programs
 
+By nurturing the audience with targeted content, we increased conversions from smaller introductory courses to the comprehensive robotics program, effectively growing Robbo's customer base.
 
-### Effective Conversion from Small Courses to the Main Robotics Program
-
-One of the key objectives was to guide families from smaller introductory courses to the main, comprehensive robotics program. By nurturing the audience with targeted content, we were able to increase conversions from these smaller courses to the larger program, effectively growing Robbo’s customer base.
-
-
-![](https://framerusercontent.com/images/vA9JjCIhnS8ClxGU12Y7eLd92a8.jpg?width=2800&height=1467)
-
+![Robbo School enrollment funnel showing conversion from trial to full program](https://framerusercontent.com/images/vA9JjCIhnS8ClxGU12Y7eLd92a8.jpg?width=2800&height=1467)
 
 ### Improved Visual and Informational Quality
 
-Our efforts to optimize Robbo’s social media profiles led to a noticeable improvement in their overall visual and informational quality. Parents now had an easier time understanding the value of the courses, which significantly contributed to a positive shift in brand perception.
+Optimized social media profiles gave parents an easier time understanding course value, contributing to a positive shift in brand perception.
 
+![Robbo School final social media profile with polished branding and content](https://framerusercontent.com/images/1UnX1KtxyzRKw0FInjCr2szXnw.jpg?width=2800&height=2901)
 
-![](https://framerusercontent.com/images/1UnX1KtxyzRKw0FInjCr2szXnw.jpg?width=2800&height=2901)
+### Ongoing Consultation and Optimization
 
+We conducted regular consultations with school leadership, helping them optimize content planning and improve their lead management system.
 
-### Regular Consultations and Process Optimization
+![Robbo School content planning calendar and consultation notes](https://framerusercontent.com/images/XUNAy0U9TQUi52nXQCy8arEcWV0.jpg?width=2800&height=1321)
 
-We conducted regular consultations with the school’s leadership, helping them optimize their content planning process and improve their lead management system. This ongoing support ensured that Robbo’s marketing efforts were continuously improving and adapting to new challenges.
-
-
-![](https://framerusercontent.com/images/XUNAy0U9TQUi52nXQCy8arEcWV0.jpg?width=2800&height=1321)
-
-
-### Key Takeaways
-
-
-![](https://framerusercontent.com/images/vIXieqIh2KMWfhKS0y3ksBvuDAA.jpg?width=2800&height=2041)
-
-
-### Tailored Content for Diverse Educational Programs
-
-A strategic approach to content marketing, tailored to the specifics of each educational track (Lego, Minecraft, and coding courses), ensured effective engagement with diverse audiences, even in a remote setting.
-
-
-### Continuous Testing and Optimization
-
-By systematically testing and adapting ad creatives and targeting strategies, we ensured that Robbo’s marketing efforts remained effective and responsive to the evolving needs of their audience.
-
-
-### Remote Collaboration Doesn’t Have to Limit Success
-
-Despite not having a physical presence in Austria, our remote collaboration enabled us to create and execute a highly effective digital marketing strategy. This case demonstrates that even without local presence, strategic online marketing can drive significant results.
-
-
-## Ready to Boost Your Digital Presence?
-
-Want to see similar results for your brand? If you’re looking to create a tailored digital marketing strategy that boosts conversions, enhances user engagement, and optimizes your social media presence, we can help.
-
-Let’s talk → https://tally.so/r/3jElgx
-
-
-![](https://framerusercontent.com/images/mLcyA0yKas6XNcYTLUVt4rukvHE.jpg?width=2800&height=1008)
-
-
-### Frequently Asked Questions (FAQ)
-
-1. How did you adapt the content for the different educational tracks at Robbo?We conducted a detailed analysis of each course and developed unique creatives for each, ensuring that our messaging resonated with the specific needs and interests of both kids and parents.
-
-2. What strategies did you use to improve social media engagement for Robbo?We focused on consistent, high-quality content creation, rebranding Robbo’s social media profiles, and creating engaging visuals that resonated with our target audience. We also implemented strategies for increasing organic reach and engagement.
-
-3. How did you handle the lack of physical presence in Austria?We worked remotely with available materials in German and produced high-quality graphics and video content, ensuring everything was relevant and localized for the Austrian market.
-
-4. What was the impact of targeted advertising on Robbo’s growth?The targeted ads significantly increased conversions, especially from smaller courses to the main robotics program. Through regular testing of creatives and geographical targeting, we maximized ad performance and engagement.
-
-5. How do you ensure long-term success in social media marketing?We believe in continuous testing, adapting strategies based on analytics, and providing ongoing support to our clients. Regular consultations and optimization ensure that our marketing efforts are always aligned with client goals.
-
-
-![](https://framerusercontent.com/images/WF8QibW3g97lNWib7bxdwp8gD8.png?width=379&height=378)
-
-
-![](https://framerusercontent.com/images/opDB84NuVmQb7T1n40nYHQy4.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/3GQeI753ODdElc8RK9lBChrrtSQ.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/F8ruXBlv1e15Q6HkaCulqqxN83Q.png?width=320&height=320)
-
-
-![](https://framerusercontent.com/images/7nI7q7tdpSXuNilrDbfPPurtX3Q.png?width=320&height=320)
-
-Like our designs & video storytelling?
-
-Starting to work with us is easy!
-
-
-### Discuss the project
-
-Write to us about your idea and we will calculate the cost of the work, as well as offer a step-by-step project management.
-
-Let's start
-
-Content-marketing
-
-Digital marketing
-
-Branding
-
-Web-design
-
-Product design
-
-NoCode development
-
-UX-research
-
-Your best solution for business growth and increasing its effectiveness
-
-© 2026 OKAD GROUP LLC. All rights reserved.
-
-We use cookies to personalize content, run ads, and analyze traffic.
+![Robbo School comprehensive social media strategy document and results summary](https://framerusercontent.com/images/vIXieqIh2KMWfhKS0y3ksBvuDAA.jpg?width=2800&height=2041)
