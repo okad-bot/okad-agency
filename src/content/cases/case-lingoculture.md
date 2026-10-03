@@ -2,6 +2,7 @@
 title: "LingoCulture — Partner Pitch Deck for French Language Learning Platform"
 description: "How we rebuilt a partnership pitch deck for a French immersion education project, turning a cluttered presentation into a deal-closing tool for universities and influencers."
 type: case
+date: 2025-09-01
 lang: en
 cover: "/images/cases/case-lingoculture.jpg"
 coverAlt: "LingoCulture partner pitch deck cover with French cultural immersion brand elements"

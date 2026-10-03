@@ -2,6 +2,7 @@
 title: "Robbo School — Social Media Strategy for Kids' Robotics Courses"
 description: "Social media marketing and paid ads for Robbo's Vienna launch. German-localized content for Lego Robotics, Minecraft, and coding courses boosted enrollments."
 type: case
+date: 2024-11-01
 lang: en
 cover: "/images/cases/case-robbo-scholl.jpg"
 coverAlt: "Robbo School Vienna social media marketing campaign showing content for kids' robotics and coding courses"

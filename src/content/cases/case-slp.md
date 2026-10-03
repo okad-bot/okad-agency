@@ -2,6 +2,7 @@
 title: "SLP — Community Branding & Content Strategy for Entrepreneurs"
 description: "How we built SLP's entrepreneur community brand with content strategy, video production, and social media — growing engagement and member participation."
 type: case
+date: 2024-12-01
 lang: en
 cover: "/images/cases/case-slp.jpg"
 coverAlt: "SLP entrepreneur community branding showcase with event photography and social media content layouts"

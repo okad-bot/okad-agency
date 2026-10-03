@@ -6,7 +6,8 @@ const cases = defineCollection({
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),
-    type: z.enum(['case', 'article', 'blog']).default('case'),
+    type: z.enum(['case', 'blog']).default('case'),
+    date: z.coerce.date().optional(),
     lang: z.string().default('en'),
     cover: z.string().optional(),
     coverAlt: z.string().optional(),

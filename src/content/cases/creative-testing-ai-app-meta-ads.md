@@ -2,6 +2,7 @@
 title: "From 2 videos that ever worked to 160+ ads in four months"
 description: "How we tested 70 video ad concepts for a US AI app on Meta: 1 in 3 became winners, the best cost 35% less per customer than the account average."
 type: case
+date: 2026-08-31
 lang: en
 cover: "/images/cases/ai-app/ai-app-01.webp"
 coverAlt: "Frames from UGC video ads: selfie next to an AI headshot, LinkedIn profile before and after"

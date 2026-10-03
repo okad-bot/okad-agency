@@ -2,6 +2,7 @@
 title: "Jumpman Rebranding — Franchise-Ready Brand Identity & Web Design for Paris Fitness Studio"
 description: "How we rebranded Jumpman trampoline fitness in Paris with a theatrical identity, dual-audience website, and franchise toolkit that tripled partner inquiries."
 type: case
+date: 2025-11-15
 lang: en
 cover: "/images/cases/case-jumpman.png"
 coverAlt: "Jumpman rebranding and website design case study"

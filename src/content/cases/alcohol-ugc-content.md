@@ -2,6 +2,7 @@
 title: "UGC and AI Content Production for Alcohol Brands — Compliance-First Approach"
 description: "Why alcohol UGC is the hardest content category — and how we solved it with 200K-900K organic views per post, AI cocktail visuals, and TTB-compliant production."
 type: case
+date: 2026-06-01
 lang: en
 cover: "/images/cases/alcohol-ugc-content.png"
 coverAlt: "Alcohol UGC content production — compliance-first approach"

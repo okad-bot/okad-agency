@@ -2,6 +2,7 @@
 title: "Book Club — Content Strategy & Social Media Design for a Reading Community"
 description: "We automated content marketing for a book club founder, growing reach by 1,134%, adding 594 subscribers, and filling groups 2x faster — all in 3 months."
 type: case
+date: 2025-01-01
 lang: en
 cover: "/images/cases/case-book-club.jpg"
 coverAlt: "Book club social media content strategy with carousel post designs"
