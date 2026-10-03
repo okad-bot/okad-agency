@@ -2,6 +2,7 @@
 title: "Keshah — Brand Identity & Content Strategy for Hair Care"
 description: "Brand identity, content strategy, and influencer outreach for Keshah — a natural men's hair restoration brand. Educational content and 20 UGC creators sourced."
 type: case
+date: 2025-02-01
 lang: en
 cover: "/images/cases/case-pitchdeck.jpg"
 coverAlt: "Keshah men's hair restoration brand identity showing product packaging and content strategy materials"

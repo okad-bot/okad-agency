@@ -2,6 +2,7 @@
 title: "Les Jardins d'Etretat — Website Redesign for a French Cultural Venue"
 description: "How we redesigned the website for Les Jardins d'Etretat with an interactive map, dynamic gallery, and organic visual language — built on Framer and delivered in under 2 months."
 type: case
+date: 2025-12-01
 lang: en
 cover: "/images/cases/case-jardins-etretat-redesign-main.jpg"
 coverAlt: "Les Jardins d'Etretat website redesign featuring interactive map and organic visual design"

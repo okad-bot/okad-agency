@@ -2,6 +2,7 @@
 title: "5Public — Brand Unification & Templates for a 50-Outlet Media Network"
 description: "We unified 50 regional media outlets under one modular brand system with map-based logos, 15+ social templates, and a style guide — rolled out in under 2 months."
 type: case
+date: 2024-11-15
 lang: en
 cover: "/images/cases/case-5public.png"
 coverAlt: "5Public brand identity system showing modular logo designs for regional media outlets"

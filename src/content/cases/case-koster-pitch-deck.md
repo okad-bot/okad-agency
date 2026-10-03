@@ -2,6 +2,7 @@
 title: "Koster — Investor Pitch Deck for Group Dating & Networking Startup"
 description: "How we designed a storytelling-driven pitch deck for Koster's group networking app that sparked immediate interest from early-stage investors."
 type: case
+date: 2025-08-15
 lang: en
 cover: "/images/cases/case-koster-pitch-deck.jpg"
 coverAlt: "Koster pitch deck cover slide with brand identity and group networking concept"

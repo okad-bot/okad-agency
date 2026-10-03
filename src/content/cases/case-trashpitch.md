@@ -2,6 +2,7 @@
 title: "Trash Pitches — Board Game Design & Launch from an IT Blog"
 description: "How we designed and launched Trash Pitches, a board game for IT professionals — from concept to sold-out first batch and the foundation of a design agency."
 type: case
+date: 2025-01-15
 lang: en
 cover: "/images/cases/case-trashpitch.png"
 coverAlt: "Trash Pitches board game cards and packaging design featuring illustrated IT professional characters"

@@ -2,6 +2,7 @@
 title: "Moboost — Website Redesign for Global AdTech Platform"
 description: "How we redesigned Moboost's website in 30 days with modular UI, China-ready optimization, and bold gradients — reducing bounce rates across key markets."
 type: case
+date: 2025-10-01
 lang: en
 cover: "/images/cases/case-moboost-redesign.jpg"
 coverAlt: "Moboost AdTech platform website redesign with gradient color scheme and modular layout"

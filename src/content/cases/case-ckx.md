@@ -2,6 +2,7 @@
 title: "ChainKeyX — UX/UI & Framer Website Design for a DeFi Startup"
 description: "We designed a bento-style Framer website and UX/UI system for ChainKeyX, a Singapore-based DeFi platform that secured investment from J.P. Morgan."
 type: case
+date: 2025-09-15
 lang: en
 cover: "/images/cases/case-ckx.jpg"
 coverAlt: "ChainKeyX DeFi platform website design with bento-style layout and dark theme"

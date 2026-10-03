@@ -5,7 +5,11 @@ import { getCollection } from 'astro:content';
 const allCases = await getCollection('cases');
 const cases = allCases
   .filter(c => c.data.type === 'case' && c.data.cover)
-  .sort((a, b) => a.id.localeCompare(b.id));
+  .sort((a, b) => {
+    const da = a.data.date ? new Date(a.data.date).getTime() : 0;
+    const db = b.data.date ? new Date(b.data.date).getTime() : 0;
+    return db - da;
+  });
 ---
 
 <Base title="Cases — OKAD Agency" description="Case studies and portfolio">

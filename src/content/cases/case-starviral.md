@@ -2,6 +2,7 @@
 title: "Star Viral — Pitch Deck Design for a Marketing Analytics Platform"
 description: "We designed a pitch deck for Star Viral that turned complex advertising analytics into clear visual storytelling with custom flow diagrams and data infographics."
 type: case
+date: 2025-02-15
 lang: en
 cover: "/images/cases/case-starviral.jpg"
 coverAlt: "Star Viral pitch deck design with dark blue theme and data visualizations"
