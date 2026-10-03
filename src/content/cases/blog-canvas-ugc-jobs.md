@@ -3,7 +3,7 @@ title: "Canvas UGC Jobs: Where to Find Opportunities and How to Get Hired"
 description: "A guide to finding canvas UGC jobs in 2026 — the best platforms, what brands look for, how to stand out in applications, and how to turn one-off jobs into recurring contracts."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-uprest.jpg"
 coverAlt: "Canvas UGC job opportunities for creators"
 faqs:
   - q: "Where can I find canvas UGC jobs?"

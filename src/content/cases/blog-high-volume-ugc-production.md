@@ -3,7 +3,7 @@ title: "High-Volume UGC Production: How Brands Scale to 50+ Videos Per Month"
 description: "How brands and agencies scale UGC production from a handful of videos to 50+ per month — creator networks, canvas templates, production workflows, and quality control at scale."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/alcohol-ugc-content.png"
 coverAlt: "High-volume UGC production workflow"
 faqs:
   - q: "How can a brand produce 100 UGC videos per month?"

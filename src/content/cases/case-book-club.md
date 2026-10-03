@@ -3,7 +3,7 @@ title: "Book Club — Content Strategy & Social Media Design for a Reading Commu
 description: "We automated content marketing for a book club founder, growing reach by 1,134%, adding 594 subscribers, and filling groups 2x faster — all in 3 months."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/brA0OBk8oGBXm4MmG28xoYQafk.jpg?width=2800&height=1860"
+cover: "/images/cases/case-book-club.jpg"
 coverAlt: "Book club social media content strategy with carousel post designs"
 faqs:
   - q: "How do you preserve a founder's authentic voice when delegating content?"

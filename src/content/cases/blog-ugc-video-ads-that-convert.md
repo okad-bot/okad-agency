@@ -3,7 +3,7 @@ title: "UGC Video Ads That Convert: What We've Learned from 200+ Campaigns"
 description: "Why UGC ads outperform polished brand videos, how to brief creators, which formats work on TikTok vs Meta, and how to scale UGC ad production without losing quality."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/high-converting-video-ads-for-dtc-brands.png"
 coverAlt: "UGC video ad examples for brands"
 faqs:
   - q: "What are UGC video ads?"

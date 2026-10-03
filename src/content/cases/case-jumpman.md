@@ -3,7 +3,7 @@ title: "Jumpman Rebranding — Franchise-Ready Brand Identity & Web Design for P
 description: "How we rebranded Jumpman trampoline fitness in Paris with a theatrical identity, dual-audience website, and franchise toolkit that tripled partner inquiries."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/w6Fsk7Vd5vxrajFAY7uC8GPTbw.png?width=2800&height=1580"
+cover: "/images/cases/case-jumpman.png"
 coverAlt: "Jumpman rebranding and website design case study"
 faqs:
   - q: "How did the theater concept solve the dual-audience problem?"

@@ -3,7 +3,7 @@ title: "Partnership Ads and Spark Ads: The Complete Guide for Brands and Creator
 description: "How partnership ads (branded content ads) and TikTok Spark Ads work — setup, permissions, performance benchmarks, and why creator-authorized ads outperform standard paid media."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-cosmowiki.jpg"
 coverAlt: "Partnership ads and Spark Ads setup guide"
 faqs:
   - q: "What are partnership ads?"

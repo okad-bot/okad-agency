@@ -3,7 +3,7 @@ title: "Ad Fatigue: How to Detect Creative Decay and Prevent It"
 description: "Ad fatigue kills campaign performance in 10–21 days. Learn how to detect early warning signs, extend creative lifespan, and build a production pipeline that stays ahead of decay."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/static-ad-creatives-digital-products.png"
 coverAlt: "Ad fatigue detection and prevention guide"
 faqs:
   - q: "What is ad fatigue?"

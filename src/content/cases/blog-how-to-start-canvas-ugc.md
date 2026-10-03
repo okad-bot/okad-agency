@@ -3,7 +3,7 @@ title: "How to Start Canvas UGC: A Step-by-Step Guide for New Creators"
 description: "Learn how to start canvas UGC from scratch — what equipment you need, where to find jobs, how to build a portfolio, and how much canvas UGC creators earn in 2026."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-samto-uxui.jpg"
 coverAlt: "New creator starting canvas UGC"
 faqs:
   - q: "How do I start canvas UGC with no experience?"

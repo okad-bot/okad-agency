@@ -3,7 +3,7 @@ title: "Tech UGC: Creator-Made Video Content for Software, Apps, and AI Tools"
 description: "Tech UGC is creator-made content that demonstrates software and apps in action. Learn how it differs from lifestyle UGC, the best formats, script structures, and why it drives 79% higher conversion rates for tech products."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-ckx.jpg"
 coverAlt: "Tech UGC content for SaaS and apps"
 faqs:
   - q: "What is tech UGC?"

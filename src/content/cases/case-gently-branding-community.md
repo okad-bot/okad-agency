@@ -3,7 +3,7 @@ title: "Gently & Cybercore — Brand Ecosystem for an Automotive Community in Po
 description: "How we turned a car import service into a three-brand ecosystem — Cyber Pulse, Cybercore community, and Gently detailing studio — with zero paid ads and organic audience migration."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/cCLo2nh8Ok2JIfp256qmXDx2Z4.jpg?width=2800&height=2190"
+cover: "/images/cases/case-gently-branding-community.jpg"
 coverAlt: "Gently detailing studio and Cybercore community brand identity design"
 faqs:
   - q: "Can I launch a second brand using my existing audience?"

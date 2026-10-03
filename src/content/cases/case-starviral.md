@@ -3,7 +3,7 @@ title: "Star Viral — Pitch Deck Design for a Marketing Analytics Platform"
 description: "We designed a pitch deck for Star Viral that turned complex advertising analytics into clear visual storytelling with custom flow diagrams and data infographics."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/cJrzgd9q6p7E6fXxTB8assIeho.jpg?width=2800&height=1860"
+cover: "/images/cases/case-starviral.jpg"
 coverAlt: "Star Viral pitch deck design with dark blue theme and data visualizations"
 faqs:
   - q: "How do you make a technical SaaS product understandable in a pitch deck?"

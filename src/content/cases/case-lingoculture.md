@@ -3,7 +3,7 @@ title: "LingoCulture — Partner Pitch Deck for French Language Learning Platfor
 description: "How we rebuilt a partnership pitch deck for a French immersion education project, turning a cluttered presentation into a deal-closing tool for universities and influencers."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/PXJZM8VdaMblFxrO37B3msViZfY.jpg?width=2800&height=1860"
+cover: "/images/cases/case-lingoculture.jpg"
 coverAlt: "LingoCulture partner pitch deck cover with French cultural immersion brand elements"
 faqs:
   - q: "Can you redesign just the structure without changing the visuals?"

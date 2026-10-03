@@ -3,7 +3,7 @@ title: "Ad Creative Analysis Dashboard: What to Track and How to Build One"
 description: "How to build a dashboard for ad creative analysis — the metrics that matter, how to structure creative reporting, and tools for tracking which ads actually drive results."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-flipsystem-creatives.png"
 coverAlt: "Ad creative analysis dashboard setup"
 faqs:
   - q: "What is an ad creative analysis dashboard?"

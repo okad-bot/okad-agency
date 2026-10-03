@@ -3,7 +3,7 @@ title: "Social Proof Ads: How to Turn Testimonials and Reviews into High-Convert
 description: "Social proof ads use real testimonials, reviews, and customer stories as ad creative — achieving 15–30% lower CPA than traditional brand ads. Learn the formats, production methods, and scaling strategies."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-cyberpulse.jpg"
 coverAlt: "Social proof ads with testimonials and reviews"
 faqs:
   - q: "What are social proof ads?"

@@ -3,7 +3,7 @@ title: "In a Woman — Brand Identity for a Women-in-Tech Accelerator"
 description: "How we built a scalable brand system for In a Woman accelerator — from logo and templates to merchandise — unifying digital and event presence across international markets."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/MvVEU6GGAJ4l2e5T1q9OUJBRqk.jpg?width=2800&height=2191"
+cover: "/images/cases/case-innowomen-branding.jpg"
 coverAlt: "In a Woman accelerator brand identity system including logo, templates, and merchandise"
 faqs:
   - q: "How long does an accelerator branding project take?"

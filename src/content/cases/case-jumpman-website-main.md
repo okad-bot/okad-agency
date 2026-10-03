@@ -3,7 +3,7 @@ title: "Jumpman — Franchise-Ready Website Design for Paris Fitness Studio"
 description: "How we designed a dual-audience website for Jumpman trampoline fitness in Paris that doubled B2C bookings and cut drop-off rate by 41% in the first month."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/MfUU2OAXAxGukwkWnLRyeMSJC0.jpg?width=1400&height=913"
+cover: "/images/cases/case-jumpman-website-main.jpg"
 coverAlt: "Jumpman trampoline fitness studio website homepage with theatrical dark design and booking interface"
 faqs:
   - q: "How did the website serve both fitness clients and franchise partners?"

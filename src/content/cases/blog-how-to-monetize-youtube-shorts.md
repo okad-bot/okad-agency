@@ -3,7 +3,7 @@ title: "How to Monetize YouTube Shorts: Revenue Streams That Actually Work in 20
 description: "A practical guide to monetizing YouTube Shorts — from the YouTube Partner Program and Shorts Fund to brand deals, affiliate marketing, and driving traffic to paid products."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-upstream.png"
 coverAlt: "YouTube Shorts monetization strategies"
 faqs:
   - q: "Can you make money from YouTube Shorts?"
