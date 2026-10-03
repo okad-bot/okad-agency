@@ -3,7 +3,7 @@ title: "Cosmo.wiki — Pre-Launch Community Growth for a Cosmetics Platform"
 description: "How we grew Cosmo.wiki's Instagram to 1,000 followers and 600K+ reach in 2 months before the product launched, using $0.11 CPC ads, Reels, and DM automation."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/D81qoamPJWYY64OhBLt9m5QJTF4.jpg?width=2800&height=1860"
+cover: "/images/cases/case-cosmowiki.jpg"
 coverAlt: "Cosmo.wiki brand identity and Instagram content grid for a cosmetic research platform"
 faqs:
   - q: "How much does it cost to build a social media community from scratch?"

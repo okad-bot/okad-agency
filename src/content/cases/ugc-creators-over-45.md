@@ -3,7 +3,7 @@ title: "UGC Creators Over 45 — The Untapped Ad Audience for Dating, Supplement
 description: "Real results from UGC campaigns targeting 35+ audiences: 1M+ organic views on dating, EUR 183 CPA on supplements, 48 videos for women 45+. Data from 4 campaigns."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/FXMkq1jH116yCF0nIQPl2N2vc.png"
+cover: "/images/cases/ugc-creators-over-45.png"
 coverAlt: "UGC creators over 45 — trust-first content for mature audiences"
 faqs:
   - q: "Why is UGC for audiences over 45 harder than for younger demographics?"

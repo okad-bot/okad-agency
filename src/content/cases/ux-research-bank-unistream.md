@@ -3,7 +3,7 @@ title: "Case Study: How Fixing UX Mistakes Helped Keep Users from Leaving"
 description: "Discover how targeted UX research and quick-win optimizations transformed Unistream Bank’s money transfer app for migrant users—eliminating form frustration, clarifying sender/recipient roles, and cutting task completion time without a full redesign. Learn actionable mobile app UX optimization strategies to boost conversions, reduce drop-offs, and elevate customer trust—read now!"
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/JcqAbfMXEavS66eYHy6eoeZiv8.jpg?width=3840&height=2160"
+cover: "/images/cases/ux-research-bank-unistream.jpg"
 coverAlt: "Case Study: How Fixing UX Mistakes Helped Keep Users from Leaving"
 ---
 UX research

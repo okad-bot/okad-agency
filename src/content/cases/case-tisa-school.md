@@ -3,7 +3,7 @@ title: "TISA — Lead Generation & Website Redesign for a Private School"
 description: "How we generated 100+ qualified leads at EUR 2-5 each for TISA's Lisbon campus through website redesign, chatbot automation, and social media content."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/Ebq4dKpVJ8EzyknpPZb8kN8w2c.jpg?width=2800&height=2191"
+cover: "/images/cases/case-tisa-school.jpg"
 coverAlt: "TISA international school website and marketing materials designed for the Lisbon campus enrollment campaign"
 faqs:
   - q: "How much did lead generation cost for TISA?"

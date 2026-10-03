@@ -3,7 +3,7 @@ title: "Modular Creative: How to Produce 72 Ad Variations from 13 Components"
 description: "Modular creative production builds ads from interchangeable components — hooks, bodies, CTAs — generating 72+ unique variations at 80% lower cost than traditional production. Learn the system."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-5public.png"
 coverAlt: "Modular creative ad production system"
 faqs:
   - q: "What is modular creative?"

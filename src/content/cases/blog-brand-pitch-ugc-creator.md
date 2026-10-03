@@ -3,7 +3,7 @@ title: "How to Write a Brand Pitch as a UGC Creator"
 description: "A step-by-step guide to writing brand pitches that get responses — what to include, how to personalize, common mistakes, and real templates for email and DM outreach."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/ugc-creators-over-45.png"
 coverAlt: "UGC creator brand pitch template"
 faqs:
   - q: "How do I pitch brands as a UGC creator?"

@@ -3,7 +3,7 @@ title: "Hook Rate Explained: What It Is, How to Measure It, and How to Improve I
 description: "Hook rate is the percentage of viewers who watch past the first 1–3 seconds of your video. Learn how to calculate hook rate, benchmark against industry averages, and improve it for TikTok, Reels, and video ads."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/organic-video-content-1m-views.jpg"
 coverAlt: "Hook rate measurement and improvement guide"
 faqs:
   - q: "What is hook rate?"

@@ -3,7 +3,7 @@ title: "How to Scale Ad Campaigns Without Killing ROAS"
 description: "Practical strategies for scaling digital ad campaigns while maintaining return on ad spend — creative refresh cadence, budget pacing, audience expansion, and the creative fatigue signals to watch for."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/high-roas-ugc-ads.jpg"
 coverAlt: "Scaling ad campaigns while maintaining ROAS"
 faqs:
   - q: "Why does ROAS drop when I increase ad spend?"

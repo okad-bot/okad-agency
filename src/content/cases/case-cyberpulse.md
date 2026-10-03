@@ -3,7 +3,7 @@ title: "Cyber Pulse — Content-Driven Sales for an Automotive Brand in Portugal
 description: "How we built a bilingual content ecosystem on Telegram and Instagram for Cyber Pulse, growing to 1,500+ Telegram subscribers and 36K Instagram followers in 12 months."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/M2BvzttJSccENTOrcaVzpOBs24.jpg?width=2800&height=1860"
+cover: "/images/cases/case-cyberpulse.jpg"
 coverAlt: "Cyber Pulse automotive brand content strategy across Telegram and Instagram"
 faqs:
   - q: "Can Telegram be used as a sales channel for a niche business?"

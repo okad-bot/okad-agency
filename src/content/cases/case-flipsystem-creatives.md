@@ -3,7 +3,7 @@ title: "Flip System — 100+ Ad Creatives for a Real Estate CRM Platform"
 description: "How we produced 100+ static and motion ad creatives for Flip System's paid campaigns, building a scalable design system that improved engagement and conversion."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/zghixgsJ1ppu20WWFy5q1Z3WrEo.png?width=2800&height=2191"
+cover: "/images/cases/case-flipsystem-creatives.png"
 coverAlt: "Flip System CRM ad creative designs including static graphics and motion content"
 faqs:
   - q: "How many ad creatives should I test per campaign?"

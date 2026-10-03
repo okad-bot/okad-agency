@@ -3,7 +3,7 @@ title: "Sardana — B2B Website Design for Navigation Sensor Tech"
 description: "Website design for a navigation sensor manufacturer targeting UAE B2B clients. AI visuals, dark-mode branding, and UX storytelling for confidential tech."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/gUdchpbNnRs9fJqdoIL8KTjL8.jpg?width=2800&height=1860"
+cover: "/images/cases/case-sardana.jpg"
 coverAlt: "Sardana B2B website design for high-precision navigation sensors with dark-mode UI and AI-generated visuals"
 faqs:
   - q: "How did you showcase the product without revealing proprietary technology?"

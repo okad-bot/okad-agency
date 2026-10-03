@@ -3,7 +3,7 @@ title: "Ocenka RF — Real Estate Portal Redesign in 2 Weeks"
 description: "UX/UI redesign of a property evaluation portal delivered in 2 weeks. Tab-based navigation, responsive design, and reduced support tickets for mortgage clients."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/UNOhlPREpt8aiJmDrP0HVG5Gvc.jpg?width=2800&height=1860"
+cover: "/images/cases/case-ocenka-real-estate-redesign.jpg"
 coverAlt: "Ocenka RF real estate evaluation portal redesign showing dashboard interface on desktop and mobile screens"
 faqs:
   - q: "How long did the portal redesign take?"

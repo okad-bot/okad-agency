@@ -3,7 +3,7 @@ title: "Moboost — Website Redesign for Global AdTech Platform"
 description: "How we redesigned Moboost's website in 30 days with modular UI, China-ready optimization, and bold gradients — reducing bounce rates across key markets."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/54QBgfVUgTeNABCgdKSkaKYeQ.jpg?width=2800&height=2190"
+cover: "/images/cases/case-moboost-redesign.jpg"
 coverAlt: "Moboost AdTech platform website redesign with gradient color scheme and modular layout"
 faqs:
   - q: "Can a website really work in China without a VPN?"

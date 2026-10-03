@@ -3,7 +3,7 @@ title: "5Public — Brand Unification & Templates for a 50-Outlet Media Network"
 description: "We unified 50 regional media outlets under one modular brand system with map-based logos, 15+ social templates, and a style guide — rolled out in under 2 months."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/9nn3pjUwnSKrZCOGQOym4bt5MHE.png?width=2800&height=1867"
+cover: "/images/cases/case-5public.png"
 coverAlt: "5Public brand identity system showing modular logo designs for regional media outlets"
 faqs:
   - q: "How do you unify branding across 50+ outlets without losing local identity?"

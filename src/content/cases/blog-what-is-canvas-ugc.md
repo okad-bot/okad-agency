@@ -3,7 +3,7 @@ title: "What Is Canvas UGC? Definition, Examples, and How It Works"
 description: "Canvas UGC is a new format of user-generated content created directly inside platform templates. Learn what canvas UGC means, how it differs from traditional UGC, and why brands are adopting it."
 type: blog
 lang: en
-cover: "/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png"
+cover: "/images/cases/case-slp.jpg"
 coverAlt: "Canvas UGC content creation example"
 faqs:
   - q: "What does canvas UGC mean?"

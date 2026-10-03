@@ -3,7 +3,7 @@ title: "How We Generated 1M+ Views with Organic Video Content — 5 Real Cases"
 description: "Five organic content systems that hit 1.5M views (Skribly), 127K from 485 followers (Twinsfit), 900K per post (Godka) — all without ad spend."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif"
+cover: "/images/cases/organic-video-content-1m-views.jpg"
 coverAlt: "Organic video content systems — 1M+ views without ad spend"
 faqs:
   - q: "How long does it take to see results from an organic content system?"

@@ -3,7 +3,7 @@ title: "High-Performing Static & Video Ad Creatives for Digital Products"
 description: "How SmallTalk2Me hit 2-4M impressions per ad creative, Upvote achieved CPA ~EUR 65 at 6-12% CTR, and Dadadababy cut shoot costs by 80% with AI visuals."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png"
+cover: "/images/cases/static-ad-creatives-digital-products.png"
 coverAlt: "Static and video ad creatives for Meta and TikTok"
 faqs:
   - q: "What makes static ads for digital products different from physical product ads?"

@@ -3,7 +3,7 @@ title: "Bit Matrix — Brand Identity & Wix Website for an AdTech Platform"
 description: "We built a full brand identity, dark-mode Wix website, and sales media deck for Bit Matrix — an AdTech B2B platform — delivered in one design cycle."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/oskubZnNeOUtceaQzxFo512dyI.jpg?width=4200&height=3286"
+cover: "/images/cases/case-bidmatrix.jpg"
 coverAlt: "Bit Matrix brand identity and dark-mode website design for AdTech platform"
 faqs:
   - q: "Can a no-code Wix website look premium for a B2B tech brand?"

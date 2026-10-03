@@ -3,7 +3,7 @@ title: "SLP — Community Branding & Content Strategy for Entrepreneurs"
 description: "How we built SLP's entrepreneur community brand with content strategy, video production, and social media — growing engagement and member participation."
 type: case
 lang: en
-cover: "https://framerusercontent.com/images/VGSDe25dTGX1zqys397RzjcSViU.jpg?width=2800&height=1575"
+cover: "/images/cases/case-slp.jpg"
 coverAlt: "SLP entrepreneur community branding showcase with event photography and social media content layouts"
 faqs:
   - q: "What is the SLP program?"
