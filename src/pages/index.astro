@@ -1,11 +1,421 @@
 ---
 import Base from '../layouts/Base.astro';
-import '../styles/homepage.css';
+import '../styles/okad-house.css';
+import GuideCard from '../components/GuideCard.astro';
+import { getCollection } from 'astro:content';
+
+const guides = (await getCollection('cases'))
+  .filter((c) => c.data.type === 'blog' && c.data.topic && c.data.topic !== 'for-creators')
+  .sort((a, b) => (a.data.startHere ?? 99) - (b.data.startHere ?? 99))
+  .slice(0, 6);
+
+const CALL = 'https://calendly.com/okad_calls/first';
+const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
+const CASE2 = '/cases/zentoes-walmart-launch-ads';
+// Order links for the no-call offers. TODO: replace with Stripe Payment Links (one per offer).
+// Until then they open a pre-filled email.
+const ORDER_AUDIT = 'mailto:olga@okad.agency?subject=Account%20audit%20%E2%80%94%20%24200&body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0A';
+const ORDER_STARTER = 'mailto:olga@okad.agency?subject=Starter%20pack%20%E2%80%94%2010%20videos%20for%20%24500&body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0AAI%20or%20creator%20footage%3A%0A';
+
+const videoWork = [
+  { href: '/cases/lookalikey-ugc-ads', layout: 'chat', pics: ['/images/cases/lookalikey-ugc-ads/img-12.jpg', '/images/cases/lookalikey-ugc-ads/img-02.jpg'], tags: ['#DTC', 'UGC'], title: 'Lookalikey — the moment after' },
+  { href: '/cases/dating-com-creator-content', layout: 'feed', pics: ['/images/cases/dating-com-creator-content/img-01.jpg', '/images/cases/dating-com-creator-content/img-02.jpg', '/images/cases/dating-com-creator-content/img-03.jpg', '/images/cases/dating-com-creator-content/img-05.jpg', '/images/cases/dating-com-creator-content/img-09.jpg', '/images/cases/dating-com-creator-content/img-12.jpg'], tags: ['#Dating', '#Organic'], title: 'Dating.com — 60+ videos for 40+' },
+  // Women's health case is live at /cases/womens-health-supplement-ads but hidden from the homepage for now
+  { href: '/cases/case-uprest', img: '/images/cases/case-uprest.jpg', tags: ['#B2B', '#Lead gen'], title: 'UpRest — €2.75 per lead' },
+  { href: '/cases/high-roas-ugc-ads', img: '/images/BmUk0KMAPqqpLzpARwDdXhfg.gif', tags: ['#DTC', '#E-com'], title: 'High ROAS UGC ads' },
+  { href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png', tags: ['#DTC', 'UGC'], title: 'AI static ads — 3x CTR' },
+  { href: '/cases/ugc-creators-over-45', img: '/images/FXMkq1jH116yCF0nIQPl2N2vc.png', tags: ['#Silver age', 'Video'], title: 'Creators 45+ — trust-first' },
+  { href: '/cases/organic-video-content-1m-views', img: '/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif', tags: ['#Digital', '#Organic'], title: '1M+ views — dating & EdTech' },
+  { href: '/cases/static-ad-creatives-digital-products', img: '/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png', tags: ['#Paid ads', '#Digital'], title: 'Static ads for Meta & TikTok' },
+  { href: '/cases/alcohol-ugc-content', img: '/images/SBAkW2rwVUXKWpG9XA9enjK968.png', tags: ['#Alco', 'UGC'], title: 'Alco UGC — compliance-first' },
+];
+
+const principles = [
+  ['3–5', 'Variations per ad', 'We shoot one ad and cut 3–5 versions with different hooks to test.'],
+  ['600+', 'Vetted creators', "Our own creators. You don't search. We match and brief them."],
+  ['Hook → CTA', 'Script first', 'Every video has a written script before anyone hits record.'],
+  ['AI + human', 'Creative direction', 'We use AI to move faster, but a person decides what to make.'],
+  ['1 team', 'Zero handoffs', 'The same people write the script, pick the creator and edit the video.'],
+  ['CTR · ROAS', 'Data in every brief', 'Before the next batch, we look at what actually performed.'],
+  ['Scroll-stop', 'Design first', "If it doesn't catch the eye in the feed, it doesn't work."],
+];
+
+const steps = [
+  ['Week 1', 'Research', 'Reviews, comments, ad history'],
+  ['Week 2', 'Test plan', '50–70 ideas you approve'],
+  ['Week 2', 'Scripts & casting', 'Hooks and matched creators'],
+  ['Weeks 3–4', 'Production', 'Native videos, 9:16 + 4:5'],
+  ['Weeks 5–6', 'Results', 'Scale, fix or stop each video'],
+];
+
+const design = [
+  { href: '/cases/case-jumpman', img: '/images/cases/case-jumpman.png', tags: ['Branding'], title: 'Jumpman, Paris', text: 'Brand identity for a Paris cardio studio.' },
+  { href: '/cases/case-jumpman-website-main', img: '/images/cases/case-jumpman-website-main.jpg', tags: ['Web', 'Framer'], title: 'Jumpman website', text: 'Doubled B2C bookings in the first month.' },
+  { href: '/cases/case-jardins-etretat-redesign-main', img: '/images/cases/case-jardins-etretat-redesign-main.jpg', tags: ['Web', 'Framer'], title: "Jardins d'Étretat", text: 'Website redesign for a French venue.' },
+  { href: '/cases/case-lingoculture', img: '/images/cases/case-lingoculture.jpg', tags: ['Pitch deck'], title: 'LingoCulture', text: 'Partner deck for a French learning platform.' },
+  { href: '/cases/case-ckx', img: '/images/cases/case-ckx.jpg', tags: ['UX/UI', 'Framer'], title: 'ChainKeyX', text: 'Bento-style website for a DeFi startup.' },
+  { href: '/cases/case-innowomen-branding', img: '/images/cases/case-innowomen-branding.jpg', tags: ['Branding'], title: 'In a Woman', text: 'Brand system for a women-in-tech accelerator.' },
+];
+
+// TODO: replace the three placeholder quotes below with the real ones (text, name, role, photo).
+const quotes = [
+  ['OKAD found video ads that actually bring us customers. Fast, organized and easy to work with. We keep ordering new batches.', 'Marketing Lead', 'InstaHeadshots', ''],
+  ['Great agency. The creatives looked native, launched on time, and a few of them became our best performers.', 'Marketing Lead', 'ZenToes', ''],
+  ['Clear process, smart scripts and a lot of variety. The team tested ideas we would never have tried ourselves.', 'Marketing Lead', 'Dating.com', ''],
+  ['Very happy with the video produced by OKAD. It helped us increase our creative output, and communication was smooth throughout.', 'Maxime Lenzlinger', 'Co-founder / Marketing, VUE SWISS', '/images/9yQb8hBXfQCe1f6JkqCRMnt4AKs.jpeg'],
+  ['The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.', 'Kristina Hr.', 'Marketing, Mushroom genetics', '/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png'],
+  ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', '/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png'],
+  ["Olga and her team are some of the best designers around. They're creative, work efficiently, and always deliver quality work.", 'Damon Dixon', 'Founder, Douxds', '/images/fyo2eKnJgN0TDx8SMjUG2NCqWk.jpeg'],
+];
+
+const videos = [
+  ['-UTQ0HyGE80', 'High-converting UGC video ad system'],
+  ['6ww6ykmc2Pw', 'How to create static ads: 4 elements every ad needs'],
+];
+
+const logos = Array.from({ length: 19 }, (_, i) => `/logos/logo-${i}.png`);
+const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg>';
 ---
 
 <Base title="OKAD Agency — Video Ad Creative Testing, UGC & Design" description="We make video ads, test them on real spend and scale the ones that sell. Creative testing, UGC video and a design studio. 100+ brands, 10,000+ assets.">
-  <link slot="head" href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet" />
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+  </Fragment>
 
-  <div class="okh"> <!-- HERO: video first --> <section class="khero"> <div class="w"> <div class="hero-grid"> <div class="stack"> <span class="kick">Video ad creative testing · UGC · for e-commerce & apps</span> <h1>We make video ads, test them and scale <span class="cap">the ones that sell</span></h1> <p class="lead">Research, scripts, 600+ vetted creators, native formats and a data loop after every batch. One team, end to end.</p> <div class="row"> <a class="btn" href="#offer">Order 10 videos · $500</a> <a class="btn ghost" href="https://calendly.com/okad_calls/first" target="_blank" rel="noopener">Book a call</a> </div> <p class="alt-link">Need a website or a brand? <a href="#design">Our design studio →</a></p> </div> <div class="collage" aria-label="Frames from our ads"> <span class="note hand hn">real frames from our ads <svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg></span> <figure class="ph"><img src="/images/cases/ai-app-designed/img-02.jpg" alt="Creator showing a before and after LinkedIn photo"></figure> <figure class="ph"><img src="/images/cases/ai-app-designed/img-06.jpg" alt="Good, better, best ranking ad"></figure> <figure class="ph"><img src="/images/cases/ai-app-designed/img-31.jpg" alt="Creator holding a handwritten sign"></figure> <a class="sticker" href="/cases/creative-testing-ai-app-meta-ads"> <b>160+</b> <span>video ads for one AI app in four months<small>Case 01 · read →</small></span> </a> </div> </div> <div class="strip"> <div><b>10,000+</b><span>ads & posts created</span></div> <div><b>600+</b><span>vetted creators of our own</span></div> <div><b>100+</b><span>brands we work with</span></div> <div><b>3–5</b><span>hook variations per ad</span></div> </div> </div> </section> <!-- LOGOS --> <section aria-label="Clients"> <div class="logos-cap"><span class="kick">Trusted by 100+ brands</span></div> <div class="logos"> <div class="lt"> <img src="/logos/logo-0.png" alt="" loading="lazy"><img src="/logos/logo-1.png" alt="" loading="lazy"><img src="/logos/logo-2.png" alt="" loading="lazy"><img src="/logos/logo-3.png" alt="" loading="lazy"><img src="/logos/logo-4.png" alt="" loading="lazy"><img src="/logos/logo-5.png" alt="" loading="lazy"><img src="/logos/logo-6.png" alt="" loading="lazy"><img src="/logos/logo-7.png" alt="" loading="lazy"><img src="/logos/logo-8.png" alt="" loading="lazy"><img src="/logos/logo-9.png" alt="" loading="lazy"><img src="/logos/logo-10.png" alt="" loading="lazy"><img src="/logos/logo-11.png" alt="" loading="lazy"><img src="/logos/logo-12.png" alt="" loading="lazy"><img src="/logos/logo-13.png" alt="" loading="lazy"><img src="/logos/logo-14.png" alt="" loading="lazy"><img src="/logos/logo-15.png" alt="" loading="lazy"><img src="/logos/logo-16.png" alt="" loading="lazy"><img src="/logos/logo-17.png" alt="" loading="lazy"><img src="/logos/logo-18.png" alt="" loading="lazy"><img src="/logos/logo-0.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-1.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-2.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-3.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-4.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-5.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-6.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-7.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-8.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-9.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-10.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-11.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-12.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-13.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-14.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-15.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-16.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-17.png" alt="" aria-hidden="true" loading="lazy"><img src="/logos/logo-18.png" alt="" aria-hidden="true" loading="lazy"> </div> </div> </section> <!-- CASES --> <section class="sec" id="cases"> <div class="w"> <div class="head"> <div class="t"> <span class="kick">Real ad accounts, real numbers</span> <h2>Selected <span class="cap g">cases</span></h2> </div> <a class="btn ghost" href="/cases">All cases →</a> </div> <div class="fcases"> <!-- CASE 01 --> <article class="fcase"> <a class="fcase-link" href="/cases/creative-testing-ai-app-meta-ads" aria-label="Read the case: 160+ ads for a consumer AI app"></a> <div class="info"> <div class="meta"> <span class="num">case 01</span> <div class="tags"><span>Creative testing</span><span>Consumer AI app</span><span>Meta ads · US</span></div> </div> <h3>From 2 videos that ever worked <span class="cap w">to 160+ ads</span> in four months</h3> <p>Research-led scripts, matched creators and native formats. Real sales picked the winners.</p> <div class="fk"> <div><b>160<em>+</em></b><span>video ads delivered</span></div> <div><b>−35<em>%</em></b><span>cost per customer vs account average</span></div> <div><b><em>#</em>1</b><span>biggest budget of ~770 ads went to our video</span></div> </div> <div class="go"> <a class="btn" href="/cases/creative-testing-ai-app-meta-ads">Read the case →</a> <span class="kick">11 chapters · client anonymised</span> </div> </div> <div class="fphones" aria-hidden="true"> <span class="note hand hn">real frames <svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg></span> <figure class="ph"><img src="/images/cases/ai-app-designed/img-13.jpg" alt="" loading="lazy"></figure> <figure class="ph"><img src="/images/cases/ai-app-designed/img-15.jpg" alt="" loading="lazy"></figure> <figure class="ph"><img src="/images/cases/ai-app-designed/img-08.jpg" alt="" loading="lazy"></figure> </div> </article> <!-- CASE 02 --> <article class="fcase lav"> <a class="fcase-link" href="/cases/case-uprest" aria-label="Read the case: UpRest lead generation"></a> <div class="info"> <div class="meta"> <span class="num">case 02</span> <div class="tags"><span>Lead generation</span><span>Restaurant SaaS</span><span>Meta + LinkedIn · Portugal</span></div> </div> <h3>Cost per lead from €10.97 <span class="cap w">to €2.75</span> with lean video ads</h3> <p>A market launch from zero: offer hypotheses, quick video ads and creative testing until the cheapest message won.</p> <div class="fk"> <div><b>−75<em>%</em></b><span>cost per lead</span></div> <div><b>100<em>+</em></b><span>qualified B2B leads</span></div> <div><b>7–10</b><span>days to the first live campaign</span></div> </div> <div class="go"> <a class="btn" href="/cases/case-uprest">Read the case →</a> <span class="kick">UpRest · POS software</span> </div> </div> <div class="fshot" aria-hidden="true"> <span class="note hand hn">€2.75 per lead <svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg></span> <img src="/images/cases/case-uprest.jpg" alt="" loading="lazy"> </div> </article> <!-- CASE 03: copy an <article> above, change class to "fcase peach" or "fcase mint" --> </div> </div> <!-- more video work, scrolls sideways --> <div class="w" style="margin-top:72px"> <div class="rail-head"> <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)"><span class="cap y">10,000+</span> ads & posts created</h2> <div class="rail-nav"><button type="button" data-rail="vw" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="vw" data-dir="1" aria-label="Next">→</button></div> </div> </div> <div class="rail" id="vw"> <a class="vcard" href="/cases/high-roas-ugc-ads"> <img src="/images/BmUk0KMAPqqpLzpARwDdXhfg.gif" alt="High ROAS UGC ads" loading="lazy"> <div class="b"><div class="tags"><span>#DTC</span><span>#E-com</span></div><h4>High ROAS UGC ads</h4></div> </a><a class="vcard" href="/cases/high-converting-video-ads-for-dtc-brands"> <img src="/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png" alt="AI static ads — 3x CTR" loading="lazy"> <div class="b"><div class="tags"><span>#DTC</span><span>UGC</span></div><h4>AI static ads — 3x CTR</h4></div> </a><a class="vcard" href="/cases/ugc-creators-over-45"> <img src="/images/FXMkq1jH116yCF0nIQPl2N2vc.png" alt="Creators 45+ — trust-first" loading="lazy"> <div class="b"><div class="tags"><span>#Silver age</span><span>Video</span></div><h4>Creators 45+ — trust-first</h4></div> </a><a class="vcard" href="/cases/organic-video-content-1m-views"> <img src="/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif" alt="1M+ views — dating &#38; EdTech" loading="lazy"> <div class="b"><div class="tags"><span>#Digital</span><span>#Organic</span></div><h4>1M+ views — dating &amp; EdTech</h4></div> </a><a class="vcard" href="/cases/static-ad-creatives-digital-products"> <img src="/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png" alt="Static ads for Meta &#38; TikTok" loading="lazy"> <div class="b"><div class="tags"><span>#Paid ads</span><span>#Digital</span></div><h4>Static ads for Meta &amp; TikTok</h4></div> </a><a class="vcard" href="/cases/alcohol-ugc-content"> <img src="/images/SBAkW2rwVUXKWpG9XA9enjK968.png" alt="Alco UGC — compliance-first" loading="lazy"> <div class="b"><div class="tags"><span>#Alco</span><span>UGC</span></div><h4>Alco UGC — compliance-first</h4></div> </a> </div> </section> <!-- OFFER: three ways to start --> <section class="sec tight" id="offer"> <div class="w"> <div class="head"> <div class="t"> <span class="kick">Start small, see how we work, then go big</span> <h2>Three ways to <span class="cap y">start</span></h2> </div> </div> <div class="offers"> <div class="offer audit"> <div class="o-top"><span class="hand">no call needed</span><span class="o-tag">Account audit</span></div> <h3>A testing plan for your first 10 videos</h3> <div class="o-price"><b>$200</b><span>one-time · ready in 5 business days</span></div> <ul> <li>We review your ad account and current creatives</li> <li>Testing plan: which angles, hooks and formats to try first</li> <li>References for each of the first 10 videos</li> <li>Produce them yourself, or with us</li> </ul> <a class="btn ghost" href="mailto:olga@okad.agency?subject=Account%20audit%20%E2%80%94%20%24200&#38;body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0A">Order the audit →</a> </div> <div class="offer starter"> <div class="o-top"><span class="hand">no call needed</span><span class="o-tag">Starter pack</span></div> <h3>The plan + 10 ready-to-run videos</h3> <div class="o-price"><b>$500</b><span>one-time · ready in 5 business days</span></div> <ul> <li>Everything in the audit, plus the 10 videos</li> <li>Made with AI or cut from our creator library</li> <li>Edited for Meta and TikTok, 9:16 + 4:5</li> <li>See our quality, ideas and how well we get your product</li> </ul> <div class="o-flow" aria-label="How it works"><span>Order</span><i>→</i><span>10 videos in 5 days</span><i>→</i><span>You launch</span><i>→</i><span>Scale what works</span></div> <a class="btn" href="mailto:olga@okad.agency?subject=Starter%20pack%20%E2%80%94%2010%20videos%20for%20%24500&#38;body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0AAI%20or%20creator%20footage%3A%0A">Order 10 videos →</a> </div> <div class="offer program"> <div class="o-top"><span class="hand">for bigger volume</span><span class="o-tag">Monthly plan</span></div> <h3>Creative testing at volume, every month</h3> <div class="o-price"><b>from $2,500</b><span>per month · scoped on a call</span></div> <p class="o-note"><b>~$100 per custom-shot video, all in:</b> strategy, scripts, casting, creator footage and editing. The more videos, the lower the price per video. AI and B-roll videos cost less.</p> <ul> <li>Research from your reviews, comments and ad history</li> <li>Real creators matched to each message</li> <li>A results map after every batch: scale, fix or stop</li> </ul> <a class="btn dew" href="https://calendly.com/okad_calls/first" target="_blank" rel="noopener">Book a call →</a> </div> </div> </div> </section> <!-- HOW WE BUILD --> <section class="sec tight"> <div class="w"> <div class="rail-head"> <h2>How we <span class="cap v">build</span> ad creatives</h2> <div class="rail-nav"><button type="button" data-rail="pr" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="pr" data-dir="1" aria-label="Next">→</button></div> </div> </div> <div class="rail" id="pr"> <div class="pcard"><b>3–5</b><strong>Variations per ad</strong><p>We shoot one ad and cut 3–5 versions with different hooks to test.</p></div><div class="pcard"><b>600+</b><strong>Vetted creators</strong><p>Our own creators. You don&#39;t search. We match and brief them.</p></div><div class="pcard"><b>Hook → CTA</b><strong>Script first</strong><p>Every video has a written script before anyone hits record.</p></div><div class="pcard"><b>AI + human</b><strong>Creative direction</strong><p>We use AI to move faster, but a person decides what to make.</p></div><div class="pcard"><b>1 team</b><strong>Zero handoffs</strong><p>The same people write the script, pick the creator and edit the video.</p></div><div class="pcard"><b>CTR · ROAS</b><strong>Data in every brief</strong><p>Before the next batch, we look at what actually performed.</p></div><div class="pcard"><b>Scroll-stop</b><strong>Design first</strong><p>If it doesn&#39;t catch the eye in the feed, it doesn&#39;t work.</p></div> <a class="pcard hl" href="/cases/creative-testing-ai-app-meta-ads"><b>See it</b><strong>In one real case</strong><p>All seven rules applied to 160+ ads, with the numbers →</p></a> </div> </section> <!-- HOW A PROJECT RUNS --> <section class="sec tight"> <div class="w"> <div class="head"> <div class="t"> <span class="kick">You don't need to know ads. You need a team that tests them.</span> <h2>Your first <span class="cap g">six weeks</span></h2> </div> </div> <div class="steps"> <div class="step"><span class="wk">week 1</span><b>Research</b><p>Your reviews, ad comments and ad history.</p></div><div class="step"><span class="wk">week 1–2</span><b>Test plan</b><p>50–70 hypotheses you approve.</p></div><div class="step"><span class="wk">week 2</span><b>Scripts &amp; casting</b><p>Hooks in variants, faces matched to messages.</p></div><div class="step"><span class="wk">weeks 3–4</span><b>Production</b><p>Native formats, proof inside, 9:16 + 4:5.</p></div><div class="step"><span class="wk">weeks 5–6</span><b>Results map</b><p>Scale, fix or stop for every video, plus the next batch.</p></div> </div> <div class="price-line"> <span><b>Not sure yet?</b> Start with a $200 audit or 10 videos for $500, and scale when you see results.</span> <a class="btn ghost" href="#offer">See the options ↑</a> </div> </div> </section> <!-- TESTIMONIALS --> <section class="sec tight"> <div class="w"> <div class="rail-head"> <h2>What clients <span class="cap p">say</span></h2> <div class="rail-nav"><button type="button" data-rail="tq" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="tq" data-dir="1" aria-label="Next">→</button></div> </div> </div> <div class="rail" id="tq"> <figure class="tcard"> <blockquote>“OKAD found video ads that actually bring us customers. Fast, organized and easy to work with. We keep ordering new batches.”</blockquote> <figcaption><span class="ini" aria-hidden="true">In</span><div><b>Name Surname</b><span>Marketing, InstaHeadshots</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“Great agency. The creatives looked native, launched on time, and a few of them became our best performers.”</blockquote> <figcaption><span class="ini" aria-hidden="true">Ze</span><div><b>Name Surname</b><span>Founder, ZenToes</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“Clear process, smart scripts and a lot of variety. The team tested ideas we would never have tried ourselves.”</blockquote> <figcaption><span class="ini" aria-hidden="true">Da</span><div><b>Name Surname</b><span>Marketing, Dating.com</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“Very happy with the video produced by OKAD. It helped us increase our creative output, and communication was smooth throughout.”</blockquote> <figcaption><img src="/images/9yQb8hBXfQCe1f6JkqCRMnt4AKs.jpeg" alt="" loading="lazy"><div><b>Maxime Lenzlinger</b><span>Co-founder / Marketing, VUE SWISS</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.”</blockquote> <figcaption><img src="/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png" alt="" loading="lazy"><div><b>Kristina Hr.</b><span>Marketing, Mushroom genetics</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“You&#39;re the best team I&#39;ve ever worked with. You are professional, organized, creative, and kind.”</blockquote> <figcaption><img src="/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png" alt="" loading="lazy"><div><b>Claire Ginn</b><span>Founder, YPM Agency</span></div></figcaption> </figure><figure class="tcard"> <blockquote>“Olga and her team are some of the best designers around. They&#39;re creative, work efficiently, and always deliver quality work.”</blockquote> <figcaption><img src="/images/fyo2eKnJgN0TDx8SMjUG2NCqWk.jpeg" alt="" loading="lazy"><div><b>Damon Dixon</b><span>Founder, Douxds</span></div></figcaption> </figure> </div> </section> <!-- LEARN --> <section class="sec tight"> <div class="w"> <div class="rail-head"> <div class="head" style="display:grid;gap:14px"> <span class="kick">Free guides from 10,000+ ads</span> <h2>Learn how ads that <span class="cap g">sell</span> are made</h2> </div> <div class="row"> <div class="rail-nav"><button type="button" data-rail="ln" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="ln" data-dir="1" aria-label="Next">→</button></div> <a class="btn ghost" href="/blog/">All guides →</a> </div> </div> </div> <div class="rail" id="ln"> <a class="gcard rail" href="/blog/blog-ad-creative-testing-how-many-variations/" data-topic="creative-testing"> <div class="gc-cover" style="background:var(--mint)"> <span class="gc-topic">Creative testing</span> <b>Ad Creative Testing</b> </div> <div class="gc-body"> <h3>Ad Creative Testing: How Many Variations You Actually Need</h3> <p>A practical guide to creative testing for Meta and TikTok ads. How many hooks to test, when to kill underperformers, and how to scale winners without creative fatigue.</p> <span class="gc-meta">9 min read →</span> </div> </a><a class="gcard rail" href="/blog/blog-hook-rate-explained/" data-topic="creative-testing"> <div class="gc-cover" style="background:var(--mint)"> <span class="gc-topic">Creative testing</span> <b>Hook Rate Explained</b> </div> <div class="gc-body"> <h3>Hook Rate Explained: What It Is, How to Measure It, and How to Improve It</h3> <p>Hook rate is the percentage of viewers who watch past the first 1–3 seconds of your video. Learn how to calculate hook rate, benchmark against industry averages, and improve it for TikTok, Reels, and video ads.</p> <span class="gc-meta">5 min read →</span> </div> </a><a class="gcard rail" href="/blog/blog-how-to-brief-a-creative-agency/" data-topic="ugc-ads"> <div class="gc-cover" style="background:var(--lav)"> <span class="gc-topic">UGC ads</span> <b>How to Brief a Creative Agency (Template Inside)</b> </div> <div class="gc-body"> <h3>How to Brief a Creative Agency (Template Inside)</h3> <p>The 7 sections every creative brief needs, common mistakes that waste rounds of revision, and a free template you can copy. Written by an agency that reads 50+ briefs a month.</p> <span class="gc-meta">9 min read →</span> </div> </a><a class="gcard rail" href="/blog/blog-ad-creative-analysis-dashboard/" data-topic="creative-testing"> <div class="gc-cover" style="background:var(--mint)"> <span class="gc-topic">Creative testing</span> <b>Ad Creative Analysis Dashboard</b> </div> <div class="gc-body"> <h3>Ad Creative Analysis Dashboard: What to Track and How to Build One</h3> <p>How to build a dashboard for ad creative analysis — the metrics that matter, how to structure creative reporting, and tools for tracking which ads actually drive results.</p> <span class="gc-meta">5 min read →</span> </div> </a><a class="gcard rail" href="/blog/blog-brand-identity-vs-performance-creative/" data-topic="brand-web"> <div class="gc-cover" style="background:var(--peach)"> <span class="gc-topic">Brand &amp; web</span> <b>Brand Identity vs Performance Creative</b> </div> <div class="gc-body"> <h3>Brand Identity vs Performance Creative: You Need Both</h3> <p>Why brand guidelines and ad creative testing are not opposites. How to build a visual identity that holds up across 50 ad variations, and when to break the rules.</p> <span class="gc-meta">10 min read →</span> </div> </a><a class="gcard rail" href="/blog/blog-ad-fatigue-prevention/" data-topic="creative-testing"> <div class="gc-cover" style="background:var(--mint)"> <span class="gc-topic">Creative testing</span> <b>Ad Fatigue</b> </div> <div class="gc-body"> <h3>Ad Fatigue: How to Detect Creative Decay and Prevent It</h3> <p>Ad fatigue kills campaign performance in 10–21 days. Learn how to detect early warning signs, extend creative lifespan, and build a production pipeline that stays ahead of decay.</p> <span class="gc-meta">5 min read →</span> </div> </a> </div> </section> <!-- DESIGN STUDIO BAND --> <section class="dband" id="design"> <div class="w"> <div class="head"> <div class="t"> <span class="hand">where OKAD started</span> <h2><span class="cap w">200+</span> websites & brands designed</h2> <p class="lead">We began as a design studio and still run one: branding, websites on Framer, Webflow and Shopify, pitch decks. Same team, same care.</p> </div> <div class="row"> <a class="btn" href="/design">Visit the design studio →</a> </div> </div> </div> <div class="rail" id="ds"> <a class="dcard" href="/cases/case-jumpman"> <img src="/images/cases/case-jumpman.png" alt="Jumpman, Paris" loading="lazy"> <div class="b"><div class="tags"><span>Branding</span></div><h4>Jumpman, Paris</h4><p>Brand identity for a Paris cardio studio.</p></div> </a><a class="dcard" href="/cases/case-jumpman-website-main"> <img src="/images/cases/case-jumpman-website-main.jpg" alt="Jumpman website" loading="lazy"> <div class="b"><div class="tags"><span>Web</span><span>Framer</span></div><h4>Jumpman website</h4><p>Doubled B2C bookings in the first month.</p></div> </a><a class="dcard" href="/cases/case-jardins-etretat-redesign-main"> <img src="/images/cases/case-jardins-etretat-redesign-main.jpg" alt="Jardins d'Étretat" loading="lazy"> <div class="b"><div class="tags"><span>Web</span><span>Framer</span></div><h4>Jardins d&#39;Étretat</h4><p>Website redesign for a French venue.</p></div> </a><a class="dcard" href="/cases/case-lingoculture"> <img src="/images/cases/case-lingoculture.jpg" alt="LingoCulture" loading="lazy"> <div class="b"><div class="tags"><span>Pitch deck</span></div><h4>LingoCulture</h4><p>Partner deck for a French learning platform.</p></div> </a><a class="dcard" href="/cases/case-ckx"> <img src="/images/cases/case-ckx.jpg" alt="ChainKeyX" loading="lazy"> <div class="b"><div class="tags"><span>UX/UI</span><span>Framer</span></div><h4>ChainKeyX</h4><p>Bento-style website for a DeFi startup.</p></div> </a><a class="dcard" href="/cases/case-innowomen-branding"> <img src="/images/cases/case-innowomen-branding.jpg" alt="In a Woman" loading="lazy"> <div class="b"><div class="tags"><span>Branding</span></div><h4>In a Woman</h4><p>Brand system for a women-in-tech accelerator.</p></div> </a> </div> </section> <!-- FOUNDER / CONTACT --> <section class="sec" id="contact"> <div class="w"> <div class="founder"> <img class="av" src="/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="Olga Kad Miller"> <div> <blockquote>“I review every brief and write the <span class="cap d">strategy</span> myself.”</blockquote> <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p> <div class="row"> <a class="btn dew" href="https://calendly.com/okad_calls/first" target="_blank" rel="noopener">Book a call</a> <a class="btn ghost" href="mailto:olga@okad.agency">Email us</a> <a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a> </div> <p class="mail">olga@okad.agency</p> </div> </div> </div> </section> <!-- BEHIND THE SCENES --> <section class="sec tight"> <div class="w"> <div class="head"> <h2><span class="cap y">Behind</span> the scenes</h2> <a class="btn ghost" href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener">YouTube →</a> </div> </div> <div class="rail"> <a class="ycard" href="https://www.youtube.com/watch?v=-UTQ0HyGE80" target="_blank" rel="noopener"> <div class="th"><img src="https://img.youtube.com/vi/-UTQ0HyGE80/hqdefault.jpg" alt="" loading="lazy"></div> <h4>High-converting UGC video ad system</h4> </a><a class="ycard" href="https://www.youtube.com/watch?v=6ww6ykmc2Pw" target="_blank" rel="noopener"> <div class="th"><img src="https://img.youtube.com/vi/6ww6ykmc2Pw/hqdefault.jpg" alt="" loading="lazy"></div> <h4>How to create static ads: 4 elements every ad needs</h4> </a> </div> </section> </div> <div class="okh mbar" id="mbar" hidden> <a class="btn" href="#offer">10 videos · $500</a> <a class="btn dew" href="https://calendly.com/okad_calls/first" target="_blank" rel="noopener">Book a call</a> </div> <script type="module">const o=document.getElementById("mbar");if(o){o.hidden=!1;const e=()=>o.classList.toggle("on",window.scrollY>500);e(),window.addEventListener("scroll",e,{passive:!0})}document.querySelectorAll(".okh [data-rail]").forEach(e=>{e.addEventListener("click",()=>{const t=document.getElementById(e.dataset.rail);if(!t)return;const l=t.firstElementChild,r=l?l.offsetWidth+14:320;t.scrollBy({left:Number(e.dataset.dir)*r,behavior:"smooth"})})});</script>
+  <div class="okh">
 
+    <!-- HERO: video first -->
+    <section class="khero">
+      <div class="w">
+        <div class="hero-grid">
+          <div class="stack">
+            <span class="kick">Video ad creative testing · UGC · for e-commerce & apps</span>
+            <h1>We make video ads, test them and scale <span class="cap">the ones that sell</span></h1>
+            <p class="lead">Research, scripts, 600+ vetted creators, native formats and a data loop after every batch. One team, end to end.</p>
+            <div class="row">
+              <a class="btn" href="#offer">Order 10 videos · $500</a>
+              <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
+            </div>
+            <p class="alt-link">Need a website or a brand? <a href="#design">Our design studio →</a></p>
+          </div>
+          <div class="collage" aria-label="Frames from our ads">
+            <span class="note hand hn">real frames from our ads <Fragment set:html={arrowR} /></span>
+            <figure class="ph"><img src="/images/cases/ai-app-designed/img-02.jpg" alt="Creator showing a before and after LinkedIn photo" /></figure>
+            <figure class="ph"><img src="/images/cases/ai-app-designed/img-06.jpg" alt="Good, better, best ranking ad" /></figure>
+            <figure class="ph"><img src="/images/cases/ai-app-designed/img-31.jpg" alt="Creator holding a handwritten sign" /></figure>
+            <a class="sticker" href={CASE1}>
+              <b>160+</b>
+              <span>video ads for one AI app in four months<small>Case 01 · read →</small></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="strip">
+          <div><b>10,000+</b><span>ads & posts created</span></div>
+          <div><b>600+</b><span>vetted creators of our own</span></div>
+          <div><b>100+</b><span>brands we work with</span></div>
+          <div><b>3–5</b><span>hook variations per ad</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOGOS -->
+    <section aria-label="Clients">
+      <div class="logos-cap"><span class="kick">Trusted by 100+ brands</span></div>
+      <div class="logos">
+        <div class="lt">
+          {[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="lazy" />)}
+        </div>
+      </div>
+    </section>
+
+    <!-- CASES -->
+    <section class="sec" id="cases">
+      <div class="w">
+        <div class="head">
+          <div class="t">
+            <span class="kick">Real ad accounts, real numbers</span>
+            <h2>Selected <span class="cap g">cases</span></h2>
+          </div>
+          <a class="btn ghost" href="/cases">All cases →</a>
+        </div>
+
+        <div class="fcases">
+          <!-- CASE 01 -->
+          <article class="fcase">
+            <a class="fcase-link" href={CASE1} aria-label="Read the case: 160+ ads for a consumer AI app"></a>
+            <div class="info">
+              <div class="meta">
+                <span class="num">case 01</span>
+                <div class="tags"><span>Creative testing</span><span>Consumer AI app</span><span>Meta ads · US</span></div>
+              </div>
+              <h3>From 2 videos that ever worked <span class="cap w">to 160+ ads</span> in four months</h3>
+              <p>Research-led scripts, matched creators and native formats. Real sales picked the winners.</p>
+              <div class="fk">
+                <div><b>160<em>+</em></b><span>video ads delivered</span></div>
+                <div><b>−35<em>%</em></b><span>cost per customer vs account average</span></div>
+                <div><b><em>#</em>1</b><span>biggest budget of ~770 ads went to our video</span></div>
+              </div>
+              <div class="go">
+                <a class="btn" href={CASE1}>Read the case →</a>
+                <span class="kick">11 chapters · client anonymised</span>
+              </div>
+            </div>
+            <div class="cov cov-stack" aria-hidden="true">
+              <span class="note hand hn">160+ of these <Fragment set:html={arrowR} /></span>
+              <figure class="ph c-main"><img src="/images/cases/ai-app-designed/img-15.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-l"><img src="/images/cases/ai-app-designed/img-29.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-r"><img src="/images/cases/ai-app-designed/img-23.jpg" alt="" loading="lazy" /></figure>
+              <span class="chip-v">−35% cost per customer</span>
+            </div>
+          </article>
+
+          <!-- CASE 02 -->
+          <article class="fcase lav">
+            <a class="fcase-link" href={CASE2} aria-label="Read the case: ZenToes Walmart launch"></a>
+            <div class="info">
+              <div class="meta">
+                <span class="num">case 02</span>
+                <div class="tags"><span>Retail launch</span><span>Foot care</span><span>Walmart · US</span></div>
+              </div>
+              <h3>Two creams. A Walmart launch. <span class="cap w">Not one new shoot.</span></h3>
+              <p>We logged every clip ZenToes already had, wrote ads around what was really on camera and edited a full launch batch.</p>
+              <div class="fk">
+                <div><b>11</b><span>launch videos edited</span></div>
+                <div><b>14</b><span>static ads alongside them</span></div>
+                <div><b>0</b><span>new shoots or castings</span></div>
+              </div>
+              <div class="go">
+                <a class="btn" href={CASE2}>Read the case →</a>
+                <span class="kick">ZenToes · from footage they already had</span>
+              </div>
+            </div>
+            <div class="cov cov-mix" aria-hidden="true">
+              <span class="note hand hn">same footage, new ads <Fragment set:html={arrowR} /></span>
+              <figure class="m-store"><img src="/images/cases/zentoes-walmart-launch-ads/img-11.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph m-phone"><img src="/images/cases/zentoes-walmart-launch-ads/img-06.jpg" alt="" loading="lazy" /></figure>
+              <figure class="m-static"><img src="/images/cases/zentoes-walmart-launch-ads/img-04.jpg" alt="" loading="lazy" /></figure>
+              <span class="chip-v">11 videos + 14 statics</span>
+            </div>
+          </article>
+          <!-- CASE 03: copy an <article> above, change class to "fcase peach" or "fcase mint" -->
+        </div>
+      </div>
+
+      <!-- more video work, scrolls sideways -->
+      <div class="w" style="margin-top:72px">
+        <div class="rail-head">
+          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)"><span class="cap y">10,000+</span> ads & posts created</h2>
+          <div class="rail-nav"><button type="button" data-rail="vw" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="vw" data-dir="1" aria-label="Next">→</button></div>
+        </div>
+      </div>
+      <div class="rail" id="vw">
+        {videoWork.map((c) => (
+          <a class="vcard" href={c.href}>
+            {c.pics
+              ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => <img src={src} alt="" loading="lazy" />)}</div>
+              : <img src={c.img} alt={c.title} loading="lazy" />}
+            <div class="b"><div class="tags">{c.tags.map((t) => <span>{t}</span>)}</div><h4>{c.title}</h4></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- OFFER: three ways to start -->
+    <section class="sec tight" id="offer">
+      <div class="w">
+        <div class="head">
+          <div class="t">
+            <span class="kick">Start small, see how we work, then go big</span>
+            <h2>Three ways to <span class="cap y">start</span></h2>
+          </div>
+        </div>
+        <div class="offers">
+          <div class="offer audit">
+            <span class="o-tag">Audit · no call</span>
+            <h3>Testing plan</h3>
+            <div class="o-price"><b>$200</b><span>ready in 5 business days</span></div>
+            <ul>
+              <li>Review of your ad account</li>
+              <li>Plan for your first 10 videos</li>
+              <li>References for each video</li>
+            </ul>
+            <a class="btn ghost" href={ORDER_AUDIT}>Order the audit</a>
+          </div>
+          <div class="offer starter">
+            <span class="o-tag">Starter · no call</span>
+            <h3>Plan + 10 videos</h3>
+            <div class="o-price"><b>$500</b><span>ready in 5 business days</span></div>
+            <ul>
+              <li>Everything in the audit</li>
+              <li>10 videos, AI or from our creator library</li>
+              <li>Ready to launch on Meta and TikTok</li>
+            </ul>
+            <a class="btn" href={ORDER_STARTER}>Order 10 videos</a>
+          </div>
+          <div class="offer program">
+            <span class="o-tag">Monthly plan</span>
+            <h3>Testing at volume</h3>
+            <div class="o-price"><b>$2,500+</b><span>per month · ~$100 per custom video</span></div>
+            <ul>
+              <li>Strategy, scripts, casting, filming, editing</li>
+              <li>Cheaper per video at volume</li>
+              <li>AI and B-roll videos cost less</li>
+            </ul>
+            <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE BUILD -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="rail-head">
+          <h2>How we <span class="cap v">build</span> ad creatives</h2>
+          <div class="rail-nav"><button type="button" data-rail="pr" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="pr" data-dir="1" aria-label="Next">→</button></div>
+        </div>
+      </div>
+      <div class="rail" id="pr">
+        {principles.map(([b, s, p]) => <div class="pcard"><b>{b}</b><strong>{s}</strong><p>{p}</p></div>)}
+        <a class="pcard hl" href={CASE1}><b>See it</b><strong>In one real case</strong><p>All seven rules applied to 160+ ads, with the numbers →</p></a>
+      </div>
+    </section>
+
+    <!-- HOW A PROJECT RUNS -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="t" style="display:grid;gap:10px">
+          <span class="kick">You don't need to know ads. You need a team that tests them.</span>
+          <h2>Your first <span class="cap g">six weeks</span></h2>
+        </div>
+        <ol class="tl">
+          {steps.map(([wk, b, p]) => <li><span class="wk">{wk}</span><b>{b}</b><span class="tx">{p}</span></li>)}
+        </ol>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="rail-head">
+          <h2>What clients <span class="cap p">say</span></h2>
+          <div class="rail-nav"><button type="button" data-rail="tq" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="tq" data-dir="1" aria-label="Next">→</button></div>
+        </div>
+      </div>
+      <div class="rail" id="tq">
+        {quotes.map(([q, n, r, img]) => (
+          <figure class="tcard">
+            <blockquote>“{q}”</blockquote>
+            <figcaption>{img ? <img src={img} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{r.split(', ').pop()!.slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+
+    <!-- LEARN -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="rail-head">
+          <div class="head" style="display:grid;gap:14px">
+            <span class="kick">Free guides from 10,000+ ads</span>
+            <h2>Learn how ads that <span class="cap g">sell</span> are made</h2>
+          </div>
+          <div class="row">
+            <div class="rail-nav"><button type="button" data-rail="ln" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="ln" data-dir="1" aria-label="Next">→</button></div>
+            <a class="btn ghost" href="/blog/">All guides →</a>
+          </div>
+        </div>
+      </div>
+      <div class="rail" id="ln">
+        {guides.map((g) => <GuideCard entry={g} size="rail" />)}
+      </div>
+    </section>
+
+    <!-- DESIGN STUDIO BAND -->
+    <section class="dband" id="design">
+      <div class="w">
+        <div class="head">
+          <div class="t">
+            <span class="hand">where OKAD started</span>
+            <h2><span class="cap w">200+</span> websites & brands designed</h2>
+            <p class="lead">We began as a design studio and still run one: branding, websites on Framer, Webflow and Shopify, pitch decks. Same team, same care.</p>
+          </div>
+          <div class="row">
+            <a class="btn" href="/design">Visit the design studio →</a>
+          </div>
+        </div>
+      </div>
+      <div class="rail" id="ds">
+        {design.map((d) => (
+          <a class="dcard" href={d.href}>
+            <img src={d.img} alt={d.title} loading="lazy" />
+            <div class="b"><div class="tags">{d.tags.map((t) => <span>{t}</span>)}</div><h4>{d.title}</h4><p>{d.text}</p></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <!-- FOUNDER / CONTACT -->
+    <section class="sec" id="contact">
+      <div class="w">
+        <div class="founder">
+          <img class="av" src="/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="Olga Kad Miller" />
+          <div>
+            <blockquote>“I review every brief and write the strategy myself.”</blockquote>
+            <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p>
+            <div class="row">
+              <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+              <a class="btn ghost" href="mailto:olga@okad.agency">Email us</a>
+              <a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+            <p class="mail">olga@okad.agency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEHIND THE SCENES -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="head">
+          <h2><span class="cap y">Behind</span> the scenes</h2>
+          <a class="btn ghost" href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener">YouTube →</a>
+        </div>
+      </div>
+      <div class="rail">
+        {videos.map(([id, t]) => (
+          <a class="ycard" href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener">
+            <div class="th"><img src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" /></div>
+            <h4>{t}</h4>
+          </a>
+        ))}
+      </div>
+    </section>
+
+  </div>
+
+  <div class="okh mbar" id="mbar" hidden>
+    <a class="btn" href="#offer">10 videos · $500</a>
+    <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+  </div>
+
+  <script>
+    const mbar = document.getElementById('mbar');
+    if (mbar) {
+      mbar.hidden = false;
+      const onScroll = () => mbar.classList.toggle('on', window.scrollY > 500);
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+    document.querySelectorAll<HTMLButtonElement>('.okh [data-rail]').forEach((b) => {
+      b.addEventListener('click', () => {
+        const rail = document.getElementById(b.dataset.rail!);
+        if (!rail) return;
+        const card = rail.firstElementChild as HTMLElement | null;
+        const step = card ? card.offsetWidth + 14 : 320;
+        rail.scrollBy({ left: Number(b.dataset.dir) * step, behavior: 'smooth' });
+      });
+    });
+  </script>
 </Base>

@@ -1,4 +1,6 @@
 ---
+hook: "How do you earn from YouTube Shorts?"
+topic: for-creators
 title: "How to Monetize YouTube Shorts: Revenue Streams That Actually Work in 2026"
 description: "A practical guide to monetizing YouTube Shorts — from the YouTube Partner Program and Shorts Fund to brand deals, affiliate marketing, and driving traffic to paid products."
 type: blog

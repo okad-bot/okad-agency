@@ -1,4 +1,6 @@
 ---
+hook: "Why do good ads stop working after two weeks?"
+topic: creative-testing
 title: "Ad Fatigue: How to Detect Creative Decay and Prevent It"
 description: "Ad fatigue kills campaign performance in 10–21 days. Learn how to detect early warning signs, extend creative lifespan, and build a production pipeline that stays ahead of decay."
 type: blog

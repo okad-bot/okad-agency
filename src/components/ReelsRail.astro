@@ -1,0 +1,18 @@
+---
+import { reels, upcoming } from '../data/reels';
+---
+<div class="rail reels">
+  {reels.length > 0
+    ? reels.map((r) => (
+        <a class="reel" href={r.url} target="_blank" rel="noopener">
+          <figure class="ph"><img src={r.cover} alt="" loading="lazy" /></figure>
+          <span>{r.title}</span>
+        </a>
+      ))
+    : upcoming.map((t) => (
+        <div class="reel soon">
+          <figure class="ph"><img src="/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="" loading="lazy" /><i>coming soon</i></figure>
+          <span>{t}</span>
+        </div>
+      ))}
+</div>

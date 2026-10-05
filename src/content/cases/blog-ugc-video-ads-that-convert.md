@@ -1,4 +1,6 @@
 ---
+hook: "What makes a UGC ad sell?"
+topic: ugc-ads
 title: "UGC Video Ads That Convert: What We've Learned from 200+ Campaigns"
 description: "Why UGC ads outperform polished brand videos, how to brief creators, which formats work on TikTok vs Meta, and how to scale UGC ad production without losing quality."
 type: blog
@@ -102,7 +104,7 @@ Casting determines 70% of the outcome. We evaluate creators on:
 - **Audience alignment.** The creator's natural audience should overlap with the brand's target demographic. A 22-year-old creator selling retirement planning services does not convert.
 - **Reliability.** Delivery on time, responsive to feedback, consistent quality. We track this per creator across campaigns.
 
-We maintain a database of 600+ vetted creators across categories, demographics, and languages. This eliminates the sourcing bottleneck that stalls most brands' UGC programs. Details on our creator network and [UGC video production process](/ugc-video) are on our site.
+We maintain a database of 600+ vetted creators across categories, demographics, and languages. This eliminates the sourcing bottleneck that stalls most brands' UGC programs. Details on our creator network and [UGC video production process](/#offer) are on our site.
 
 ## Metrics That Matter
 
@@ -156,4 +158,4 @@ After 200+ campaigns, the failure patterns are predictable:
 
 If you are spending on paid social and your creative is underperforming — or you know you need UGC but have not built the production pipeline — we can help. We handle creator sourcing, briefing, production management, and post-production so you get a steady flow of tested, platform-native video ads.
 
-Start with a look at our [UGC video production services](/ugc-video), or [book a call](/contact) to discuss your brand's specific needs and volume requirements.
+Start with a look at our [UGC video production services](/#offer), or [book a call](/#contact) to discuss your brand's specific needs and volume requirements.

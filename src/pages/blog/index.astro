@@ -1,40 +1,135 @@
 ---
 import Base from '../../layouts/Base.astro';
+import GuideCard from '../../components/GuideCard.astro';
+import ReelsRail from '../../components/ReelsRail.astro';
 import { getCollection } from 'astro:content';
+import { TOPICS, shortTitle, readMinutes, topicOf } from '../../lib/learn';
+import '../../styles/okad-house.css';
 
-const allCases = await getCollection('cases');
-const posts = allCases
-  .filter(c => c.data.type === 'blog')
-  .sort((a, b) => b.id.localeCompare(a.id));
+const all = await getCollection('cases');
+const order = Object.keys(TOPICS);
+const posts = all
+  .filter((c) => c.data.type === 'blog')
+  .sort((a, b) => order.indexOf(a.data.topic ?? '') - order.indexOf(b.data.topic ?? '') || a.data.title.localeCompare(b.data.title));
+const start = posts.filter((p) => p.data.startHere).sort((a, b) => a.data.startHere! - b.data.startHere!);
+const featured = start[0];
+const counts = Object.fromEntries(order.map((k) => [k, posts.filter((p) => p.data.topic === k).length]));
 ---
 
-<Base title="Blog — OKAD Agency" description="Insights on UGC video ads, web design, branding, and creative strategy from 200+ brand projects.">
+<Base title="Learn — Guides on Video Ads, UGC & Creative Testing | OKAD Agency" description="Free guides from OKAD on creative testing, UGC video ads, hooks, briefs and scaling. What we've learned from 10,000+ ads for 100+ brands.">
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "OKAD Learn",
+      "description": "Guides on creative testing, UGC video ads and ad creative strategy.",
+      "url": "https://okad.agency/blog/",
+      "publisher": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" }
+    })} />
+  </Fragment>
 
-  <script type="application/ld+json" slot="head" set:html={JSON.stringify({
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    "name": "OKAD Agency Blog",
-    "description": "Insights on UGC video ads, web design, branding, and creative strategy.",
-    "url": "https://okad.agency/blog/",
-    "publisher": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" }
-  })} />
+  <div class="okh">
 
-  <div class="page-header page-header--left">
-    <h1>The <em>Blog</em></h1>
-    <p>UGC, ad creative, web design, and branding — what we've learned from 200+ projects</p>
-  </div>
-  <div class="cases-listing">
-    <div class="cases-grid">
-      {posts.map(c => (
-        <a href={`/blog/${c.id}`} class="case-list-card">
-          {c.data.cover && <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" />}
-          <div class="card-body">
-            <h3>{c.data.title}</h3>
-            <p>{c.data.description}</p>
+    <section class="khero learn-hero">
+      <div class="w">
+        <div class="hero-grid">
+          <div class="stack">
+            <span class="kick">OKAD Learn · free guides, no sign-up</span>
+            <h1>How ads that sell <span class="cap g">are made</span></h1>
+            <p class="lead">What we've learned from 10,000+ ads for 100+ brands: creative testing, hooks, UGC, briefs and scaling. Written for founders and marketers, not for ad nerds.</p>
+            <div class="row">
+              <a class="btn" href="#guides">Browse {posts.length} guides ↓</a>
+              <a class="btn ghost" href="#reels">Reels with Olga</a>
+            </div>
           </div>
-        </a>
-      ))}
-    </div>
+          {featured && (
+            <a class="feat-guide" href={`/blog/${featured.id}/`}>
+              <span class="hand">start here</span>
+              <div class="fg-cover" style={`background:${topicOf(featured).color}`}>
+                <span class="gc-topic">{topicOf(featured).label}</span>
+                <b>{featured.data.hook ?? shortTitle(featured.data.title)}</b>
+              </div>
+              <h2>{featured.data.title}</h2>
+              <span class="gc-meta">{readMinutes(featured)} min read →</span>
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <!-- START HERE: a real reading order for people new to ads -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="starthere">
+          <div class="sh-head">
+            <span class="hand">new to ads?</span>
+            <h2>Start <span class="cap w">here</span></h2>
+            <p>Three guides, in this order. Together they take about half an hour.</p>
+          </div>
+          <ol>
+            {start.map((p) => (
+              <li><a href={`/blog/${p.id}/`}><span>{p.data.hook ?? p.data.title}</span><em>{readMinutes(p)} min</em></a></li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ALL GUIDES with topic filter -->
+    <section class="sec tight" id="guides">
+      <div class="w">
+        <div class="head">
+          <h2>All <span class="cap v">guides</span></h2>
+          <div class="chips" role="group" aria-label="Filter by topic">
+            <button type="button" class="chip on" data-filter="all" aria-pressed="true">All <i>{posts.length}</i></button>
+            {order.map((k) => (
+              <button type="button" class="chip" data-filter={k} aria-pressed="false"><b style={`background:${TOPICS[k].color}`}></b>{TOPICS[k].label} <i>{counts[k]}</i></button>
+            ))}
+          </div>
+        </div>
+        <div class="ggrid">
+          {posts.map((p) => <GuideCard entry={p} />)}
+        </div>
+      </div>
+    </section>
+
+    <!-- REELS -->
+    <section class="sec tight" id="reels">
+      <div class="w">
+        <div class="head">
+          <div class="t">
+            <span class="hand">short lessons on video</span>
+            <h2>Reels with <span class="cap y">Olga</span></h2>
+          </div>
+          <p class="lead" style="max-width:40ch">One idea per reel: hooks, testing, briefs, creators. New ones land here first.</p>
+        </div>
+      </div>
+      <ReelsRail />
+    </section>
+
+    <!-- CTA -->
+    <section class="sec tight">
+      <div class="w">
+        <div class="xband">
+          <div style="display:grid;gap:10px">
+            <span class="hand">rather have us do it?</span>
+            <h3>A testing plan for your first 10 videos, from $200</h3>
+          </div>
+          <a class="btn" href="/#offer">See the offers →</a>
+        </div>
+      </div>
+    </section>
+
   </div>
 
+  <script>
+    const chips = document.querySelectorAll<HTMLButtonElement>('.okh .chip');
+    const cards = document.querySelectorAll<HTMLElement>('.okh .ggrid .gcard');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      const f = c.dataset.filter;
+      chips.forEach((x) => { const on = x === c; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); });
+      cards.forEach((card) => { card.hidden = f !== 'all' && card.dataset.topic !== f; });
+    }));
+  </script>
 </Base>

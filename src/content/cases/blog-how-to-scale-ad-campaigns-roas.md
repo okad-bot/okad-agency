@@ -1,4 +1,6 @@
 ---
+hook: "How do you scale spend without killing ROAS?"
+topic: creative-testing
 title: "How to Scale Ad Campaigns Without Killing ROAS"
 description: "Practical strategies for scaling digital ad campaigns while maintaining return on ad spend — creative refresh cadence, budget pacing, audience expansion, and the creative fatigue signals to watch for."
 type: blog

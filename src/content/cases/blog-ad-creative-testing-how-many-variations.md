@@ -1,4 +1,7 @@
 ---
+hook: "How many ad variations do you actually need?"
+topic: creative-testing
+startHere: 1
 title: "Ad Creative Testing: How Many Variations You Actually Need"
 description: "A practical guide to creative testing for Meta and TikTok ads. How many hooks to test, when to kill underperformers, and how to scale winners without creative fatigue."
 type: blog
@@ -20,7 +23,7 @@ faqs:
 
 Most brands launch ads with one or two creatives and hope for the best. When performance dips, they blame the audience, the algorithm, or the platform. The actual problem is almost always the same: not enough creative variation, and no system for testing it.
 
-We run [ad creative production](/ads-video) for brands spending $5K to $100K+ per month on Meta and TikTok. The single biggest lever in every account is creative testing volume. Not audience targeting, not bid strategy, not campaign structure. The creative is the targeting now, and the brands that test systematically outperform the ones that guess.
+We run [ad creative production](/#offer) for brands spending $5K to $100K+ per month on Meta and TikTok. The single biggest lever in every account is creative testing volume. Not audience targeting, not bid strategy, not campaign structure. The creative is the targeting now, and the brands that test systematically outperform the ones that guess.
 
 This guide covers the testing framework we use with our clients -- how many variations to run, what to test first, when to kill losers, and how to scale winners before fatigue sets in.
 
@@ -174,8 +177,8 @@ This cycle repeats every month. The brands that maintain this cadence consistent
 
 ## Working With a Production Partner
 
-Running this kind of testing cadence requires a steady flow of creative. Most in-house teams cannot produce 15-40 new variations per month while also managing campaigns, reporting, and strategy. This is where having a dedicated [creative production partner](/ads-video) changes the math.
+Running this kind of testing cadence requires a steady flow of creative. Most in-house teams cannot produce 15-40 new variations per month while also managing campaigns, reporting, and strategy. This is where having a dedicated [creative production partner](/#offer) changes the math.
 
 We handle the full pipeline -- creator sourcing, scripting, shooting, editing, and variation production. Our clients tell us what is working and what is not, and we produce the next round of test content based on real performance data, not guesses.
 
-If you are spending $5K+ per month on Meta or TikTok and testing fewer than 10 new creatives per month, you are leaving performance on the table. Check our [ads and video production services](/ads-video) or [see pricing](/pricing) to understand what a structured testing partnership looks like.
+If you are spending $5K+ per month on Meta or TikTok and testing fewer than 10 new creatives per month, you are leaving performance on the table. Check our [ads and video production services](/#offer) or [see pricing](/pricing) to understand what a structured testing partnership looks like.

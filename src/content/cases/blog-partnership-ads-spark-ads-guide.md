@@ -1,4 +1,6 @@
 ---
+hook: "Should your ads run from a creator’s account?"
+topic: ugc-ads
 title: "Partnership Ads and Spark Ads: The Complete Guide for Brands and Creators"
 description: "How partnership ads (branded content ads) and TikTok Spark Ads work — setup, permissions, performance benchmarks, and why creator-authorized ads outperform standard paid media."
 type: blog

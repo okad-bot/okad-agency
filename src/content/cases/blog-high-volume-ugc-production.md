@@ -1,4 +1,6 @@
 ---
+hook: "How do brands get 50+ videos a month?"
+topic: ugc-ads
 title: "High-Volume UGC Production: How Brands Scale to 50+ Videos Per Month"
 description: "How brands and agencies scale UGC production from a handful of videos to 50+ per month — creator networks, canvas templates, production workflows, and quality control at scale."
 type: blog

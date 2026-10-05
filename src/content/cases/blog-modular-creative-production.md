@@ -1,4 +1,6 @@
 ---
+hook: "How do 13 clips turn into 72 ads?"
+topic: creative-testing
 title: "Modular Creative: How to Produce 72 Ad Variations from 13 Components"
 description: "Modular creative production builds ads from interchangeable components — hooks, bodies, CTAs — generating 72+ unique variations at 80% lower cost than traditional production. Learn the system."
 type: blog

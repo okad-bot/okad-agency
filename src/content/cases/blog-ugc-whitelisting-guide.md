@@ -1,4 +1,6 @@
 ---
+hook: "What is whitelisting, and is it worth it?"
+topic: ugc-ads
 title: "UGC Whitelisting: How to Run Ads from Creator Accounts (Complete Guide)"
 description: "UGC whitelisting lets brands run paid ads through a creator's account for 50% lower CPA and 2.4x higher CTR. Learn how whitelisting works on TikTok Spark Ads and Meta Partnership Ads, pricing, contracts, and setup."
 type: blog

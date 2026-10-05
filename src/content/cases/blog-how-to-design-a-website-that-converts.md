@@ -1,4 +1,6 @@
 ---
+hook: "Why doesn’t your website convert?"
+topic: brand-web
 title: "How to Design a Website That Actually Converts"
 description: "Layout principles, copy hierarchy, CTA placement, and mobile-first patterns that turn visitors into leads. Based on 200+ website projects across SaaS, e-commerce, and service businesses."
 type: blog
