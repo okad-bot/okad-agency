@@ -1,4 +1,6 @@
 ---
+hook: "Brand or performance: do you need both?"
+topic: brand-web
 title: "Brand Identity vs Performance Creative: You Need Both"
 description: "Why brand guidelines and ad creative testing are not opposites. How to build a visual identity that holds up across 50 ad variations, and when to break the rules."
 type: blog
@@ -110,7 +112,7 @@ Direct response ads, UGC content, and rapid-test creatives need the most freedom
 
 ### The 80/20 rule
 
-In practice, about 80% of your [ad creative](/ads-video) will live in the medium-to-low enforcement zone. That is where volume and testing happen. The remaining 20% — your website, hero content, launch campaigns — gets full brand treatment. Designing your identity to handle this ratio from the start saves months of friction later.
+In practice, about 80% of your [ad creative](/#offer) will live in the medium-to-low enforcement zone. That is where volume and testing happen. The remaining 20% — your website, hero content, launch campaigns — gets full brand treatment. Designing your identity to handle this ratio from the start saves months of friction later.
 
 ## Building a Brand System That Supports 50 Ad Variations
 
@@ -124,7 +126,7 @@ Instead of fixed templates, build modular components: background treatments, tex
 
 ### Creator guidelines, not creator scripts
 
-For [UGC and ad video production](/ads-video), we write creator briefs that define the boundaries — not the exact output. The brief covers: what the product does, the key message, the tone (conversational, authoritative, playful), where the logo appears, and what is off-limits. Everything else is up to the creator. The best-performing UGC almost always comes from creators who had room to interpret the brief through their own style.
+For [UGC and ad video production](/#offer), we write creator briefs that define the boundaries — not the exact output. The brief covers: what the product does, the key message, the tone (conversational, authoritative, playful), where the logo appears, and what is off-limits. Everything else is up to the creator. The best-performing UGC almost always comes from creators who had room to interpret the brief through their own style.
 
 ### A color system with range
 
@@ -164,4 +166,4 @@ If you are running ads without a brand system, you do not need a full rebrand to
 
 If you are starting from scratch or your current identity is not built for performance, we can help. OKAD builds [brand identity systems](/design) specifically designed for teams that run high-volume ad creative. Every identity we create includes performance-ready assets, template tiers, and creator guidelines — not just a logo and a PDF.
 
-[Get in touch](/design) to discuss your brand and creative strategy, or [see how we approach ad creative production](/ads-video) to understand the full picture.
+[Get in touch](/design) to discuss your brand and creative strategy, or [see how we approach ad creative production](/#offer) to understand the full picture.

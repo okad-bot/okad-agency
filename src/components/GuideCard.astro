@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { topicOf, shortTitle, readMinutes } from '../lib/learn';
+interface Props { entry: CollectionEntry<'cases'>; size?: 'rail' | 'grid' }
+const { entry, size = 'grid' } = Astro.props;
+const t = topicOf(entry);
+const hook = entry.data.hook ?? shortTitle(entry.data.title);
+---
+<a class={`gcard ${size}`} href={`/blog/${entry.id}/`} data-topic={entry.data.topic}>
+  <div class="gc-cover" style={`background:${t.color}`}>
+    <span class="gc-topic">{t.label}</span>
+    <b>{hook}</b>
+  </div>
+  <div class="gc-body">
+    {entry.data.description && <p>{entry.data.description}</p>}
+    <span class="gc-meta">{readMinutes(entry)} min read →</span>
+  </div>
+</a>

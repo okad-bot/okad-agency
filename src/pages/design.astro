@@ -1,138 +1,208 @@
 ---
 import Base from '../layouts/Base.astro';
+import '../styles/okad-house.css';
+
+const CALL = 'https://calendly.com/okad_calls/first';
+
+const services = [
+  ['Web design', 'Sites on Framer, Webflow and Shopify. Clean layouts, fast loading, works on any screen.', 'var(--mint)'],
+  ['Branding', 'Logo, colors, fonts and guidelines, so the brand looks the same everywhere.', 'var(--lav)'],
+  ['Pitch decks', 'Presentations for investors and partners. Clear story, strong visuals, nothing extra.', 'var(--peach)'],
+  ['Marketing materials', 'Social posts, email templates, packaging and print, all in one style.', 'var(--lilac)'],
+];
+
+const projects = [
+  { href: '/cases/case-jumpman', img: '/images/cases/case-jumpman.png', tags: ['Branding'], title: 'Jumpman rebrand', text: 'Theatrical identity that tripled partner inquiries.' },
+  { href: '/cases/case-jumpman-website-main', img: '/images/cases/case-jumpman-website-main.jpg', tags: ['Web', 'Framer'], title: 'Jumpman website', text: 'Doubled B2C bookings, drop-off down 41%.' },
+  { href: '/cases/case-jardins-etretat-redesign-main', img: '/images/cases/case-jardins-etretat-redesign-main.jpg', tags: ['Web', 'Framer'], title: "Jardins d'Étretat", text: 'Interactive map and gallery, shipped in under 2 months.' },
+  { href: '/cases/case-moboost-redesign', img: '/images/cases/case-moboost-redesign.jpg', tags: ['Web'], title: 'Moboost', text: 'Global AdTech site redesigned in 30 days.' },
+  { href: '/cases/case-ckx', img: '/images/cases/case-ckx.jpg', tags: ['UX/UI', 'Framer'], title: 'ChainKeyX', text: 'Bento-style website for a DeFi startup.' },
+  { href: '/cases/case-bidmatrix', img: '/images/cases/case-bidmatrix.jpg', tags: ['Branding', 'Web'], title: 'Bit Matrix', text: 'Identity, dark-mode site and sales deck for AdTech.' },
+  { href: '/cases/case-innowomen-branding', img: '/images/cases/case-innowomen-branding.jpg', tags: ['Branding'], title: 'In a Woman', text: 'Brand system for a women-in-tech accelerator.' },
+  { href: '/cases/case-5public', img: '/images/cases/case-5public.png', tags: ['Branding'], title: '5Public', text: 'One brand for 50 regional media outlets.' },
+  { href: '/cases/case-lingoculture', img: '/images/cases/case-lingoculture.jpg', tags: ['Pitch deck'], title: 'LingoCulture', text: 'Partner deck for a French learning platform.' },
+  { href: '/cases/case-koster-pitch-deck', img: '/images/cases/case-koster-pitch-deck.jpg', tags: ['Pitch deck'], title: 'Koster', text: 'Investor deck for a group networking app.' },
+  { href: '/cases/case-trusto', img: '/images/cases/case-trusto.png', tags: ['Deck', 'Web'], title: 'Trusto', text: 'Deck and site for a chargeback prevention startup.' },
+  { href: '/cases/case-starviral', img: '/images/cases/case-starviral.jpg', tags: ['Pitch deck'], title: 'Star Viral', text: 'Analytics turned into clear visual storytelling.' },
+];
+
+const principles = [
+  ['0.3 sec', 'Attention design', "People don't read websites. We make sure they still get it."],
+  ['Full pack', 'Brand + web + assets', 'Logo, site, deck and templates that all look like one brand.'],
+  ['AI + no-code', 'Framer · Webflow · Shopify', 'No custom code. You update the content yourself after launch.'],
+  ['Mobile', 'Mobile-first design', 'Most of your visitors are on phones. We start there.'],
+];
+
+const prices = [
+  ['Branding', 'from $1,500'],
+  ['Landing page', 'from $1,500'],
+  ['Multi-page website', '$1,700 – $7,500'],
+  ['Branding + website bundle', 'from $5,000'],
+  ['Packaging design', 'from $1,000'],
+];
+
+const quotes = [
+  ["Olga and her team are some of the best designers around. They're creative, work efficiently, and always deliver quality work.", 'Damon Dixon', 'Founder, Douxds', '/images/fyo2eKnJgN0TDx8SMjUG2NCqWk.jpeg'],
+  ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', '/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png'],
+  ['The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.', 'Kristina Hr.', 'Marketing, Mushroom genetics', '/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png'],
+];
+
+const videos = [
+  ['UxOC3_DvR2o', 'How we build websites that convert'],
+  ['njD3orMjpoM', 'Full branding vs micro-branding: 6 real projects'],
+];
+const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg>';
 ---
 
-<Base title="Design Services — OKAD Agency" description="Web design, branding, pitch decks, and marketing materials for global brands.">
+<Base title="Design Studio — Websites, Branding & Pitch Decks | OKAD Agency" description="OKAD's design studio: branding, websites on Framer, Webflow and Shopify, and pitch decks. 200+ websites and brands designed.">
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+  </Fragment>
 
-  <!-- Hero -->
-  <div class="hero">
-    <h1>200+ Websites & Brands <em>Designed</em></h1>
-    <p class="hero-sub">Web design, branding, pitch decks, and marketing materials for global brands.</p>
+  <div class="okh">
+
+    <section class="khero">
+      <div class="w">
+        <div class="hero-grid">
+          <div class="stack">
+            <span class="kick">OKAD design studio · branding · web · pitch decks</span>
+            <h1>Websites & brands people <span class="cap v">get in 0.3 sec</span></h1>
+            <p class="lead">We started as a design studio. 200+ websites and brands later, we still design the full pack: logo, site, deck and templates that look like one brand.</p>
+            <div class="row">
+              <a class="btn" href={CALL} target="_blank" rel="noopener">Book a call</a>
+              <a class="btn ghost" href="#work">See the work ↓</a>
+            </div>
+            <p class="alt-link">Looking for video ads? <a href="/">That's our main service →</a></p>
+          </div>
+          <div class="collage" aria-hidden="true" style="grid-template-columns:1fr 1fr">
+            <span class="note hand hn">a few of 200+ <Fragment set:html={arrowR} /></span>
+            <img src="/images/cases/case-jumpman.png" alt="" style="border-radius:20px;aspect-ratio:3/4;object-fit:cover;width:100%" />
+            <img src="/images/cases/case-ckx.jpg" alt="" style="border-radius:20px;aspect-ratio:3/4;object-fit:cover;width:100%;transform:translateY(-28px)" />
+          </div>
+        </div>
+        <div class="strip">
+          <div><b>200+</b><span>websites & brands designed</span></div>
+          <div><b>3</b><span>platforms: Framer, Webflow, Shopify</span></div>
+          <div><b>0</b><span>lines of custom code you'll need</span></div>
+          <div><b>1</b><span>team for brand, site and deck</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w">
+        <h2>What we <span class="cap g">design</span></h2>
+        <div class="svc">
+          {services.map(([t, p, bg]) => <div style={`background:${bg}`}><h3>{t}</h3><p>{p}</p></div>)}
+        </div>
+      </div>
+    </section>
+
+    <section class="sec tight" id="work">
+      <div class="w">
+        <div class="head">
+          <h2>Selected <span class="cap y">design work</span></h2>
+          <a class="btn ghost" href="https://www.behance.net/okad_agency" target="_blank" rel="noopener">More on Behance →</a>
+        </div>
+        <div class="pgrid">
+          {projects.map((d) => (
+            <a class="dcard" href={d.href}>
+              <img src={d.img} alt={d.title} loading="lazy" />
+              <div class="b"><div class="tags">{d.tags.map((t) => <span>{t}</span>)}</div><h4>{d.title}</h4><p>{d.text}</p></div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w">
+        <div class="rail-head">
+          <h2>How we <span class="cap p">design</span> brands & websites</h2>
+        </div>
+      </div>
+      <div class="rail">
+        {principles.map(([b, s, p]) => <div class="pcard"><b>{b}</b><strong>{s}</strong><p>{p}</p></div>)}
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w">
+        <div class="head">
+          <h2>Design <span class="cap g">pricing</span></h2>
+          <a class="btn ghost" href="/pricing">Full pricing →</a>
+        </div>
+        <div class="prices">
+          {prices.map(([a, b]) => <div><span>{a}</span><span>{b}</span></div>)}
+        </div>
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w"><h2>What clients <span class="cap v">say</span></h2></div>
+      <div class="rail">
+        {quotes.map(([q, n, r, img]) => (
+          <figure class="tcard">
+            <blockquote>“{q}”</blockquote>
+            <figcaption><img src={img} alt="" loading="lazy" /><div><b>{n}</b><span>{r}</span></div></figcaption>
+          </figure>
+        ))}
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w">
+        <div class="xband">
+          <div style="display:grid;gap:10px">
+            <span class="hand">and now our main thing</span>
+            <h3>Video ads tested on real spend, scaled when they sell</h3>
+          </div>
+          <a class="btn" href="/">See video cases →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="contact">
+      <div class="w">
+        <div class="founder">
+          <img class="av" src="/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="Olga Kad Miller" />
+          <div>
+            <blockquote>“Tell us what you need. We'll send a proposal with timeline and relevant work.”</blockquote>
+            <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p>
+            <div class="row">
+              <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+              <a class="btn ghost" href="mailto:olga@okad.agency?subject=Design%20project">Email us</a>
+            </div>
+            <p class="mail">olga@okad.agency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec tight">
+      <div class="w"><h2><span class="cap y">Behind</span> the scenes</h2></div>
+      <div class="rail">
+        {videos.map(([id, t]) => (
+          <a class="ycard" href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener">
+            <div class="th"><img src={`https://img.youtube.com/vi/${id}/hqdefault.jpg`} alt="" loading="lazy" /></div>
+            <h4>{t}</h4>
+          </a>
+        ))}
+      </div>
+    </section>
+
   </div>
 
-  <!-- Feature Cards -->
-  <div class="features-grid">
-    <div class="feature-card">
-      <h3>Web Design</h3>
-      <p>Sites on Framer, Webflow, and Shopify. Clean layouts, fast loading, works on any screen.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Branding</h3>
-      <p>Logo, colors, fonts, guidelines — everything you need so the brand looks consistent everywhere.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Pitch Decks</h3>
-      <p>Presentations for investors. Clear story, strong visuals, nothing extra.</p>
-    </div>
-    <div class="feature-card">
-      <h3>Marketing Materials</h3>
-      <p>Social posts, email templates, packaging, print — all in one style.</p>
-    </div>
+  <div class="okh mbar" id="mbar" hidden>
+    <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
   </div>
-
-  <!-- Featured Cases -->
-  <h2 class="section-title">Featured Design Cases</h2>
-  <section class="cases-section">
-
-    <!-- Jumpman -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/okMGXM3X1P3IbyA8etRfLQXsTCk.png" alt="Jumpman branding" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">Branding</span>
-        </div>
-        <h3>Branding &mdash; Jumpman</h3>
-        <p>Logo, visual system, colors, fonts, and brand book for a Paris cardio studio.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore case</a>
-          <a href="mailto:olga@okad.agency?subject=Branding%20Project" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Intalent -->
-    <div class="case-card">
-      <div class="case-img">
-        <img src="https://framerusercontent.com/images/Tdc8KUYgkNnSE3YxS5uEyJX4.png" alt="Intalent web design" loading="lazy" />
-      </div>
-      <div class="case-body">
-        <div class="case-tags">
-          <span class="case-tag">#Webflow</span>
-          <span class="case-tag">#Framer</span>
-          <span class="case-tag">#Shopify</span>
-        </div>
-        <h3>Web Design &mdash; Intalent</h3>
-        <p>SaaS website on Framer. Clean pages, clear navigation, works on mobile.</p>
-        <div class="case-links">
-          <a href="/cases" class="case-link">Explore case</a>
-          <a href="mailto:olga@okad.agency?subject=Web%20Design%20Project" class="btn">Get a quote</a>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Portfolio Grid -->
-  <section class="portfolio-section">
-    <h2 class="section-title">More Design Work</h2>
-    <div class="portfolio-grid">
-      <img src="https://framerusercontent.com/images/S1E8qDxE6cil2qXKc8AMtz6wVs.png" alt="Design portfolio 1" loading="lazy" />
-      <img src="https://framerusercontent.com/images/b62qjvUmjLVTCd8WJ9SfsEpF8o.png" alt="Design portfolio 2" loading="lazy" />
-      <img src="https://framerusercontent.com/images/kAkM8v5CwAIerVmAdmMIBTqM30.png" alt="Design portfolio 3" loading="lazy" />
-      <img src="https://framerusercontent.com/images/yRU505Z52FJaY1wv77laoTUjxM.png" alt="Design portfolio 4" loading="lazy" />
-      <img src="https://framerusercontent.com/images/w6fb6Lk9NVFWGcErwOjxMxsCrAs.png" alt="Design portfolio 5" loading="lazy" />
-      <img src="https://framerusercontent.com/images/Hj87aXoVNswA39nVTP8YSDd3G00.png" alt="Design portfolio 6" loading="lazy" />
-      <img src="https://framerusercontent.com/images/BNfMlg3TE8O0W6ihW5ISITW9eDQ.jpg" alt="Design portfolio 7" loading="lazy" />
-      <img src="https://framerusercontent.com/images/wn57Y0QCiso41hmr5dSwHLFY.jpg" alt="Design portfolio 8" loading="lazy" />
-    </div>
-    <div class="portfolio-cta">
-      <a href="https://www.behance.net/okad_agency" class="btn btn-outline" target="_blank" rel="noopener">Explore More on Behance</a>
-    </div>
-  </section>
-
-  <!-- Pricing Preview -->
-  <section class="projects-section">
-    <h2 class="section-title">Design Pricing</h2>
-    <div class="projects-grid">
-      <div class="project-item">
-        <span>Branding</span>
-        <span>from $1,500</span>
-      </div>
-      <div class="project-item">
-        <span>Landing page</span>
-        <span>from $1,500</span>
-      </div>
-      <div class="project-item">
-        <span>Multi-page website</span>
-        <span>$1,700 - $7,500</span>
-      </div>
-      <div class="project-item">
-        <span>Branding + website bundle</span>
-        <span>from $5,000</span>
-      </div>
-      <div class="project-item">
-        <span>Packaging design</span>
-        <span>from $1,000</span>
-      </div>
-    </div>
-    <div style="text-align:center;margin-top:24px;">
-      <a href="/pricing" class="btn btn-outline">View full pricing</a>
-    </div>
-  </section>
-
-  <!-- CTA -->
-  <section class="contact-section">
-    <div class="contact-inner">
-      <h2>Let's Talk Design</h2>
-      <p>Tell us what you need — we'll send a proposal with timeline and relevant work.</p>
-      <div class="contact-buttons">
-        <a href="https://calendly.com/okad-agency/30min" class="btn" target="_blank" rel="noopener">Book a call</a>
-        <a href="mailto:olga@okad.agency" class="contact-btn">Email us</a>
-        <a href="/cases" class="contact-btn">View all cases</a>
-      </div>
-    </div>
-  </section>
-
+  <script>
+    const mbar = document.getElementById('mbar');
+    if (mbar) {
+      mbar.hidden = false;
+      const onScroll = () => mbar.classList.toggle('on', window.scrollY > 500);
+      onScroll();
+      window.addEventListener('scroll', onScroll, { passive: true });
+    }
+  </script>
 </Base>

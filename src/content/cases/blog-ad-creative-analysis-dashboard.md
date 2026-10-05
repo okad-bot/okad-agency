@@ -1,4 +1,6 @@
 ---
+hook: "Which ad numbers should you actually track?"
+topic: creative-testing
 title: "Ad Creative Analysis Dashboard: What to Track and How to Build One"
 description: "How to build a dashboard for ad creative analysis — the metrics that matter, how to structure creative reporting, and tools for tracking which ads actually drive results."
 type: blog

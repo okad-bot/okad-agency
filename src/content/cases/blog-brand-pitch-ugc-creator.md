@@ -1,4 +1,6 @@
 ---
+hook: "How do you pitch a brand as a creator?"
+topic: for-creators
 title: "How to Write a Brand Pitch as a UGC Creator"
 description: "A step-by-step guide to writing brand pitches that get responses — what to include, how to personalize, common mistakes, and real templates for email and DM outreach."
 type: blog
