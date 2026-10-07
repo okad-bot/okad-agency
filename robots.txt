@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://okad.cc/sitemap-index.xml
+Sitemap: https://okad.agency/sitemap-index.xml
