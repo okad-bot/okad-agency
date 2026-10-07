@@ -1,0 +1,186 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/okad-house.css';
+
+const CALL = 'https://calendly.com/okad_calls/first';
+const ORDER = '/#offer';
+
+const creatorRates = [
+  { option: 'Beginner creator', price: '$50 to $150', included: 'Raw footage, you write the brief and edit' },
+  { option: 'Experienced creator', price: '$150 to $500', included: 'Footage, basic edit, limited usage rights' },
+  { option: 'Marketplace (Billo, Insense and similar)', price: '$100 to $300', included: 'Creator footage via a platform, you manage the brief' },
+  { option: 'UGC ad agency', price: '$100 to $500+', included: 'Script, casting, editing, hook variations, sometimes testing' },
+  { option: 'AI UGC tools', price: 'subscription', included: 'You do scripting and editing yourself' },
+];
+
+const myPrices = [
+  { plan: 'Starter, no call', price: '$500', what: 'Testing plan + 10 ready-to-run videos (AI or creator library), 5 business days' },
+  { plan: 'Monthly testing', price: 'from $2,500/month', what: 'Strategy, scripts, casting, filming, editing, a data loop' },
+  { plan: 'Custom creator video', price: 'about $100', what: 'All-in: strategy, script, casting, footage, editing. Cheaper at volume' },
+  { plan: 'AI and B-roll videos', price: 'less than custom', what: 'AI product visuals, generated scenes, B-roll' },
+];
+
+const priceDrivers = [
+  { title: 'Usage rights', desc: 'Organic posting is cheaper than paid ads. Paid usage for 3, 6 or 12 months is often 20 to 50% on top.' },
+  { title: 'Whitelisting', desc: 'Running ads from the creator\'s account costs extra but often lowers CPA. See whitelisting.' },
+  { title: 'Hook variations', desc: '3 to 5 openings per video multiply your tests for a small extra cost.' },
+  { title: 'Raw vs edited', desc: 'Raw clips are cheap, but someone still has to edit them into ads.' },
+  { title: 'Niche', desc: 'Health, beauty, finance and alcohol need compliance-aware scripts and cost more.' },
+  { title: 'Volume', desc: '10 videos cost less per video than 1. 50 a month cost less again (how brands get 50+ videos a month).' },
+];
+
+const faqs = [
+  { q: 'How much should a UGC video cost?', a: 'For a single creator video, $150 to $300 is the common range. A finished, tested ad from an agency is about $100 to $500 depending on volume and what\'s included.' },
+  { q: 'Are usage rights included?', a: 'Often not. Always check if the price covers paid ads and for how long.' },
+  { q: 'Is AI UGC cheaper?', a: 'Yes, usually several times cheaper per video, but it works best for testing angles, not for testimonials.' },
+  { q: 'How many UGC videos do I need?', a: 'For most brands spending on Meta, 10 to 20 new ads every one to two weeks. See how many variations.' },
+];
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "UGC Pricing 2026: How Much Do UGC Videos Cost?",
+  "description": "What UGC videos cost in 2026: creator rates, agency prices, usage rights and hidden costs. Real numbers from 10,000+ ads, plus a calculator for your budget.",
+  "url": "https://okad.agency/ugc-pricing/",
+  "publisher": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" },
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://okad.agency/" },
+    { "@type": "ListItem", "position": 2, "name": "UGC Pricing" },
+  ],
+};
+---
+
+<Base title="UGC Pricing 2026: How Much Do UGC Videos Cost? (+ Calculator) | OKAD" description="What UGC videos cost in 2026: creator rates, agency prices, usage rights and hidden costs. Real numbers from 10,000+ ads, plus a calculator for your budget.">
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <div class="okh">
+
+    <!-- HERO -->
+    <section class="khero" style="padding:80px 0 48px">
+      <div class="w" style="max-width:900px">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span>UGC Pricing</span></nav>
+        <h1 style="font-size:clamp(2rem,4.5vw,3.4rem);margin-bottom:16px">How much do UGC videos cost in <span class="cap">2026</span>?</h1>
+        <p class="lead">Short answer: a single UGC video from a creator usually costs <strong>$150 to $300</strong> before usage rights and editing. Marketplace data puts the average single video at around $150 to $212 (<a href="https://influee.co" target="_blank" rel="noopener">Influee</a>, <a href="https://ppc.io" target="_blank" rel="noopener">PPC.io</a>). A finished, tested ad with script, casting and editing costs more, and gets cheaper when you order in volume.</p>
+        <p style="margin-top:16px;color:var(--soft,#4d4d49)">Below is what changes the price, what you actually pay for, and what my own prices look like.</p>
+      </div>
+    </section>
+
+    <!-- TYPICAL RATES TABLE -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">Typical UGC rates by <span class="cap g">option</span></h2>
+      <div style="overflow-x:auto;border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+        <table style="width:100%;border-collapse:collapse;font-size:15px">
+          <thead>
+            <tr style="background:var(--off-white,#f7f7f7)">
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">Option</th>
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">Price per video</th>
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">What's included</th>
+            </tr>
+          </thead>
+          <tbody>
+            {creatorRates.map(r => (
+              <tr>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6);font-weight:600">{r.option}</td>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6)">{r.price}</td>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6)">{r.included}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:16px;color:var(--soft,#4d4d49);font-size:15px">Creator-side numbers and negotiation tips are in <a href="/blog/blog-ugc-creator-rates-pricing">UGC creator rates</a>.</p>
+    </section>
+
+    <!-- WHAT DRIVES THE PRICE -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">What drives the <span class="cap y">price</span></h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px">
+        {priceDrivers.map(d => (
+          <div style="padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <strong style="display:block;margin-bottom:4px">{d.title}</strong>
+            <p style="color:var(--soft,#4d4d49);margin:0;font-size:14px">{d.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- THE COST NOBODY COUNTS -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:16px">The cost nobody counts: <span class="cap p">losing videos</span></h2>
+      <p style="color:var(--soft,#4d4d49);font-size:15px">Most UGC videos don't win. If 1 in 5 becomes a winner, your real price is the cost of five videos, not one. That's why cheap videos without testing often end up expensive. The fix is a testing system, not cheaper creators. My <a href="/blog/meta-creative-testing-framework/">Meta creative testing framework</a>.</p>
+    </section>
+
+    <!-- MY PRICES -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">My <span class="cap v">prices</span></h2>
+      <div style="overflow-x:auto;border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+        <table style="width:100%;border-collapse:collapse;font-size:15px">
+          <thead>
+            <tr style="background:var(--off-white,#f7f7f7)">
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">Plan</th>
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">Price</th>
+              <th style="padding:14px 16px;text-align:left;border-bottom:1px solid var(--border,#e6e6e6)">What you get</th>
+            </tr>
+          </thead>
+          <tbody>
+            {myPrices.map(r => (
+              <tr>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6);font-weight:600">{r.plan}</td>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6)">{r.price}</td>
+                <td style="padding:14px 16px;border-bottom:1px solid var(--border,#e6e6e6)">{r.what}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top:16px;color:var(--soft,#4d4d49);font-size:15px">For comparison: the AI app case got 160+ ads in four months, and Fragstore gets 40 videos a month from one shoot day.</p>
+      <p style="margin-top:8px"><a href="/pricing">See all plans</a> · <a href={ORDER}>Order 10 videos for $500</a></p>
+    </section>
+
+    <!-- FAQ -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">FAQ</h2>
+      <div style="display:grid;gap:12px">
+        {faqs.map(f => (
+          <details style="padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <summary style="font-weight:600;cursor:pointer">{f.q}</summary>
+            <p style="margin:12px 0 0;color:var(--soft,#4d4d49);font-size:15px">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--stage,#111);padding:80px 24px;text-align:center">
+      <div style="max-width:700px;margin:0 auto">
+        <h2 style="color:#fff;font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:16px">Get 10 videos for $500</h2>
+        <p style="color:var(--stage-soft,#8e8e8e);margin-bottom:32px">A testing plan and 10 ready-to-run videos in 5 business days. No call needed.</p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+          <a class="btn" href={ORDER}>Order now</a>
+          <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</Base>
