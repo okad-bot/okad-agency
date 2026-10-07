@@ -31,7 +31,7 @@ The operational flow is the same regardless of platform:
 3. **Brand sets up the campaign** in their ad manager with targeting, budget, and bidding
 4. **Ad runs under the creator's identity** — users see the creator's name and photo, with a small "Sponsored" or "Paid Partnership" label
 
-The brand controls all campaign parameters. The creator maintains full control of their account and can revoke access at any time.
+The brand controls all campaign parameters. The creator maintains full control of their account and can revoke access at any time. For a step-by-step setup walkthrough for each platform, see our [Spark Ads and partnership ads guide](/blog/blog-partnership-ads-spark-ads-guide/).
 
 ## Platform Implementation
 
@@ -122,6 +122,6 @@ Operating without a signed contract is the most common and most preventable mist
 
 **No A/B testing.** Always test whitelisted ads against brand-handle versions of the same content. Measure the actual performance difference for your specific case, then allocate budget to the winner.
 
-**One-time transactions.** The best whitelisting results come from ongoing creator relationships. Repeat collaborations produce better content because the creator understands your brand, and the audience recognizes the association.
+**One-time transactions.** The best whitelisting results come from ongoing creator relationships. Repeat collaborations produce better content because the creator understands your brand, and the audience recognizes the association. Our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) covers how to build these creator relationships into a production system.
 
-Whitelisting is the highest-performing paid social format available because it solves the core tension in digital advertising: brands need reach and targeting control, but audiences trust people, not logos. Whitelisting delivers both.
+Whitelisting is the highest-performing paid social format available because it solves the core tension in digital advertising: brands need reach and targeting control, but audiences trust people, not logos. Whitelisting delivers both. For benchmarks on what to pay creators for whitelisting access and content production, see our [UGC rates guide](/blog/blog-ugc-creator-rates-pricing/). And to see whitelisted UGC driving real results, read our [high-ROAS UGC ads case study](/cases/high-roas-ugc-ads/).

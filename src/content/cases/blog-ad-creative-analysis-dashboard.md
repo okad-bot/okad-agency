@@ -36,7 +36,7 @@ The strong performers are carrying the weak ones. Without creative-level visibil
 
 ### Primary Metrics (Check Daily)
 
-**Hook Rate** — What percentage of viewers watch past 3 seconds. This is the first filter: if people are not watching, nothing else matters. Calculate: 3-second video views ÷ impressions × 100.
+**[Hook Rate](/blog/blog-hook-rate-explained/)** — What percentage of viewers watch past 3 seconds. This is the first filter: if people are not watching, nothing else matters. Calculate: 3-second video views ÷ impressions × 100.
 
 **Click-Through Rate (CTR)** — Percentage of viewers who click. Measures whether the creative generates interest beyond passive viewing. Benchmark: 1–3% for video ads, 0.5–1.5% for static.
 
@@ -50,7 +50,7 @@ The strong performers are carrying the weak ones. Without creative-level visibil
 
 ### Secondary Metrics (Check Weekly)
 
-**Frequency** — Average number of times each person has seen this ad. Creative fatigue typically starts at 2.5–3x frequency per week. Track frequency trends to anticipate when creative needs refreshing.
+**Frequency** — Average number of times each person has seen this ad. [Creative fatigue](/blog/blog-ad-fatigue-prevention/) typically starts at 2.5–3x frequency per week. Track frequency trends to anticipate when creative needs refreshing.
 
 **Video Completion Rate** — What percentage watch the full video. High hook rate but low completion suggests the middle or end of the video is losing people.
 
@@ -133,4 +133,4 @@ For teams spending under $5,000/month, a well-structured spreadsheet works. Expo
 3. Benchmark current performance against previous quarters
 4. Set creative production targets for the next quarter based on scaling needs
 
-The goal is not more data — it is faster, better decisions about what creative to produce, what to scale, and what to stop running. A dashboard that takes 30 minutes to review and drives clear actions is worth more than a comprehensive report that sits unread.
+The goal is not more data — it is faster, better decisions about what creative to produce, what to scale, and what to stop running. For the testing framework that feeds into this dashboard, see our guide on [how many ad variations you actually need](/blog/blog-ad-creative-testing-how-many-variations/). And to see dashboard-driven optimization in a real campaign, read our [creative testing case study for Meta ads](/cases/creative-testing-ai-app-meta-ads/). A dashboard that takes 30 minutes to review and drives clear actions is worth more than a comprehensive report that sits unread.

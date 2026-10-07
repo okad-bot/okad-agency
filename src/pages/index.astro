@@ -22,10 +22,10 @@ const videoWork = [
   { href: '/cases/dating-com-creator-content', layout: 'feed', pics: ['/images/cases/dating-com-creator-content/img-01.jpg', '/images/cases/dating-com-creator-content/img-02.jpg', '/images/cases/dating-com-creator-content/img-03.jpg', '/images/cases/dating-com-creator-content/img-05.jpg', '/images/cases/dating-com-creator-content/img-09.jpg', '/images/cases/dating-com-creator-content/img-12.jpg'], tags: ['#Dating', '#Organic'], title: 'Dating.com — 60+ videos for 40+' },
   // Women's health case is live at /cases/womens-health-supplement-ads but hidden from the homepage for now
   { href: '/cases/case-uprest', img: '/images/cases/case-uprest.jpg', tags: ['#B2B', '#Lead gen'], title: 'UpRest — €2.75 per lead' },
-  { href: '/cases/high-roas-ugc-ads', img: '/images/BmUk0KMAPqqpLzpARwDdXhfg.gif', tags: ['#DTC', '#E-com'], title: 'High ROAS UGC ads' },
+  { href: '/cases/high-roas-ugc-ads', img: '/images/BmUk0KMAPqqpLzpARwDdXhfg.webm', video: true, tags: ['#DTC', '#E-com'], title: 'High ROAS UGC ads' },
   { href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png', tags: ['#DTC', 'UGC'], title: 'AI static ads — 3x CTR' },
   { href: '/cases/ugc-creators-over-45', img: '/images/FXMkq1jH116yCF0nIQPl2N2vc.png', tags: ['#Silver age', 'Video'], title: 'Creators 45+ — trust-first' },
-  { href: '/cases/organic-video-content-1m-views', img: '/images/fgyKKr3g1dPjydOItu6UTCo3k8.gif', tags: ['#Digital', '#Organic'], title: '1M+ views — dating & EdTech' },
+  { href: '/cases/organic-video-content-1m-views', img: '/images/fgyKKr3g1dPjydOItu6UTCo3k8.webm', video: true, tags: ['#Digital', '#Organic'], title: '1M+ views — dating & EdTech' },
   { href: '/cases/static-ad-creatives-digital-products', img: '/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png', tags: ['#Paid ads', '#Digital'], title: 'Static ads for Meta & TikTok' },
   { href: '/cases/alcohol-ugc-content', img: '/images/SBAkW2rwVUXKWpG9XA9enjK968.png', tags: ['#Alco', 'UGC'], title: 'Alco UGC — compliance-first' },
 ];
@@ -80,6 +80,27 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
 <Base title="OKAD Agency — Video Ads That Sell | UGC & Testing" description="We make video ads, test them on real spend and scale what sells. 600+ creators, 10,000+ ads delivered. From $500 for 10 videos.">
   <Fragment slot="head">
     <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "OKAD Agency",
+      "url": "https://okad.agency",
+      "logo": "https://okad.agency/assets/og-image.png",
+      "description": "Video ad creative agency specializing in UGC, ad testing, web design and branding. 600+ creators, 10,000+ ads delivered.",
+      "email": "olga@okad.agency",
+      "sameAs": [
+        "https://x.com/okad_agency",
+        "https://www.behance.net/okad_agency",
+        "https://www.linkedin.com/company/okad-agency/",
+        "https://www.youtube.com/@okad_agency"
+      ]
+    })} />
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "OKAD Agency",
+      "url": "https://okad.agency"
+    })} />
   </Fragment>
 
   <div class="okh">
@@ -214,7 +235,9 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           <a class="vcard" href={c.href}>
             {c.pics
               ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => <img src={src} alt="" loading="lazy" />)}</div>
-              : <img src={c.img} alt={c.title} loading="lazy" />}
+              : c.video
+                ? <video src={c.img} autoplay muted loop playsinline loading="lazy" />
+                : <img src={c.img} alt={c.title} loading="lazy" />}
             <div class="b"><div class="tags">{c.tags.map((t) => <span>{t}</span>)}</div><h4>{c.title}</h4></div>
           </a>
         ))}

@@ -22,7 +22,7 @@ faqs:
 
 You have seen the term "canvas UGC" appear in job boards, creator communities, and brand briefs. The concept is straightforward, but the details matter if you plan to create it or commission it.
 
-Canvas UGC is user-generated content produced within structured templates — canvases — that define the format, dimensions, text placement, and visual framework. The creator supplies the authentic human element: their face, voice, demonstration, or reaction. The canvas supplies the structure that makes the content work on specific platforms and for specific brand goals.
+Canvas UGC is user-generated content produced within structured templates — canvases — that define the format, dimensions, text placement, and visual framework. The creator supplies the authentic human element: their face, voice, demonstration, or reaction. The canvas supplies the structure that makes the content work on specific platforms and for specific brand goals. If you prefer not to appear on camera, [faceless UGC](/blog/blog-what-is-faceless-ugc/) offers a related approach using hands-only demos and screen recordings instead.
 
 This is not a minor distinction. It changes how content is briefed, produced, priced, and measured.
 
@@ -60,7 +60,7 @@ A typical canvas UGC workflow looks like this:
 5. The agency compiles final assets with brand overlays from the template
 6. Multiple variations ship to ad platforms for testing
 
-The output is content that looks authentic to viewers but performs like professionally structured advertising. That combination — human authenticity plus structural optimization — is why canvas UGC consistently outperforms both polished brand videos and unstructured creator content.
+The output is content that looks authentic to viewers but performs like professionally structured advertising. That combination — human authenticity plus structural optimization — is why canvas UGC consistently outperforms both polished brand videos and unstructured creator content. We saw exactly this dynamic in our [Skribly UGC campaign](/cases/high-roas-ugc-ads/), where structured creator content drove high ROAS at scale.
 
 ## Canvas UGC for Tech and SaaS Brands
 
@@ -89,12 +89,12 @@ Pricing depends on complexity and volume:
 | Multi-scene with text overlays | $150–$300 | $3,000–$6,000 |
 | Full production (studio + editing) | $300–$500 | $5,000–$10,000 |
 
-Volume discounts apply. Agencies producing 20+ assets per month typically negotiate 30–40% below per-asset rates.
+Volume discounts apply. Agencies producing 20+ assets per month typically negotiate 30–40% below per-asset rates. For a deeper breakdown of creator earnings at each level, see our guide on [canvas UGC income](/blog/blog-canvas-ugc-earn-money/).
 
 ## Getting Started
 
 If you are a brand: define your campaign goals, choose a canvas UGC platform, and start with a small test batch (5–10 assets) before committing to volume production. Measure hook rate, view-through rate, and cost-per-action against your existing creative.
 
-If you are a creator: sign up on canvas UGC platforms, review available briefs, and submit test content. The learning curve is short if you already create social content. The canvas structure actually makes your job easier — less guessing about what the brand wants.
+If you are a creator: sign up on canvas UGC platforms, review available briefs, and submit test content. The learning curve is short if you already create social content. The canvas structure actually makes your job easier — less guessing about what the brand wants. Our [step-by-step guide to starting canvas UGC](/blog/blog-how-to-start-canvas-ugc/) covers equipment, platforms, and portfolio building in detail.
 
 Canvas UGC is where user-generated content and performance marketing meet. The format is growing because it solves the core tension between authenticity and optimization. Brands get content that looks real and performs at scale. Creators get structured briefs that produce better work faster.

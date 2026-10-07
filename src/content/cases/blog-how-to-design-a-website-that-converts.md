@@ -22,7 +22,7 @@ faqs:
 
 Most websites look fine and convert terribly. The homepage loads, the design feels modern, the brand colors are on point — and the bounce rate sits at 70%. Visitors scroll, skim, and leave without clicking a single button.
 
-After building over 200 websites for SaaS companies, e-commerce brands, and service businesses, we have identified the patterns that separate sites that generate leads from sites that just look good. The gap is never about aesthetics alone. It is about structure, hierarchy, and intentional placement of every element on the page.
+After building over 200 websites for SaaS companies, e-commerce brands, and service businesses, we have identified the patterns that separate sites that generate leads from sites that just look good. The gap is never about aesthetics alone — and as we cover in our post on [brand identity vs performance creative](/blog/blog-brand-identity-vs-performance-creative/), a strong visual system actually makes your ads more cost-effective too. It is about structure, hierarchy, and intentional placement of every element on the page.
 
 This is what we have learned.
 
@@ -191,6 +191,6 @@ The platform should match the business need. For most companies reading this, th
 
 A website that converts is not about trends, gradients, or the latest design framework. It is about structure: clear messaging above the fold, intentional CTA placement, mobile-first performance, strategic social proof, and copy that follows the decision sequence your visitors already use.
 
-If your current website gets traffic but does not generate leads, the problem is almost certainly structural — not aesthetic. The fixes outlined above will make a measurable difference.
+If your current website gets traffic but does not generate leads, the problem is almost certainly structural — not aesthetic. The fixes outlined above will make a measurable difference. If you are working with an agency on a redesign, our guide on [how to brief a creative agency](/blog/blog-how-to-brief-a-creative-agency/) ensures you get the right outcome on the first round.
 
-We design websites built around these principles. If you want a site that performs, not just one that looks good, [see how we work](/design) or [book a call directly](https://calendly.com/nickel-okad/30min). We will audit your current site and tell you exactly what is costing you conversions — no pitch, just specifics.
+For examples of conversion-focused design in action, see our [Jumpman website case study](/cases/case-jumpman-website-main/) and our [design services page](/design/). We design websites built around these principles. If you want a site that performs, not just one that looks good, [see how we work](/design) or [book a call directly](https://calendly.com/nickel-okad/30min). We will audit your current site and tell you exactly what is costing you conversions — no pitch, just specifics.

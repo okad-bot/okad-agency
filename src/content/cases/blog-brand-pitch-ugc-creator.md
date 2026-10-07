@@ -54,10 +54,10 @@ This proves you actually looked at their brand and have something specific to of
 
 Not your full bio. Just the parts that matter to this brand:
 
-- "I create canvas UGC for DTC beauty brands — my recent work for [similar brand] achieved a 52% hook rate and ran for 3 weeks before fatigue."
+- "I create [canvas UGC](/blog/blog-what-is-canvas-ugc/) for DTC beauty brands — my recent work for [similar brand] achieved a 52% hook rate and ran for 3 weeks before fatigue."
 - "I specialize in tech product demos. I've created 40+ canvas UGC assets for SaaS brands in the last 6 months."
 
-Mention metrics if you have them. Brands care about results, not follower counts.
+Mention metrics if you have them. Brands care about results, not follower counts. Look at case studies like OKAD's [high-ROAS UGC campaign](/cases/high-roas-ugc-ads/) to understand the kind of results brands track — then reference similar metrics in your pitch.
 
 ### 3. Portfolio Link (1 line)
 
@@ -136,4 +136,4 @@ Keep a simple spreadsheet:
 
 This prevents double-pitching, tracks your response rate, and shows which channels and pitch angles work best.
 
-A consistent outreach practice of 5–10 personalized pitches per day, with follow-ups, will generate 2–5 new brand relationships per month. That is the pipeline that turns UGC from occasional gigs into a sustainable business.
+A consistent outreach practice of 5–10 personalized pitches per day, with follow-ups, will generate 2–5 new brand relationships per month. That is the pipeline that turns UGC from occasional gigs into a sustainable business. To understand what brands actually pay, check our data on [UGC rates and pricing](/blog/blog-ugc-creator-rates-pricing/). And if you want to learn the formats that brands need most, our guides on [canvas UGC jobs](/blog/blog-canvas-ugc-jobs/) and [faceless UGC](/blog/blog-how-to-start-faceless-ugc/) cover the highest-demand categories.

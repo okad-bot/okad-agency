@@ -49,7 +49,7 @@ Specialized verticals command premiums:
 | Alcohol/spirits | $300–$500+ | Age-gated, highly restricted creator pool |
 | Healthcare/pharma | $300–$500+ | Regulatory requirements, legal review needed |
 
-Regulated industries carry a 40–80% premium over consumer goods. The creator pool is smaller, compliance requirements are stricter, and the cost of getting content wrong (regulatory fines, legal liability) justifies higher rates.
+Regulated industries carry a 40–80% premium over consumer goods. The creator pool is smaller, compliance requirements are stricter, and the cost of getting content wrong (regulatory fines, legal liability) justifies higher rates. See our [alcohol UGC case study](/cases/alcohol-ugc-content/) for an example of navigating these restrictions.
 
 ## Rates by Deliverable Type
 
@@ -135,6 +135,6 @@ The crossover point is approximately 10 videos per month.
 | Scaling | $5,000–$15,000 | 25–60+ videos | Feed ad campaigns with fresh creative |
 | Mature | $10,000–$30,000+ | 60–150+ videos | Continuous pipeline with creator network |
 
-Start with testing-level budgets. Prove ROI on 10–25 videos before committing to scale. The brands spending $15,000+/month on UGC started at $2,000 and scaled based on performance data.
+Start with testing-level budgets. Prove ROI on 10–25 videos before committing to scale. Our guide on [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/) explains how to structure those initial tests for maximum learning. The brands spending $15,000+/month on UGC started at $2,000 and scaled based on performance data.
 
-UGC pricing will continue evolving as the market matures. But the fundamentals hold: pay for quality and reliability, negotiate on volume, and always measure cost per usable asset rather than cost per video.
+UGC pricing will continue evolving as the market matures. But the fundamentals hold: pay for quality and reliability, negotiate on volume, and always measure cost per usable asset rather than cost per video. For brands scaling beyond 50 assets per month, our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) covers the systems and workflows that make volume pricing viable. And check [our pricing page](/pricing/) for OKAD's own production rates.

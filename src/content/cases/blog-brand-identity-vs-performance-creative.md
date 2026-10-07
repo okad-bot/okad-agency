@@ -50,7 +50,7 @@ So brand identity matters. But here is where most branding agencies get it wrong
 
 Traditional brand guidelines assume you are producing a limited number of controlled assets — a brochure, a website, a set of social templates. They assume a designer will execute every piece. They assume the context is static.
 
-Performance creative operates in the opposite conditions. You need 10–50 ad variations per campaign. You are testing different hooks, formats, and visual approaches simultaneously. UGC creators — not your design team — are producing a large share of the content. The formats keep changing: static, video, carousel, story, reel, each with different dimensions and attention dynamics.
+Performance creative operates in the opposite conditions. You need [10–50 ad variations per campaign](/blog/blog-ad-creative-testing-how-many-variations/). You are testing different hooks, formats, and visual approaches simultaneously. UGC creators — not your design team — are producing a large share of the content. The formats keep changing: static, video, carousel, story, reel, each with different dimensions and attention dynamics.
 
 A 40-page brand book that says "always use the logo at 2cm minimum size with 1cm clear space on a white background" is useless when your best-performing ad is a creator talking to camera in their kitchen with a small logo watermark in the corner.
 
@@ -122,7 +122,7 @@ Here is what that requires:
 
 ### A modular asset library
 
-Instead of fixed templates, build modular components: background treatments, text overlay styles, icon sets, transition animations. Your team mixes and matches these components to create variations quickly. Each component follows the core brand rules, so any combination reads as on-brand.
+Instead of fixed templates, build [modular components](/blog/blog-modular-creative-production/): background treatments, text overlay styles, icon sets, transition animations. Your team mixes and matches these components to create variations quickly. Each component follows the core brand rules, so any combination reads as on-brand.
 
 ### Creator guidelines, not creator scripts
 
@@ -146,7 +146,7 @@ Each tier uses the same core elements but at different levels of fidelity. This 
 
 When brand identity and performance creative are built as one system, several things change:
 
-**Creative velocity increases.** Your team produces more ad variations faster because they are working within a system, not reinventing the visual wheel every time.
+**Creative velocity increases.** Your team produces more ad variations faster because they are working within a system, not reinventing the visual wheel every time. Our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/) shows how a consistent brand system enabled rapid creative testing across dozens of variations.
 
 **Ad performance improves over time.** As brand recognition builds, each campaign benefits from the impressions before it. Warm audiences convert at lower cost. Cold audiences have a higher baseline familiarity.
 
@@ -163,6 +163,8 @@ If you are running ads without a brand system, you do not need a full rebrand to
 3. **Build flex-zone rules.** Write a short document that tells your team and creators what they can change and what they cannot. Keep it under two pages.
 4. **Create template tiers.** Build at least a polished tier and a quick-build tier. Add UGC frameworks when you start working with creators.
 5. **Review quarterly.** Your brand system should evolve as you learn what works in performance. Lock in what drives results. Drop what does not.
+
+If your website needs the same treatment, our guide on [how to design a website that converts](/blog/blog-how-to-design-a-website-that-converts/) covers the structural principles that turn traffic into leads.
 
 If you are starting from scratch or your current identity is not built for performance, we can help. OKAD builds [brand identity systems](/design) specifically designed for teams that run high-volume ad creative. Every identity we create includes performance-ready assets, template tiers, and creator guidelines — not just a logo and a PDF.
 

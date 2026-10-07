@@ -45,7 +45,7 @@ These seven sections cover everything an agency needs to start working without a
 
 Tell us who you are, what you sell, and what problem your business solves. We are not asking for your life story. We need enough context to understand why this project matters right now.
 
-Good example: "We sell B2B SaaS for construction project management. We just raised a Series A and need to reposition from 'scrappy startup' to 'enterprise-ready platform.' Our current site looks like it was built in 2019 because it was."
+Good example: "We sell B2B SaaS for construction project management. We just raised a Series A and need to reposition from 'scrappy startup' to 'enterprise-ready platform.' Our current site looks like it was built in 2019 because it was." For context on how briefs translate into real results, see our [ZenToes Walmart launch case study](/cases/zentoes-walmart-launch-ads/) where clear brief requirements drove effective retail advertising.
 
 This gives us industry, stage, positioning goal, and urgency. Three sentences.
 
@@ -59,7 +59,7 @@ If you have buyer personas, share them. If you do not, a paragraph describing yo
 
 ### 3. Deliverables
 
-List exactly what you need. Not "a website" — how many pages, which pages, is there a blog, do you need a CMS, are there integrations. Not "some videos" — how many, what length, for which platform, vertical or horizontal, with or without voiceover.
+List exactly what you need. Not "a website" — how many pages, which pages, is there a blog, do you need a CMS, are there integrations. Not "some videos" — how many, what length, for which platform, vertical or horizontal, with or without voiceover. If you are briefing UGC video production specifically, our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) covers what makes a strong creative brief for creators.
 
 Ambiguity here is the number one cause of scope creep and mismatched expectations. If you are unsure about specifics, say so — "we think 5-7 pages but open to your recommendation" is perfectly fine. What hurts is when you write "a website" and later reveal you also need an e-commerce store with 200 product pages.
 
@@ -69,7 +69,7 @@ Check [our pricing](/pricing) to get a sense of what different deliverables typi
 
 If you have a brand book, attach it. If you have brand colors, fonts, a logo file, tone of voice guidelines — include all of it.
 
-If you do not have formal guidelines, tell us that. It changes how we approach the project. We may need to establish visual direction first before moving into execution, and that is a different kind of work with a different timeline.
+If you do not have formal guidelines, tell us that. It changes how we approach the project. We may need to establish visual direction first before moving into execution, and that is a different kind of work with a different timeline. Our post on [brand identity vs performance creative](/blog/blog-brand-identity-vs-performance-creative/) explains why even minimal guidelines make a measurable difference in ad results.
 
 At minimum, we need:
 
@@ -195,6 +195,6 @@ The better your brief, the shorter steps one and two become. We have had project
 
 Every hour you spend on the brief saves three to five hours in revisions, misaligned concepts, and back-and-forth emails. The template above takes 30 minutes to fill in. That is the single best investment you can make in the outcome of your project.
 
-We built our intake process around these seven sections because they work. They give our designers and developers what they need to move fast and deliver work that hits the mark on the first or second round — not the fifth.
+For website projects specifically, our guide on [how to design a website that converts](/blog/blog-how-to-design-a-website-that-converts/) shows the structural principles we apply. We built our intake process around these seven sections because they work. They give our designers and developers what they need to move fast and deliver work that hits the mark on the first or second round — not the fifth.
 
 If you have a project in mind, [start a project](/#contact) and send us your brief. If you want to talk through scope before writing anything, [book a call](/#contact) and we will help you figure out what you need.

@@ -18,7 +18,7 @@ faqs:
     a: "Yes. Canvas UGC is about content creation, not influence. Brands want authentic-looking content for their ads, not access to your audience. Creators with zero followers regularly get hired based on portfolio quality alone."
 ---
 
-Canvas UGC jobs are growing faster than the creator supply. Brands scaling their ad creative need dozens of fresh assets monthly, and canvas UGC — content produced within structured templates — delivers the consistency they require. That supply-demand gap means opportunity for creators who know where to look and how to position themselves.
+Canvas UGC jobs are growing faster than the creator supply. Brands scaling their ad creative need dozens of fresh assets monthly, and [canvas UGC](/blog/blog-what-is-canvas-ugc/) — content produced within structured templates — delivers the consistency they require. That supply-demand gap means opportunity for creators who know where to look and how to position themselves.
 
 ## Where Canvas UGC Jobs Are Posted
 
@@ -51,7 +51,7 @@ The highest-paying canvas UGC jobs often come through direct relationships:
 2. **DM on Instagram or LinkedIn** — Short, specific message: who you are, what you create, link to portfolio, and a specific idea for their brand.
 3. **Email marketing managers** — Find contacts on LinkedIn. Send a brief pitch with 2–3 relevant samples.
 
-Direct relationships skip platform fees and often lead to recurring work.
+Direct relationships skip platform fees and often lead to recurring work. Brands running [high-volume UGC ad campaigns](/cases/high-roas-ugc-ads/) need exactly this kind of ongoing creator supply.
 
 ### Creator Communities
 
@@ -108,7 +108,7 @@ Not every job is worth taking:
 | Health / Fitness | $60–$90 | $100–$200 | $200–$400 |
 | Home / Lifestyle | $50–$75 | $80–$150 | $150–$300 |
 
-Tech and SaaS tend to pay more because the content requires screen recordings and product understanding. Beauty and fashion have higher volume but more competition among creators.
+Tech and SaaS tend to pay more because the content requires screen recordings and product understanding — our [tech UGC guide](/blog/blog-tech-ugc-guide/) covers what makes this niche different. Beauty and fashion have higher volume but more competition among creators. For a full breakdown of what brands actually pay across all niches, see our [UGC rates and pricing guide](/blog/blog-ugc-creator-rates-pricing/).
 
 ## Building a Sustainable Canvas UGC Career
 
@@ -118,4 +118,4 @@ The creators who sustain income from canvas UGC share three habits:
 2. **They specialize.** Being known as "the person who does great tech UGC" or "the best beauty canvas creator on the platform" gets more referrals than being a generalist.
 3. **They build direct relationships.** Platform jobs are the starting point. Direct brand contracts are the destination. Every platform job is an audition for a direct relationship.
 
-The canvas UGC job market is expanding because brands need more authentic content faster. Creators who learn the format and build reliable reputations will not struggle to find work.
+The canvas UGC job market is expanding because brands need more authentic content faster. Creators who learn the format and build reliable reputations will not struggle to find work. For realistic income expectations at each stage, read our data on [canvas UGC earnings](/blog/blog-canvas-ugc-earn-money/). And if you want to pitch brands directly instead of waiting for platform postings, our [brand pitch template](/blog/blog-brand-pitch-ugc-creator/) walks through the outreach process that gets replies.

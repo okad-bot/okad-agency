@@ -18,7 +18,7 @@ faqs:
     a: "Yes. The path typically takes 6–12 months. Start part-time, build a portfolio and reviews, specialize in a niche, move from platform jobs to direct brand contracts, and scale to 15–25 videos per week. Full-time creators work 20–30 hours per week."
 ---
 
-Faceless UGC is one of the most accessible income streams in the creator economy. No camera confidence needed. No audience required. Just a phone, a product, and the ability to produce consistent, quality content.
+[Faceless UGC](/blog/blog-what-is-faceless-ugc/) is one of the most accessible income streams in the creator economy. No camera confidence needed. No audience required. Just a phone, a product, and the ability to produce consistent, quality content.
 
 But how much can you actually make? Here is real data — not hype.
 
@@ -74,7 +74,7 @@ The per-video rate for faceless UGC is typically lower than on-camera content. T
 - Rate: $75–$200
 - **Hourly: $100–$600**
 
-The speed advantage compounds when you batch. A faceless creator who sets up once and shoots 6 videos back-to-back spends 10 minutes on setup instead of 60 (6 x 10 min). That batching efficiency is why Skribly could produce 1,257 videos in two months — faceless POV formats made volume economically viable.
+The speed advantage compounds when you batch. A faceless creator who sets up once and shoots 6 videos back-to-back spends 10 minutes on setup instead of 60 (6 x 10 min). That batching efficiency is why Skribly could produce 1,257 videos in two months — faceless POV formats made volume economically viable. Read the [full Skribly case study](/cases/high-roas-ugc-ads/) to see the campaign economics at scale.
 
 ## Earnings by Niche
 
@@ -91,7 +91,7 @@ Not all faceless UGC pays the same:
 | Apps / Games | $100–$250 | Screen recordings + reaction voiceover. Growing category. |
 | Crafts / DIY | $40–$100 | Passion-driven niche. Lower rates but deeply loyal brands. |
 
-**Strategy:** Start in a high-volume, lower-paying niche (food, beauty) to build skills and reviews, then transition to a higher-paying niche (tech, finance) once you have a track record.
+**Strategy:** Start in a high-volume, lower-paying niche (food, beauty) to build skills and reviews, then transition to a higher-paying niche (tech, finance) once you have a track record. If tech interests you, our [tech UGC guide](/blog/blog-tech-ugc-guide/) explains what brands expect from creators in the software space.
 
 ## Five Ways to Increase Your Faceless UGC Income
 
@@ -179,4 +179,4 @@ A realistic timeline for a committed faceless UGC creator:
 
 This is not a get-rich-quick pitch. It is a skill-based production business. The creators who reach $5,000/month are the ones who treat it like work — consistent output, professional communication, and continuous improvement in their niche.
 
-Faceless UGC removes the biggest barrier to the creator economy: being comfortable on camera. If you can hold a product, tap a screen, or pour a liquid with steady hands, you have everything you need to start earning.
+Faceless UGC removes the biggest barrier to the creator economy: being comfortable on camera. If you can hold a product, tap a screen, or pour a liquid with steady hands, you have everything you need to start earning. Our [step-by-step guide to starting faceless UGC](/blog/blog-how-to-start-faceless-ugc/) covers equipment, portfolio building, and landing your first paid jobs. If you prefer working within structured templates, [canvas UGC](/blog/blog-how-to-start-canvas-ugc/) offers a similar path with on-camera content.

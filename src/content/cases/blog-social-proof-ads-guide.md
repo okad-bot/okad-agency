@@ -44,13 +44,13 @@ Not all social proof carries equal weight:
 **Expert endorsement** → moderate trust, moderate scale
 **Celebrity endorsement** → lowest trust per dollar, highest awareness
 
-Customer-level proof offers the optimal balance. It is credible enough to drive action and scalable enough to sustain a paid media campaign through UGC creator networks.
+Customer-level proof offers the optimal balance. It is credible enough to drive action and scalable enough to sustain a paid media campaign through UGC creator networks. See how this played out in our [high-ROAS UGC ads case study](/cases/high-roas-ugc-ads/) where creator content drove measurable acquisition results.
 
 ## The Five-Part Ad Structure
 
 Effective social proof ads follow the same pattern people use when naturally recommending products:
 
-1. **Hook** — Establish credibility immediately: "I have been using this for 6 months" or "I was skeptical but..."
+1. **[Hook](/blog/blog-hook-rate-explained/)** — Establish credibility immediately: "I have been using this for 6 months" or "I was skeptical but..."
 2. **Problem** — Describe the specific pain point before discovering the product
 3. **Discovery** — Show how the customer found the product organically (not "I was sent this to review")
 4. **Result** — Highlight specific, measurable outcomes: "My skin cleared in 2 weeks" not "It's great"
@@ -117,8 +117,8 @@ Each platform rewards different social proof formats:
 
 **Test hook variations.** Film 3–5 different openings for each testimonial. The same customer story with different hooks can perform dramatically differently. Isolate variables and let the data decide.
 
-**Rotate every 4–6 weeks.** Social proof ads fatigue like any other creative. Swap faces, voices, and stories while keeping the proven narrative structure.
+**Rotate every 4–6 weeks.** Social proof ads [fatigue like any other creative](/blog/blog-ad-fatigue-prevention/). Swap faces, voices, and stories while keeping the proven narrative structure.
 
 **Kill fast, scale fast.** If a social proof ad is not performing within 72 hours, kill it. If one is performing well, scale spend by 20–30% every 48 hours until performance plateaus.
 
-Social proof ads work because they solve the fundamental challenge of advertising: getting strangers to trust you. Brands cannot manufacture trust through clever copywriting. But they can amplify the trust that already exists between their customers and their peers.
+For even more reach, consider running social proof creative as [partnership ads through creator accounts](/blog/blog-partnership-ads-spark-ads-guide/) for an additional trust boost. Social proof ads work because they solve the fundamental challenge of advertising: getting strangers to trust you. Brands cannot manufacture trust through clever copywriting. But they can amplify the trust that already exists between their customers and their peers.

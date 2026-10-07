@@ -22,7 +22,7 @@ faqs:
 
 You need more creative variations than your current production setup can deliver. Every performance marketing team hits this wall: testing velocity is limited by how fast you produce creative, and traditional UGC with on-camera talent does not scale beyond a few dozen videos per month.
 
-Faceless UGC solves this. OKAD produced 1,257 faceless videos for Skribly in two months. That is not a typo — one thousand two hundred fifty-seven videos for a single campaign.
+Faceless UGC solves this. OKAD produced 1,257 faceless videos for Skribly in two months. That is not a typo — one thousand two hundred fifty-seven videos for a single campaign. You can read the [full Skribly case study](/cases/high-roas-ugc-ads/) for complete results and production details.
 
 This guide covers how to build a faceless UGC production system for your brand.
 
@@ -129,7 +129,7 @@ With faceless content, you can isolate variables precisely:
 - **CTA test:** Same video, different end cards
 - **Audio test:** Same visual, text-only vs voiceover vs ASMR
 
-Measure: hook rate (1-second retention), watch-through rate, click-through rate, cost-per-action.
+Measure: [hook rate](/blog/blog-hook-rate-explained/) (1-second retention), watch-through rate, click-through rate, cost-per-action.
 
 At Skribly's scale, the team tested variations continuously — the 1,257 videos were not 1,257 unique concepts. They were systematic variations of winning formats, each isolating a single variable.
 
@@ -175,7 +175,7 @@ Faceless is not universally better. Use on-camera talent when:
 - **Testimonials drive conversion.** Real people sharing real experiences need to be seen to be believed.
 - **Your category demands it.** Fashion, fitness apparel, and personal care often need on-body demonstration.
 
-The smart approach: use faceless UGC for volume and testing, on-camera UGC for hero content and conversion-critical touchpoints.
+The smart approach: use faceless UGC for volume and testing, on-camera UGC for hero content and conversion-critical touchpoints. For a deeper look at how to build a testing system around this creative, see our guide on [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/).
 
 ## Getting Started
 
@@ -186,4 +186,4 @@ The smart approach: use faceless UGC for volume and testing, on-camera UGC for h
 5. Measure hook rate, retention, and CPA
 6. If faceless matches or beats existing creative, scale production
 
-The brands winning the creative volume game in 2026 have figured out that not every video needs a face. The ones still struggling are the ones paying $300 per talking-head video and wondering why they cannot test fast enough.
+The brands winning the creative volume game in 2026 have figured out that not every video needs a face. The ones still struggling are the ones paying $300 per talking-head video and wondering why they cannot test fast enough. See our [faceless UGC format examples](/blog/blog-faceless-ugc-examples/) for the 12 specific formats that drive the most views, or check [our pricing](/pricing/) for production costs.

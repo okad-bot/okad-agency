@@ -99,10 +99,10 @@ Your Shorts skills translate directly to paid UGC work:
 
 - Brands hire creators who understand short-form video
 - Your Shorts portfolio proves you can create engaging vertical content
-- Canvas UGC platforms pay $50–$300 per asset for exactly the skills Shorts require
+- [Canvas UGC](/blog/blog-what-is-canvas-ugc/) platforms pay $50–$300 per asset for exactly the skills Shorts require
 - Content licensing deals let brands use your organic Shorts as paid ads
 
-This is the most underutilized revenue stream. Creators with strong Shorts portfolios are exactly what brands need for their paid advertising. The bridge between "YouTuber" and "paid content creator" is shorter than most people realize.
+This is the most underutilized revenue stream. Creators with strong Shorts portfolios are exactly what brands need for their paid advertising — our guide on [UGC video ads](/blog/blog-ugc-video-ads-that-convert/) explains what brands look for. The bridge between "YouTuber" and "paid content creator" is shorter than most people realize. You can also explore [faceless UGC](/blog/blog-how-to-start-faceless-ugc/) if you want to create brand content without showing your face.
 
 ## Building a Shorts Monetization Strategy
 
@@ -140,4 +140,4 @@ The highest-earning Shorts creators stack multiple revenue streams:
 - **Promoting irrelevant products** — Your audience followed you for a reason. Promote products that align with why they are there.
 - **Not having a landing page** — A "link in bio" to a YouTube channel does nothing. Create a simple page that converts visitors to subscribers, customers, or leads.
 
-YouTube Shorts are the fastest way to build an audience in 2026. The monetization follows the audience — but only if you build systems to capture and convert that attention beyond the platform.
+YouTube Shorts are the fastest way to build an audience in 2026. The monetization follows the audience — but only if you build systems to capture and convert that attention beyond the platform. For the brand deal side, our [brand pitch template](/blog/blog-brand-pitch-ugc-creator/) walks through exactly how to approach companies for paid partnerships. And to see how one brand used organic short-form video to generate over a million views, read the [organic video content case study](/cases/organic-video-content-1m-views/).

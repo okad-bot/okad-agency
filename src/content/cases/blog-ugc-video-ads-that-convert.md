@@ -110,7 +110,7 @@ We maintain a database of 600+ vetted creators across categories, demographics, 
 
 Vanity metrics distract. These are the numbers that actually indicate whether a UGC ad program is working:
 
-**Hook rate (3-second view rate).** The percentage of viewers who watch past the first 3 seconds. Below 30% on Meta or 40% on TikTok means the hook is failing. Swap it before testing anything else.
+**[Hook rate](/blog/blog-hook-rate-explained/) (3-second view rate).** The percentage of viewers who watch past the first 3 seconds. Below 30% on Meta or 40% on TikTok means the hook is failing. Swap it before testing anything else.
 
 **Hold rate (through-play or average watch time).** How much of the video people actually watch. This tells you whether the body content is delivering on the hook's promise. A high hook rate with a low hold rate means the hook is misleading or the content drags.
 
@@ -130,7 +130,7 @@ Creative fatigue forces constant production. A single winning ad on TikTok has a
 
 ### How We Scale It
 
-**Modular production.** Instead of briefing each video as a standalone asset, we brief in concepts. One concept generates 3-5 hook variations, 2-3 creator versions, and optional B-roll swaps. A single concept yields 10-15 testable assets.
+**[Modular production](/blog/blog-modular-creative-production/).** Instead of briefing each video as a standalone asset, we brief in concepts. One concept generates 3-5 hook variations, 2-3 creator versions, and optional B-roll swaps. A single concept yields 10-15 testable assets.
 
 **Creator pods.** We assign 3-5 creators per brand on a recurring basis. These creators learn the product, understand the brand voice, and improve with each round. New creators rotate in to prevent audience fatigue, but the core pod maintains quality consistency.
 
@@ -152,7 +152,7 @@ After 200+ campaigns, the failure patterns are predictable:
 
 **No feedback loop.** Running ads without tracking which creative variables drive performance means you learn nothing from your spend. Tag every asset by hook type, creator, format, and duration. Analyze weekly.
 
-**Treating UGC as a one-time project.** UGC is a production system, not a campaign. Brands that commit to ongoing production outperform those that order a batch, run it until it fatigues, and then scramble for new content.
+**Treating UGC as a one-time project.** UGC is a production system, not a campaign. Brands that commit to ongoing production outperform those that order a batch, run it until it [fatigues](/blog/blog-ad-fatigue-prevention/), and then scramble for new content. To see this production system in action, check our [high-converting DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/) and our [Skribly UGC campaign](/cases/high-roas-ugc-ads/).
 
 ## Getting Started
 

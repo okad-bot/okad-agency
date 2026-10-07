@@ -24,7 +24,7 @@ Brands that successfully scale UGC production share common infrastructure. Here 
 
 ## Why Volume Matters
 
-Modern ad platforms reward creative volume. Meta's machine learning performs best with 5–10 active creative variations per ad set. TikTok recommends refreshing creative every 7 days. Google's Performance Max needs constant visual inputs.
+Modern ad platforms reward creative volume. Meta's machine learning performs best with 5–10 active creative variations per ad set. TikTok recommends [refreshing creative every 7 days](/blog/blog-ad-fatigue-prevention/) to stay ahead of fatigue. Google's Performance Max needs constant visual inputs.
 
 At $10,000/month ad spend, you need roughly 20–30 new creative assets per month to stay ahead of fatigue. At $50,000/month, that number jumps to 50–100. At $100,000+, you need a continuous production pipeline.
 
@@ -70,7 +70,7 @@ Canvas templates solve this:
 - Consistent output across different creators
 - Revision rates drop from 30–40% (freeform) to 10–15% (canvas)
 
-A library of 10–15 canvas templates covers most campaign needs. New templates are added when new concepts prove successful.
+A library of 10–15 canvas templates covers most campaign needs. New templates are added when new concepts prove successful. For brands that also need faceless content at volume, our [faceless UGC production playbook](/blog/blog-faceless-ugc-for-brands/) covers how Skribly scaled to 1,257 videos in two months.
 
 ### 3. Weekly Production Cycles
 
@@ -151,4 +151,4 @@ Compare this to studio production: 50 studio-produced videos would cost $50,000�
 
 **Over-managing the creative process.** Detailed canvas templates should do the management work. If you are giving extensive feedback on every asset, your templates are not clear enough.
 
-High-volume UGC production is the infrastructure that supports scalable paid advertising. The brands doing it well treat it as an ongoing operational system — not a series of one-off content projects.
+High-volume UGC production is the infrastructure that supports scalable paid advertising. The brands doing it well treat it as an ongoing operational system — not a series of one-off content projects. To see this system in action, read how we produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) or how we ran [creative testing for an AI app on Meta](/cases/creative-testing-ai-app-meta-ads/). For cost benchmarks across different tiers and niches, see our guide on [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/).

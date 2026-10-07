@@ -20,7 +20,7 @@ faqs:
     a: "Not always. Many faceless formats use text overlays or ambient sound instead of voiceover. If you do voiceover, you do not need a professional voice — natural, conversational tone works best. Practice with 5–10 short scripts and your voice will improve quickly."
 ---
 
-You want to create UGC content but do not want to be on camera. Good news: faceless UGC is one of the fastest-growing content formats, and brands are actively looking for creators who can produce it.
+You want to create UGC content but do not want to be on camera. Good news: [faceless UGC](/blog/blog-what-is-faceless-ugc/) is one of the fastest-growing content formats, and brands are actively looking for creators who can produce it.
 
 This guide walks through everything: what you need, what to create, where to find work, and how to build a portfolio — all without showing your face.
 
@@ -37,7 +37,7 @@ Faceless UGC is user-generated content where the creator does not appear on came
 
 The creator provides authenticity through their perspective, voiceover, text, or the way they interact with the product. The face is not needed for that authenticity to come through.
 
-OKAD produced 1,257 faceless videos for Skribly (a drawing app) — all POV drawing content with voiceover. The result: 1.5M views and 2,000 app registrations. No creator face appeared in a single video.
+OKAD produced 1,257 faceless videos for Skribly (a drawing app) — all POV drawing content with voiceover. The result: 1.5M views and 2,000 app registrations. No creator face appeared in a single video. Read the [full Skribly case study](/cases/high-roas-ugc-ads/) for the complete production strategy and results.
 
 ## Equipment You Need
 
@@ -153,7 +153,7 @@ Faceless UGC typically pays less per video than on-camera content, but you produ
 | Intermediate (3–12 months) | $75–$150 | 4–8 | $300–$1,200 |
 | Experienced (12+ months) | $150–$250 | 6–10 | $900–$2,500 |
 
-The math works in your favor. A creator charging $75/video who produces 6 videos in a day earns $450 — more than an on-camera creator charging $200/video who produces 2 per day.
+The math works in your favor. A creator charging $75/video who produces 6 videos in a day earns $450 — more than an on-camera creator charging $200/video who produces 2 per day. Our [faceless UGC income guide](/blog/blog-faceless-ugc-earn-money/) breaks down realistic earnings from side hustle to full-time career.
 
 ### When to Raise Your Rates
 - After 10+ completed jobs with positive feedback
@@ -184,4 +184,4 @@ The path from first video to full-time faceless UGC creator:
 
 The creators who scale fastest treat faceless UGC as a production system — batching shoots, templating their process, and building a reputation in a specific niche. The Skribly campaign was built on the same principle: a system that produces consistent quality at volume.
 
-Faceless UGC is the lowest-barrier entry point into the creator economy. You need a phone, a product, and a clean surface. Start this weekend.
+Faceless UGC is the lowest-barrier entry point into the creator economy. You need a phone, a product, and a clean surface. Start this weekend. Need inspiration? Browse our [12 faceless UGC format examples](/blog/blog-faceless-ugc-examples/) to see what works across different product categories. And if you want to proactively pitch brands instead of waiting for job postings, our [brand pitch template](/blog/blog-brand-pitch-ugc-creator/) has the outreach scripts that get replies.
