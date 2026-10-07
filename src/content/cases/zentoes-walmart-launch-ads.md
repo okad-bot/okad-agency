@@ -1,6 +1,6 @@
 ---
-title: "ZenToes \u2014 Walmart Launch Ads from Existing Footage"
-description: "Footage audit, concepts, 11 videos and 14 static ads for ZenToes' Walmart launch, without a single new shoot."
+title: "Retail Launch Ads: 60+ Variations Without New Footage"
+description: "How ZenToes created 11 videos and 14 static ads for their Walmart launch from existing footage — zero new shoots, 60+ testable variations."
 type: case
 date: 2026-04-30
 lang: en

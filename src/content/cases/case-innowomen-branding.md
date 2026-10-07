@@ -1,6 +1,6 @@
 ---
-title: "In a Woman — Brand Identity for a Women-in-Tech Accelerator"
-description: "How we built a scalable brand system for In a Woman accelerator — from logo and templates to merchandise — unifying digital and event presence across international markets."
+title: "Tech Accelerator Branding: Scalable Identity System"
+description: "Brand system for a women-in-tech accelerator — logo, templates, and merchandise unifying digital and event presence across international markets."
 type: case
 date: 2025-07-01
 lang: en

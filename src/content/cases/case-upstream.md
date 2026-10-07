@@ -1,6 +1,6 @@
 ---
-title: "Upstream — Pre-Launch Content Marketing for Live Streaming SaaS"
-description: "How Upstream grew a 1,000-person audience with 600K+ reach before product launch using Instagram Reels, automated DMs, and paid campaigns at $0.11 CPC."
+title: "SaaS Pre-Launch: 1,000 Users Before Product Goes Live"
+description: "How a SaaS built a 1,000-person audience with 600K+ reach before launch using Instagram Reels, automated DMs, and $0.11 CPC campaigns."
 type: case
 date: 2025-03-01
 lang: en

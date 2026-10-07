@@ -1,6 +1,6 @@
 ---
-title: "Jumpman — Franchise-Ready Website Design for Paris Fitness Studio"
-description: "How we designed a dual-audience website for Jumpman trampoline fitness in Paris that doubled B2C bookings and cut drop-off rate by 41% in the first month."
+title: "Fitness Website Redesign: 2x Bookings, -41% Drop-off"
+description: "Website redesign for a Paris fitness studio that doubled B2C bookings and cut drop-off by 41% in the first month. Built on Framer."
 type: case
 date: 2025-11-15
 lang: en

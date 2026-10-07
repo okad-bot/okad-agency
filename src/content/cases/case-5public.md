@@ -1,6 +1,6 @@
 ---
-title: "5Public — Brand Unification & Templates for a 50-Outlet Media Network"
-description: "We unified 50 regional media outlets under one modular brand system with map-based logos, 15+ social templates, and a style guide — rolled out in under 2 months."
+title: "Multi-Brand Unification: 50 Outlets, 1 Design System"
+description: "How we unified 50 regional media outlets under one modular brand system with map-based logos and 15+ social templates — in under 2 months."
 type: case
 date: 2024-11-15
 lang: en

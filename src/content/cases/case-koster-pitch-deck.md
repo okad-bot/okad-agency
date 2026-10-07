@@ -1,6 +1,6 @@
 ---
-title: "Koster — Investor Pitch Deck for Group Dating & Networking Startup"
-description: "How we designed a storytelling-driven pitch deck for Koster's group networking app that sparked immediate interest from early-stage investors."
+title: "Startup Pitch Deck Design That Gets Investor Meetings"
+description: "Storytelling-driven pitch deck for a dating/networking app startup. Designed to spark immediate investor interest at early-stage meetings."
 type: case
 date: 2025-08-15
 lang: en

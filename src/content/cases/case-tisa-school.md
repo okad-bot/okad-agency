@@ -1,6 +1,6 @@
 ---
-title: "TISA — Lead Generation & Website Redesign for a Private School"
-description: "How we generated 100+ qualified leads at EUR 2-5 each for TISA's Lisbon campus through website redesign, chatbot automation, and social media content."
+title: "School Lead Generation: 100+ Leads at EUR 2-5 Each"
+description: "100+ qualified parent leads at EUR 2-5 each for a private school in Lisbon. Website redesign, chatbot automation, and social media content."
 type: case
 date: 2025-08-01
 lang: en

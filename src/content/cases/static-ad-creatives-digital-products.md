@@ -1,6 +1,6 @@
 ---
-title: "High-Performing Static & Video Ad Creatives for Digital Products"
-description: "How SmallTalk2Me hit 2-4M impressions per ad creative, Upvote achieved CPA ~EUR 65 at 6-12% CTR, and Dadadababy cut shoot costs by 80% with AI visuals."
+title: "Ad Creatives for Apps: 2-4M Impressions Per Ad"
+description: "Static and video ad creatives that hit 2-4M impressions (SmallTalk2Me), EUR 65 CPA (Upvote), and 80% lower costs with AI. Three app case studies."
 type: case
 date: 2026-05-01
 lang: en

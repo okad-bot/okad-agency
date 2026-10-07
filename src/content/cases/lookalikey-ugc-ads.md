@@ -1,6 +1,6 @@
 ---
-title: "Lookalikey \u2014 UGC Ads That Show What Happens Next"
-description: "Three creators, nine UGC videos and four stories for a personalised face-swap card brand: the group chat, the fridge, the wallpaper."
+title: "Personalised Gift UGC Ads: 9 Videos, 3 Creators"
+description: "UGC video ads and stories for a personalised face-swap card brand. Three creators, nine videos, four stories — creative that sells the surprise."
 type: case
 date: 2026-05-31
 lang: en

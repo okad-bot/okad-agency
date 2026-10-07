@@ -1,6 +1,6 @@
 ---
-title: "From 2 videos that ever worked to 160+ ads in four months"
-description: "How we tested 70 video ad concepts for a US AI app on Meta: 1 in 3 became winners, the best cost 35% less per customer than the account average."
+title: "Ad Creative Testing: 2 to 160+ Winning Ads in 4 Months"
+description: "How systematic creative testing turned 2 working videos into 160+ ads for a US AI app on Meta. 1 in 3 concepts became winners, best cut CPA by 35%."
 type: case
 date: 2026-08-31
 lang: en

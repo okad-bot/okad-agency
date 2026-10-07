@@ -1,6 +1,6 @@
 ---
-title: "Trash Pitches — Board Game Design & Launch from an IT Blog"
-description: "How we designed and launched Trash Pitches, a board game for IT professionals — from concept to sold-out first batch and the foundation of a design agency."
+title: "Board Game Design & Launch: Sold Out First Batch"
+description: "From IT blog to sold-out board game: how we designed and launched a card game for tech professionals, selling out the first batch."
 type: case
 date: 2025-01-15
 lang: en

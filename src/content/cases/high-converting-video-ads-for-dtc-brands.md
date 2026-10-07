@@ -1,6 +1,6 @@
 ---
-title: "AI Static Ads That Tripled CTR — Dadadababy & InstaHeadshots Case Study"
-description: "How AI-generated visuals cut shoot costs by 80% for Dadadababy (under $700 vs $3-8K traditional) and OKAD creatives hit ROAS 2.26 for InstaHeadshots."
+title: "AI Ad Creatives: 3x CTR, 80% Lower Cost (Case Study)"
+description: "How AI-generated ad creatives cut production costs by 80% and tripled CTR. Real results from Dadadababy and InstaHeadshots campaigns."
 type: case
 date: 2026-07-01
 lang: en

@@ -1,6 +1,6 @@
 ---
-title: "Moboost — Website Redesign for Global AdTech Platform"
-description: "How we redesigned Moboost's website in 30 days with modular UI, China-ready optimization, and bold gradients — reducing bounce rates across key markets."
+title: "AdTech Website Redesign in 30 Days (Case Study)"
+description: "Website redesign for a global AdTech platform in 30 days — modular UI, China-ready optimisation, and bold gradients that reduced bounce rates."
 type: case
 date: 2025-10-01
 lang: en

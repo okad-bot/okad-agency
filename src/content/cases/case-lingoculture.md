@@ -1,6 +1,6 @@
 ---
-title: "LingoCulture — Partner Pitch Deck for French Language Learning Platform"
-description: "How we rebuilt a partnership pitch deck for a French immersion education project, turning a cluttered presentation into a deal-closing tool for universities and influencers."
+title: "EdTech Pitch Deck: From Cluttered to Deal-Closing"
+description: "How we rebuilt a partnership pitch deck for a language learning platform — turning a cluttered presentation into a deal-closing tool."
 type: case
 date: 2025-09-01
 lang: en

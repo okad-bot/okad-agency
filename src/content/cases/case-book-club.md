@@ -1,6 +1,6 @@
 ---
-title: "Book Club — Content Strategy & Social Media Design for a Reading Community"
-description: "We automated content marketing for a book club founder, growing reach by 1,134%, adding 594 subscribers, and filling groups 2x faster — all in 3 months."
+title: "Community Content Strategy: 1,134% Reach Growth"
+description: "Automated content marketing that grew reach by 1,134%, added 594 subscribers, and filled community groups 2x faster — all in 3 months."
 type: case
 date: 2025-01-01
 lang: en

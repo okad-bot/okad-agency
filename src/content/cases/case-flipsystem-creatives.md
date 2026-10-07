@@ -1,6 +1,6 @@
 ---
-title: "Flip System — 100+ Ad Creatives for a Real Estate CRM Platform"
-description: "How we produced 100+ static and motion ad creatives for Flip System's paid campaigns, building a scalable design system that improved engagement and conversion."
+title: "100+ Ad Creatives for SaaS: Real Estate CRM Case Study"
+description: "How we produced 100+ static and motion ad creatives for a real estate CRM, with a scalable design system that improved engagement and conversion."
 type: case
 date: 2026-04-15
 lang: en

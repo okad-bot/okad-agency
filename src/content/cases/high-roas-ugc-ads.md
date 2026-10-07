@@ -1,6 +1,6 @@
 ---
-title: "High ROAS UGC Video Ads — Modular Systems for E-Commerce & Apps"
-description: "How modular UGC video systems drove 8%+ retention for ZenToes, 1.5M views for Skribly, 1M+ organic views for YourChristianDate, and CPA ~EUR 65 for Upvote."
+title: "UGC Video Ad Examples: 8% Retention, 1.5M Views"
+description: "Four UGC video case studies: ZenToes (8%+ retention), Skribly (1.5M views), YourChristianDate (1M+ organic), Upvote (EUR 65 CPA). Modular production system."
 type: case
 date: 2026-07-15
 lang: en

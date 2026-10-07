@@ -1,6 +1,6 @@
 ---
-title: "Trusto — Pitch Deck & Website Design for a Chargeback Prevention Startup"
-description: "We designed a restructured pitch deck and minimalist website for Trusto, turning complex chargeback prevention into clear investor and client-facing tools."
+title: "Fintech Pitch Deck & Website Design (Case Study)"
+description: "Pitch deck and minimalist website for a chargeback prevention startup. Complex fintech turned into clear investor and client-facing tools."
 type: case
 date: 2025-10-15
 lang: en
