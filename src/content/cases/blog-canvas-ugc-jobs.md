@@ -1,8 +1,8 @@
 ---
 hook: "Where do you find Canvas UGC jobs?"
 topic: for-creators
-title: "Canvas UGC Jobs: Where to Find Opportunities and How to Get Hired"
-description: "A guide to finding canvas UGC jobs in 2026 — the best platforms, what brands look for, how to stand out in applications, and how to turn one-off jobs into recurring contracts."
+title: "Canvas UGC Jobs: 7 Best Platforms Hiring Now"
+description: "Find canvas UGC jobs on top platforms, learn what brands look for, and turn one-off gigs into $1K–$5K/mo retainers."
 type: blog
 lang: en
 cover: "/images/cases/case-uprest.jpg"

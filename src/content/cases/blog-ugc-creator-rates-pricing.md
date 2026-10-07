@@ -1,8 +1,8 @@
 ---
 hook: "How much should a UGC video cost?"
 topic: ugc-ads
-title: "UGC Creator Rates: Complete Pricing Guide for Brands and Creators"
-description: "UGC rates span $50–$500+ per video depending on creator tier, niche, and usage rights. Breakdown by experience level, content type, industry, and pricing model — with negotiation strategies for both sides."
+title: "UGC Rates 2026: What Brands Actually Pay ($50–$500)"
+description: "Real UGC pricing data from 700+ creators. Rates by tier, niche, and content type — plus negotiation tips for brands and creators."
 type: blog
 lang: en
 cover: "/images/cases/case-innowomen-branding.jpg"

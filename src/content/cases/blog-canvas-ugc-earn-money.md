@@ -1,8 +1,8 @@
 ---
 hook: "How much do Canvas creators earn?"
 topic: for-creators
-title: "Canvas UGC Earnings: How Much Creators Make and How to Scale Income"
-description: "Real canvas UGC creator earnings data — what beginners earn, how to increase rates, side hustle vs full-time income, and the strategies top creators use to earn $5,000+ per month."
+title: "Canvas UGC Income: $200 to $5K/Month (Real Data)"
+description: "How much canvas UGC creators actually earn — beginner side hustle to $5,000+/mo full-time. Real data and scaling strategies."
 type: blog
 lang: en
 cover: "/images/cases/case-starviral.jpg"
