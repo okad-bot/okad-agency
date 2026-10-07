@@ -61,15 +61,25 @@ const newCases = [
   <div class="okh">
 
     <!-- HERO -->
-    <section class="khero" style="padding:80px 0 48px">
+    <section class="khero" style="padding:80px 0 32px">
       <div class="w" style="max-width:1100px">
         <h1 style="font-size:clamp(2rem,4.5vw,3.4rem);margin-bottom:16px">Real work, <span class="cap">real numbers</span></h1>
         <p class="lead">UGC video ads, creative testing, web design, branding — case studies from 100+ brands with actual results.</p>
       </div>
     </section>
 
+    <!-- FILTER CHIPS -->
+    <div style="max-width:1100px;margin:0 auto;padding:0 24px 40px">
+      <div class="filter-chips">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="ugc">UGC & Video</button>
+        <button class="chip" data-filter="design">Design & Branding</button>
+        <button class="chip" data-filter="latest">Latest</button>
+      </div>
+    </div>
+
     <!-- FEATURED UGC CASES -->
-    <section style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
+    <section data-category="ugc" style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px">
         {featured.map(c => (
           <a href={`/cases/${c.id}`} style="display:block;border-radius:16px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
@@ -84,7 +94,7 @@ const newCases = [
     </section>
 
     <!-- NEW CASES (flat HTML) -->
-    <section style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
+    <section data-category="latest" style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">Latest <span class="cap g">cases</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {newCases.map(c => (
@@ -100,7 +110,7 @@ const newCases = [
     </section>
 
     <!-- MORE UGC & VIDEO CASES -->
-    <section style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
+    <section data-category="ugc" style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">UGC & <span class="cap y">video ads</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {ugc.map(c => (
@@ -116,7 +126,7 @@ const newCases = [
     </section>
 
     <!-- DESIGN & BRANDING CASES -->
-    <section style="max-width:1100px;margin:0 auto;padding:0 24px 80px">
+    <section data-category="design" style="max-width:1100px;margin:0 auto;padding:0 24px 80px">
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">Design & <span class="cap p">branding</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {design.map(c => (
@@ -146,9 +156,56 @@ const newCases = [
   </div>
 
   <style>
+    .filter-chips {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .chip {
+      padding: 8px 20px;
+      border-radius: 100px;
+      border: 1px solid var(--border, #e6e6e6);
+      background: #fff;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--soft, #4d4d49);
+      cursor: pointer;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .chip:hover {
+      border-color: #111;
+      color: #111;
+    }
+    .chip.active {
+      background: #111;
+      color: #fff;
+      border-color: #111;
+    }
     .case-card-hover:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    [data-category] { transition: opacity 0.25s, max-height 0.3s; }
+    [data-category].hidden-section {
+      display: none;
+    }
     @media (max-width: 640px) {
       section > div[style*="repeat(2,1fr)"] { grid-template-columns: 1fr !important; }
     }
   </style>
+
+  <script>
+    document.querySelectorAll('.chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.querySelector('.chip.active')?.classList.remove('active');
+        chip.classList.add('active');
+        const filter = chip.dataset.filter;
+        document.querySelectorAll('[data-category]').forEach(section => {
+          if (filter === 'all' || section.dataset.category === filter) {
+            section.classList.remove('hidden-section');
+          } else {
+            section.classList.add('hidden-section');
+          }
+        });
+      });
+    });
+  </script>
 </Base>
