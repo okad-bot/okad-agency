@@ -39,6 +39,13 @@ Proof: for a consumer AI app I made 160+ ads in four months, with cost per custo
 
 **Pick OKAD if** you want someone who owns the testing, not just the filming. [How I work](/ugc-ad-agency/).
 
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0">
+<img src="/images/cases/ai-app/ai-app-01.webp" alt="OKAD work — AI app creator ad" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/zentoes-walmart-launch-ads/img-03.jpg" alt="OKAD work — ZenToes product UGC" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/womens-health-supplement-ads/img-01.jpg" alt="OKAD work — supplement creator testimonial" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/dating-com-creator-content/img-01.jpg" alt="OKAD work — dating app creator content" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+</div>
+
 ## 2. inBeat
 
 A creator-led growth agency that covers UGC production, creator sourcing, scripts and paid social. Offers a free UGC audit. **Fits** bigger brands that want one partner for creators and media. [inbeat.agency](https://inbeat.agency)
