@@ -397,9 +397,53 @@ a.logo{color:inherit;text-decoration:none}
 .more span{font-size:.9rem;color:var(--soft)}
 @media (max-width:1000px){.more{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:600px){.more{grid-template-columns:1fr}}
+</style><style>
+/* Site header & footer — from okad.agency global */
+:root{--font-sans:"Instrument Sans",system-ui,sans-serif;--font-serif:"Instrument Serif",Georgia,serif;--color-bg:#fff;--color-text:#1a1a1a;--color-muted:#666;--color-border:#e6e6e6;--color-accent:#111;--color-surface:#f2f2f2;--max-width:1200px}
+.site-header{z-index:100;backdrop-filter:blur(8px);border-bottom:1px solid var(--color-border);background:#fffffff2;padding:0 24px;position:sticky;top:0}
+.header-inner{max-width:var(--max-width);justify-content:space-between;align-items:center;height:64px;margin:0 auto;display:flex}
+.site-header .logo{font-family:var(--font-serif);letter-spacing:.02em;font-size:28px;font-style:italic;font-weight:400;color:inherit;text-decoration:none}
+.main-nav{align-items:center;gap:28px;font-size:15px;display:flex}
+.main-nav a{transition:opacity .2s;color:inherit;text-decoration:none}
+.main-nav a:hover{opacity:.6}
+.nav-cta{background:var(--color-accent)!important;border-radius:10000px;padding:8px 20px;font-weight:500;color:#fff!important}
+.nav-cta:hover{opacity:.85!important}
+.nav-email{color:inherit;font-size:inherit;background:0 0;border:0;padding:0;cursor:pointer;font:inherit}
+.menu-toggle{cursor:pointer;z-index:201;background:0 0;border:none;width:28px;height:20px;display:none;position:relative}
+.menu-toggle span{background:var(--color-text);border-radius:2px;width:100%;height:2px;transition:transform .3s,opacity .3s;display:block;position:absolute;left:0}
+.menu-toggle span:first-child{top:0}
+.menu-toggle span:nth-child(2){top:9px}
+.menu-toggle span:nth-child(3){top:18px}
+.menu-toggle[aria-expanded=true] span:first-child{top:9px;transform:rotate(45deg)}
+.menu-toggle[aria-expanded=true] span:nth-child(2){opacity:0}
+.menu-toggle[aria-expanded=true] span:nth-child(3){top:9px;transform:rotate(-45deg)}
+.site-footer{border-top:1px solid var(--color-border);padding:48px 24px 32px;font-size:14px}
+.footer-inner{max-width:var(--max-width);margin:0 auto}
+.footer-top{text-align:center;margin-bottom:32px}
+.footer-logo{font-family:var(--font-serif);letter-spacing:.02em;font-size:28px;font-style:italic;font-weight:400;color:inherit;text-decoration:none}
+.footer-tagline{color:var(--color-muted);margin-top:8px;font-size:13px;line-height:1.5}
+.footer-nav{border-top:1px solid var(--color-border);border-bottom:1px solid var(--color-border);flex-wrap:wrap;justify-content:center;align-items:center;gap:24px;padding:24px 0;display:flex}
+.footer-nav a{color:var(--color-muted);font-size:13px;transition:color .2s;text-decoration:none}
+.footer-nav a:hover{color:var(--color-text)}
+.footer-logo-mid{letter-spacing:.02em;font-family:var(--font-serif)!important;color:var(--color-text)!important;font-size:22px!important;font-style:italic!important;font-weight:400!important}
+.footer-social{justify-content:center;gap:16px;padding:24px 0;display:flex}
+.footer-social a{border:1px solid var(--color-border);width:36px;height:36px;color:var(--color-muted);border-radius:50%;justify-content:center;align-items:center;font-size:13px;font-weight:600;transition:all .2s;display:flex;text-decoration:none}
+.footer-social a:hover{color:var(--color-text);border-color:var(--color-text)}
+.footer-bottom{text-align:center;color:var(--color-muted);font-size:13px}
+.copy-toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#111;color:#fff;padding:10px 20px;border-radius:99px;font-size:14px;z-index:9999}
+@media(max-width:768px){
+  .header-inner{height:44px}
+  .site-header{backdrop-filter:none}
+  .menu-toggle{display:block}
+  .main-nav{z-index:200;opacity:0;visibility:hidden;background:#fff;flex-direction:column;justify-content:center;align-items:center;gap:24px;font-size:20px;font-weight:500;transition:opacity .3s,visibility .3s;display:flex;position:fixed;inset:0}
+  .main-nav.open{opacity:1;visibility:visible}
+  .main-nav .nav-cta{padding:10px 28px;font-size:16px}
+  .footer-nav{gap:16px}
+  .footer-logo-mid{display:none!important}
+}
 </style></head><body>
 <div class="w">
-  <header class="top" role="banner"><a class="logo" href="https://okad.agency/" aria-label="OKAD home">OKAD</a><span class="kick">Case study · UGC and social content · AI English learning app</span></header>
+  <header class="site-header"><div class="header-inner"><a href="/" class="logo">OKAD</a><button class="menu-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button><nav class="main-nav"><a href="/">Video ads</a><a href="/cases">Cases</a><a href="/design">Design</a><a href="/pricing">Pricing</a><a href="/blog/">Learn</a><button type="button" class="nav-email copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button><a href="https://calendly.com/okad_calls/first" class="nav-cta" target="_blank" rel="noopener">Book a call</a></nav></div></header><script type="module">var e=document.querySelector(`.menu-toggle`),t=document.querySelector(`.main-nav`);e?.addEventListener(`click`,()=>{let n=t?.classList.toggle(`open`);e.setAttribute(`aria-expanded`,String(n))}),t?.querySelectorAll(`a`).forEach(n=>n.addEventListener(`click`,()=>{t.classList.remove(`open`),e?.setAttribute(`aria-expanded`,`false`)}));</script>
 </div>
 
 <main id="main"><article>
@@ -559,6 +603,6 @@ a.logo{color:inherit;text-decoration:none}
 
 <section aria-labelledby="more-h"><div class="w"><span class="q-kick">More case studies</span><h2 id="more-h" style="font-size:clamp(2rem,4vw,3rem)">See how <span class="cap g">other brands</span> did it.</h2><div class="more"><a href="christian-dating-app-ugc-broll.html"><img src="img/ycd/church1.jpg" alt="Your Christian Date case study cover" loading="lazy" decoding="async" width="540" height="960" loading="lazy" decoding="async"><b>Your Christian Date</b><span>B-roll library, 60 videos a month and an 800K Reel.</span></a><a href="drawing-app-faceless-ugc.html"><img src="img/sk/grid09.jpg" alt="Drawing App case study cover" loading="lazy" decoding="async" width="388" height="513" loading="lazy" decoding="async"><b>Drawing App</b><span>Faceless canvas UGC, 1.5M organic views.</span></a><a href="baby-furniture-ai-product-visuals.html"><img src="img/dada/it1_final.jpg" alt="Dadada Baby case study cover" loading="lazy" decoding="async" width="560" height="687" loading="lazy" decoding="async"><b>Dadada Baby</b><span>AI product visuals built from customer photos.</span></a><a href="supplement-ugc-ad-testing.html"><img src="img/sm/face.jpg" alt="Supplement Brand case study cover" loading="lazy" decoding="async" width="540" height="960" loading="lazy" decoding="async"><b>Supplement Brand</b><span>16 creator videos, 48 hook versions to test.</span></a><a href="collectibles-store-video-content-factory.html"><img src="img/fs/doombox.jpg" alt="Fragstore case study cover" loading="lazy" decoding="async" width="540" height="960" loading="lazy" decoding="async"><b>Fragstore</b><span>40 videos a month from one shoot day.</span></a></div><p style="margin-top:20px"><a href="index.html" style="color:inherit">All OKAD case studies</a></p></div></section>
 </article></main>
-<footer class="w">OKAD · SmallTalk2Me, 2024 to 2025. View and save counts are from the creators' accounts and the brand's Instagram.</footer>
+<footer class="site-footer"><div class="footer-inner"><div class="footer-top"><a href="/" class="footer-logo">OKAD</a><p class="footer-tagline">Ad creatives, UGC video, web design &amp; branding — 100+ brands, 10,000+ assets.</p></div><nav class="footer-nav"><a href="/cases">Cases</a><a href="/design">Design</a><a href="/#cases">UGC Video</a><a href="/" class="footer-logo-mid">OKAD</a><a href="/#offer">Ad Creatives</a><a href="/pricing">Pricing</a><a href="/blog/">Learn</a></nav><div class="footer-social"><a href="https://x.com/okad_agency" target="_blank" rel="noopener" aria-label="X/Twitter">𝕏</a><a href="https://www.behance.net/okad_agency" target="_blank" rel="noopener" aria-label="Behance">Be</a><a href="https://www.linkedin.com/company/okad-agency/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a><a href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener" aria-label="YouTube">▶</a></div><div class="footer-bottom"><p>&copy; 2026 OKAD GROUP LLC. All rights reserved.</p></div></div></footer>
 
 </body></html>
