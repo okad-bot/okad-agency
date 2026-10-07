@@ -33,6 +33,10 @@ The biggest wins come from a different angle, not a different button. Test in th
 
 Most accounts I audit spend their testing on step 4 and never test step 1.
 
+<div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;margin:32px 0">
+<iframe src="https://www.youtube.com/embed/fPTZR_zlkjY" title="Top Performing UGC Script Frameworks" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
+
 ## Step 2. Build ads from modules
 
 Shoot or generate one body and write 3 to 5 hooks for it. 13 clips can become 72 ads this way. [How modular production works](/blog/blog-high-volume-ugc-production).
@@ -66,6 +70,10 @@ If hook rate is low, change the hook. If hook rate is fine but CTR is low, the b
 - **Scale:** at or under target CPA. Move it to the scaling campaign and make 3 to 5 new hooks for the same body.
 
 Scaling without breaking ROAS is its own topic: [how to scale spend](/blog/blog-how-to-scale-ad-campaigns-roas).
+
+<div style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;margin:32px 0">
+<iframe src="https://www.youtube.com/embed/4E7iyMCY-Xg" title="How to Find Winning UGC Ads & Scale Without Burnout" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen loading="lazy"></iframe>
+</div>
 
 ## Step 7. Refresh before fatigue
 
