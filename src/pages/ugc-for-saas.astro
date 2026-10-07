@@ -1,0 +1,192 @@
+---
+import Base from '../layouts/Base.astro';
+import '../styles/okad-house.css';
+
+const CALL = 'https://calendly.com/okad_calls/first';
+const ORDER = '/#offer';
+
+const painPoints = [
+  { title: 'Your product is hard to show', desc: 'A dashboard or workflow tool doesn\'t have a physical unboxing moment. You need screen recordings, walkthroughs and motion that make the product click in 3 seconds.' },
+  { title: 'Long sales cycles need more touches', desc: 'SaaS buyers don\'t impulse-buy. Ads need to work across the funnel: awareness, consideration, trial. One video won\'t cover all three.' },
+  { title: 'Polished demos feel like ads', desc: 'A studio-produced product tour gets skipped. Native-looking content from a real user gets watched. But "real" still needs to be scripted around the right pain point.' },
+  { title: 'Small audiences fatigue fast', desc: 'B2B audiences on Meta and LinkedIn are narrow. One winning ad loses steam in a week or two. You need a pipeline of fresh creative, not a single hero video.' },
+];
+
+const formats = [
+  { title: 'Screen recording + voiceover', desc: 'Your product in action on a real device, with a voiceover that leads with the benefit, not the feature. The fastest format to produce and often the highest performer for tools with strong UI.' },
+  { title: 'Creator walkthrough', desc: 'A real person on camera, using the product and reacting. Bridges the trust gap: viewers see someone they relate to getting value. Works especially well for TikTok and Reels.' },
+  { title: 'Problem-solution', desc: 'Open with a pain the viewer recognizes ("I used to track everything in spreadsheets"), show the product solving it. Scripts come from customer reviews and support tickets.' },
+  { title: 'Before and after workflow', desc: 'Split-screen or sequential: the old way versus the new way. Makes the time savings or complexity reduction visible and visceral.' },
+  { title: 'Canvas and B-roll', desc: 'Text on screen, product screenshots in motion, no creator face needed. Cheap to test, fast to iterate, works well for retargeting. See my <a href="/cases/canvas-tech-ugc-without-new-shoots/">Canvas & Tech UGC guide</a>.' },
+  { title: 'Founder or team member', desc: 'The founder explains why they built the product. Authentic, high-trust, especially effective for early-stage SaaS going after a niche audience.' },
+];
+
+const proofs = [
+  { title: 'Consumer AI app, Meta ads', desc: '160+ video ads in four months. Cost per customer 35% below the account average. One video got the biggest budget out of ~770 ads in the account.', link: '/cases/creative-testing-ai-app-meta-ads', cta: 'Read the case' },
+  { title: 'Drawing app, faceless UGC', desc: 'Canvas-style content that reached 1.5M organic views. No creator face, no shoot — screen recordings and text overlays.', link: '/cases/drawing-app-faceless-ugc', cta: 'Read the case' },
+  { title: 'EdTech app', desc: 'Social content and UGC ads for an education platform, combining screen recordings with creator reactions.', link: '/cases/edtech-app-ugc-social-content', cta: 'Read the case' },
+  { title: 'Canvas & Tech UGC without new shoots', desc: 'How I turn existing footage, screen recordings and product screenshots into new ads without booking creators.', link: '/cases/canvas-tech-ugc-without-new-shoots/', cta: 'Read the guide' },
+];
+
+const faqs = [
+  { q: 'Does UGC work for B2B SaaS?', a: 'Yes. Decision-makers scroll the same feeds as everyone else. A creator saying "this tool cut my reporting time in half" works the same way a consumer testimonial does — it is social proof in native format. The targeting is harder, but the creative principles are the same.' },
+  { q: 'What about LinkedIn video ads?', a: 'I produce content that works on LinkedIn too: 4:5 or 1:1, sound-off friendly, with clear text overlays. LinkedIn audiences watch less but click more deliberately, so the hook and CTA matter even more.' },
+  { q: 'Can you use our existing product screenshots?', a: 'Yes. Canvas and B-roll formats are built from screenshots, screen recordings and existing assets. No new shoot needed. This is the cheapest way to start testing.' },
+  { q: 'How do you handle complex products?', a: 'I focus on one feature and one pain point per video. A full product tour belongs on your website, not in an ad. Each ad answers one question: "What does this do for me?"' },
+  { q: 'What if we already have a demo video?', a: 'A polished demo is not an ad. But I can use the same screen recordings as raw material, re-edit them with hooks, captions and native pacing, and turn one demo into 5 to 10 testable ads.' },
+];
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "UGC Ads for SaaS and Tech Companies",
+  "provider": { "@type": "Organization", "name": "OKAD Agency", "url": "https://okad.agency" },
+  "description": "UGC video ads for SaaS and tech products. Screen recordings, creator walkthroughs, canvas formats. Start with 10 videos for $500.",
+  "url": "https://okad.agency/ugc-for-saas/",
+};
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": faqs.map(f => ({
+    "@type": "Question",
+    "name": f.q,
+    "acceptedAnswer": { "@type": "Answer", "text": f.a },
+  })),
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://okad.agency/" },
+    { "@type": "ListItem", "position": 2, "name": "UGC for SaaS" },
+  ],
+};
+---
+
+<Base title="UGC Ads for SaaS & Tech: Screen Recordings, Creator Walkthroughs | OKAD" description="UGC video ads for SaaS and tech products. Screen recordings, creator walkthroughs, canvas formats and hook testing. Start with 10 videos for $500.">
+  <Fragment slot="head">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
+    <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+
+  <div class="okh">
+
+    <!-- HERO -->
+    <section class="khero" style="padding:80px 0 48px">
+      <div class="w" style="max-width:900px">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <span>UGC for SaaS</span></nav>
+        <h1 style="font-size:clamp(2rem,4.5vw,3.4rem);margin-bottom:16px">UGC ads for SaaS that show the product without a <span class="cap">boring demo</span></h1>
+        <p class="lead">Your product demo is 3 minutes long and nobody watches past the intro. I make 15 to 30 second videos that show one feature solving one problem, in a format that looks native to the feed — not like a product tour someone was forced to watch.</p>
+        <p style="margin-top:16px;color:var(--soft,#4d4d49)">Screen recordings, creator walkthroughs, canvas formats. Each video gets 3 to 5 hook variations so you find the angle that converts before the ad fatigues.</p>
+        <div class="row" style="margin-top:32px">
+          <a class="btn" href={ORDER}>Order 10 videos &middot; $500</a>
+          <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY SAAS ADS ARE HARD -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">Why SaaS video ads are <span class="cap y">different</span></h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px">
+        {painPoints.map(p => (
+          <div style="padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <strong style="display:block;margin-bottom:4px">{p.title}</strong>
+            <p style="color:var(--soft,#4d4d49);margin:0;font-size:14px">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- FORMATS THAT WORK -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">Formats that work for <span class="cap g">SaaS</span></h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px">
+        {formats.map(f => (
+          <div style="padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <strong style="display:block;margin-bottom:4px">{f.title}</strong>
+            <p style="color:var(--soft,#4d4d49);margin:0;font-size:14px" set:html={f.desc}></p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px"><span class="cap p">Proof</span></h2>
+      <div style="display:grid;gap:16px">
+        {proofs.map(c => (
+          <div style="padding:24px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <strong style="display:block;margin-bottom:6px">{c.title}</strong>
+            <p style="color:var(--soft,#4d4d49);margin:0 0 12px;font-size:15px">{c.desc}</p>
+            <a href={c.link} style="font-size:14px;font-weight:600">{c.cta} →</a>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- HOW I WORK -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">How it <span class="cap v">works</span></h2>
+      <div style="display:grid;gap:12px">
+        <div style="display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+          <span style="width:28px;height:28px;border-radius:50%;background:#111;color:var(--dew,#eefb6e);font-size:14px;font-weight:600;display:grid;place-items:center">1</span>
+          <p style="color:var(--soft,#4d4d49);margin:0;font-size:15px"><strong>I use your product.</strong> I sign up, go through the onboarding, and find the moments that would make someone say "I need this." Competitor ads, reviews, and support tickets fill in the rest.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+          <span style="width:28px;height:28px;border-radius:50%;background:#111;color:var(--dew,#eefb6e);font-size:14px;font-weight:600;display:grid;place-items:center">2</span>
+          <p style="color:var(--soft,#4d4d49);margin:0;font-size:15px"><strong>Scripts and format decisions.</strong> One feature per video, one pain point per script. I decide which parts are screen recording, which are creator, and which are canvas.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+          <span style="width:28px;height:28px;border-radius:50%;background:#111;color:var(--dew,#eefb6e);font-size:14px;font-weight:600;display:grid;place-items:center">3</span>
+          <p style="color:var(--soft,#4d4d49);margin:0;font-size:15px"><strong>Production.</strong> Screen recordings on real devices, creators from my network, or pure canvas from your existing assets. Each video gets 3 to 5 hook variations.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:32px 1fr;gap:12px;align-items:start;padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+          <span style="width:28px;height:28px;border-radius:50%;background:#111;color:var(--dew,#eefb6e);font-size:14px;font-weight:600;display:grid;place-items:center">4</span>
+          <p style="color:var(--soft,#4d4d49);margin:0;font-size:15px"><strong>Test and iterate.</strong> After launch I read hook rate, CTR and cost per trial. The next batch doubles down on what worked. <a href="/blog/meta-creative-testing-framework/">My testing framework</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:16px">Pricing</h2>
+      <ul style="list-style:none;padding:0;display:grid;gap:10px;color:var(--soft,#4d4d49);font-size:15px">
+        <li><strong>Starter, no call:</strong> 10 ready-to-run videos, a testing plan, 5 business days, <strong>$500</strong>.</li>
+        <li><strong>Monthly testing:</strong> from <strong>$2,500/month</strong>, about <strong>$100 per custom video</strong> with strategy, scripts, casting, filming and editing.</li>
+        <li><strong>Canvas-only:</strong> cheaper — built from your existing screenshots, recordings and assets.</li>
+      </ul>
+      <p style="margin-top:16px"><a href="/ugc-pricing/">Full breakdown on UGC pricing</a> · <a href="/ai-ugc-agency/">AI UGC for even cheaper testing</a></p>
+    </section>
+
+    <!-- FAQ -->
+    <section style="max-width:900px;margin:0 auto;padding:48px 24px">
+      <h2 style="font-size:clamp(1.5rem,3vw,2rem);margin-bottom:24px">FAQ</h2>
+      <div style="display:grid;gap:12px">
+        {faqs.map(f => (
+          <details style="padding:20px;background:var(--off-white,#f7f7f7);border-radius:12px;border:1px solid var(--border,#e6e6e6)">
+            <summary style="font-weight:600;cursor:pointer">{f.q}</summary>
+            <p style="margin:12px 0 0;color:var(--soft,#4d4d49);font-size:15px">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="background:var(--stage,#111);padding:80px 24px;text-align:center">
+      <div style="max-width:700px;margin:0 auto">
+        <h2 style="color:#fff;font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:16px">Ready to turn your product into scroll-stopping ads?</h2>
+        <p style="color:var(--stage-soft,#8e8e8e);margin-bottom:32px">10 videos in 5 days. Screen recordings, creator content, or canvas — whatever fits your product best.</p>
+        <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+          <a class="btn" href={ORDER}>Order 10 videos &middot; $500</a>
+          <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</Base>
