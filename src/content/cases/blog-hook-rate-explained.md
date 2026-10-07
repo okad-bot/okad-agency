@@ -43,7 +43,7 @@ Hook rate directly impacts:
 - **Ad cost efficiency** — Platforms charge for impressions. If 80% of viewers scroll past immediately, you are paying for eyeballs that never received your message.
 - **Downstream metrics** — Click-through rate, conversion rate, and engagement are all higher when more people actually watch your content.
 
-Improving hook rate from 30% to 50% can reduce effective cost-per-message-delivered by 40% without changing any other part of the campaign.
+Improving hook rate from 30% to 50% can reduce effective cost-per-message-delivered by 40% without changing any other part of the campaign. This is one reason [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/) starts with hooks before anything else.
 
 ## Hook Rate Benchmarks by Platform
 
@@ -110,7 +110,7 @@ For paid video ads, hook rate is the primary indicator of creative viability:
 - **35–50%** — Strong hook. Focus optimization on the rest of the funnel (CTA, landing page, targeting).
 - **Above 50%** — Excellent. Scale spend and test how far this creative can go before fatigue sets in.
 
-Testing hooks is the highest-leverage activity in video advertising. A 10% improvement in hook rate flows through to every downstream metric.
+Testing hooks is the highest-leverage activity in video advertising. A 10% improvement in hook rate flows through to every downstream metric. For a practical system that produces dozens of hook variations efficiently, see our guide on [modular creative production](/blog/blog-modular-creative-production/). And when a winning hook eventually stops working, our [ad fatigue prevention guide](/blog/blog-ad-fatigue-prevention/) explains how to recognize decay early and act before it tanks your ROAS.
 
 ## The Hook Rate Stack
 
@@ -124,4 +124,4 @@ The best-performing video ads combine multiple hook elements:
 
 This three-layer stack addresses different viewer attention modes simultaneously. Some viewers respond to visual motion, others to text, others to spoken words. The stack catches all three.
 
-Hook rate is not a vanity metric. It is the most actionable number in video marketing because it measures the one moment where you win or lose the viewer. Every percentage point improvement translates directly to more people receiving your message — and every improvement to your opening technique compounds across every video you create afterward.
+Hook rate is not a vanity metric. It is the most actionable number in video marketing because it measures the one moment where you win or lose the viewer. We saw this principle in action in our [AI app Meta ads case study](/cases/creative-testing-ai-app-meta-ads/), where hook-level testing drove the largest performance gains. Every percentage point improvement translates directly to more people receiving your message — and every improvement to your opening technique compounds across every video you create afterward.

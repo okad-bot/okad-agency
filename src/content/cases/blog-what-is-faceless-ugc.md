@@ -20,7 +20,7 @@ faqs:
 
 Faceless UGC is video content where nobody appears on camera. No talking heads. No influencer intros. Just the product, the process, or the screen — with a voiceover, text overlays, or ASMR-style ambient sound doing the communication work.
 
-This is not a workaround for camera-shy creators. It is a production format that outperforms face-to-camera content in specific categories and at specific scales.
+This is not a workaround for camera-shy creators. It is a production format that outperforms face-to-camera content in specific categories and at specific scales. For a gallery of formats that work, see our breakdown of [12 faceless UGC examples](/blog/blog-faceless-ugc-examples/) with real performance data.
 
 ## How Faceless UGC Works
 
@@ -65,7 +65,7 @@ Faceless UGC removes that bottleneck:
 
 **Easier localization.** Swap the voiceover language or text overlays. The visual content stays the same. One shoot produces content for every market.
 
-**Longer shelf life.** Face-to-camera content ages with the creator. Faceless content stays evergreen because there is no person to become dated or irrelevant.
+**Longer shelf life.** Face-to-camera content ages with the creator. Faceless content stays evergreen because there is no person to become dated or irrelevant. Read the [full Skribly case study](/cases/high-roas-ugc-ads/) to see the complete campaign results and strategy.
 
 **Platform-native feel.** TikTok and Reels audiences are trained on POV, tutorial, and ASMR formats. Faceless content blends into the feed naturally.
 
@@ -128,6 +128,6 @@ At Skribly's scale of 1,257 videos, the difference between $150/video and $50/vi
 5. Scale what works — faceless production supports rapid iteration
 
 **For creators:**
-Faceless UGC is the fastest path to consistent work. Brands need volume, and faceless formats let you deliver more assets per day than on-camera work. Start with POV product demos or screen recordings in a niche you understand.
+Faceless UGC is the fastest path to consistent work. Brands need volume, and faceless formats let you deliver more assets per day than on-camera work. Start with POV product demos or screen recordings in a niche you understand. Our [guide to starting faceless UGC](/blog/blog-how-to-start-faceless-ugc/) walks through equipment, portfolio building, and where to find jobs.
 
-Faceless UGC is not a trend — it is a production format that solves real scaling problems. Brands that need 50, 100, or 1,000+ videos per month cannot rely on on-camera talent for every one. The brands winning on short-form platforms in 2026 are the ones that figured this out.
+Faceless UGC is not a trend — it is a production format that solves real scaling problems. Brands that need [50 to 1,000+ videos per month](/blog/blog-faceless-ugc-for-brands/) cannot rely on on-camera talent for every one. The brands winning on short-form platforms in 2026 are the ones that figured this out.

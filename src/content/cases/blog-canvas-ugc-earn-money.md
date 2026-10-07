@@ -18,7 +18,7 @@ faqs:
     a: "Yes. Canvas UGC income is self-employment income in most countries. Track all earnings and business expenses (equipment, software, home office). Set aside 25–30% of earnings for taxes. Consult a tax professional once your annual earnings exceed $5,000."
 ---
 
-The question every new canvas UGC creator asks: how much can I actually earn? The answer depends on volume, niche, experience, and how you structure your business. Here is real data on what creators make and the specific strategies that separate $500/month creators from $5,000/month creators.
+The question every new [canvas UGC](/blog/blog-what-is-canvas-ugc/) creator asks: how much can I actually earn? The answer depends on volume, niche, experience, and how you structure your business. Here is real data on what creators make and the specific strategies that separate $500/month creators from $5,000/month creators.
 
 ## Canvas UGC Earnings by Experience Level
 
@@ -80,7 +80,7 @@ Not all canvas UGC pays the same:
 | Health / Wellness | $100–$250 | Regulated claims require careful creators |
 | Food / Beverage | $50–$150 | Low barrier, high competition |
 
-Tech and finance pay more because the barrier to entry is higher. If you can clearly explain a software product or financial concept on camera, you will always command premium rates.
+Tech and finance pay more because the barrier to entry is higher. If you can clearly explain a software product or financial concept on camera, you will always command premium rates. Our [tech UGC guide](/blog/blog-tech-ugc-guide/) goes deeper on what brands expect from creators in this space.
 
 ### 2. Move from Platforms to Direct Contracts
 
@@ -149,4 +149,4 @@ Treat earnings like a business from day one:
 - **Deduct business expenses** — Equipment, software, internet, home office space
 - **Review monthly** — Are earnings growing? Which clients/niches pay best? Where should you focus?
 
-Canvas UGC is a growing market with real income potential. The creators who treat it professionally — building skills, relationships, and business systems — consistently out-earn those who approach it casually.
+Canvas UGC is a growing market with real income potential. The creators who treat it professionally — building skills, relationships, and business systems — consistently out-earn those who approach it casually. Ready to get started? Our [step-by-step canvas UGC guide](/blog/blog-how-to-start-canvas-ugc/) covers everything from equipment to landing your first jobs. And to understand what drives the demand on the brand side, see how OKAD runs [high-volume UGC ad production](/cases/high-roas-ugc-ads/) for clients.

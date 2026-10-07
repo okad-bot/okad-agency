@@ -67,7 +67,7 @@ If an ad never performed above your CPA target, it is not fatigued — it was ne
 
 These approaches delay fatigue but cannot prevent it indefinitely:
 
-**1. Replace the hook.** Swap the first 3 seconds while keeping the body and CTA. The hook is the highest-leverage component — a new opening makes the ad feel fresh even if the core message is identical.
+**1. Replace the hook.** Swap the first 3 seconds while keeping the body and CTA. The hook is the highest-leverage component — a new opening makes the ad feel fresh even if the core message is identical. Our [hook rate guide](/blog/blog-hook-rate-explained/) covers the specific techniques that produce stronger openings.
 
 **2. Update the thumbnail.** For static ads or video ads in placements that show a preview image, changing the first frame can extend lifespan significantly.
 
@@ -97,7 +97,7 @@ Extension techniques buy time. The only structural solution to ad fatigue is a c
 
 If you need 5 active winning ads at any time, and your creative success rate is 25% (1 in 4 concepts works), you must produce 20 concepts per testing cycle to maintain your winners.
 
-This is why UGC and canvas UGC are essential for brands spending seriously on paid media. Studio production cannot match the volume requirement. A network of 10–15 UGC creators producing weekly delivers the creative volume that scaling demands.
+This is why UGC and canvas UGC are essential for brands spending seriously on paid media. Studio production cannot match the volume requirement. A network of 10–15 UGC creators producing weekly delivers the creative volume that scaling demands. Our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) explains how to build that pipeline. For even more efficiency, [modular creative production](/blog/blog-modular-creative-production/) shows how 13 components can generate 72 ad variations.
 
 ## Monitoring System
 
@@ -123,4 +123,4 @@ When fatigue hits, choose one of three paths:
 
 **Kill** — CPA is above your threshold and declining. Stop spending immediately. No amount of optimization saves a dead creative.
 
-The brands that maintain ROAS at scale are not avoiding fatigue — they are outrunning it. They produce more creative, test faster, and replace fatigued assets before performance collapses. Ad fatigue is not a problem to solve. It is a constraint to operate within.
+The brands that maintain ROAS at scale are not avoiding fatigue — they are outrunning it. They produce more creative, test faster, and replace fatigued assets before performance collapses. Ad fatigue is not a problem to solve. It is a constraint to operate within. For the complete testing framework that keeps your pipeline ahead of decay, read our guide on [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/). And to see fatigue management in a real campaign, check our [creative testing case study for Meta ads](/cases/creative-testing-ai-app-meta-ads/).

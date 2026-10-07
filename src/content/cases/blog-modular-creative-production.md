@@ -92,7 +92,7 @@ This naming structure enables component-level analytics. When you see that `hook
 
 ### Step 4: Test Hooks First
 
-Hooks have the highest leverage on performance. The first 3 seconds determine whether the remaining 25 seconds are seen at all.
+Hooks have the highest leverage on performance. The first 3 seconds determine whether the remaining 25 seconds are seen at all — our [hook rate guide](/blog/blog-hook-rate-explained/) explains exactly how to measure and improve this.
 
 Testing order:
 1. **Hooks first** — Test all 6 hooks with the same body and CTA. Identify the 2–3 winners.
@@ -152,7 +152,7 @@ The hidden power of modular creative is component-level performance data:
 - **Body 2** consistently lowers CPA by 15% compared to Body 1 → invest in this narrative approach
 - **Creator X's** components outperform Creator Y's by 20% → give Creator X more briefs
 
-Traditional production gives you ad-level data: this ad works, this ad does not. Modular production tells you why — which specific 3-second opening, which narrative structure, which CTA drives the result. That intelligence compounds over time.
+Traditional production gives you ad-level data: this ad works, this ad does not. Modular production tells you why — which specific 3-second opening, which narrative structure, which CTA drives the result. That intelligence compounds over time. Build a proper [ad creative analysis dashboard](/blog/blog-ad-creative-analysis-dashboard/) to capture these component-level insights systematically.
 
 ## Getting Started
 
@@ -162,4 +162,4 @@ Shoot everything in a single session. Assemble combinations. Test hooks first. S
 
 Once the system is running, expand: more concepts, more creators, more component types. The production infrastructure stays the same — only the volume grows.
 
-Modular creative is not a creative technique. It is a production system that turns ad creative from an artisanal craft into a scalable operation. The brands outperforming on paid media are not making better individual ads — they are making more variations, faster, and letting data decide which components win.
+Modular creative is not a creative technique. It is a production system that turns ad creative from an artisanal craft into a scalable operation. For the complete testing framework that goes hand-in-hand with modular production, read our guide on [how many ad variations you actually need](/blog/blog-ad-creative-testing-how-many-variations/). We put this exact approach into practice in our [AI app creative testing case study](/cases/creative-testing-ai-app-meta-ads/). The brands outperforming on paid media are not making better individual ads — they are making more variations, faster, and letting data decide which components win.

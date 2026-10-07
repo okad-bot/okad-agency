@@ -18,7 +18,7 @@ faqs:
     a: "Food and beverage, beauty and skincare, mobile apps, arts and crafts, cleaning products, tech and SaaS, and educational content. Any industry where the product or process is more compelling than a person talking about it."
 ---
 
-Faceless UGC is everywhere on TikTok, Reels, and Shorts — but most brands still default to talking-head creator content. That is a missed opportunity. Faceless formats dominate in specific categories and often outperform face-to-camera content on cost-per-view and retention.
+[Faceless UGC](/blog/blog-what-is-faceless-ugc/) is everywhere on TikTok, Reels, and Shorts — but most brands still default to talking-head creator content. That is a missed opportunity. Faceless formats dominate in specific categories and often outperform face-to-camera content on cost-per-view and retention.
 
 Here are 12 faceless UGC formats that work, with real examples of each.
 
@@ -28,7 +28,7 @@ Here are 12 faceless UGC formats that work, with real examples of each.
 
 **Why it works:** POV creates immersion. The viewer mentally places themselves in the creator's position. This drives higher watch time because the brain processes it as an experience, not an advertisement.
 
-**Real example:** For Skribly (a drawing app), OKAD produced 1,257 POV drawing videos — a hand, a pencil, a voiceover. The best-performing variation: two people drawing together in real time with unexpected outcomes. Result: 1.5M views and 2,000 app registrations.
+**Real example:** For Skribly (a drawing app), OKAD produced 1,257 POV drawing videos — a hand, a pencil, a voiceover. The best-performing variation: two people drawing together in real time with unexpected outcomes. Result: 1.5M views and 2,000 app registrations. Read the [full Skribly case study](/cases/high-roas-ugc-ads/) for the complete production strategy.
 
 **Best for:** Art and drawing apps, cooking and recipe brands, craft supplies, beauty application, assembly products.
 
@@ -140,4 +140,4 @@ The playbook:
 4. **Kill underperformers**, double production on winners
 5. **Scale** to 100+ videos/month on the winning formats
 
-Faceless UGC is not about avoiding the camera. It is about choosing the format where the product — not the presenter — drives the viewer's decision.
+Faceless UGC is not about avoiding the camera. It is about choosing the format where the product — not the presenter — drives the viewer's decision. If you are a creator ready to start, our [faceless UGC starter guide](/blog/blog-how-to-start-faceless-ugc/) covers equipment and portfolio building. For brands looking to scale production, see our playbook on [faceless UGC for brands](/blog/blog-faceless-ugc-for-brands/).

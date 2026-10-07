@@ -43,7 +43,7 @@ Not all variables are equal. Testing the wrong thing first wastes budget and del
 
 The hook is the first 1-3 seconds of your video. On TikTok, you lose roughly 50% of viewers within the first second. On Meta Reels and Stories, the window is slightly more forgiving but not by much.
 
-This is the single highest-leverage variable you can test. We typically produce 3-5 hook variations for every winning body. Each hook takes the same core video and replaces only the opening. Examples of hook variations:
+This is the single highest-leverage variable you can test — we explain exactly why in our deep dive on [hook rate](/blog/blog-hook-rate-explained/). We typically produce 3-5 hook variations for every winning body. Each hook takes the same core video and replaces only the opening. Examples of hook variations:
 
 - **Direct claim:** "This replaced my entire skincare routine."
 - **Pattern interrupt:** Start with an unexpected visual or sound before the product appears.
@@ -147,7 +147,7 @@ TikTok creatives fatigue faster than Meta creatives. The TikTok audience consume
 - **Meta (Feed/Reels):** 14-21 days, with top performers lasting up to 30-45 days
 - **Meta (Stories):** 10-14 days, shorter format means faster fatigue
 
-This is why ongoing creative production is not optional. You need a pipeline that replaces fatigued creatives before they drag account performance down. Waiting until performance crashes to start producing new content means 2-3 weeks of declining ROAS while new creatives are shot, edited, and tested.
+This is why ongoing creative production is not optional — our full guide on [ad fatigue prevention](/blog/blog-ad-fatigue-prevention/) covers early warning signs and extension techniques in detail. You need a pipeline that replaces fatigued creatives before they drag account performance down. Waiting until performance crashes to start producing new content means 2-3 weeks of declining ROAS while new creatives are shot, edited, and tested.
 
 ## Budget Allocation: The 70/20/10 Rule
 
@@ -173,7 +173,7 @@ Here is a monthly cycle for a brand spending $20K/month on paid social:
 
 **Week 4:** Analyze test results. Kill underperformers, graduate winners to scaling campaigns, document learnings. Begin briefing the next round of production.
 
-This cycle repeats every month. The brands that maintain this cadence consistently outperform those that produce a batch of content and let it run until performance falls off.
+This cycle repeats every month. The brands that maintain this cadence consistently outperform those that produce a batch of content and let it run until performance falls off. [Modular creative production](/blog/blog-modular-creative-production/) takes this further — producing 72 ad variations from just 13 components. We applied this testing methodology in our [creative testing case study for a Meta ads campaign](/cases/creative-testing-ai-app-meta-ads/), where systematic variation testing drove measurable performance gains.
 
 ## Working With a Production Partner
 

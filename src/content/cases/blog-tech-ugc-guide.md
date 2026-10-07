@@ -35,7 +35,7 @@ This distinction is why tech UGC requires different creators, different formats,
 | Hook style | "This product changed my routine" | "I found a tool that does X in 3 clicks" |
 | View retention driver | Personality and entertainment | Curiosity about how the product works |
 
-The performance data supports the distinction: UGC drives conversion rates 79% higher than brand content for products requiring downloads. But only when the UGC actually demonstrates the product — talking about software without showing it performs worse than a polished product demo.
+The performance data supports the distinction: UGC drives conversion rates 79% higher than brand content for products requiring downloads. But only when the UGC actually demonstrates the product — talking about software without showing it performs worse than a polished product demo. We saw this principle at work in our [creative testing case study for an AI app](/cases/creative-testing-ai-app-meta-ads/), where format and hook selection dramatically impacted acquisition cost.
 
 ## Best Formats for Tech UGC
 
@@ -58,7 +58,7 @@ Specific to AI tools: show the input (prompt, upload, or command) and the output
 
 Tech UGC follows a tighter structure than lifestyle UGC because the viewer needs specific information, not a story:
 
-**Hook (0–3s):** Present a specific, relatable problem with concrete details.
+**[Hook](/blog/blog-hook-rate-explained/) (0–3s):** Present a specific, relatable problem with concrete details.
 - Good: "I used to spend 2 hours editing every video — now it takes 3 minutes"
 - Bad: "This app is amazing, let me show you"
 
@@ -137,4 +137,4 @@ For organic content: track views, sign-ups from bio link, and engagement. Commen
 - **Developer tools** — APIs, SDKs, infrastructure (niche but high-value audience)
 - **Hardware with software** — Smart home, wearables, IoT devices
 
-Tech UGC is the bridge between "this product exists" and "I understand how to use it." For any product that requires comprehension before conversion, creator-made demonstrations outperform every other ad format.
+Tech UGC is the bridge between "this product exists" and "I understand how to use it." For any product that requires comprehension before conversion, creator-made demonstrations outperform every other ad format. Screen recording content also works as [faceless UGC](/blog/blog-what-is-faceless-ugc/) — one of the fastest formats to produce at scale. For cost benchmarks, see our [UGC rates guide](/blog/blog-ugc-creator-rates-pricing/) which breaks down tech niche pricing specifically.

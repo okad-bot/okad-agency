@@ -26,7 +26,7 @@ Three forces work against you as spend increases:
 
 **Audience saturation.** Your best-performing audiences are small. At low budgets, you only reach the most responsive people. Scaling forces the algorithm to reach progressively colder audiences who are less likely to convert.
 
-**Creative fatigue.** Higher spend means higher frequency. The same ad shown to the same person multiple times loses effectiveness. Click-through rates drop, cost-per-click rises, and conversion rates decline.
+**[Creative fatigue](/blog/blog-ad-fatigue-prevention/).** Higher spend means higher frequency. The same ad shown to the same person multiple times loses effectiveness. Click-through rates drop, cost-per-click rises, and conversion rates decline.
 
 **Algorithm inefficiency.** Rapid budget increases disrupt the platform's learning phase. The algorithm optimized for one budget level needs time to re-learn delivery patterns at a higher level. Jump from $500/day to $2,000/day overnight and expect 2–3 days of volatile performance.
 
@@ -64,7 +64,7 @@ This is not arbitrary. Each ad variation fatigues at roughly the same rate (meas
 - $7K–$15K/day: 2–3 new concepts per week
 - $15K+/day: Continuous creative pipeline (daily new assets)
 
-This is where UGC and canvas UGC become essential for scale. Studio production cannot match the volume requirement. A team of 5–10 UGC creators producing weekly assets gives you the creative pipeline that scaling demands.
+This is where UGC and canvas UGC become essential for scale. Studio production cannot match the volume requirement. A team of 5–10 UGC creators producing weekly assets gives you the creative pipeline that scaling demands — our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) shows how to build it.
 
 ## Strategy 3: Audience Expansion (Not Just Broader Targeting)
 
@@ -113,7 +113,7 @@ When scaling, watch these metrics daily:
 
 **Frequency:** How many times the average person sees your ad per week. Above 2.5–3x frequency, fatigue accelerates. This is your signal to rotate creative or expand audiences.
 
-**Hook rate:** Dropping hook rates on previously strong creative signal fatigue. When hook rate declines 20%+ from its peak, that creative is burning out.
+**[Hook rate](/blog/blog-hook-rate-explained/):** Dropping hook rates on previously strong creative signal fatigue. When hook rate declines 20%+ from its peak, that creative is burning out.
 
 **CPA by audience segment:** Which audiences maintain efficiency at higher spend? Which degrade? Shift budget toward efficient segments and pause degrading ones.
 
@@ -142,4 +142,4 @@ Sustainable scaling follows a cycle:
 5. **Expand audiences** → New segments, new platforms
 6. Return to step 1
 
-Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. The operational challenge is not strategy. It is producing enough good creative, fast enough, to keep the engine fed.
+Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. See how we applied this scaling approach in our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/). The operational challenge is not strategy. It is producing enough good creative, fast enough, to keep the engine fed.

@@ -105,9 +105,9 @@ TikTok Spark Ads specifically carry advantages:
 
 **Choose the right creators.** Follower count matters less than niche relevance and engagement rate. A 15K-follower creator with 10% engagement in your niche will outperform a 500K-follower general creator with 1% engagement.
 
-**Let creators be creators.** The worst partnership ads are scripts read word-for-word. Provide key messages and constraints, then let the creator deliver in their natural style. Authenticity is the entire value of the format.
+**Let creators be creators.** The worst partnership ads are scripts read word-for-word. Provide key messages and constraints, then let the creator deliver in their natural style. Authenticity is the entire value of the format — our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) explains how to brief creators for performance without killing authenticity.
 
-**Test organic first.** Post the content organically before promoting it. If it gets natural engagement, amplify with Spark Ads or partnership promotion. Content that fails organically rarely succeeds as a paid ad.
+**Test organic first.** Post the content organically before promoting it. If it gets natural engagement, amplify with Spark Ads or partnership promotion. Content that fails organically rarely succeeds as a paid ad. Our [organic video content case study](/cases/organic-video-content-1m-views/) shows how organic-first content can achieve massive reach before any paid amplification.
 
 **Budget for scale.** Partnership ads work best with sustained spend, not one-off boosts. Plan for monthly creator partnerships with ongoing Spark Ad budgets rather than single posts.
 
@@ -121,6 +121,6 @@ TikTok Spark Ads specifically carry advantages:
 
 **Maintain authenticity.** Your audience trusts you because you are genuine. Partnership ads that feel forced damage that trust and hurt both you and the brand. Only partner with products you would genuinely use or recommend.
 
-**Charge for usage, not just creation.** Content creation is one fee. Partnership ad authorization — letting a brand spend potentially thousands of dollars promoting your face and name — is a separate fee. Structure pricing to reflect both.
+**Charge for usage, not just creation.** Content creation is one fee. Partnership ad authorization — letting a brand spend potentially thousands of dollars promoting your face and name — is a separate fee. Structure pricing to reflect both. Our [UGC rates guide](/blog/blog-ugc-creator-rates-pricing/) includes whitelisting fee benchmarks by tier.
 
-Partnership ads represent the convergence of creator marketing and performance advertising. Brands get the trust and engagement of creator content with the targeting and scale of paid media. Creators get additional revenue from content they are already making. The format works because it aligns incentives: both parties benefit when the content is authentic and the audience responds.
+For a deeper dive into the mechanics and contracts, see our complete [UGC whitelisting guide](/blog/blog-ugc-whitelisting-guide/). Partnership ads represent the convergence of creator marketing and performance advertising. Brands get the trust and engagement of creator content with the targeting and scale of paid media. Creators get additional revenue from content they are already making. The format works because it aligns incentives: both parties benefit when the content is authentic and the audience responds.
