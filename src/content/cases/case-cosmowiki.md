@@ -1,6 +1,6 @@
 ---
-title: "Cosmo.wiki — Pre-Launch Community Growth for a Cosmetics Platform"
-description: "How we grew Cosmo.wiki's Instagram to 1,000 followers and 600K+ reach in 2 months before the product launched, using $0.11 CPC ads, Reels, and DM automation."
+title: "Pre-Launch Marketing: 1K Followers & 600K Reach in 2 Months"
+description: "How to grow a community before product launch: 1,000 followers and 600K+ reach in 2 months with $0.11 CPC ads, Reels, and DM automation."
 type: case
 date: 2025-03-15
 lang: en

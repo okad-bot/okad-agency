@@ -1,6 +1,6 @@
 ---
-title: "Dating.com \u2014 Creator Content for Singles 40+"
-description: "Five months of scripts, casting and editing: 60+ videos in seven formats for Dating.com TikTok and Zendate Instagram."
+title: "Dating App Video Ads: 60+ UGC Videos for 40+ Audience"
+description: "Five months of scripts, casting, and editing: 60+ videos in seven formats for Dating.com TikTok and Zendate Instagram, targeting singles 40+."
 type: case
 date: 2026-08-31
 lang: en

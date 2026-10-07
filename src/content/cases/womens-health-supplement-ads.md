@@ -1,6 +1,6 @@
 ---
-title: "Women's Health Supplement \u2014 12-Video Hook Test"
-description: "Two creators, four hooks each: a 12-video test for a women's health supplement, edited from footage the brand already had."
+title: "Video Ad Hook Testing: 12-Video Framework (Case Study)"
+description: "How to test video ad hooks systematically: 2 creators x 4 hooks = 12 testable variations from existing footage. No new shoot needed."
 type: case
 date: 2026-09-30
 lang: en

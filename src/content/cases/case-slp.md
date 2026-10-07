@@ -1,6 +1,6 @@
 ---
-title: "SLP — Community Branding & Content Strategy for Entrepreneurs"
-description: "How we built SLP's entrepreneur community brand with content strategy, video production, and social media — growing engagement and member participation."
+title: "Entrepreneur Community: Branding & Content That Grows"
+description: "Community brand, content strategy, and video production for an entrepreneur network — growing engagement and member participation."
 type: case
 date: 2024-12-01
 lang: en

@@ -1,6 +1,6 @@
 ---
-title: "Gently & Cybercore — Brand Ecosystem for an Automotive Community in Portugal"
-description: "How we turned a car import service into a three-brand ecosystem — Cyber Pulse, Cybercore community, and Gently detailing studio — with zero paid ads and organic audience migration."
+title: "Automotive Brand Ecosystem: 3 Brands, Zero Paid Ads"
+description: "How we turned a car import service into a three-brand ecosystem with organic audience migration — zero paid ads, full community growth."
 type: case
 date: 2025-06-01
 lang: en

@@ -1,6 +1,6 @@
 ---
-title: "Samto — UX/UI Design for a Mental Wellness App MVP"
-description: "Full UX/UI design, branding, and product strategy for Samto mental health app. From MVP to V2 optimization with mood tracking, AI assistant, and user testing."
+title: "Mental Health App UX/UI: MVP to V2 (Case Study)"
+description: "Full UX/UI design for a mental wellness app — MVP to V2 with mood tracking, AI assistant, and user testing. Branding and product strategy included."
 type: case
 date: 2025-06-15
 lang: en

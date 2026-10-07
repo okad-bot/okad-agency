@@ -1,6 +1,6 @@
 ---
-title: "SUNC MSU — Alumni Merch Design for Moscow State University"
-description: "How we designed community-driven merchandise for SUNC MSU alumni, delivering 3 concepts in a rapid sprint and producing a classic university-style collection for ages 18-35."
+title: "University Merch Design: Alumni Collection (Case Study)"
+description: "Community-driven merchandise for university alumni: 3 design concepts in a rapid sprint, classic university-style collection for ages 18-35."
 type: case
 date: 2024-10-15
 lang: en

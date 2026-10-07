@@ -1,6 +1,6 @@
 ---
-title: "Bit Matrix — Brand Identity & Wix Website for an AdTech Platform"
-description: "We built a full brand identity, dark-mode Wix website, and sales media deck for Bit Matrix — an AdTech B2B platform — delivered in one design cycle."
+title: "B2B SaaS Branding: Identity, Website & Sales Deck"
+description: "Full brand identity, dark-mode website, and sales deck for an AdTech B2B platform — delivered in one design cycle."
 type: case
 date: 2025-05-01
 lang: en

@@ -1,6 +1,6 @@
 ---
-title: "UpRest — B2B Lead Generation for Restaurant SaaS in Portugal"
-description: "How we cut UpRest's cost per lead from EUR 10.97 to EUR 2.75 and generated 100+ qualified B2B leads for their Portugal market launch with lean video ads."
+title: "B2B Lead Gen: EUR 10.97 to EUR 2.75 Cost Per Lead"
+description: "How video ads cut cost per lead from EUR 10.97 to EUR 2.75 for a restaurant SaaS in Portugal. 100+ qualified B2B leads from lean campaigns."
 type: case
 date: 2025-07-15
 lang: en
