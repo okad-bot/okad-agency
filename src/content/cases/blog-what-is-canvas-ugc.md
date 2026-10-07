@@ -1,8 +1,8 @@
 ---
 hook: "What is Canvas UGC?"
 topic: for-creators
-title: "What Is Canvas UGC? Definition, Examples, and How It Works"
-description: "Canvas UGC is a new format of user-generated content created directly inside platform templates. Learn what canvas UGC means, how it differs from traditional UGC, and why brands are adopting it."
+title: "Canvas UGC: Get 3x More Ads Without Filming"
+description: "Canvas UGC lets brands scale ad creative 3x faster with structured templates. See how it works, real examples, and why top DTC brands are switching."
 type: blog
 lang: en
 cover: "/images/cases/case-slp.jpg"

@@ -1,8 +1,8 @@
 ---
 hook: "How do you pitch a brand as a creator?"
 topic: for-creators
-title: "How to Write a Brand Pitch as a UGC Creator"
-description: "A step-by-step guide to writing brand pitches that get responses — what to include, how to personalize, common mistakes, and real templates for email and DM outreach."
+title: "UGC Brand Pitch Template That Gets Replies"
+description: "Send 5–10 pitches a day and land paid UGC deals. Proven email and DM templates with a 5–15% response rate."
 type: blog
 lang: en
 cover: "/images/cases/ugc-creators-over-45.png"
