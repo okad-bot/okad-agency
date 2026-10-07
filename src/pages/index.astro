@@ -1,14 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
 import '../styles/okad-house.css';
-import GuideCard from '../components/GuideCard.astro';
-import { getCollection } from 'astro:content';
-
-const guides = (await getCollection('cases'))
-  .filter((c) => c.data.type === 'blog' && c.data.topic && c.data.topic !== 'for-creators')
-  .sort((a, b) => (a.data.startHere ?? 99) - (b.data.startHere ?? 99))
-  .slice(0, 6);
-
 const CALL = 'https://calendly.com/okad_calls/first';
 const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
 const CASE2 = '/cases/zentoes-walmart-launch-ads';
@@ -333,25 +325,6 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
             <figcaption>{img ? <img src={img} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{r.split(', ').pop()!.slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
           </figure>
         ))}
-      </div>
-    </section>
-
-    <!-- LEARN -->
-    <section class="sec tight">
-      <div class="w">
-        <div class="rail-head">
-          <div class="head" style="display:grid;gap:14px">
-            <span class="kick">Free guides from 10,000+ ads</span>
-            <h2>Learn how ads that <span class="cap g">sell</span> are made</h2>
-          </div>
-          <div class="row">
-            <div class="rail-nav"><button type="button" data-rail="ln" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="ln" data-dir="1" aria-label="Next">→</button></div>
-            <a class="btn ghost" href="/blog/">All guides →</a>
-          </div>
-        </div>
-      </div>
-      <div class="rail" id="ln">
-        {guides.map((g) => <GuideCard entry={g} size="rail" />)}
       </div>
     </section>
 
