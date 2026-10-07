@@ -85,6 +85,14 @@ The consumer AI app came to me with 2 videos that had ever worked. We tested ang
 
 A supplement brand used the same idea on a smaller scale: 16 creator videos, 48 hook versions. [Read the case](/cases/supplement-ugc-ad-testing).
 
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:32px 0">
+<img src="/images/cases/ai-app/ai-app-01.webp" alt="AI app UGC ad — hook testing example" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/ai-app/ai-app-03.webp" alt="AI app UGC ad — different creator same angle" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/womens-health-supplement-ads/img-01.jpg" alt="Supplement UGC ad — problem-callout hook" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+<img src="/images/cases/zentoes-walmart-launch-ads/img-03.jpg" alt="ZenToes UGC ad — product demo hook" loading="lazy" style="width:100%;border-radius:10px;aspect-ratio:9/16;object-fit:cover" />
+</div>
+<p style="color:#4d4d49;font-size:14px;text-align:center;margin-top:-20px">Real ads from these case studies — each tested with multiple hook variations</p>
+
 ## Want me to run this for you?
 
 The **$500 starter** gives you a testing plan for your account and 10 ready-to-run videos in 5 business days, no call needed. For ongoing testing, [book a call](https://calendly.com/okad_calls/first).
