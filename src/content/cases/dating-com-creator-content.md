@@ -4,7 +4,7 @@ description: "Five months of scripts, casting, and editing: 60+ videos in seven 
 type: case
 date: 2026-08-31
 lang: en
-cover: "/images/cases/dating-com-creator-content/img-01.jpg"
+cover: "/images/cases/covers/okad-case-08-dating-com.webp"
 coverAlt: "Frames from Dating.com and Zendate creator videos"
 ---
 

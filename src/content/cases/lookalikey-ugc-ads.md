@@ -4,7 +4,7 @@ description: "UGC video ads and stories for a personalised face-swap card brand.
 type: case
 date: 2026-05-31
 lang: en
-cover: "/images/cases/lookalikey-ugc-ads/img-01.jpg"
+cover: "/images/cases/covers/okad-case-10-lookalikey.webp"
 coverAlt: "Frames from Lookalikey UGC ads: creators holding personalised birthday cards"
 ---
 
