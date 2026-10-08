@@ -4,7 +4,7 @@ description: "How systematic creative testing turned 2 working videos into 160+ 
 type: case
 date: 2026-08-31
 lang: en
-cover: "/images/cases/ai-app/ai-app-01.webp"
+cover: "/images/cases/covers/okad-case-01-ai-headshot-app.webp"
 coverAlt: "Frames from UGC video ads: selfie next to an AI headshot, LinkedIn profile before and after"
 faqs:
   - q: "What is creative testing?"

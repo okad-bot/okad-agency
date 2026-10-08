@@ -4,7 +4,7 @@ description: "How to test video ad hooks systematically: 2 creators x 4 hooks = 
 type: case
 date: 2026-09-30
 lang: en
-cover: "/images/cases/womens-health-supplement-ads/img-01.jpg"
+cover: "/images/cases/covers/okad-case-12-womens-health-brand.webp"
 coverAlt: "Frames from women's health supplement UGC ads"
 ---
 

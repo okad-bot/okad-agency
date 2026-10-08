@@ -4,7 +4,7 @@ description: "How ZenToes created 11 videos and 14 static ads for their Walmart 
 type: case
 date: 2026-04-30
 lang: en
-cover: "/images/cases/zentoes-walmart-launch-ads/img-01.jpg"
+cover: "/images/cases/covers/okad-case-09-zentoes.webp"
 coverAlt: "Frames from ZenToes foot cream ads: Walmart shelf and creators applying the cream"
 ---
 
