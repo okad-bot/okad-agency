@@ -37,20 +37,21 @@ const ugcIds = [
   'case-book-club',
 ];
 
-const featured = featuredIds.map(id => cases.find(c => c.id === id)).filter(Boolean);
-const ugc = ugcIds.map(id => cases.find(c => c.id === id)).filter(Boolean);
-const usedIds = new Set([...featuredIds, ...ugcIds]);
-const design = cases.filter(c => !usedIds.has(c.id));
-
-const newCases = [
-  { title: 'Baby Furniture AI Product Visuals', desc: 'AI-generated lifestyle shots from customer photos — no studio, no shipping.', href: '/cases/baby-furniture-ai-product-visuals', img: '/images/cases/covers/okad-case-13-dadada-baby.webp' },
-  { title: 'Christian Dating App UGC & B-roll', desc: '60 videos a month, 800K-view Reel, B-roll library for a dating app.', href: '/cases/christian-dating-app-ugc-broll', img: '/images/cases/covers/okad-case-02-your-christian-date.webp' },
-  { title: 'Collectibles Store Video Content', desc: 'Video content factory for an e-commerce collectibles brand.', href: '/cases/collectibles-store-video-content-factory', img: '/images/cases/covers/okad-case-07-fragstore.webp' },
-  { title: 'Drawing App Faceless UGC', desc: 'Canvas-style content that reached 1.5M organic views.', href: '/cases/drawing-app-faceless-ugc', img: '/images/cases/covers/okad-case-03-drawing-app.webp' },
-  { title: 'EdTech App UGC & Social Content', desc: 'UGC ads and social content for an education platform.', href: '/cases/edtech-app-ugc-social-content', img: '/images/cases/covers/okad-case-06-smalltalk2me.webp' },
-  { title: 'Supplement UGC Ad Testing', desc: '16 creator videos → 48 hook versions. Problem-callout hooks won by 40%.', href: '/cases/supplement-ugc-ad-testing', img: '/images/cases/covers/okad-case-11-supplement-brand.webp' },
-  { title: 'Canvas & Tech UGC Without New Shoots', desc: 'Turning existing footage and screen recordings into new ads.', href: '/cases/canvas-tech-ugc-without-new-shoots/', img: '/images/cases/covers/okad-case-04-guide-5471-creators.webp' },
+const latestIds = [
+  'baby-furniture-ai-product-visuals',
+  'christian-dating-app-ugc-broll',
+  'collectibles-store-video-content-factory',
+  'drawing-app-faceless-ugc',
+  'edtech-app-ugc-social-content',
+  'supplement-ugc-ad-testing',
+  'canvas-tech-ugc-without-new-shoots',
 ];
+
+const featured = featuredIds.map(id => cases.find(c => c.id === id)).filter(Boolean);
+const latest = latestIds.map(id => cases.find(c => c.id === id)).filter(Boolean);
+const ugc = ugcIds.map(id => cases.find(c => c.id === id)).filter(Boolean);
+const usedIds = new Set([...featuredIds, ...latestIds, ...ugcIds]);
+const design = cases.filter(c => !usedIds.has(c.id));
 ---
 
 <Base title="Cases — UGC Video Ads, Design & Branding | OKAD" description="Case studies from 100+ brands: UGC video ads, creative testing, web design, branding. Real numbers, real results.">
@@ -93,16 +94,16 @@ const newCases = [
       </div>
     </section>
 
-    <!-- NEW CASES (flat HTML) -->
+    <!-- LATEST CASES -->
     <section data-category="latest" style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">Latest <span class="cap g">cases</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
-        {newCases.map(c => (
-          <a href={c.href} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
-            <img src={c.img} alt={c.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
+        {latest.map(c => (
+          <a href={`/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
+            <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
             <div style="padding:16px 20px">
-              <h3 style="font-size:15px;font-weight:600;margin-bottom:6px">{c.title}</h3>
-              <p style="font-size:13px;color:var(--soft,#4d4d49);line-height:1.5;margin:0">{c.desc}</p>
+              <h3 style="font-size:15px;font-weight:600;margin-bottom:6px">{c.data.title}</h3>
+              <p style="font-size:13px;color:var(--soft,#4d4d49);line-height:1.5;margin:0;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">{c.data.description}</p>
             </div>
           </a>
         ))}
