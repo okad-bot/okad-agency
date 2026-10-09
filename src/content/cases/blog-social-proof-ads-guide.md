@@ -1,8 +1,8 @@
 ---
 hook: "How do you turn reviews into ads?"
 topic: ugc-ads
-title: "Social Proof Ads: How to Turn Testimonials and Reviews into High-Converting Ad Creative"
-description: "Social proof ads use real testimonials, reviews, and customer stories as ad creative — achieving 15–30% lower CPA than traditional brand ads. Learn the formats, production methods, and scaling strategies."
+title: "Social Proof Ads: 15–30% Lower CPA (How-To)"
+description: "Turn testimonials, reviews, and customer stories into ads that convert 15–30% cheaper than brand creative. 5 formats, production tips, and scaling strategies."
 type: blog
 lang: en
 cover: "/images/cases/case-cyberpulse.jpg"

@@ -1,7 +1,7 @@
 ---
 hook: "How do you start with Canvas UGC?"
 topic: for-creators
-title: "How to Start Canvas UGC: A Step-by-Step Guide for New Creators"
+title: "How to Start Canvas UGC in 2026 (No Experience)"
 description: "Learn how to start canvas UGC from scratch — what equipment you need, where to find jobs, how to build a portfolio, and how much canvas UGC creators earn in 2026."
 type: blog
 lang: en

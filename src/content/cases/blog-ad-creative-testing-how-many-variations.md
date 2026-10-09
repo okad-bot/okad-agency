@@ -2,7 +2,7 @@
 hook: "How many ad variations do you actually need?"
 topic: creative-testing
 startHere: 1
-title: "Ad Creative Testing: How Many Variations You Actually Need"
+title: "Ad Creative Testing: How Many Variations? [Data]"
 description: "A practical guide to creative testing for Meta and TikTok ads. How many hooks to test, when to kill underperformers, and how to scale winners without creative fatigue."
 type: blog
 lang: en

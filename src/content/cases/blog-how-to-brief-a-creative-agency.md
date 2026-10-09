@@ -2,7 +2,7 @@
 hook: "How do you brief an agency and get what you want?"
 topic: ugc-ads
 startHere: 3
-title: "How to Brief a Creative Agency (Template Inside)"
+title: "Creative Brief Template: 7 Sections + Free Copy"
 description: "The 7 sections every creative brief needs, common mistakes that waste rounds of revision, and a free template you can copy. Written by an agency that reads 50+ briefs a month."
 type: blog
 lang: en
