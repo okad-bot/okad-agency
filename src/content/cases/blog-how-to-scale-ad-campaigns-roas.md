@@ -142,4 +142,4 @@ Sustainable scaling follows a cycle:
 5. **Expand audiences** → New segments, new platforms
 6. Return to step 1
 
-Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. See how we applied this scaling approach in our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/). The operational challenge is not strategy. It is producing enough good creative, fast enough, to keep the engine fed.
+Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. See how we applied this scaling approach in our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/), or read the [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. For a structured approach to step 1, try our [$500 creative testing framework](/blog/blog-creative-testing-for-dtc/).
