@@ -1,7 +1,7 @@
 ---
 hook: "How do brands get 50+ videos a month?"
 topic: ugc-ads
-title: "High-Volume UGC Production: How Brands Scale to 50+ Videos Per Month"
+title: "UGC at Scale: 50+ Videos/Month Production System"
 description: "How brands and agencies scale UGC production from a handful of videos to 50+ per month — creator networks, canvas templates, production workflows, and quality control at scale."
 type: blog
 lang: en
@@ -151,4 +151,4 @@ Compare this to studio production: 50 studio-produced videos would cost $50,000�
 
 **Over-managing the creative process.** Detailed canvas templates should do the management work. If you are giving extensive feedback on every asset, your templates are not clear enough.
 
-High-volume UGC production is the infrastructure that supports scalable paid advertising. The brands doing it well treat it as an ongoing operational system — not a series of one-off content projects. To see this system in action, read how we produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) or how we ran [creative testing for an AI app on Meta](/cases/creative-testing-ai-app-meta-ads/). For cost benchmarks across different tiers and niches, see our guide on [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/).
+High-volume UGC production is the infrastructure that supports scalable paid advertising. The brands doing it well treat it as an ongoing operational system — not a series of one-off content projects. To see this system in action, read how we produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) or how we ran [creative testing for an AI app on Meta](/cases/creative-testing-ai-app-meta-ads/). For cost benchmarks across different tiers and niches, see our guide on [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/). And if you are considering outsourcing production, our [UGC agency guide](/blog/blog-what-is-ugc-agency/) explains what agencies handle and what it costs.

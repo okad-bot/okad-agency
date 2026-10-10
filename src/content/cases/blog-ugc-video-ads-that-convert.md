@@ -1,7 +1,7 @@
 ---
 hook: "What makes a UGC ad sell?"
 topic: ugc-ads
-title: "UGC Video Ads That Convert: What We've Learned from 200+ Campaigns"
+title: "UGC Video Ads: Lessons from 200+ Campaigns"
 description: "Why UGC ads outperform polished brand videos, how to brief creators, which formats work on TikTok vs Meta, and how to scale UGC ad production without losing quality."
 type: blog
 lang: en
@@ -158,4 +158,4 @@ After 200+ campaigns, the failure patterns are predictable:
 
 If you are spending on paid social and your creative is underperforming — or you know you need UGC but have not built the production pipeline — we can help. We handle creator sourcing, briefing, production management, and post-production so you get a steady flow of tested, platform-native video ads.
 
-Start with a look at our [UGC video production services](/#offer), or [book a call](/#contact) to discuss your brand's specific needs and volume requirements.
+Start with a look at our [UGC video production services](/#offer), or read our [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. If you are evaluating agencies, our guide on [what a UGC agency does](/blog/blog-what-is-ugc-agency/) covers services, pricing, and when to hire one.

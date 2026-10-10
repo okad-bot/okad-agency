@@ -1,8 +1,8 @@
 ---
 hook: "How do you make UGC for an app or AI tool?"
 topic: ugc-ads
-title: "Tech UGC: Creator-Made Video Content for Software, Apps, and AI Tools"
-description: "Tech UGC is creator-made content that demonstrates software and apps in action. Learn how it differs from lifestyle UGC, the best formats, script structures, and why it drives 79% higher conversion rates for tech products."
+title: "Tech UGC: Video Ads for SaaS, Apps & AI (Guide)"
+description: "Tech UGC drives 79% higher conversion than lifestyle UGC. Formats, script structures, and creator briefs for software, apps, and AI tools."
 type: blog
 lang: en
 cover: "/images/cases/case-ckx.jpg"

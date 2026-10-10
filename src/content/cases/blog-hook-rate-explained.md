@@ -2,8 +2,8 @@
 hook: "Do people watch past your first 3 seconds?"
 topic: creative-testing
 startHere: 2
-title: "Hook Rate Explained: What It Is, How to Measure It, and How to Improve It"
-description: "Hook rate is the percentage of viewers who watch past the first 1–3 seconds of your video. Learn how to calculate hook rate, benchmark against industry averages, and improve it for TikTok, Reels, and video ads."
+title: "Hook Rate: Formula, Benchmarks & 6 Ways to Fix It"
+description: "Hook rate = viewers past 1–3 seconds. Average: 30–40%, top ads: 65%+. Calculate yours, compare benchmarks by platform, and apply 6 proven fixes for TikTok, Reels, and paid ads."
 type: blog
 lang: en
 cover: "/images/cases/organic-video-content-1m-views.jpg"
