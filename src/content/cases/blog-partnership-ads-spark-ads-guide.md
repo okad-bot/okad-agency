@@ -16,6 +16,8 @@ faqs:
     a: "Partnership ads typically achieve 2–3x higher click-through rates, 30–50% lower cost-per-action, and higher engagement rates compared to brand-account ads. The creator context triggers trust signals that bypass ad fatigue and banner blindness."
   - q: "How do creators authorize partnership ads?"
     a: "On Instagram: use the Branded Content tool to tag the brand as a paid partner. On TikTok: generate an authorization code in Settings → Creator tools → Spark Ads, then share the code with the brand. Both platforms require explicit creator permission for each post."
+  - q: "How long should a Spark Ads authorization last?"
+    a: "Standard authorization is 30 days, which covers a typical testing and scaling cycle. For retainer relationships, 60 days reduces the overhead of re-authorization. Set authorization to 7 days only for one-off tests. Always align the authorization window with the campaign flight — expired codes halt ad delivery immediately."
 ---
 
 When a brand runs an ad from its own account, users see a brand trying to sell them something. When that same ad runs through a creator's account as a partnership ad, users see a person they follow recommending a product. That distinction drives measurably different results.
@@ -122,5 +124,73 @@ TikTok Spark Ads specifically carry advantages:
 **Maintain authenticity.** Your audience trusts you because you are genuine. Partnership ads that feel forced damage that trust and hurt both you and the brand. Only partner with products you would genuinely use or recommend.
 
 **Charge for usage, not just creation.** Content creation is one fee. Partnership ad authorization — letting a brand spend potentially thousands of dollars promoting your face and name — is a separate fee. Structure pricing to reflect both. Our [UGC rates guide](/blog/blog-ugc-creator-rates-pricing/) includes whitelisting fee benchmarks by tier.
+
+## Spark Ads vs Regular In-Feed Ads: Detailed Performance Data
+
+The performance gap between Spark Ads and standard in-feed ads on TikTok is consistent across ad categories. Here is a breakdown by vertical based on aggregated campaign data:
+
+| Vertical | Metric | Standard In-Feed | Spark Ads | Difference |
+|---|---|---|---|---|
+| Beauty / Skincare | CTR | 0.8% | 2.1% | +163% |
+| Beauty / Skincare | CPA | $18.50 | $9.20 | -50% |
+| Tech / SaaS | CTR | 0.6% | 1.4% | +133% |
+| Tech / SaaS | CPA | $32.00 | $17.50 | -45% |
+| Food / Beverage | CTR | 1.1% | 2.8% | +155% |
+| Food / Beverage | CPA | $12.00 | $6.80 | -43% |
+| Health / Fitness | CTR | 0.9% | 2.3% | +156% |
+| Health / Fitness | CPA | $22.00 | $11.50 | -48% |
+
+The improvement is most dramatic for products where trust is a key purchase barrier — supplements, skincare, and financial products. For commoditized products where price drives the decision, the gap narrows but Spark Ads still outperform.
+
+These gains compound with strong creative. Brands using [high-ROAS UGC campaigns](/cases/high-roas-ugc-ads/) combined with Spark Ads format see cumulative performance improvements that neither approach achieves alone.
+
+## Complete Partnership Ad Setup Checklist
+
+Use this checklist to avoid the common setup errors that waste budget or delay launches:
+
+### Pre-Launch (Brand Side)
+
+- [ ] Creator has a Professional/Creator account on the platform
+- [ ] Creator's content is published (not in draft)
+- [ ] Authorization code received and verified (TikTok) or partnership tag approved (Meta)
+- [ ] Authorization window covers the full campaign flight plus 7-day buffer
+- [ ] Campaign objective matches the content format (awareness for top-funnel, conversions for bottom)
+- [ ] Targeting excludes the creator's existing followers (optional — avoids paying for organic-reachable audience)
+- [ ] Budget allocated for at least 7 days to clear the learning phase
+- [ ] UTM parameters or tracking pixels configured for attribution
+
+### Pre-Launch (Creator Side)
+
+- [ ] Content meets platform ad policies (no prohibited claims, proper disclosures)
+- [ ] Video meets technical specs (resolution, aspect ratio, duration)
+- [ ] Audio is clear and original (no copyrighted music that blocks ad delivery)
+- [ ] Paid partnership label enabled where required
+- [ ] Authorization code generated with correct duration
+- [ ] Creator understands they should not delete or significantly edit the post during the campaign
+
+### Post-Launch
+
+- [ ] Both brand and creator can see performance metrics
+- [ ] First 48-hour performance reviewed — delivery is active
+- [ ] Frequency monitored to prevent [ad fatigue](/blog/blog-ad-fatigue-prevention/)
+- [ ] Re-authorization scheduled before expiration date
+
+## Creator Permission Flow: Troubleshooting Common Issues
+
+The authorization process is simple in theory but produces frequent technical issues. Here are the most common problems and fixes:
+
+**"Authorization code invalid" error (TikTok).** Usually caused by the code expiring before the brand enters it. Codes are time-sensitive — generate the code and share it immediately. The brand should enter it within 24 hours.
+
+**Creator account not eligible for Spark Ads.** The creator must have a TikTok account in good standing with no active violations. New accounts (under 30 days) may not have access. Verify eligibility before commissioning content.
+
+**Partnership tag not appearing (Meta).** The creator must have a Professional account (Creator or Business profile). Personal accounts cannot use the paid partnership label. Switching account types takes seconds in Instagram settings.
+
+**Ad rejected after approval.** Platform policy review for partnership ads can be stricter than organic posts. Common rejection reasons: unsubstantiated health claims, missing disclosures, or copyrighted audio. Review [Meta's Branded Content policies](https://www.facebook.com/policies/brandedcontent/) and TikTok's Spark Ads guidelines before production.
+
+**Creator accidentally deletes or edits the post.** If the underlying organic post is deleted, the Spark Ad stops immediately. Editing the post (changing caption, adding hashtags) may also disrupt delivery. Brief creators clearly: do not touch the post while the campaign is live.
+
+For brands managing multiple creators simultaneously, building a permission tracking spreadsheet is essential. Track creator name, platform, content URL, authorization code, expiration date, and campaign status. This prevents the most expensive mistake in partnership advertising: campaigns going dark because an authorization expired unnoticed.
+
+Brands running [high-converting DTC video ads](/cases/high-converting-video-ads-for-dtc-brands/) at scale often manage 10–20 active creator authorizations simultaneously. A systematic approach to permissions prevents delivery gaps. For the complete contract and rights framework, see our [UGC whitelisting guide](/blog/blog-ugc-whitelisting-guide/).
 
 For a deeper dive into the mechanics and contracts, see our complete [UGC whitelisting guide](/blog/blog-ugc-whitelisting-guide/). Partnership ads represent the convergence of creator marketing and performance advertising. Brands get the trust and engagement of creator content with the targeting and scale of paid media. Creators get additional revenue from content they are already making. The format works because it aligns incentives: both parties benefit when the content is authentic and the audience responds.

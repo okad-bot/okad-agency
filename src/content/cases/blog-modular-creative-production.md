@@ -16,6 +16,8 @@ faqs:
     a: "Test hooks first — they have the highest leverage on ad performance. The first 3 seconds determine whether anyone watches the rest. Once you identify winning hooks, attach them to different body variations. Test CTAs last since they have the smallest performance impact."
   - q: "How is modular creative different from dynamic creative optimization?"
     a: "Dynamic creative optimization (DCO) is platform-side automated variation — the algorithm mixes elements. Modular creative is production-side intentional variation — you design and test combinations deliberately. Modular gives you component-level performance data that DCO does not."
+  - q: "What tools do I need for modular creative production?"
+    a: "At minimum: a project management tool (Notion, Airtable, or Google Sheets) for tracking components and combinations, a cloud storage system with consistent naming (Google Drive or Dropbox), and a video editing tool that handles batch assembly (CapCut, DaVinci Resolve, or After Effects). Dedicated creative management platforms like Air or Frame.io add version control and team review workflows."
 ---
 
 Traditional ad production creates finished ads. Each one is a complete piece — shot, edited, delivered. When you need 72 ad variations to feed a scaled campaign, you produce 72 ads. That costs roughly $36,000 and takes weeks.
@@ -161,5 +163,88 @@ Start small: one concept, six hooks, two bodies, two CTAs. That is 24 combinatio
 Shoot everything in a single session. Assemble combinations. Test hooks first. Scale winners. Iterate.
 
 Once the system is running, expand: more concepts, more creators, more component types. The production infrastructure stays the same — only the volume grows.
+
+## Real-World Workflow: DTC Skincare Brand
+
+Here is how modular creative looks in practice for a DTC skincare brand spending $80K/month on Meta and TikTok, needing 8–12 new concepts weekly to stay ahead of [ad fatigue](/blog/blog-ad-fatigue-prevention/).
+
+**Week 1 — Planning and scripting (Monday–Tuesday)**
+
+The creative strategist reviews last week's performance data. Hook A3 (question-format opening) outperformed all other hooks by 35%. Body B2 (before/after transformation) had the lowest CPA. The team writes 8 new hook variations in the question format and 4 new body scripts building on the transformation angle.
+
+**Week 1 — Shoot day (Wednesday)**
+
+Three creators arrive at the studio. Each creator shoots:
+- 8 hook variations (25 minutes per creator)
+- 4 body narratives (40 minutes per creator)
+- 3 CTA variations (10 minutes per creator)
+
+Total shoot time: 3.5 hours for 45 raw components across 3 creators.
+
+**Week 1 — Assembly and QC (Thursday)**
+
+The editor assembles priority combinations first: winning hook style + winning body style + all 3 CTAs = 3 variations per creator = 9 priority ads. Then secondary combinations: 24 additional variations mixing new hooks with proven bodies. Total output: 33 ad variations from a single half-day shoot.
+
+**Week 1 — Launch (Friday)**
+
+Priority ads launch in testing campaigns. The creative strategist monitors first 48-hour data over the weekend. By Monday, 2–3 new winners are identified and scaled.
+
+This cycle repeats weekly. After 4 weeks, the brand has a library of 120+ tested combinations and clear data on which component styles drive performance. That data compounds — each new batch gets better because the team knows what works.
+
+This is the same production approach behind OKAD's [Skribly UGC campaign](/cases/high-roas-ugc-ads/) where systematic component testing drove sustained ROAS across a long campaign flight.
+
+## Tool Recommendations for Modular Production
+
+The right tools reduce friction between production, assembly, and analysis:
+
+| Category | Tool | Best For |
+|---|---|---|
+| Tracking | Notion / Airtable | Database views filtering components by type, creator, status |
+| Tracking | Google Sheets | Simple tracking for small teams, free |
+| Storage | Google Drive | Shared folders with consistent naming |
+| Storage | Frame.io | Video review with time-coded comments |
+| Editing | CapCut | Fast batch assembly, TikTok-native formats, free |
+| Editing | DaVinci Resolve | Professional editing, batch export, free tier |
+
+The minimum viable stack is Google Sheets + Google Drive + CapCut. This costs nothing and handles up to 50 variations per week. Scale tools as volume grows.
+
+## Quality Control at Scale
+
+Producing 30–70 ad variations weekly creates a QC challenge. Without a system, inconsistent audio levels, mismatched aspect ratios, or broken transitions slip through and waste ad spend on non-competitive creative.
+
+### The Three-Pass QC System
+
+**Pass 1 — Technical compliance (automated where possible)**
+
+- Correct aspect ratio (9:16 for TikTok/Reels, 1:1 for feed, 16:9 for YouTube)
+- Audio levels normalized (-14 LUFS for dialogue, music under voice)
+- Duration within platform limits
+- Text overlays inside safe zones (no critical text in the top or bottom 15%)
+- Resolution meets platform minimum (1080p for vertical, 720p minimum)
+
+**Pass 2 — Component compatibility (editor review)**
+
+- Hook-to-body transition feels natural, not jarring
+- Tone and pacing consistent across spliced components
+- CTA matches the body narrative (no discount CTA with awareness-focused body)
+
+**Pass 3 — Strategic review (creative strategist)**
+
+- Does this combination test a clear hypothesis?
+- Is it differentiated enough from other active combinations?
+- Does it align with current campaign objectives?
+
+At low volume (under 20 combinations per week), one person can handle all three passes. At higher volume, split responsibilities: editor handles Pass 1 and 2, strategist handles Pass 3.
+
+### Common QC Failures and Their Cost
+
+| QC Failure | Impact | Prevention |
+|---|---|---|
+| Audio mismatch between components | 30–40% lower completion rate | Normalize audio before assembly |
+| Wrong aspect ratio uploaded | Ad rejected or cropped awkwardly | Batch export templates per platform |
+| Hook promises something the body does not deliver | High bounce rate, low conversion | Map hook claims to body scripts before assembly |
+| Text overlays cut off on mobile | Key message invisible to viewers | Use platform-specific safe zone templates |
+
+Teams running [high-volume UGC production](/blog/blog-high-volume-ugc-production/) at scale build QC into the workflow from day one. For the testing methodology that validates assembled combinations, see our guide on [how many ad variations to test](/blog/blog-ad-creative-testing-how-many-variations/).
 
 Modular creative is not a creative technique. It is a production system that turns ad creative from an artisanal craft into a scalable operation. For the complete testing framework that goes hand-in-hand with modular production, read our guide on [how many ad variations you actually need](/blog/blog-ad-creative-testing-how-many-variations/). We put this exact approach into practice in our [AI app creative testing case study](/cases/creative-testing-ai-app-meta-ads/). The brands outperforming on paid media are not making better individual ads — they are making more variations, faster, and letting data decide which components win.
