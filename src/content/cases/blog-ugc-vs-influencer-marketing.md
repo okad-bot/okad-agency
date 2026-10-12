@@ -93,6 +93,8 @@ UGC is the stronger choice for:
 
 Any brand spending meaningfully on paid social and tracking CPA or ROAS as a primary KPI should default to UGC as the backbone of their creative strategy.
 
+![UGC creator ad for supplement brand — authentic, product-focused content](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+
 ## When Influencers Win
 
 Influencer marketing is the stronger choice for:
@@ -104,6 +106,8 @@ Influencer marketing is the stronger choice for:
 - **Repositioning or re-launch efforts**, where you need to shift public perception rather than drive an immediate sale
 
 Awareness and trust are harder to measure than CPA, but they are real outcomes, and influencer marketing is built to deliver them in a way UGC is not.
+
+![Dating.com creator content — blending influencer storytelling with UGC authenticity](/images/cases/dating-com-creator-content/img-01.jpg)
 
 ## The Hybrid Approach
 

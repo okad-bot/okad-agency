@@ -108,6 +108,8 @@ Would be happy to discuss a test project. Portfolio: [link]
 Best,
 [Your name]
 
+![Creator hiring reel with 81.8K views — showcasing UGC work attracts brand partnerships](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 ## How to Find the Right Person to Pitch
 
 Pitching the wrong person wastes everyone's time:
@@ -126,6 +128,8 @@ One pitch is rarely enough. Most deals close on the follow-up:
 - **Day 10–12:** Final follow up. "Last note on this — if UGC isn't a priority right now, no worries. I'll check back in a few months."
 
 Three touches maximum. If no response after three, move on. The brand might come back later when they are ready.
+
+![Dating.com creator content — example of branded UGC that started with a strong pitch](/images/cases/dating-com-creator-content/img-01.jpg)
 
 ## Tracking Your Pitches
 

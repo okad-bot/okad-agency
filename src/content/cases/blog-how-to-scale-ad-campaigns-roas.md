@@ -68,6 +68,8 @@ This is not arbitrary. Each ad variation fatigues at roughly the same rate (meas
 
 This is where UGC and canvas UGC become essential for scale. Studio production cannot match the volume requirement. A team of 5–10 UGC creators producing weekly assets gives you the creative pipeline that scaling demands — our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) shows how to build it.
 
+![AI app creative testing — from 2 videos to 160+ ad variations while maintaining ROAS](/images/cases/ai-app/ai-app-05.webp)
+
 ## Strategy 3: Audience Expansion (Not Just Broader Targeting)
 
 When your core audience saturates, you have two options:
@@ -81,6 +83,8 @@ When your core audience saturates, you have two options:
 - Winning on Meta? Test the same offers on TikTok.
 - Strong on TikTok? Expand to YouTube Shorts.
 - Each platform has distinct audiences with different saturation points.
+
+![Longevity supplement story ad — real person testimonial format that scales on Meta](/images/cases/longevity-supplement-story-ads/lg/r0.jpg)
 
 The second option is generally more effective because you reach genuinely new people rather than less qualified versions of the same audience.
 
@@ -200,6 +204,8 @@ Use these tables to plan your scaling trajectory. All figures assume a starting 
 - **Resume scaling only after ROAS recovers to within 15% of your target.**
 - **Match creative refresh to scaling speed.** Aggressive scaling without new creative is guaranteed to fail. Plan for 3–5 new assets per week at the aggressive pace.
 - **Track marginal ROAS, not average ROAS.** The total campaign might show 3x ROAS while the last 20% of spend is generating 1.2x. Segment performance by time and spend level.
+
+![ZenToes Walmart launch ads — scaling creative from existing footage without new shoots](/images/cases/zentoes-walmart-launch-ads/img-01.jpg)
 
 The biggest mistake in budget pacing is scaling spend faster than you scale creative. Our [Skribly UGC campaign](/cases/high-roas-ugc-ads/) maintained strong ROAS precisely because creative production scaled alongside budget — hundreds of new variations testing continuously, replacing fatigued ads before performance collapsed.
 

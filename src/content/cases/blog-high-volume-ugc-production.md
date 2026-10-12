@@ -58,6 +58,8 @@ Build a network instead:
 - Promoted to Tier 2 after 3–5 successful deliveries
 - Produce 5–10% of volume, but serve as the pipeline for replacing Tier 1/2 attrition
 
+![UGC creator hiring reel with 81.8K views — building a creator network through organic content](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 This tiered system ensures consistent quality while maintaining a pipeline of new talent.
 
 ### 2. Canvas Templates (Not Freeform Briefs)
@@ -96,6 +98,8 @@ The most efficient cadence for high-volume production:
 - Revised content returned and approved
 - Assets formatted for each platform
 - Uploaded to ad accounts and launched
+
+![Fragstore content creator — part of a weekly production cycle producing 40 videos per month](/images/cases/fragstore-content-factory/fs/creator1.jpg)
 
 This cadence produces 15–25 finished assets per week (60–100 per month) with a team of 10–15 active creators.
 
@@ -184,6 +188,8 @@ Key numbers from the production:
 - **Canvas templates** used for every brief, cutting revision rates below 12%
 - **Creator network** of 20+ creators working in weekly batches
 - **Result:** High ROAS maintained while testing at scale
+
+![Grid of UGC creator trial reels — vetting creators at scale for high-volume production](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 What made this volume possible:
 1. **Standardized canvas templates** — 12 base templates covering different ad angles (problem-solution, testimonial, demo, comparison)

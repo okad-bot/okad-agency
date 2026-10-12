@@ -91,6 +91,8 @@ The performance difference is well-documented:
 
 The reason: creator context activates trust. When users see a person they follow or a person who looks like them recommending something, it triggers a different cognitive response than seeing a brand advertisement. This is not a marketing theory — it is consistently measurable across millions of ad impressions.
 
+![Lookalikey UGC ad — creator content whitelisted as a Spark Ad for paid distribution](/images/cases/lookalikey-ugc-ads/img-01.jpg)
+
 ## Spark Ads vs Standard In-Feed Ads
 
 TikTok Spark Ads specifically carry advantages:
@@ -174,6 +176,8 @@ Use this checklist to avoid the common setup errors that waste budget or delay l
 - [ ] First 48-hour performance reviewed — delivery is active
 - [ ] Frequency monitored to prevent [ad fatigue](/blog/blog-ad-fatigue-prevention/)
 - [ ] Re-authorization scheduled before expiration date
+
+![Supplement brand UGC ad — whitelisted creator content running as paid ad on Meta](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 ## Creator Permission Flow: Troubleshooting Common Issues
 
