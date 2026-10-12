@@ -70,6 +70,6 @@ Having team members who were actual SUNC alumni gave us an insider perspective t
 - **Production-ready output** — minimalist design was easy to adapt for printing across different merchandise types
 - **Authentic connection** — team members with SUNC alumni ties ensured the design reflected genuine community culture
 
-The merch is now part of the alumni association's ongoing engagement program, with plans to expand the collection based on the design system we established. For a broader look at how brand identity and creative production work together, see our article on [brand identity vs. performance creative](/cases/blog-brand-identity-vs-performance-creative/).
+The merch is now part of the alumni association's ongoing engagement program, with plans to expand the collection based on the design system we established. For a broader look at how brand identity and creative production work together, see our article on [brand identity vs. performance creative](/blog/blog-brand-identity-vs-performance-creative/).
 
 ![Close-up detail of the final SUNC MSU t-shirt design with cube emblem](https://framerusercontent.com/images/bDfWu5pB1lkEctzMjXfJDkkkm0.jpg?width=2800&height=1444)

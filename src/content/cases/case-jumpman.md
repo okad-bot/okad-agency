@@ -78,7 +78,7 @@ To support scalable franchise rollout, we delivered:
 - Ready-to-use social media and marketing templates
 - Franchise presentation deck for partner onboarding
 
-The brand guidelines document covered everything a new franchise location would need: logo usage rules, color specifications, typography hierarchy, photography style direction, and template files for common marketing materials. The goal was to make it possible for a new location to produce on-brand materials without hiring a designer for every piece. This is the same principle behind our approach to [brand identity vs. performance creative](/cases/blog-brand-identity-vs-performance-creative/) — building a system, not just a look.
+The brand guidelines document covered everything a new franchise location would need: logo usage rules, color specifications, typography hierarchy, photography style direction, and template files for common marketing materials. The goal was to make it possible for a new location to produce on-brand materials without hiring a designer for every piece. This is the same principle behind our approach to [brand identity vs. performance creative](/blog/blog-brand-identity-vs-performance-creative/) — building a system, not just a look.
 
 ![](https://framerusercontent.com/images/0lkNp9h4HtboJRPzhLlyNyJ1Pw.png?width=2800&height=1456)
 
