@@ -54,6 +54,8 @@ A few of these are worth unpacking:
 - **Creative fatigue lifespan** is how long an ad keeps performing before audiences tune it out. Stock footage blends into the general noise of generic advertising faster, so it fatigues sooner even with less total exposure.
 - **Production time** favors stock video, since licensing a clip takes minutes compared to briefing, filming, and editing a UGC creator. This is the one category where stock has a clear structural advantage.
 
+![ZenToes UGC ad for Walmart launch — authentic creator content with real product demonstration](/images/cases/zentoes-walmart-launch-ads/img-01.jpg)
+
 ## Where UGC Wins
 
 UGC performs best in contexts where the viewer is deciding, in real time, whether to trust a product or brand.
@@ -76,6 +78,8 @@ Stock video is not obsolete, and dismissing it outright is its own kind of bias.
 - **Scenarios requiring locations, settings, or shots** that would be impractical or expensive to film with a UGC creator -- aerial shots, specific international locations, or large-scale environments.
 
 In these cases, the audience is not being asked to trust a stranger's recommendation. They are evaluating a brand's overall positioning, and production polish does real work there.
+
+![Faceless canvas UGC for a drawing app — screen-first content that bridges UGC and stock quality](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## The Hybrid Approach
 

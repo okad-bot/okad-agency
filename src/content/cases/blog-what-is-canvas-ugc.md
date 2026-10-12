@@ -49,6 +49,8 @@ The shift is driven by three operational problems with traditional UGC:
 
 **Production speed.** A canvas brief takes 10 minutes to complete instead of an hour of back-and-forth on creative direction. Creators produce content faster because decisions are pre-made. Revision rates drop because the structure was right from the start.
 
+![Faceless canvas UGC for a drawing app — screen recording with hand drawing, no face on camera](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
 ## Canvas UGC in Practice
 
 A typical canvas UGC workflow looks like this:
@@ -119,6 +121,8 @@ The differences between canvas and traditional UGC go beyond structure. Here is 
 Neither format is universally better. Traditional UGC works well for organic social content where a brand wants genuine, unscripted testimonials. Canvas UGC works better for paid advertising where performance data drives decisions and volume matters.
 
 Many brands run both: traditional UGC for organic social proof and canvas UGC for their [paid ad creative pipeline](/blog/blog-ad-creative-strategy/). The key is matching the format to the goal.
+
+![Drawing app canvas UGC analytics — 29.8K views on a single faceless video](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
 
 ## Canvas UGC Use Cases by Industry
 

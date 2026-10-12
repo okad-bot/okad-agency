@@ -64,11 +64,15 @@ The numbers become clearer when placed side by side at two common volume levels.
 
 At both volume levels, the in-house cost per video stays meaningfully higher, mainly because fixed salary and overhead do not scale down even when output is low, and scaling up requires discrete, lumpy hiring decisions rather than a simple retainer adjustment.
 
+![Grid of UGC creator trial reels managed by OKAD — agency-scale creator vetting](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+
 ## Speed and Scalability
 
 Scaling in-house production is a hiring problem disguised as a production problem. Each additional 10-15 videos of monthly capacity generally requires another hire, and each hire comes with a 2-3 month ramp-up period before they reach full productivity. Going from 15 to 30 videos per month in-house is not a decision you can make this week -- it is a decision you make this quarter.
 
 Scaling with an agency is a conversation about retainer size. Moving from 20 to 50 videos per month typically takes a single call and can be implemented within a week, because the agency already has the creator network, workflows, and production capacity to absorb the increase. For brands needing 20 or more videos per month, this speed advantage is often decisive on its own, independent of the cost comparison.
+
+![AI app creative testing — 160+ ad variations through agency-managed production](/images/cases/ai-app/ai-app-01.webp)
 
 ## Quality and Creative Direction
 

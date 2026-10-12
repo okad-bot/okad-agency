@@ -77,6 +77,8 @@ These approaches delay fatigue but cannot prevent it indefinitely:
 
 **4. Use a different creator.** Same script, different person. The audience sees a new face, new voice, new energy. The concept that works keeps working with a fresh delivery.
 
+![UGC creator ad for supplement brand — same script, different creator extends creative lifespan](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+
 **5. Change the format.** Convert a talking-head to a voiceover-with-b-roll. Turn a single video into a carousel. Reformat a Reel as a Story. Each format change reaches the same audience through a different attention pathway.
 
 **6. Broaden the target audience.** Wider targeting reduces per-person frequency. If your audience is seeing the ad 3 times per week, doubling the audience size cuts that to 1.5 times.
@@ -101,6 +103,8 @@ If you need 5 active winning ads at any time, and your creative success rate is 
 
 This is why UGC and canvas UGC are essential for brands spending seriously on paid media. Studio production cannot match the volume requirement. A network of 10–15 UGC creators producing weekly delivers the creative volume that scaling demands. Our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) explains how to build that pipeline. For even more efficiency, [modular creative production](/blog/blog-modular-creative-production/) shows how 13 components can generate 72 ad variations.
 
+![High-volume UGC ad variations from AI app creative testing campaign](/images/cases/ai-app/ai-app-01.webp)
+
 ## Monitoring System
 
 Track these metrics daily for every active creative:
@@ -120,6 +124,8 @@ Set up automated alerts in your ad platform or reporting dashboard. Manual check
 When fatigue hits, choose one of three paths:
 
 **Iterate** — The concept works but the execution is stale. New hook, new creator, or new format. Keep the strategy, change the tactics.
+
+![Ad re-edit from existing footage — new hooks without reshooting](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
 
 **Scale down** — The creative is still profitable but declining. Reduce budget and extend its life while you launch replacements.
 

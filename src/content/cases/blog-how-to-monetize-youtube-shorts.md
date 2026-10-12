@@ -106,6 +106,8 @@ Your Shorts skills translate directly to paid UGC work:
 
 This is the most underutilized revenue stream. Creators with strong Shorts portfolios are exactly what brands need for their paid advertising — our guide on [UGC video ads](/blog/blog-ugc-video-ads-that-convert/) explains what brands look for. The bridge between "YouTuber" and "paid content creator" is shorter than most people realize. You can also explore [faceless UGC](/blog/blog-how-to-start-faceless-ugc/) if you want to create brand content without showing your face.
 
+![Fragstore content creator — YouTube Shorts production as part of a 40-video monthly pipeline](/images/cases/fragstore-content-factory/fs/creator1.jpg)
+
 ## Building a Shorts Monetization Strategy
 
 The highest-earning Shorts creators stack multiple revenue streams:
@@ -156,6 +158,8 @@ Not all Shorts niches are created equal. Ad revenue RPM, brand deal rates, and a
 | Food / Cooking | $0.02–$0.03 | $200–$800 | Low ($2–$8/conversion) | $300–$1,000 |
 | Entertainment / Comedy | $0.01–$0.02 | $200–$600 | Low ($1–$5/conversion) | $200–$700 |
 | Gaming | $0.01–$0.02 | $150–$500 | Medium ($3–$10/conversion) | $200–$600 |
+
+![Dating.com creator content — brand sponsorship opportunity for Shorts creators](/images/cases/dating-com-creator-content/img-01.jpg)
 
 The "Total Monthly" column combines ad revenue, one brand deal, and estimated affiliate income — assuming 500,000 monthly views and one sponsored Shorts deal per month. These numbers scale roughly linearly with views until you hit the 2M+ monthly views range where brand deals become significantly more valuable.
 

@@ -68,6 +68,8 @@ The math favors canvas UGC because of speed:
 
 The canvas eliminates the most time-consuming parts of traditional UGC: creative direction, concept development, and back-and-forth on structure. You walk in, follow the template, deliver. More jobs per day means higher daily earnings even at similar per-asset rates.
 
+![Canvas UGC drawing app content — faceless videos that generated 1.5M organic views](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
 ## Five Strategies to Increase Your Canvas UGC Income
 
 ### 1. Specialize in a High-Value Niche
@@ -218,6 +220,8 @@ The most common stall point is month 2–3. Creators who push through the early 
 Understanding why brands need canvas UGC helps you position yourself for higher-paying work. Modern [ad creative strategy](/blog/blog-ad-creative-strategy/) requires constant fresh content. A brand spending $10,000/month on paid ads needs 20–30 new creative assets per month just to stay ahead of [ad fatigue](/blog/blog-ad-fatigue-prevention/).
 
 This creates massive demand for reliable creators who can produce structured content quickly. In our [Skribly UGC campaign](/cases/high-roas-ugc-ads/), the brand needed hundreds of video variations to test hooks, angles, and formats across Meta and TikTok. That volume is only possible when creators work within canvas templates that eliminate guesswork and reduce revision cycles.
+
+![UGC creator trial reels — brands actively hire canvas UGC creators](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 For you as a creator, this means:
 - **Brands will always need more content than they have.** The supply-demand gap favors reliable creators.

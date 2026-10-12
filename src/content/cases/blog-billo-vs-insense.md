@@ -51,6 +51,8 @@ Neither platform provides strategic direction. Both expect you to arrive with a 
 | Customer support | Email, self-serve | Dedicated account support on higher plans |
 | Best for | Low-volume, budget-first testing | TikTok-focused brands needing whitelisting |
 
+![UGC creator trial reels — vetting creators yourself vs using a platform marketplace](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+
 ## Pricing Breakdown
 
 Billo charges per video with no platform fee. A single video runs $99-$300 depending on length, creator tier, and revision rounds. For 10 videos a month at an average of $200 each, the monthly cost lands around $2,000, with no additional subscription on top.
@@ -82,6 +84,8 @@ Both platforms share the same underlying model: they give you access to creators
 An agency changes what you are buying. Instead of raw footage from a marketplace, you get a managed process -- strategy, scripting built around what actually converts, creator matching handled for you, editing, and a testing framework that tells you which variations are working and why. The platform gives you the ingredients. An agency delivers the finished meal.
 
 This distinction matters most once you cross roughly 15-20 videos a month, or once performance -- not just cost per video -- becomes the priority. At that volume, the time your team spends briefing, reviewing, and re-requesting content on a platform starts to cost more than the platform fee itself. If you are not sure what that managed process should include, our guide on [what a UGC agency does](/blog/blog-what-is-ugc-agency/) covers the full scope, and [how to choose a UGC agency](/blog/blog-how-to-choose-ugc-agency/) walks through the questions worth asking before signing with one. You can also see [our pricing](/pricing/) for how a managed retainer compares at volume.
+
+![Women's health supplement UGC ad — agency-managed creator content with multiple hook variations](/images/cases/womens-health-supplement-ads/img-01.jpg)
 
 ## Bottom Line
 

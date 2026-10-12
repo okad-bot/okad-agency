@@ -45,6 +45,8 @@ Traditional freelance platforms increasingly list UGC work:
 - **Upwork** — Search "UGC creator," "UGC video," or "canvas UGC." Filter by hourly or fixed-price. Established Upwork profiles with reviews convert faster.
 - **Fiverr** — Create a gig specifically for canvas UGC creation. Include portfolio samples and clear deliverables.
 
+![Tech UGC creator hiring post with 81.8K views — brands advertise canvas UGC positions on social media](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 ### Direct Outreach
 
 The highest-paying canvas UGC jobs often come through direct relationships:
@@ -154,6 +156,8 @@ Platform fees directly impact your take-home pay. A $200 job nets different amou
 The pattern is clear: dedicated UGC platforms and direct outreach preserve your full rate. General freelance marketplaces like Fiverr take the biggest cut. This is why experienced creators use platforms to build portfolio and reviews, then transition to direct relationships where 100% of the payment is theirs.
 
 Factor in payout speed when planning cash flow. Some platforms hold funds for 14–21 days after delivery approval. If you are relying on UGC income to cover monthly expenses, stagger your deliveries across platforms to smooth out payment timing.
+
+![Faceless canvas UGC example — iPad drawing app content that brands pay $50–$300 per asset for](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## Deeper Red Flags and Scam Patterns
 

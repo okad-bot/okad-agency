@@ -39,6 +39,8 @@ Every video ad can be broken into discrete sections:
 
 Each component is produced as a standalone asset that works with any other component in its category. A hook filmed by Creator A can be paired with a body demo from Creator B and a CTA from Creator C. The combinations multiply your output exponentially.
 
+![UGC creator filming a talking-head hook — one of many modular components](/images/cases/womens-health-supplement-ads/img-01.jpg)
+
 ## The Math
 
 The production math is what makes modular creative transformative:
@@ -81,6 +83,8 @@ Film all hooks in a single session. Then all bodies. Then all CTAs. This elimina
 - Total shoot time: 2–4 hours for 13+ components
 
 Multiple creators can shoot in the same session. Each creator performs the same hooks and bodies, giving you creator-level variation on top of component-level variation.
+
+![Creator content produced in batch for Lookalikey UGC campaign](/images/cases/lookalikey-ugc-ads/img-01.jpg)
 
 ### Step 3: Assemble Combinations
 
@@ -155,6 +159,8 @@ The hidden power of modular creative is component-level performance data:
 - **Creator X's** components outperform Creator Y's by 20% → give Creator X more briefs
 
 Traditional production gives you ad-level data: this ad works, this ad does not. Modular production tells you why — which specific 3-second opening, which narrative structure, which CTA drives the result. That intelligence compounds over time. Build a proper [ad creative analysis dashboard](/blog/blog-ad-creative-analysis-dashboard/) to capture these component-level insights systematically.
+
+![AI app ad variation — one of 160+ ads produced through systematic component testing](/images/cases/ai-app/ai-app-10.webp)
 
 ## Getting Started
 
