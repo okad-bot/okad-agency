@@ -1,22 +1,11 @@
 ---
-title: "1.5M Organic Views. Zero Faces on Camera."
-description: "Faceless canvas-style UGC for an iPad drawing app: 1,257 videos published, 2,000 registrations, zero ad spend."
+title: "1.5M organic views. Zero faces on camera."
+description: "A drawing app for iPad started at about 100 downloads a week and wanted Tier 1 users without paying for ads. I put the app screen in front instead of a creator: a hand, a pencil, a line of text and a drawing people watch to the end."
 type: case
-date: 2026-09-01
+date: 2026-06-30
 lang: en
-cover: "/images/cases/covers/okad-case-03-drawing-app.webp"
-coverAlt: "Drawing app faceless UGC — screen recordings of digital art creation"
+cover: "/images/cases/drawing-app-faceless-ugc/grid01.jpg"
+coverAlt: "Frames from the 1 case"
 ---
 
-**1.5M organic views. Zero faces on camera.** An iPad drawing app needed content at scale but couldn't afford creator-led shoots for four separate TikTok accounts. We built a faceless content system: screen recordings of digital art being drawn, set to trending audio, with text overlays.
-
-No talking heads. No creator fees. Just the art process — sped up, cropped to vertical, posted daily across four accounts.
-
-## What we delivered
-
-- **1,257 faceless videos** published across 4 accounts
-- **1.5M organic views** with zero ad spend
-- **2,000 app registrations** from organic traffic alone
-- A repeatable production system: record, edit, post — one person, 15 minutes per video
-
-The format that worked best: satisfying time-lapses of detailed illustrations with a curiosity hook in the first frame.
+**1.5M organic views. Zero faces on camera.** A drawing app for iPad started at about 100 downloads a week and wanted Tier 1 users without paying for ads. I put the app screen in front instead of a creator: a hand, a pencil, a line of text and a drawing people watch to the end.

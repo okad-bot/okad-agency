@@ -63,7 +63,6 @@ const faqSchema = faqs.length > 0 ? {
 
 <Base title={`${entry.data.title} — OKAD Agency`} description={entry.data.description} ogImage={entry.data.cover} lang={entry.data.lang}>
   <Fragment slot="head">
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
@@ -100,7 +99,7 @@ const faqSchema = faqs.length > 0 ? {
         <div class="xband post-cta">
           <div style="display:grid;gap:10px">
             <span class="hand">rather have us do it?</span>
-            <h3>A testing plan for your first 10 videos, from $200</h3>
+            <h3>10 ready-to-run videos in 5 days, $500</h3>
           </div>
           <a class="btn" href="/#offer">See the offers →</a>
         </div>

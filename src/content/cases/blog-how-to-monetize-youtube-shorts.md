@@ -102,6 +102,8 @@ Your Shorts skills translate directly to paid UGC work:
 - [Canvas UGC](/blog/blog-what-is-canvas-ugc/) platforms pay $50–$300 per asset for exactly the skills Shorts require
 - Content licensing deals let brands use your organic Shorts as paid ads
 
+![Fragstore content creator — YouTube Shorts production as part of a 40-video monthly pipeline](/images/cases/fragstore-content-factory/fs/creator1.jpg)
+
 This is the most underutilized revenue stream. Creators with strong Shorts portfolios are exactly what brands need for their paid advertising — our guide on [UGC video ads](/blog/blog-ugc-video-ads-that-convert/) explains what brands look for. The bridge between "YouTuber" and "paid content creator" is shorter than most people realize. You can also explore [faceless UGC](/blog/blog-how-to-start-faceless-ugc/) if you want to create brand content without showing your face.
 
 ## Building a Shorts Monetization Strategy
@@ -131,6 +133,8 @@ The highest-earning Shorts creators stack multiple revenue streams:
 - Build team or systems for production efficiency
 - Develop premium products for your audience
 - Leverage Shorts audience for long-form content growth
+
+![Dating.com creator content for short-form video — brand sponsorship opportunity for Shorts creators](/images/cases/dating-com-creator-content/img-01.jpg)
 
 ## Common Monetization Mistakes
 

@@ -43,6 +43,8 @@ Traditional freelance platforms increasingly list UGC work:
 - **Upwork** — Search "UGC creator," "UGC video," or "canvas UGC." Filter by hourly or fixed-price. Established Upwork profiles with reviews convert faster.
 - **Fiverr** — Create a gig specifically for canvas UGC creation. Include portfolio samples and clear deliverables.
 
+![Tech UGC creator hiring post with 81.8K views — brands advertise canvas UGC positions on social media](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 ### Direct Outreach
 
 The highest-paying canvas UGC jobs often come through direct relationships:
@@ -96,6 +98,8 @@ Not every job is worth taking:
 - **No clear brief** — "Just make something cool" is not a canvas UGC job. The whole point of canvas is structure.
 - **Payment after performance** — You are paid for content creation, not for ad performance. Reject pay-per-click or revenue-share models unless you are specifically choosing to partner.
 - **NDA before seeing the rate** — Reasonable NDAs protect product launches. But signing an NDA before knowing the pay suggests the pay is not competitive.
+
+![Faceless canvas UGC example — iPad drawing app content that brands pay $50–$300 per asset for](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## Canvas UGC Job Rates by Category
 

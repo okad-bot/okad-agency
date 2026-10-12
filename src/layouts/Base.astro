@@ -16,8 +16,16 @@ const {
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const absoluteOgImage = ogImage.startsWith('http') ? ogImage : new URL(ogImage, Astro.site).href;
 import '../styles/global.css';
+import '@fontsource/instrument-serif/400.css';
+import '@fontsource/instrument-serif/400-italic.css';
+import '@fontsource/instrument-sans/400.css';
+import '@fontsource/instrument-sans/500.css';
+import '@fontsource/instrument-sans/600.css';
+import '@fontsource/instrument-sans/700.css';
+import '@fontsource/instrument-sans/400-italic.css';
+import '@fontsource/instrument-sans/600-italic.css';
+import '@fontsource/reenie-beanie/400.css';
 ---
 
 <!doctype html>
@@ -33,31 +41,23 @@ import '../styles/global.css';
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={absoluteOgImage} />
+    <meta property="og:image" content={ogImage} />
     <meta property="og:url" content={canonicalURL} />
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={absoluteOgImage} />
-    <meta name="twitter:site" content="@okad_agency" />
-
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
+    <!-- Google Analytics 4 -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-YS34PNP7XN"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YS34PNP7XN');
+    </script>
     <slot name="head" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Handjet&display=swap"
       rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Handjet&family=Instrument+Serif:ital@1&display=swap"
-      rel="stylesheet"
-      media="print"
-      onload="this.media='all'"
     />
 
   </head>
@@ -74,11 +74,11 @@ import '../styles/global.css';
         </button>
         <nav class="main-nav">
           <a href="/">Video ads</a>
-          <a href="/cases/">Cases</a>
-          <a href="/design/">Design</a>
-          <a href="/pricing/">Pricing</a>
+          <a href="/cases">Cases</a>
+          <a href="/design">Design</a>
+          <a href="/pricing">Pricing</a>
           <a href="/blog/">Learn</a>
-          <a href="mailto:olga@okad.agency">Email</a>
+          <button type="button" class="nav-email copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button>
           <a href="https://calendly.com/okad_calls/first" class="nav-cta" target="_blank" rel="noopener">Book a call</a>
         </nav>
       </div>
@@ -115,12 +115,12 @@ import '../styles/global.css';
           <p class="footer-tagline">Ad creatives, UGC video, web design & branding — 100+ brands, 10,000+ assets.</p>
         </div>
         <nav class="footer-nav">
-          <a href="/cases/">Cases</a>
-          <a href="/design/">Design</a>
+          <a href="/cases">Cases</a>
+          <a href="/design">Design</a>
           <a href="/#cases">UGC Video</a>
           <a href="/" class="footer-logo-mid">OKAD</a>
           <a href="/#offer">Ad Creatives</a>
-          <a href="/pricing/">Pricing</a>
+          <a href="/pricing">Pricing</a>
           <a href="/blog/">Learn</a>
         </nav>
         <div class="footer-social">
@@ -134,5 +134,35 @@ import '../styles/global.css';
         </div>
       </div>
     </footer>
+
+    <div class="copy-toast" role="status" aria-live="polite" hidden>Email copied</div>
+    <style is:global>
+      .copy-email{cursor:pointer;font:inherit}
+      .nav-email{background:none;border:0;padding:0;color:inherit;font-size:inherit}
+      .copy-toast{position:fixed;left:50%;bottom:calc(84px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:200;background:#111;color:#eefb6e;font:600 15px/1 'Instrument Sans',system-ui,sans-serif;padding:12px 18px;border-radius:99px;box-shadow:0 12px 30px -12px rgba(0,0,0,.5)}
+      .copy-toast[hidden]{display:none}
+    </style>
+    <script>
+      // Every email on the site is shown as text and copied on click (no mailto).
+      const toast = document.querySelector<HTMLElement>('.copy-toast');
+      let t: number | undefined;
+      const copy = async (email: string, el?: HTMLElement) => {
+        try { await navigator.clipboard.writeText(email); }
+        catch {
+          const ta = document.createElement('textarea'); ta.value = email; document.body.appendChild(ta); ta.select();
+          try { document.execCommand('copy'); } catch {}
+          ta.remove();
+        }
+        if (toast) { toast.textContent = `${email} copied`; toast.hidden = false; clearTimeout(t); t = window.setTimeout(() => (toast.hidden = true), 2200); }
+        (window as any).gtag?.('event', 'copy_email', { email_location: el?.className || 'link' });
+      };
+      document.addEventListener('click', (e) => {
+        const el = (e.target as HTMLElement).closest<HTMLElement>('.copy-email, a[href^="mailto:"]');
+        if (!el) return;
+        e.preventDefault();
+        const email = el.dataset.email || (el.getAttribute('href') || '').replace('mailto:', '').split('?')[0];
+        copy(email, el);
+      });
+    </script>
   </body>
 </html>

@@ -66,6 +66,8 @@ This is not arbitrary. Each ad variation fatigues at roughly the same rate (meas
 
 This is where UGC and canvas UGC become essential for scale. Studio production cannot match the volume requirement. A team of 5–10 UGC creators producing weekly assets gives you the creative pipeline that scaling demands — our guide on [high-volume UGC production](/blog/blog-high-volume-ugc-production/) shows how to build it.
 
+![AI app creative testing — from 2 videos to 160+ ad variations while maintaining ROAS](/images/cases/ai-app/ai-app-05.webp)
+
 ## Strategy 3: Audience Expansion (Not Just Broader Targeting)
 
 When your core audience saturates, you have two options:
@@ -81,6 +83,8 @@ When your core audience saturates, you have two options:
 - Each platform has distinct audiences with different saturation points.
 
 The second option is generally more effective because you reach genuinely new people rather than less qualified versions of the same audience.
+
+![Longevity supplement story ad — real person testimonial format that scales on Meta](/images/cases/longevity-supplement-story-ads/lg/r0.jpg)
 
 ## Strategy 4: The Campaign Structure for Scale
 
@@ -141,5 +145,7 @@ Sustainable scaling follows a cycle:
 4. **Refresh creative** → Replace fatigued assets with new variations
 5. **Expand audiences** → New segments, new platforms
 6. Return to step 1
+
+![ZenToes Walmart launch ads — scaling creative from existing footage without new shoots](/images/cases/zentoes-walmart-launch-ads/img-01.jpg)
 
 Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. See how we applied this scaling approach in our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/), or read the [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. For a structured approach to step 1, try our [$500 creative testing framework](/blog/blog-creative-testing-for-dtc/).

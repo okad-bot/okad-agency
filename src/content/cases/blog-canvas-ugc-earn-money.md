@@ -58,6 +58,8 @@ Agency contracts, multiple brand retainers, and selective premium projects. Some
 
 ## Why Canvas UGC Pays Better Per Hour Than Traditional UGC
 
+![Canvas UGC drawing app content grid — faceless videos that generated 1.5M organic views](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
 The math favors canvas UGC because of speed:
 
 **Traditional UGC:** 2–4 hours per video (concept, shooting, editing, revisions) at $150–$300 = $37–$150/hour
@@ -113,6 +115,8 @@ Instead of selling individual assets, offer packages:
 - "Campaign bundle: 10 videos across 3 formats for $1,500"
 
 Brands prefer packages because they get volume discounts and predictable costs. You prefer packages because they guarantee income and reduce sales time.
+
+![UGC creator trial reels grid — brands actively hire canvas UGC creators](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 ### 5. Build a Referral Network
 
