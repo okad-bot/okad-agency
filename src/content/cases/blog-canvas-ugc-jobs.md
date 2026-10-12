@@ -16,6 +16,8 @@ faqs:
     a: "Brands prioritize: relevant niche experience, a portfolio showing consistent quality, ability to follow structured briefs, on-time delivery history, and clear on-camera communication. Follower count does not matter for UGC — content quality and reliability do."
   - q: "Can I do canvas UGC jobs without a large following?"
     a: "Yes. Canvas UGC is about content creation, not influence. Brands want authentic-looking content for their ads, not access to your audience. Creators with zero followers regularly get hired based on portfolio quality alone."
+  - q: "Which canvas UGC platforms charge the lowest fees?"
+    a: "Billo and Trend charge no creator fees — brands pay the platform directly. Collabstr takes a 10–15% service fee from creator earnings. Upwork takes 10% on the first $10K with a client and 5% after. Fiverr takes a flat 20%. Direct outreach has zero platform fees, which is why experienced creators transition to direct brand relationships."
 ---
 
 Canvas UGC jobs are growing faster than the creator supply. Brands scaling their ad creative need dozens of fresh assets monthly, and [canvas UGC](/blog/blog-what-is-canvas-ugc/) — content produced within structured templates — delivers the consistency they require. That supply-demand gap means opportunity for creators who know where to look and how to position themselves.
@@ -121,5 +123,56 @@ The creators who sustain income from canvas UGC share three habits:
 1. **They treat it like a business.** Tracking income, expenses, turnaround times, and client satisfaction. Not just "doing gigs."
 2. **They specialize.** Being known as "the person who does great tech UGC" or "the best beauty canvas creator on the platform" gets more referrals than being a generalist.
 3. **They build direct relationships.** Platform jobs are the starting point. Direct brand contracts are the destination. Every platform job is an audition for a direct relationship.
+
+## Income Progression Timeline
+
+Canvas UGC income does not jump overnight. It follows a predictable arc based on portfolio depth, client relationships, and niche positioning. Here is what realistic progression looks like:
+
+| Stage | Timeline | Monthly Income | Key Milestone |
+|---|---|---|---|
+| **Getting started** | Months 1–2 | $0–$300 | First 3–5 paid deliveries, building portfolio |
+| **Building momentum** | Months 3–5 | $300–$1,000 | 10+ completed jobs, first repeat client |
+| **Steady flow** | Months 6–9 | $1,000–$2,500 | 2–3 recurring clients, platform reviews accumulating |
+| **Established** | Months 10–14 | $2,500–$4,000 | Direct brand relationships, retainer contracts |
+| **Professional** | Month 15+ | $4,000–$8,000+ | Multiple retainers, premium rates, referral pipeline |
+
+Most creators stall in the "building momentum" phase because they stop applying after landing a few gigs. Consistency is the differentiator. Treat months 3–5 like the real proving ground — this is where your reputation compounds through reviews and repeat hires.
+
+Creators who specialize in higher-paying niches like tech or SaaS reach the "established" stage faster because fewer creators compete in those categories. Our [tech UGC guide](/blog/blog-tech-ugc-guide/) details the skills that justify premium pricing in that niche.
+
+## Platform Fees Comparison
+
+Platform fees directly impact your take-home pay. A $200 job nets different amounts depending on where you accept it:
+
+| Platform | Creator Fee | Brand-Side Fee | $200 Job Take-Home | Payout Speed |
+|---|---|---|---|---|
+| ReelPilot | 0% | Brand pays platform | $200 | 7–14 days |
+| Billo | 0% | Brand pays per asset | $200 | 7–10 days |
+| Trend | 0% | Brand pays membership | $200 | 14 days |
+| Insense | 0% | Brand pays platform fee | $200 | 14–21 days |
+| Collabstr | 10–15% | Listing fee | $170–$180 | 7–14 days |
+| Upwork | 10% (first $10K) | 3–5% | $180 | 5–10 days |
+| Fiverr | 20% | 5.5% | $160 | 14 days (standard) |
+| Direct outreach | 0% | N/A | $200 | Net 15–30 (invoiced) |
+
+The pattern is clear: dedicated UGC platforms and direct outreach preserve your full rate. General freelance marketplaces like Fiverr take the biggest cut. This is why experienced creators use platforms to build portfolio and reviews, then transition to direct relationships where 100% of the payment is theirs.
+
+Factor in payout speed when planning cash flow. Some platforms hold funds for 14–21 days after delivery approval. If you are relying on UGC income to cover monthly expenses, stagger your deliveries across platforms to smooth out payment timing.
+
+![Faceless canvas UGC example — iPad drawing app content that brands pay $50–$300 per asset for](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
+## Deeper Red Flags and Scam Patterns
+
+Beyond the basic red flags listed above, watch for these more subtle warning signs:
+
+**Fake agencies recycling creator work.** Some middlemen collect free "test videos" from dozens of creators with no intention of hiring. If a brand asks for a paid test at reduced rate, that is reasonable. If they ask for a free test with vague promises, walk away.
+
+**Scope creep disguised as collaboration.** "We would also love a few extra cuts" after you deliver the agreed scope. Define deliverables in writing before starting. Additional cuts cost additional money.
+
+**Delayed payment without contract.** Any job over $100 should have written terms — even a simple email agreement stating deliverables, timeline, rate, and payment schedule. Brands that refuse to put terms in writing are not worth the risk.
+
+**Rate anchoring below market.** "Our budget is $25 per video, but we have high volume." High volume at a rate 75% below market is not an opportunity — it is exploitation. Refer to the rate table above and hold your floor. Brands running [high-converting video ad campaigns](/cases/high-converting-video-ads-for-dtc-brands/) understand that quality content costs real money and delivers measurable ROI.
+
+For a detailed breakdown of what you should charge at every experience level, our [UGC creator rates and pricing guide](/blog/blog-ugc-creator-rates-pricing/) covers rate-setting strategy. And if you want to understand how to [scale ad campaigns with strong ROAS](/blog/blog-how-to-scale-ad-campaigns-roas/), that context helps you speak brands' language during rate negotiations.
 
 The canvas UGC job market is expanding because brands need more authentic content faster. Creators who learn the format and build reliable reputations will not struggle to find work. For realistic income expectations at each stage, read our data on [canvas UGC earnings](/blog/blog-canvas-ugc-earn-money/). And if you want to pitch brands directly instead of waiting for platform postings, our [brand pitch template](/blog/blog-brand-pitch-ugc-creator/) walks through the outreach process that gets replies.

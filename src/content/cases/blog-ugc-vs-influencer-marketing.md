@@ -93,7 +93,7 @@ UGC is the stronger choice for:
 
 Any brand spending meaningfully on paid social and tracking CPA or ROAS as a primary KPI should default to UGC as the backbone of their creative strategy.
 
-![UGC creator filming a talking-head ad for a supplement brand — authentic, product-focused content](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+![UGC creator ad for supplement brand — authentic, product-focused content](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 ## When Influencers Win
 
@@ -107,11 +107,11 @@ Influencer marketing is the stronger choice for:
 
 Awareness and trust are harder to measure than CPA, but they are real outcomes, and influencer marketing is built to deliver them in a way UGC is not.
 
+![Dating.com creator content — blending influencer storytelling with UGC authenticity](/images/cases/dating-com-creator-content/img-01.jpg)
+
 ## The Hybrid Approach
 
 The brands getting the most out of their creative budget do not pick one format -- they sequence both. Influencer partnerships work at the top of the funnel, introducing the brand to a relevant audience and generating initial trust and awareness. UGC then works the middle and bottom of the funnel, converting the people who have already heard of the brand into buyers.
-
-![Dating.com creator content — blending influencer-style storytelling with UGC authenticity](/images/cases/dating-com-creator-content/img-01.jpg)
 
 There is also a practical overlap worth using: influencer content can often be repurposed as paid ad creative, provided the usage rights allow it. A strong influencer video, re-cut and paired with a performance-driven hook, can run as a UGC-style ad even though it originated as an organic influencer post. This requires negotiating broader usage rights up front, but it stretches a single piece of content across both goals.
 

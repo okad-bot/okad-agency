@@ -16,6 +16,8 @@ faqs:
     a: "Short-term: replace the opening 3 seconds (new hook), update the thumbnail, re-edit with different pacing, or use a different creator with the same script. Long-term: build a continuous creative pipeline producing 3–12 new concepts weekly depending on spend level."
   - q: "How often should you refresh ad creative?"
     a: "At $10K–$50K monthly spend: 3–6 new concepts weekly. At $50K–$200K: 6–12 new concepts weekly. At $200K+: 12–20+ new concepts weekly. The only structural solution to ad fatigue is producing fresh winners faster than existing ones decay."
+  - q: "Does ad fatigue affect all platforms equally?"
+    a: "No. TikTok creative fatigues fastest (7–14 days average lifespan) due to high scroll speed and algorithm sensitivity. Meta/Instagram lasts 14–28 days. YouTube holds 30–60 days because longer-form content has higher rewatch tolerance. Google Search/Display runs 45–90 days because text/image ads face less novelty pressure than video."
 ---
 
 Ad fatigue is the single biggest ongoing cost in paid advertising. Every ad you run will eventually stop working — not because the targeting changed or the audience disappeared, but because people saw it too many times and stopped responding.
@@ -128,5 +130,91 @@ When fatigue hits, choose one of three paths:
 **Scale down** — The creative is still profitable but declining. Reduce budget and extend its life while you launch replacements.
 
 **Kill** — CPA is above your threshold and declining. Stop spending immediately. No amount of optimization saves a dead creative.
+
+## Fatigue Timeline by Platform: Detailed Breakdown
+
+The general fatigue timeline above covers the broad pattern. But each platform has distinct characteristics that affect how quickly creative decays and what refresh strategies work best:
+
+| Platform | Average Lifespan | Peak Performance | Fatigue Signal | Key Driver |
+|---|---|---|---|---|
+| TikTok | 7–14 days | Days 2–5 | CTR drop + frequency 1.5+ | High scroll speed, algorithm punishes stale content aggressively |
+| Meta (Feed) | 14–28 days | Days 4–10 | CTR drop + frequency 2.0+ | Andromeda system evaluates 100K candidates per impression |
+| Meta (Stories/Reels) | 10–21 days | Days 3–7 | Completion rate drop | Shorter format = faster content consumption cycle |
+| YouTube (In-Stream) | 30–60 days | Days 7–21 | Skip rate increase + view rate decline | Longer content tolerates more repeat views |
+| YouTube (Shorts) | 14–21 days | Days 3–10 | CTR drop | Behaves more like TikTok than traditional YouTube |
+| Google Display | 45–90 days | Days 14–30 | CTR drop below 0.1% | Static banners face less novelty pressure |
+| Pinterest | 30–60 days | Days 7–21 | Save rate decline | Evergreen intent-based platform, slower fatigue |
+
+The practical takeaway: if you run ads across TikTok and Meta simultaneously, your TikTok creative pipeline needs to produce 2x the volume of your Meta pipeline to maintain the same number of active winners.
+
+Brands running [high-ROAS UGC campaigns](/cases/high-roas-ugc-ads/) across multiple platforms stagger creative launches — new TikTok assets on Monday, new Meta assets on Wednesday — so the team avoids simultaneous refresh deadlines.
+
+## Refresh Strategies by Ad Type
+
+Different ad formats require different refresh approaches. A hook swap on a talking-head video is straightforward. Refreshing a product demo requires reshooting. Match the strategy to the format:
+
+### UGC Talking-Head Ads
+
+- **Fastest refresh:** Swap the hook (first 3 seconds). Same creator, same body, new opening.
+- **Medium refresh:** Same script, different creator. The new face resets audience familiarity.
+- **Full refresh:** New concept entirely. Reserve for when the core angle is exhausted.
+
+### Product Demo Videos
+
+- **Fastest refresh:** Change text overlays, music, and pacing. Same footage, different edit.
+- **Medium refresh:** Add new use cases or feature highlights to existing footage.
+- **Full refresh:** Reshoot with updated product, new setting, or seasonal context.
+
+### Before/After Content
+
+- **Fastest refresh:** New intro/hook leading into the same transformation footage.
+- **Medium refresh:** Different subject with the same transformation arc.
+- **Full refresh:** New results data or longer-term outcome footage.
+
+### Social Proof / Testimonial Ads
+
+- **Fastest refresh:** Re-edit the same testimonials with different sequencing or text.
+- **Medium refresh:** Add 1–2 new testimonials to the compilation.
+- **Full refresh:** Entirely new batch of testimonials from different demographics.
+
+For each format, the fastest refresh buys 5–10 additional days. Medium extends by 10–20 days. Full refresh resets the clock entirely. Our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) covers the creative principles that make each refresh effective.
+
+## Production Cadence Calculator
+
+Use this framework to calculate how many new assets your team needs weekly:
+
+### Step 1: Determine Your Active Creative Need
+
+| Monthly Ad Spend | Minimum Active Winners | Testing Variations Needed |
+|---|---|---|
+| $10K–$25K | 5–8 | 15–24 |
+| $25K–$50K | 8–12 | 24–36 |
+| $50K–$100K | 12–20 | 36–60 |
+| $100K–$200K | 20–30 | 60–90 |
+| $200K+ | 30–50+ | 90–150+ |
+
+### Step 2: Factor in Win Rate and Lifespan
+
+Assume a 20–25% win rate (1 in 4 concepts becomes a winner) and the platform-specific lifespans above.
+
+**Example: brand spending $75K/month across Meta and TikTok:**
+
+- Need 15 active winners at any time
+- Win rate: 25% (need to test 60 concepts to find 15 winners)
+- Average lifespan: 14 days (blended Meta + TikTok)
+- Monthly refresh cycles: 2 (every 14 days)
+- New concepts needed per cycle: 30 (60 ÷ 2)
+- **Weekly production target: 15 new concepts**
+
+### Step 3: Map to Production Resources
+
+| Weekly Concepts | Creator + Editor Hours | Estimated Weekly Cost |
+|---|---|---|
+| 5–8 | 10–14 hours | $1,500–$3,000 |
+| 8–15 | 16–28 hours | $3,000–$6,000 |
+| 15–25 | 28–44 hours | $5,000–$10,000 |
+| 25+ | 44+ hours | $8,000–$15,000 |
+
+These costs assume [modular creative production](/blog/blog-modular-creative-production/) where components are batch-shot and recombined. Traditional one-off production costs 3–4x more for the same output.
 
 The brands that maintain ROAS at scale are not avoiding fatigue — they are outrunning it. They produce more creative, test faster, and replace fatigued assets before performance collapses. Ad fatigue is not a problem to solve. It is a constraint to operate within. For the complete testing framework that keeps your pipeline ahead of decay, read our [$500 creative testing framework for DTC](/blog/blog-creative-testing-for-dtc/) or our full [ad creative strategy guide](/blog/blog-ad-creative-strategy/). And to see fatigue management in a real campaign, check our [creative testing case study for Meta ads](/cases/creative-testing-ai-app-meta-ads/).

@@ -54,6 +54,8 @@ A few of these are worth unpacking:
 - **Creative fatigue lifespan** is how long an ad keeps performing before audiences tune it out. Stock footage blends into the general noise of generic advertising faster, so it fatigues sooner even with less total exposure.
 - **Production time** favors stock video, since licensing a clip takes minutes compared to briefing, filming, and editing a UGC creator. This is the one category where stock has a clear structural advantage.
 
+![ZenToes UGC ad for Walmart launch — authentic creator content with real product demonstration](/images/cases/zentoes-walmart-launch-ads/img-01.jpg)
+
 ## Where UGC Wins
 
 UGC performs best in contexts where the viewer is deciding, in real time, whether to trust a product or brand.
@@ -62,8 +64,6 @@ UGC performs best in contexts where the viewer is deciding, in real time, whethe
 - **Direct response campaigns** optimized for clicks, sign-ups, or purchases, where every extra second of attention compounds into conversions.
 - **Product testimonials**, where a real person describing a real experience carries more weight than a voiceover over b-roll.
 - **Retargeting**, where the viewer already knows the brand and responds better to a relatable person than a repeat of the same polished spot.
-
-![ZenToes UGC ad for Walmart launch — authentic creator content with real product demonstration](/images/cases/zentoes-walmart-launch-ads/img-01.jpg)
 
 The common thread is that authenticity drives the decision. When the ad's job is to build trust fast and convert attention into action, UGC outperforms because it does not trigger the skepticism that comes with recognizing an ad. For a deeper breakdown of what separates a converting UGC ad from a flat one, see [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/).
 
@@ -77,9 +77,9 @@ Stock video is not obsolete, and dismissing it outright is its own kind of bias.
 - **Website hero sections**, where a smooth, high-production clip sets the tone for a brand's visual identity on first load.
 - **Scenarios requiring locations, settings, or shots** that would be impractical or expensive to film with a UGC creator -- aerial shots, specific international locations, or large-scale environments.
 
-![Faceless canvas UGC for a drawing app — screen-first content that bridges UGC and stock quality](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
-
 In these cases, the audience is not being asked to trust a stranger's recommendation. They are evaluating a brand's overall positioning, and production polish does real work there.
+
+![Faceless canvas UGC for a drawing app — screen-first content that bridges UGC and stock quality](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## The Hybrid Approach
 
