@@ -70,7 +70,7 @@ The content strategy delivered measurable results before the product even launch
 - **Market validation** — tested different content approaches and refined messaging based on audience response
 - **Automated DMs** — converted engagement into direct conversations at scale
 
-The pre-launch audience gave Upstream a validated user base ready to onboard on day one, significantly reducing the risk typically associated with SaaS launches. For more on how we approach high-efficiency paid campaigns, see our guide on [scaling ad campaigns without killing ROAS](/cases/blog-how-to-scale-ad-campaigns-roas/).
+The pre-launch audience gave Upstream a validated user base ready to onboard on day one, significantly reducing the risk typically associated with SaaS launches. For more on how we approach high-efficiency paid campaigns, see our guide on [scaling ad campaigns without killing ROAS](/blog/blog-how-to-scale-ad-campaigns-roas/).
 
 ![Upstream content examples including Reels, carousels, and educational posts](https://framerusercontent.com/images/XqYrBMsGblxoRqMuwLZClw1J4.jpg?width=2800&height=1860)
 

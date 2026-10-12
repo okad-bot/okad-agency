@@ -62,6 +62,8 @@ Build a network instead:
 
 This tiered system ensures consistent quality while maintaining a pipeline of new talent.
 
+![UGC creator hiring reel with 81.8K views — building a creator network through organic content](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 ### 2. Canvas Templates (Not Freeform Briefs)
 
 At scale, detailed written briefs become a bottleneck. Each brief takes 30–60 minutes to write, and creators interpret them differently.
@@ -75,6 +77,8 @@ Canvas templates solve this:
 - Revision rates drop from 30–40% (freeform) to 10–15% (canvas)
 
 A library of 10–15 canvas templates covers most campaign needs. New templates are added when new concepts prove successful. For brands that also need faceless content at volume, our [faceless UGC production playbook](/blog/blog-faceless-ugc-for-brands/) covers how Skribly scaled to 1,257 videos in two months.
+
+![Grid of UGC creator trial reels — vetting creators at scale for high-volume production](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 ### 3. Weekly Production Cycles
 
@@ -102,6 +106,8 @@ The most efficient cadence for high-volume production:
 ![Fragstore content creator — part of a weekly production cycle producing 40 videos per month](/images/cases/fragstore-content-factory/fs/creator1.jpg)
 
 This cadence produces 15–25 finished assets per week (60–100 per month) with a team of 10–15 active creators.
+
+![Fragstore content creator — part of a weekly production cycle producing 40 videos per month](/images/cases/fragstore-content-factory/fs/creator1.jpg)
 
 ### 4. Quality Control at Scale
 

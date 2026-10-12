@@ -72,7 +72,7 @@ The design system was built to be self-sufficient — ChainKeyX's internal team 
 
 ## What Made This Project Unique
 
-The website was not supplementary to the fundraising process — it was central to it. ChainKeyX's team used the site in place of a traditional pitch deck during investor conversations, pulling up specific sections live during calls. This meant every page section needed to function both as a standalone reference and as part of a linear narrative. For teams exploring a similar approach, our article on [designing websites that convert](/cases/blog-how-to-design-a-website-that-converts/) covers the underlying principles.
+The website was not supplementary to the fundraising process — it was central to it. ChainKeyX's team used the site in place of a traditional pitch deck during investor conversations, pulling up specific sections live during calls. This meant every page section needed to function both as a standalone reference and as part of a linear narrative. For teams exploring a similar approach, our article on [designing websites that convert](/blog/blog-how-to-design-a-website-that-converts/) covers the underlying principles.
 
 ## Results
 

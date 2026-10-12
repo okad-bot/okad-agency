@@ -101,6 +101,8 @@ Not every job is worth taking:
 - **Payment after performance** — You are paid for content creation, not for ad performance. Reject pay-per-click or revenue-share models unless you are specifically choosing to partner.
 - **NDA before seeing the rate** — Reasonable NDAs protect product launches. But signing an NDA before knowing the pay suggests the pay is not competitive.
 
+![Faceless canvas UGC example — iPad drawing app content that brands pay $50–$300 per asset for](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
 ## Canvas UGC Job Rates by Category
 
 | Category | Beginner Rate | Mid-Level | Premium |

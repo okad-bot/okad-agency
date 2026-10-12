@@ -1,25 +1,36 @@
 ---
 import Base from '../layouts/Base.astro';
 import '../styles/okad-house.css';
+
 const CALL = 'https://calendly.com/okad_calls/first';
 const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
-const CASE2 = '/cases/zentoes-walmart-launch-ads';
-// Order links for the no-call offers. TODO: replace with Stripe Payment Links (one per offer).
-// Until then they open a pre-filled email.
-const ORDER_AUDIT = 'mailto:olga@okad.agency?subject=Account%20audit%20%E2%80%94%20%24200&body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0A';
-const ORDER_STARTER = 'mailto:olga@okad.agency?subject=Starter%20pack%20%E2%80%94%2010%20videos%20for%20%24500&body=Product%20link%3A%0AWhere%20you%20run%20ads%20(Meta%20%2F%20TikTok)%3A%0AAI%20or%20creator%20footage%3A%0A';
+const CASE2 = '/cases/drawing-app-faceless-ugc';
+const CASE3 = '/cases/ad-re-edits-five-brands';
+const CASE4 = '/cases/by-okad-camera-roll-creators';
 
+const C = '/images/cases';
+// group: paid = paid social ads, footage = ads from existing footage, organic = organic reach
 const videoWork = [
-  { href: '/cases/lookalikey-ugc-ads', layout: 'chat', pics: ['/images/cases/lookalikey-ugc-ads/img-12.jpg', '/images/cases/lookalikey-ugc-ads/img-02.jpg'], tags: ['#DTC', 'UGC'], title: 'Lookalikey — the moment after' },
-  { href: '/cases/dating-com-creator-content', layout: 'feed', pics: ['/images/cases/dating-com-creator-content/img-01.jpg', '/images/cases/dating-com-creator-content/img-02.jpg', '/images/cases/dating-com-creator-content/img-03.jpg', '/images/cases/dating-com-creator-content/img-05.jpg', '/images/cases/dating-com-creator-content/img-09.jpg', '/images/cases/dating-com-creator-content/img-12.jpg'], tags: ['#Dating', '#Organic'], title: 'Dating.com — 60+ videos for 40+' },
-  // Women's health case is live at /cases/womens-health-supplement-ads but hidden from the homepage for now
-  { href: '/cases/case-uprest', img: '/images/cases/case-uprest.jpg', tags: ['#B2B', '#Lead gen'], title: 'UpRest — €2.75 per lead' },
-  { href: '/cases/high-roas-ugc-ads', img: '/images/BmUk0KMAPqqpLzpARwDdXhfg.webm', video: true, tags: ['#DTC', '#E-com'], title: 'High ROAS UGC ads' },
-  { href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.png', tags: ['#DTC', 'UGC'], title: 'AI static ads — 3x CTR' },
-  { href: '/cases/ugc-creators-over-45', img: '/images/FXMkq1jH116yCF0nIQPl2N2vc.png', tags: ['#Silver age', 'Video'], title: 'Creators 45+ — trust-first' },
-  { href: '/cases/organic-video-content-1m-views', img: '/images/fgyKKr3g1dPjydOItu6UTCo3k8.webm', video: true, tags: ['#Digital', '#Organic'], title: '1M+ views — dating & EdTech' },
-  { href: '/cases/static-ad-creatives-digital-products', img: '/images/WpH2ghvnLZkT7E1Ekkky6uTuFg.png', tags: ['#Paid ads', '#Digital'], title: 'Static ads for Meta & TikTok' },
-  { href: '/cases/alcohol-ugc-content', img: '/images/SBAkW2rwVUXKWpG9XA9enjK968.png', tags: ['#Alco', 'UGC'], title: 'Alco UGC — compliance-first' },
+  { group: 'paid', href: '/cases/lookalikey-ugc-ads', layout: 'chat', pics: [`${C}/lookalikey-ugc-ads/img-12.jpg`, `${C}/ad-re-edits-five-brands/ad/v/cbrain.mp4`], tags: ['Paid ads', 'Meta'], title: 'Lookalikey: ROAS up to 2.2 on the first test' },
+  { group: 'paid', href: '/cases/supplement-brand-ugc-ad-testing', layout: 'trio', pics: [`${C}/supplement-brand-ugc-ad-testing/sm/face.jpg`, `${C}/supplement-brand-ugc-ad-testing/sm/gel.jpg`, `${C}/supplement-brand-ugc-ad-testing/sm/sixth.jpg`], tags: ['Paid ads', 'Supplements'], title: '16 creator videos, 48 ads to test' },
+  { group: 'paid', href: '/cases/longevity-supplement-story-ads', layout: 'trio', pics: [`${C}/longevity-supplement-story-ads/lg/r0.jpg`, `${C}/longevity-supplement-story-ads/lg/l3c.jpg`, `${C}/longevity-supplement-story-ads/lg/p0.jpg`], tags: ['Paid ads', 'EN + DE'], title: '68 ads. Story before product' },
+  { group: 'paid', href: '/cases/case-uprest', img: '/images/thumbs/case-uprest.webp', tags: ['Paid ads', 'B2B'], title: 'UpRest: €2.75 per lead' },
+  { group: 'footage', href: '/cases/zentoes-walmart-launch-ads', layout: 'duo', pics: [`${C}/zentoes-walmart-launch-ads/img-11.jpg`, `${C}/zentoes-walmart-launch-ads/img-05.jpg`], tags: ['From your footage', 'Retail'], title: 'ZenToes: a Walmart launch, no new shoot' },
+  { group: 'footage', href: '/cases/ad-re-edits-five-brands', layout: 'trio', pics: [`${C}/ad-re-edits-five-brands/ad/m1.jpg`, `${C}/ad-re-edits-five-brands/ad/r1.jpg`, `${C}/ad-re-edits-five-brands/ad/t2.jpg`], tags: ['From your footage', '5 brands'], title: '~80 ads from old folders' },
+  { group: 'organic', href: '/cases/your-christian-date-broll-content', layout: 'trio', pics: [`${C}/your-christian-date-broll-content/ycd/church1.jpg`, `${C}/your-christian-date-broll-content/ycd/vat1.jpg`, `${C}/your-christian-date-broll-content/ycd/rend1.jpg`], tags: ['Organic', 'Dating app'], title: '800K views on one Reel' },
+  { group: 'organic', href: '/cases/drawing-app-faceless-ugc', layout: 'feed', pics: [`${C}/drawing-app-faceless-ugc/grid01.jpg`, `${C}/drawing-app-faceless-ugc/grid02.jpg`, `${C}/drawing-app-faceless-ugc/grid05.jpg`, `${C}/drawing-app-faceless-ugc/grid08.jpg`, `${C}/drawing-app-faceless-ugc/grid10.jpg`, `${C}/drawing-app-faceless-ugc/grid11.jpg`], tags: ['Organic', 'iPad app'], title: '1.5M views, 2,000 sign-ups' },
+  { group: 'organic', href: '/cases/fragstore-content-factory', layout: 'trio', pics: [`${C}/fragstore-content-factory/fs/doombox.jpg`, `${C}/fragstore-content-factory/fs/green2.jpg`, `${C}/fragstore-content-factory/fs/turtle1.jpg`], tags: ['Organic', 'E-com'], title: 'Fragstore: 48.9K views in 3 weeks' },
+  { group: 'organic', href: '/cases/smalltalk2me-social-content', layout: 'trio', pics: [`${C}/smalltalk2me-social-content/st/b1.jpg`, `${C}/smalltalk2me-social-content/st/c2.jpg`, `${C}/smalltalk2me-social-content/st/c4.jpg`], tags: ['Organic', 'EdTech'], title: '24K views, 849 saves on one tip' },
+  { group: 'organic', href: '/cases/dating-com-creator-content', layout: 'feed', pics: [`${C}/dating-com-creator-content/img-01.jpg`, `${C}/dating-com-creator-content/img-02.jpg`, `${C}/dating-com-creator-content/img-03.jpg`, `${C}/dating-com-creator-content/img-05.jpg`, `${C}/dating-com-creator-content/img-09.jpg`, `${C}/dating-com-creator-content/img-12.jpg`], tags: ['Organic', 'Dating 40+'], title: 'Dating.com: 60+ videos for 40+' },
+  { group: 'paid', href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/thumbs/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.webp', tags: ['Paid ads', 'Statics'], title: 'AI static ads: 3x CTR' },
+  { group: 'organic', href: '/cases/organic-video-content-1m-views', img: '/images/thumbs/fgyKKr3g1dPjydOItu6UTCo3k8.webp', tags: ['Organic', 'Digital'], title: '1M+ views: dating & EdTech' },
+  // Women's health / Milamend case is live in /cases but hidden from the homepage on purpose
+];
+const groups = [
+  ['all', 'All'],
+  ['paid', 'Paid ads'],
+  ['footage', 'From your footage'],
+  ['organic', 'Organic reach'],
 ];
 
 const principles = [
@@ -41,23 +52,25 @@ const steps = [
 ];
 
 const design = [
-  { href: '/cases/case-jumpman', img: '/images/cases/case-jumpman.png', tags: ['Branding'], title: 'Jumpman, Paris', text: 'Brand identity for a Paris cardio studio.' },
-  { href: '/cases/case-jumpman-website-main', img: '/images/cases/case-jumpman-website-main.jpg', tags: ['Web', 'Framer'], title: 'Jumpman website', text: 'Doubled B2C bookings in the first month.' },
-  { href: '/cases/case-jardins-etretat-redesign-main', img: '/images/cases/case-jardins-etretat-redesign-main.jpg', tags: ['Web', 'Framer'], title: "Jardins d'Étretat", text: 'Website redesign for a French venue.' },
-  { href: '/cases/case-lingoculture', img: '/images/cases/case-lingoculture.jpg', tags: ['Pitch deck'], title: 'LingoCulture', text: 'Partner deck for a French learning platform.' },
-  { href: '/cases/case-ckx', img: '/images/cases/case-ckx.jpg', tags: ['UX/UI', 'Framer'], title: 'ChainKeyX', text: 'Bento-style website for a DeFi startup.' },
-  { href: '/cases/case-innowomen-branding', img: '/images/cases/case-innowomen-branding.jpg', tags: ['Branding'], title: 'In a Woman', text: 'Brand system for a women-in-tech accelerator.' },
+  { href: '/cases/case-jumpman', img: '/images/thumbs/case-jumpman.webp', tags: ['Branding'], title: 'Jumpman, Paris', text: 'Brand identity for a Paris cardio studio.' },
+  { href: '/cases/case-jumpman-website-main', img: '/images/thumbs/case-jumpman-website-main.webp', tags: ['Web', 'Framer'], title: 'Jumpman website', text: 'Doubled B2C bookings in the first month.' },
+  { href: '/cases/case-jardins-etretat-redesign-main', img: '/images/thumbs/case-jardins-etretat-redesign-main.webp', tags: ['Web', 'Framer'], title: "Jardins d'Étretat", text: 'Website redesign for a French venue.' },
+  { href: '/cases/case-lingoculture', img: '/images/thumbs/case-lingoculture.webp', tags: ['Pitch deck'], title: 'LingoCulture', text: 'Partner deck for a French learning platform.' },
+  { href: '/cases/case-ckx', img: '/images/thumbs/case-ckx.webp', tags: ['UX/UI', 'Framer'], title: 'ChainKeyX', text: 'Bento-style website for a DeFi startup.' },
+  { href: '/cases/case-innowomen-branding', img: '/images/thumbs/case-innowomen-branding.webp', tags: ['Branding'], title: 'In a Woman', text: 'Brand system for a women-in-tech accelerator.' },
 ];
 
-// TODO: replace the three placeholder quotes below with the real ones (text, name, role, photo).
+// Real client quotes from email. Ask each client before publishing.
 const quotes = [
-  ['OKAD found video ads that actually bring us customers. Fast, organized and easy to work with. We keep ordering new batches.', 'Marketing Lead', 'InstaHeadshots', ''],
-  ['Great agency. The creatives looked native, launched on time, and a few of them became our best performers.', 'Marketing Lead', 'ZenToes', ''],
-  ['Clear process, smart scripts and a lot of variety. The team tested ideas we would never have tried ourselves.', 'Marketing Lead', 'Dating.com', ''],
+  ["The videos, especially the Three Split Screen concept, performed really well, and we're still leveraging them in our campaigns today.", 'Lina Lin', 'Athena Club', 'athena-club'],
+  ["[First test, 3 videos per creator] Creator B content has performed the best, especially 'I created one card and now my whole family is obsessed'. We're currently running at a 1.96 ROAS, recently hitting more towards 2.20 ROAS.", 'Spencer Herron', 'Lookalikey', 'lookalikey'],
+  ['Let me re-iterate how much we enjoy and appreciate the quality of your work, but more importantly, your sense of urgency when you know things are time-sensitive. We are so lucky to have you :)', 'Varun Godha', 'Diamondere', 'diamondere'],
+  ['These are gorgeous. Your work is so good!', 'Michele L.', 'Digital Marketing, US book publisher', ''],
+  ["I really like that we've anchored every video clearly in our three pillars. From my side, this direction is solid and consistent with how we want STIGA to show up.", 'Karl Inde', 'STIGA', 'stiga'],
+  ['You take feedback really well and apply it with care, which I truly appreciate. Great job, team!', 'Paula', 'VUE SWISS', 'vue-swiss'],
   ['Very happy with the video produced by OKAD. It helped us increase our creative output, and communication was smooth throughout.', 'Maxime Lenzlinger', 'Co-founder / Marketing, VUE SWISS', '/images/9yQb8hBXfQCe1f6JkqCRMnt4AKs.jpeg'],
   ['The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.', 'Kristina Hr.', 'Marketing, Mushroom genetics', '/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png'],
   ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', '/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png'],
-  ["Olga and her team are some of the best designers around. They're creative, work efficiently, and always deliver quality work.", 'Damon Dixon', 'Founder, Douxds', '/images/fyo2eKnJgN0TDx8SMjUG2NCqWk.jpeg'],
 ];
 
 const videos = [
@@ -65,34 +78,16 @@ const videos = [
   ['6ww6ykmc2Pw', 'How to create static ads: 4 elements every ad needs'],
 ];
 
-const logos = Array.from({ length: 19 }, (_, i) => `/logos/logo-${i}.png`);
+import fs from 'node:fs';
+// client logos: drop PNG/SVG files into public/logos/clients/ and they join the marquee automatically
+const clientLogos = fs.existsSync('public/logos/clients') ? fs.readdirSync('public/logos/clients').filter((f) => /\.(png|svg|webp)$/i.test(f)).sort().map((f) => `/logos/clients/${f}`) : [];
+const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/logo-${i}.png`)];
+const logoFor = (slug: string) => clientLogos.find((l) => l.split('/').pop()!.replace(/\.\w+$/, '') === slug) ?? '';
 const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg>';
 ---
 
-<Base title="OKAD Agency — Video Ads That Sell | UGC & Testing" description="We make video ads, test them on real spend and scale what sells. 600+ creators, 10,000+ ads delivered. From $500 for 10 videos.">
+<Base title="OKAD Agency — Video Ad Creative Testing, UGC & Design" description="We make video ads, test them on real spend and scale the ones that sell. Creative testing, UGC video and a design studio. 100+ brands, 10,000+ assets.">
   <Fragment slot="head">
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "OKAD Agency",
-      "url": "https://okad.agency",
-      "logo": "https://okad.agency/assets/og-image.png",
-      "description": "Video ad creative agency specializing in UGC, ad testing, web design and branding. 600+ creators, 10,000+ ads delivered.",
-      "email": "olga@okad.agency",
-      "sameAs": [
-        "https://x.com/okad_agency",
-        "https://www.behance.net/okad_agency",
-        "https://www.linkedin.com/company/okad-agency/",
-        "https://www.youtube.com/@okad_agency"
-      ]
-    })} />
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "OKAD Agency",
-      "url": "https://okad.agency"
-    })} />
   </Fragment>
 
   <div class="okh">
@@ -113,9 +108,9 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           </div>
           <div class="collage" aria-label="Frames from our ads">
             <span class="note hand hn">real frames from our ads <Fragment set:html={arrowR} /></span>
-            <figure class="ph"><img src="/images/cases/ai-app-designed/img-02.jpg" alt="Creator showing a before and after LinkedIn photo" /></figure>
-            <figure class="ph"><img src="/images/cases/ai-app-designed/img-06.jpg" alt="Good, better, best ranking ad" /></figure>
-            <figure class="ph"><img src="/images/cases/ai-app-designed/img-31.jpg" alt="Creator holding a handwritten sign" /></figure>
+            <figure class="ph"><video poster="/images/cases/ad-re-edits-five-brands/ad/v/cai.jpg" autoplay muted loop playsinline preload="metadata" aria-label="AI app ad creative"><source src="/images/cases/ad-re-edits-five-brands/ad/v/cai.mp4" type="video/mp4" /></video></figure>
+            <figure class="ph"><video poster="/images/cases/ad-re-edits-five-brands/ad/v/cflags.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Ad re-edit creative"><source src="/images/cases/ad-re-edits-five-brands/ad/v/cflags.mp4" type="video/mp4" /></video></figure>
+            <figure class="ph"><video poster="/images/cases/longevity-supplement-story-ads/lg/v/robert.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Creator UGC video"><source src="/images/cases/longevity-supplement-story-ads/lg/v/robert.mp4" type="video/mp4" /></video></figure>
             <a class="sticker" href={CASE1}>
               <b>160+</b>
               <span>video ads for one AI app in four months<small>Case 01 · read →</small></span>
@@ -123,12 +118,13 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           </div>
         </div>
 
-        <div class="strip">
-          <div><b>10,000+</b><span>ads & posts created</span></div>
-          <div><b>600+</b><span>vetted creators of our own</span></div>
-          <div><b>100+</b><span>brands we work with</span></div>
-          <div><b>3–5</b><span>hook variations per ad</span></div>
+        <div class="strip res-strip">
+          <a href={CASE1}><b>−35%</b><span>cost per customer on Meta ads for an AI app</span></a>
+          <a href={CASE2}><b>1.5M</b><span>organic views that brought 2,000 app sign-ups</span></a>
+          <a href="/cases/your-christian-date-broll-content"><b>800K</b><span>views on one Reel for a dating app</span></a>
+          <a href={CASE4}><b>5,471</b><span>creators asked to join after one reel of mine (81.8K views)</span></a>
         </div>
+        <p class="nda">Most of my clients work under NDA, so most of their numbers stay private. These are the ones I can share.</p>
       </div>
     </section>
 
@@ -176,7 +172,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
             </div>
             <div class="cov cov-stack" aria-hidden="true">
               <span class="note hand hn">160+ of these <Fragment set:html={arrowR} /></span>
-              <figure class="ph c-main"><img src="/images/cases/ai-app-designed/img-15.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-main"><img src="/images/cases/ai-app-designed/img-02.jpg" alt="" loading="lazy" /></figure>
               <figure class="ph c-l"><img src="/images/cases/ai-app-designed/img-29.jpg" alt="" loading="lazy" /></figure>
               <figure class="ph c-r"><img src="/images/cases/ai-app-designed/img-23.jpg" alt="" loading="lazy" /></figure>
               <span class="chip-v">−35% cost per customer</span>
@@ -185,51 +181,109 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
 
           <!-- CASE 02 -->
           <article class="fcase lav">
-            <a class="fcase-link" href={CASE2} aria-label="Read the case: ZenToes Walmart launch"></a>
+            <a class="fcase-link" href={CASE2} aria-label="Read the case: 1.5M organic views for a drawing app"></a>
             <div class="info">
               <div class="meta">
                 <span class="num">case 02</span>
-                <div class="tags"><span>Retail launch</span><span>Foot care</span><span>Walmart · US</span></div>
+                <div class="tags"><span>Faceless UGC</span><span>iPad drawing app</span><span>Organic · US</span></div>
               </div>
-              <h3>Two creams. A Walmart launch. <span class="cap w">Not one new shoot.</span></h3>
-              <p>We logged every clip ZenToes already had, wrote ads around what was really on camera and edited a full launch batch.</p>
+              <h3>1.5M organic views. <span class="cap w">Zero faces on camera.</span></h3>
+              <p>The app screen became the creator: a hand, a pencil, a line of text. I tested it against classic talking heads, and the canvas won.</p>
               <div class="fk">
-                <div><b>11</b><span>launch videos edited</span></div>
-                <div><b>14</b><span>static ads alongside them</span></div>
-                <div><b>0</b><span>new shoots or castings</span></div>
+                <div><b>1.5<em>M</em></b><span>organic views, zero ad spend</span></div>
+                <div><b>2,000</b><span>registrations in the app</span></div>
+                <div><b>1,257</b><span>videos across 4 accounts</span></div>
               </div>
               <div class="go">
                 <a class="btn" href={CASE2}>Read the case →</a>
-                <span class="kick">ZenToes · from footage they already had</span>
+                <span class="kick">brand name withheld</span>
               </div>
             </div>
-            <div class="cov cov-mix" aria-hidden="true">
-              <span class="note hand hn">same footage, new ads <Fragment set:html={arrowR} /></span>
-              <figure class="m-store"><img src="/images/cases/zentoes-walmart-launch-ads/img-11.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph m-phone"><img src="/images/cases/zentoes-walmart-launch-ads/img-06.jpg" alt="" loading="lazy" /></figure>
-              <figure class="m-static"><img src="/images/cases/zentoes-walmart-launch-ads/img-04.jpg" alt="" loading="lazy" /></figure>
-              <span class="chip-v">11 videos + 14 statics</span>
+            <div class="cov cov-stack" aria-hidden="true">
+              <span class="note hand hn">no face, just the canvas <Fragment set:html={arrowR} /></span>
+              <figure class="ph c-main"><img src="/images/cases/drawing-app-faceless-ugc/v4_f0.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-l"><img src="/images/cases/drawing-app-faceless-ugc/v5_f2.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-r"><img src="/images/cases/drawing-app-faceless-ugc/v2_f4.jpg" alt="" loading="lazy" /></figure>
+              <span class="chip-v">2,000 sign-ups, $0 ads</span>
             </div>
           </article>
-          <!-- CASE 03: copy an <article> above, change class to "fcase peach" or "fcase mint" -->
+
+          <!-- CASE 03 -->
+          <article class="fcase peach">
+            <a class="fcase-link" href={CASE3} aria-label="Read the case: new ads for five brands from existing footage"></a>
+            <div class="info">
+              <div class="meta">
+                <span class="num">case 03</span>
+                <div class="tags"><span>Ads from your footage</span><span>5 brands</span><span>TikTok · Meta · Snap</span></div>
+              </div>
+              <h3>Five brands. <span class="cap w">Zero new shoots.</span></h3>
+              <p>Every brand that runs ads has a folder nobody touches. I cut new ads from it: new hooks, new order, new sound. This is exactly what the $500 starter is.</p>
+              <div class="fk">
+                <div><b>~80</b><span>new ads from old footage</span></div>
+                <div><b>0</b><span>creators booked</span></div>
+                <div><b>5</b><span>business days for the first 10</span></div>
+              </div>
+              <div class="go">
+                <a class="btn" href={CASE3}>Read the case →</a>
+                <span class="kick">Skincare · dating · career · pets · gut health</span>
+              </div>
+            </div>
+            <div class="cov cov-stack" aria-hidden="true">
+              <span class="note hand hn">same footage, new ads <Fragment set:html={arrowR} /></span>
+              <figure class="ph c-main"><video data-lazy poster="/images/cases/ad-re-edits-five-brands/ad/v/cflags.jpg" muted loop playsinline preload="none" aria-hidden="true"><source data-src="/images/cases/ad-re-edits-five-brands/ad/v/cflags.mp4" type="video/mp4" /></video></figure>
+              <figure class="ph c-l"><img src="/images/cases/ad-re-edits-five-brands/ad/m1.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-r"><img src="/images/cases/ad-re-edits-five-brands/ad/t2.jpg" alt="" loading="lazy" /></figure>
+              <span class="chip-v">~80 ads, 0 shoots</span>
+            </div>
+          </article>
+
+          <!-- CASE 04: my own account -->
+          <article class="fcase mint">
+            <a class="fcase-link" href={CASE4} aria-label="Read the case: 5,471 creators from one camera roll"></a>
+            <div class="info">
+              <div class="meta">
+                <span class="num">case 04</span>
+                <div class="tags"><span>My own account</span><span>@by.okad</span><span>Organic · $0 ads</span></div>
+              </div>
+              <h3>Old clips from my camera roll. <span class="cap w">5,471 creators asked in.</span></h3>
+              <p>I tested on myself what I sell to clients: no new shoots, borrowed formats, offers tested like hooks. One reel did 81.8K views, and comments turned into a creator database.</p>
+              <div class="fk">
+                <div><b>81.8<em>K</em></b><span>views on the best reel</span></div>
+                <div><b>5,471</b><span>creators asked to join</span></div>
+                <div><b>$0</b><span>ad spend</span></div>
+              </div>
+              <div class="go">
+                <a class="btn" href={CASE4}>Read the case →</a>
+                <span class="kick">by.okad · my own test</span>
+              </div>
+            </div>
+            <div class="cov cov-stack" aria-hidden="true">
+              <span class="note hand hn">from my camera roll <Fragment set:html={arrowR} /></span>
+              <figure class="ph c-main"><img src="/images/cases/by-okad-camera-roll-creators/hire_818k.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-l"><img src="/images/cases/by-okad-camera-roll-creators/hire_mirror.jpg" alt="" loading="lazy" /></figure>
+              <figure class="ph c-r"><img src="/images/cases/by-okad-camera-roll-creators/hire_robot.jpg" alt="" loading="lazy" /></figure>
+              <span class="chip-v">81.8K views, $0 ads</span>
+            </div>
+          </article>
         </div>
       </div>
 
-      <!-- more video work, scrolls sideways -->
+      <!-- more cases, filter by what the client needed -->
       <div class="w" style="margin-top:72px">
         <div class="rail-head">
-          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)"><span class="cap y">10,000+</span> ads & posts created</h2>
+          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)">More <span class="cap y">cases</span> by goal</h2>
           <div class="rail-nav"><button type="button" data-rail="vw" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="vw" data-dir="1" aria-label="Next">→</button></div>
+        </div>
+        <div class="chips cfilt" role="group" aria-label="Filter cases by goal">
+          {groups.map(([k, l], i) => <button type="button" class={`chip${i === 0 ? ' on' : ''}`} data-g={k} aria-pressed={i === 0 ? 'true' : 'false'}>{l} <i>{k === 'all' ? videoWork.length : videoWork.filter((c) => c.group === k).length}</i></button>)}
         </div>
       </div>
       <div class="rail" id="vw">
         {videoWork.map((c) => (
-          <a class="vcard" href={c.href}>
+          <a class="vcard" href={c.href} data-group={c.group}>
             {c.pics
-              ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => <img src={src} alt="" loading="lazy" />)}</div>
-              : c.video
-                ? <video src={c.img} autoplay muted loop playsinline loading="lazy" />
-                : <img src={c.img} alt={c.title} loading="lazy" />}
+              ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => src.endsWith('.mp4') ? <video data-lazy poster={src.replace('.mp4', '.jpg')} muted loop playsinline preload="none" aria-hidden="true"><source data-src={src.replace('.mp4', '.webm')} type="video/webm" /><source data-src={src} type="video/mp4" /></video> : <img src={src} alt="" loading="lazy" decoding="async" />)}</div>
+              : <img src={c.img} alt={c.title} loading="lazy" decoding="async" />}
             <div class="b"><div class="tags">{c.tags.map((t) => <span>{t}</span>)}</div><h4>{c.title}</h4></div>
           </a>
         ))}
@@ -242,34 +296,23 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
         <div class="head">
           <div class="t">
             <span class="kick">Start small, see how we work, then go big</span>
-            <h2>Three ways to <span class="cap y">start</span></h2>
+            <h2>Two ways to <span class="cap y">start</span></h2>
           </div>
         </div>
         <div class="offers">
-          <div class="offer audit">
-            <span class="o-tag">Audit · no call</span>
-            <h3>Testing plan</h3>
-            <div class="o-price"><b>$200</b><span>ready in 5 business days</span></div>
-            <ul>
-              <li>Review of your ad account</li>
-              <li>Plan for your first 10 videos</li>
-              <li>References for each video</li>
-            </ul>
-            <a class="btn ghost" href={ORDER_AUDIT}>Order the audit</a>
-          </div>
           <div class="offer starter">
-            <span class="o-tag">Starter · no call</span>
-            <h3>Plan + 10 videos</h3>
+            <div class="o-top"><span class="hand">no call needed</span><span class="o-tag">Starter</span></div>
+            <h3>10 ready-to-run videos</h3>
             <div class="o-price"><b>$500</b><span>ready in 5 business days</span></div>
             <ul>
-              <li>Everything in the audit</li>
+              <li>A testing plan for your account</li>
               <li>10 videos, AI or from our creator library</li>
               <li>Ready to launch on Meta and TikTok</li>
             </ul>
-            <a class="btn" href={ORDER_STARTER}>Order 10 videos</a>
+            <a class="btn" href="#contact">Order 10 videos</a>
           </div>
           <div class="offer program">
-            <span class="o-tag">Monthly plan</span>
+            <div class="o-top"><span class="hand">for bigger volume</span><span class="o-tag">Monthly plan</span></div>
             <h3>Testing at volume</h3>
             <div class="o-price"><b>$2,500+</b><span>per month · ~$100 per custom video</span></div>
             <ul>
@@ -277,8 +320,13 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
               <li>Cheaper per video at volume</li>
               <li>AI and B-roll videos cost less</li>
             </ul>
-            <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+            <a class="btn dew" href="#contact">Book a call</a>
           </div>
+        </div>
+        <div class="assure">
+          <div><b>You approve every script</b><span>before anyone films or edits.</span></div>
+          <div><b>Nothing goes live</b><span>without your OK.</span></div>
+          <div><b>One round of edits</b><span>is included in every batch.</span></div>
         </div>
       </div>
     </section>
@@ -322,7 +370,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
         {quotes.map(([q, n, r, img]) => (
           <figure class="tcard">
             <blockquote>“{q}”</blockquote>
-            <figcaption>{img ? <img src={img} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{r.split(', ').pop()!.slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
+            <figcaption>{img.startsWith('/') ? <img src={img} alt="" loading="lazy" /> : logoFor(img) ? <img class="logo-av" src={logoFor(img)} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{n.split(' ').map((w) => w[0]).join('').slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
           </figure>
         ))}
       </div>
@@ -352,21 +400,32 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       </div>
     </section>
 
+    <!-- PARTNERS -->
+    <section class="sec tight" id="partners">
+      <div class="w">
+        <div class="partners">
+          <h2>Trusted <span class="cap g">partners</span></h2>
+          <div class="p-logos">
+            <a href="https://influee.co" target="_blank" rel="noopener"><img src="/images/partners/influee-badge.webp" alt="Influee Official Partner" width="1270" height="492" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FOUNDER / CONTACT -->
     <section class="sec" id="contact">
       <div class="w">
         <div class="founder">
-          <img class="av" src="/images/q6hHpGFkcDHUGgEMPAoS5KUCo.png" alt="Olga Kad Miller" />
+          <img class="av" src="/images/thumbs/olga.webp" width="180" height="180" alt="Olga Kad Miller" />
           <div>
-            <blockquote>“I review every brief and write the strategy myself.”</blockquote>
+            <blockquote>“I review every brief and write the <span class="cap">strategy</span> myself.”</blockquote>
             <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p>
             <div class="row">
               <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
-              <a class="btn ghost" href="mailto:olga@okad.agency">Email us</a>
+              <button type="button" class="btn ghost copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button>
               <a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a>
             </div>
-            <p class="mail">olga@okad.agency</p>
-          </div>
+                      </div>
         </div>
       </div>
     </section>
@@ -397,6 +456,10 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
   </div>
 
   <script>
+    // respect reduced motion: stop the looping clips, the poster frame stays
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll<HTMLVideoElement>('.okh video[autoplay]').forEach((v) => { v.removeAttribute('autoplay'); v.pause(); });
+    }
     const mbar = document.getElementById('mbar');
     if (mbar) {
       mbar.hidden = false;
@@ -404,6 +467,32 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       onScroll();
       window.addEventListener('scroll', onScroll, { passive: true });
     }
+    // case filter chips
+    const chips = document.querySelectorAll<HTMLButtonElement>('.okh .cfilt .chip');
+    const vcards = document.querySelectorAll<HTMLElement>('.okh #vw .vcard');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      const g = c.dataset.g;
+      chips.forEach((x) => { const on = x === c; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); });
+      vcards.forEach((v) => { v.hidden = g !== 'all' && v.dataset.group !== g; });
+      document.getElementById('vw')?.scrollTo({ left: 0 });
+    }));
+    // below-the-fold clips load and play only when they scroll into view
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const lazy = document.querySelectorAll<HTMLVideoElement>('.okh video[data-lazy]');
+    const startVid = (v: HTMLVideoElement) => {
+      if (!v.dataset.loaded) {
+        v.querySelectorAll<HTMLSourceElement>('source[data-src]').forEach((s) => { s.src = s.dataset.src!; });
+        v.load(); v.dataset.loaded = '1';
+      }
+      if (!reduce) v.play().catch(() => {});
+    };
+    if ('IntersectionObserver' in window) {
+      const io = new IntersectionObserver((es) => es.forEach((e) => {
+        const v = e.target as HTMLVideoElement;
+        if (e.isIntersecting) startVid(v); else if (v.dataset.loaded) v.pause();
+      }), { rootMargin: '200px' });
+      lazy.forEach((v) => io.observe(v));
+    } else lazy.forEach(startVid);
     document.querySelectorAll<HTMLButtonElement>('.okh [data-rail]').forEach((b) => {
       b.addEventListener('click', () => {
         const rail = document.getElementById(b.dataset.rail!);

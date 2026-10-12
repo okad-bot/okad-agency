@@ -30,6 +30,8 @@ This is not a minor distinction. It changes how content is briefed, produced, pr
 
 Traditional UGC gives a creator a product and a loose brief: "make a 30-second video showing how you use this." The creator decides framing, pacing, text overlays, and structure. Results vary wildly. Some are excellent. Many miss the mark entirely because the creator made choices that conflict with platform algorithms or brand positioning.
 
+![Faceless canvas UGC for a drawing app — screen recording with hand drawing, no face on camera](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+
 Canvas UGC inverts this. The brand or agency provides a canvas — a structured template with:
 
 - **Fixed dimensions** (9:16 for Reels/TikTok, 1:1 for feed, 4:5 for Stories)
@@ -63,6 +65,8 @@ A typical canvas UGC workflow looks like this:
 6. Multiple variations ship to ad platforms for testing
 
 The output is content that looks authentic to viewers but performs like professionally structured advertising. That combination — human authenticity plus structural optimization — is why canvas UGC consistently outperforms both polished brand videos and unstructured creator content. We saw exactly this dynamic in our [Skribly UGC campaign](/cases/high-roas-ugc-ads/), where structured creator content drove high ROAS at scale.
+
+![Drawing app canvas UGC analytics — 29.8K views on a single faceless video](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
 
 ## Canvas UGC for Tech and SaaS Brands
 

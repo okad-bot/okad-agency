@@ -517,3 +517,83 @@
   .okh .cov-mix .m-static{top:4px}
 }
 @media (min-width:641px) and (max-width:1000px){ .okh .cov{max-width:460px;width:100%} }
+
+.okh .offers{grid-template-columns:repeat(2,1fr);max-width:900px}
+@media (max-width:1000px){.okh .offers{grid-template-columns:1fr}}
+
+/* looping silent video clips sit exactly where images were */
+.okh .ph video,.okh .cov figure video{width:100%;height:100%;object-fit:cover;display:block}
+.okh .v-chat video{position:absolute;right:10%;top:22%;width:36%;aspect-ratio:9/16;border-radius:12px;height:auto;object-fit:cover;transform:rotate(5deg);box-shadow:0 14px 30px -16px rgba(0,0,0,.45)}
+.okh .cov-mix .m-store video{object-position:center 30%}
+
+/* ---------- results strip, NDA note ---------- */
+.okh .res-strip > *{padding:24px 26px;border-right:1px solid var(--rule);color:inherit;text-decoration:none;display:block}
+.okh .res-strip > *:last-child{border-right:0}
+.okh .res-strip a:hover b{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:6px}
+.okh .nda{margin-top:14px;font-size:.9rem;color:var(--soft);max-width:70ch}
+@media (max-width:1000px){
+  .okh .res-strip > *:nth-child(2){border-right:0}
+  .okh .res-strip > *:nth-child(-n+2){border-bottom:1px solid var(--rule)}
+}
+@media (max-width:640px){ .okh .res-strip > *{padding:18px} }
+
+/* ---------- case filter chips ---------- */
+.okh .cfilt{margin-top:18px}
+.okh .vcard[hidden]{display:none}
+.okh .v-trio{background:var(--lav);display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:12px 18px;align-items:center}
+.okh .vcard:nth-child(3n+2) .v-trio{background:var(--peach)}
+.okh .vcard:nth-child(3n) .v-trio{background:var(--mint)}
+.okh .v-trio img{width:100%;height:auto;aspect-ratio:9/16;border-radius:10px}
+.okh .v-trio img:nth-child(2){transform:translateY(-10px)}
+
+/* ---------- reassurance under offers ---------- */
+.okh .assure{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px;max-width:900px}
+.okh .assure div{border:1.5px solid var(--rule);border-radius:20px;padding:16px 18px;display:flex;flex-direction:column;gap:2px}
+.okh .assure b{font-weight:600}
+.okh .assure span{color:var(--soft);font-size:.92rem}
+@media (max-width:760px){ .okh .assure{grid-template-columns:1fr} }
+
+/* ---------- partners ---------- */
+.okh .partners{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center;background:var(--card);border-radius:var(--r);padding:40px}
+.okh .partners .p-txt{display:flex;flex-direction:column;gap:14px;align-items:flex-start}
+.okh .partners h2{font-size:clamp(2rem,4vw,3.2rem)}
+.okh .partners p{color:var(--soft);max-width:56ch}
+.okh .p-badge{justify-self:center;display:grid;place-items:center;background:var(--paper);border-radius:24px;padding:28px 32px;min-width:240px;text-decoration:none;color:var(--ink);transition:transform .2s ease}
+.okh .p-badge:hover{transform:translateY(-3px)}
+.okh .p-badge img{display:block;max-width:260px;height:auto}
+.okh .p-fallback{display:flex;flex-direction:column;align-items:center;gap:2px;font-size:.95rem;color:var(--soft)}
+.okh .p-fallback b{font-family:var(--display);font-weight:400;font-size:2.4rem;line-height:1;color:var(--ink);text-transform:uppercase}
+@media (max-width:760px){ .okh .partners{grid-template-columns:1fr;padding:26px} .okh .p-badge{justify-self:stretch} }
+.okh #partners{padding-top:80px;padding-bottom:0}
+@media (max-width:640px){.okh #partners{padding-top:56px}}
+.okh .tcard figcaption img.logo-av{object-fit:contain;background:#fff;padding:6px;border:1px solid var(--rule)}
+/* partners: simple */
+.okh .partners{display:flex;flex-direction:column;align-items:center;gap:28px;background:none;padding:0;text-align:center}
+.okh .p-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:24px 40px;align-items:center}
+.okh .p-logos img{height:110px;width:auto;display:block;transition:transform .2s ease}
+.okh .p-logos a:hover img{transform:translateY(-3px)}
+@media (max-width:640px){ .okh .p-logos img{height:auto;width:min(300px,80vw)} }
+
+/* ================= style restore: back to the original OKAD look ================= */
+/* testimonials: serif italic quotes, like the first version */
+.okh .tcard blockquote{font-family:var(--display);font-style:italic;font-weight:400;font-size:1.55rem;line-height:1.14;letter-spacing:-.005em;padding-top:0}
+.okh .tcard blockquote::before{content:none}
+@media (max-width:640px){ .okh .tcard blockquote{font-size:1.35rem;line-height:1.16} }
+/* founder: caps serif with a dew outline on the key word */
+.okh .founder blockquote{text-transform:uppercase;font-size:clamp(2rem,3.8vw,3.2rem);line-height:.98;letter-spacing:-.005em}
+.okh .founder blockquote .cap{--hl:var(--dew);color:#111}
+@media (max-width:640px){ .okh .founder blockquote{font-size:1.9rem} }
+/* offers: hand-written note above each card */
+.okh .offer .o-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.okh .offer .o-top .hand{font-size:1.9rem;line-height:.9}
+.okh .offer.program .o-top .hand{color:var(--dew)}
+/* six weeks: cards on desktop, last one dark; the line timeline stays on phones */
+@media (min-width:1001px){
+  .okh .tl{border-top:0;gap:12px;margin-top:40px}
+  .okh .tl li{border:1px solid var(--rule);border-radius:22px;padding:20px;gap:8px}
+  .okh .tl li::before{content:none}
+  .okh .tl .wk{font-family:var(--hand);font-weight:400;font-size:1.7rem;line-height:.8;color:var(--soft)}
+  .okh .tl li:last-child{background:var(--stage);color:var(--stage-ink);border-color:var(--stage)}
+  .okh .tl li:last-child .wk{color:var(--dew)}
+  .okh .tl li:last-child .tx{color:var(--stage-soft)}
+}

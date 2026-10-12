@@ -88,4 +88,4 @@ We built lead funnels through strategic post CTAs, Reels content, and targeted a
 - **1,500+** reach in Instagram Stories
 - **$547** total ad spend over 2 months
 
-All goals were achieved within the two-month timeline: a strong community built, target audience engaged, and brand fully prepared for product launch. For more on how we think about [scaling paid campaigns efficiently](/cases/blog-how-to-scale-ad-campaigns-roas/), we have written a dedicated guide covering budget allocation, creative testing, and audience expansion strategies.
+All goals were achieved within the two-month timeline: a strong community built, target audience engaged, and brand fully prepared for product launch. For more on how we think about [scaling paid campaigns efficiently](/blog/blog-how-to-scale-ad-campaigns-roas/), we have written a dedicated guide covering budget allocation, creative testing, and audience expansion strategies.

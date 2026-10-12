@@ -59,7 +59,7 @@ Over 70% of Jumpman's audience visits from mobile, so we designed the booking fl
 
 ## What Made This Project Unique
 
-Most fitness studio websites treat B2C and B2B as separate projects. Jumpman's challenge was combining both into a single site without diluting either experience. The theatrical "Phantom Stage" brand concept gave us a unifying visual language strong enough to carry both journeys — the drama and energy attract class-goers, while the polished presentation signals credibility to franchise investors. This dual-purpose approach is something we also explore in our guide on [how to design a website that converts](/cases/blog-how-to-design-a-website-that-converts/).
+Most fitness studio websites treat B2C and B2B as separate projects. Jumpman's challenge was combining both into a single site without diluting either experience. The theatrical "Phantom Stage" brand concept gave us a unifying visual language strong enough to carry both journeys — the drama and energy attract class-goers, while the polished presentation signals credibility to franchise investors. This dual-purpose approach is something we also explore in our guide on [how to design a website that converts](/blog/blog-how-to-design-a-website-that-converts/).
 
 ## Results
 

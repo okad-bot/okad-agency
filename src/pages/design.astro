@@ -42,6 +42,7 @@ const prices = [
 ];
 
 const quotes = [
+  ['We are very happy with the result. Outstanding!', 'Viktoriia', 'FMT Company, website', ''],
   ["Olga and her team are some of the best designers around. They're creative, work efficiently, and always deliver quality work.", 'Damon Dixon', 'Founder, Douxds', '/images/fyo2eKnJgN0TDx8SMjUG2NCqWk.jpeg'],
   ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', '/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png'],
   ['The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.', 'Kristina Hr.', 'Marketing, Mushroom genetics', '/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png'],
@@ -56,7 +57,6 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
 
 <Base title="Design Studio — Websites, Branding & Pitch Decks | OKAD Agency" description="OKAD's design studio: branding, websites on Framer, Webflow and Shopify, and pitch decks. 200+ websites and brands designed.">
   <Fragment slot="head">
-    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Reenie+Beanie&display=swap" rel="stylesheet" />
   </Fragment>
 
   <div class="okh">
@@ -144,7 +144,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
         {quotes.map(([q, n, r, img]) => (
           <figure class="tcard">
             <blockquote>“{q}”</blockquote>
-            <figcaption><img src={img} alt="" loading="lazy" /><div><b>{n}</b><span>{r}</span></div></figcaption>
+            <figcaption>{img ? <img src={img} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{n.slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
           </figure>
         ))}
       </div>
@@ -171,10 +171,9 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
             <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p>
             <div class="row">
               <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
-              <a class="btn ghost" href="mailto:olga@okad.agency?subject=Design%20project">Email us</a>
+              <button type="button" class="btn ghost copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button>
             </div>
-            <p class="mail">olga@okad.agency</p>
-          </div>
+                      </div>
         </div>
       </div>
     </section>

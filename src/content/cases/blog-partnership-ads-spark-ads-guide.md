@@ -77,6 +77,8 @@ The content looks and feels like an organic post from the creator. It shows up i
 - Brand must approve the partnership tag before the ad can run
 - Both parties can see insights for the promoted content
 
+![Lookalikey UGC ad — creator content that can be whitelisted as a Spark Ad for paid distribution](/images/cases/lookalikey-ugc-ads/img-01.jpg)
+
 ## Why Partnership Ads Outperform Standard Ads
 
 The performance difference is well-documented:
@@ -116,6 +118,8 @@ TikTok Spark Ads specifically carry advantages:
 **Budget for scale.** Partnership ads work best with sustained spend, not one-off boosts. Plan for monthly creator partnerships with ongoing Spark Ad budgets rather than single posts.
 
 **Track beyond last-click.** Partnership ads influence consideration and brand perception even when they do not generate immediate clicks. Measure brand lift and search volume increases alongside direct conversion metrics.
+
+![Supplement brand UGC ad — whitelisted creator content running as paid ad on Meta](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 ## Best Practices for Creators
 

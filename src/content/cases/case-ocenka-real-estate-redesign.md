@@ -66,7 +66,7 @@ We made sure the backend team could easily update report statuses, trigger notif
 
 ## What Made This Project Unique
 
-The two-week delivery timeline forced us to be ruthless about scope. Instead of trying to redesign everything, we identified the three highest-impact user flows — property submission, report viewing, and status tracking — and focused all design effort there. Everything else was left intentionally simple. This constraint-driven approach actually produced a better product: by not overdesigning peripheral features, we kept the interface focused and easy to maintain. We apply similar principles across all our UX work, including the [mental health app MVP redesign](/cases/case-samto-uxui/) and our broader thinking on [designing websites that convert](/cases/blog-how-to-design-a-website-that-converts/).
+The two-week delivery timeline forced us to be ruthless about scope. Instead of trying to redesign everything, we identified the three highest-impact user flows — property submission, report viewing, and status tracking — and focused all design effort there. Everything else was left intentionally simple. This constraint-driven approach actually produced a better product: by not overdesigning peripheral features, we kept the interface focused and easy to maintain. We apply similar principles across all our UX work, including the [mental health app MVP redesign](/cases/case-samto-uxui/) and our broader thinking on [designing websites that convert](/blog/blog-how-to-design-a-website-that-converts/).
 
 
 ## Results
