@@ -52,6 +52,15 @@ import '@fontsource/reenie-beanie/400.css';
       gtag('js', new Date());
       gtag('config', 'G-YS34PNP7XN');
     </script>
+
+    <!-- Apollo.io website visitor tracking -->
+    <script is:inline>
+      function initApollo(){var n=Math.random().toString(36).substring(7),o=document.createElement("script");
+      o.src="https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache="+n,o.async=!0,o.defer=!0,
+      o.onload=function(){window.trackingFunctions.onLoad({appId:"6ad7d5a97dcb180018e3a7c9"})},
+      document.head.appendChild(o)}initApollo();
+    </script>
+
     <slot name="head" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
