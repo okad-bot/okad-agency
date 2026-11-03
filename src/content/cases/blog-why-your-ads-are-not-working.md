@@ -66,7 +66,7 @@ Keep the body and CTA intact. They have not been tested yet because nobody is ge
 
 Do not increase budget on a fatigued ad. More spend accelerates the decline by showing the same creative to even more of the same audience even faster.
 
-![Ad re-edit for a brand campaign — refreshing creative with new hooks extends ad lifespan](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
+![Performance metrics dashboard — diagnosing declining CTR over time reveals whether the problem is fatigue or a fundamental creative miss](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
 
 ### Level 5: Everything Declines at Once
 
@@ -92,7 +92,7 @@ The hook is the single biggest performance variable. OKAD's diagnostic process s
 - No tension, curiosity, or pattern interrupt in the first frame
 - Text overlays too small to read on mobile
 
-![UGC creator ad for supplement brand — testing different creator faces is one way to diagnose weak hook performance](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+![Olga Kad reviewing ad data — diagnosing hook problems starts with comparing hook rate patterns across your top and bottom performers](/images/cases/by-okad-camera-roll-creators/reading.jpg)
 
 ### Body Problems
 
@@ -133,7 +133,7 @@ Every new creative deserves 3 days and $50-100 in spend before you judge it.
 
 OKAD applied this framework during the [gut health brand campaign](/cases/gut-health-brand-story-ads/), testing red-flag messaging hooks against benefit-first hooks across 4 story formats — red flags, gut-brain connection, week-by-week progress, and gift stories. Each of the ~20 monthly edits got its 3-day window before a kill-or-scale decision. The result: clear data on which emotional triggers drove clicks versus which drove conversions — data that would not exist if ads were killed after 24 hours.
 
-![AI app creative testing on Meta — structured variation testing isolates what is actually broken](/images/cases/ai-app/ai-app-05.webp)
+![Content metrics checklist — structured variation testing with clear benchmarks isolates what is actually broken](/images/cases/by-okad-camera-roll-creators/mc_list.jpg)
 
 ## When to Iterate vs When to Start Fresh
 

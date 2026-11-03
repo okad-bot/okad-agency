@@ -64,7 +64,7 @@ OKAD's testing methodology follows a strict variable isolation approach. When th
 
 Test 3-5 hooks per winning body. That is enough for a clear signal without fragmenting budget.
 
-![Ad testing variations for supplement brand — testing different visual approaches against the same product](/images/cases/supplement-brand-ugc-ad-testing/sm/balanced.jpg)
+![Performance metrics — reading hook rate and hold rate patterns reveals which element of your ad is failing](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
 
 ### 4. Body Structure (Medium Impact)
 
@@ -97,7 +97,7 @@ The standard campaign setup:
 | Audience | Identical across all ad sets |
 | Placement | Automatic (let Meta optimize) |
 
-![AI app creative testing — each variation isolates one variable for clean test results](/images/cases/ai-app/ai-app-01.webp)
+![Creative brief template — every test starts with a brief that defines the hypothesis, the variable, and the success metric](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 ## Reading Results: The Diagnostic Framework
 
@@ -127,7 +127,7 @@ Each cycle compounds your knowledge. After 4-6 cycles, you have a library of pro
 
 The testing cadence at OKAD: new concepts launch Monday, data review Wednesday, kills and iterations Friday. Two-week cycles mean no creative runs longer than 14 days without a performance check.
 
-![Ad re-edit creative variation — scaling winners through systematic iteration of proven concepts](/images/cases/ad-re-edits-five-brands/ad/m1.jpg)
+![Creator trial grid — systematic iteration means testing proven concepts with different creators, hooks, and formats](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 ## Volume Benchmarks by Spend Level
 
@@ -161,7 +161,7 @@ Decide your kill criteria before launching. Not after. Emotional decisions durin
 - A variant with fewer than 500 impressions
 - A creative during a platform-wide performance dip (check multiple campaigns first)
 
-![Longevity supplement story ad — 68 ads tested to reach EUR 183 CPA through disciplined kill criteria](/images/cases/longevity-supplement-story-ads/lg/m1.jpg)
+![Content performance results — disciplined kill criteria turn ad spend into compounding creative intelligence](/images/cases/by-okad-camera-roll-creators/sell_457.jpg)
 
 ## Building a Creative Testing System
 

@@ -75,7 +75,7 @@ At [OKAD](/), the creative strategist role drives every client engagement. When 
 
 This is exactly how Olga Kad made the transition. She started making static creatives for clients — pure design work. But she had also been running ads for her own e-commerce products, so she could see which of her designs actually converted and which just looked good. That dual perspective — maker and buyer — is the fastest path from design to strategy. If you are a designer who also runs your own ad spend, you already have the raw ingredients.
 
-![Real creative testing output — AI app ad variations that demonstrate strategic thinking](/images/cases/ai-app/ai-app-12.webp)
+![Portfolio of creative strategy work — spec audits and structured briefs demonstrate strategic thinking better than finished ads](/images/cases/by-okad-camera-roll-creators/portfolio_free.jpg)
 
 ## Core Skills to Build
 

@@ -66,7 +66,7 @@ This is the model behind every OKAD engagement. When we ran the [Tipaw dog suppl
 | Cons | Expensive, hard to recruit | Variable availability, no production | Less brand immersion |
 | Ramp time | 2-4 weeks | 1-2 weeks | 1-2 weeks |
 
-![UGC creator face-to-camera testimonial — the format creative strategists brief most often for supplement and skincare brands](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+![OKAD hiring reel with 81.8K views — finding creative strategists requires the same content-first approach](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
 
 For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. OKAD's model is built around this: clients get strategic direction alongside a production team that executes at scale. For the [ZenToes Walmart launch](/cases/zentoes-walmart-launch-ads/), the team produced 60+ ad variations in weeks — a volume that would require a full-time strategist plus a 3-person production team if built in-house.
 
@@ -103,7 +103,7 @@ For most brands spending $10K-$50K/month, the agency model delivers the most val
 
 **Only shows final ads, never the process.** A real strategist walks you through the hypothesis, the brief, the test, and the result. If the portfolio is just a highlight reel of pretty ads, you are looking at a creative director's portfolio mislabeled as strategy.
 
-![Real ad creative variations showing structured testing approach — what to look for in a strategist's portfolio](/images/cases/ad-re-edits-five-brands/ad/b1.jpg)
+![Canvas creative brief template — a strategist's portfolio should show structured briefs like this, not just finished ads](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 ## The Interview Test That Actually Works
 
@@ -126,7 +126,7 @@ Ask them to explain:
 
 This test is modeled on how OKAD evaluates creative performance for clients. When we built the [script testing system for DateMyAge](/cases/datemyage-dating-app-scripts/), the process started exactly this way: audit the existing 24 scripts across 22 creators, identify which hooks and narrative structures drove results, then produce 48 videos — including 7 with AI voiceover — based on what the data showed. Not creative intuition.
 
-![Lookalikey UGC ad variations — output from a creative strategist's testing program](/images/cases/lookalikey-ugc-ads/img-03.jpg)
+![DM outreach workflow — the operational systems a creative strategist builds to manage creator pipelines](/images/cases/by-okad-camera-roll-creators/dm_flow.jpg)
 
 ## The Alternative: Strategy Built Into Your Agency
 

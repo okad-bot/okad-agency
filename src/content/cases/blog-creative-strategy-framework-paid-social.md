@@ -65,7 +65,7 @@ Each angle gets its own brief. This is non-negotiable. Mixing angles in one ad d
 
 When the OKAD team built [68 ads for a longevity supplement brand](/cases/longevity-supplement-story-ads/), each ad mapped to a single angle. The winning angle — transformation stories with specific timelines — drove a EUR 183 CPA. Without angle isolation, that insight would have been invisible inside a batch of mixed-message ads.
 
-![UGC ad creative for supplement brand — each ad maps to a single angle so performance data reveals which message resonates](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+![Olga Kad reviewing data and mapping angles — Phase 2 starts with identifying which messages resonate with which audience segments](/images/cases/by-okad-camera-roll-creators/reading.jpg)
 
 ## Phase 3: Format Selection
 
@@ -132,7 +132,7 @@ Production is execution, not strategy. By this phase, every creative decision ha
 
 The framework scales from $5K/month ad spend to $200K/month. The system stays the same — only the volume changes.
 
-![Fragstore content production — weekly production cycles generating 40+ ads per month](/images/cases/fragstore-content-factory/fs/wide.jpg)
+![Creator trial grid — Phase 5 production matches tested creators to brief requirements for efficient execution](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 ## Phase 6: Testing
 
@@ -167,7 +167,7 @@ This is where the flywheel spins. Every test produces data. That data feeds the 
 
 **The data feeds Phase 1.** Winning angles become permanent fixtures in your angle library. Winning hooks reveal the language that resonates. Losing formats for certain angles get documented so you do not repeat the mistake. Over 3-6 months, this compounding effect turns a brand's creative program from guesswork into a precision engine.
 
-![Lookalikey UGC ad variations — iterating on winning concepts with hook swaps and format remixes](/images/cases/lookalikey-ugc-ads/img-05.jpg)
+![Best performing content example — Phase 7 iteration multiplies proven winners through hook swaps and format remixes](/images/cases/by-okad-camera-roll-creators/best_reel.jpg)
 
 ## The 2-Week Cycle in Practice
 

@@ -105,13 +105,13 @@ The "total cost with production" row is where the real difference shows. A full-
 | $100K-$300K | Agency + in-house strategist | Internal strategist for speed, agency for volume |
 | $300K+ | Full in-house team + agency overflow | Internal team handles core, agency handles scale |
 
-![Ad creative variants from OKAD's production pipeline — agency retainers deliver strategy plus production capacity that a single hire cannot match](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
+![Metrics dashboard — agency retainers deliver measurable strategy output that a single hire cannot match at the same cost](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
 
 The $30K-$100K range is where most growing DTC brands land, and it is where the agency model is strongest. You need 10-20 new ad variations per week to keep campaigns fresh, but the budget does not support a $150K strategist, a $60K editor, and a $40K UGC coordinator. An agency like OKAD delivers all three functions for $8K-$15K/month.
 
 When [ZenToes prepared for their Walmart launch](/cases/zentoes-walmart-launch-ads/), they needed 60+ ad variations fast. Building an internal team for a single launch would have been absurd. The agency model delivered the volume in weeks.
 
-![Drawing app faceless UGC results — creative testing at scale drives measurable performance](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
+![Content performance analytics — creative testing at scale drives measurable results that justify strategist compensation](/images/cases/by-okad-camera-roll-creators/mc_list.jpg)
 
 ## What Drives a Creative Strategist's Value
 
