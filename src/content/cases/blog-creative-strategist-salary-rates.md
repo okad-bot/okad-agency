@@ -26,6 +26,8 @@ The problem: compensation varies wildly. A "creative strategist" job title cover
 
 Here is the full breakdown by experience level, engagement model, and what drives the differences.
 
+![Olga Kad working from Lisbon — creative strategy as a location-independent career](/images/cases/by-okad-camera-roll-creators/venice.jpg)
+
 ## Full-Time Salary Ranges (US Market, 2026)
 
 | Level | Experience | Salary Range | Typical Employer |
@@ -73,9 +75,11 @@ The third option — and the one that often delivers the most value per dollar �
 
 The agency model bundles what would otherwise require three to five separate hires: a strategist, a UGC coordinator, video editors, a designer, and potentially a media buyer. For brands that need all of these functions but cannot justify the headcount, an agency retainer is typically 40-60% cheaper than building the same capability in-house.
 
-At [OKAD](https://okad.agency), [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist — leads the team that works alongside a full production pipeline — UGC creators, video editors, and AI content tools — under a single retainer. This means the strategist who writes the brief is working directly with the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
+When [Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](https://okad.agency), she priced creative strategy at zero — it was bundled free with production work because nobody knew to ask for it separately. Three years later, creative strategy is the most valuable line item in every retainer. The market shifted, and pricing followed. Today, OKAD's model puts the strategist who writes the brief in the same room as the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
 
-For a Swiss skincare brand, this integrated model produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using a Hook Swap System — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. Across [five brands](/cases/ad-re-edits-five-brands/), the same team delivered 80 fresh ads from archived footage with zero new shoots.
+For a drawing app, this integrated model scaled to [1.5M organic views through faceless UGC](/cases/drawing-app-faceless-ugc/) — zero faces on camera, starting from 100 downloads per week — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. For a pet supplement brand, the same team produced [story-format ads](/cases/tipaw-dog-supplement-story-ads/) converting dog owners with 3-habit narratives — proving that the agency model works across verticals, not just high-volume e-commerce.
+
+![Olga Kad leading OKAD's creative strategy team — the agency model bundles strategist, production, and testing under a single retainer](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
 ## Full-Time vs Freelance vs Agency: The Real Cost Comparison
 
@@ -101,9 +105,13 @@ The "total cost with production" row is where the real difference shows. A full-
 | $100K-$300K | Agency + in-house strategist | Internal strategist for speed, agency for volume |
 | $300K+ | Full in-house team + agency overflow | Internal team handles core, agency handles scale |
 
+![Ad creative variants from OKAD's production pipeline — agency retainers deliver strategy plus production capacity that a single hire cannot match](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
+
 The $30K-$100K range is where most growing DTC brands land, and it is where the agency model is strongest. You need 10-20 new ad variations per week to keep campaigns fresh, but the budget does not support a $150K strategist, a $60K editor, and a $40K UGC coordinator. An agency like OKAD delivers all three functions for $8K-$15K/month.
 
 When [ZenToes prepared for their Walmart launch](/cases/zentoes-walmart-launch-ads/), they needed 60+ ad variations fast. Building an internal team for a single launch would have been absurd. The agency model delivered the volume in weeks.
+
+![Drawing app faceless UGC results — creative testing at scale drives measurable performance](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
 
 ## What Drives a Creative Strategist's Value
 
@@ -113,7 +121,7 @@ Not all creative strategists are worth the same. The market pays for outcomes, n
 
 - They bring a testing framework, not just ideas. Every brief includes a hypothesis and a success metric.
 - They can diagnose creative failure from data. When an ad underperforms, they identify whether the hook, body, CTA, or audience is the problem — and they know because they track each element separately.
-- They ship volume. The best strategists produce 8-15 distinct concepts per week with 2-3 variants each. If your strategist delivers 2 briefs per week, you are paying too much per brief.
+- They ship volume. The best strategists sustain a cadence of dozens of new concepts per month with multiple variants each. If your strategist delivers 2 briefs per week, you are paying too much per brief.
 - They have specific case studies. "Reduced CPA by 35% over 3 months for a supplement brand" is worth $150/hr. "Experienced in social media strategy" is worth $50/hr.
 
 **Red flags that a strategist is overpriced:**
@@ -154,9 +162,11 @@ Creative strategist compensation varies significantly by market:
 | Western Europe | €35K-€50K | €65K-€95K | €50-€80/hr |
 | Eastern Europe / LATAM | $20K-$35K | $40K-$70K | $30-$60/hr |
 
+![Instagram content reel with 81.8K views — creative strategists who build personal brands command premium rates through demonstrated expertise](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
+
 This geographic gap is one reason the agency model works well for US and UK brands. An agency like OKAD operates with strategists and production teams across multiple markets, passing cost savings to clients while maintaining quality standards that match or exceed what a single US-based hire would deliver.
 
-The supplement brand behind [68 story-driven ads at EUR 183 CPA](/cases/longevity-supplement-story-ads/) worked with OKAD's distributed team — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
+A women's health supplement brand worked with OKAD's distributed team on a [12-video hook testing framework](/cases/womens-health-supplement-ads/) — 2 creators, 4 hooks each, zero reshoots needed — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
 
 ## How to Negotiate (For Strategists)
 
@@ -176,4 +186,4 @@ Whether you are hiring full-time, freelance, or evaluating agencies:
 3. **Check their relationship with data.** Ask how they decide when to kill an ad versus when to iterate on it. The answer should involve specific metrics and thresholds, not feelings.
 4. **Evaluate their production awareness.** A strategist who writes briefs that are impossible or expensive to produce is a strategist who has never worked closely with production. The best ones — like the team at OKAD — understand what editors and creators can realistically deliver because they work alongside them daily.
 
-Read more about [what makes a creative strategist effective](/blog/blog-what-is-creative-strategist/) and how to evaluate whether [hiring in-house or working with an agency](/blog/blog-in-house-vs-ugc-agency/) fits your current stage. For a full breakdown of agency pricing models, see our [UGC agency pricing guide](/blog/blog-ugc-agency-pricing/).
+If you are hiring, our guide on [how to hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) covers what to test for and the red flags to avoid. For the [outsourcing vs in-house decision](/blog/blog-outsource-creative-strategy-agency/), see our full framework. And to understand how the role differs from adjacent positions, read [creative strategist vs media buyer](/blog/blog-creative-strategist-vs-media-buyer/).

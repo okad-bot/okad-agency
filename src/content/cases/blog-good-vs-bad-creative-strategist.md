@@ -22,9 +22,11 @@ faqs:
 
 Creative strategy is the single biggest lever in paid social performance. Not targeting. Not bidding. Not budget allocation. The creative — what the audience actually sees — determines whether your ads work or fail. And the person responsible for that creative is your creative strategist.
 
-The problem is that the role is poorly defined across the industry. Some companies hire a creative director and call them a strategist. Others promote a junior designer into the seat. Some hand the job to their media buyer as a side task. The result is that most brands have no idea whether their creative strategist is actually good — or whether they are quietly burning through budget on ads that never had a chance.
+The problem is that the [role is poorly defined](/blog/blog-what-is-creative-strategist/) across the industry. Some companies hire a creative director and call them a strategist. Others promote a junior designer into the seat. Some hand the job to their media buyer as a side task. The result is that most brands have no idea whether their creative strategist is actually good — or whether they are quietly burning through budget on ads that never had a chance.
 
 Here are 10 signs that separate the two. Five that signal a strategist who is driving results, and five that signal one who is costing you money.
+
+![Creative strategist Olga Kad evaluating ad performance](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
 
 ## Five Signs of a Good Creative Strategist
 
@@ -32,7 +34,7 @@ Here are 10 signs that separate the two. Five that signal a strategist who is dr
 
 A good creative strategist does not start with inspiration. They start with a spreadsheet. Every new concept they propose connects to a specific performance insight: this hook type outperformed that one by 40%. This pain point drove 3x the click-through rate. This format converts on TikTok but dies on Meta feed.
 
-[Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), follows a simple rule: if you can't point to the data that informed a brief, the brief doesn't ship. When OKAD took over creative for a [Swiss skincare brand](/cases/swiss-skincare-high-volume-ads/), the first week was pure analysis — no new creative. The team identified that the existing ads had strong bodies but weak hooks. The Hook Swap System that followed produced roughly 30 new ads per day from the same footage, each informed by specific performance patterns.
+[Olga Kad](https://www.linkedin.com/in/o-kad) has reviewed over 500 ad accounts across [OKAD](https://okad.agency)'s client base. The pattern is always the same: the difference between brands that scale and brands that plateau comes down to whether their strategist runs on data or instinct. When OKAD onboarded the [Fragstore content factory](/cases/fragstore-content-factory/) account, the first step was analyzing which content styles drove orders — not which ones looked best. The result: 40 scripts per month, one shoot day, 40 edited videos across every platform — and 48.9K YouTube views in the first three weeks. Every brief traced back to the initial data audit that revealed raw, creator-shot footage outperformed polished studio content on CTR.
 
 The test: ask your strategist to walk you through their last 5 briefs and name the data point behind each one. If they cannot, they are guessing.
 
@@ -46,7 +48,7 @@ This specificity matters because it is what makes success repeatable. If your st
 
 Good creative strategists do not test randomly. They have a structured system: test angles first, then formats within the winning angle, then hooks within the winning format, then CTAs within the winning hook. Each test isolates one variable and produces a clear learning.
 
-This framework is what turns [ad creative strategy](/blog/blog-ad-creative-strategy/) from an art into a system. At OKAD, testing follows a hierarchy: audience angle, then message, then format, then hook, then production style. Each level narrows the field. By the time you reach production, you already know the winning angle, message, and format — the creative brief practically writes itself.
+This framework is what turns [ad creative strategy](/blog/blog-ad-creative-strategy/) from an art into a system. Our [creative strategy framework for paid social](/blog/blog-creative-strategy-framework-paid-social/) details the full seven-phase process. At OKAD, testing follows a hierarchy: audience angle, then message, then format, then hook, then production style. Each level narrows the field. By the time you reach production, you already know the winning angle, message, and format — the creative brief practically writes itself.
 
 A strategist without a testing framework produces a lot of creative. A strategist with one produces a lot of winners.
 
@@ -54,7 +56,7 @@ A strategist without a testing framework produces a lot of creative. A strategis
 
 Emotional attachment to creative is the most expensive bias in advertising. A good strategist launches 10 concepts, identifies the 2-3 that show early promise within 48-72 hours, kills the rest without hesitation, and immediately produces variations of the winners.
 
-When OKAD produced [68 ads for a longevity supplement brand](/cases/longevity-supplement-story-ads/), the goal was never to make 68 good ads. It was to find the 5-10 that performed and build a system to scale them. The ones that did not work were killed within days — no tweaking, no second chances. The winners got new hooks, new formats, and new CTAs until they stopped performing.
+When OKAD ran the [supplement UGC ad testing campaign](/cases/supplement-ugc-ad-testing/) — 16 creator videos from 8+ creators producing 48 test ads across 8 angles — problem-callout, ingredient deep-dive, before-and-after, routine integration, and more — the goal was never to make 48 good ads. It was to find the 5-8 that performed and build a system to scale them. The underperformers were killed within days — no tweaking, no second chances. The winners got new hooks, new formats, and new CTAs until they stopped performing.
 
 A strategist who fights to keep underperformers alive — "let's just give it more time" or "maybe the audience needs to warm up" — is wasting your spend.
 
@@ -62,9 +64,11 @@ A strategist who fights to keep underperformers alive — "let's just give it mo
 
 A brief from a good strategist is a complete instruction set. It includes the target audience, the pain point, the angle, the hook concept, the format, the CTA, reference examples, and do-not-do notes. A creator or editor should be able to execute it without a single clarifying question.
 
-This matters because creative production scales on brief quality. If every brief requires a 30-minute call to explain what the strategist actually wants, your production pipeline bottlenecks at one person. At OKAD, briefs follow a standardized template that has been refined over hundreds of campaigns. When the team produced [80 ads from old footage across five brands](/cases/ad-re-edits-five-brands/), every re-edit was driven by a brief that the editor could pick up and execute independently.
+This matters because creative production scales on brief quality. If every brief requires a 30-minute call to explain what the strategist actually wants, your production pipeline bottlenecks at one person. At OKAD, briefs follow a standardized template refined over hundreds of campaigns. When the team produced [60 videos per month for YourChristianDate](/cases/your-christian-date-broll-content/), every brief was self-contained — the creator shot the content from the brief alone, no back-and-forth needed.
 
-The benchmark: a good strategist produces 8-15 distinct concepts per week, each with 2-3 variations. If your strategist produces fewer than 5, ask what is slowing them down. It is usually brief quality — they are spending time explaining instead of writing.
+The benchmark: a good strategist should produce enough testable concepts to outpace ad fatigue — typically 20 to 40 new ad variations per cycle. If output is consistently low, ask what is slowing them down. It is usually brief quality — they are spending time explaining instead of writing.
+
+![Supplement brand UGC ad testing — structured creative approach by a skilled strategist](/images/cases/supplement-brand-ugc-ad-testing/sm/balanced.jpg)
 
 ## Five Signs of a Bad Creative Strategist
 
@@ -114,6 +118,8 @@ If you want to know immediately whether your creative strategist is good, run th
 
 This test works because it isolates strategic thinking from execution. A strategist who cannot read creative for performance signals — without seeing the data — does not understand what drives results.
 
+![Fragstore content production — systematic creative output from a well-run strategy program](/images/cases/fragstore-content-factory/fs/creator2.jpg)
+
 ## What to Do If Your Strategist Is Underperforming
 
 Do not fire them immediately. Have a specific conversation first:
@@ -134,13 +140,13 @@ Not every brand needs a full-time creative strategist. The decision depends on a
 | $30K-$75K | 20-40 new ads/month | Dedicated strategist (freelance or in-house) |
 | $75K+ | 40+ new ads/month | In-house strategist + production team or agency |
 
-At OKAD, Olga and the creative strategy team work as an embedded extension of the brand's marketing — handling the analysis, brief writing, and testing roadmap while the brand focuses on product and growth. What makes the difference is not just understanding one piece of the puzzle — hooks, or copy, or design — but seeing the entire funnel. Olga ran ads for her own e-commerce products for years before building OKAD, so she knows where conversion breaks at every step: from the first scroll-stop through the click, the landing page, and the checkout. That systemic view — not just "make better ads" but "grow conversion across the whole funnel" — is what separates a strategist who drives results from one who just produces creative. This model works particularly well in the $10K-$75K range where a full-time hire is expensive but the creative demands exceed what a media buyer can handle alongside their primary job.
+At OKAD, the creative strategy team works as an embedded extension of the brand's marketing — handling the analysis, brief writing, and testing roadmap while the brand focuses on product and growth. The evaluation criteria above are exactly what OKAD applies when auditing a new client's existing creative program. The first question is always: can the current strategist (or whoever is filling that role) pass the 15-minute audit test? Can they explain why their winners won? Do their briefs trace back to data? If the answer is no on two or more of those, the creative program needs a reset — not more budget. The [Canvas Tech UGC network](/cases/canvas-tech-ugc-without-new-shoots/) scaled to 5,471 creators without new shoots — the best-performing Reel hit 81.8K views on $0 ad spend — because the strategic layer was sound: every brief had a hypothesis, every test had kill criteria, and every winner got multiplied systematically. This model works particularly well in the $10K-$75K range where a full-time hire is expensive but the creative demands exceed what a media buyer can handle alongside their primary job.
 
-The brands that scale fastest on paid social are the ones that treat creative strategy as a specialized discipline — not a side task, not a creative director's hobby, and not something the intern can figure out. Whether that discipline lives in-house, freelance, or at an agency, the 10 signs above tell you whether the person doing it is actually driving results.
+Run the 15-minute audit test on your current strategist this week. If they cannot rank your top and bottom ads by performance and explain why each one landed where it did, you have your answer. The 10 signs above are not a wishlist — they are a diagnostic. Two or more red flags mean the role is not being filled, regardless of the title on the org chart.
 
 ## Related Reading
 
+- [How to Hire a Creative Strategist](/blog/blog-how-to-hire-creative-strategist/) — what to look for, red flags, and the interview test
+- [Creative Testing Methodology](/blog/blog-creative-testing-methodology/) — the structured testing process your strategist should follow
 - [Ad Creative Strategy: Brief to Scale](/blog/blog-ad-creative-strategy/) — the full 6-phase creative lifecycle
 - [Hook Rate Explained](/blog/blog-hook-rate-explained/) — the metric that separates winning hooks from losing ones
-- [Creative Testing for DTC](/blog/blog-creative-testing-for-dtc/) — structured testing frameworks for paid social
-- [How to Scale Ad Creative Without Shoots](/blog/blog-how-to-scale-ad-creative-without-shoots/) — volume production when your strategist identifies winners

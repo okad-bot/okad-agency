@@ -24,7 +24,7 @@ Most brands produce ads by intuition. Someone has an idea, the team builds it, t
 
 The brands that win on paid social — consistently, at scale, month after month — do not operate this way. They run a system. A framework that turns research into angles, angles into briefs, briefs into ads, and ads into data that feeds the next cycle. Every test teaches something. Every winner gets multiplied. Every loser gets autopsied for salvageable parts.
 
-This is the exact framework [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), runs for every client. The seven phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs. The result is a compounding creative engine where each cycle is smarter than the last.
+[Olga Kad](https://www.linkedin.com/in/o-kad) built this framework through trial, error, and three years of running ad accounts for her own e-commerce products before founding [OKAD](https://okad.agency). The first version was a Google Doc with five steps. It evolved into the seven-phase system below after running it across 100+ client campaigns — each iteration adding structure where the previous version left room for guesswork. The phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs.
 
 Here is how it works, phase by phase.
 
@@ -39,6 +39,8 @@ Everything starts with research. Not a quick scroll through the competitor's Ins
 **Winning format identification:** Which ad structures are working in your category right now? UGC testimonials, problem-solution, before/after, talking head, story ads, demos? Document the top 10 ads in your space and tag each one by format.
 
 The research phase typically takes 2-3 days for a new client and 1 day for ongoing cycles. It is the most skipped phase — and skipping it is why most creative programs produce expensive guesses instead of informed hypotheses.
+
+![Olga Kad analyzing competitor ads and audience research data](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
 
 ## Phase 2: Angle Mapping
 
@@ -63,6 +65,8 @@ Each angle gets its own brief. This is non-negotiable. Mixing angles in one ad d
 
 When the OKAD team built [68 ads for a longevity supplement brand](/cases/longevity-supplement-story-ads/), each ad mapped to a single angle. The winning angle — transformation stories with specific timelines — drove a EUR 183 CPA. Without angle isolation, that insight would have been invisible inside a batch of mixed-message ads.
 
+![UGC ad creative for supplement brand — each ad maps to a single angle so performance data reveals which message resonates](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
+
 ## Phase 3: Format Selection
 
 Not every angle works in every format. A comparison angle works well in a side-by-side demo but poorly in a talking head. An authority angle works in a talking head but falls flat in a fast-cut UGC montage.
@@ -82,7 +86,7 @@ The format-angle matching matrix:
 
 For each angle from Phase 2, select 1-2 formats. A strong angle tested in two formats produces twice the learning at minimal extra cost.
 
-The [creative testing program OKAD built for an AI app](/cases/creative-testing-ai-app-meta-ads/) ran systematic format-angle combinations on Meta. Each test isolated one variable — same angle in two formats, or same format with two angles — so performance differences were attributable to a single change.
+OKAD's [static ad creatives for digital products](/cases/static-ad-creatives-digital-products/) — averaging 2-4M impressions per ad — demonstrated exactly this principle. Each campaign ran systematic format-angle combinations, isolating one variable per test: same angle in two formats, or same format with two angles. Performance differences were attributable to a single change, making every result actionable.
 
 ## Phase 4: Brief Writing
 
@@ -106,6 +110,8 @@ Every brief at OKAD follows this structure:
 
 This brief template is the artifact that makes creative strategy transferable. When Olga Kad onboards a new client, the brief format stays identical — only the research inputs change. That consistency is what lets the [OKAD team produce at volume](/blog/blog-high-volume-ugc-production/) without sacrificing strategic precision.
 
+![Canvas creative brief template — OKAD's standardized brief format ensures every ad has a clear hypothesis, audience, and success metric](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
+
 ## Phase 5: Production
 
 Production is execution, not strategy. By this phase, every creative decision has already been made. The production team's job is to bring the brief to life, not to reinvent it.
@@ -125,6 +131,8 @@ Production is execution, not strategy. By this phase, every creative decision ha
 | $50K-$200K+ | 30-50+ concepts | Creator team + AI pipeline |
 
 The framework scales from $5K/month ad spend to $200K/month. The system stays the same — only the volume changes.
+
+![Fragstore content production — weekly production cycles generating 40+ ads per month](/images/cases/fragstore-content-factory/fs/wide.jpg)
 
 ## Phase 6: Testing
 
@@ -148,7 +156,7 @@ For a deeper breakdown of [structured creative testing for DTC brands](/blog/blo
 This is where the flywheel spins. Every test produces data. That data feeds the next cycle.
 
 **Winners get multiplied:**
-- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The OKAD team's [Hook Swap System for a Swiss skincare brand](/cases/swiss-skincare-high-volume-ads/) produced roughly 30 new ads per day using this method.
+- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The [Skribly campaign](/cases/high-roas-ugc-ads/) scaled through this exact approach — hook swaps and format remixes produced 1,257 video assets in two months — achieving 8%+ retention rates versus the 3-5% industry average — each variation testing a different opening on proven body content.
 - **Format remixes (2-3 new formats):** Same message, different structure. A winning UGC testimonial becomes a text-overlay story ad and a before/after comparison. See our guide to [getting 50 ad variations from one shoot](/blog/blog-50-ads-from-one-shoot/).
 - **Audience expansion:** Test the winner against new segments, lookalikes, and interest-based audiences.
 
@@ -158,6 +166,8 @@ This is where the flywheel spins. Every test produces data. That data feeds the 
 - Was the format wrong for the angle? Retry the angle in a different format.
 
 **The data feeds Phase 1.** Winning angles become permanent fixtures in your angle library. Winning hooks reveal the language that resonates. Losing formats for certain angles get documented so you do not repeat the mistake. Over 3-6 months, this compounding effect turns a brand's creative program from guesswork into a precision engine.
+
+![Lookalikey UGC ad variations — iterating on winning concepts with hook swaps and format remixes](/images/cases/lookalikey-ugc-ads/img-05.jpg)
 
 ## The 2-Week Cycle in Practice
 
@@ -174,6 +184,8 @@ Here is how the framework looks on a calendar:
 | Fri | Initial data review (early signals only) | Strategist |
 | Following week | Full data review → feeds next cycle | Strategist |
 
+![Olga Kad's Instagram profile — creative strategists who build personal brands attract higher-quality client relationships](/images/cases/by-okad-camera-roll-creators/profile.jpg)
+
 This cadence works for a single brand. Olga Kad and the OKAD team run this cycle across multiple clients simultaneously, which is why the [structured brief format](/blog/blog-how-to-brief-a-creative-agency/) and production systems exist — without them, multi-client creative strategy at volume would be impossible.
 
 ## Common Mistakes
@@ -182,16 +194,16 @@ This cadence works for a single brand. Olga Kad and the OKAD team run this cycle
 
 **Changing too many variables.** An ad with a new hook, new body, new format, and new audience teaches you nothing about any individual element. Isolate variables or accept that your test results are unreadable.
 
-**Killing ads too early.** $20 of spend is not a test. It is noise. Wait for $50-$100 per variant before making decisions.
+**Killing ads too early.** $20 of spend is not a test. It is noise. Wait for $50-$100 per variant before making decisions. Our [creative testing methodology guide](/blog/blog-creative-testing-methodology/) covers kill criteria and budget thresholds in detail.
 
 **Skipping the iteration phase.** Most brands launch, judge, and move on to entirely new concepts. The highest-performing creative programs spend more time iterating on winners than producing new concepts from scratch.
 
 **Confusing creative strategy with creative direction.** A creative strategist decides what to test and why. A creative director decides how it should look and feel. These are complementary but distinct roles — hiring one when you need the other is one of the most expensive mistakes in performance marketing. Read our breakdown of [what a creative strategist actually does](/blog/blog-what-is-creative-strategist/) for the full distinction.
 
-## The Bottom Line
+## The System Beats the Single Ad
 
 Winning ads are not lightning strikes. They are the output of a system that turns research into hypotheses, hypotheses into ads, ads into data, and data into better hypotheses. The framework is seven phases, and it repeats on a 2-week cycle.
 
-The brands that scale — from $5K/month to $200K/month and beyond — are not the ones with the best single ad. They are the ones with the best system for producing the next winning ad, and the one after that, and the one after that.
+Print this framework. Pin it to your wall. Run one full cycle — research through iteration — in the next two weeks. After that first cycle, you will have more actionable creative data than most brands generate in a quarter of random launches.
 
-If you want to see this framework applied to specific categories, start with our [ad creative strategy guide](/blog/blog-ad-creative-strategy/) for the full lifecycle, or explore how [modular creative production](/blog/blog-modular-creative-production/) multiplies output at each cycle.
+If your ads are underperforming and you want to diagnose what is broken before applying this framework, start with our [ad diagnostic guide](/blog/blog-why-your-ads-are-not-working/). For the career path into creative strategy, see [how to become a creative strategist](/blog/blog-how-to-become-creative-strategist/). And for the full creative lifecycle from brief to scale, read our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).

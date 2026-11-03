@@ -26,11 +26,15 @@ That is the creative strategist's job. And demand for people who can do it well 
 
 [Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](/) as a design studio, making static ad creatives. Clients ordered design, but she did everything — the visuals, the copy, the concepts. Then curiosity took over: what actually happened to those creatives once they launched? She started pulling up ad accounts, analyzing what worked, and suggesting what to make next — before "creative testing" was even a term. She had already been running ads for her own e-commerce products and posting three videos a day on her own blog, so she understood hooks, attention management, and the full funnel from first impression to checkout. When a client asked her to create UGC ads using her own face, that became the pivot. She scaled to working with other creators, landed a major agency client, and realized that the real bottleneck was never production — it was knowing what to produce and why. That intersection of design, copywriting, video editing, ad buying, and funnel understanding became OKAD's creative strategy practice.
 
+![Olga Kad, founder of OKAD — from designing static ad creatives to building a creative strategy agency driven by performance data](/images/cases/by-okad-camera-roll-creators/profile.jpg)
+
 Here is how to build that skillset yourself, whether you want to join an agency, go freelance, or work in-house.
 
-## What a Creative Strategist Actually Does
+![Olga Kad — from e-commerce founder to creative strategist running a performance creative agency](/images/cases/by-okad-camera-roll-creators/lisbon.jpg)
 
-The role sits between the media buyer and the creative team. You do not buy media. You do not design ads. You decide what ads should exist and why.
+## What the Job Looks Like Day to Day
+
+The role sits between the media buyer and the creative team. You do not buy media. You do not design ads. You decide what ads should exist and why. For a full overview, read [what a creative strategist is and why every DTC brand needs one](/blog/blog-what-is-creative-strategist/).
 
 **Daily work includes:**
 
@@ -41,7 +45,7 @@ The role sits between the media buyer and the creative team. You do not buy medi
 - Running structured creative tests and interpreting results
 - Building a creative testing roadmap: what to test this week, this month, this quarter
 
-At [OKAD](/), the creative strategist role drives every client engagement. When we built a [creative testing system for an AI app](/cases/creative-testing-ai-app-meta-ads/), the strategist determined which hooks to test, which audience segments to target with which messaging, and when to kill underperformers. The media buyer executed the tests. The production team built the assets. But the strategist set the direction.
+At [OKAD](/), the creative strategist role drives every client engagement. When the team built an [organic video strategy that reached 1M+ views without ad spend](/cases/organic-video-content-1m-views/), the strategist determined which content angles resonated organically — and those insights fed directly into paid creative briefs. Understanding what people choose to watch tells you what they will stop scrolling for. The media buyer executed the tests. The production team built the assets. But the strategist set the direction.
 
 ## Three Entry Paths
 
@@ -71,6 +75,8 @@ At [OKAD](/), the creative strategist role drives every client engagement. When 
 
 This is exactly how Olga Kad made the transition. She started making static creatives for clients — pure design work. But she had also been running ads for her own e-commerce products, so she could see which of her designs actually converted and which just looked good. That dual perspective — maker and buyer — is the fastest path from design to strategy. If you are a designer who also runs your own ad spend, you already have the raw ingredients.
 
+![Real creative testing output — AI app ad variations that demonstrate strategic thinking](/images/cases/ai-app/ai-app-12.webp)
+
 ## Core Skills to Build
 
 **1. Creative Analytics**
@@ -93,7 +99,7 @@ A creative brief is the strategist's primary output. A good brief specifies:
 - Reference examples of what good looks like
 - What success means (the metric and the threshold)
 
-At OKAD, every brief follows this structure. When we produced [24 scripts for DateMyAge](/cases/datemyage-dating-app-scripts/), each script started as a brief with a specific hypothesis: this audience, this pain point, this format, this hook angle. The scripts were the execution. The briefs were the strategy.
+At OKAD, every brief follows this structure. When we produced [24 scripts for DateMyAge](/cases/datemyage-dating-app-scripts/) — 48 videos total across 22 creators, including 7 with AI voiceover — each script started as a brief with a specific hypothesis: this audience, this pain point, this format, this hook angle. The scripts were the execution. The briefs were the strategy.
 
 **3. Competitor Research**
 
@@ -127,6 +133,8 @@ You do not need all of these on day one. Start with the free tools — Meta Ad L
 
 No one will hire you as a creative strategist without proof you can think like one. Here is how to build that proof:
 
+![Grid of UGC creator trials — the kind of production pipeline creative strategists learn to manage](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+
 **The Spec Audit Method:**
 
 1. Pick 3 DTC brands you admire
@@ -138,7 +146,7 @@ No one will hire you as a creative strategist without proof you can think like o
 
 Document this as a case study. Post it on LinkedIn or your personal site. This demonstrates the exact thinking process hiring managers look for.
 
-OKAD regularly evaluates strategist candidates based on this kind of thinking. A polished portfolio of hypothetical briefs with clear reasoning beats a resume full of job titles every time.
+OKAD regularly evaluates strategist candidates based on this kind of thinking. A polished portfolio of hypothetical briefs with clear reasoning beats a resume full of job titles every time. When you are ready to apply, our guide on [how to hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) explains what hiring managers actually test for — use it to prepare from the other side.
 
 ## Where to Find Your First Role
 
@@ -164,7 +172,7 @@ Freelance creative strategy is growing fast. Brands that cannot afford a full-ti
 | Lead | Head of Creative Strategy | $140K-$200K | 7-12 years |
 | Executive | VP of Creative / Founder | $180K-$300K+ | 10+ years |
 
-The ceiling is high because the role is scarce. Brands spending millions on ads need someone who can direct that spend toward creative that works. That person commands a premium.
+The ceiling is high because the role is scarce. Brands spending millions on ads need someone who can direct that spend toward creative that works. That person commands a premium. For a complete breakdown by market and engagement model, see our [creative strategist salary and rates guide](/blog/blog-creative-strategist-salary-rates/).
 
 ## The AI Advantage
 
@@ -176,7 +184,7 @@ A creative strategist in 2026 who uses AI effectively can:
 - Produce rough concepts and mockups without waiting for a designer
 - Analyze performance data with natural language queries instead of spreadsheets
 
-At OKAD, AI tools are embedded throughout the creative workflow — from [AI-generated product visuals](/cases/baby-furniture-ai-product-visuals/) to AI-assisted [video production](/blog/blog-how-to-make-ai-video-ads/). But every AI output is directed by a human strategist who decided what to make and why.
+At OKAD, AI tools are embedded throughout the creative workflow — from [AI-generated product visuals](/cases/baby-furniture-ai-product-visuals/) (40+ lifestyle images at under $700, replacing a multi-day photo shoot) to AI-assisted [video production](/blog/blog-how-to-make-ai-video-ads/). But every AI output is directed by a human strategist who decided what to make and why.
 
 The strategists who thrive in 2026 are not the ones who fear AI. They are the ones who use it to multiply their output while keeping the strategic thinking human. Our guide to [AI creative workflows](/blog/blog-ai-creative-workflow/) shows how this works in practice.
 
@@ -190,9 +198,9 @@ OKAD's creative strategy framework is built on a simple loop:
 4. **Test** — Launch structured tests with isolated variables
 5. **Learn** — Analyze results, document patterns, feed insights back into step 1
 
-This loop runs continuously. For a Swiss skincare brand, this system produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using hook swaps on proven body content. For a dating app, it generated [48 videos from 24 scripts](/cases/datemyage-dating-app-scripts/) across 22 creators. The volume varies by client. The system stays the same.
+This loop runs continuously. For a dating app, this system generated [48 videos from 24 scripts](/cases/datemyage-dating-app-scripts/) across 22 creators. For another dating brand, it produced [60 videos per month](/cases/your-christian-date-broll-content/) from b-roll footage across multiple creator accounts. For an [alcohol brand](/cases/alcohol-ugc-content/), the same framework drove 900K views per post. The volume varies by client. The system stays the same.
 
-If you want to see what creative strategy produces in practice, start with our [ad creative strategy guide](/blog/blog-ad-creative-strategy/) — it covers the full lifecycle from brief to scale.
+If you want to see the system behind the role, our [creative strategy framework for paid social](/blog/blog-creative-strategy-framework-paid-social/) breaks down the seven-phase process that repeats every two weeks. And for the full creative lifecycle from brief to scale, start with our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).
 
 ## Start This Week
 

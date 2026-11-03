@@ -30,7 +30,9 @@ A creative strategist does not design ads. They do not edit video. They do not w
 
 The role sits between two worlds. On one side, performance data — CTR, hold rates, CPA, ROAS, hook rates, thumb-stop ratios. On the other side, creative production — designers, editors, UGC creators, AI tools. The strategist translates numbers into briefs and briefs into testable hypotheses.
 
-At OKAD, [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), reviews performance data daily with the team across every client account. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this month. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
+At [OKAD](https://okad.agency), creative strategy starts at 9am when [Olga Kad](https://www.linkedin.com/in/o-kad) opens the dashboards. Before any creative discussion, before any brief gets written, she pulls every active campaign across every client account and reads the numbers. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this week. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
+
+![Olga Kad reviewing creative strategy and ad performance data](/images/cases/by-okad-camera-roll-creators/reading.jpg)
 
 This is what separates a creative strategist from everyone else on the team: they own the feedback loop between data and production.
 
@@ -53,6 +55,8 @@ Every morning starts with data. Which ads won yesterday? Which ones died? The st
 
 For a Swiss skincare brand, OKAD's strategy team built a [Hook Swap System](/cases/swiss-skincare-high-volume-ads/) based on exactly this diagnostic approach — identifying which hooks drove hold rate and which drove CTR, then systematically replacing weak openings while keeping proven body content intact. The result: roughly 30 new ads per day from a single UGC library.
 
+![Ad performance metrics dashboard — creative strategists diagnose failure modes by reading CTR, hook rate, and CPA patterns daily](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
+
 ### 3. Brief Writing
 
 The brief is the strategist's primary output. A good creative brief is specific enough to execute and flexible enough to allow creative interpretation. It includes:
@@ -63,7 +67,9 @@ The brief is the strategist's primary output. A good creative brief is specific 
 - **The hypothesis** — what this ad is designed to prove or disprove
 - **Reference creative** — examples of what "good" looks like for this concept
 
-At scaled accounts, a creative strategist produces 8 to 15 distinct concepts per week, each with 2 to 3 variants. That is 20 to 45 pieces of creative direction flowing to the production team every week. Without a strategist, most teams produce 3 to 5 concepts and hope for the best.
+The difference between strategic and unstrategic creative production is volume with purpose. A strategist at a scaled account can push 30 to 50 testable ad variations per week — not by working harder, but by writing briefs tight enough that a creator or editor can execute them without a single clarifying question. For the [Breakout Aid skincare campaign](/cases/breakout-aid-skincare-ugc-ads/), OKAD produced 15 new ads from just 6 creators with zero new shoots, because the briefs were precise enough to extract multiple concepts from existing footage.
+
+![AI app ad creative variations produced through structured creative briefs](/images/cases/ai-app/ai-app-03.webp)
 
 ### 4. Creative Testing Roadmap
 
@@ -86,7 +92,7 @@ Our guide to [creative testing for DTC brands](/blog/blog-creative-testing-for-d
 
 ## Creative Strategist vs. Everyone Else
 
-The role is often confused with three adjacent positions. Here is how they differ:
+The role is often confused with three adjacent positions. For a deep dive into the most common confusion, see our breakdown of [creative strategist vs media buyer](/blog/blog-creative-strategist-vs-media-buyer/). Here is how they differ:
 
 | | Creative Strategist | Creative Director | Media Buyer |
 |---|---|---|---|
@@ -95,6 +101,8 @@ The role is often confused with three adjacent positions. Here is how they diffe
 | **Measures success by** | Test win rate, CPA improvement | Brand consistency, visual quality | ROAS, CPC, CPM efficiency |
 | **Owns** | The creative hypothesis | The creative execution | The media plan |
 | **Works with** | Editors, creators, AI tools, media buyers | Designers, photographers, animators | Creative strategists, analytics |
+
+![Canvas creative brief template used by OKAD to direct UGC creators and editors across multiple campaigns](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 In small teams, one person often wears two or three of these hats. That works up to about $30,000 per month in ad spend. Beyond that, the creative workload alone — research, analysis, briefing, review, iteration — demands dedicated attention. The brands that scale past $100K per month almost always have a dedicated creative strategist, whether in-house or through an agency.
 
@@ -133,7 +141,9 @@ Here is what the role looks like in practice at a performance creative agency li
 - Update the testing roadmap: what shipped, what is pending, what needs to be briefed next
 - Flag strategic observations for the client or team: "Story-format hooks are outperforming product demos 3:1 this week — shifting next week's briefs accordingly"
 
-This cycle runs five days a week. At [OKAD's production volume](/cases/creative-testing-ai-app-meta-ads/) — managing creative testing across multiple brands simultaneously — the rhythm is non-negotiable. Skip a day of data review and you waste budget on underperformers. Skip a day of briefing and the production pipeline stalls.
+This cycle runs five days a week. At [OKAD's production volume](/cases/breakout-aid-skincare-ugc-ads/) — managing creative testing across multiple brands simultaneously — the rhythm is non-negotiable. Skip a day of data review and you waste budget on underperformers. Skip a day of briefing and the production pipeline stalls.
+
+![Grid of UGC ad variations from a structured creative testing pipeline](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## The Skills That Matter
 
@@ -141,7 +151,7 @@ Not every creative strategist is equally effective. The best ones share a specif
 
 **Data fluency without data dependency.** A strategist needs to read dashboards, spot trends, and extract actionable signals. But they also need to recognize when data is insufficient — when a test did not run long enough, when external factors skewed results, when a metric is misleading. Raw data literacy is table stakes. Judgment about what the data means is what separates good from great.
 
-**Speed of brief production.** At OKAD's pace — multiple brands, each needing fresh concepts weekly — the ability to translate an insight into a clear, executable brief in under 30 minutes is critical. Olga Kad's team maintains brief templates that standardize the structure while leaving room for creative flexibility. A strategist who takes two days to write one brief cannot keep up with the testing velocity modern paid social demands.
+**Speed of brief production.** At OKAD's pace — multiple brands, each needing fresh concepts weekly — the ability to translate an insight into a clear, executable brief in under 30 minutes is critical. The team uses standardized brief templates that enforce structure while leaving room for creative flexibility. A strategist who takes two days to write one brief cannot keep up with the testing velocity modern paid social demands.
 
 **Format awareness.** The strategist needs to know what is possible across production methods: UGC, studio, AI-generated, static, motion, long-form, short-form. They do not need to execute any of these — but they need to know which format serves which hypothesis. Recommending a talking-head testimonial when the test calls for a quick product demo wastes production resources and muddies the data.
 
@@ -173,6 +183,6 @@ A creative strategist is the person who turns ad performance data into creative 
 
 The brands scaling on Meta and TikTok in 2026 have one thing in common: someone is looking at the data every morning and writing briefs by noon. Whether that someone is an in-house hire, a freelancer, or an agency team like OKAD, the function exists. The brands that skip it are the ones stuck wondering why new creative never seems to work.
 
-If you are evaluating whether to hire a creative strategist or work with an agency that includes strategy in its workflow, start by answering one question: can you explain, right now, why your best-performing ad works? If the answer is "it just does" — you need a strategist.
+If you are evaluating whether to [hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) or work with an agency that includes strategy in its workflow, start by answering one question: can you explain, right now, why your best-performing ad works? If the answer is "it just does" — you need a strategist. Not sure if yours is any good? Our guide to the [10 signs of a good vs bad creative strategist](/blog/blog-good-vs-bad-creative-strategist/) has a 15-minute audit test.
 
-For a deeper look at the strategic framework behind high-performing ad creative, read our [complete ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you want to see creative strategy applied to real campaigns, explore how OKAD's team built a [testing-driven pipeline for an AI app](/cases/creative-testing-ai-app-meta-ads/) that systematically improved CPA through structured creative iteration.
+For a deeper look at the strategic framework behind high-performing ad creative, read our [complete ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you want to see creative strategy applied to real campaigns, explore how OKAD produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) — 1,257 video assets with 8%+ retention rates and 1.5M views, built through the same brief-to-test pipeline described above.
