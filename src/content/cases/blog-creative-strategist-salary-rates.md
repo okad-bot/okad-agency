@@ -75,9 +75,9 @@ The third option — and the one that often delivers the most value per dollar �
 
 The agency model bundles what would otherwise require three to five separate hires: a strategist, a UGC coordinator, video editors, a designer, and potentially a media buyer. For brands that need all of these functions but cannot justify the headcount, an agency retainer is typically 40-60% cheaper than building the same capability in-house.
 
-At [OKAD](https://okad.agency), [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist — leads the team that works alongside a full production pipeline — UGC creators, video editors, and AI content tools — under a single retainer. This means the strategist who writes the brief is working directly with the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
+When [Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](https://okad.agency), she priced creative strategy at zero — it was bundled free with production work because nobody knew to ask for it separately. Three years later, creative strategy is the most valuable line item in every retainer. The market shifted, and pricing followed. Today, OKAD's model puts the strategist who writes the brief in the same room as the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
 
-For a Swiss skincare brand, this integrated model produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using a Hook Swap System — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. Across [five brands](/cases/ad-re-edits-five-brands/), the same team delivered 80 fresh ads from archived footage with zero new shoots.
+For a drawing app, this integrated model scaled to [1,257 faceless UGC videos](/cases/drawing-app-faceless-ugc/) — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. For a pet supplement brand, the same team produced [story-format ads](/cases/tipaw-dog-supplement-story-ads/) converting dog owners with 3-habit narratives — proving that the agency model works across verticals, not just high-volume e-commerce.
 
 ![Olga Kad leading OKAD's creative strategy team — the agency model bundles strategist, production, and testing under a single retainer](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
@@ -121,7 +121,7 @@ Not all creative strategists are worth the same. The market pays for outcomes, n
 
 - They bring a testing framework, not just ideas. Every brief includes a hypothesis and a success metric.
 - They can diagnose creative failure from data. When an ad underperforms, they identify whether the hook, body, CTA, or audience is the problem — and they know because they track each element separately.
-- They ship volume. The best strategists produce 8-15 distinct concepts per week with 2-3 variants each. If your strategist delivers 2 briefs per week, you are paying too much per brief.
+- They ship volume. The best strategists sustain a cadence of dozens of new concepts per month with multiple variants each. If your strategist delivers 2 briefs per week, you are paying too much per brief.
 - They have specific case studies. "Reduced CPA by 35% over 3 months for a supplement brand" is worth $150/hr. "Experienced in social media strategy" is worth $50/hr.
 
 **Red flags that a strategist is overpriced:**
@@ -166,7 +166,7 @@ Creative strategist compensation varies significantly by market:
 
 This geographic gap is one reason the agency model works well for US and UK brands. An agency like OKAD operates with strategists and production teams across multiple markets, passing cost savings to clients while maintaining quality standards that match or exceed what a single US-based hire would deliver.
 
-The supplement brand behind [68 story-driven ads at EUR 183 CPA](/cases/longevity-supplement-story-ads/) worked with OKAD's distributed team — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
+A women's health supplement brand worked with OKAD's distributed team on a [12-video hook testing framework](/cases/womens-health-supplement-ads/) — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
 
 ## How to Negotiate (For Strategists)
 

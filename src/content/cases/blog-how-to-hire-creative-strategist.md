@@ -38,7 +38,7 @@ You need a creative strategist when three signals appear together:
 
 Signal three is the critical one. If you can diagnose why ads work, you can build more like them. If you cannot, you are guessing — and guessing at $20K-$100K/month in ad spend is expensive.
 
-When OKAD onboards a new client, [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist at [OKAD](https://okad.agency) — never starts with "what should we create." It is "show me your ad account." The audit — what is running, what is winning, what has been tested — takes priority over any creative discussion. That diagnostic instinct is exactly what a creative strategist brings.
+When [Olga Kad](https://www.linkedin.com/in/o-kad) interviews strategist candidates at [OKAD](https://okad.agency), the first question is never about their resume — it is "show me your last five briefs and walk me through the data behind each one." That same diagnostic instinct applies to client onboarding: the first thing any strategist should do is audit the ad account, not brainstorm new ideas. What is running, what is winning, what has been tested and failed — that map comes before any creative discussion.
 
 ![Olga Kad — creative strategist and founder of OKAD agency](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
@@ -52,9 +52,9 @@ The role sits between the media buyer and the creative team. The strategist does
 - **Test:** Design structured experiments — not random creative throws — with clear hypotheses ("this pain point hook will beat the benefit hook for cold audiences")
 - **Iterate:** Review results weekly, kill underperformers, scale winners, and write the next round of briefs based on what the data showed
 
-A strong strategist at a scaled account ships 8-15 distinct concepts per week with 2-3 variations each. That volume is only possible with a structured brief-to-test pipeline.
+A strong strategist at a scaled account ships dozens of testable variations per week. That volume is only possible with a structured brief-to-test pipeline — where every brief has a hypothesis, a format, and a kill criterion before production starts.
 
-This is the model behind every OKAD engagement. When we built the [creative testing pipeline for an AI app](/cases/creative-testing-ai-app-meta-ads/), the strategist role defined which concepts to test across cold and warm audiences — not the designer, not the media buyer.
+This is the model behind every OKAD engagement. When we ran the [Tipaw dog supplement campaign](/cases/tipaw-dog-supplement-story-ads/), the strategist defined which story angles to test — owner testimonials versus vet-backed claims versus daily routine narratives — before any creator received a brief. The designer did not pick the angle. The media buyer did not pick the angle. The strategist did, based on competitor research and audience comment analysis.
 
 ## In-House vs Freelance vs Agency
 
@@ -68,7 +68,7 @@ This is the model behind every OKAD engagement. When we built the [creative test
 
 ![UGC creator face-to-camera testimonial — the format creative strategists brief most often for supplement and skincare brands](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
-For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. OKAD's model is built around this: clients get Olga Kad's strategic direction alongside a production team that executes 30+ ad variations per month, like the [Hook Swap System](/cases/swiss-skincare-high-volume-ads/) that produced roughly 30 ads per day for a Swiss skincare brand.
+For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. OKAD's model is built around this: clients get strategic direction alongside a production team that executes at scale. For the [ZenToes Walmart launch](/cases/zentoes-walmart-launch-ads/), the team produced 60+ ad variations in weeks — a volume that would require a full-time strategist plus a 3-person production team if built in-house.
 
 ## What to Look For in a Creative Strategist
 
@@ -134,7 +134,7 @@ Hiring a creative strategist only makes sense if you have a production team to e
 
 For brands spending under $50K/month on ads, the most cost-effective path is an agency that integrates strategy with production. The strategist audits your account, writes briefs, and a production team — editors, UGC creators, AI tools — executes those briefs in the same week.
 
-This is OKAD's model. Olga Kad runs creative strategy for every client engagement. The same team that identifies the winning angle also produces the ads that test it. There is no handoff gap, no "the brief said X but the creative team made Y." The [80-ad re-edit project](/cases/ad-re-edits-five-brands/) across five brands was driven by strategic diagnosis first — which angles and hooks had unexploited potential in existing footage — followed by immediate production execution.
+This is OKAD's model. The same team that identifies the winning angle also produces the ads that test it. There is no handoff gap, no "the brief said X but the creative team made Y." For the [gut health brand story ads campaign](/cases/gut-health-brand-story-ads/), strategy and production ran in the same weekly cycle — the strategist identified which health claims resonated in comment sections, wrote the briefs on Monday, and the production team delivered finished ads by Friday.
 
 ## How to Evaluate Performance After Hiring
 
@@ -194,4 +194,4 @@ If by end of week 2 the strategist has not delivered a single actionable brief, 
 
 The creative strategist role is the highest-leverage hire in performance marketing. Get it right, and every dollar of ad spend works harder. Get it wrong, and you burn months producing creative that nobody tested properly, nobody diagnosed, and nobody learned from. Use the interview test above, watch for the red flags, and prioritize data fluency over aesthetic taste. The ads do not need to be beautiful. They need to work.
 
-For a structured look at the [creative strategy process](/blog/blog-ad-creative-strategy/) itself — from brief to scale — see our full guide. And if you want to understand how creative testing fits into the broader [DTC ad playbook](/blog/blog-creative-testing-for-dtc/), start there.
+For a structured look at [what makes a creative strategist effective](/blog/blog-good-vs-bad-creative-strategist/) — the 10 signs that separate top performers from underperformers — start there. And if you want to understand the [hook rate metric](/blog/blog-hook-rate-explained/) that every strategist candidate should know cold, see our explainer.

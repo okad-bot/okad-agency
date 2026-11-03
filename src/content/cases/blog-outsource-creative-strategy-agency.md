@@ -58,7 +58,7 @@ You hire an agency that provides creative strategy and production as a combined 
 
 For roughly the same annual cost as one in-house strategist, you get strategy, production, editing, and a testing framework — a full team, not a single hire.
 
-OKAD's model was built around this exact insight: most brands do not need a $140K creative strategist sitting in their office. They need [Olga Kad](https://www.linkedin.com/in/o-kad)'s creative strategy framework applied to their account, with a production team that can execute 10-40 concepts per cycle. The Swiss skincare brand we worked with went from sporadic creative refreshes to [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) through our Hook Swap System — a velocity no single hire could match.
+[Olga Kad](https://www.linkedin.com/in/o-kad) built [OKAD](https://okad.agency) after watching brands overpay for creative strategy by hiring one person and then discovering they also needed editors, creators, and a production manager. The agency model was born from a simple observation: strategy without production is a document nobody acts on. The [Canvas Tech UGC network](/cases/canvas-tech-ugc-without-new-shoots/) project coordinated 5,471 creators without a single new shoot — a velocity no single hire could match, and the kind of scale that only an integrated strategy-plus-production team delivers.
 
 **When this works:** You spend $10K-$100K per month on ads. You need both strategy and production. You want proven frameworks without the 6-12 month learning curve of a new hire figuring things out on your budget.
 
@@ -91,11 +91,11 @@ Not all agencies that claim to do creative strategy actually do it. Most do prod
 
 **Five evaluation criteria:**
 
-**1. Performance data in case studies.** If an agency shows you a portfolio of beautiful ads but no performance metrics, they are a production house, not a strategy partner. Ask for CTR improvements, ROAS data, or cost-per-acquisition numbers. When we present [creative testing results for a dating app](/cases/creative-testing-ai-app-meta-ads/), we show the testing framework, the variants, and the performance data — not just the finished ads.
+**1. Performance data in case studies.** If an agency shows you a portfolio of beautiful ads but no performance metrics, they are a production house, not a strategy partner. Ask for CTR improvements, ROAS data, or cost-per-acquisition numbers. When we present [high-ROAS UGC results for Skribly](/cases/high-roas-ugc-ads/), we show the testing framework, the 1,257 video variants, and the performance data — not just the finished ads.
 
 **2. Testing methodology.** Ask: "How do you decide what to test next?" A strong agency will describe a structured process — audience research, angle identification, hook variations, format testing, and iteration cycles. A weak agency will say "we try different things and see what works."
 
-**3. Creative velocity.** How many concepts can they ship per week? At OKAD, Olga Kad's team runs cycles that produce 8-15 distinct concepts with 2-3 variants each — meaning 20-40 testable ads per cycle. If an agency promises 4-6 ads per month, they cannot keep up with ad fatigue on any meaningful budget.
+**3. Creative velocity.** How many concepts can they ship per week? OKAD's production cycles deliver 20-40 testable ads per cycle — enough to stay ahead of fatigue on accounts spending $20K+/month. If an agency promises 4-6 ads per month, they cannot keep up with ad fatigue on any meaningful budget.
 
 **4. Speed to first delivery.** A good agency delivers first creative in 2-3 weeks. The onboarding at OKAD follows a specific timeline: week 1 is account audit and competitor research, week 2 is brief development and first production, week 3 the first batch goes live. Agencies that quote 4-6 weeks before any creative ships are over-processing.
 
@@ -159,7 +159,7 @@ When DateMyAge needed [24 scripts across 22 creators for 48 videos](/cases/datem
 
 **"Will an agency understand my brand as well as an internal person?"**
 
-Not on day one. But a good agency closes the gap within 2-3 weeks through structured onboarding. The misconception is that understanding a brand requires months of immersion. In practice, it requires access to performance data, customer research, and existing creative — plus a framework for turning that into briefs. Olga Kad's team at OKAD runs the same structured research process for every new client: competitive audit, top-performer analysis, audience signal mapping, and message testing hierarchy. By the end of week 2, the strategy is informed by data, not guesswork.
+Not on day one. But a good agency closes the gap within 2-3 weeks through structured onboarding. The misconception is that understanding a brand requires months of immersion. In practice, it requires access to performance data, customer research, and existing creative — plus a framework for turning that into briefs. OKAD runs the same structured research process for every new client: competitive audit, top-performer analysis, audience signal mapping, and message testing hierarchy. By the end of week 2, the strategy is informed by data, not guesswork.
 
 **"What if the agency's creative does not perform?"**
 

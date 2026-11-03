@@ -45,7 +45,7 @@ The role sits between the media buyer and the creative team. You do not buy medi
 - Running structured creative tests and interpreting results
 - Building a creative testing roadmap: what to test this week, this month, this quarter
 
-At [OKAD](/), the creative strategist role drives every client engagement. When we built a [creative testing system for an AI app](/cases/creative-testing-ai-app-meta-ads/), the strategist determined which hooks to test, which audience segments to target with which messaging, and when to kill underperformers. The media buyer executed the tests. The production team built the assets. But the strategist set the direction.
+At [OKAD](/), the creative strategist role drives every client engagement. When the team built an [organic video strategy that reached 1M+ views without ad spend](/cases/organic-video-content-1m-views/), the strategist determined which content angles resonated organically — and those insights fed directly into paid creative briefs. Understanding what people choose to watch tells you what they will stop scrolling for. The media buyer executed the tests. The production team built the assets. But the strategist set the direction.
 
 ## Three Entry Paths
 
@@ -198,7 +198,7 @@ OKAD's creative strategy framework is built on a simple loop:
 4. **Test** — Launch structured tests with isolated variables
 5. **Learn** — Analyze results, document patterns, feed insights back into step 1
 
-This loop runs continuously. For a Swiss skincare brand, this system produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using hook swaps on proven body content. For a dating app, it generated [48 videos from 24 scripts](/cases/datemyage-dating-app-scripts/) across 22 creators. The volume varies by client. The system stays the same.
+This loop runs continuously. For a dating app, this system generated [48 videos from 24 scripts](/cases/datemyage-dating-app-scripts/) across 22 creators. For another dating brand, it produced [60 videos per month](/cases/your-christian-date-broll-content/) from b-roll footage across multiple creator accounts. For an [alcohol brand](/cases/alcohol-ugc-content/), the same framework drove 900K views per post. The volume varies by client. The system stays the same.
 
 If you want to see what creative strategy produces in practice, start with our [ad creative strategy guide](/blog/blog-ad-creative-strategy/) — it covers the full lifecycle from brief to scale.
 

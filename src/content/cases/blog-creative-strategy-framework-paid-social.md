@@ -24,7 +24,7 @@ Most brands produce ads by intuition. Someone has an idea, the team builds it, t
 
 The brands that win on paid social — consistently, at scale, month after month — do not operate this way. They run a system. A framework that turns research into angles, angles into briefs, briefs into ads, and ads into data that feeds the next cycle. Every test teaches something. Every winner gets multiplied. Every loser gets autopsied for salvageable parts.
 
-This is the exact framework [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), runs for every client. The seven phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs. The result is a compounding creative engine where each cycle is smarter than the last.
+[Olga Kad](https://www.linkedin.com/in/o-kad) built this framework through trial, error, and three years of running ad accounts for her own e-commerce products before founding [OKAD](https://okad.agency). The first version was a Google Doc with five steps. It evolved into the seven-phase system below after running it across 100+ client campaigns — each iteration adding structure where the previous version left room for guesswork. The phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs.
 
 Here is how it works, phase by phase.
 
@@ -86,7 +86,7 @@ The format-angle matching matrix:
 
 For each angle from Phase 2, select 1-2 formats. A strong angle tested in two formats produces twice the learning at minimal extra cost.
 
-The [creative testing program OKAD built for an AI app](/cases/creative-testing-ai-app-meta-ads/) ran systematic format-angle combinations on Meta. Each test isolated one variable — same angle in two formats, or same format with two angles — so performance differences were attributable to a single change.
+OKAD's [static ad creatives for digital products](/cases/static-ad-creatives-digital-products/) — averaging 2-4M impressions per ad — demonstrated exactly this principle. Each campaign ran systematic format-angle combinations, isolating one variable per test: same angle in two formats, or same format with two angles. Performance differences were attributable to a single change, making every result actionable.
 
 ## Phase 4: Brief Writing
 
@@ -156,7 +156,7 @@ For a deeper breakdown of [structured creative testing for DTC brands](/blog/blo
 This is where the flywheel spins. Every test produces data. That data feeds the next cycle.
 
 **Winners get multiplied:**
-- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The OKAD team's [Hook Swap System for a Swiss skincare brand](/cases/swiss-skincare-high-volume-ads/) produced roughly 30 new ads per day using this method.
+- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The [Skribly campaign](/cases/high-roas-ugc-ads/) scaled through this exact approach — hook swaps and format remixes produced 1,257 video assets in two months, each variation testing a different opening on proven body content.
 - **Format remixes (2-3 new formats):** Same message, different structure. A winning UGC testimonial becomes a text-overlay story ad and a before/after comparison. See our guide to [getting 50 ad variations from one shoot](/blog/blog-50-ads-from-one-shoot/).
 - **Audience expansion:** Test the winner against new segments, lookalikes, and interest-based audiences.
 
