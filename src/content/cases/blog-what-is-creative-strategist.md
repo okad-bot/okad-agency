@@ -106,7 +106,9 @@ Before iOS 14, a competent media buyer could compensate for mediocre creative. P
 
 Today, Meta and TikTok's algorithms serve creative to broad audiences and let engagement signals determine distribution. The ad itself is the targeting. A strong hook shown to a broad audience outperforms a weak hook shown to a perfectly targeted niche — because the algorithm optimizes delivery toward the people who engage.
 
-This means creative quality and creative volume are now the primary performance levers. And managing creative quality at volume requires a specialist. That specialist is the creative strategist.
+This means creative quality and creative volume are now the primary performance levers. With Meta's Advantage+ and automated campaign structures, the ad account setup barely matters anymore — the algorithm handles targeting and bidding. The only lever left is what creative you feed it. Managing creative quality at volume requires a specialist. That specialist is the creative strategist.
+
+Olga Kad saw this shift firsthand. She had been running ad accounts for her own e-commerce products for years, and the transition was obvious: the brands that won were the ones producing the best hooks and the most testable variations — not the ones with the cleverest targeting setup. That realization turned OKAD from a design studio into a creative strategy agency.
 
 ## A Day in the Life
 

@@ -24,7 +24,7 @@ Every brand running paid social in 2026 has the same bottleneck. It is not media
 
 That is the creative strategist's job. And demand for people who can do it well far outstrips supply.
 
-[Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](/) as a design studio. Over time, the market pulled the agency toward performance creative — not because design stopped mattering, but because clients needed someone who could connect creative decisions to business outcomes. Today, OKAD's creative strategists come from diverse backgrounds — media buying, production, copywriting — but all operate on the same principle: data informs the brief, the brief directs production, and results inform the next brief.
+[Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](/) as a design studio, making static ad creatives. Clients ordered design, but she did everything — the visuals, the copy, the concepts. Then curiosity took over: what actually happened to those creatives once they launched? She started pulling up ad accounts, analyzing what worked, and suggesting what to make next — before "creative testing" was even a term. She had already been running ads for her own e-commerce products and posting three videos a day on her own blog, so she understood hooks, attention management, and the full funnel from first impression to checkout. When a client asked her to create UGC ads using her own face, that became the pivot. She scaled to working with other creators, landed a major agency client, and realized that the real bottleneck was never production — it was knowing what to produce and why. That intersection of design, copywriting, video editing, ad buying, and funnel understanding became OKAD's creative strategy practice.
 
 Here is how to build that skillset yourself, whether you want to join an agency, go freelance, or work in-house.
 
@@ -68,6 +68,8 @@ At [OKAD](/), the creative strategist role drives every client engagement. When 
 **What you need to build:** Performance mindset — accepting that beautiful ads sometimes fail and ugly ads sometimes scale, and learning to optimize for results rather than aesthetics.
 
 **How to transition:** This is often the hardest shift because it requires letting go of creative control. A creative director asks "is this good?" A creative strategist asks "will this beat the control?" Start by reviewing your past work through a performance lens. Which pieces drove results? Why? The answers will surprise you.
+
+This is exactly how Olga Kad made the transition. She started making static creatives for clients — pure design work. But she had also been running ads for her own e-commerce products, so she could see which of her designs actually converted and which just looked good. That dual perspective — maker and buyer — is the fastest path from design to strategy. If you are a designer who also runs your own ad spend, you already have the raw ingredients.
 
 ## Core Skills to Build
 
