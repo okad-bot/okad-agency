@@ -68,7 +68,7 @@ This matters because creative production scales on brief quality. If every brief
 
 The benchmark: a good strategist should produce enough testable concepts to outpace ad fatigue — typically 20 to 40 new ad variations per cycle. If output is consistently low, ask what is slowing them down. It is usually brief quality — they are spending time explaining instead of writing.
 
-![Supplement brand UGC ad testing — structured creative approach by a skilled strategist](/images/cases/supplement-brand-ugc-ad-testing/sm/balanced.jpg)
+![Creative brief template — a good strategist's briefs are specific enough that any editor can execute without clarifying questions](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 ## Five Signs of a Bad Creative Strategist
 
@@ -118,7 +118,7 @@ If you want to know immediately whether your creative strategist is good, run th
 
 This test works because it isolates strategic thinking from execution. A strategist who cannot read creative for performance signals — without seeing the data — does not understand what drives results.
 
-![Fragstore content production — systematic creative output from a well-run strategy program](/images/cases/fragstore-content-factory/fs/creator2.jpg)
+![Engagement analytics — a good strategist reads comments and reactions to find audience language for the next brief](/images/cases/by-okad-camera-roll-creators/comments.jpg)
 
 ## What to Do If Your Strategist Is Underperforming
 

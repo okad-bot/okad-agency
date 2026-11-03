@@ -76,7 +76,7 @@ Both roles look at the same data. The difference is what they see.
 
 The media buyer optimizes the delivery system. The creative strategist optimizes the message. Both are necessary. Neither is sufficient alone.
 
-![AI app ad creative variations — the creative strategist's output feeds the media buyer's campaigns](/images/cases/ai-app/ai-app-07.webp)
+![Performance metrics — the media buyer reads these for budget allocation, the creative strategist reads them for creative patterns](/images/cases/by-okad-camera-roll-creators/mc_list.jpg)
 
 ## When to Split the Roles
 
@@ -123,7 +123,7 @@ This is why the creative strategist's role has become the primary lever for paid
 
 OKAD saw this shift clearly on the [Canvas Tech campaign](/cases/canvas-tech-ugc-without-new-shoots/) — 5,471 creators coordinated without a single new shoot. The strategist designed the canvas template system that defined what each creator would produce: which angles, which hooks, which format structures. The buyer managed campaign budget across all 5,471 outputs, allocating spend toward the combinations that converted and cutting the rest. Broad targeting with strong, strategist-directed creative outperformed narrow interest-based audiences with generic content — consistently, across every test round.
 
-![Alcohol brand UGC content — 900K views per post through strategist-directed content and buyer-optimized delivery](/images/cases/longevity-supplement-story-ads/lg/l1a.jpg)
+![DM outreach workflow — the creative strategist designs the creator pipeline while the media buyer manages campaign delivery](/images/cases/by-okad-camera-roll-creators/dm_flow.jpg)
 
 ## The Dysfunction to Watch For
 

@@ -145,7 +145,7 @@ This coordination tax is invisible in budget spreadsheets but consumes 10-15 hou
 
 When DateMyAge needed [24 scripts across 22 creators for 48 videos — including 7 with AI voiceover](/cases/datemyage-dating-app-scripts/), the entire pipeline — strategy, scripting, creator management, production — ran through one team. No coordination tax. No scripts sitting in someone's inbox waiting for feedback. The same volume through freelancers would have required a full-time producer just to manage the workflow.
 
-![UGC creator producing content for Fragstore — agency-managed production pipeline](/images/cases/fragstore-content-factory/fs/creator1.jpg)
+![Olga Kad working from Lisbon — agency creative strategists work across time zones managing production pipelines remotely](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
 
 ## When to Switch Models
 

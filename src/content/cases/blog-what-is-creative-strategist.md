@@ -69,7 +69,7 @@ The brief is the strategist's primary output. A good creative brief is specific 
 
 The difference between strategic and unstrategic creative production is volume with purpose. A strategist at a scaled account can push 30 to 50 testable ad variations per week — not by working harder, but by writing briefs tight enough that a creator or editor can execute them without a single clarifying question. For the [Breakout Aid skincare campaign](/cases/breakout-aid-skincare-ugc-ads/), OKAD produced 15 new ads from just 6 creators with zero new shoots, because the briefs were precise enough to extract multiple concepts from existing footage.
 
-![AI app ad creative variations produced through structured creative briefs](/images/cases/ai-app/ai-app-03.webp)
+![OKAD creative brief in action — structured briefs direct every ad from concept to final cut](/images/cases/by-okad-camera-roll-creators/na_client.jpg)
 
 ### 4. Creative Testing Roadmap
 
@@ -143,7 +143,7 @@ Here is what the role looks like in practice at a performance creative agency li
 
 This cycle runs five days a week. At [OKAD's production volume](/cases/breakout-aid-skincare-ugc-ads/) — managing creative testing across multiple brands simultaneously — the rhythm is non-negotiable. Skip a day of data review and you waste budget on underperformers. Skip a day of briefing and the production pipeline stalls.
 
-![Grid of UGC ad variations from a structured creative testing pipeline](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
+![Behind the scenes of creative strategy — reviewing daily ad performance and planning next tests](/images/cases/by-okad-camera-roll-creators/kitchen.jpg)
 
 ## The Skills That Matter
 
