@@ -77,7 +77,7 @@ The agency model bundles what would otherwise require three to five separate hir
 
 When [Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](https://okad.agency), she priced creative strategy at zero — it was bundled free with production work because nobody knew to ask for it separately. Three years later, creative strategy is the most valuable line item in every retainer. The market shifted, and pricing followed. Today, OKAD's model puts the strategist who writes the brief in the same room as the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
 
-For a drawing app, this integrated model scaled to [1,257 faceless UGC videos](/cases/drawing-app-faceless-ugc/) — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. For a pet supplement brand, the same team produced [story-format ads](/cases/tipaw-dog-supplement-story-ads/) converting dog owners with 3-habit narratives — proving that the agency model works across verticals, not just high-volume e-commerce.
+For a drawing app, this integrated model scaled to [1.5M organic views through faceless UGC](/cases/drawing-app-faceless-ugc/) — zero faces on camera, starting from 100 downloads per week — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. For a pet supplement brand, the same team produced [story-format ads](/cases/tipaw-dog-supplement-story-ads/) converting dog owners with 3-habit narratives — proving that the agency model works across verticals, not just high-volume e-commerce.
 
 ![Olga Kad leading OKAD's creative strategy team — the agency model bundles strategist, production, and testing under a single retainer](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
@@ -166,7 +166,7 @@ Creative strategist compensation varies significantly by market:
 
 This geographic gap is one reason the agency model works well for US and UK brands. An agency like OKAD operates with strategists and production teams across multiple markets, passing cost savings to clients while maintaining quality standards that match or exceed what a single US-based hire would deliver.
 
-A women's health supplement brand worked with OKAD's distributed team on a [12-video hook testing framework](/cases/womens-health-supplement-ads/) — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
+A women's health supplement brand worked with OKAD's distributed team on a [12-video hook testing framework](/cases/womens-health-supplement-ads/) — 2 creators, 4 hooks each, zero reshoots needed — the strategic thinking was at the same level as a $140K US-based hire, but the total cost was a fraction of building that capability internally.
 
 ## How to Negotiate (For Strategists)
 
@@ -186,4 +186,4 @@ Whether you are hiring full-time, freelance, or evaluating agencies:
 3. **Check their relationship with data.** Ask how they decide when to kill an ad versus when to iterate on it. The answer should involve specific metrics and thresholds, not feelings.
 4. **Evaluate their production awareness.** A strategist who writes briefs that are impossible or expensive to produce is a strategist who has never worked closely with production. The best ones — like the team at OKAD — understand what editors and creators can realistically deliver because they work alongside them daily.
 
-Read more about [what makes a creative strategist effective](/blog/blog-what-is-creative-strategist/) and how to evaluate whether [hiring in-house or working with an agency](/blog/blog-in-house-vs-ugc-agency/) fits your current stage. For a full breakdown of agency pricing models, see our [UGC agency pricing guide](/blog/blog-ugc-agency-pricing/).
+If you are hiring, our guide on [how to hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) covers what to test for and the red flags to avoid. For the [outsourcing vs in-house decision](/blog/blog-outsource-creative-strategy-agency/), see our full framework. And to understand how the role differs from adjacent positions, read [creative strategist vs media buyer](/blog/blog-creative-strategist-vs-media-buyer/).

@@ -45,7 +45,7 @@ The media buyer's question is always: **"Given these ads, how do I spend this bu
 
 They do not decide what the ads should say or look like. They decide where the ads run, who sees them, and how much each impression costs.
 
-## What a Creative Strategist Actually Does
+## The Creative Strategist's Domain
 
 The creative strategist is the person who decides what ads to make and why. Their job is ensuring that every piece of creative exists for a reason — a specific hypothesis about what message, format, or angle will move a specific audience.
 
@@ -107,7 +107,7 @@ The weekly cadence that works at OKAD:
 
 This cadence means new creative ships every single week. No month-long gaps between tests. No relying on a single winning ad until it burns out. The buyer never has to wonder "what should we test next?" because the strategist has already answered that question.
 
-For [Lookalikey](/cases/lookalikey-ugc-ads/), this cadence revealed a critical insight the buyer alone would have missed: face-swap concepts outperformed standard UGC testimonials by a wide margin. The strategist identified the winning angle through competitor research and audience analysis, then briefed a series of face-swap variations. The buyer structured campaigns to test each variation against the control with isolated audiences. Neither person could have achieved that result alone — the buyer would have kept running generic UGC, and the strategist would have had no delivery infrastructure to test the hypothesis at speed.
+For [Lookalikey](/cases/lookalikey-ugc-ads/), this cadence revealed a critical insight the buyer alone would have missed: face-swap concepts outperformed standard UGC testimonials by a wide margin. Across 9 videos from 3 creators plus 4 story variations, the strategist identified the winning angle through competitor research and audience analysis, then briefed a series of face-swap variations. The buyer structured campaigns to test each variation against the control with isolated audiences. Neither person could have achieved that result alone — the buyer would have kept running generic UGC, and the strategist would have had no delivery infrastructure to test the hypothesis at speed.
 
 ## Why Creative Is Now the Primary Performance Lever
 
@@ -160,13 +160,13 @@ When both the buyer and strategist are accountable for these metrics, the blame 
 - Has a framework they can articulate, not just "I have good taste"
 - Asks about your data and current performance before suggesting changes
 
-At OKAD, Olga evaluates potential creative partners the same way: show the last five ads you launched, explain why each one exists, and walk through what the data told you. The answers reveal whether someone is a strategist or just a producer with opinions. Brands that have achieved [organic reach at scale — 1M+ views without ads](/cases/organic-video-content-1m-views/) — understand this instinctively: strategic thinking about what content to make matters more than how much you spend distributing it.
+At OKAD, Olga evaluates potential creative partners the same way: show the last five ads you launched, explain why each one exists, and walk through what the data told you. The answers reveal whether someone is a strategist or just a producer with opinions. Brands that have achieved [organic reach at scale — 1M+ views without ads](/cases/organic-video-content-1m-views/), including one account that generated 127K views from just 485 followers — understand this instinctively: strategic thinking about what content to make matters more than how much you spend distributing it.
 
 ## In-House, Freelance, or Agency
 
 How you fill these roles depends on your stage and budget:
 
-**In-house** works best when you have enough volume to keep both roles busy full-time. A full-time media buyer costs $70K-$120K annually. A full-time creative strategist costs $80K-$140K. The advantage: deep brand knowledge, fast communication, full alignment.
+**In-house** works best when you have enough volume to keep both roles busy full-time. A full-time media buyer costs $70K-$120K annually. A full-time creative strategist [costs $80K-$140K](/blog/blog-creative-strategist-salary-rates/). The advantage: deep brand knowledge, fast communication, full alignment.
 
 **Freelance** works for brands between $15K-$50K monthly spend. Hire a freelance creative strategist for 10-20 hours per week ($75-$150/hour) while your buyer manages platforms full-time. The strategist produces the testing roadmap and briefs; your in-house team or production partners execute.
 
@@ -176,12 +176,12 @@ The wrong choice: hiring a media buyer and asking them to "also handle creative.
 
 The hybrid model OKAD uses most often: the client keeps their media buyer in-house (they know the brand, the margins, the unit economics), while OKAD provides the creative strategist, the production team, and the testing infrastructure. The buyer manages the platform. Olga's team manages the creative pipeline. Both share the same dashboard and the same weekly rhythm. This setup gives brands the strategic depth of a dedicated creative function without the $200K+ annual cost of building that team internally.
 
-## The Bottom Line
+## Two Roles, One Goal
 
 A media buyer without a creative strategist will eventually run out of ideas. A creative strategist without a media buyer will produce great ads that never get properly tested. You need both — and you need them talking to each other every week.
 
 If you are under $15K per month in ad spend, one strong person can handle both. Once you cross $30K-$50K, split the roles. The investment in a dedicated creative strategist pays for itself within the first month through faster testing, better win rates, and creative that stays fresh instead of fatiguing.
 
-The brands winning on paid social in 2026 are not the ones spending the most. They are the ones with the tightest loop between creative strategy and media buying — where data flows into briefs, briefs flow into production, and production flows back into data. Every week. Without gaps.
+Ask your media buyer one question this week: "What creative do you wish you had right now?" If they can answer in specifics — "a pain-point hook for women 35-45 in a UGC testimonial format" — your buyer already thinks like a strategist and the split is overdue. If they answer in generics — "something fresh" — they need a strategist to translate their campaign data into briefs.
 
-For a deeper look at how to structure the entire creative pipeline from research to scale, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you are evaluating whether to build this in-house or work with an agency, our [in-house vs agency comparison](/blog/blog-in-house-vs-ugc-agency/) breaks down the economics at every spend level.
+If you are ready to [hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/), our hiring guide covers what to look for and the interview test that separates real strategists from aesthetic thinkers. For brands considering [outsourcing creative strategy to an agency](/blog/blog-outsource-creative-strategy-agency/), our decision framework covers cost models and evaluation criteria. And for the full creative pipeline from research to scale, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).

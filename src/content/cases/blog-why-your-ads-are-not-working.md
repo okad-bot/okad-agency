@@ -131,7 +131,7 @@ Every new creative deserves 3 days and $50-100 in spend before you judge it.
 | CTR below benchmark | Hook failure | Swap the hook, keep the body |
 | All metrics flat/zero | Dead creative | Kill it, test a new angle |
 
-OKAD applied this framework during the [gut health brand campaign](/cases/gut-health-brand-story-ads/), testing red-flag messaging hooks against benefit-first hooks. Each variant got its 3-day window before a kill-or-scale decision. The result: clear data on which emotional triggers drove clicks versus which drove conversions — data that would not exist if ads were killed after 24 hours.
+OKAD applied this framework during the [gut health brand campaign](/cases/gut-health-brand-story-ads/), testing red-flag messaging hooks against benefit-first hooks across 4 story formats — red flags, gut-brain connection, week-by-week progress, and gift stories. Each of the ~20 monthly edits got its 3-day window before a kill-or-scale decision. The result: clear data on which emotional triggers drove clicks versus which drove conversions — data that would not exist if ads were killed after 24 hours.
 
 ![AI app creative testing on Meta — structured variation testing isolates what is actually broken](/images/cases/ai-app/ai-app-05.webp)
 
@@ -151,7 +151,7 @@ This is the decision that separates experienced creative strategists from everyo
 - Multiple hook variations on the same concept all fail
 - The product or offer has fundamentally changed since the original brief
 
-For the [supplement UGC ad testing](/cases/supplement-ugc-ad-testing/) campaign, 16 creator videos generated 48 ad variations, with iteration as the primary strategy: identify winning angles from initial tests, then produce hook and format variations on those angles. Starting fresh was reserved for testing completely new audience segments where existing angles had no data.
+For the [supplement UGC ad testing](/cases/supplement-ugc-ad-testing/) campaign, 16 creator videos from 8+ creators generated 48 ad variations across 8 angles — and problem-callout hooks won by 40% over product-first hooks. Iteration was the primary strategy: identify winning angles from initial tests, then produce hook and format variations on those angles. Starting fresh was reserved for testing completely new audience segments where existing angles had no data.
 
 ## The Common Creative Mistakes
 
@@ -177,6 +177,8 @@ Every Monday, pull the last 7 days of data. Sort creatives by CPA. Ask three que
 2. **What lost, and why?** Identify which element failed in your bottom 3.
 3. **What should we test next?** The gap between winners and losers tells you exactly what variable to test.
 
-This is the [creative strategy lifecycle](/blog/blog-ad-creative-strategy/) that OKAD runs with every client: research, brief, test, diagnose, iterate. The diagnosis step is where most teams skip — and where the most valuable insights live.
+This is the [creative strategy lifecycle](/blog/blog-ad-creative-strategy/) that OKAD runs with every client: research, brief, test, diagnose, iterate. Our [creative strategy framework](/blog/blog-creative-strategy-framework-paid-social/) details the full seven-phase system, and our [creative testing methodology](/blog/blog-creative-testing-methodology/) covers how to structure tests with proper kill criteria. The diagnosis step is where most teams skip — and where the most valuable insights live.
 
-The brands that scale creative profitably are not the ones with the biggest budgets or the best designers. They are the ones that diagnose fast, fix precisely, and never rebuild what is already working.
+Open your ad account right now. Sort by CPA, worst first. Pick the top underperformer and walk it through the five levels above. The diagnosis will take five minutes. The fix — whether it is a hook swap, a landing page change, or a full angle reset — will save you more budget this week than any new campaign launch.
+
+If the diagnosis reveals that your creative program needs a structural reset, evaluate whether your [creative strategist is actually effective](/blog/blog-good-vs-bad-creative-strategist/) or whether it is time to [outsource creative strategy to an agency](/blog/blog-outsource-creative-strategy-agency/).

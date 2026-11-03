@@ -22,11 +22,11 @@ faqs:
 
 There is a specific hire that separates brands scaling on paid social from brands stuck at the same spend level for months. It is not a media buyer. It is not a designer. It is a creative strategist.
 
-The role barely existed five years ago. Now it is one of the most in-demand positions in performance marketing — and one of the hardest to hire well. The title is new enough that most candidates do not actually know what the job requires. And most brands hiring for the role do not know what to test for.
+The role barely existed five years ago. Now it is one of the most in-demand positions in performance marketing — and one of the hardest to hire well. If you are still unclear on [what a creative strategist actually does](/blog/blog-what-is-creative-strategist/), start there first. The title is new enough that most candidates do not actually know what the job requires. And most brands hiring for the role do not know what to test for.
 
 This guide covers when to hire, what to look for, the red flags that predict failure, and a simple interview test that separates real strategists from people with the wrong skill set.
 
-## When You Need a Creative Strategist
+## Three Signals It Is Time to Hire
 
 Not every brand needs one. If you are spending $5K/month on Meta ads and running 3 creatives, you do not need a dedicated strategist. You need a better agency or a course on creative testing.
 
@@ -42,7 +42,7 @@ When [Olga Kad](https://www.linkedin.com/in/o-kad) interviews strategist candida
 
 ![Olga Kad — creative strategist and founder of OKAD agency](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
-## What a Creative Strategist Actually Does
+## The Role You Are Hiring For
 
 The role sits between the media buyer and the creative team. The strategist does not buy media. They do not design ads. They own the hypothesis layer:
 
@@ -54,7 +54,7 @@ The role sits between the media buyer and the creative team. The strategist does
 
 A strong strategist at a scaled account ships dozens of testable variations per week. That volume is only possible with a structured brief-to-test pipeline — where every brief has a hypothesis, a format, and a kill criterion before production starts.
 
-This is the model behind every OKAD engagement. When we ran the [Tipaw dog supplement campaign](/cases/tipaw-dog-supplement-story-ads/), the strategist defined which story angles to test — owner testimonials versus vet-backed claims versus daily routine narratives — before any creator received a brief. The designer did not pick the angle. The media buyer did not pick the angle. The strategist did, based on competitor research and audience comment analysis.
+This is the model behind every OKAD engagement. When we ran the [Tipaw dog supplement campaign](/cases/tipaw-dog-supplement-story-ads/), the strategist defined which story angles to test — owner testimonials versus vet-backed claims versus daily routine narratives — before any creator received a brief. The resulting 60+ second story ads connected dog habits like grass-rolling and paw-licking to gut health, with zero new shoots required. The designer did not pick the angle. The media buyer did not pick the angle. The strategist did, based on competitor research and audience comment analysis.
 
 ## In-House vs Freelance vs Agency
 
@@ -124,7 +124,7 @@ Ask them to explain:
 
 **What bad looks like:** Vague observations about "quality" or "production value." No mention of specific elements. Next steps that sound like brainstorming, not structured experiments.
 
-This test is modeled on how OKAD evaluates creative performance for clients. When we built the [script testing system for DateMyAge](/cases/datemyage-dating-app-scripts/), the process started exactly this way: audit the existing 24 scripts, identify which hooks and narrative structures drove results, then write 48 new videos based on what the data showed — not on creative intuition.
+This test is modeled on how OKAD evaluates creative performance for clients. When we built the [script testing system for DateMyAge](/cases/datemyage-dating-app-scripts/), the process started exactly this way: audit the existing 24 scripts across 22 creators, identify which hooks and narrative structures drove results, then produce 48 videos — including 7 with AI voiceover — based on what the data showed. Not creative intuition.
 
 ![Lookalikey UGC ad variations — output from a creative strategist's testing program](/images/cases/lookalikey-ugc-ads/img-03.jpg)
 
@@ -134,7 +134,7 @@ Hiring a creative strategist only makes sense if you have a production team to e
 
 For brands spending under $50K/month on ads, the most cost-effective path is an agency that integrates strategy with production. The strategist audits your account, writes briefs, and a production team — editors, UGC creators, AI tools — executes those briefs in the same week.
 
-This is OKAD's model. The same team that identifies the winning angle also produces the ads that test it. There is no handoff gap, no "the brief said X but the creative team made Y." For the [gut health brand story ads campaign](/cases/gut-health-brand-story-ads/), strategy and production ran in the same weekly cycle — the strategist identified which health claims resonated in comment sections, wrote the briefs on Monday, and the production team delivered finished ads by Friday.
+This is OKAD's model. The same team that identifies the winning angle also produces the ads that test it. There is no handoff gap, no "the brief said X but the creative team made Y." For the [gut health brand story ads campaign](/cases/gut-health-brand-story-ads/), strategy and production ran in the same weekly cycle — the strategist identified which health claims resonated in comment sections, wrote the briefs on Monday, and the production team delivered ~20 finished edits per month across 4 story formats — all from existing creator footage, zero new shoots.
 
 ## How to Evaluate Performance After Hiring
 
@@ -188,7 +188,7 @@ If by end of week 2 the strategist has not delivered a single actionable brief, 
 
 **"How quickly should a new strategist produce results?"** Expect the first 2-4 weeks to be audit and ramp-up. First testable briefs by week 3-4. First performance data by week 6-8. If nothing has changed by week 12, the hire is not working.
 
-**"What if I cannot afford a full-time hire?"** Start with a freelancer at 10-20 hours per month, or work with an [agency that includes strategy](/blog/blog-how-to-choose-ugc-agency/). You can always scale to in-house later once you have proven the role's value. Our guide to [in-house vs agency](/blog/blog-in-house-vs-ugc-agency/) breaks down when each model makes financial sense.
+**"What if I cannot afford a full-time hire?"** Start with a freelancer at 10-20 hours per month, or work with an [agency that includes strategy](/blog/blog-how-to-choose-ugc-agency/). Our [creative strategist salary and rates guide](/blog/blog-creative-strategist-salary-rates/) breaks down the full cost comparison. You can also [outsource creative strategy to an agency](/blog/blog-outsource-creative-strategy-agency/) — our decision framework covers when each model makes financial sense.
 
 **"What tools should the strategist use?"** At minimum: the native ad platform dashboards (Meta Ads Manager, TikTok Ads Manager), a creative analytics tool (Motion, Foreplay, or Triple Whale), and a brief/project management tool (Notion, Google Docs, or whatever your team uses). The tool matters less than the process.
 

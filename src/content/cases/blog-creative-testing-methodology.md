@@ -54,13 +54,13 @@ A good angle test looks like this: 3-5 ads with identical formats, similar hooks
 
 Format means the structural type of the ad: UGC talking head, product demo, story-driven narrative, before-and-after, listicle, screen recording, or faceless voiceover.
 
-For a [dating app campaign](/cases/datemyage-dating-app-scripts/), OKAD tested 24 different scripts across multiple formats — talking head testimonials, story hooks, and direct product demos. The format that won was not the one the client expected. It rarely is. For a [pet supplement brand](/cases/tipaw-dog-supplement-story-ads/), story-format ads tested against product demos revealed that narrative hooks outperformed feature lists for pet supplement buyers — the same message performed differently depending on whether it was delivered as an owner's story or a product walkthrough.
+For a [dating app campaign](/cases/datemyage-dating-app-scripts/), OKAD tested 24 scripts across 22 creators in multiple formats — talking head testimonials, story hooks, and direct product demos — producing 48 videos total, including 7 with AI voiceover. The format that won was not the one the client expected. It rarely is. For a [pet supplement brand](/cases/tipaw-dog-supplement-story-ads/), story-format ads tested against product demos revealed that narrative hooks outperformed feature lists for pet supplement buyers — the same message performed differently depending on whether it was delivered as an owner's story or a product walkthrough.
 
 ### 3. Hook (High Impact)
 
 The hook — the first 1-3 seconds — determines whether anyone sees the rest of your ad. But only test hooks after you have found a winning angle and format. A hook test without a proven body underneath it is optimizing the front door of an empty building.
 
-OKAD's testing methodology follows a strict variable isolation approach. When the team tested hook variations for a [skincare brand](/cases/breakout-aid-skincare-ugc-ads/), 6 creators produced 15 new ads without new shoots — each ad tested a single hook variation against a proven body. The body and CTA stayed identical; only the first 3 seconds changed. Clean data on what works, no confounding variables.
+OKAD's testing methodology follows a strict variable isolation approach. When the team tested hook variations for a [skincare brand](/cases/breakout-aid-skincare-ugc-ads/), 6 creators produced 15 new ads across 5 formats without new shoots — each ad tested a single hook variation against a proven body. The body and CTA stayed identical; only the first 3 seconds changed. Clean data on what works, no confounding variables.
 
 Test 3-5 hooks per winning body. That is enough for a clear signal without fragmenting budget.
 
@@ -140,7 +140,7 @@ Your testing volume should match your ad spend. Test too little and you cannot l
 | $50K-$150K | 10-20 | 3-5 | 30-60 |
 | $150K+ | 20+ | 5+ | 60+ |
 
-At every level, the principle stays the same: isolated variables, sufficient budget per variant, and documented learnings. The [Skribly campaign](/cases/high-roas-ugc-ads/) operated at the higher end — 1,257 video assets in two months through systematic hook and format iteration. That volume was only possible because modular production kept the marginal cost of each new variant near zero. Read our guide on [getting 50 ad variations from one shoot](/blog/blog-50-ads-from-one-shoot/) for the production side of this equation.
+At every level, the principle stays the same: isolated variables, sufficient budget per variant, and documented learnings. The [Skribly campaign](/cases/high-roas-ugc-ads/) operated at the higher end — 1,257 video assets in two months through systematic hook and format iteration, hitting 8%+ view-to-25-second retention (versus the 3-5% industry average) and 1.5M total views. That volume was only possible because modular production kept the marginal cost of each new variant near zero. Read our guide on [getting 50 ad variations from one shoot](/blog/blog-50-ads-from-one-shoot/) for the production side of this equation.
 
 ## Kill Criteria: When to Stop Spending
 
@@ -189,7 +189,7 @@ That system has four components:
 
 **Scaling too fast after a win.** A creative that works at $100/day may not work at $1,000/day. Scale in 20-30% increments every 3 days, monitoring CPA at each step.
 
-## The Bottom Line
+## Discipline Over Intuition
 
 Creative testing is not complicated. It is disciplined. Isolate one variable, set a control, spend enough per variant, wait long enough for data, and document what you learn. Repeat.
 
@@ -197,4 +197,4 @@ The brands that compound creative knowledge — testing systematically over mont
 
 If your current approach to creative is "make ads, launch them, see what happens" — start with one structured test this week. One variable, one control, $50 per variant, 5 days. The first test teaches you more than a dozen unstructured launches.
 
-For the production methodology behind high-volume testing, see our guide on [how many ad variations you actually need](/blog/blog-ad-creative-testing-how-many-variations/). For the AI-accelerated version, read how OKAD uses [AI creative testing](/blog/blog-ai-creative-testing/) to multiply output without multiplying cost.
+If you want to understand the broader system this methodology lives inside, our [creative strategy framework for paid social](/blog/blog-creative-strategy-framework-paid-social/) covers all seven phases from research to iteration. If your ads are already underperforming, start with the [diagnostic guide](/blog/blog-why-your-ads-are-not-working/) to identify what is broken before you test. For the role that owns this process, read [what a creative strategist does](/blog/blog-what-is-creative-strategist/) — or if you want to become one, our [career guide](/blog/blog-how-to-become-creative-strategist/) covers the path.

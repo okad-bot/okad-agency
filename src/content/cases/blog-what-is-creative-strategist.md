@@ -92,7 +92,7 @@ Our guide to [creative testing for DTC brands](/blog/blog-creative-testing-for-d
 
 ## Creative Strategist vs. Everyone Else
 
-The role is often confused with three adjacent positions. Here is how they differ:
+The role is often confused with three adjacent positions. For a deep dive into the most common confusion, see our breakdown of [creative strategist vs media buyer](/blog/blog-creative-strategist-vs-media-buyer/). Here is how they differ:
 
 | | Creative Strategist | Creative Director | Media Buyer |
 |---|---|---|---|
@@ -183,6 +183,6 @@ A creative strategist is the person who turns ad performance data into creative 
 
 The brands scaling on Meta and TikTok in 2026 have one thing in common: someone is looking at the data every morning and writing briefs by noon. Whether that someone is an in-house hire, a freelancer, or an agency team like OKAD, the function exists. The brands that skip it are the ones stuck wondering why new creative never seems to work.
 
-If you are evaluating whether to hire a creative strategist or work with an agency that includes strategy in its workflow, start by answering one question: can you explain, right now, why your best-performing ad works? If the answer is "it just does" — you need a strategist.
+If you are evaluating whether to [hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) or work with an agency that includes strategy in its workflow, start by answering one question: can you explain, right now, why your best-performing ad works? If the answer is "it just does" — you need a strategist. Not sure if yours is any good? Our guide to the [10 signs of a good vs bad creative strategist](/blog/blog-good-vs-bad-creative-strategist/) has a 15-minute audit test.
 
-For a deeper look at the strategic framework behind high-performing ad creative, read our [complete ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you want to see creative strategy applied to real campaigns, explore how OKAD produced [high-ROAS UGC ads at scale](/cases/high-roas-ugc-ads/) — from brief to production to performance review in a single integrated pipeline.
+For a deeper look at the strategic framework behind high-performing ad creative, read our [complete ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you want to see creative strategy applied to real campaigns, explore how OKAD produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) — 1,257 video assets with 8%+ retention rates and 1.5M views, built through the same brief-to-test pipeline described above.

@@ -156,7 +156,7 @@ For a deeper breakdown of [structured creative testing for DTC brands](/blog/blo
 This is where the flywheel spins. Every test produces data. That data feeds the next cycle.
 
 **Winners get multiplied:**
-- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The [Skribly campaign](/cases/high-roas-ugc-ads/) scaled through this exact approach — hook swaps and format remixes produced 1,257 video assets in two months, each variation testing a different opening on proven body content.
+- **Hook swaps (3-5 new hooks):** Keep the proven body and CTA. Replace only the opening. Each swap creates a functionally new ad for the algorithm. The [Skribly campaign](/cases/high-roas-ugc-ads/) scaled through this exact approach — hook swaps and format remixes produced 1,257 video assets in two months — achieving 8%+ retention rates versus the 3-5% industry average — each variation testing a different opening on proven body content.
 - **Format remixes (2-3 new formats):** Same message, different structure. A winning UGC testimonial becomes a text-overlay story ad and a before/after comparison. See our guide to [getting 50 ad variations from one shoot](/blog/blog-50-ads-from-one-shoot/).
 - **Audience expansion:** Test the winner against new segments, lookalikes, and interest-based audiences.
 
@@ -194,16 +194,16 @@ This cadence works for a single brand. Olga Kad and the OKAD team run this cycle
 
 **Changing too many variables.** An ad with a new hook, new body, new format, and new audience teaches you nothing about any individual element. Isolate variables or accept that your test results are unreadable.
 
-**Killing ads too early.** $20 of spend is not a test. It is noise. Wait for $50-$100 per variant before making decisions.
+**Killing ads too early.** $20 of spend is not a test. It is noise. Wait for $50-$100 per variant before making decisions. Our [creative testing methodology guide](/blog/blog-creative-testing-methodology/) covers kill criteria and budget thresholds in detail.
 
 **Skipping the iteration phase.** Most brands launch, judge, and move on to entirely new concepts. The highest-performing creative programs spend more time iterating on winners than producing new concepts from scratch.
 
 **Confusing creative strategy with creative direction.** A creative strategist decides what to test and why. A creative director decides how it should look and feel. These are complementary but distinct roles — hiring one when you need the other is one of the most expensive mistakes in performance marketing. Read our breakdown of [what a creative strategist actually does](/blog/blog-what-is-creative-strategist/) for the full distinction.
 
-## The Bottom Line
+## The System Beats the Single Ad
 
 Winning ads are not lightning strikes. They are the output of a system that turns research into hypotheses, hypotheses into ads, ads into data, and data into better hypotheses. The framework is seven phases, and it repeats on a 2-week cycle.
 
-The brands that scale — from $5K/month to $200K/month and beyond — are not the ones with the best single ad. They are the ones with the best system for producing the next winning ad, and the one after that, and the one after that.
+Print this framework. Pin it to your wall. Run one full cycle — research through iteration — in the next two weeks. After that first cycle, you will have more actionable creative data than most brands generate in a quarter of random launches.
 
-If you want to see this framework applied to specific categories, start with our [ad creative strategy guide](/blog/blog-ad-creative-strategy/) for the full lifecycle, or explore how [modular creative production](/blog/blog-modular-creative-production/) multiplies output at each cycle.
+If your ads are underperforming and you want to diagnose what is broken before applying this framework, start with our [ad diagnostic guide](/blog/blog-why-your-ads-are-not-working/). For the career path into creative strategy, see [how to become a creative strategist](/blog/blog-how-to-become-creative-strategist/). And for the full creative lifecycle from brief to scale, read our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).
