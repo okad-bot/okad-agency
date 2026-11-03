@@ -26,6 +26,8 @@ The problem: compensation varies wildly. A "creative strategist" job title cover
 
 Here is the full breakdown by experience level, engagement model, and what drives the differences.
 
+![Olga Kad working from Lisbon — creative strategy as a location-independent career](/images/cases/by-okad-camera-roll-creators/venice.jpg)
+
 ## Full-Time Salary Ranges (US Market, 2026)
 
 | Level | Experience | Salary Range | Typical Employer |
@@ -77,6 +79,8 @@ At [OKAD](https://okad.agency), [Olga Kad](https://www.linkedin.com/in/o-kad) �
 
 For a Swiss skincare brand, this integrated model produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using a Hook Swap System — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. Across [five brands](/cases/ad-re-edits-five-brands/), the same team delivered 80 fresh ads from archived footage with zero new shoots.
 
+![Olga Kad leading OKAD's creative strategy team — the agency model bundles strategist, production, and testing under a single retainer](/images/cases/by-okad-camera-roll-creators/profile.jpg)
+
 ## Full-Time vs Freelance vs Agency: The Real Cost Comparison
 
 | Factor | Full-Time Hire | Freelance | Agency (e.g. OKAD) |
@@ -101,9 +105,13 @@ The "total cost with production" row is where the real difference shows. A full-
 | $100K-$300K | Agency + in-house strategist | Internal strategist for speed, agency for volume |
 | $300K+ | Full in-house team + agency overflow | Internal team handles core, agency handles scale |
 
+![Ad creative variants from OKAD's production pipeline — agency retainers deliver strategy plus production capacity that a single hire cannot match](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
+
 The $30K-$100K range is where most growing DTC brands land, and it is where the agency model is strongest. You need 10-20 new ad variations per week to keep campaigns fresh, but the budget does not support a $150K strategist, a $60K editor, and a $40K UGC coordinator. An agency like OKAD delivers all three functions for $8K-$15K/month.
 
 When [ZenToes prepared for their Walmart launch](/cases/zentoes-walmart-launch-ads/), they needed 60+ ad variations fast. Building an internal team for a single launch would have been absurd. The agency model delivered the volume in weeks.
+
+![Drawing app faceless UGC results — creative testing at scale drives measurable performance](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
 
 ## What Drives a Creative Strategist's Value
 
@@ -153,6 +161,8 @@ Creative strategist compensation varies significantly by market:
 | UK (outside London) | £28K-£40K | £55K-£80K | £40-£60/hr |
 | Western Europe | €35K-€50K | €65K-€95K | €50-€80/hr |
 | Eastern Europe / LATAM | $20K-$35K | $40K-$70K | $30-$60/hr |
+
+![Instagram content reel with 81.8K views — creative strategists who build personal brands command premium rates through demonstrated expertise](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
 
 This geographic gap is one reason the agency model works well for US and UK brands. An agency like OKAD operates with strategists and production teams across multiple markets, passing cost savings to clients while maintaining quality standards that match or exceed what a single US-based hire would deliver.
 

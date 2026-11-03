@@ -26,6 +26,8 @@ The problem is that the role is poorly defined across the industry. Some compani
 
 Here are 10 signs that separate the two. Five that signal a strategist who is driving results, and five that signal one who is costing you money.
 
+![Creative strategist Olga Kad evaluating ad performance](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
+
 ## Five Signs of a Good Creative Strategist
 
 ### 1. Every Brief Traces Back to Data
@@ -65,6 +67,8 @@ A brief from a good strategist is a complete instruction set. It includes the ta
 This matters because creative production scales on brief quality. If every brief requires a 30-minute call to explain what the strategist actually wants, your production pipeline bottlenecks at one person. At OKAD, briefs follow a standardized template that has been refined over hundreds of campaigns. When the team produced [80 ads from old footage across five brands](/cases/ad-re-edits-five-brands/), every re-edit was driven by a brief that the editor could pick up and execute independently.
 
 The benchmark: a good strategist produces 8-15 distinct concepts per week, each with 2-3 variations. If your strategist produces fewer than 5, ask what is slowing them down. It is usually brief quality — they are spending time explaining instead of writing.
+
+![Supplement brand UGC ad testing — structured creative approach by a skilled strategist](/images/cases/supplement-brand-ugc-ad-testing/sm/balanced.jpg)
 
 ## Five Signs of a Bad Creative Strategist
 
@@ -113,6 +117,8 @@ If you want to know immediately whether your creative strategist is good, run th
 **What a bad strategist does:** They rank based on production quality, subjective appeal, or gut feeling. Their explanations sound like "this one feels more professional" or "the edit is cleaner on this one." They confuse looking good with performing well.
 
 This test works because it isolates strategic thinking from execution. A strategist who cannot read creative for performance signals — without seeing the data — does not understand what drives results.
+
+![Fragstore content production — systematic creative output from a well-run strategy program](/images/cases/fragstore-content-factory/fs/creator2.jpg)
 
 ## What to Do If Your Strategist Is Underperforming
 

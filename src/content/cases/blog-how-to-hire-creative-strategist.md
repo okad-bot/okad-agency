@@ -40,6 +40,8 @@ Signal three is the critical one. If you can diagnose why ads work, you can buil
 
 When OKAD onboards a new client, [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist at [OKAD](https://okad.agency) — never starts with "what should we create." It is "show me your ad account." The audit — what is running, what is winning, what has been tested — takes priority over any creative discussion. That diagnostic instinct is exactly what a creative strategist brings.
 
+![Olga Kad — creative strategist and founder of OKAD agency](/images/cases/by-okad-camera-roll-creators/profile.jpg)
+
 ## What a Creative Strategist Actually Does
 
 The role sits between the media buyer and the creative team. The strategist does not buy media. They do not design ads. They own the hypothesis layer:
@@ -63,6 +65,8 @@ This is the model behind every OKAD engagement. When we built the [creative test
 | Pros | Full-time focus, deep brand knowledge | Flexible, pay-as-you-go | Strategy + production in one team |
 | Cons | Expensive, hard to recruit | Variable availability, no production | Less brand immersion |
 | Ramp time | 2-4 weeks | 1-2 weeks | 1-2 weeks |
+
+![UGC creator face-to-camera testimonial — the format creative strategists brief most often for supplement and skincare brands](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. OKAD's model is built around this: clients get Olga Kad's strategic direction alongside a production team that executes 30+ ad variations per month, like the [Hook Swap System](/cases/swiss-skincare-high-volume-ads/) that produced roughly 30 ads per day for a Swiss skincare brand.
 
@@ -99,6 +103,8 @@ For most brands spending $10K-$50K/month, the agency model delivers the most val
 
 **Only shows final ads, never the process.** A real strategist walks you through the hypothesis, the brief, the test, and the result. If the portfolio is just a highlight reel of pretty ads, you are looking at a creative director's portfolio mislabeled as strategy.
 
+![Real ad creative variations showing structured testing approach — what to look for in a strategist's portfolio](/images/cases/ad-re-edits-five-brands/ad/b1.jpg)
+
 ## The Interview Test That Actually Works
 
 Give the candidate three things from your ad account:
@@ -114,9 +120,13 @@ Ask them to explain:
 
 **What good looks like:** They identify specific hooks, audience angles, and format choices that explain the data. They notice patterns ("all three winners use problem-solution hooks under 3 seconds; all three losers lead with the brand name"). They propose concrete next tests: "I would test the winning hook format against a new pain point angle targeting X audience."
 
+![Grid of UGC creator trial reels — evaluating creative talent at scale requires structured audition processes](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+
 **What bad looks like:** Vague observations about "quality" or "production value." No mention of specific elements. Next steps that sound like brainstorming, not structured experiments.
 
 This test is modeled on how OKAD evaluates creative performance for clients. When we built the [script testing system for DateMyAge](/cases/datemyage-dating-app-scripts/), the process started exactly this way: audit the existing 24 scripts, identify which hooks and narrative structures drove results, then write 48 new videos based on what the data showed — not on creative intuition.
+
+![Lookalikey UGC ad variations — output from a creative strategist's testing program](/images/cases/lookalikey-ugc-ads/img-03.jpg)
 
 ## The Alternative: Strategy Built Into Your Agency
 

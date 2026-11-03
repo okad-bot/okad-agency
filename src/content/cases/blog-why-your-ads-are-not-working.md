@@ -66,6 +66,8 @@ Keep the body and CTA intact. They have not been tested yet because nobody is ge
 
 Do not increase budget on a fatigued ad. More spend accelerates the decline by showing the same creative to even more of the same audience even faster.
 
+![Ad re-edit for a brand campaign — refreshing creative with new hooks extends ad lifespan](/images/cases/ad-re-edits-five-brands/ad/r1.jpg)
+
 ### Level 5: Everything Declines at Once
 
 **What you see:** Every creative in the account is declining simultaneously. New ads launch and flatline immediately. Nothing works.
@@ -89,6 +91,8 @@ The hook is the single biggest performance variable. OKAD's diagnostic process s
 - Starting with the product instead of the problem
 - No tension, curiosity, or pattern interrupt in the first frame
 - Text overlays too small to read on mobile
+
+![UGC creator ad for supplement brand — testing different creator faces is one way to diagnose weak hook performance](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 ### Body Problems
 
@@ -128,6 +132,8 @@ Every new creative deserves 3 days and $50-100 in spend before you judge it.
 | All metrics flat/zero | Dead creative | Kill it, test a new angle |
 
 OKAD applied this framework when testing [68 ad variations](/cases/longevity-supplement-story-ads/) for a longevity supplement brand. Each variation got its 3-day window. The result: a EUR 183 CPA with clear data on which angles, hooks, and formats performed — data that would not exist if ads were killed after 24 hours.
+
+![AI app creative testing on Meta — structured variation testing isolates what is actually broken](/images/cases/ai-app/ai-app-05.webp)
 
 ## When to Iterate vs When to Start Fresh
 

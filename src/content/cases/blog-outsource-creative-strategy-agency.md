@@ -83,6 +83,8 @@ You keep an in-house marketing manager or media buyer who handles day-to-day cam
 
 The most common mistake: hiring an in-house creative strategist at $120K when you spend $30K/month on ads. That strategist still needs a production team. At that spend level, an agency delivers more creative volume for less money — and starts producing faster.
 
+![Performance metrics dashboard — outsourced creative strategy delivers measurable results from day one](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
+
 ## What to Look for in a Creative Strategy Agency
 
 Not all agencies that claim to do creative strategy actually do it. Most do production: they make ads. A creative strategy agency does something different — they decide which ads to make, based on data and testing methodology.
@@ -98,6 +100,8 @@ Not all agencies that claim to do creative strategy actually do it. Most do prod
 **4. Speed to first delivery.** A good agency delivers first creative in 2-3 weeks. The onboarding at OKAD follows a specific timeline: week 1 is account audit and competitor research, week 2 is brief development and first production, week 3 the first batch goes live. Agencies that quote 4-6 weeks before any creative ships are over-processing.
 
 **5. Process transparency.** You should see the briefs before production starts. You should understand why each concept is being tested. You should receive performance reports that explain what worked, what did not, and what changes next. If the agency treats their process as a black box, you are paying for faith, not strategy.
+
+![Canvas brief template — agencies like OKAD use structured briefs to scale creative production](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 ## Red Flags When Hiring an Agency
 
@@ -140,6 +144,8 @@ With separate freelancers, you are responsible for:
 This coordination tax is invisible in budget spreadsheets but consumes 10-15 hours per week of someone's time. At a marketing manager's loaded cost, that is $30K-$50K per year in hidden expense — which often closes the gap between the freelance model and an agency that handles coordination internally.
 
 When DateMyAge needed [24 scripts across 22 creators for 48 videos](/cases/datemyage-dating-app-scripts/), the entire pipeline — strategy, scripting, creator management, production — ran through one team. No coordination tax. No scripts sitting in someone's inbox waiting for feedback. The same volume through freelancers would have required a full-time producer just to manage the workflow.
+
+![UGC creator producing content for Fragstore — agency-managed production pipeline](/images/cases/fragstore-content-factory/fs/creator1.jpg)
 
 ## When to Switch Models
 

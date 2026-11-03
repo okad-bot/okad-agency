@@ -32,6 +32,8 @@ The role sits between two worlds. On one side, performance data — CTR, hold ra
 
 At OKAD, [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), reviews performance data daily with the team across every client account. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this month. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
 
+![Olga Kad reviewing creative strategy and ad performance data](/images/cases/by-okad-camera-roll-creators/reading.jpg)
+
 This is what separates a creative strategist from everyone else on the team: they own the feedback loop between data and production.
 
 ## The Five Core Responsibilities
@@ -53,6 +55,8 @@ Every morning starts with data. Which ads won yesterday? Which ones died? The st
 
 For a Swiss skincare brand, OKAD's strategy team built a [Hook Swap System](/cases/swiss-skincare-high-volume-ads/) based on exactly this diagnostic approach — identifying which hooks drove hold rate and which drove CTR, then systematically replacing weak openings while keeping proven body content intact. The result: roughly 30 new ads per day from a single UGC library.
 
+![Ad performance metrics dashboard — creative strategists diagnose failure modes by reading CTR, hook rate, and CPA patterns daily](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
+
 ### 3. Brief Writing
 
 The brief is the strategist's primary output. A good creative brief is specific enough to execute and flexible enough to allow creative interpretation. It includes:
@@ -64,6 +68,8 @@ The brief is the strategist's primary output. A good creative brief is specific 
 - **Reference creative** — examples of what "good" looks like for this concept
 
 At scaled accounts, a creative strategist produces 8 to 15 distinct concepts per week, each with 2 to 3 variants. That is 20 to 45 pieces of creative direction flowing to the production team every week. Without a strategist, most teams produce 3 to 5 concepts and hope for the best.
+
+![AI app ad creative variations produced through structured creative briefs](/images/cases/ai-app/ai-app-03.webp)
 
 ### 4. Creative Testing Roadmap
 
@@ -95,6 +101,8 @@ The role is often confused with three adjacent positions. Here is how they diffe
 | **Measures success by** | Test win rate, CPA improvement | Brand consistency, visual quality | ROAS, CPC, CPM efficiency |
 | **Owns** | The creative hypothesis | The creative execution | The media plan |
 | **Works with** | Editors, creators, AI tools, media buyers | Designers, photographers, animators | Creative strategists, analytics |
+
+![Canvas creative brief template used by OKAD to direct UGC creators and editors across multiple campaigns](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
 
 In small teams, one person often wears two or three of these hats. That works up to about $30,000 per month in ad spend. Beyond that, the creative workload alone — research, analysis, briefing, review, iteration — demands dedicated attention. The brands that scale past $100K per month almost always have a dedicated creative strategist, whether in-house or through an agency.
 
@@ -134,6 +142,8 @@ Here is what the role looks like in practice at a performance creative agency li
 - Flag strategic observations for the client or team: "Story-format hooks are outperforming product demos 3:1 this week — shifting next week's briefs accordingly"
 
 This cycle runs five days a week. At [OKAD's production volume](/cases/creative-testing-ai-app-meta-ads/) — managing creative testing across multiple brands simultaneously — the rhythm is non-negotiable. Skip a day of data review and you waste budget on underperformers. Skip a day of briefing and the production pipeline stalls.
+
+![Grid of UGC ad variations from a structured creative testing pipeline](/images/cases/drawing-app-faceless-ugc/grid01.jpg)
 
 ## The Skills That Matter
 

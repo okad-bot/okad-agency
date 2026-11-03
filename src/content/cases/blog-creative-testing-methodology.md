@@ -64,6 +64,8 @@ OKAD's testing methodology, developed by Olga Kad over hundreds of campaigns, fo
 
 Test 3-5 hooks per winning body. That is enough for a clear signal without fragmenting budget.
 
+![Ad testing variations for supplement brand — testing different visual approaches against the same product](/images/cases/supplement-brand-ugc-ad-testing/sm/balanced.jpg)
+
 ### 4. Body Structure (Medium Impact)
 
 Once you have a winning angle, format, and hook, test body structures: problem-solution flow, testimonial narrative, product demo walkthrough, before-and-after reveal, or feature-benefit breakdown.
@@ -95,6 +97,8 @@ The standard campaign setup:
 | Audience | Identical across all ad sets |
 | Placement | Automatic (let Meta optimize) |
 
+![AI app creative testing — each variation isolates one variable for clean test results](/images/cases/ai-app/ai-app-01.webp)
+
 ## Reading Results: The Diagnostic Framework
 
 Performance metrics tell you which element is failing — if you know how to read them.
@@ -122,6 +126,8 @@ Testing is not a one-time event. It is a loop:
 Each cycle compounds your knowledge. After 4-6 cycles, you have a library of proven angles, hooks, formats, and CTAs that you can recombine. This is how [ZenToes produced 60+ variations](/cases/zentoes-walmart-launch-ads/) for their Walmart launch — not by creating 60 random ads, but by iterating through a structured testing process that identified winning elements and recombined them.
 
 The testing cadence at OKAD: new concepts launch Monday, data review Wednesday, kills and iterations Friday. Two-week cycles mean no creative runs longer than 14 days without a performance check.
+
+![Ad re-edit creative variation — scaling winners through systematic iteration of proven concepts](/images/cases/ad-re-edits-five-brands/ad/m1.jpg)
 
 ## Volume Benchmarks by Spend Level
 
@@ -154,6 +160,8 @@ Decide your kill criteria before launching. Not after. Emotional decisions durin
 - An ad that has been live for less than 24 hours
 - A variant with fewer than 500 impressions
 - A creative during a platform-wide performance dip (check multiple campaigns first)
+
+![Longevity supplement story ad — 68 ads tested to reach EUR 183 CPA through disciplined kill criteria](/images/cases/longevity-supplement-story-ads/lg/m1.jpg)
 
 ## Building a Creative Testing System
 

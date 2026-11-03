@@ -40,6 +40,8 @@ Everything starts with research. Not a quick scroll through the competitor's Ins
 
 The research phase typically takes 2-3 days for a new client and 1 day for ongoing cycles. It is the most skipped phase — and skipping it is why most creative programs produce expensive guesses instead of informed hypotheses.
 
+![Olga Kad analyzing competitor ads and audience research data](/images/cases/by-okad-camera-roll-creators/mc_metrics.jpg)
+
 ## Phase 2: Angle Mapping
 
 An angle is the strategic entry point for an ad. It is not the script, the hook, or the format — it is the reason someone should care. Every product has 5-10 viable angles. Most brands only ever test 1-2.
@@ -62,6 +64,8 @@ The ten angle categories:
 Each angle gets its own brief. This is non-negotiable. Mixing angles in one ad dilutes the message and makes test results unreadable. If you cannot isolate which angle resonated, you cannot scale it.
 
 When the OKAD team built [68 ads for a longevity supplement brand](/cases/longevity-supplement-story-ads/), each ad mapped to a single angle. The winning angle — transformation stories with specific timelines — drove a EUR 183 CPA. Without angle isolation, that insight would have been invisible inside a batch of mixed-message ads.
+
+![UGC ad creative for supplement brand — each ad maps to a single angle so performance data reveals which message resonates](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
 ## Phase 3: Format Selection
 
@@ -106,6 +110,8 @@ Every brief at OKAD follows this structure:
 
 This brief template is the artifact that makes creative strategy transferable. When Olga Kad onboards a new client, the brief format stays identical — only the research inputs change. That consistency is what lets the [OKAD team produce at volume](/blog/blog-high-volume-ugc-production/) without sacrificing strategic precision.
 
+![Canvas creative brief template — OKAD's standardized brief format ensures every ad has a clear hypothesis, audience, and success metric](/images/cases/by-okad-camera-roll-creators/na_canvas.jpg)
+
 ## Phase 5: Production
 
 Production is execution, not strategy. By this phase, every creative decision has already been made. The production team's job is to bring the brief to life, not to reinvent it.
@@ -125,6 +131,8 @@ Production is execution, not strategy. By this phase, every creative decision ha
 | $50K-$200K+ | 30-50+ concepts | Creator team + AI pipeline |
 
 The framework scales from $5K/month ad spend to $200K/month. The system stays the same — only the volume changes.
+
+![Fragstore content production — weekly production cycles generating 40+ ads per month](/images/cases/fragstore-content-factory/fs/wide.jpg)
 
 ## Phase 6: Testing
 
@@ -159,6 +167,8 @@ This is where the flywheel spins. Every test produces data. That data feeds the 
 
 **The data feeds Phase 1.** Winning angles become permanent fixtures in your angle library. Winning hooks reveal the language that resonates. Losing formats for certain angles get documented so you do not repeat the mistake. Over 3-6 months, this compounding effect turns a brand's creative program from guesswork into a precision engine.
 
+![Lookalikey UGC ad variations — iterating on winning concepts with hook swaps and format remixes](/images/cases/lookalikey-ugc-ads/img-05.jpg)
+
 ## The 2-Week Cycle in Practice
 
 Here is how the framework looks on a calendar:
@@ -173,6 +183,8 @@ Here is how the framework looks on a calendar:
 | Thu | Launch test batch | Media buyer + strategist |
 | Fri | Initial data review (early signals only) | Strategist |
 | Following week | Full data review → feeds next cycle | Strategist |
+
+![Olga Kad's Instagram profile — creative strategists who build personal brands attract higher-quality client relationships](/images/cases/by-okad-camera-roll-creators/profile.jpg)
 
 This cadence works for a single brand. Olga Kad and the OKAD team run this cycle across multiple clients simultaneously, which is why the [structured brief format](/blog/blog-how-to-brief-a-creative-agency/) and production systems exist — without them, multi-client creative strategy at volume would be impossible.
 

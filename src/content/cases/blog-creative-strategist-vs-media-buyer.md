@@ -26,6 +26,8 @@ The two roles look similar from the outside. Both stare at dashboards. Both talk
 
 Here is exactly what each role owns, where they overlap, when to split them, and how they should work together.
 
+![Olga Kad working on creative strategy — the role that bridges data and production](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
+
 ## What a Media Buyer Actually Does
 
 The media buyer is the platform operator. Their job is getting the right ads in front of the right people at the right cost.
@@ -74,6 +76,8 @@ Both roles look at the same data. The difference is what they see.
 
 The media buyer optimizes the delivery system. The creative strategist optimizes the message. Both are necessary. Neither is sufficient alone.
 
+![AI app ad creative variations — the creative strategist's output feeds the media buyer's campaigns](/images/cases/ai-app/ai-app-07.webp)
+
 ## When to Split the Roles
 
 Most brands start with one person doing both jobs. That works — until it does not.
@@ -118,6 +122,8 @@ When targeting is broad, the creative does the targeting. A hook that opens with
 This is why the creative strategist's role has become the primary lever for paid social performance. The buyer still matters — budget allocation, bid strategy, and platform expertise are real skills. But the biggest variable in any ad account is now the quality and velocity of creative testing. And that is the strategist's domain.
 
 OKAD saw this shift in real time working on [creative testing for an AI app](/cases/creative-testing-ai-app-meta-ads/). Broad targeting with strong creative concepts outperformed narrow interest-based audiences with generic creative — consistently, across multiple test rounds. The buyer's job became simpler (broad targeting, cost caps, budget scaling). The strategist's job became harder (more concepts, faster testing, deeper analysis).
+
+![Longevity supplement story ads — 68 variations produced through creative strategy and tested by media buying](/images/cases/longevity-supplement-story-ads/lg/l1a.jpg)
 
 ## The Dysfunction to Watch For
 

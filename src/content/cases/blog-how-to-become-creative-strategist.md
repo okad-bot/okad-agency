@@ -26,7 +26,11 @@ That is the creative strategist's job. And demand for people who can do it well 
 
 [Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](/) as a design studio, making static ad creatives. Clients ordered design, but she did everything — the visuals, the copy, the concepts. Then curiosity took over: what actually happened to those creatives once they launched? She started pulling up ad accounts, analyzing what worked, and suggesting what to make next — before "creative testing" was even a term. She had already been running ads for her own e-commerce products and posting three videos a day on her own blog, so she understood hooks, attention management, and the full funnel from first impression to checkout. When a client asked her to create UGC ads using her own face, that became the pivot. She scaled to working with other creators, landed a major agency client, and realized that the real bottleneck was never production — it was knowing what to produce and why. That intersection of design, copywriting, video editing, ad buying, and funnel understanding became OKAD's creative strategy practice.
 
+![Olga Kad, founder of OKAD — from designing static ad creatives to building a creative strategy agency driven by performance data](/images/cases/by-okad-camera-roll-creators/profile.jpg)
+
 Here is how to build that skillset yourself, whether you want to join an agency, go freelance, or work in-house.
+
+![Olga Kad — from e-commerce founder to creative strategist running a performance creative agency](/images/cases/by-okad-camera-roll-creators/lisbon.jpg)
 
 ## What a Creative Strategist Actually Does
 
@@ -70,6 +74,8 @@ At [OKAD](/), the creative strategist role drives every client engagement. When 
 **How to transition:** This is often the hardest shift because it requires letting go of creative control. A creative director asks "is this good?" A creative strategist asks "will this beat the control?" Start by reviewing your past work through a performance lens. Which pieces drove results? Why? The answers will surprise you.
 
 This is exactly how Olga Kad made the transition. She started making static creatives for clients — pure design work. But she had also been running ads for her own e-commerce products, so she could see which of her designs actually converted and which just looked good. That dual perspective — maker and buyer — is the fastest path from design to strategy. If you are a designer who also runs your own ad spend, you already have the raw ingredients.
+
+![Real creative testing output — AI app ad variations that demonstrate strategic thinking](/images/cases/ai-app/ai-app-12.webp)
 
 ## Core Skills to Build
 
@@ -126,6 +132,8 @@ You do not need all of these on day one. Start with the free tools — Meta Ad L
 ## Building a Portfolio Without Clients
 
 No one will hire you as a creative strategist without proof you can think like one. Here is how to build that proof:
+
+![Grid of UGC creator trials — the kind of production pipeline creative strategists learn to manage](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
 
 **The Spec Audit Method:**
 
