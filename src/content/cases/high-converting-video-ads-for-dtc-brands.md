@@ -4,7 +4,7 @@ description: "How AI-generated ad creatives cut production costs by 80% and trip
 type: case
 date: 2026-07-01
 lang: en
-cover: "/images/cases/high-converting-video-ads-for-dtc-brands.png"
+cover: "/images/cases/covers/okad-case-05-ai-video.webp"
 coverAlt: "AI-powered static ad creatives for DTC brands"
 faqs:
   - q: "How realistic are AI-generated product visuals compared to traditional photography?"

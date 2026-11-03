@@ -4,8 +4,8 @@ description: "A drawing app for iPad started at about 100 downloads a week and w
 type: case
 date: 2026-06-30
 lang: en
-cover: "/images/cases/drawing-app-faceless-ugc/grid01.jpg"
-coverAlt: "Frames from the 1 case"
+cover: "/images/cases/covers/okad-case-03-drawing-app.webp"
+coverAlt: "Drawing app faceless UGC — organic canvas-style content"
 ---
 
 **1.5M organic views. Zero faces on camera.** A drawing app for iPad started at about 100 downloads a week and wanted Tier 1 users without paying for ads. I put the app screen in front instead of a creator: a hand, a pencil, a line of text and a drawing people watch to the end.
