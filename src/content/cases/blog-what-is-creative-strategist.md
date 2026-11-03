@@ -30,7 +30,7 @@ A creative strategist does not design ads. They do not edit video. They do not w
 
 The role sits between two worlds. On one side, performance data — CTR, hold rates, CPA, ROAS, hook rates, thumb-stop ratios. On the other side, creative production — designers, editors, UGC creators, AI tools. The strategist translates numbers into briefs and briefs into testable hypotheses.
 
-At OKAD, Olga Kad and the creative strategy team review performance data daily across every client account. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this month. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
+At OKAD, [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), reviews performance data daily with the team across every client account. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this month. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
 
 This is what separates a creative strategist from everyone else on the team: they own the feedback loop between data and production.
 

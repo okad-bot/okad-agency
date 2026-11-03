@@ -58,7 +58,7 @@ You hire an agency that provides creative strategy and production as a combined 
 
 For roughly the same annual cost as one in-house strategist, you get strategy, production, editing, and a testing framework — a full team, not a single hire.
 
-OKAD's model was built around this exact insight: most brands do not need a $140K creative strategist sitting in their office. They need Olga Kad's creative strategy framework applied to their account, with a production team that can execute 10-40 concepts per cycle. The Swiss skincare brand we worked with went from sporadic creative refreshes to [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) through our Hook Swap System — a velocity no single hire could match.
+OKAD's model was built around this exact insight: most brands do not need a $140K creative strategist sitting in their office. They need [Olga Kad](https://www.linkedin.com/in/o-kad)'s creative strategy framework applied to their account, with a production team that can execute 10-40 concepts per cycle. The Swiss skincare brand we worked with went from sporadic creative refreshes to [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) through our Hook Swap System — a velocity no single hire could match.
 
 **When this works:** You spend $10K-$100K per month on ads. You need both strategy and production. You want proven frameworks without the 6-12 month learning curve of a new hire figuring things out on your budget.
 

@@ -58,7 +58,7 @@ The creative strategist is the person who decides what ads to make and why. Thei
 
 The creative strategist's question is always: **"What should we make next, and what do we expect it to prove?"**
 
-At OKAD, Olga Kad runs creative strategy while working in lockstep with each client's media buyer. The separation is deliberate. The person deciding what to test is not the same person managing where the budget goes — and that distinction is why clients see consistent [creative testing velocity](/blog/blog-creative-testing-for-dtc/) instead of the feast-or-famine cycle most brands experience.
+At OKAD, [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist — runs creative strategy while working in lockstep with each client's media buyer. The separation is deliberate. The person deciding what to test is not the same person managing where the budget goes — and that distinction is why clients see consistent [creative testing velocity](/blog/blog-creative-testing-for-dtc/) instead of the feast-or-famine cycle most brands experience.
 
 ## Where They Overlap (And Where They Do Not)
 

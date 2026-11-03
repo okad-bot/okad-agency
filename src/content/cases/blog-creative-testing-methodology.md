@@ -26,7 +26,7 @@ Real creative testing has a hypothesis, a control, isolated variables, and kill 
 
 Most brands skip this. They launch a batch of ads, watch for a week, scale the best one, and start over when it fatigues. They never learn why something worked, so they cannot repeat it. Every campaign restarts from zero.
 
-Here is the methodology that turns ad spend into compounding creative intelligence — tested across hundreds of campaigns by the OKAD team under Olga Kad's creative direction.
+Here is the methodology that turns ad spend into compounding creative intelligence — tested across hundreds of campaigns by the OKAD team under [Olga Kad](https://www.linkedin.com/in/o-kad)'s creative direction. Olga is the founder and creative strategist at [OKAD](https://okad.agency).
 
 ## Why Most "Testing" Fails
 

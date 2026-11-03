@@ -24,7 +24,7 @@ Most brands produce ads by intuition. Someone has an idea, the team builds it, t
 
 The brands that win on paid social — consistently, at scale, month after month — do not operate this way. They run a system. A framework that turns research into angles, angles into briefs, briefs into ads, and ads into data that feeds the next cycle. Every test teaches something. Every winner gets multiplied. Every loser gets autopsied for salvageable parts.
 
-This is the exact framework Olga Kad and the OKAD team run for every client. The seven phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs. The result is a compounding creative engine where each cycle is smarter than the last.
+This is the exact framework [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), runs for every client. The seven phases repeat on a 2-week cycle: week 1 is research and briefs, week 2 is production and launch. By week 3, data from the first batch informs the second round of briefs. The result is a compounding creative engine where each cycle is smarter than the last.
 
 Here is how it works, phase by phase.
 

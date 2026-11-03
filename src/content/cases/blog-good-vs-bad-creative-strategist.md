@@ -32,7 +32,7 @@ Here are 10 signs that separate the two. Five that signal a strategist who is dr
 
 A good creative strategist does not start with inspiration. They start with a spreadsheet. Every new concept they propose connects to a specific performance insight: this hook type outperformed that one by 40%. This pain point drove 3x the click-through rate. This format converts on TikTok but dies on Meta feed.
 
-Olga Kad's creative strategy process at OKAD follows a simple rule: if you can't point to the data that informed a brief, the brief doesn't ship. When OKAD took over creative for a [Swiss skincare brand](/cases/swiss-skincare-high-volume-ads/), the first week was pure analysis — no new creative. The team identified that the existing ads had strong bodies but weak hooks. The Hook Swap System that followed produced roughly 30 new ads per day from the same footage, each informed by specific performance patterns.
+[Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), follows a simple rule: if you can't point to the data that informed a brief, the brief doesn't ship. When OKAD took over creative for a [Swiss skincare brand](/cases/swiss-skincare-high-volume-ads/), the first week was pure analysis — no new creative. The team identified that the existing ads had strong bodies but weak hooks. The Hook Swap System that followed produced roughly 30 new ads per day from the same footage, each informed by specific performance patterns.
 
 The test: ask your strategist to walk you through their last 5 briefs and name the data point behind each one. If they cannot, they are guessing.
 

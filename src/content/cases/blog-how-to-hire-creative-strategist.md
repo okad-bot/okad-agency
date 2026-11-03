@@ -38,7 +38,7 @@ You need a creative strategist when three signals appear together:
 
 Signal three is the critical one. If you can diagnose why ads work, you can build more like them. If you cannot, you are guessing — and guessing at $20K-$100K/month in ad spend is expensive.
 
-When OKAD onboards a new client, Olga Kad's first step is never "what should we create." It is "show me your ad account." The audit — what is running, what is winning, what has been tested — takes priority over any creative discussion. That diagnostic instinct is exactly what a creative strategist brings.
+When OKAD onboards a new client, [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist at [OKAD](https://okad.agency) — never starts with "what should we create." It is "show me your ad account." The audit — what is running, what is winning, what has been tested — takes priority over any creative discussion. That diagnostic instinct is exactly what a creative strategist brings.
 
 ## What a Creative Strategist Actually Does
 

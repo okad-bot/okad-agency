@@ -73,7 +73,7 @@ The third option — and the one that often delivers the most value per dollar �
 
 The agency model bundles what would otherwise require three to five separate hires: a strategist, a UGC coordinator, video editors, a designer, and potentially a media buyer. For brands that need all of these functions but cannot justify the headcount, an agency retainer is typically 40-60% cheaper than building the same capability in-house.
 
-At [OKAD](https://okad.agency), Olga Kad's creative strategy team works alongside a full production pipeline — UGC creators, video editors, and AI content tools — under a single retainer. This means the strategist who writes the brief is working directly with the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
+At [OKAD](https://okad.agency), [Olga Kad](https://www.linkedin.com/in/o-kad) — founder and creative strategist — leads the team that works alongside a full production pipeline — UGC creators, video editors, and AI content tools — under a single retainer. This means the strategist who writes the brief is working directly with the team that produces the ads. No handoff friction, no lost context, no separate vendor management.
 
 For a Swiss skincare brand, this integrated model produced [roughly 30 new ads per day](/cases/swiss-skincare-high-volume-ads/) using a Hook Swap System — a volume that would require a full-time strategist plus a 4-5 person production team if built in-house. Across [five brands](/cases/ad-re-edits-five-brands/), the same team delivered 80 fresh ads from archived footage with zero new shoots.
 

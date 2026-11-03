@@ -24,7 +24,7 @@ Every brand running paid social in 2026 has the same bottleneck. It is not media
 
 That is the creative strategist's job. And demand for people who can do it well far outstrips supply.
 
-Olga Kad started [OKAD](/) as a design studio. Over time, the market pulled the agency toward performance creative — not because design stopped mattering, but because clients needed someone who could connect creative decisions to business outcomes. Today, OKAD's creative strategists come from diverse backgrounds — media buying, production, copywriting — but all operate on the same principle: data informs the brief, the brief directs production, and results inform the next brief.
+[Olga Kad](https://www.linkedin.com/in/o-kad) started [OKAD](/) as a design studio. Over time, the market pulled the agency toward performance creative — not because design stopped mattering, but because clients needed someone who could connect creative decisions to business outcomes. Today, OKAD's creative strategists come from diverse backgrounds — media buying, production, copywriting — but all operate on the same principle: data informs the brief, the brief directs production, and results inform the next brief.
 
 Here is how to build that skillset yourself, whether you want to join an agency, go freelance, or work in-house.
 

@@ -20,7 +20,7 @@ faqs:
     a: "Test 3-5 variations per concept. Each variation should change one variable — different hook, different format, different opening angle — so you can isolate what works. Testing 15 wildly different ads tells you which one won but not why. Testing 5 structured variations of a strong concept tells you exactly which element drives performance."
 ---
 
-When Olga Kad audits a new client's ad account, the first thing she looks at is not the best-performing ads. It is the worst. The failures tell you what the audience does not respond to, and that information is more valuable than knowing what currently works.
+When [Olga Kad](https://www.linkedin.com/in/o-kad), founder and creative strategist at [OKAD](https://okad.agency), audits a new client's ad account, the first thing she looks at is not the best-performing ads. It is the worst. The failures tell you what the audience does not respond to, and that information is more valuable than knowing what currently works.
 
 Most brands react to underperforming ads by doing one of two things: they rebuild everything from scratch, or they throw more budget at what exists. Both are wrong. The problem is almost never "all the creative is bad." The problem is usually one specific element — a weak hook, a mismatched format, a broken funnel — dragging down an otherwise functional campaign.
 
