@@ -92,7 +92,7 @@ The hook is the single biggest performance variable. OKAD's diagnostic process s
 - No tension, curiosity, or pattern interrupt in the first frame
 - Text overlays too small to read on mobile
 
-![Olga Kad reviewing ad data — diagnosing hook problems starts with comparing hook rate patterns across your top and bottom performers](/images/cases/by-okad-camera-roll-creators/reading.jpg)
+![UGC creator hiring reel with 17.7K views — diagnosing hook problems starts with comparing hook rate patterns across your top and bottom performers](/images/cases/by-okad-camera-roll-creators/hire_robe.jpg)
 
 ### Body Problems
 

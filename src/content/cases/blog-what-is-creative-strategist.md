@@ -32,7 +32,7 @@ The role sits between two worlds. On one side, performance data — CTR, hold ra
 
 At [OKAD](https://okad.agency), creative strategy starts at 9am when [Olga Kad](https://www.linkedin.com/in/o-kad) opens the dashboards. Before any creative discussion, before any brief gets written, she pulls every active campaign across every client account and reads the numbers. The brief does not start with a creative idea — it starts with a data question: what angle has not been tested, what audience segment is underserved, what hook format is winning this week. The answer becomes the brief. The brief becomes the ad. The ad produces new data. The cycle repeats.
 
-![Olga Kad reviewing creative strategy and ad performance data](/images/cases/by-okad-camera-roll-creators/reading.jpg)
+![Olga Kad with a robot dog at a tech conference — creative strategists stay at the frontier of AI and production tools](/images/cases/by-okad-camera-roll-creators/hire_robot.jpg)
 
 This is what separates a creative strategist from everyone else on the team: they own the feedback loop between data and production.
 
@@ -143,7 +143,7 @@ Here is what the role looks like in practice at a performance creative agency li
 
 This cycle runs five days a week. At [OKAD's production volume](/cases/breakout-aid-skincare-ugc-ads/) — managing creative testing across multiple brands simultaneously — the rhythm is non-negotiable. Skip a day of data review and you waste budget on underperformers. Skip a day of briefing and the production pipeline stalls.
 
-![Olga Kad working from a Lisbon cafe — reviewing daily ad performance and planning next creative tests](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
+![Olga Kad's viral reel on AI faces in advertising with 188K views — staying ahead of regulatory changes is part of creative strategy](/images/cases/by-okad-camera-roll-creators/ai_faces.jpg)
 
 ## The Skills That Matter
 

@@ -30,7 +30,7 @@ That is the creative strategist's job. And demand for people who can do it well 
 
 Here is how to build that skillset yourself, whether you want to join an agency, go freelance, or work in-house.
 
-![Olga Kad — from e-commerce founder to creative strategist running a performance creative agency](/images/cases/by-okad-camera-roll-creators/lisbon.jpg)
+![Olga Kad's viral reel on AI faces in advertising with 188K views — from e-commerce founder to creative strategist](/images/cases/by-okad-camera-roll-creators/ai_faces.jpg)
 
 ## What the Job Looks Like Day to Day
 

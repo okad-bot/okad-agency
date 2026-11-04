@@ -65,7 +65,7 @@ Each angle gets its own brief. This is non-negotiable. Mixing angles in one ad d
 
 When the OKAD team built [68 ads for a longevity supplement brand](/cases/longevity-supplement-story-ads/), each ad mapped to a single angle. The winning angle — transformation stories with specific timelines — drove a EUR 183 CPA. Without angle isolation, that insight would have been invisible inside a batch of mixed-message ads.
 
-![Olga Kad reviewing data and mapping angles — Phase 2 starts with identifying which messages resonate with which audience segments](/images/cases/by-okad-camera-roll-creators/reading.jpg)
+![UGC creator outreach reel with 13.3K views — Phase 2 starts with identifying which messages resonate with which audience segments](/images/cases/by-okad-camera-roll-creators/just_a_girl.jpg)
 
 ## Phase 3: Format Selection
 
@@ -132,7 +132,7 @@ Production is execution, not strategy. By this phase, every creative decision ha
 
 The framework scales from $5K/month ad spend to $200K/month. The system stays the same — only the volume changes.
 
-![Olga Kad reviewing production briefs — Phase 5 matches tested creators to brief requirements for efficient execution](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
+![Olga Kad at a tech conference with a robot dog — Phase 5 production matches tested creators to brief requirements](/images/cases/by-okad-camera-roll-creators/hire_robot.jpg)
 
 ## Phase 6: Testing
 

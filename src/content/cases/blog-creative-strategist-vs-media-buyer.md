@@ -26,7 +26,7 @@ The two roles look similar from the outside. Both stare at dashboards. Both talk
 
 Here is exactly what each role owns, where they overlap, when to split them, and how they should work together.
 
-![Olga Kad working on creative strategy — the role that bridges data and production](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
+![Olga Kad's reel on AI faces in advertising with 188K views — creative strategists bridge data, production, and emerging trends](/images/cases/by-okad-camera-roll-creators/ai_faces.jpg)
 
 ## What a Media Buyer Actually Does
 
