@@ -26,7 +26,7 @@ The problem: compensation varies wildly. A "creative strategist" job title cover
 
 Here is the full breakdown by experience level, engagement model, and what drives the differences.
 
-![Olga Kad working from Lisbon — creative strategy as a location-independent career](/images/cases/by-okad-camera-roll-creators/venice.jpg)
+![UGC creator hiring reel with 17.7K views — creative strategy as a location-independent career](/images/cases/by-okad-camera-roll-creators/hire_robe.jpg)
 
 ## Full-Time Salary Ranges (US Market, 2026)
 
