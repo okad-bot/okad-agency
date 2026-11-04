@@ -127,7 +127,7 @@ Each cycle compounds your knowledge. After 4-6 cycles, you have a library of pro
 
 The testing cadence at OKAD: new concepts launch Monday, data review Wednesday, kills and iterations Friday. Two-week cycles mean no creative runs longer than 14 days without a performance check.
 
-![Creator trial grid — systematic iteration means testing proven concepts with different creators, hooks, and formats](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+![Community engagement on creator outreach — systematic iteration generates real audience interaction across formats](/images/cases/by-okad-camera-roll-creators/comments.jpg)
 
 ## Volume Benchmarks by Spend Level
 
@@ -161,7 +161,7 @@ Decide your kill criteria before launching. Not after. Emotional decisions durin
 - A variant with fewer than 500 impressions
 - A creative during a platform-wide performance dip (check multiple campaigns first)
 
-![Content performance results — disciplined kill criteria turn ad spend into compounding creative intelligence](/images/cases/by-okad-camera-roll-creators/sell_457.jpg)
+![Creator outreach workflow — disciplined kill criteria and systematic follow-up turn ad spend into compounding creative intelligence](/images/cases/by-okad-camera-roll-creators/dm_flow.jpg)
 
 ## Building a Creative Testing System
 
