@@ -132,7 +132,7 @@ Production is execution, not strategy. By this phase, every creative decision ha
 
 The framework scales from $5K/month ad spend to $200K/month. The system stays the same — only the volume changes.
 
-![Creator trial grid — Phase 5 production matches tested creators to brief requirements for efficient execution](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+![Olga Kad reviewing production briefs — Phase 5 matches tested creators to brief requirements for efficient execution](/images/cases/by-okad-camera-roll-creators/cafe.jpg)
 
 ## Phase 6: Testing
 

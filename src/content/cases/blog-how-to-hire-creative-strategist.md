@@ -120,7 +120,7 @@ Ask them to explain:
 
 **What good looks like:** They identify specific hooks, audience angles, and format choices that explain the data. They notice patterns ("all three winners use problem-solution hooks under 3 seconds; all three losers lead with the brand name"). They propose concrete next tests: "I would test the winning hook format against a new pain point angle targeting X audience."
 
-![Grid of UGC creator trial reels — evaluating creative talent at scale requires structured audition processes](/images/cases/by-okad-camera-roll-creators/trial_grid.jpg)
+![UGC creator outreach reel with 13.3K views — finding creative talent at scale requires content-driven hiring](/images/cases/by-okad-camera-roll-creators/just_a_girl.jpg)
 
 **What bad looks like:** Vague observations about "quality" or "production value." No mention of specific elements. Next steps that sound like brainstorming, not structured experiments.
 
