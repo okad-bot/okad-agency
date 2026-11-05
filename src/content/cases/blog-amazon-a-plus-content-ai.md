@@ -200,3 +200,9 @@ If you are brand-registered on Amazon and do not have A+ Content on your listing
 Start with your top 3 ASINs by revenue. Plan a 5-module A+ layout for each. Generate lifestyle and brand imagery using AI. Composite with real product photography. Submit, measure, and expand to the rest of your catalog.
 
 The investment in a prompt library and initial AI generation session pays back across every ASIN and every seasonal update — compounding returns that traditional per-shoot production economics cannot match.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -167,3 +167,9 @@ After nearly half a million dollars in directly comparable spend, plus campaigns
 5. **Product-format fit determines the winner.** The 11% CPA advantage for AI statics on InstaHeadshots does not mean AI statics will beat UGC for your supplement brand. Match the format to your product's trust requirement and comprehension speed.
 
 The question is not "AI or UGC?" It is "what ratio of AI to UGC does our specific product, audience, and funnel stage require?" The answer is always a number, not a side.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -203,3 +203,9 @@ After 90 days of data, you will know exactly which accounts, platforms, and cont
 The repost strategy is not a shortcut — it is an operational discipline. The brands that execute it consistently compound their content investment across platforms and accounts, turning every piece of production into a distribution multiplier.
 
 For the production systems that create the content worth reposting, see our guide to [scaling ad creative without new shoots](/blog/blog-how-to-scale-ad-creative-without-shoots/) and the [modular production playbook](/blog/blog-50-ads-from-one-shoot/) that turns one shoot day into 50+ variations.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -183,3 +183,9 @@ The breakeven math is straightforward: if your CPM is $4, an account that costs 
 YouTube Shorts is the compounding channel that most brands overlook while competing for attention on TikTok. The setup takes a day. The warm-up takes four. And the discovery tail means every video you post keeps working long after you move on to the next one.
 
 For the complete warm-up protocols across all platforms, see our [social media account warm-up guide](/blog/blog-how-to-warm-up-social-media-accounts/). To understand how to structure content for maximum variations from minimal production, our [zero-shoot creative scaling guide](/blog/blog-how-to-scale-ad-creative-without-shoots/) covers the system we use across campaigns.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

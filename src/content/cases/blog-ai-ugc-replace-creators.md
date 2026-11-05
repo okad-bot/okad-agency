@@ -167,3 +167,9 @@ After managing campaigns on both sides:
 5. **Creator value is shifting upstream.** The future belongs to creators who bring something AI cannot generate: genuine experience, niche authority, audience trust, and authentic human presence. The production skills (lighting, editing, filming) are becoming table stakes. The human skills (storytelling, credibility, cultural fluency) are becoming premium.
 
 The question is not whether AI can replace UGC creators. It can replace some of what some creators do. The real question is whether individual creators are building the kind of value that AI cannot replicate. For those who are, the opportunity is growing, not shrinking.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

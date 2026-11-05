@@ -180,3 +180,9 @@ The agencies that deliver are the ones that have built production systems — no
 The [RaaS (Results as a Service) model](/blog/blog-raas-creative-agency/) is increasingly how the best AI creative agencies operate — accountable for performance outcomes, not just deliverables. When evaluating agencies, look for this mindset: do they talk about ads produced or about results delivered?
 
 When you evaluate agencies, ask for specifics. How many ads, for which brands, with what results. The right agency will have numbers ready because those numbers are what their business is built on.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

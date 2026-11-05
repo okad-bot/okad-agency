@@ -195,3 +195,9 @@ If by end of week 2 the strategist has not delivered a single actionable brief, 
 The creative strategist role is the highest-leverage hire in performance marketing. Get it right, and every dollar of ad spend works harder. Get it wrong, and you burn months producing creative that nobody tested properly, nobody diagnosed, and nobody learned from. Use the interview test above, watch for the red flags, and prioritize data fluency over aesthetic taste. The ads do not need to be beautiful. They need to work.
 
 For a structured look at [what makes a creative strategist effective](/blog/blog-good-vs-bad-creative-strategist/) — the 10 signs that separate top performers from underperformers — start there. And if you want to understand the [hook rate metric](/blog/blog-hook-rate-explained/) that every strategist candidate should know cold, see our explainer.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

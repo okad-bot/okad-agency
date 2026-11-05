@@ -218,3 +218,9 @@ Assume a 20–25% win rate (1 in 4 concepts becomes a winner) and the platform-s
 These costs assume [modular creative production](/blog/blog-modular-creative-production/) where components are batch-shot and recombined. Traditional one-off production costs 3–4x more for the same output.
 
 The brands that maintain ROAS at scale are not avoiding fatigue — they are outrunning it. They produce more creative, test faster, and replace fatigued assets before performance collapses. Ad fatigue is not a problem to solve. It is a constraint to operate within. For the complete testing framework that keeps your pipeline ahead of decay, read our [$500 creative testing framework for DTC](/blog/blog-creative-testing-for-dtc/) or our full [ad creative strategy guide](/blog/blog-ad-creative-strategy/). And to see fatigue management in a real campaign, check our [creative testing case study for Meta ads](/cases/creative-testing-ai-app-meta-ads/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

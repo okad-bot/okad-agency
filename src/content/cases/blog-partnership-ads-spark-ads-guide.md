@@ -202,3 +202,9 @@ For brands managing multiple creators simultaneously, building a permission trac
 Brands running [high-converting DTC video ads](/cases/high-converting-video-ads-for-dtc-brands/) at scale often manage 10–20 active creator authorizations simultaneously. A systematic approach to permissions prevents delivery gaps. For the complete contract and rights framework, see our [UGC whitelisting guide](/blog/blog-ugc-whitelisting-guide/).
 
 For a deeper dive into the mechanics and contracts, see our complete [UGC whitelisting guide](/blog/blog-ugc-whitelisting-guide/). Partnership ads represent the convergence of creator marketing and performance advertising. Brands get the trust and engagement of creator content with the targeting and scale of paid media. Creators get additional revenue from content they are already making. The format works because it aligns incentives: both parties benefit when the content is authentic and the audience responds.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

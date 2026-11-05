@@ -188,3 +188,9 @@ The minimum viable investment is $1,500–$3,000 per month for content productio
 - [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) — how to turn canvas UGC into paid ad creative
 - [5,471 creators, zero new shoots](/cases/canvas-tech-ugc-without-new-shoots/) — our own ambassador account case study
 - [Drawing App: 1.5M views, faceless](/cases/drawing-app-faceless-ugc/) — faceless canvas UGC in action
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

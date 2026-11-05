@@ -195,3 +195,9 @@ The hybrid model is not a compromise. It is a competitive advantage. Brands usin
 Human content provides the emotional foundation. AI provides the production leverage. Combined, they create a [creative pipeline](/blog/blog-raas-creative-agency/) that produces more testable variations, finds winners faster, and sustains performance against [ad fatigue](/blog/blog-ad-fatigue-prevention/) longer than any single-source approach.
 
 The question is not whether to use AI. It is how much of your pipeline should be AI, how much should be human, and where the line falls for your specific brand. Start with the allocation table above, test for 4-6 weeks, and let the data tell you.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

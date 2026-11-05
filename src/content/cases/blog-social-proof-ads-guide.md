@@ -122,3 +122,9 @@ Each platform rewards different social proof formats:
 **Kill fast, scale fast.** If a social proof ad is not performing within 72 hours, kill it. If one is performing well, scale spend by 20–30% every 48 hours until performance plateaus.
 
 For even more reach, consider running social proof creative as [partnership ads through creator accounts](/blog/blog-partnership-ads-spark-ads-guide/) for an additional trust boost. Social proof ads work because they solve the fundamental challenge of advertising: getting strangers to trust you. Brands cannot manufacture trust through clever copywriting. But they can amplify the trust that already exists between their customers and their peers.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

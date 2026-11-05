@@ -204,3 +204,9 @@ The decision matrix is straightforward:
 **Choose live action when:** authenticity is the primary goal, human performance and emotion drive the concept, or the production budget allows it and the result will be used across high-value channels (TV, cinema, premium digital).
 
 Most marketing teams will find that AI character animation handles 60-70% of their social video needs at a fraction of the cost. The remaining 30-40% — dialogue scenes, long-form content, photorealistic requirements — still benefits from traditional methods. The key is matching the tool to the task rather than forcing one approach to do everything.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

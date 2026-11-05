@@ -171,3 +171,9 @@ AI ad creative excels in specific use cases:
 **Early-stage testing.** Before committing $5,000+ to a traditional shoot, generate AI concepts to validate which visual direction resonates. Then invest in traditional production only for the proven concepts.
 
 For a deeper look at how AI product photography compares to traditional methods — with specific pricing data and quality benchmarks — see our [AI product photography guide](/blog/blog-ai-lifestyle-product-photos/). And if you are producing AI content at scale and want to understand the hybrid production model that balances AI efficiency with human quality, our [hybrid AI-human content guide](/blog/blog-hybrid-ai-human-content/) covers the framework.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

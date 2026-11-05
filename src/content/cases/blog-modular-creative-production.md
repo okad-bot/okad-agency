@@ -254,3 +254,9 @@ At low volume (under 20 combinations per week), one person can handle all three 
 Teams running [high-volume UGC production](/blog/blog-high-volume-ugc-production/) at scale build QC into the workflow from day one. For the testing methodology that validates assembled combinations, see our guide on [how many ad variations to test](/blog/blog-ad-creative-testing-how-many-variations/).
 
 Modular creative is not a creative technique. It is a production system that turns ad creative from an artisanal craft into a scalable operation. For the complete testing framework that goes hand-in-hand with modular production, read our guide on [how many ad variations you actually need](/blog/blog-ad-creative-testing-how-many-variations/). We put this exact approach into practice in our [AI app creative testing case study](/cases/creative-testing-ai-app-meta-ads/). The brands outperforming on paid media are not making better individual ads — they are making more variations, faster, and letting data decide which components win.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

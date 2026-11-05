@@ -190,3 +190,9 @@ One shoot day can produce 50+ ad variations if you plan for multiplication from 
 Shoot modular components. Build a combination matrix. Multiply through hook swaps, format remixes, and re-edits. Layer in AI for static visuals. That is the system that turns one production day into months of testable creative.
 
 If you want to see this system in action, our [zero-shoot production guide](/blog/blog-zero-shoot-production/) covers the extreme end — brands producing entire campaigns without any new shoots at all.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

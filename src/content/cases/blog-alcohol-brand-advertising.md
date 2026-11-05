@@ -209,3 +209,9 @@ A professional alcohol content production should generate 15-20+ setups per day.
 Alcohol brand advertising is a specialist category. The brands that achieve viral organic reach — the 200K-900K views per post — combine real bartending expertise, premium slow-paced production, strict compliance frameworks, and AI-extended content calendars. The brands that struggle treat alcohol like any other product and wonder why the content underperforms or gets removed.
 
 The difference is specialization. General agencies produce general results. Alcohol-specific production, with vetted creators and compliance built into the process from day one, produces 900K-view posts that never get flagged.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -178,3 +178,9 @@ These numbers assume a mix of human creator content, re-edits, and AI-assisted p
 **Stopping at the first winner.** Your first winner will fatigue in 2–4 weeks. Build a production pipeline that generates new variations weekly. The brands that win on paid social are not the ones with the best single ad — they are the ones with the best systems for producing the next ad.
 
 For the strategic framework behind creative testing and scaling, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/). For brands looking to scale volume without new shoots, our guide on [getting 50 ads from one production day](/blog/blog-50-ads-from-one-shoot/) covers the modular production system in detail.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

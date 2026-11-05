@@ -198,3 +198,9 @@ The brands that compound creative knowledge — testing systematically over mont
 If your current approach to creative is "make ads, launch them, see what happens" — start with one structured test this week. One variable, one control, $50 per variant, 5 days. The first test teaches you more than a dozen unstructured launches.
 
 If you want to understand the broader system this methodology lives inside, our [creative strategy framework for paid social](/blog/blog-creative-strategy-framework-paid-social/) covers all seven phases from research to iteration. If your ads are already underperforming, start with the [diagnostic guide](/blog/blog-why-your-ads-are-not-working/) to identify what is broken before you test. For the role that owns this process, read [what a creative strategist does](/blog/blog-what-is-creative-strategist/) — or if you want to become one, our [career guide](/blog/blog-how-to-become-creative-strategist/) covers the path.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

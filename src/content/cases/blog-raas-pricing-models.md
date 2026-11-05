@@ -246,3 +246,9 @@ This compares to a $12,000 retainer for the same scope — but with RaaS, the ag
 The production efficiency that makes this work: systems like [zero-shoot production](/blog/blog-zero-shoot-production/) and [AI-assisted content creation](/cases/baby-furniture-ai-product-visuals/) that keep marginal costs low enough for the tiered model to be profitable.
 
 For the foundational concepts behind these models, read our [guide to Results as a Service](/blog/blog-what-is-raas/). To see how these pricing structures apply to specific industries, our [RaaS for creative agencies guide](/blog/blog-raas-creative-agency/) and [RaaS for UGC production](/blog/blog-raas-ugc-production/) go deeper on sector-specific pricing.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

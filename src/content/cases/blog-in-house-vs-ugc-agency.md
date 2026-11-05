@@ -97,3 +97,9 @@ Between 15 and 30 videos per month, an agency still wins on total cost and offer
 Above 30 videos per month, a hybrid model is worth serious consideration -- in-house strategy paired with agency execution. Pure in-house production only makes sense above roughly 50 videos per month, and only with a dedicated team rather than a single hire stretched across every function.
 
 For most brands, the lowest-risk path is starting with an agency, learning what formats and creators actually perform, and building an in-house function later once volume and proven playbooks justify the fixed cost. If you want to see how the numbers would work for your specific volume, check [our pricing](/pricing/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

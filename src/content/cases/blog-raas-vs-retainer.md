@@ -179,3 +179,9 @@ Whatever model you choose, the non-negotiable is measurement. Track output, trac
 The best brand-agency relationships evolve their pricing model as the relationship matures. Start where you are. Measure everything. Adjust the model when the data tells you to.
 
 For deeper dives on related topics: how [RaaS works specifically for creative agencies](/blog/blog-raas-creative-agency/), the economics behind [UGC agency pricing](/blog/blog-ugc-agency-pricing/), and the production system that makes high-volume output possible in our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

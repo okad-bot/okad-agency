@@ -175,3 +175,9 @@ The brands scaling fastest on paid social treat editing as their primary creativ
 This is not about making content look good. It is about making content that stops thumbs, holds attention, and drives action — in that order, in the first 3 seconds, in the edit room.
 
 For the production planning that feeds this editing workflow, read our guide on [getting 50 ads from one shoot day](/blog/blog-50-ads-from-one-shoot/). For the strategic framework that decides which ads to make in the first place, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you are exploring AI-assisted alternatives to traditional UGC, see our guide on [making AI UGC videos](/blog/blog-how-to-make-ai-ugc-videos/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

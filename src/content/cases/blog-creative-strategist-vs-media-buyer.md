@@ -185,3 +185,9 @@ If you are under $15K per month in ad spend, one strong person can handle both. 
 Ask your media buyer one question this week: "What creative do you wish you had right now?" If they can answer in specifics — "a pain-point hook for women 35-45 in a UGC testimonial format" — your buyer already thinks like a strategist and the split is overdue. If they answer in generics — "something fresh" — they need a strategist to translate their campaign data into briefs.
 
 If you are ready to [hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/), our hiring guide covers what to look for and the interview test that separates real strategists from aesthetic thinkers. For brands considering [outsourcing creative strategy to an agency](/blog/blog-outsource-creative-strategy-agency/), our decision framework covers cost models and evaluation criteria. And for the full creative pipeline from research to scale, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

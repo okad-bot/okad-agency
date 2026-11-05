@@ -224,3 +224,9 @@ If you are sitting on unused footage and want to start extracting value from it:
 5. **Schedule quarterly full re-edits.** Every 3 months, pull the unused footage from the past quarter and produce a batch of fully re-edited concepts. This keeps the library productive indefinitely.
 
 The brands that scale their ad programs are not the ones spending the most on new production. They are the ones extracting the most value from every piece of footage they have ever produced. Your next 60 best-performing ad variations might already be sitting in a folder you stopped opening months ago.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -189,3 +189,9 @@ The data consistently shows: Ipsos 2026 research found human-created content sco
 That first batch will teach you more than any guide. The tools improve monthly — but the production principles in this workflow stay constant: control your key frames, match tools to shot types, and use AI for what it does best while keeping humans where they matter.
 
 For avoiding the most common AI quality mistakes, read our guide on [why AI content looks fake and how to fix it](/blog/blog-why-ai-content-looks-fake/). For the full creative testing framework to evaluate your AI ads against existing creative, see our [ad creative strategy guide](/blog/blog-ad-creative-strategy/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.
