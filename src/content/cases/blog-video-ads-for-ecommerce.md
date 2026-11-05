@@ -199,3 +199,9 @@ The formats above work, but execution separates a 1.2% CTR from a 3.0% CTR. Thre
 **Creator-audience match.** A 22-year-old creator selling supplements to 45-year-old men will underperform regardless of how good the script is. Match the creator's demographic to your target audience.
 
 **Platform-native production.** A video shot for Instagram that gets reposted to TikTok will look and feel wrong. Each platform has distinct editing rhythms, audio expectations, and visual norms. Produce natively for each placement.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

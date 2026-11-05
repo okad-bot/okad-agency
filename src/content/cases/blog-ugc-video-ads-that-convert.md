@@ -159,3 +159,9 @@ After 200+ campaigns, the failure patterns are predictable:
 If you are spending on paid social and your creative is underperforming — or you know you need UGC but have not built the production pipeline — we can help. We handle creator sourcing, briefing, production management, and post-production so you get a steady flow of tested, platform-native video ads.
 
 Start with a look at our [UGC video production services](/#offer), or read our [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. If you are evaluating agencies, our guide on [what a UGC agency does](/blog/blog-what-is-ugc-agency/) covers services, pricing, and when to hire one.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

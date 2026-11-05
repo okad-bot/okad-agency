@@ -183,3 +183,9 @@ By 2028, RaaS will not be an alternative model — it will be the expected defau
 Results as a Service aligns what buyers want (outcomes) with what sellers deliver (efficient, measurable work). The technology, measurement infrastructure, and market demand have all converged. Whether you are buying or selling services, understanding RaaS is no longer optional — it is the foundation of how the service economy is repricing itself.
 
 For a deeper look at how RaaS applies specifically to creative agencies, see our guide to [RaaS for creative agencies](/blog/blog-raas-creative-agency/). If you are comparing RaaS to traditional retainer models, our [RaaS vs retainer breakdown](/blog/blog-raas-vs-retainer/) covers the decision framework with real campaign data.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

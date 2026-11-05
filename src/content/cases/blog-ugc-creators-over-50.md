@@ -180,3 +180,9 @@ For the full case data behind these findings, see our [UGC creators over 40 main
 If you are building a broader UGC program, our [UGC video ads guide](/blog/blog-ugc-video-ads-that-convert/) covers the production system from creator sourcing to scale. For brands in the dating vertical specifically, our [dating app marketing guide](/blog/blog-dating-app-marketing/) covers platform-specific strategies beyond UGC.
 
 The data is clear: for audiences over 50, the creator is the creative strategy. Match the messenger to the audience, lead with authenticity over polish, and let the numbers prove what works.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

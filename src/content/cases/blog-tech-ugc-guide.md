@@ -138,3 +138,9 @@ For organic content: track views, sign-ups from bio link, and engagement. Commen
 - **Hardware with software** — Smart home, wearables, IoT devices
 
 Tech UGC is the bridge between "this product exists" and "I understand how to use it." For any product that requires comprehension before conversion, creator-made demonstrations outperform every other ad format. Screen recording content also works as [faceless UGC](/blog/blog-what-is-faceless-ugc/) — one of the fastest formats to produce at scale. For cost benchmarks, see our [UGC rates guide](/blog/blog-ugc-creator-rates-pricing/) which breaks down tech niche pricing specifically.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

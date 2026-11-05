@@ -211,3 +211,9 @@ The agencies that figure this out first will not just survive the shift — they
 - [Ad Creative Strategy: Brief to Scale](/blog/blog-ad-creative-strategy/) — the production system behind high-volume creative output
 - [UGC Video Ads That Convert](/blog/blog-ugc-video-ads-that-convert/) — how creator-driven content fits into a results-based model
 - [How to Choose a UGC Agency](/blog/blog-how-to-choose-ugc-agency/) — evaluation criteria for agencies offering performance-focused creative
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

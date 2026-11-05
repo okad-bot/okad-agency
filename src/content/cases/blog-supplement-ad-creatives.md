@@ -196,3 +196,9 @@ Every hook test generates data. Every data point informs the next round of scrip
 That ranked list is the most valuable asset in your creative operation. It makes every future shoot more effective, every script more precise, and every dollar of production spend more likely to produce a winner.
 
 Six brands. Two hundred ads. One framework. The math works the same whether you are testing 12 variations a month or launching 30 a day. Start with the hook. Test it in isolation. Let the data tell you what to scale.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

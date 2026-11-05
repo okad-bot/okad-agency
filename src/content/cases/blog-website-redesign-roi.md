@@ -175,3 +175,9 @@ Set a 90-day window for evaluation. Some metrics improve immediately (Jumpman sa
 Do not make the mistake of measuring only revenue. Jumpman's 2x bookings is the headline number, but the -41% drop-off and +54% session time are equally important because they indicate structural improvements that will compound over time. A lower drop-off rate means every future marketing campaign sends traffic to a site that converts better. A higher session time means visitors engage with more content, building more trust before they convert.
 
 A website redesign is not a creative exercise. It is a business intervention with measurable returns. The design should be driven by what the numbers say is broken, and the success should be measured by whether those numbers improve. Everything else is decoration.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

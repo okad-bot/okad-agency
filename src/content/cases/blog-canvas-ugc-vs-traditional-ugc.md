@@ -188,3 +188,9 @@ Canvas UGC and traditional UGC solve different problems. Treating them as interc
 Match the format to the job. Use canvas UGC where speed, volume, and cost efficiency matter most. Use traditional UGC where authenticity, trust, and personal storytelling drive the result. Measure each format against its intended purpose, not against the other.
 
 The brands getting the best results in 2026 are not debating which format is better. They are building systems that deploy both formats to their strengths — and the data from each campaign informs how they allocate budget for the next one.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

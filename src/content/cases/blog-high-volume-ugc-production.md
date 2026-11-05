@@ -216,3 +216,9 @@ Before committing to 50+ videos per month, verify these prerequisites:
 - **Budget for 3+ months** — The first month of scaled production is setup: building templates, onboarding creators, establishing the weekly cadence. ROI comes in months 2–3 once the system is running and performance data accumulates.
 
 High-volume UGC production is the infrastructure that supports scalable paid advertising. The brands doing it well treat it as an ongoing operational system — not a series of one-off content projects. To see this system in action, read how we produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) or how we ran [creative testing for an AI app on Meta](/cases/creative-testing-ai-app-meta-ads/). For cost benchmarks across different tiers and niches, see our guide on [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/). And if you are considering outsourcing production, our [UGC agency guide](/blog/blog-what-is-ugc-agency/) explains what agencies handle and what it costs.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

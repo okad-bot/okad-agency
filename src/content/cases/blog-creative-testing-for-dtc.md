@@ -177,3 +177,9 @@ The creative testing framework feeds directly into your scaling strategy. For a 
 The pattern: test small, find winners, scale spend, monitor for fatigue, refresh creative, test again. DTC brands that run this cycle weekly grow faster than those who produce one hero video per quarter and hope for the best.
 
 Need help producing the volume of creative variations this framework requires? [See our production pricing](/pricing/) or explore the [DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for format-specific guidance.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

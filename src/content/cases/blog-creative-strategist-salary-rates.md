@@ -187,3 +187,9 @@ Whether you are hiring full-time, freelance, or evaluating agencies:
 4. **Evaluate their production awareness.** A strategist who writes briefs that are impossible or expensive to produce is a strategist who has never worked closely with production. The best ones — like the team at OKAD — understand what editors and creators can realistically deliver because they work alongside them daily.
 
 If you are hiring, our guide on [how to hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) covers what to test for and the red flags to avoid. For the [outsourcing vs in-house decision](/blog/blog-outsource-creative-strategy-agency/), see our full framework. And to understand how the role differs from adjacent positions, read [creative strategist vs media buyer](/blog/blog-creative-strategist-vs-media-buyer/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

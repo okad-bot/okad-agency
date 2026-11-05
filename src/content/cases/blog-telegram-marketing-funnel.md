@@ -230,3 +230,9 @@ Telegram is not a social media platform — it is a direct communication channel
 CyberPulse's results — 1,500 Telegram subscribers, 36K Instagram followers, 12 months, zero ad spend — demonstrate what is possible when Telegram is treated as a sales funnel rather than a content distribution afterthought. The funnel works because each stage has a clear purpose: Instagram attracts, the channel distributes, the group qualifies, and the bot converts.
 
 No algorithm suppression. No pay-to-play. No cold calls. Just daily content, community, and a system that turns subscribers into buyers.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

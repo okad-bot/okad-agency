@@ -178,3 +178,9 @@ We have built this playbook across four major campaigns and 160+ videos. If you 
 
 - [UGC Creators Over 40: Why Older Creators Convert Better](/cases/ugc-creators-over-45/) — Our foundational case study on Silver Age UGC with full campaign breakdowns.
 - [UGC Creators Over 50: Finding and Working With Mature Creators](/blog/blog-ugc-creators-over-50/) — The mid-range guide bridging 40+ and 60+ creator strategies.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

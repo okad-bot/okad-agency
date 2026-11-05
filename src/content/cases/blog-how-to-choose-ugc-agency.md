@@ -5,8 +5,8 @@ title: "How to Choose a UGC Agency: 8 Questions to Ask"
 description: "8-point checklist for evaluating UGC agencies: creator networks, turnaround, pricing, whitelisting, creative testing, and content rights."
 type: blog
 lang: en
-cover: "/images/cases/case-cyberpulse.jpg"
-coverAlt: "Checklist for choosing a UGC agency"
+cover: "/images/cases/covers/okad-case-04-guide-5471-creators.webp"
+coverAlt: "How to choose a UGC agency — brand decision guide"
 faqs:
   - q: "What is the most important factor when choosing a UGC agency?"
     a: "Creative testing capability. An agency that only produces videos without testing them against each other leaves the most important part — finding what actually converts — to you. Ask how they structure tests, what metrics they track, and how test results inform the next production batch."
@@ -155,3 +155,9 @@ Weight these eight questions based on your situation. The right priorities depen
 - **$10K+/month:** creative testing methodology and reporting are the differentiators. At this budget, the agency that helps you find winners faster will pay for itself in lower CPA.
 
 No agency will score perfectly on all eight dimensions. The goal is to identify which factors are non-negotiable for your business and which ones you can work around. Ask the questions, compare the answers, and make the decision based on data — not portfolio aesthetics alone.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

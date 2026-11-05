@@ -174,3 +174,9 @@ The key insight from networks like SpicyCubes (38 ambassadors) and CoupleJoy (16
 Start with 3 creators and a group chat. End with 50 creators and a production system. The path between those two points is built one phase at a time.
 
 For the specific formats and hooks that work best on creator accounts, see our [TikTok content formats guide](/blog/blog-best-tiktok-content-formats-brand-accounts/). If you are setting up the accounts themselves, start with our [TikTok account setup guide](/blog/blog-how-to-post-tiktok-from-outside-us/) and [warm-up protocol](/blog/blog-how-to-warm-up-tiktok-account/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

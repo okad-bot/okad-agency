@@ -210,3 +210,9 @@ AI lifestyle product photography is not coming. It is here. Brands that adopted 
 The brands still paying $8,000 per lifestyle shoot are not buying better quality. They are buying a workflow they are familiar with. The [cost comparison with traditional photography](/blog/blog-ai-product-photography-vs-traditional/) is no longer close for most product categories.
 
 The practical question is not whether to use AI for lifestyle product photos. It is how to integrate it into your existing production pipeline without sacrificing the quality standards your brand requires. Start with a pilot. Test the output against your traditional imagery. Let the results — not assumptions — guide your adoption.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

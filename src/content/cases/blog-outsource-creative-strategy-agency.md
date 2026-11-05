@@ -184,3 +184,9 @@ Whatever model you choose, the evaluation criteria stay the same: performance da
 Here is the simplest decision rule: calculate how many hours per week your team currently spends on creative research, briefing, production coordination, and performance review. If that number exceeds 20 hours and the output is fewer than 15 new concepts per month, an agency will deliver more for less. If the number is under 10 hours, you do not have a creative strategy at all — and the first step is admitting that.
 
 For [creative strategist salary and rate benchmarks](/blog/blog-creative-strategist-salary-rates/) across full-time, freelance, and agency models, see our compensation guide. To understand how creative strategy relates to [media buying](/blog/blog-creative-strategist-vs-media-buyer/), read our role comparison. And to evaluate whether your current strategist is delivering, use the 15-minute audit test in our [good vs bad creative strategist guide](/blog/blog-good-vs-bad-creative-strategist/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

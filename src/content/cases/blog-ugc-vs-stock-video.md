@@ -104,3 +104,9 @@ For paid social ads optimized for conversions, UGC outperforms stock video by a 
 Stock video still has a real place in brand-level content: website hero sections, corporate presentations, B2B contexts, and any scenario requiring production value or locations that are impractical to film with creators.
 
 Most performance marketers should invest primarily in UGC for anything running through paid social, and treat stock footage as supplementary b-roll rather than the primary creative. The brands that build both into their workflow, rather than picking one, get the authenticity that drives clicks and the polish that supports the brand around it.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

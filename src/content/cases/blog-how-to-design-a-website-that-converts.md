@@ -194,3 +194,9 @@ A website that converts is not about trends, gradients, or the latest design fra
 If your current website gets traffic but does not generate leads, the problem is almost certainly structural — not aesthetic. The fixes outlined above will make a measurable difference. If you are working with an agency on a redesign, our guide on [how to brief a creative agency](/blog/blog-how-to-brief-a-creative-agency/) ensures you get the right outcome on the first round.
 
 For examples of conversion-focused design in action, see our [Jumpman website case study](/cases/case-jumpman-website-main/) and our [design services page](/design/). We design websites built around these principles. If you want a site that performs, not just one that looks good, [see how we work](/design) or [book a call directly](https://calendly.com/nickel-okad/30min). We will audit your current site and tell you exactly what is costing you conversions — no pitch, just specifics.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -186,3 +186,9 @@ The brands scaling on Meta and TikTok in 2026 have one thing in common: someone 
 If you are evaluating whether to [hire a creative strategist](/blog/blog-how-to-hire-creative-strategist/) or work with an agency that includes strategy in its workflow, start by answering one question: can you explain, right now, why your best-performing ad works? If the answer is "it just does" — you need a strategist. Not sure if yours is any good? Our guide to the [10 signs of a good vs bad creative strategist](/blog/blog-good-vs-bad-creative-strategist/) has a 15-minute audit test.
 
 For a deeper look at the strategic framework behind high-performing ad creative, read our [complete ad creative strategy guide](/blog/blog-ad-creative-strategy/). And if you want to see creative strategy applied to real campaigns, explore how OKAD produced [high-ROAS UGC ads for Skribly](/cases/high-roas-ugc-ads/) — 1,257 video assets with 8%+ retention rates and 1.5M views, built through the same brief-to-test pipeline described above.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

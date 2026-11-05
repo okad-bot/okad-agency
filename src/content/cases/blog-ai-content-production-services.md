@@ -181,3 +181,9 @@ Three practical next steps:
 3. **Evaluate based on campaign results, not portfolio impressions.** The only metric that matters is whether the content performs in your ad account, not whether it looks good in a case study.
 
 For a broader look at how AI fits into your overall content strategy, see our [AI content creation guide for brands](/blog/blog-ai-content-creation-brands-guide/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -185,3 +185,9 @@ For ad creative production, this means systems like the [Hook Swap System](/case
 The entire process from decision to active RaaS revenue takes 4–6 months. This is not a weekend project. But it is also not a multi-year transformation. The companies that move first capture the positioning advantage — and in a market where clients increasingly demand outcome-based pricing, that advantage compounds.
 
 For the full picture of what RaaS means as a business model, read our [comprehensive RaaS explainer](/blog/blog-what-is-raas/). To see how RaaS applies to creative agencies specifically, our [RaaS for creative agencies guide](/blog/blog-raas-creative-agency/) covers the model with production data from real campaigns.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

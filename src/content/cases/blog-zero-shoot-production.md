@@ -203,3 +203,9 @@ We have done this for brands across skincare, health products, dating apps, and 
 
 - [60+ Ad Variations Without Filming: A Playbook](/blog/blog-ad-variations-without-new-footage/) — The tactical breakdown of each variation method with step-by-step instructions.
 - [AI Product Photography vs. Traditional Shoots](/blog/blog-ai-product-photography-vs-traditional/) — Deep dive into using AI-generated visuals as a Zero-Shoot Production method.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

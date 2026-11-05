@@ -197,3 +197,9 @@ If you are a **provider**: the companies in this list are setting the market exp
 The shift is not coming. It is here. The question is whether you are pricing for it.
 
 For the fundamentals of Results as a Service, start with our [complete RaaS guide](/blog/blog-what-is-raas/). To see specific pricing formulas and model comparisons, our [RaaS pricing models guide](/blog/blog-raas-pricing-models/) covers the math. And if you are considering transforming your own agency, our [agency-to-RaaS playbook](/blog/blog-agency-to-raas/) walks through the transition step by step.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

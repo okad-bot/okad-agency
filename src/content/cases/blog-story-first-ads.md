@@ -209,3 +209,9 @@ Twenty-one seconds is not a magic number. It is an artifact of the story length 
 The principle is structural, not temporal: lead with the problem, explain the mechanism, visualize what is invisible, and let the product arrive as the answer the viewer is now ready to hear.
 
 The brands that understand this produce ads that people watch. The brands that do not produce ads that people skip. The data does not argue about it.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -182,3 +182,9 @@ OKAD built this infrastructure across paid and organic campaigns, from 30 ads pe
 If you are evaluating UGC agencies, ask one question: will you tie your fee to my results? The answer tells you everything about whether they trust their own creative process.
 
 For more on the broader RaaS model applied to creative agencies, read [RaaS: The Creative Agency Model Built for Performance](/blog/blog-raas-creative-agency/). For a tactical guide on producing UGC ads that actually convert, start with [UGC Video Ads That Convert](/blog/blog-ugc-video-ads-that-convert/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

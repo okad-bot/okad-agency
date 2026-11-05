@@ -124,3 +124,9 @@ For most DTC and e-commerce brands spending on paid media, UGC delivers better m
 Influencer marketing serves a different strategic goal. It is the right tool when the job is awareness, credibility, or reaching a specific community quickly -- outcomes that do not show up cleanly in a CPA report but still matter for long-term brand building.
 
 The answer depends on whether you are optimizing for awareness or conversions. Most growing brands need both at different points, but if forced to choose one engine to run every month, UGC is the one that keeps paying back in trackable numbers.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

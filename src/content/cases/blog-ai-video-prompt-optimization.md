@@ -193,3 +193,9 @@ The decision framework:
 **Prompt library recommended:** Any project producing more than 10 pieces of content per month, recurring content with the same subjects, campaigns spanning multiple months, brands with strict visual guidelines.
 
 The investment in key frames and prompt libraries pays for itself within the first month of regular production. The time saved per clip multiplies across every piece of content produced, and the quality improvement compounds as the library grows more refined through use.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

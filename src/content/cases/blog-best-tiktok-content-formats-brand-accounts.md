@@ -177,3 +177,9 @@ TikTok is not one strategy. It is four formats deployed in sequence, with each f
 Start with stories. Graduate to demos. Scale with talking heads. And at every stage, produce enough volume for the math to work in your favor.
 
 For the complete creator account setup process, our [TikTok account warm-up guide](/blog/blog-how-to-warm-up-tiktok-account/) covers the technical foundation. For script writing across all four formats, our [UGC ad script guide](/blog/blog-how-to-write-ugc-ad-scripts/) provides templates and examples from real campaigns.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -177,3 +177,9 @@ A few practical tactics that consistently reduce costs without sacrificing quali
 If you are evaluating canvas UGC for your brand, start with the strategy before the pricing. Understand what content formats your campaigns need, how many assets per month your testing cadence requires, and what creator tier matches your product category. Then match those requirements to the pricing model — per-asset, retainer, or performance-based — that fits your budget and growth stage.
 
 For pricing benchmarks on the agency side, see our [UGC agency pricing breakdown](/blog/blog-ugc-agency-pricing/). For creator-side rate data, check [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/). And for the full strategic picture, start with our guide on [canvas UGC for brands](/blog/blog-canvas-ugc-for-brands/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

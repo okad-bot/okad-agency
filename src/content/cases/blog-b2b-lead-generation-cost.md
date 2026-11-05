@@ -190,3 +190,9 @@ If your current campaign launch process takes 4-6 weeks, cut it in half. Identif
 B2B lead generation costs are not fixed. They are a function of creative quality, variation volume, and iteration speed. Uprest cut CPL by 3x through better creative — same budget, same platform, same audience. Tisa School generated 100+ qualified leads at €2-5 each for a €1,500/month service.
 
 The pattern is consistent: invest in creative production, test systematically, move fast, and build the full stack. The algorithm rewards better ads with lower costs. Your job is to give it better ads to work with.
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.

@@ -210,3 +210,9 @@ Use these tables to plan your scaling trajectory. All figures assume a starting 
 The biggest mistake in budget pacing is scaling spend faster than you scale creative. Our [Skribly UGC campaign](/cases/high-roas-ugc-ads/) maintained strong ROAS precisely because creative production scaled alongside budget — hundreds of new variations testing continuously, replacing fatigued ads before performance collapsed.
 
 Brands that maintain ROAS at scale are not lucky — they run this cycle consistently, with enough creative volume to sustain it. See how we applied this scaling approach in our [DTC video ads case study](/cases/high-converting-video-ads-for-dtc-brands/), or read the [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. For a structured approach to step 1, try our [$500 creative testing framework](/blog/blog-creative-testing-for-dtc/).
+
+## Work With OKAD
+
+OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.
