@@ -60,17 +60,25 @@ For brands already investing in AI creative production, this is a natural extens
 
 Hollow Alpaca Socks — a DTC compression sock brand — ran one of the clearest public tests of this strategy. On October 23, 2026, they launched approximately 15 illustrated static ads on Meta. Same product. Same core message. Same offer. Fifteen different illustration styles.
 
+![Hollow Alpaca Socks ad account overview in Motion — 1,150 active ads across video (70%), image (29%), and carousel (1%). The brand tests illustrated statics alongside UGC, demos, and testimonials. Source: Motion / Meta Ad Library](/images/cases/hollow-illustrated-ads/motion-dashboard-hollow.webp)
+
 The styles they tested:
 
 **1. Anatomy and blood flow diagrams.** Medical-style illustrations showing blood pooling in legs and graduated compression pushing it upward. Almost clinical — looks like a textbook illustration, not an ad. Headlines: "Your socks should be pushing the fluid up," "Graduated compression helps blood flow back up."
+
+![Hollow anatomy-style ad — x-ray view of blood flow before and after compression. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/anatomy-blood-flow.webp)
 
 **2. Pencil sketch, engraving style.** Hatched ink drawings with a hand-drawn, scientific feel. Communicates expertise and authority without looking like marketing. The same compression mechanism, rendered as if from a vintage anatomy textbook.
 
 **3. Chalkboard drawings.** Green background, white chalk-style sketches with arrows showing fluid direction. The "let me explain this simply" format — educational, approachable, and visually distinct from everything else in a feed.
 
+![Hollow chalkboard-style ad — chalk diagram explaining compression on a green board. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/chalkboard-explanation.webp)
+
 **4. Flat 2D cartoon characters.** Simplified human figures showing progression — puffy ankles to normal ankles in 3-4 frames. Reads instantly. Not medical, not scientific — just clear visual storytelling.
 
 **5. 3D claymation renders.** Volumetric feet on display stands, soft studio lighting. Looks like a premium product render from a luxury brand. The same compression message, but the visual language says "premium" instead of "medical."
+
+![Hollow 3D claymation-style ad — feet on display pedestals with soft lighting. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/3d-claymation-toy.webp)
 
 **6. Four-panel comic strips.** Sequential storytelling: tight socks dig in → swelling → graduated compression → relief. The format forces a reading order, increasing time spent on the ad.
 

@@ -38,6 +38,8 @@ Days in rotation — from launch to the point where the ad is either paused by t
 
 ## The Data: Longevity by Format
 
+![Hollow Alpaca Socks ad account in Motion — 1,150 active ads across video, image, and carousel formats. Illustrated statics are the newest addition to a creative mix that already includes demos, UGC, and testimonials. Source: Motion / Meta Ad Library](/images/cases/hollow-illustrated-ads/motion-dashboard-hollow.webp)
+
 OKAD's competitive analysis tracks active ads across categories using Meta Ad Library and Motion. Here is what the rotation data shows for the compression wear category — a market where multiple brands test illustrated formats heavily alongside UGC.
 
 | Format | Brand | Days in Rotation | Notes |

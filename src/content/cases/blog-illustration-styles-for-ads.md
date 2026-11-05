@@ -42,6 +42,8 @@ The cost barrier that used to prevent this approach is gone. AI tools generate a
 
 ### 1. Anatomy and Blood Flow Diagrams
 
+![Hollow Alpaca Socks anatomy-style ad — x-ray before/after showing blood flow mechanics. Smart use of medical visual language without graphic imagery. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/anatomy-blood-flow.webp)
+
 **What it looks like:** Medical-poster-style illustrations showing internal body mechanics — veins, blood flow direction, graduated pressure zones, cross-sections of tissue. Clean lines, warm-to-cool color gradients indicating flow direction, anatomical accuracy without the gore of actual medical photography.
 
 **What it communicates:** Scientific credibility. The viewer sees a diagram that looks like it belongs in a medical textbook, which frames the product as a clinical solution rather than a consumer purchase. The style says "this is how your body works" before it says "buy this product."
@@ -55,6 +57,8 @@ Moderation is another advantage. Real photos of varicose veins, swelling, or ski
 **Typical headlines:** "Your socks should be pushing the fluid up," "Graduated compression helps blood flow back up," "Unclog your legs or your money back."
 
 ### 2. Pencil and Textbook Sketch
+
+![Hollow Alpaca Socks pencil sketch ad for their hunting line — crosshatched illustration with product benefit callouts. The textbook aesthetic reads as expertise, not advertising. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/pencil-sketch-hunt.webp)
 
 **What it looks like:** Crosshatched line drawings with an engraving or woodcut aesthetic. Black-and-white or sepia tones. The visual language of old anatomy textbooks, scientific journals, and field guides.
 
@@ -70,6 +74,8 @@ The crosshatching and line work also create visual texture that photographs lack
 
 ### 3. Chalkboard Drawing
 
+![Hollow Alpaca Socks chalkboard-style ad — chalk diagram on green board explaining compression mechanism with arrows and product. The "teacher at the blackboard" framing shifts the viewer into learning mode. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/chalkboard-explanation.webp)
+
 **What it looks like:** Green or dark chalkboard background with white and colored chalk illustrations. Arrows, labels, simple diagrams explaining a mechanism. The visual language of a teacher explaining something on a school blackboard.
 
 **What it communicates:** "Let me explain this simply." The chalkboard format is inherently educational — the viewer's brain shifts into learning mode. This primes them to absorb information rather than resist a sales pitch.
@@ -83,6 +89,8 @@ The format also supports a clean one-thought-per-frame structure. One headline, 
 **Typical headlines:** "Your socks should be pushing the fluid up" with directional arrows showing the compression mechanism, and a product image plus offer as the resolution.
 
 ### 4. Flat Cartoon People and Feet
+
+![Hollow Alpaca Socks flat cartoon progression ad — 3-step sequence from edema to relief. The simplified style makes a medical condition feel approachable, not clinical. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/flat-cartoon-progression.webp)
 
 **What it looks like:** Simplified cartoon figures — bold outlines, flat colors, exaggerated proportions. Often used in 3-4 frame progression sequences: swollen ankle → treatment → normal ankle. Clean, friendly, instantly readable at thumbnail size.
 
@@ -98,6 +106,8 @@ The format's simplicity also makes it one of the easiest to A/B test. Each frame
 
 ### 5. 3D Claymation and Toy Scenes
 
+![Hollow Alpaca Socks 3D claymation-style ad — volumetric feet on display pedestals showing edema progression. The toy-scene aesthetic feels like a premium product render, not typical ad creative. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/3d-claymation-toy.webp)
+
 **What it looks like:** Volumetric objects on display stands, in glass cases, or on pedestals. Soft studio lighting, clean shadows, pastel or muted backgrounds. The aesthetic of expensive product photography, but everything is rendered in a 3D illustrative style — as if the product exists in a Pixar short film.
 
 **What it communicates:** Premium quality. The 3D render aesthetic signals that this brand invested in its presentation. The display-case framing positions the product as something worth examining closely, not scrolling past.
@@ -109,6 +119,8 @@ The format's simplicity also makes it one of the easiest to A/B test. Each frame
 **Typical headlines:** "Wanted: edema sufferers tired of digging cuffs," "Bye bye edema."
 
 ### 6. Four-Panel Comic Strip
+
+![Hollow Alpaca Socks 4-panel comic strip ad — sequential story from regular socks to graduated compression support. The numbered panels create a narrative arc that holds attention through all four frames. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/comic-strip-4panel.webp)
 
 **What it looks like:** A 2x2 or 1x4 grid of sequential panels telling a micro-story. Each panel advances the narrative: problem → worsening → discovery → solution. Panel borders, numbered sequence, brief text per panel.
 
@@ -122,6 +134,8 @@ The format's simplicity also makes it one of the easiest to A/B test. Each frame
 
 ### 7. Photo and Illustration Hybrid Carousel
 
+![Hollow Alpaca Socks hybrid carousel slide — illustrated diagram explaining fluid buildup and compression mechanism, sandwiched between real photo slides in a 9-card carousel. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/carousel-photo-illustration.webp)
+
 **What it looks like:** A multi-slide carousel where most slides are real photos (a person's story, lifestyle shots, product in use) but 2-3 middle slides switch to illustrated diagrams explaining the mechanism. The effect is a personal story interrupted by a quick science lesson, then returning to the personal narrative.
 
 **What it communicates:** "This is a real person's experience, and here is the science behind why it works." The hybrid format combines UGC-level trust (real face, real story) with illustration-level explanation (mechanisms, diagrams, data).
@@ -133,6 +147,8 @@ The format's simplicity also makes it one of the easiest to A/B test. Each frame
 **Typical structure:** Slides 1-3 (photo): "I thought puffy ankles were just part of getting older." Slides 4-5 (illustration): "Fluid can build up / That can leave ankles puffy / Here is how compression supports return flow." Slides 6-9 (photo): Product, testimonial, offer.
 
 ### 8. Product Schematics and Cross-Sections
+
+![Hollow Alpaca Socks product schematic ad — side-by-side comparison of battery toe warmers vs alpaca material with feature checklist. The engineering-blueprint aesthetic justifies the premium through visual evidence. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/product-schematic-comparison.webp)
 
 **What it looks like:** Technical drawings showing the product's construction — materials, zones, reinforcement points, layer breakdowns. The visual language of engineering blueprints or product spec sheets. Often includes comparison graphics: the old way vs. the new way.
 

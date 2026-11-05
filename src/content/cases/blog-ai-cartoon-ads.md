@@ -111,6 +111,8 @@ The highest-performing accounts do not pick one format. They test all three and 
 
 Not all cartoon ads look the same. The most effective approach is testing one piece of ad copy across multiple illustration styles — each style reads as a distinct ad to the algorithm and appeals to different audience segments. Here are the eight styles that work for static and animated ad creatives:
 
+![Hollow Alpaca Socks chalkboard-style illustrated ad — same product message rendered as a chalk diagram. Each illustration style registers as a distinct creative to the algorithm. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/chalkboard-explanation.webp)
+
 **1. Anatomy and blood flow diagrams.** Medical-poster style illustrations that show internal mechanisms — blood circulation, muscle compression, ingredient absorption. Almost scientific, but without the repulsive medical photography that gets flagged by ad review. Works for compression wear, supplements, skincare, and any product where the benefit happens inside the body.
 
 **2. Pencil sketch (textbook style).** Engraving and crosshatching give an educational, authoritative feel. The illustration looks like it belongs in a science textbook, not a social ad — which is exactly why it stops the scroll. The "expertise" aesthetic works for health, wellness, and technical products.
@@ -118,6 +120,8 @@ Not all cartoon ads look the same. The most effective approach is testing one pi
 **3. Chalkboard drawings.** Green or black board with chalk-style arrows, diagrams, and product illustrations. The "let me explain this simply" format. Works well for problem-solution angles — draw the problem, draw the mechanism, draw the solution. Each frame carries one message.
 
 **4. Flat cartoon characters and progression sequences.** Simple illustrated people showing a before-during-after progression in 3-4 frames. Swelling goes down, energy goes up, pain disappears. The style reads instantly — a viewer understands the transformation in under two seconds. Flat characters are also the easiest to generate consistently with AI tools.
+
+![Hollow Alpaca Socks flat cartoon progression ad — simplified figures showing swelling-to-relief sequence. The same mechanism, drawn instead of photographed. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/flat-cartoon-progression.webp)
 
 **5. 3D claymation and toy scenes.** Volumetric renders that look like stop-motion clay figures or product displays on miniature stages. Soft lighting, physical materials, tactile textures. This style feels premium — like an expensive product shoot — but costs a fraction of real 3D rendering. Works for product-focused ads where you want shelf appeal.
 
@@ -132,6 +136,8 @@ The testing approach: take your single best-performing ad copy and produce it in
 ## When Illustration Beats Photography
 
 Cartoon and illustrated ads have a specific structural advantage for products with invisible benefits. If your product's value cannot be photographed — compression, blood flow, nutrient absorption, pain relief, energy levels, mental clarity — illustration is not just a creative choice. It is the only way to show what the product actually does.
+
+![Hollow Alpaca Socks anatomy diagram ad — blood flow visualization that photography cannot capture. Illustration makes the invisible mechanism visible without triggering moderation. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/anatomy-blood-flow.webp)
 
 A compression sock brand cannot photograph improved circulation. But an anatomy-style illustration showing blood flow being pushed upward, with arrows and color gradients, communicates the mechanism in a single frame. A supplement brand cannot photograph bioavailability. But a cutaway illustration of a capsule releasing ingredients into the bloodstream makes the concept tangible.
 
