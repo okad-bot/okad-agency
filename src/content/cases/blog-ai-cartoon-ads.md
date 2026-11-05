@@ -217,8 +217,12 @@ After the initial character investment, each new cartoon ad costs roughly the sa
 
 For brands already running [AI video production](/blog/blog-how-to-make-ai-video-ads/), adding cartoon format to the creative mix is a natural extension. The same tools and workflow apply — only the visual style changes. If you are comparing AI-generated formats to traditional UGC, our [AI vs UGC comparison](/blog/blog-ai-video-ads-vs-ugc/) covers the performance data across different product categories. And for examples of AI ad creatives across styles, see our [AI ad creative gallery](/blog/blog-ai-ad-creatives-examples/).
 
+![OKAD produced AI-generated illustrated content for a book publisher — 12K+ likes on six posts, zero photo shoots. See the full case study](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*OKAD's AI illustration pipeline in action — cartoon characters and illustrated scenes produced for a book publisher. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
-OKAD produces AI-generated video ads, animated content, and UGC — strategy and production as one service. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your product and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

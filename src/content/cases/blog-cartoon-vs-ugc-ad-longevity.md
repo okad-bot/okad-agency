@@ -136,8 +136,12 @@ The data is unambiguous: illustrated ads rotate for shorter periods (9-40 days) 
 
 If your ad account runs one format — any one format — you are leaving performance on the table. Add a visually distinct format to your next creative test and let the numbers decide.
 
+![OKAD produced AI-generated illustrated and animated content for a book publisher — 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*OKAD runs both illustrated and UGC formats under one retainer — testing longevity, rotating winners, and replacing fatigued creatives without production gaps. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

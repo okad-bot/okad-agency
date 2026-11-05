@@ -161,8 +161,12 @@ When [Olga Kad](https://www.linkedin.com/in/o-kad) and the [OKAD](https://okad.a
 
 The brands that will win on Meta in 2027 are the ones that treat visual diversity as seriously as they treat messaging. Andromeda rewards accounts that give the algorithm more visual signals to explore. Illustration — fast, cheap, infinitely varied — is how you do that without multiplying your production budget.
 
+![OKAD produced AI-generated illustrated and animated content for a book publisher — 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*OKAD produces illustrated ad creatives across all 8 styles — from a single brief to a full style matrix ready for testing. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

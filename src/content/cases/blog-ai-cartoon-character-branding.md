@@ -159,8 +159,12 @@ An agency with established AI character workflows solves the lock problem before
 
 The production economics compound from there. Once the character system is locked, each new scene costs $100-$300 and ships in hours — not days. A brand that wants 20 character-driven ad variations per month gets them faster and cheaper through an agency that has already solved the consistency problem than through an internal team learning it from scratch. For brands exploring multiple [illustration styles](/blog/blog-illustration-styles-for-ads/) alongside character-driven content, the same AI production pipeline handles both — one retainer, one team, one creative strategy.
 
+![OKAD produced 1,257 faceless videos for a drawing app — 1.5M organic views, character-driven content at scale](/images/cases/covers/okad-case-03-drawing-app.webp)
+
+*Character-driven content at scale — OKAD's faceless UGC pipeline generated 1.5M organic views for a drawing app. [See the case study](/cases/drawing-app-faceless-ugc/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

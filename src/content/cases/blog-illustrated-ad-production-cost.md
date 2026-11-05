@@ -172,8 +172,16 @@ This is the difference between "buy 10 illustrations" and "buy a creative testin
 
 For brands comparing agency pricing to other models, our [creative agency pricing guide](/blog/blog-creative-agency-pricing-guide/) covers retainer structures, project-based pricing, and how to evaluate whether an agency's rates match the value they deliver.
 
+![OKAD produced AI-generated illustrated and animated content for a book publisher — 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*AI illustration at production scale — cartoon characters, scene generation, and animated content. [See the full case study](/cases/case-5public/).*
+
+![OKAD produced AI-generated nursery lifestyle images for DaDaDa Baby — 40+ images across 6 channels, zero photo shoots](/images/cases/covers/okad-case-13-dadada-baby.webp)
+
+*AI-generated lifestyle imagery for DaDaDa Baby — 40+ product images across 6 retail channels, no photographer needed. [See the case study](/cases/case-13-ai-nursery-lifestyle-images/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

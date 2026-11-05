@@ -168,8 +168,12 @@ If you are spending $10,000+ per month on ads, the math changes. Your time is be
 
 An agency like OKAD absorbs the tool costs entirely. The retainer covers strategy, production, and the full tool stack — you never manage subscriptions, learn prompt workflows, or troubleshoot generation failures. More importantly, the agency team has already spent thousands of hours on these tools, which means the output quality and production speed are not comparable to what a marketer achieves in their first 3 months of self-teaching. For brands that need both [illustrated statics](/blog/blog-illustrated-ads-meta-andromeda/) and animated video, the same team handles both formats under one creative strategy.
 
+![OKAD produced AI-generated illustrated and animated content for a book publisher — 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*OKAD uses every tool on this list daily — the output is illustrated and animated ad creatives, not experiments. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

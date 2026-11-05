@@ -150,8 +150,12 @@ Internal explainer production makes sense when you produce 1-2 videos per quarte
 
 OKAD's explainer production bundles the strategy (what to explain, in what order, with what visual language) with the production (character design, scene generation, animation, voiceover, editing). First explainer ships within 2 weeks of onboarding. Each subsequent batch ships faster because the character and style system are already locked.
 
+![OKAD's AI production pipeline — illustrated characters and scenes for a book publisher, 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*From character design to finished animated content — OKAD's AI pipeline in action. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

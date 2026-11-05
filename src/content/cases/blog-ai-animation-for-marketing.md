@@ -161,8 +161,12 @@ More importantly, production without strategy is just content. Deciding what to 
 
 The economics are straightforward. Hiring a freelance AI animator costs $3,000-$5,000 per month for 10-15 finished clips. Adding a creative strategist to direct the work costs another $5,000-$8,000. An agency like OKAD delivers both — strategy plus 20-30+ concepts per month — for a comparable total, with [structured creative testing](/blog/blog-creative-testing-methodology/) and performance-driven iteration built into every cycle.
 
+![OKAD produced AI-generated illustrated content for a book publisher — cartoon characters and illustrated scenes, 12K+ likes, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*AI illustration and animation produced by OKAD — from character design to finished ad creatives. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.

@@ -221,8 +221,12 @@ At OKAD, the same AI production team generates all 8 styles from a single creati
 
 The advantage compounds in the testing phase. When the data comes back showing that anatomy diagrams and flat cartoons outperform the other 6 styles, OKAD's team immediately produces 10-15 variations within those winning styles — different layouts, different headline placements, different offer badges — without switching vendors or re-briefing anyone. The same team that produced the test batch produces the scale batch. No context loss. No ramp-up time. One retainer covers strategy, production, and iteration across all [illustration styles](/blog/blog-illustrated-ads-meta-andromeda/) and [animated formats](/blog/blog-ai-cartoon-ads/).
 
+![OKAD produced AI-generated illustrated and animated content for a book publisher — 12K+ likes on six posts, zero photo shoots](/images/cases/covers/okad-case-05-ai-video.webp)
+
+*OKAD generates all 8 illustration styles from a single creative brief — one team, one retainer, full style matrix ready for testing. [See the full case study](/cases/case-5public/).*
+
 ## Work With OKAD
 
 OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
+**[See pricing and book a call](/pricing)** · Or email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals.
