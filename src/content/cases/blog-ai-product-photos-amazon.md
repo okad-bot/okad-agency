@@ -141,7 +141,7 @@ Based on what consistently performs across the listings we produce:
 - [ ] Feature comparisons if relevant to purchase decision
 - [ ] Text legible on mobile (most Amazon browsing is mobile)
 
-**A+ Content:**
+**A+ Content** (for a complete guide to AI-powered A+ modules, see our [Amazon A+ Content guide](/blog/blog-amazon-a-plus-content-ai/)):
 - [ ] Brand story module with lifestyle imagery
 - [ ] Comparison chart if you sell multiple models
 - [ ] Feature-focused modules with AI-generated contextual backgrounds

@@ -100,7 +100,7 @@ Not every touchpoint deserves the same level of brand control. Here is a practic
 
 ### High enforcement: owned channels
 
-Your website, email templates, packaging, pitch decks, and official social profiles should follow brand guidelines closely. These are touchpoints where the audience expects polish and consistency. A messy website signals an unreliable company. This is where the brand book earns its keep.
+Your website, email templates, packaging, [pitch decks](/blog/blog-pitch-deck-design/), and official social profiles should follow brand guidelines closely. These are touchpoints where the audience expects polish and consistency. A messy website signals an unreliable company. This is where the brand book earns its keep.
 
 ### Medium enforcement: paid brand campaigns
 
