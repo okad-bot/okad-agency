@@ -195,10 +195,18 @@ The brands producing one illustration style are leaving performance on the table
 
 The production cost of testing multiple styles has collapsed. AI tools generate a new style in minutes. The only remaining bottleneck is knowing which styles exist, what each communicates, and which matches your product. This guide is the map. The testing is up to you.
 
-For the [full creative strategy framework](/blog/blog-ad-creative-strategy/) behind systematic ad testing, see our complete guide. And if your creative program needs more visual diversity than your team can produce, [OKAD](https://okad.agency) builds illustration-based ad creative as part of every strategy engagement.
+For the [full creative strategy framework](/blog/blog-ad-creative-strategy/) behind systematic ad testing, see our complete guide.
+
+## Testing Multiple Styles Without Multiple Vendors
+
+Testing 8 illustration styles through separate freelancers means managing 8 relationships — 8 briefing sessions, 8 revision cycles, 8 invoices, and 8 different interpretations of "flat cartoon" or "medical diagram." By style number 4, most marketing managers give up and ship whatever arrived first.
+
+At OKAD, the same AI production team generates all 8 styles from a single creative brief. One strategy session defines the product mechanism, the headline, and the offer. The production team then generates the full style matrix — anatomy, sketch, chalk, flat cartoon, 3D, comic, hybrid, and schematic — in a single production sprint. The output: 8 visually distinct ads ready for testing, produced in days rather than weeks.
+
+The advantage compounds in the testing phase. When the data comes back showing that anatomy diagrams and flat cartoons outperform the other 6 styles, OKAD's team immediately produces 10-15 variations within those winning styles — different layouts, different headline placements, different offer badges — without switching vendors or re-briefing anyone. The same team that produced the test batch produces the scale batch. No context loss. No ramp-up time. One retainer covers strategy, production, and iteration across all [illustration styles](/blog/blog-illustrated-ads-meta-andromeda/) and [animated formats](/blog/blog-ai-cartoon-ads/).
 
 ## Work With OKAD
 
-OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan, not a sales pitch.
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.

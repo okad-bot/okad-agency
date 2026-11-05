@@ -140,8 +140,18 @@ Before shipping an AI explainer video, check these seven elements:
 
 For a broader overview of AI animation formats beyond explainers, see our [AI animation marketing guide](/blog/blog-ai-animation-for-marketing/). If you are evaluating whether animated content should replace or supplement your existing [video ad strategy](/blog/blog-dtc-video-ads-guide/), our guide covers the decision framework. And for the character design process specifically, read our [AI cartoon character guide](/blog/blog-ai-cartoon-character-branding/).
 
+## Build vs Buy: When to Outsource Explainer Production
+
+The DIY column in the cost table above looks attractive — $110-$360 for a finished explainer. But that number hides the real cost: 10-20 hours of your time learning tools, iterating on prompts, fixing consistency issues, and editing.
+
+The harder problem is not production — it is strategy. Which product feature do you visualize first? What hook structure converts for your category? Which [illustration style](/blog/blog-illustration-styles-for-ads/) — anatomy diagram, flat cartoon, 3D render — resonates with your audience? A marketer guessing at these decisions produces a video. A creative strategist with testing data produces a video that converts.
+
+Internal explainer production makes sense when you produce 1-2 videos per quarter and have someone on the team with editing experience. It stops making sense when you need 5-10 variations per concept for [creative testing](/blog/blog-creative-testing-methodology/), when each variation needs different hooks and CTAs, and when the explainer needs to perform as a paid ad — not just sit on a landing page. At that point, the learning curve and iteration time exceed the cost of hiring a team that already has the workflow.
+
+OKAD's explainer production bundles the strategy (what to explain, in what order, with what visual language) with the production (character design, scene generation, animation, voiceover, editing). First explainer ships within 2 weeks of onboarding. Each subsequent batch ships faster because the character and style system are already locked.
+
 ## Work With OKAD
 
-OKAD produces AI-generated video ads, animated content, and UGC — strategy and production as one service. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your product and goals — we reply with a specific plan and cost estimate.
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.

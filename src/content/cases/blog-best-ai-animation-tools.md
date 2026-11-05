@@ -158,8 +158,18 @@ The practical implication: production costs will continue to drop and quality wi
 
 For production guides on specific ad formats, see our [AI cartoon ad guide](/blog/blog-ai-cartoon-ads/) and [AI animated explainer guide](/blog/blog-ai-animated-explainer-videos/). For cost benchmarks across all AI video production types, read our [AI video production cost guide](/blog/blog-ai-video-production-cost/). And for the full creative process from brief to finished ad, our [AI product video guide](/blog/blog-how-to-create-ai-product-videos/) walks through each step.
 
+## When to Use Tools vs Hire a Team
+
+The tool costs above are deceptively low. $38-$134 per month for the full stack. But tools are the production layer — they generate raw clips. The decisions that determine whether those clips perform as ads happen upstream: which concepts to produce, which [illustration styles to test](/blog/blog-illustration-styles-for-ads/), which hooks to pair with which visual format, and how to iterate based on performance data.
+
+If your monthly ad spend is under $5,000, learning these tools yourself is a reasonable investment. The volume is low enough that 5-10 ads per month covers your testing needs, and the learning curve pays off over time.
+
+If you are spending $10,000+ per month on ads, the math changes. Your time is better spent on business operations, product development, or campaign strategy — not learning the difference between Runway's motion modes and Kling's image-to-video settings. The tool cost is trivial. The human expertise cost — knowing what to produce and why — is where the real value sits.
+
+An agency like OKAD absorbs the tool costs entirely. The retainer covers strategy, production, and the full tool stack — you never manage subscriptions, learn prompt workflows, or troubleshoot generation failures. More importantly, the agency team has already spent thousands of hours on these tools, which means the output quality and production speed are not comparable to what a marketer achieves in their first 3 months of self-teaching. For brands that need both [illustrated statics](/blog/blog-illustrated-ads-meta-andromeda/) and animated video, the same team handles both formats under one creative strategy.
+
 ## Work With OKAD
 
-OKAD produces AI-generated video ads, animated content, and UGC — strategy and production as one service. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your product and goals — we reply with a specific plan and cost estimate.
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.

@@ -149,8 +149,18 @@ For physical products, the character appears on packaging, inserts, and retail d
 
 For the full production workflow for animated ads using your character, see our [AI cartoon ad guide](/blog/blog-ai-cartoon-ads/). For broader AI animation production beyond characters, our [AI animation marketing guide](/blog/blog-ai-animation-for-marketing/) covers all format types. And for the tools comparison, read our [AI animation tools guide](/blog/blog-best-ai-animation-tools/).
 
+## Character Development as a Service
+
+Character consistency is the single hardest technical challenge in AI-generated content. The design step — coming up with an appealing character — takes 2-3 hours. Keeping that character looking identical across 50+ scenes, in different poses, expressions, and environments, takes weeks of practice and dozens of failed generations.
+
+This is why most brands that attempt character-driven content in-house abandon it after the first batch. The character drifts. Scene 1 looks different from scene 10. The brand ends up with a portfolio of similar-but-not-quite characters that undermine the recognition benefit the character was supposed to create.
+
+An agency with established AI character workflows solves the lock problem before production begins. At OKAD, character development follows a structured process: 30-50 concept generations, narrowing to 3-5 finalists, full character sheet with expressions and poses, LoRA training for consistency, and then a test batch of 10 scenes to verify the lock holds. By the time the first ad ships, the character is locked tight enough to scale to hundreds of scenes without drift.
+
+The production economics compound from there. Once the character system is locked, each new scene costs $100-$300 and ships in hours — not days. A brand that wants 20 character-driven ad variations per month gets them faster and cheaper through an agency that has already solved the consistency problem than through an internal team learning it from scratch. For brands exploring multiple [illustration styles](/blog/blog-illustration-styles-for-ads/) alongside character-driven content, the same AI production pipeline handles both — one retainer, one team, one creative strategy.
+
 ## Work With OKAD
 
-OKAD produces AI-generated video ads, animated content, and UGC — strategy and production as one service. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your product and goals — we reply with a specific plan and cost estimate.
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.

@@ -151,8 +151,18 @@ The strongest creative programs test animation alongside their existing formats 
 
 For a deep dive into cartoon ad production specifically, see our [cartoon ad creative guide](/blog/blog-ai-cartoon-ads/). For cost benchmarks across AI video formats, read our [AI video production cost breakdown](/blog/blog-ai-video-production-cost/). And for the full AI creative workflow from brief to delivery, our [AI creative workflow guide](/blog/blog-ai-creative-workflow/) covers the end-to-end process.
 
+## Why Brands Outsource AI Animation
+
+The tools are accessible. The workflow is documented above. So why do brands hire an agency instead of producing AI animation in-house?
+
+The answer is not capability — it is throughput and strategy. A marketer learning Runway and Kling can produce a usable 15-second clip in 4-8 hours. An experienced AI production team produces the same clip in 1-2 hours — and produces 20 variations in the time it takes a beginner to finish one. The learning curve is real: prompt engineering, character consistency, style locking, and editing all require practice that compounds over months.
+
+More importantly, production without strategy is just content. Deciding what to animate, which [illustration styles to test](/blog/blog-illustration-styles-for-ads/), how to exploit [Meta's Andromeda algorithm](/blog/blog-illustrated-ads-meta-andromeda/) for visual diversity — these decisions determine whether animated content generates revenue or just fills a content calendar. An agency that bundles creative strategy with AI production delivers concepts designed to test specific hypotheses, not just look good.
+
+The economics are straightforward. Hiring a freelance AI animator costs $3,000-$5,000 per month for 10-15 finished clips. Adding a creative strategist to direct the work costs another $5,000-$8,000. An agency like OKAD delivers both — strategy plus 20-30+ concepts per month — for a comparable total, with [structured creative testing](/blog/blog-creative-testing-methodology/) and performance-driven iteration built into every cycle.
+
 ## Work With OKAD
 
-OKAD produces AI-generated video ads, animated content, and UGC — strategy and production as one service. No retainer lock-in. Results-based pricing available.
+OKAD produces illustrated and animated ad creatives as part of a full creative strategy service — research, briefs, production, and testing in one retainer. No per-asset pricing. No retainer lock-in.
 
-**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your product and goals — we reply with a specific plan and cost estimate.
+**[See pricing](/pricing)** · Email [olga@okad.agency](mailto:olga@okad.agency) with your monthly ad spend and goals — we reply with a specific plan and cost estimate.
