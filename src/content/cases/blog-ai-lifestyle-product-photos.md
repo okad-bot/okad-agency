@@ -136,7 +136,7 @@ This is AI's single strongest advantage over traditional photography.
 
 A brand selling on 4-6 channels needs different imagery for each:
 - **DTC website:** Editorial-quality, brand-forward, wide compositions with text overlay space
-- **Amazon:** Product-prominent, bright, clear against lifestyle context
+- **Amazon:** Product-prominent, bright, clear against lifestyle context — see our [AI product photos for Amazon guide](/blog/blog-ai-product-photos-amazon/) for listing-specific requirements
 - **Walmart:** Clean, well-lit, family-friendly staging
 - **Target:** Aspirational, trend-forward, curated aesthetic
 - **Social media:** Vertical crops, bold colors, scroll-stopping compositions

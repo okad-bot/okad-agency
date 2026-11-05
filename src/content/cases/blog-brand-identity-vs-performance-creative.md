@@ -32,7 +32,7 @@ Performance marketers sometimes treat branding as a vanity exercise. Logos and c
 
 Consistent brand presentation across platforms increases revenue by up to 23%, according to Lucidpress research. Meta's own studies show that brand familiarity reduces cost per click by 10–20% over time because users who recognize your brand are more likely to engage. In crowded categories — DTC supplements, fashion, SaaS — the brands that win on paid channels are not just the ones with better targeting. They are the ones people have seen before and remember.
 
-Brand identity is not decoration. It is an efficiency multiplier for every dollar you spend on ads.
+Brand identity is not decoration. It is an efficiency multiplier for every dollar you spend on ads. Our [ad creative strategy](/blog/blog-ad-creative-strategy/) guide covers how to build the testing framework that makes this multiplier compound over time.
 
 ### Recognition compounds
 
@@ -108,7 +108,7 @@ Brand awareness ads, pre-roll video, sponsored content — these should feel cle
 
 ### Low enforcement: performance and UGC
 
-Direct response ads, UGC content, and rapid-test creatives need the most freedom. The goal here is stopping the scroll and driving action, not showcasing your brand book. Keep the watermark, maintain the tone, use the brand colors where natural — but do not let guidelines prevent you from testing a concept that could outperform everything else.
+Direct response ads, UGC content, and rapid-test creatives need the most freedom. The goal here is stopping the scroll and driving action, not showcasing your brand book. [Story-first ads](/blog/blog-story-first-ads/) are a format that naturally balances brand voice with direct-response urgency. Keep the watermark, maintain the tone, use the brand colors where natural — but do not let guidelines prevent you from testing a concept that could outperform everything else.
 
 ### The 80/20 rule
 

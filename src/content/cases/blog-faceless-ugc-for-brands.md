@@ -175,7 +175,7 @@ Faceless is not universally better. Use on-camera talent when:
 - **Testimonials drive conversion.** Real people sharing real experiences need to be seen to be believed.
 - **Your category demands it.** Fashion, fitness apparel, and personal care often need on-body demonstration.
 
-The smart approach: use faceless UGC for volume and testing, on-camera UGC for hero content and conversion-critical touchpoints. For a deeper look at how to build a testing system around this creative, see our guide on [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/).
+The smart approach: use faceless UGC for volume and testing, on-camera UGC for hero content and conversion-critical touchpoints. The bigger question many brands face is whether [AI will replace UGC creators entirely](/blog/blog-ai-ugc-replace-creators/) — the short answer is not yet, but the line is moving fast. For a deeper look at how to build a testing system around this creative, see our guide on [ad creative testing](/blog/blog-ad-creative-testing-how-many-variations/).
 
 ## Getting Started
 

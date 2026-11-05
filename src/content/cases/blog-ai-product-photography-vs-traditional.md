@@ -80,7 +80,7 @@ AI product photography is not universally better or worse than traditional. It i
 - Lifestyle shots requiring real human interaction (hands holding a product, someone using it mid-action)
 - Catalog-standard white-background shots for marketplace compliance
 
-We applied the same AI approach to Godka, an alcohol brand, generating cocktail visuals that extended their existing production shoot output. The results drove 200K-900K organic views per post — numbers their traditional shoots alone could not sustain at that publishing cadence.
+We applied the same AI approach to Godka, an alcohol brand, generating cocktail visuals that extended their existing production shoot output. For more on this production method applied to specific marketplace requirements, see our guide on [AI product photos for Amazon](/blog/blog-ai-product-photos-amazon/). The results drove 200K-900K organic views per post — numbers their traditional shoots alone could not sustain at that publishing cadence.
 
 ## The Process: How AI Product Photography Actually Works
 
@@ -145,7 +145,7 @@ You do not need a professional photo library to begin. Here is the minimum:
 - **Brand guidelines** or at least a mood board (colors, aesthetic direction, target audience)
 - **Channel specifications** (where the images will be used, what sizes and formats)
 
-Customer photos often work better than studio shots as source material. They show products in real contexts, which gives AI more authentic material to build from. Dadada Baby's entire 40+ image library started with photos customers had already posted — cribs in actual homes, not staged showrooms.
+Customer photos often work better than studio shots as source material. They show products in real contexts, which gives AI more authentic material to build from — a principle we explore in depth in our [AI lifestyle product photos](/blog/blog-ai-lifestyle-product-photos/) guide. Dadada Baby's entire 40+ image library started with photos customers had already posted — cribs in actual homes, not staged showrooms.
 
 ## Common Mistakes to Avoid
 
@@ -165,7 +165,7 @@ AI product photography is not a gimmick and it is not a replacement for all trad
 
 The performance data backs this up beyond cost savings. Brands using AI-generated visuals in their ad creative — from Dadada Baby's multi-channel lifestyle imagery to Godka's cocktail content pulling hundreds of thousands of organic views — are not seeing a quality penalty. In the InstaHeadshots case, AI-produced static creatives outperformed UGC talking-head videos on cost per acquisition by 11%, spending nearly half a million dollars across 695 ads.
 
-The brands getting the best results are not choosing sides. They are using AI for volume and variation, traditional for precision and hero moments, and spending their saved budget on more creative concepts instead of more shoot days.
+The brands getting the best results are not choosing sides. They are using AI for volume and variation, traditional for precision and hero moments, and spending their saved budget on more creative concepts instead of more shoot days. For a broader look at how AI fits into overall brand content production, see our [AI content creation guide for brands](/blog/blog-ai-content-creation-brands-guide/).
 
 ## Work With OKAD
 

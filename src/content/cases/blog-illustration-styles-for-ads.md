@@ -209,7 +209,7 @@ Illustration styles are not decorative choices. They are targeting tools. Each s
 
 The brands producing one illustration style are leaving performance on the table. The brands testing eight styles with the same copy are generating eight independent data points per message — and the algorithm rewards them with eight independent distribution paths.
 
-The production cost of testing multiple styles has collapsed. AI tools generate a new style in minutes. The only remaining bottleneck is knowing which styles exist, what each communicates, and which matches your product. This guide is the map. The testing is up to you.
+The production cost of testing multiple styles has collapsed. AI tools generate a new style in minutes — our [illustrated ad production cost breakdown](/blog/blog-illustrated-ad-production-cost/) covers the exact numbers for AI credits, freelancers, and agency production. The only remaining bottleneck is knowing which styles exist, what each communicates, and which matches your product. This guide is the map. The testing is up to you.
 
 For the [full creative strategy framework](/blog/blog-ad-creative-strategy/) behind systematic ad testing, see our complete guide.
 

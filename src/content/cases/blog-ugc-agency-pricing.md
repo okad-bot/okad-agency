@@ -114,7 +114,7 @@ Agency markup covers:
 
 When you manage creators directly, you absorb all of that work. For 1–5 videos, it is manageable. Above 10 videos per month, the time cost of managing creators yourself — finding them, briefing them, chasing deliverables, giving feedback, re-editing — typically exceeds the agency premium.
 
-The breakeven point for most brands is around 10 videos per month. Below that, direct creator relationships can save money. Above that, an agency usually delivers better cost-per-usable-asset because their revision rates are lower and their processes are built for volume.
+The breakeven point for most brands is around 10 videos per month. Below that, direct creator relationships can save money. Above that, an agency usually delivers better cost-per-usable-asset because their revision rates are lower and their processes are built for volume. Our [UGC agency vs freelancers](/blog/blog-ugc-agency-vs-freelancers/) comparison breaks down the full trade-off.
 
 ## How to Compare Agency Quotes
 

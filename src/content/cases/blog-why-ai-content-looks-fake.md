@@ -38,7 +38,7 @@ When a viewer sees an image that is too perfect — too centered, too smooth, to
 
 This is the perfection problem. AI is too good at being clean, and not good enough at being human.
 
-The irony: the features that make AI imagery technically superior — resolution, consistency, sharpness — are the same features that make it feel wrong. Your job is not to make AI worse. It is to redirect its defaults toward the specific imperfections that make photography feel alive.
+The irony: the features that make AI imagery technically superior — resolution, consistency, sharpness — are the same features that make it feel wrong. Your job is not to make AI worse. It is to redirect its defaults toward the specific imperfections that make photography feel alive. For a step-by-step process with prompt examples, see our guide on [how to make AI ads look real](/blog/blog-how-to-make-ai-ads-look-real/).
 
 ## Rule 1: Never Centered
 

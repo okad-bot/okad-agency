@@ -114,7 +114,7 @@ ZenToes faced the same challenge ahead of a Walmart launch. We generated 60+ ad 
 
 ![Ad variation testing at scale using AI-assisted creative production](/images/cases/zentoes-walmart-launch-ads/img-04.jpg)
 
-The insight: creative fatigue is not about your footage being bad. It is about the audience having seen it too many times. AI variation generation solves the fatigue problem without the cost of reshooting, which makes aggressive testing cadences (40-80 variations per cycle) economically viable for mid-market brands.
+The insight: creative fatigue is not about your footage being bad. It is about the audience having seen it too many times. AI variation generation solves the fatigue problem without the cost of reshooting, which makes aggressive testing cadences (40-80 variations per cycle) economically viable for mid-market brands. For a systematic approach to this kind of testing, see our [AI creative testing](/blog/blog-ai-creative-testing/) guide.
 
 ## What Does Not Work (Yet)
 
@@ -167,9 +167,9 @@ After producing AI creatives across dozens of campaigns, the same errors keep ap
 
 ## The Honest Summary
 
-AI ad creatives work. Not universally, not for everything, but for specific use cases the results are measurable and the economics are compelling. The brands getting the most value are not replacing their entire creative operation with AI. They are using AI to expand what is economically feasible — more variations, more testing, more channels — while keeping human direction and real creator content where authenticity matters.
+AI ad creatives work. Not universally, not for everything, but for specific use cases the results are measurable and the economics are compelling. The brands getting the most value are not replacing their entire creative operation with AI. They are using AI to expand what is economically feasible — more variations, more testing, more channels — while keeping human direction and real creator content where authenticity matters. For a look at how that production workflow operates end-to-end, see our [AI creative workflow](/blog/blog-ai-creative-workflow/) guide.
 
-The question is not "should we use AI for ad creatives?" It is "which parts of our creative production pipeline benefit from AI, and which parts still need humans?" The answer is specific to your product, your audience, and your content needs.
+The question is not "should we use AI for ad creatives?" It is "which parts of our creative production pipeline benefit from AI, and which parts still need humans?" The answer is specific to your product, your audience, and your content needs. For a strategic framework on integrating AI into your [ad creative strategy](/blog/blog-ad-creative-strategy/), our guide covers the full testing-to-scaling process.
 
 ## Work With OKAD
 

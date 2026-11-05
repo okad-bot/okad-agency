@@ -61,7 +61,7 @@ const faqSchema = faqs.length > 0 ? {
 } : null;
 ---
 
-<Base title={`${entry.data.title} — OKAD Agency`} description={entry.data.description} ogImage={entry.data.cover} lang={entry.data.lang}>
+<Base title={`${entry.data.title} — OKAD Agency`} description={entry.data.description} ogImage={entry.data.cover} ogType="article" lang={entry.data.lang}>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

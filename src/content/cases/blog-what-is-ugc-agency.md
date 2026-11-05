@@ -138,7 +138,7 @@ Not every brand needs an agency. Here are the signals that you are ready:
 
 ## What to Look for in a UGC Agency
 
-Use this checklist when evaluating agencies:
+Use this checklist when evaluating agencies (our full [guide to choosing a UGC agency](/blog/blog-how-to-choose-ugc-agency/) goes deeper on each criterion):
 
 - **Creator network size and diversity.** Ask how many active creators they work with and in which markets. A network of 500+ creators across multiple demographics gives you more options.
 

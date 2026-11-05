@@ -24,7 +24,7 @@ Most dating app ads look the same. A young creator points at the camera, lip-syn
 
 Over the past year, we produced UGC campaigns for three dating apps owned by the same parent company. Each app targeted a different slice of the 35+ market. Each required a completely different content strategy. The results taught us more about mature-audience marketing than any amount of trend research could.
 
-This is what we learned — and the specific systems that made each campaign work.
+This is what we learned — and the specific systems that made each campaign work. The approach follows the same [creative strategy framework](/blog/blog-ad-creative-strategy/) OKAD uses across verticals, adapted for a uniquely skeptical audience.
 
 ## The Problem With Dating App UGC for Older Audiences
 
@@ -32,7 +32,7 @@ Dating apps spend billions on advertising. Most of that creative is built for us
 
 It does not. Here is what happens when you run standard UGC for a 40+ audience:
 
-- **Hook rates drop.** Trend-based hooks (pointing, transitions, "watch this") feel juvenile to older viewers. They scroll past.
+- **[Hook rates](/blog/blog-hook-rate-explained/) drop.** Trend-based hooks (pointing, transitions, "watch this") feel juvenile to older viewers. They scroll past.
 - **Trust erodes.** Overly polished or scripted content triggers skepticism. This audience has been marketed to for decades. They recognize a pitch.
 - **Engagement stays shallow.** Likes without saves, views without clicks. The content entertains but does not convince anyone to download.
 
@@ -159,7 +159,7 @@ Based on twelve months of data across these three apps:
 - **Trend-chasing content.** TikTok trends cycle in 3-7 days. By the time a 40+ audience discovers a trend, it is already over. Build evergreen formats instead.
 - **Feature-focused ads.** "We have verified profiles" and "advanced matching algorithm" do not move this audience. They have heard every feature claim from every app. Lead with emotion, not features.
 - **Young creator proxies.** Casting a 28-year-old to "play" 42 does not work. The audience spots it immediately, and it signals that the brand does not understand them.
-- **Single-format campaigns.** One format fatigues faster than platform-wide fatigue. Running only talking-head content burns out in 2-3 weeks. Rotate across 4-5 formats minimum.
+- **Single-format campaigns.** One format [fatigues](/blog/blog-ad-fatigue-prevention/) faster than platform-wide fatigue. Running only talking-head content burns out in 2-3 weeks. Rotate across 4-5 formats minimum.
 
 ## The Budget Reality
 

@@ -30,7 +30,7 @@ Here is what actually worked, with real numbers.
 
 Traditional launch marketing follows a linear path: build the product, then find the audience. This model has three structural problems.
 
-First, you have zero data on messaging. Without months of content testing, you are guessing which value propositions resonate. Your launch copy is based on assumptions, not validated hooks.
+First, you have zero data on messaging. Without months of content testing, you are guessing which value propositions resonate. Your launch copy is based on assumptions, not validated hooks. This is the same reason [creative strategy](/blog/blog-ad-creative-strategy/) matters — data beats intuition.
 
 Second, paid acquisition is expensive against cold audiences. CPCs for SaaS products on Meta typically range from $0.50 to $2.00+. Without warm audiences built through organic content, every click costs maximum price.
 
@@ -70,7 +70,7 @@ How we got there:
 
 1. **Organic testing first.** We published 40+ Reels before spending a dollar on ads. The top-performing organic posts became our ad creatives — we already knew which hooks and formats resonated.
 2. **Warm audience targeting.** We built custom audiences from Instagram engagers, video viewers, and website visitors. These warm audiences converted at 3-5x the rate of cold lookalikes.
-3. **DM automation.** Users who commented on posts received automated DMs with a waitlist link. This converted passive engagement into email captures without manual work.
+3. **DM automation.** Users who commented on posts received automated DMs with a waitlist link. This converted passive engagement into email captures without manual work. For audiences already active on messaging apps, a [Telegram marketing funnel](/blog/blog-telegram-marketing-funnel/) can achieve even higher open rates than Instagram DMs.
 
 ### Results
 
@@ -145,7 +145,7 @@ Before publishing anything, build the infrastructure:
 - Content pillars (3-4 topic categories)
 - Bio, highlights, and profile optimization
 
-This phase is non-negotiable. Launching content without a cohesive brand makes every subsequent post work harder.
+This phase is non-negotiable. Launching content without a cohesive brand — including a [website that converts](/blog/blog-how-to-design-a-website-that-converts/) — makes every subsequent post work harder.
 
 ### Week 3-6: Organic Content Sprint
 

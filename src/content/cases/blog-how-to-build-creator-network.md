@@ -169,7 +169,7 @@ A creator network is a portfolio play. Not every video will perform. The math wo
 - If 5 percent break out (7 to 8 videos), each averaging 100K+ views, your weekly organic reach is 700K+
 - At a $4 CPM equivalent, that is $2,800 in earned media value per week from organic content alone
 
-The key insight from networks like SpicyCubes (38 ambassadors) and CoupleJoy (16 creators, 116M total views): a single viral video can pay for months of creator fees. This is a hit-driven game, and volume is how you find hits.
+The key insight from networks like SpicyCubes (38 ambassadors) and CoupleJoy (16 creators, 116M total views): a single viral video can pay for months of creator fees. This is a hit-driven game, and volume is how you find hits. For the full account-level financial model — CPM thresholds, breakeven timelines, and when to cut underperforming accounts — see our [creator account breakeven math guide](/blog/blog-creator-account-breakeven-math/).
 
 Start with 3 creators and a group chat. End with 50 creators and a production system. The path between those two points is built one phase at a time.
 

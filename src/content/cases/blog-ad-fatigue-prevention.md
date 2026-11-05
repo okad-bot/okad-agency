@@ -79,7 +79,7 @@ These approaches delay fatigue but cannot prevent it indefinitely:
 
 ![UGC creator ad for supplement brand — same script, different creator extends creative lifespan](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
-**5. Change the format.** Convert a talking-head to a voiceover-with-b-roll. Turn a single video into a carousel. Reformat a Reel as a Story. Each format change reaches the same audience through a different attention pathway.
+**5. Change the format.** Convert a talking-head to a voiceover-with-b-roll. Turn a single video into a carousel. Reformat a Reel as a Story. Add [cartoon or illustrated ads](/blog/blog-cartoon-vs-ugc-ad-longevity/) to the mix — they fatigue through different mechanisms than UGC, so they extend the overall creative lifespan of the account. Each format change reaches the same audience through a different attention pathway.
 
 **6. Broaden the target audience.** Wider targeting reduces per-person frequency. If your audience is seeing the ad 3 times per week, doubling the audience size cuts that to 1.5 times.
 

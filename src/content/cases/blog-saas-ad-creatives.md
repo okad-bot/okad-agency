@@ -58,7 +58,7 @@ One ad creative cannot speak to all four audiences effectively. Each persona has
 
 SaaS products often have 10-20+ features, each of which could be the primary selling point for a different audience segment. Flipsystem includes CRM, lead scoring, automated follow-up, pipeline management, reporting, and integrations — each deserving its own creative angle.
 
-Testing which features resonate with which audiences requires a volume of creative that most companies do not produce. The result: they default to the broadest possible message ("Grow your business with our CRM") and miss the specific pain points that drive conversions.
+Testing which features resonate with which audiences requires a volume of creative that most companies do not produce — the same [creative testing methodology](/blog/blog-creative-testing-methodology/) that drives DTC results applies to SaaS. The result of under-testing: companies default to the broadest possible message ("Grow your business with our CRM") and miss the specific pain points that drive conversions.
 
 ## The Flipsystem Case: 100+ Creatives, Scalable System
 
@@ -146,7 +146,7 @@ Flipsystem's creative production follows a repeating cycle:
 
 **Week 4-5: Launch and Optimize**
 - Launch new creatives into existing campaign structures
-- Monitor early performance signals (CTR, hook rate, CPC)
+- Monitor early performance signals (CTR, [hook rate](/blog/blog-hook-rate-explained/), CPC)
 - Pause underperformers and reallocate budget to winners
 - Document learnings for the next batch
 
@@ -212,7 +212,7 @@ Launch, measure, and document. Which segments respond to which angles? Which fea
 
 With templates built and data collected, shift to a repeating production cycle. Produce 5-10 new variations per segment every 3-5 weeks. Double down on winning angles. Test new hypotheses. Retire fatigued creatives.
 
-By month 3, you should have 50-100+ creatives in rotation with a clear understanding of what works for each audience segment.
+By month 3, you should have 50-100+ creatives in rotation with a clear understanding of what works for each audience segment. The same [DTC creative testing approach](/blog/blog-creative-testing-for-dtc/) applies — segment by persona, isolate variables, and let the data decide.
 
 ## The Bottom Line
 

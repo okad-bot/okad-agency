@@ -36,7 +36,7 @@ TikTok's spam detection system watches three things on new accounts:
 
 **3. Device and network consistency.** Accounts that switch between devices, change IP addresses, or log in from different locations raise flags. TikTok tracks device identifiers, IP addresses, and usage patterns. Consistency signals legitimacy.
 
-Skipping warm-up does not just reduce your reach. It can trigger a shadowban — where TikTok suppresses your content from the For You page without telling you. A shadowbanned account can post daily for weeks and never break a few hundred views.
+Skipping warm-up does not just reduce your reach. It can trigger a shadowban — where TikTok suppresses your content from the For You page without telling you. A shadowbanned account can post daily for weeks and never break a few hundred views. If you suspect your account is already restricted, our [TikTok shadowban guide](/blog/blog-how-to-avoid-tiktok-shadowban/) covers detection, recovery, and prevention.
 
 ## The Day-by-Day Protocol
 
@@ -129,7 +129,7 @@ The protocol above is for TikTok, but if you are launching accounts across multi
 
 ### TikTok vs Instagram
 
-Instagram requires a longer warm-up — 4 full days before the first post, with a slower posting ramp (1 post/day for the first 4 days, then 2/day for days 5–10, then 3/day). Instagram also requires a static IP VPN — changing IP addresses triggers account restrictions faster than on TikTok. The engagement pattern is similar: scroll Reels, like, comment, follow accounts in your niche.
+Instagram requires a longer warm-up — 4 full days before the first post, with a slower posting ramp (1 post/day for the first 4 days, then 2/day for days 5–10, then 3/day). Instagram also requires a static IP VPN — changing IP addresses triggers account restrictions faster than on TikTok. The engagement pattern is similar: scroll Reels, like, comment, follow accounts in your niche. For the full Instagram-specific protocol, see our [Instagram account warm-up guide](/blog/blog-how-to-warm-up-instagram-account/).
 
 ### TikTok vs YouTube Shorts
 
@@ -176,4 +176,4 @@ Warm-up is not a one-time event. The behaviors that protect your account during 
 
 The warm-up protocol takes 5 days. The payoff is months of healthy distribution. Every brand account, every creator account, every new handle deserves those 5 days before it posts a single video.
 
-For the complete guide on setting up TikTok accounts to reach US audiences from anywhere, see our [region setup guide](/blog/blog-how-to-post-tiktok-from-outside-us/). For content formats that perform best on warmed-up brand accounts, our [TikTok content formats guide](/blog/blog-tiktok-content-formats-brand-accounts/) covers the four formats worth testing first.
+For the complete guide on setting up TikTok accounts to reach US audiences from anywhere, see our [region setup guide](/blog/blog-how-to-post-tiktok-from-outside-us/). For content formats that perform best on warmed-up brand accounts, our [TikTok content formats guide](/blog/blog-best-tiktok-content-formats-brand-accounts/) covers the four formats worth testing first. And if you are struggling with low view counts after warm-up, our guide on [how to get views on a new TikTok account](/blog/blog-how-to-get-views-new-tiktok-account/) covers posting strategy, hook optimization, and the first 30 days of growth.

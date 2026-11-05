@@ -179,7 +179,7 @@ The key indicator is data maturity. If you can clearly attribute revenue or conv
 
 ## How to Evaluate a RaaS Agency: A Checklist
 
-Not every agency claiming to offer RaaS actually delivers it. Some are rebranding existing retainers with outcome language. Here is how to tell the difference.
+Not every agency claiming to offer RaaS actually delivers it. Some are rebranding existing retainers with outcome language. Our [list of RaaS agencies](/blog/blog-raas-agencies-list/) covers vetted providers, and our [RaaS examples guide](/blog/blog-raas-examples/) shows how different industries implement the model. Here is how to tell the difference between real RaaS and rebranded retainers.
 
 **They show measurable results from past work.**
 Not "we helped Brand X with their creative strategy." Real numbers: CPA, ROAS, conversion rates, volume delivered, cost comparisons. If the case studies are vague, the results probably were too.

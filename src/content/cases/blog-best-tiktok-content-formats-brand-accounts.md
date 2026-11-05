@@ -176,7 +176,7 @@ TikTok is not one strategy. It is four formats deployed in sequence, with each f
 
 Start with stories. Graduate to demos. Scale with talking heads. And at every stage, produce enough volume for the math to work in your favor.
 
-For the complete creator account setup process, our [TikTok account warm-up guide](/blog/blog-how-to-warm-up-tiktok-account/) covers the technical foundation. For script writing across all four formats, our [UGC ad script guide](/blog/blog-how-to-write-ugc-ad-scripts/) provides templates and examples from real campaigns.
+For the complete creator account setup process, our [TikTok account warm-up guide](/blog/blog-how-to-warm-up-tiktok-account/) covers the technical foundation. If you are cross-posting to YouTube, our [YouTube Shorts setup guide](/blog/blog-how-to-set-up-youtube-shorts-brand/) walks through region targeting, warm-up, and the format differences between platforms. For script writing across all four formats, our [UGC ad script guide](/blog/blog-how-to-write-ugc-ad-scripts/) provides templates and examples from real campaigns.
 
 ## Work With OKAD
 

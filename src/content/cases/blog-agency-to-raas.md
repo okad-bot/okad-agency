@@ -184,7 +184,7 @@ RaaS is not right for every agency at every stage:
 
 For agencies that meet the prerequisites — measurable outcomes, efficient production, sufficient volume — the transition to RaaS is not a risk. It is the path to higher margins, stronger client relationships, and a defensible competitive position.
 
-To understand the RaaS model itself, start with our [complete guide to Results as a Service](/blog/blog-what-is-raas/). For a direct comparison of RaaS vs retainer structures, see our [decision framework for CMOs and brand managers](/blog/blog-raas-vs-retainer/).
+To understand the RaaS model itself, start with our [complete guide to Results as a Service](/blog/blog-what-is-raas/). For a step-by-step implementation plan, see our [how to launch RaaS guide](/blog/blog-how-to-launch-raas/). For a direct comparison of RaaS vs retainer structures, see our [decision framework for CMOs and brand managers](/blog/blog-raas-vs-retainer/).
 
 ## Work With OKAD
 

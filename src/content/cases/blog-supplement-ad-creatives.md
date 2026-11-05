@@ -45,7 +45,7 @@ The 12 variations shipped without a single new shoot day. Every clip came from f
 
 ## Why Hooks Matter More Than Bodies
 
-Three seconds. That is the window where a supplement ad lives or dies on Meta and TikTok. The body of the ad — product explanation, social proof, CTA — only matters if the viewer stays past the hook.
+Three seconds. That is the window where a supplement ad lives or dies on Meta and TikTok — what we call the [hook rate](/blog/blog-hook-rate-explained/). The body of the ad — product explanation, social proof, CTA — only matters if the viewer stays past the hook.
 
 In our data across six supplement brands:
 
@@ -108,7 +108,7 @@ Each creator received the same product brief but a different angle script. Creat
 
 ![Supplement brand ad testing pipeline](/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg)
 
-The 48 ads entered a structured testing protocol. Week one: all 48 at minimum viable spend. Week two: top 12 get increased budget. Week three: top 4 scale. The losers become data — their hooks get analyzed for what did not resonate, informing the next round of scripts.
+The 48 ads entered a structured [creative testing protocol](/blog/blog-creative-testing-for-dtc/). Week one: all 48 at minimum viable spend. Week two: top 12 get increased budget. Week three: top 4 scale. The losers become data — their hooks get analyzed for what did not resonate, informing the next round of scripts.
 
 ## Five Formats That Work for Supplement Creatives
 
@@ -167,7 +167,7 @@ Each tier builds on the previous one. You do not skip to Tier 3. You earn it by 
 
 **Producing complete ads instead of components.** Every finished ad should be three modules — hook, body, CTA — that can be recombined. If your editor delivers a single timeline that cannot be split, you are paying for one ad when you could have paid for ten.
 
-**Waiting for performance to drop before producing new creative.** By the time your CPA rises 30%, you have already lost 2–3 weeks of scale. Build a production calendar that delivers new hooks before the old ones fatigue — every 7–14 days for Meta, every 5–10 days for TikTok.
+**Waiting for performance to drop before producing new creative.** By the time your CPA rises 30%, you have already lost 2–3 weeks of scale. Build a production calendar that delivers new hooks before the old ones [fatigue](/blog/blog-ad-fatigue-prevention/) — every 7–14 days for Meta, every 5–10 days for TikTok.
 
 **Ignoring format as a variable.** A hook that fails in a sizzle reel may win in a before/after story. The same message lands differently depending on structure. Test hook-format combinations, not just hooks.
 

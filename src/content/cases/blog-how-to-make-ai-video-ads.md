@@ -98,7 +98,7 @@ This method produced book trailer content that earned thousands of engagements b
 
 Generate 3–5 variations of each shot. AI output is stochastic — you will get one great result, two usable ones, and two that need regeneration. Budget for this.
 
-**Prompt structure for consistent results:**
+**Prompt structure for consistent results** (our [AI video prompt optimization guide](/blog/blog-ai-video-prompt-optimization/) covers the full methodology):
 - Describe the scene, not the effect ("a moisturizer bottle on a marble bathroom counter, morning sunlight from the left" not "beautiful product shot")
 - Specify camera movement ("slow push-in" or "static wide shot" not "cinematic")
 - Include lighting direction ("warm side light from upper left" not "natural lighting")

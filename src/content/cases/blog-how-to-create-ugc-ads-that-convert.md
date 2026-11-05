@@ -87,7 +87,7 @@ This modular approach is how brands achieve volume. OKAD's work with a [Swiss sk
 
 ## Step 5: Edit for the Platform
 
-Editing is where most UGC ads fail or succeed. The same footage performs completely differently depending on the edit.
+Editing is where most UGC ads fail or succeed. The same footage performs completely differently depending on the edit. For a complete walkthrough with tool recommendations and before/after examples, see our [UGC video editing guide](/blog/blog-how-to-edit-ugc-video-ads/).
 
 **Universal editing rules:**
 - First frame must be visually distinct — no black screens, no slow fades, no logos

@@ -13,7 +13,7 @@ faqs:
   - q: "What kind of source material do I need to create product videos without shooting?"
     a: "At minimum, 3-5 clear product photos from any source — customer photos, phone shots, previous campaigns. For footage re-editing, you need existing video assets (old ads, creator content, behind-the-scenes clips). The better your source material, the higher the ceiling of your output."
   - q: "How much do shoot-free product videos cost?"
-    a: "AI-generated product visuals cost under $700 per session for 20-30 variations. Re-editing existing footage into new ads runs $200-800 per finished video. AI animation from still images costs $150-500 per clip. All three methods cost 50-90% less than traditional video production for equivalent output."
+    a: "AI-generated product visuals cost under $700 per session for 20-30 variations. Re-editing existing footage into new ads runs $200-800 per finished video. AI animation from still images costs $150-500 per clip. All three methods cost 50-90% less than traditional video production for equivalent output. For brands considering the [AI video ad production pipeline](/blog/blog-how-to-make-ai-video-ads/), these methods integrate directly."
   - q: "Which method works best for e-commerce product videos?"
     a: "For marketplace listings and DTC sites, AI-generated lifestyle imagery is the strongest starting point — it produces the volume you need across channels. For social ads and paid media, re-editing existing footage delivers the fastest results with proven performance. For brand storytelling, AI animation creates the most visually distinctive content."
   - q: "Will customers notice that product videos were not traditionally shot?"
@@ -177,9 +177,9 @@ If you have never produced content without a traditional shoot, start here:
 
 Traditional product shoots are not obsolete, but they are no longer the default. The three methods above — AI-generated visuals, footage re-editing, and AI animation — handle the majority of product video needs at a fraction of the cost and timeline.
 
-The brands producing the most content in 2026 are not the ones with the biggest production budgets. They are the ones that recognized their existing assets — customer photos, archived footage, brand artwork — are raw material for new content, not artifacts of past campaigns.
+The brands producing the most content in 2026 are not the ones with the biggest production budgets. They are the ones that recognized their existing assets — customer photos, archived footage, brand artwork — are raw material for new content, not artifacts of past campaigns. For a detailed breakdown of [AI video production costs](/blog/blog-ai-video-production-cost/), see our pricing guide.
 
-Start with what you have. Produce more from it. Save the traditional shoot budget for the moments that truly require a camera in the room.
+Start with what you have. Produce more from it. Save the traditional shoot budget for the moments that truly require a camera in the room. For brands scaling creative volume without shoots, our [zero-shoot production guide](/blog/blog-zero-shoot-production/) covers the complete system.
 
 ## Work With OKAD
 

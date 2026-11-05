@@ -32,7 +32,7 @@ Traditional book trailers have a fundamental problem: they try to be movie trail
 
 The artwork is the asset. Readers connect with cover illustrations. They share them, debate them, and use them as phone wallpapers. Animating that artwork — making the scenes readers already love come alive — creates content that feels native to the book rather than bolted on.
 
-The second problem is cost. A live-action book trailer that actually looks good requires a production crew, locations, actors (or at least hands holding the book), and a skilled editor. For most publishers, that budget is better spent elsewhere. AI animation removes the production overhead while keeping the emotional impact.
+The second problem is cost. A live-action book trailer that actually looks good requires a production crew, locations, actors (or at least hands holding the book), and a skilled editor. For most publishers, that budget is better spent elsewhere — and when you compare the [cost of AI video production](/blog/blog-ai-video-production-cost/) to traditional methods, the gap is dramatic. AI animation removes the production overhead while keeping the emotional impact.
 
 ## The Process: Artwork to Animated Trailer
 
@@ -172,7 +172,7 @@ The trailer is not the end of the content pipeline. The key frames, animation cl
 - **Retailer assets** — animated content for Amazon A+ pages, bookstore displays, and publisher websites
 - **Event content** — looping animations for book signing backdrops, convention displays, and virtual events
 
-The initial investment in key frames and visual systems produces an asset library, not a single deliverable. Publishers who approach AI animation as infrastructure rather than a one-off project extract significantly more value from the same production spend.
+The initial investment in key frames and visual systems produces an asset library, not a single deliverable. Publishers who approach [AI animation](/blog/blog-ai-animation-for-marketing/) as infrastructure rather than a one-off project extract significantly more value from the same production spend.
 
 ## Work With OKAD
 

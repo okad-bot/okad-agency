@@ -98,7 +98,7 @@ Instead of faking social proof or leaving a gap where testimonials should be, we
 
 We used third-party industry data to establish the cost of chargebacks for businesses (an estimated $117.47 billion globally by 2023, according to Juniper Research) and positioned Trusto's solution against that market reality. The message was not "our customers love us" but "here is the problem costing your business money, and here is how the math works with our solution."
 
-The deck-to-website pipeline saved significant time. Typography, color palette, iconography, illustration style, and messaging hierarchy were all established in the deck. When the website build started, the design system was already proven and approved.
+The deck-to-website pipeline saved significant time. Typography, color palette, iconography, illustration style, and messaging hierarchy were all established in the deck. When the [website build](/blog/blog-how-to-design-a-website-that-converts/) started, the design system was already proven and approved.
 
 **Timeline:** 4-6 weeks for both deck and website.
 
@@ -130,7 +130,7 @@ A revenue projection chart means nothing without the assumptions behind it. Show
 
 Design quality in a pitch deck is not about making things pretty. It signals three things investors care about:
 
-**Clarity of thinking.** A well-structured deck suggests the founders think clearly about their business. If you cannot organize 15 slides into a coherent story, investors wonder how you will organize a company.
+**Clarity of thinking.** A well-structured deck — like a well-structured [brand identity](/blog/blog-brand-identity-vs-performance-creative/) — suggests the founders think clearly about their business. If you cannot organize 15 slides into a coherent story, investors wonder how you will organize a company.
 
 **Attention to detail.** Typos, misaligned elements, inconsistent fonts — these are red flags. Not because investors care about typography, but because carelessness in the deck suggests carelessness elsewhere.
 

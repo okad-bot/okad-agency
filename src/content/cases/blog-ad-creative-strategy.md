@@ -185,7 +185,7 @@ The investment breaks into two categories:
 **Media costs (testing allocation):**
 - 20–30% of total ad spend dedicated to testing new creative
 
-At OKAD, we build and run these systems for brands across DTC, e-commerce, SaaS, and service businesses. Our [pricing page](/pricing/) breaks down creative production packages. The typical starting point is a modular production sprint paired with a 3-month testing roadmap.
+At OKAD, we build and run these systems for brands across DTC, e-commerce, [SaaS](/blog/blog-saas-ad-creatives/), and service businesses. If you are evaluating whether to build in-house or work with an [AI ad creative agency](/blog/blog-ai-ad-creative-agency/), our [pricing page](/pricing/) breaks down creative production packages. The typical starting point is a modular production sprint paired with a 3-month testing roadmap.
 
 ## The System vs. The Guess
 

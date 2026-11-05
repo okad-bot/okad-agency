@@ -172,9 +172,9 @@ Track these metrics starting from day one after launch:
 
 Set a 90-day window for evaluation. Some metrics improve immediately (Jumpman saw 2x bookings in month one). Others take time as SEO rankings stabilize and returning users adapt to the new navigation.
 
-Do not make the mistake of measuring only revenue. Jumpman's 2x bookings is the headline number, but the -41% drop-off and +54% session time are equally important because they indicate structural improvements that will compound over time. A lower drop-off rate means every future marketing campaign sends traffic to a site that converts better. A higher session time means visitors engage with more content, building more trust before they convert.
+Do not make the mistake of measuring only revenue. Jumpman's 2x bookings is the headline number, but the -41% drop-off and +54% session time are equally important because they indicate structural improvements that will compound over time. For a deeper dive on [how to design a website that converts](/blog/blog-how-to-design-a-website-that-converts/), see our design principles guide. A lower drop-off rate means every future marketing campaign sends traffic to a site that converts better. A higher session time means visitors engage with more content, building more trust before they convert.
 
-A website redesign is not a creative exercise. It is a business intervention with measurable returns. The design should be driven by what the numbers say is broken, and the success should be measured by whether those numbers improve. Everything else is decoration.
+A website redesign is not a creative exercise. It is a business intervention with measurable returns. The design should be driven by what the numbers say is broken, and the success should be measured by whether those numbers improve. Everything else is decoration. For businesses that need both a strong web presence and a [pre-launch audience](/blog/blog-pre-launch-marketing/), the website redesign and content strategy should run in parallel.
 
 ## Work With OKAD
 
