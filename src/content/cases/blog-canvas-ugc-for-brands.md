@@ -130,7 +130,7 @@ The numbers below reflect real pricing from programs we have managed. Your milea
 | **Studio production** | $5,000–$50,000 | $100,000+ | Full production, limited assets |
 | **In-house creator** | $3,000–$6,000/mo salary | $3,000–$6,000 | Dependent on one person |
 
-Canvas UGC becomes dramatically cheaper at scale. At 50 assets per month, the per-asset cost can drop below $75. At 100+ assets, you are producing more content monthly than most studios produce in a quarter — at a fraction of the budget.
+Canvas UGC becomes dramatically cheaper at scale. At 50 assets per month, the per-asset cost can drop below $75. At 100+ assets, you are producing more content monthly than most studios produce in a quarter — at a fraction of the budget. For a detailed breakdown of creator rates, platform fees, and management costs, see our [canvas UGC pricing guide for brands](/blog/blog-canvas-ugc-pricing-for-brands/).
 
 The hidden cost advantage is iteration speed. When you find a winning format, you can produce 10 variations in a week. With studio production, that same pivot takes a month and another $30,000.
 

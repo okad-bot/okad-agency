@@ -92,7 +92,7 @@ Convert your composed key frames into motion. This is where AI video tools earn 
 
 **Prompt structure that works:**
 
-Describe the camera movement, not the product. The product is already in your key frame. Your prompt should specify: camera direction (slow dolly in, static, orbit), environmental motion (background blur shift, light change), and duration. Do not describe the product itself — that introduces hallucination risk.
+Describe the camera movement, not the product. The product is already in your key frame. Your prompt should specify: camera direction (slow dolly in, static, orbit), environmental motion (background blur shift, light change), and duration. Do not describe the product itself — that introduces hallucination risk. For advanced prompting techniques — negative prompts, style modifiers, and seed control — see our [AI video prompt optimization guide](/blog/blog-ai-video-prompt-optimization/).
 
 ### Step 4: Sound Design
 

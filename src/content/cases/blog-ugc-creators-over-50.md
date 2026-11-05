@@ -177,7 +177,7 @@ Even brands that understand the value of mature creators make predictable errors
 
 For the full case data behind these findings, see our [UGC creators over 40 main case](/cases/ugc-creators-over-45/), which breaks down each campaign in detail.
 
-If you are building a broader UGC program, our [UGC video ads guide](/blog/blog-ugc-video-ads-that-convert/) covers the production system from creator sourcing to scale. For brands in the dating vertical specifically, our [dating app marketing guide](/blog/blog-dating-app-marketing/) covers platform-specific strategies beyond UGC.
+If you are building a broader UGC program, our [UGC video ads guide](/blog/blog-ugc-video-ads-that-convert/) covers the production system from creator sourcing to scale. For the 60+ demographic specifically, our [UGC creators over 60 guide](/blog/blog-ugc-creators-over-60/) covers the additional considerations for the oldest age group. For brands in the dating vertical, our [dating app marketing guide](/blog/blog-dating-app-marketing/) covers platform-specific strategies beyond UGC.
 
 The data is clear: for audiences over 50, the creator is the creative strategy. Match the messenger to the audience, lead with authenticity over polish, and let the numbers prove what works.
 

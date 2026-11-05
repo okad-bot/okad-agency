@@ -22,7 +22,7 @@ faqs:
 
 Human UGC changed paid social. Authentic-looking creator videos outperform polished brand content on nearly every metric. But human UGC has a scaling problem: each video requires finding a creator, shipping product, waiting for delivery, reviewing drafts, requesting revisions, and paying $150-500 per final asset.
 
-AI UGC solves the scaling problem. Not by replacing human creators entirely — but by filling the gaps where speed, volume, and cost matter more than perfect authenticity.
+AI UGC solves the scaling problem. Not by [replacing human creators entirely](/blog/blog-ai-ugc-replace-creators/) — but by filling the gaps where speed, volume, and cost matter more than perfect authenticity.
 
 This guide covers the full production pipeline: from choosing the right AI format to exporting platform-ready ads.
 

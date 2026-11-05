@@ -42,7 +42,7 @@ The cleanest comparison comes from InstaHeadshots — an AI headshot app where w
 | Difference | 11% lower | Baseline |
 | Top concept ROAS | 2.26 | — |
 
-AI statics outperformed UGC on cost per acquisition by 11%. The top-performing AI concept hit ROAS 2.26. At nearly half a million dollars in spend, this is not a fluke — it is a statistically significant result across hundreds of ads.
+AI statics outperformed UGC on cost per acquisition by 11%. The top-performing AI concept hit ROAS 2.26. At nearly half a million dollars in spend, this is not a fluke — it is a statistically significant result across hundreds of ads. For the full cost breakdown of AI video production, see our [AI video production cost](/blog/blog-ai-video-production-cost/) guide.
 
 ![AI static ad creatives that outperformed UGC in head-to-head testing](/images/cases/ai-app-designed/img-05.jpg)
 
@@ -162,11 +162,11 @@ After nearly half a million dollars in directly comparable spend, plus campaigns
 
 1. **AI wins on production efficiency and testing velocity.** When you need volume, variation, and speed, AI is the clear choice.
 2. **UGC wins on trust and emotional connection.** When the purchase decision is personal, when the buyer needs to see themselves in someone else's story, real creators outperform.
-3. **The format matters less than the strategy.** A well-art-directed AI creative beats a lazy UGC video. A genuine, well-briefed creator beats a generic AI product shot. Direction quality outweighs format choice.
+3. **The format matters less than the strategy.** A well-art-directed AI creative beats a lazy UGC video. A genuine, well-briefed creator beats a generic AI product shot. Direction quality outweighs format choice. Our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) covers how to brief creators for maximum performance.
 4. **Hybrid outperforms single-format.** The best-performing ad accounts use both — AI for volume and testing, UGC for trust and conversion. Running one format exclusively leaves performance on the table.
 5. **Product-format fit determines the winner.** The 11% CPA advantage for AI statics on InstaHeadshots does not mean AI statics will beat UGC for your supplement brand. Match the format to your product's trust requirement and comprehension speed.
 
-The question is not "AI or UGC?" It is "what ratio of AI to UGC does our specific product, audience, and funnel stage require?" The answer is always a number, not a side.
+The question is not "AI or UGC?" It is "what ratio of AI to UGC does our specific product, audience, and funnel stage require?" The answer is always a number, not a side. For a format-longevity perspective on this same question, our guide on [cartoon ads vs UGC ad longevity](/blog/blog-cartoon-vs-ugc-ad-longevity/) compares how long each format survives in rotation before fatigue.
 
 ## Work With OKAD
 

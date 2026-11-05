@@ -39,7 +39,7 @@ The result is predictable:
 - **Generic messaging.** B2B ads tend to describe features rather than articulate specific pain points. "Streamline your operations" is not a hook — "Cut food waste costs by 30% in 60 days" is.
 - **No video.** Many B2B companies still default to static image ads because video production seems expensive and slow. This is a competitive disadvantage — video consistently outperforms static in B2B on Meta and LinkedIn.
 
-The fix is not a better media buyer. It is a production system that generates enough high-quality variations to test properly, iterates fast enough to capitalize on winners, and includes video as a default format.
+The fix is not a better media buyer. It is a production system that generates enough high-quality variations to test properly, iterates fast enough to capitalize on winners, and includes video as a default format. The same [creative strategy framework](/blog/blog-ad-creative-strategy/) that drives DTC campaigns applies to B2B — the testing methodology is identical, only the messaging changes.
 
 ## Case 1: Uprest — From €10.97 to €2.75 Per Lead
 
@@ -175,7 +175,7 @@ If you are running static-only campaigns, video is your fastest path to CPL redu
 
 ### Step 3: Test Hooks First
 
-The first 3 seconds of a video ad (or the headline of a static ad) determine whether someone engages. Test 5-10 hook variations before optimizing anything else. This is the highest-leverage testing you can do.
+The first 3 seconds of a video ad (or the headline of a static ad) determine whether someone engages. Test 5-10 [hook variations](/blog/blog-hook-rate-explained/) before optimizing anything else. This is the highest-leverage testing you can do.
 
 ### Step 4: Build the Full Stack
 
@@ -183,7 +183,7 @@ Ads drive traffic. What happens after the click determines whether that traffic 
 
 ### Step 5: Compress Your Timeline
 
-If your current campaign launch process takes 4-6 weeks, cut it in half. Identify the bottlenecks — usually creative production and approval cycles — and systematize them. Every week of delay is a week of leads not generated.
+If your current campaign launch process takes 4-6 weeks, cut it in half. Identify the bottlenecks — usually creative production and [agency briefing](/blog/blog-how-to-brief-a-creative-agency/) cycles — and systematize them. Every week of delay is a week of leads not generated.
 
 ## The Bottom Line
 

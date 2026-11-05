@@ -80,7 +80,7 @@ For most websites we build, 60-75% of traffic comes from mobile devices. Yet man
 
 Google's data shows 53% of mobile visitors leave if a page takes more than 3 seconds to load. We have seen this first-hand: a professional services client came to us with a 7-second mobile load time and a 78% bounce rate. After rebuilding on Framer with optimized images and minimal JavaScript, load time dropped to 1.8 seconds. Bounce rate fell to 42%. No other changes — same content, same copy, same offer.
 
-The fastest wins we implement on every project: convert images to WebP, lazy-load anything below the fold, eliminate render-blocking scripts, and use a CDN. These are not optional optimizations. They are baseline requirements.
+The fastest wins we implement on every project: convert images to WebP, lazy-load anything below the fold, eliminate render-blocking scripts, and use a CDN. These are not optional optimizations. They are baseline requirements. For brands preparing to launch, our [pre-launch marketing](/blog/blog-pre-launch-marketing/) guide covers how to build demand before the site goes live.
 
 ## Load Speed: The Invisible Conversion Factor
 
@@ -191,7 +191,7 @@ The platform should match the business need. For most companies reading this, th
 
 A website that converts is not about trends, gradients, or the latest design framework. It is about structure: clear messaging above the fold, intentional CTA placement, mobile-first performance, strategic social proof, and copy that follows the decision sequence your visitors already use.
 
-If your current website gets traffic but does not generate leads, the problem is almost certainly structural — not aesthetic. The fixes outlined above will make a measurable difference. If you are working with an agency on a redesign, our guide on [how to brief a creative agency](/blog/blog-how-to-brief-a-creative-agency/) ensures you get the right outcome on the first round.
+If your current website gets traffic but does not generate leads, the problem is almost certainly structural — not aesthetic. Our guide on [website redesign ROI](/blog/blog-website-redesign-roi/) covers how to measure the business impact of fixing these issues. The fixes outlined above will make a measurable difference. If you are working with an agency on a redesign, our guide on [how to brief a creative agency](/blog/blog-how-to-brief-a-creative-agency/) ensures you get the right outcome on the first round.
 
 For examples of conversion-focused design in action, see our [Jumpman website case study](/cases/case-jumpman-website-main/) and our [design services page](/design/). We design websites built around these principles. If you want a site that performs, not just one that looks good, [see how we work](/design) or [book a call directly](https://calendly.com/nickel-okad/30min). We will audit your current site and tell you exactly what is costing you conversions — no pitch, just specifics.
 

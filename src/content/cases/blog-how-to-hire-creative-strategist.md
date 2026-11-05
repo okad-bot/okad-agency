@@ -68,7 +68,7 @@ This is the model behind every OKAD engagement. When we ran the [Tipaw dog suppl
 
 ![OKAD hiring reel with 81.8K views — finding creative strategists requires the same content-first approach](/images/cases/by-okad-camera-roll-creators/hire_818k.jpg)
 
-For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. OKAD's model is built around this: clients get strategic direction alongside a production team that executes at scale. For the [ZenToes Walmart launch](/cases/zentoes-walmart-launch-ads/), the team produced 60+ ad variations in weeks — a volume that would require a full-time strategist plus a 3-person production team if built in-house.
+For most brands spending $10K-$50K/month, the agency model delivers the most value. You get a strategist plus a production team — editors, designers, script writers — for less than a single full-time strategist salary. Our [list of the best creative strategy agencies](/blog/blog-best-creative-strategy-agencies/) covers what to look for. OKAD's model is built around this: clients get strategic direction alongside a production team that executes at scale. For the [ZenToes Walmart launch](/cases/zentoes-walmart-launch-ads/), the team produced 60+ ad variations in weeks — a volume that would require a full-time strategist plus a 3-person production team if built in-house.
 
 ## What to Look For in a Creative Strategist
 

@@ -96,7 +96,7 @@ Between 15 and 30 videos per month, an agency still wins on total cost and offer
 
 Above 30 videos per month, a hybrid model is worth serious consideration -- in-house strategy paired with agency execution. Pure in-house production only makes sense above roughly 50 videos per month, and only with a dedicated team rather than a single hire stretched across every function.
 
-For most brands, the lowest-risk path is starting with an agency, learning what formats and creators actually perform, and building an in-house function later once volume and proven playbooks justify the fixed cost. If you want to see how the numbers would work for your specific volume, check [our pricing](/pricing/).
+For most brands, the lowest-risk path is starting with an agency, learning what formats and creators actually perform, and building an in-house function later once volume and proven playbooks justify the fixed cost. Our guide on [how to choose a UGC agency](/blog/blog-how-to-choose-ugc-agency/) covers the evaluation criteria, and the [UGC agency vs freelancers](/blog/blog-ugc-agency-vs-freelancers/) comparison helps if you are weighing both options. If you want to see how the numbers would work for your specific volume, check [our pricing](/pricing/).
 
 ## Work With OKAD
 

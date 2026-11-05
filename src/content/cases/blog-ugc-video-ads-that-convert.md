@@ -49,7 +49,7 @@ This is not about making cheap content. It is about making content that matches 
 | Platform-native feel | High | Low |
 | Scalability | High — multiple creators | Low — requires new shoots |
 
-The economics matter. A single studio shoot might produce 2-3 final assets. The same budget allocated to UGC production yields 20-30 variations — different hooks, different creators, different angles on the same product. More variations means more tests. More tests means faster optimization. Faster optimization means lower acquisition costs within weeks, not months.
+The economics matter. A single studio shoot might produce 2-3 final assets. The same budget allocated to UGC production yields 20-30 variations — different hooks, different creators, different angles on the same product. More variations means more tests. More tests means faster optimization. Faster optimization means lower acquisition costs within weeks, not months. For a detailed comparison of when stock footage still makes sense versus when UGC is the clear winner, see our [UGC vs stock video breakdown](/blog/blog-ugc-vs-stock-video/).
 
 ## Formats That Work: TikTok vs Meta vs YouTube
 
@@ -158,7 +158,7 @@ After 200+ campaigns, the failure patterns are predictable:
 
 If you are spending on paid social and your creative is underperforming — or you know you need UGC but have not built the production pipeline — we can help. We handle creator sourcing, briefing, production management, and post-production so you get a steady flow of tested, platform-native video ads.
 
-Start with a look at our [UGC video production services](/#offer), or read our [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. If you are evaluating agencies, our guide on [what a UGC agency does](/blog/blog-what-is-ugc-agency/) covers services, pricing, and when to hire one.
+Start with a look at our [UGC video production services](/#offer), or read our [complete DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for platform-specific strategies. For e-commerce brands specifically, our [video ads for e-commerce guide](/blog/blog-video-ads-for-ecommerce/) covers product demo formats, unboxing scripts, and platform-specific specs. For supplement brands, our [supplement ad creatives guide](/blog/blog-supplement-ad-creatives/) covers compliance-safe formats and proven hooks. If you are evaluating agencies, our guide on [what a UGC agency does](/blog/blog-what-is-ugc-agency/) covers services, pricing, and when to hire one.
 
 ## Work With OKAD
 

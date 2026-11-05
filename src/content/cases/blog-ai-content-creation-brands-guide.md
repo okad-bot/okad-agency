@@ -35,7 +35,7 @@ AI content for brands falls into four categories, each with different strengths,
 | Ad creatives | Paid social, display, retargeting | 40-60% less | 3-7 days |
 | Social content | Organic feeds, stories, reels | 50-70% less | 1-3 days |
 
-The common mistake is treating these as one thing. Each requires a different workflow, different quality standards, and different human expertise. A method that works for product photography fails at character animation. A prompt that generates good static images produces poor video.
+The common mistake is treating these as one thing. Each requires a different workflow, different quality standards, and different human expertise. Our [AI creative workflow](/blog/blog-ai-creative-workflow/) guide covers the end-to-end process from brief to delivery. A method that works for product photography fails at character animation. A prompt that generates good static images produces poor video.
 
 ## Category 1: AI Product Photography
 
@@ -199,7 +199,7 @@ Raw AI output is never final. Post-production is where content becomes professio
 - Retouching for photography
 - Platform-specific formatting
 
-Post-production typically accounts for 30-40% of total production time. Skipping it is the most visible quality shortcut.
+Post-production typically accounts for 30-40% of total production time. Skipping it is the most visible quality shortcut. For a deeper look at mixing AI and human production for best results, see our guide on [hybrid AI-human content](/blog/blog-hybrid-ai-human-content/).
 
 ### Step 5: Delivery
 
@@ -275,7 +275,7 @@ These ranges reflect total production cost including visual system development, 
 
 **Week 4: Measurement and scale.** Publish content, measure against baseline metrics (engagement rate, CPA, impressions). Compare AI content performance to existing content. Expand production volume based on results.
 
-The brands that get the most value from AI content creation treat it as infrastructure — a production system that improves over time — rather than a one-off experiment. The visual system, prompt libraries, and key frame templates built in the first month become assets that reduce cost and increase quality for every subsequent piece of content.
+The brands that get the most value from AI content creation treat it as infrastructure — a production system that improves over time — rather than a one-off experiment. If you are weighing the [in-house vs agency](/blog/blog-inhouse-vs-agency-ai-creative/) decision for AI creative production, our comparison guide breaks down the trade-offs. The visual system, prompt libraries, and key frame templates built in the first month become assets that reduce cost and increase quality for every subsequent piece of content.
 
 ## Work With OKAD
 

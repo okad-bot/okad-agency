@@ -105,11 +105,11 @@ The format should match the product, audience, and campaign objective:
 | Brand control | Total | High | Low-medium |
 | Compliance risk | Very low | Medium | Higher |
 
-The highest-performing accounts do not pick one format. They test all three and let the data determine the mix. A common winning pattern: cartoon hook (first 3 seconds for scroll-stop) grafted onto a UGC body (for trust and social proof). This hybrid approach combines the pattern interrupt of animation with the authenticity of a real person.
+The highest-performing accounts do not pick one format. They test all three and let the data determine the mix. For a full breakdown of AI credits, freelancer rates, and agency pricing, see our [illustrated ad production cost guide](/blog/blog-illustrated-ad-production-cost/). A common winning pattern: cartoon hook (first 3 seconds for scroll-stop) grafted onto a UGC body (for trust and social proof). This hybrid approach combines the pattern interrupt of animation with the authenticity of a real person.
 
 ## Illustration Styles to Test
 
-Not all cartoon ads look the same. The most effective approach is testing one piece of ad copy across multiple illustration styles — each style reads as a distinct ad to the algorithm and appeals to different audience segments. Here are the eight styles that work for static and animated ad creatives:
+Not all cartoon ads look the same. The most effective approach is testing one piece of ad copy across multiple illustration styles — each style reads as a distinct ad to the algorithm and appeals to different audience segments. Our [complete guide to 8 illustration styles for ads](/blog/blog-illustration-styles-for-ads/) covers each one with examples and best-use cases. Here is the summary:
 
 ![Hollow Alpaca Socks chalkboard-style illustrated ad — same product message rendered as a chalk diagram. Each illustration style registers as a distinct creative to the algorithm. Source: Meta Ad Library](/images/cases/hollow-illustrated-ads/chalkboard-explanation.webp)
 
@@ -131,7 +131,7 @@ Not all cartoon ads look the same. The most effective approach is testing one pi
 
 **8. Product schematics and cross-sections.** Technical drawings showing the inside of a product — layers, materials, construction details. The "how it works" format for physical products. A cross-section of a shoe sole, a cutaway of a mattress, a diagram of a supplement capsule. These convert engineers, researchers, and skeptical buyers who want to understand what they are buying.
 
-The testing approach: take your single best-performing ad copy and produce it in 4-6 of these styles. Launch all variants simultaneously with the same budget. After $50-$100 per variant, you will know which visual style resonates with your audience — and you will have 4-6 genuinely different ads in rotation instead of one.
+The testing approach: take your single best-performing ad copy and produce it in 4-6 of these styles. Launch all variants simultaneously with the same budget. After $50-$100 per variant, you will know which visual style resonates with your audience — and you will have 4-6 genuinely different ads in rotation instead of one. This style-matrix approach is exactly what [Meta's Andromeda algorithm rewards](/blog/blog-illustrated-ads-meta-andromeda/) — each style registers as a distinct creative signal.
 
 ## When Illustration Beats Photography
 
@@ -164,7 +164,7 @@ The data is still early — illustrated ads at scale are a late-2026 phenomenon 
 | Raw phone photos with long narrative | 100-200 days | Low-production lifestyle content with authentic stories |
 | Illustrated statics (long-running) | 60-360+ days | Early data from brands with 100+ active illustrated ads |
 
-The takeaway: illustrated ads are not replacing UGC. Strong brands add illustration as a new visual type alongside working UGC and photos — so the algorithm sees more genuinely different ads and distributes budget across a wider creative pool. The goal is not "cartoon vs UGC" but "cartoon plus UGC" — more visual diversity means more independent learning cycles in the ad account.
+The takeaway: illustrated ads are not replacing UGC. Strong brands add illustration as a new visual type alongside working UGC and photos — so the algorithm sees more genuinely different ads and distributes budget across a wider creative pool. The goal is not "cartoon vs UGC" but "cartoon plus UGC" — more visual diversity means more independent learning cycles in the ad account. Our [cartoon ads vs UGC longevity analysis](/blog/blog-cartoon-vs-ugc-ad-longevity/) dives deeper into the fatigue mechanisms behind each format.
 
 ## Animated Characters for Older Audiences
 
@@ -219,7 +219,7 @@ For brands already running [AI video production](/blog/blog-how-to-make-ai-video
 
 ![OKAD produced AI-generated illustrated content for a book publisher — 12K+ likes on six posts, zero photo shoots. See the full case study](/images/cases/covers/okad-case-05-ai-video.webp)
 
-*OKAD's AI illustration pipeline in action — cartoon characters and illustrated scenes produced for a book publisher. [See the full case study](/cases/case-5public/).*
+*OKAD's AI illustration pipeline in action — cartoon characters and illustrated scenes produced for a book publisher, including [AI-generated book trailers](/blog/blog-ai-book-trailers/) that earned 12K+ likes. [See the full case study](/cases/case-5public/).*
 
 ## Work With OKAD
 

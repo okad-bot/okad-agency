@@ -24,7 +24,7 @@ Amazon A+ Content is one of the highest-leverage conversion tools available to b
 
 The reason most brands underinvest in A+ Content is production cost. Each module needs custom imagery, and a full A+ layout requires 5-7 unique visuals beyond the standard listing images. Traditional photography for A+ Content alone can cost $2,000-$5,000 per ASIN. Multiply by a 20-SKU catalog and the numbers become prohibitive.
 
-AI-generated imagery changes this calculus. Not every element of A+ Content benefits equally from AI, but the modules that matter most — lifestyle scenes, brand story visuals, and comparison backgrounds — are exactly where AI production excels.
+AI-generated imagery changes this calculus. Not every element of A+ Content benefits equally from AI, but the modules that matter most — lifestyle scenes, brand story visuals, and comparison backgrounds — are exactly where [AI product photography](/blog/blog-ai-product-photos-amazon/) excels.
 
 ## What A+ Content Is and Where It Appears
 
@@ -199,7 +199,7 @@ If you are brand-registered on Amazon and do not have A+ Content on your listing
 
 Start with your top 3 ASINs by revenue. Plan a 5-module A+ layout for each. Generate lifestyle and brand imagery using AI. Composite with real product photography. Submit, measure, and expand to the rest of your catalog.
 
-The investment in a prompt library and initial AI generation session pays back across every ASIN and every seasonal update — compounding returns that traditional per-shoot production economics cannot match.
+The investment in a prompt library and initial AI generation session pays back across every ASIN and every seasonal update — compounding returns that traditional per-shoot production economics cannot match. For a broader look at [AI lifestyle product photos](/blog/blog-ai-lifestyle-product-photos/) beyond Amazon, see our cross-channel guide. And for a comprehensive comparison of [AI vs traditional product photography](/blog/blog-ai-content-creation-brands-guide/), see our brand content guide.
 
 ## Work With OKAD
 

@@ -60,7 +60,7 @@ For roughly the same annual cost as one in-house strategist, you get strategy, p
 
 [Olga Kad](https://www.linkedin.com/in/o-kad) built [OKAD](https://okad.agency) after watching brands overpay for creative strategy by hiring one person and then discovering they also needed editors, creators, and a production manager. The agency model was born from a simple observation: strategy without production is a document nobody acts on. The [Canvas Tech UGC network](/cases/canvas-tech-ugc-without-new-shoots/) project coordinated 5,471 creators without a single new shoot — the best Reel hit 81.8K views on zero ad spend, a velocity no single hire could match, and the kind of scale that only an integrated strategy-plus-production team delivers.
 
-**When this works:** You spend $10K-$100K per month on ads. You need both strategy and production. You want proven frameworks without the 6-12 month learning curve of a new hire figuring things out on your budget.
+**When this works:** You spend $10K-$100K per month on ads. You need both strategy and production. You want proven frameworks without the 6-12 month learning curve of a new hire figuring things out on your budget. For a deeper comparison of the AI-specific trade-offs, see our [in-house vs agency AI creative](/blog/blog-inhouse-vs-agency-ai-creative/) breakdown.
 
 ### Model 3: Hybrid
 
@@ -87,7 +87,7 @@ The most common mistake: hiring an in-house creative strategist at $120K when yo
 
 ## What to Look for in a Creative Strategy Agency
 
-Not all agencies that claim to do creative strategy actually do it. Most do production: they make ads. A creative strategy agency does something different — they decide which ads to make, based on data and testing methodology.
+Not all agencies that claim to do creative strategy actually do it. Most do production: they make ads. A creative strategy agency does something different — they decide which ads to make, based on data and testing methodology. Our [guide to the best creative strategy agencies](/blog/blog-best-creative-strategy-agencies/) covers what separates the top tier from the rest.
 
 **Five evaluation criteria:**
 

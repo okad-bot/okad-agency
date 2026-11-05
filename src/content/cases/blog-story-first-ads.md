@@ -26,7 +26,7 @@ It makes intuitive sense. You are paying for attention. Why waste it on anything
 
 Because attention is not the same as investment. A viewer who sees your product in the first second knows it is an ad. A viewer who hears a story that mirrors their own experience forgets they are watching one. The product, when it finally appears, arrives as an answer — not an interruption.
 
-Over the past year, we produced 100+ ads across three brands that share one principle: the product waits. The data behind that principle is what this article covers.
+Over the past year, we produced 100+ ads across three brands that share one principle: the product waits. This is part of the broader [creative strategy framework](/blog/blog-ad-creative-strategy/) OKAD runs with every client — and the data behind it is what this article covers.
 
 ## The 21-Second Rule: Longevity Supplement Case
 
@@ -139,7 +139,7 @@ The data across three brands and 100+ ads points to three mechanisms:
 ### 1. Pattern Disruption
 Product-first ads look like ads. The viewer's scroll-trained brain identifies them in under one second and keeps moving. Story-first ads look like content. They earn the first three seconds by not triggering the "this is an ad" reflex.
 
-In our testing, story-first hooks had 35–45% thumb-stop rates versus 22–28% for product-first hooks. The opening frame determines whether the rest of the ad exists for the viewer.
+In our testing, story-first hooks had 35–45% [thumb-stop rates](/blog/blog-hook-rate-explained/) versus 22–28% for product-first hooks. The opening frame determines whether the rest of the ad exists for the viewer.
 
 ### 2. Emotional Investment
 A story creates a gap — a question the viewer needs answered. What happened to the person with gut problems? Did the scientist explain why I feel this way? What does my dog's scratching actually mean?
@@ -208,7 +208,7 @@ Twenty-one seconds is not a magic number. It is an artifact of the story length 
 
 The principle is structural, not temporal: lead with the problem, explain the mechanism, visualize what is invisible, and let the product arrive as the answer the viewer is now ready to hear.
 
-The brands that understand this produce ads that people watch. The brands that do not produce ads that people skip. The data does not argue about it.
+The brands that understand this produce ads that people watch. The brands that do not produce ads that people skip. The data does not argue about it. For a deeper look at how [brand identity intersects with performance creative](/blog/blog-brand-identity-vs-performance-creative/), see our analysis of when branding serves conversion and when it gets in the way.
 
 ## Work With OKAD
 

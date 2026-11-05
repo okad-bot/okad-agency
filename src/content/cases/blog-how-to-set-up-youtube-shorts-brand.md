@@ -166,7 +166,7 @@ A single YouTube Shorts account can only test so many content angles. Once you h
 - Target adjacent niches with separate content strategies
 - Scale volume beyond what one account can sustainably post
 
-The breakeven math is straightforward: if your CPM is $4, an account that costs $1,000 per month in creator fees needs 250,000 views to break even. With a proven content format and consistent posting, most accounts hit this threshold within 6-8 weeks.
+The breakeven math is straightforward: if your CPM is $4, an account that costs $1,000 per month in creator fees needs 250,000 views to break even. With a proven content format and consistent posting, most accounts hit this threshold within 6-8 weeks. For a full breakdown of RPM rates, ad revenue splits, and scaling strategies, read our guide on [how to monetize YouTube Shorts](/blog/blog-how-to-monetize-youtube-shorts/).
 
 ## Common Mistakes That Kill YouTube Shorts Accounts
 
@@ -182,7 +182,7 @@ The breakeven math is straightforward: if your CPM is $4, an account that costs 
 
 YouTube Shorts is the compounding channel that most brands overlook while competing for attention on TikTok. The setup takes a day. The warm-up takes four. And the discovery tail means every video you post keeps working long after you move on to the next one.
 
-For the complete warm-up protocols across all platforms, see our [social media account warm-up guide](/blog/blog-how-to-warm-up-social-media-accounts/). To understand how to structure content for maximum variations from minimal production, our [zero-shoot creative scaling guide](/blog/blog-how-to-scale-ad-creative-without-shoots/) covers the system we use across campaigns.
+For the complete warm-up protocols across all platforms, see our [social media account warm-up guide](/blog/blog-how-to-warm-up-tiktok-account/). To understand how to structure content for maximum variations from minimal production, our [zero-shoot creative scaling guide](/blog/blog-how-to-scale-ad-creative-without-shoots/) covers the system we use across campaigns.
 
 ## Work With OKAD
 

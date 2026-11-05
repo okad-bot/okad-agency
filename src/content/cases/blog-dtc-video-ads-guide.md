@@ -162,7 +162,7 @@ YouTube serves two purposes for DTC: Shorts competes with TikTok and Reels for s
 
 ## Creative Testing at Scale
 
-The single biggest mistake DTC brands make is producing one or two creatives and running them until they die. The brands that scale profitably are the ones that treat creative production as a continuous pipeline, not a one-time project.
+The single biggest mistake DTC brands make is producing one or two creatives and running them until they die. The brands that scale profitably are the ones that treat creative production as a continuous pipeline, not a one-time project. Our [creative testing for DTC](/blog/blog-creative-testing-for-dtc/) guide covers the full testing cadence in detail.
 
 ### The Testing Hierarchy
 

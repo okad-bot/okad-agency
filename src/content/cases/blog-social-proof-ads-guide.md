@@ -44,7 +44,7 @@ Not all social proof carries equal weight:
 **Expert endorsement** → moderate trust, moderate scale
 **Celebrity endorsement** → lowest trust per dollar, highest awareness
 
-Customer-level proof offers the optimal balance. It is credible enough to drive action and scalable enough to sustain a paid media campaign through UGC creator networks. See how this played out in our [high-ROAS UGC ads case study](/cases/high-roas-ugc-ads/) where creator content drove measurable acquisition results.
+Customer-level proof offers the optimal balance. It is credible enough to drive action and scalable enough to sustain a paid media campaign through [UGC creator networks](/blog/blog-ugc-video-ads-that-convert/). See how this played out in our [high-ROAS UGC ads case study](/cases/high-roas-ugc-ads/) where creator content drove measurable acquisition results.
 
 ## The Five-Part Ad Structure
 
@@ -85,7 +85,7 @@ Offer $20–$50 store credit for customer-submitted video reviews. Provide simpl
 | Production cost | $50–$200/clip | $2K–$20K/shoot | $500–$5K/video |
 | Typical CPA impact | 15–30% lower | Baseline | 5–15% lower |
 
-The best-performing ad accounts use all three types, allocating budget based on performance data rather than picking one approach exclusively. Social proof dominates the mid and bottom funnel where trust is the primary conversion barrier.
+The best-performing ad accounts use all three types, allocating budget based on performance data rather than picking one approach exclusively. [UGC whitelisting](/blog/blog-ugc-whitelisting-guide/) adds another layer by running social proof creative through the creator's own account for even higher trust signals. Social proof dominates the mid and bottom funnel where trust is the primary conversion barrier.
 
 ## Platform Optimization
 

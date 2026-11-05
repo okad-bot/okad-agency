@@ -192,7 +192,7 @@ The decision framework:
 
 **Prompt library recommended:** Any project producing more than 10 pieces of content per month, recurring content with the same subjects, campaigns spanning multiple months, brands with strict visual guidelines.
 
-The investment in key frames and prompt libraries pays for itself within the first month of regular production. The time saved per clip multiplies across every piece of content produced, and the quality improvement compounds as the library grows more refined through use.
+The investment in key frames and prompt libraries pays for itself within the first month of regular production. The time saved per clip multiplies across every piece of content produced, and the quality improvement compounds as the library grows more refined through use. For a complete production walkthrough from brief to final clip, see our [AI product video guide](/blog/blog-how-to-create-ai-product-videos/). For cost benchmarks across different production approaches, check our [AI video production cost breakdown](/blog/blog-ai-video-production-cost/).
 
 ## Work With OKAD
 

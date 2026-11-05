@@ -38,7 +38,7 @@ The AI produced nursery scenes, lifestyle contexts, and product compositions tha
 
 ![AI-generated product photography for baby furniture brand](/images/cases/ai-app-designed/img-07.jpg)
 
-This is the clearest replacement case. A UGC creator adding nothing beyond "here is the product in a nice setting" is doing a job that AI does faster, cheaper, and with more variation. If the value a creator provides is purely visual context for a physical product, that value is being commoditized.
+This is the clearest replacement case. A UGC creator adding nothing beyond "here is the product in a nice setting" is doing a job that AI does faster, cheaper, and with more variation. If the value a creator provides is purely visual context for a physical product, that value is being commoditized. For the technical details, see our guide on [how to make AI video ads](/blog/blog-how-to-make-ai-video-ads/).
 
 ### Short-Form Video Animation
 
@@ -116,7 +116,7 @@ Across 50+ campaigns, the pattern that emerges is:
 | Conversion (hot) | UGC | Trust, social proof, personal stories |
 | Retention | Both | Product updates (AI) + community (creators) |
 
-Brands that use AI exclusively leave trust-building on the table. Brands that use UGC exclusively cannot test at the volume required to optimize. The highest-performing accounts run both.
+Brands that use AI exclusively leave trust-building on the table. Brands that use UGC exclusively cannot test at the volume required to optimize. The highest-performing accounts run both. For the production mechanics of the UGC side, our guide on [UGC video ads that convert](/blog/blog-ugc-video-ads-that-convert/) covers briefing, formats, and scaling.
 
 ## What This Means for UGC Creators
 
@@ -135,7 +135,7 @@ The honest forecast:
 - Creators with strong on-camera presence, comedic timing, or storytelling ability
 - Creators who can produce content that requires complex human interaction, emotion, or spontaneity
 
-The shift is from "person who can hold a product and read a script" to "person whose authentic experience and audience relationship makes the content credible." This is a higher bar, but it is also a more defensible and better-compensated position.
+The shift is from "person who can hold a product and read a script" to "person whose authentic experience and audience relationship makes the content credible." This is a higher bar, but it is also a more defensible and better-compensated position. Creators exploring camera-free formats should see our [faceless UGC guide](/blog/blog-faceless-ugc-for-brands/) — a format that bridges AI efficiency and human authenticity.
 
 ## The Production Cost Reality
 

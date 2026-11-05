@@ -124,7 +124,7 @@ The differences between canvas and traditional UGC go beyond structure. Here is 
 
 Neither format is universally better. Traditional UGC works well for organic social content where a brand wants genuine, unscripted testimonials. Canvas UGC works better for paid advertising where performance data drives decisions and volume matters.
 
-Many brands run both: traditional UGC for organic social proof and canvas UGC for their [paid ad creative pipeline](/blog/blog-ad-creative-strategy/). The key is matching the format to the goal.
+Many brands run both: traditional UGC for organic social proof and canvas UGC for their [paid ad creative pipeline](/blog/blog-ad-creative-strategy/). For a deeper dive into how each format performs across cost, scalability, and conversion metrics, see our [canvas UGC vs traditional UGC comparison](/blog/blog-canvas-ugc-vs-traditional-ugc/). The key is matching the format to the goal.
 
 ![Drawing app canvas UGC analytics — 29.8K views on a single faceless video](/images/cases/drawing-app-faceless-ugc/stat_top.jpg)
 

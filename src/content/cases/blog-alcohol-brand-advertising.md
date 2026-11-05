@@ -92,7 +92,7 @@ The editing philosophy for Godka is deliberately counter to social media trends:
 | Text overlays | Heavy | Minimal |
 | Transitions | Jump cuts | Smooth/dissolves |
 
-This pacing achieves two things:
+This pacing — the opposite of the rapid-fire hooks that work in [UGC video ads](/blog/blog-ugc-video-ads-that-convert/) — achieves two things:
 
 1. **It signals premium quality.** Fast cuts feel like advertising. Slow pacing feels like cinematography. The audience reads slow pacing as confidence — the brand does not need to rush because the product speaks for itself.
 2. **It earns saves and shares.** Aspirational content gets saved. Informational content gets liked. Saved content is weighted more heavily by Instagram's algorithm, which drives the 200K-900K organic reach numbers.
@@ -178,7 +178,7 @@ Godka's numbers:
 - **Efficient production** — single production days generating weeks of content
 - **Creator network** — vetted talent for consistent quality across UGC and hero content
 
-These results are driven by the intersection of three specializations: bartending expertise, premium content production, and regulatory compliance. Remove any one of these, and the system breaks down.
+These results are driven by the intersection of three specializations: bartending expertise, premium content production, and regulatory compliance. Remove any one of these, and the system breaks down. The same principle of [creative strategy built around testing](/blog/blog-ad-creative-strategy/) applies here — the difference is that alcohol content adds compliance as a non-negotiable layer.
 
 ## What Premium Alcohol Brands Should Look For
 
@@ -208,7 +208,7 @@ A professional alcohol content production should generate 15-20+ setups per day.
 
 Alcohol brand advertising is a specialist category. The brands that achieve viral organic reach — the 200K-900K views per post — combine real bartending expertise, premium slow-paced production, strict compliance frameworks, and AI-extended content calendars. The brands that struggle treat alcohol like any other product and wonder why the content underperforms or gets removed.
 
-The difference is specialization. General agencies produce general results. Alcohol-specific production, with vetted creators and compliance built into the process from day one, produces 900K-view posts that never get flagged.
+The difference is specialization. General agencies produce general results. Alcohol-specific production, with vetted creators and compliance built into the process from day one, produces 900K-view posts that never get flagged. This is the power of [story-first creative](/blog/blog-story-first-ads/) — when the narrative leads and the product follows, content earns organic reach that paid amplification cannot replicate.
 
 ## Work With OKAD
 

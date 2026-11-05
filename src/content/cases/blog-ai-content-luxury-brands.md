@@ -13,7 +13,7 @@ faqs:
   - q: "How much does AI content production cost compared to traditional luxury shoots?"
     a: "AI content production typically runs 70-85% less than traditional shoots. A jewelry brand we worked with eliminated monthly Parisian photo shoots entirely, reducing costs to normal content budgets while maintaining 12-18 posts per month over 6+ months. The savings scale further because seasonal refreshes and new product variations require no reshooting."
   - q: "What are the biggest mistakes brands make with AI-generated luxury content?"
-    a: "Three common failures: using default AI compositions (centered, symmetrical, over-lit), not establishing brand-specific prompt libraries, and treating AI as a replacement for creative direction rather than a tool within it. The brands that fail with AI luxury content are the ones that skip the art direction phase and expect the tool to make aesthetic decisions on its own."
+    a: "Three common failures: using default AI compositions (centered, symmetrical, over-lit), not establishing brand-specific prompt libraries, and treating AI as a replacement for creative direction rather than a tool within it. The brands that fail with AI luxury content are the ones that skip the art direction phase and expect the tool to make aesthetic decisions on its own. For [story-first ad approaches](/blog/blog-story-first-ads/) that maintain brand voice while driving conversion, our creative guide covers the framework."
   - q: "How do you maintain brand consistency across dozens of AI-generated assets?"
     a: "Build a prompt library tied to your brand guidelines. Each product category, setting, and mood gets a tested prompt template with locked parameters for lighting, composition, and texture. For a jewelry client, we maintain 10+ individual prompt sets — one per stone type — each encoding the same three design rules but adapted to how that specific material catches light."
 ---
@@ -54,7 +54,7 @@ AI defaults to perfection: flawless skin, mirror-finish metals, impossibly smoot
 
 Our prompts enforce: unretouched skin texture, asymmetric hand positioning, matte rather than glossy surfaces, visible fabric weave. The jewelry catches light unevenly because that is what real stones do. Hands have knuckle creases and slightly uneven nail beds.
 
-This is counterintuitive for teams used to heavy retouching. But the matte, imperfect aesthetic is exactly what separates Celine from Shein in visual language.
+This is counterintuitive for teams used to heavy retouching. But the matte, imperfect aesthetic is exactly what separates Celine from Shein in visual language. Balancing [brand identity with performance creative](/blog/blog-brand-identity-vs-performance-creative/) is a challenge every luxury brand faces when scaling ads.
 
 ### Rule 3: Light From the Side
 
@@ -173,7 +173,7 @@ If your brand is considering AI content production, start with these three steps
 
 3. **Start with low-risk channels.** Social content, email headers, and website secondary imagery are lower-stakes than hero campaigns. Build confidence and refine prompts on these before moving to primary advertising assets.
 
-The technology is not the bottleneck. Art direction is. Brands with strong creative direction will produce premium AI content. Brands without it will produce expensive-looking stock photos — with AI or without it.
+The technology is not the bottleneck. Art direction is. Brands with strong creative direction will produce premium AI content. Brands without it will produce expensive-looking stock photos — with AI or without it. For a broader look at AI content production across all categories, see our [AI content creation for brands](/blog/blog-ai-content-creation-brands-guide/) guide.
 
 ## Work With OKAD
 

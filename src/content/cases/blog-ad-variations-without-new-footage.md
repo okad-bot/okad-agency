@@ -22,7 +22,7 @@ faqs:
 
 Every brand running paid ads for more than six months has a folder of unused creator footage. Raw clips that never made the final cut. Winning ads from campaigns that ended. B-roll that was shot "just in case." That folder is not dead weight. It is the cheapest source of new creative you have.
 
-We have produced hundreds of ad variations for brands without a single new shoot. The methods range from simple hook swaps (change the first 3 seconds, keep everything else) to full re-edits that turn old footage into completely new concepts. Each method has a different cost, speed, and volume ceiling.
+We have produced hundreds of ad variations for brands without a single new shoot. The methods range from simple [hook swaps](/blog/blog-hook-rate-explained/) (change the first 3 seconds, keep everything else) to full re-edits that turn old footage into completely new concepts. Each method has a different cost, speed, and volume ceiling.
 
 This playbook breaks down four methods with real cases and real numbers. Use it to decide which approach fits your situation — or combine them for maximum output.
 
@@ -223,7 +223,7 @@ If you are sitting on unused footage and want to start extracting value from it:
 4. **Build format templates.** Define 4-5 ad formats that work in your category (testimonial, ASMR, before/after, listicle, problem-solution). Apply each template to your best footage.
 5. **Schedule quarterly full re-edits.** Every 3 months, pull the unused footage from the past quarter and produce a batch of fully re-edited concepts. This keeps the library productive indefinitely.
 
-The brands that scale their ad programs are not the ones spending the most on new production. They are the ones extracting the most value from every piece of footage they have ever produced. Your next 60 best-performing ad variations might already be sitting in a folder you stopped opening months ago.
+The brands that scale their ad programs are not the ones spending the most on new production. They are the ones extracting the most value from every piece of footage they have ever produced — and [preventing ad fatigue](/blog/blog-ad-fatigue-prevention/) by keeping fresh creative in rotation. Your next 60 best-performing ad variations might already be sitting in a folder you stopped opening months ago.
 
 ## Work With OKAD
 

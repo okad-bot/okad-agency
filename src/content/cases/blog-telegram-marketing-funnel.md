@@ -175,7 +175,7 @@ On Telegram, this means:
 
 Daily publishing is essential for two reasons:
 
-1. **Algorithmic momentum on Instagram.** Consistent daily publishing signals to the algorithm that the account is active and relevant, resulting in higher reach per post.
+1. **Algorithmic momentum on Instagram.** Consistent daily publishing — following an [organic Reels strategy](/blog/blog-organic-reels-strategy/) — signals to the algorithm that the account is active and relevant, resulting in higher reach per post.
 
 2. **Subscriber retention on Telegram.** A Telegram channel that posts once a week feels dead. Daily posts keep the channel at the top of subscribers' chat lists and maintain the habit of checking for updates.
 
@@ -205,7 +205,7 @@ If Telegram fits your business, here is the build sequence:
 
 ### Step 1: Instagram First
 
-Build your Instagram presence to at least 1,000-5,000 followers before launching Telegram. You need an audience to migrate. CyberPulse had Instagram momentum before adding Telegram — the channel grew because there was an existing audience to draw from.
+Build your Instagram presence to at least 1,000-5,000 followers before launching Telegram — the same [pre-launch marketing](/blog/blog-pre-launch-marketing/) principles apply. You need an audience to migrate. CyberPulse had Instagram momentum before adding Telegram — the channel grew because there was an existing audience to draw from.
 
 ### Step 2: Channel + Group
 

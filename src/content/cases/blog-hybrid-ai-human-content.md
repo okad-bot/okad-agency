@@ -94,7 +94,7 @@ This is not about replacing the editor. It is about taking the editor's best wor
 
 ### Rapid Testing at Scale
 
-Testing 50 ad variations requires 50 ad variations. Human-only production at typical agency rates ($500-$2,000 per finished ad) makes testing 50 variations a $25,000-$100,000 proposition. AI-assisted production makes it a $2,000-$5,000 proposition.
+Testing 50 ad variations requires 50 ad variations. Human-only production at typical agency rates ($500-$2,000 per finished ad) makes testing 50 variations a $25,000-$100,000 proposition. Specialized [AI content production services](/blog/blog-ai-content-production-services/) bring that down to $2,000-$5,000.
 
 The [Swiss skincare Hook Swap System](/cases/swiss-skincare-high-volume-ads/) — roughly 30 ads per day from one UGC library — was possible because AI-assisted editing workflows automated the format multiplication while human strategists chose which hooks to test and human editors ensured quality. Read our full [AI creative testing framework](/blog/blog-ai-creative-testing/) for the step-by-step process.
 

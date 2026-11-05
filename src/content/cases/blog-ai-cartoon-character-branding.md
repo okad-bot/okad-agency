@@ -147,7 +147,7 @@ For physical products, the character appears on packaging, inserts, and retail d
 
 **Skipping the character sheet.** Generating new scenes without a reference sheet guarantees drift. By month 2, the character will look different from month 1. The 3-4 hours spent on a proper reference sheet saves dozens of hours of correction later.
 
-For the full production workflow for animated ads using your character, see our [AI cartoon ad guide](/blog/blog-ai-cartoon-ads/). For broader AI animation production beyond characters, our [AI animation marketing guide](/blog/blog-ai-animation-for-marketing/) covers all format types. And for the tools comparison, read our [AI animation tools guide](/blog/blog-best-ai-animation-tools/).
+For the full production workflow for animated ads using your character, see our [AI cartoon ad guide](/blog/blog-ai-cartoon-ads/). For broader AI animation production beyond characters, our [AI character animation marketing guide](/blog/blog-ai-character-animation-marketing/) covers all format types from mascots to product demos. And for the tools comparison, read our [AI animation tools guide](/blog/blog-best-ai-animation-tools/).
 
 ## Character Development as a Service
 

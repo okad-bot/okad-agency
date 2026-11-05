@@ -18,7 +18,7 @@ faqs:
     a: "At social media resolution and duration (4-15 seconds), AI animation is indistinguishable from professional motion graphics for most viewers. Our publisher campaign generated 12,354 likes across 6 posts — audiences responded to the content without questioning the production method. The key is post-production polish: titles, pacing, sound design, and deliberate holds."
 ---
 
-Character animation has always been expensive. A 15-second hand-drawn character sequence costs thousands of dollars and takes weeks. 3D character animation requires rigging, keyframing, and rendering. Even motion graphics with simple character illustrations need frame-by-frame attention.
+Character animation has always been expensive. A 15-second hand-drawn character sequence costs thousands of dollars and takes weeks. 3D character animation requires rigging, keyframing, and rendering. Even motion graphics with simple character illustrations need frame-by-frame attention. The rise of [AI animation for marketing](/blog/blog-ai-animation-for-marketing/) has changed the economics — but only if you use the right method.
 
 AI changes the cost equation, but not in the way most people expect. The common approach — typing a description of a character doing something and hoping the AI produces usable output — creates content that looks generated. Characters drift in appearance, movements feel random, and the result lacks the intentionality that separates professional content from experiments.
 
@@ -203,7 +203,7 @@ The decision matrix is straightforward:
 
 **Choose live action when:** authenticity is the primary goal, human performance and emotion drive the concept, or the production budget allows it and the result will be used across high-value channels (TV, cinema, premium digital).
 
-Most marketing teams will find that AI character animation handles 60-70% of their social video needs at a fraction of the cost. The remaining 30-40% — dialogue scenes, long-form content, photorealistic requirements — still benefits from traditional methods. The key is matching the tool to the task rather than forcing one approach to do everything.
+Most marketing teams will find that AI character animation handles 60-70% of their social video needs at a fraction of the cost. The remaining 30-40% — dialogue scenes, long-form content, photorealistic requirements — still benefits from traditional methods. For brands exploring [cartoon character branding](/blog/blog-ai-cartoon-character-branding/) as a long-term asset, AI animation makes the initial testing affordable. The key is matching the tool to the task rather than forcing one approach to do everything. See also our guide to [AI cartoon ads](/blog/blog-ai-cartoon-ads/) for the full playbook on illustrated ad creatives.
 
 ## Work With OKAD
 
