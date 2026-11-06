@@ -220,7 +220,7 @@
 }
 @media (max-width:640px){
   .okh{font-size:16px}
-  .okh .sec{padding-block:40px}
+  .okh .sec{padding-block:64px}
   .okh .collage{padding-top:12px}
   .okh .collage .note{display:none}
   .okh .sticker{position:relative;left:auto;bottom:auto;margin-top:8px;max-width:none;grid-column:1 / -1}
@@ -685,3 +685,51 @@
 .okh .author-box .ab-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:12px;font-weight:600;font-size:.92rem}
 .okh .author-box .ab-links a{color:inherit}
 @media (max-width:560px){ .okh .author-box{grid-template-columns:minmax(0,1fr)} .okh .author-box img{width:64px;height:64px} }
+
+/* hero: service tag on each frame */
+.okh .ph .ph-tag{position:absolute;top:10px;left:10px;z-index:2;background:var(--dew);color:var(--ink);font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:5px 9px;border-radius:999px;line-height:1}
+
+/* ---------- typography: no lonely last words ---------- */
+.okh p,.okh li,.okh blockquote,.okh .kick,.okh summary,.okh .strip span{text-wrap:pretty}
+.okh h1,.okh h2,.okh h3{text-wrap:balance}
+
+/* ---------- mobile: tighter rhythm, buttons in rows ---------- */
+@media (max-width:640px){
+  .okh .m-hide{display:none}
+  .okh .sec{padding-block:44px}
+  .okh .sec.tight{padding-top:0}
+  .okh .khero{padding-block:28px 36px}
+  .okh .khero .stack{gap:16px}
+  .okh .head{gap:12px}
+  .okh .btn{padding:13px 18px;font-size:.95rem}
+  .okh .khero .row{flex-wrap:nowrap;gap:8px}
+  .okh .khero .row .btn{flex:1 1 0;justify-content:center}
+  .okh .strip{margin-top:36px}
+  .okh .strip div{padding:14px 16px}
+  .okh .strip b{font-size:2.2rem}
+  .okh .svc4{gap:10px;margin-top:24px}
+  .okh .sv{padding:22px;gap:10px}
+  .okh .logos-cap{margin-bottom:12px}
+  .okh .fcase{padding:22px;gap:18px}
+  .okh .fcase .info{gap:14px}
+  .okh .fphones{padding-top:12px;max-width:280px;margin-inline:auto}
+  .okh .fcases,.okh .fgrid{gap:12px}
+  .okh .offers{margin-top:24px;gap:10px}
+  .okh .offer{padding:22px;gap:14px;border-radius:26px}
+  .okh .assure{gap:8px;margin-top:10px}
+  .okh .assure div{padding:12px 14px}
+  .okh .tcard{align-self:flex-start;gap:16px}
+  .okh .faq{gap:8px;margin-top:20px}
+  .okh .partners{padding-block:36px 0}
+  .okh #services{padding-top:36px}
+  .okh .dband{padding-block:44px}
+  .okh .founder{padding:24px 18px;gap:12px;border-radius:28px}
+  .okh .founder .av{width:64px;height:64px;border-width:3px}
+  .okh .founder blockquote{font-size:1.9rem}
+  .okh .founder .f-kick{margin-bottom:6px}
+  .okh .founder .f-path{margin-top:16px;gap:12px}
+  .okh .founder .f-grid{margin-top:16px;gap:10px}
+  .okh .founder .f-grid>div{padding:16px}
+  .okh .founder .row{margin-top:18px;gap:8px}
+  .okh .founder .row .btn{flex:1 1 auto;padding:11px 14px;font-size:.88rem;justify-content:center}
+}
