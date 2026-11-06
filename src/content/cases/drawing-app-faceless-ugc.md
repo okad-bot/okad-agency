@@ -4,7 +4,7 @@ description: "A drawing app for iPad started at about 100 downloads a week and w
 type: case
 date: 2026-06-30
 lang: en
-cover: "/images/cases/drawing-app-faceless-ugc/grid01.jpg"
+cover: "/images/cases/covers/okad-case-03-drawing-app.webp"
 coverAlt: "Frames from the 1 case"
 ---
 

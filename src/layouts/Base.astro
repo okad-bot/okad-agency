@@ -41,7 +41,7 @@ import '@fontsource/reenie-beanie/400.css';
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site ?? "https://okad.agency").href} />
     <meta property="og:url" content={canonicalURL} />
 
     <!-- Google Analytics 4 -->
@@ -72,7 +72,7 @@ import '@fontsource/reenie-beanie/400.css';
   </head>
   <body>
     <div class="topbar">
-      <span>First test from $1,000: re-edits, UGC, AI videos or statics. <a href="/#offer">See what fits →</a></span>
+      <span>First test from $1,000<span class="tb-long">: re-edits, UGC, AI videos or statics</span>. <a href="/#offer">See what fits →</a></span>
     </div>
 
     <header class="site-header">
