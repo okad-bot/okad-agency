@@ -175,7 +175,7 @@ The sweet spot: one new shoot every 6-8 weeks, combined with continuous zero-sho
 
 By the end of month one, you have 60-80 new ad variations without booking a single shoot. The footage was already on your hard drive. You just needed the system to unlock it.
 
-For a detailed breakdown of modular shoot planning that maximizes your footage library from day one, see our guide on [getting 50+ ads from one shoot day](/blog/blog-50-ads-from-one-shoot/).
+For a detailed breakdown of modular shoot planning that maximizes your footage library from day one, see our guide on [getting 50+ ads from one shoot day](/blog/blog-50-ads-from-one-shoot/). To figure out the right volume of creative for your ad spend, see [how many UGC videos you need per month](/blog/blog-how-many-ugc-videos-per-month/).
 
 ## Work With OKAD
 

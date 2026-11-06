@@ -142,7 +142,7 @@ One technique that combines the advantages of both formats: static-style hooks o
 
 The first 1-2 seconds of the ad is a bold text-on-image static (the hook). If the viewer pauses, the static transitions into video content. This approach gets the instant-communication advantage of statics for the hook — the part of the ad that matters most — while delivering the engagement depth of video for viewers who stay.
 
-Many of the highest-performing [ad creative examples](/blog/blog-ai-ad-creatives-examples/) across OKAD campaigns use this hybrid format. It is particularly effective on Instagram Reels and TikTok, where the first frame determines whether the algorithm distributes the ad broadly.
+Many of the highest-performing [ad creative examples](/blog/blog-ai-ad-creatives-examples/) across OKAD campaigns use this hybrid format. It is particularly effective on Instagram Reels and TikTok, where the first frame determines whether the algorithm distributes the ad broadly. For the AI vs human creative decision, see [how AI and human ad creative compare on results](/blog/blog-ai-vs-human-ad-creative-results/) — AI-generated statics are often the fastest way to validate angles before investing in human-produced video. And knowing [why winning ads stop working](/blog/blog-why-winning-ads-stop-working/) helps you plan the static-to-video transition before fatigue kills your winners.
 
 ## How OKAD Runs This
 

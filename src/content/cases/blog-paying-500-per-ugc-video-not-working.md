@@ -105,7 +105,7 @@ If any of these sound familiar, the DIY approach is costing more than it saves:
 - You have been through 3 or more creators with no consistent winners
 - Your ad account is fatiguing faster than you can produce fresh creative
 
-The agency value is not "better creators." It is the strategy, testing system, and production velocity that turns every dollar of creative investment into data that compounds over time.
+The agency value is not "better creators." It is the strategy, testing system, and production velocity that turns every dollar of creative investment into data that compounds over time. For a transparent breakdown of what agencies actually charge, see our [UGC agency fee guide](/blog/blog-ugc-agency-fee-breakdown/). And if you are comparing platforms, our [Biddyco alternatives comparison](/blog/blog-biddyco-alternatives/) covers the five main options.
 
 ![This brand was spending $400/video with freelancers and getting 0 winners in 3 months. After switching to a structured testing approach: 4 winners in the first batch of 15 creatives.](/images/cases/covers/okad-case-12-womens-health-brand.webp)
 

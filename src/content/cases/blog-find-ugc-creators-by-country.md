@@ -157,7 +157,7 @@ For brands running in 3+ markets, here is the roster-building framework:
 
 **Rotate on a schedule.** Even the best creator fatigues an audience after 3-5 videos. Plan to rotate new faces every 6-8 weeks in each market. This aligns with the [creator roster strategy](/blog/blog-one-creator-or-many-ugc/) that OKAD runs for all multi-market clients.
 
-**Centralize brief and QA.** The brief should be consistent across markets — same message, same structure, same quality bar. Only the language, cultural references, and creator change. Centralized QA ensures no market gets lower-quality creative.
+**Centralize brief and QA.** The brief should be consistent across markets — same message, same structure, same quality bar. Only the language, cultural references, and creator change. Centralized QA ensures no market gets lower-quality creative. For the full breakdown of what this costs, see our [UGC agency fee guide](/blog/blog-ugc-agency-fee-breakdown/) — rates vary significantly by country. And make sure your contracts cover [usage rights](/blog/blog-ugc-usage-rights-explained/) across all target markets, not just the creator's home country.
 
 ## How OKAD Sources Creators Globally
 

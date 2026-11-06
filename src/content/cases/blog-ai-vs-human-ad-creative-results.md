@@ -146,7 +146,7 @@ For a brand that has never tested creative systematically, we start AI-heavy: 30
 
 Then we shift to human-heavy production: UGC creators scripted with the winning angles, professionally edited videos built on the proven concepts, designer-produced statics that refine what AI discovered.
 
-The result is [creative testing](/blog/blog-ai-creative-testing/) at AI speed with [human creative quality](/blog/blog-inhouse-vs-agency-ai-creative/) at scale.
+The result is [creative testing](/blog/blog-ai-creative-testing/) at AI speed with [human creative quality](/blog/blog-inhouse-vs-agency-ai-creative/) at scale. For the copyright implications of AI-generated content, see [who owns AI-generated ads](/blog/blog-who-owns-ai-generated-ads/). And if you are deciding between [static ads and video](/blog/blog-static-ads-vs-video-what-to-test-first/), AI-generated statics are often the fastest way to validate angles before committing to human video production.
 
 ![For this baby products brand, AI-generated lifestyle content matched UGC performance at 1/5th the cost — then UGC versions of the winning AI angles outperformed both](/images/cases/covers/okad-case-13-dadada-baby.webp)
 

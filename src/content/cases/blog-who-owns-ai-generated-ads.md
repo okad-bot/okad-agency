@@ -146,7 +146,7 @@ AI-generated content is commercially safe for advertising. Use it freely on ever
 
 If you are building long-term brand assets (characters, visual identity, distinctive style), ensure your workflow involves substantial human creative direction at every stage. If you are producing high-volume ad creative for testing, the copyright question is largely academic — your advantage is in the [strategy and testing system](/blog/blog-ai-creative-workflow/), not in any single image.
 
-For brands building [AI creative workflows](/blog/blog-ai-creative-workflow/) or wondering [how to make AI ads look real](/blog/blog-how-to-make-ai-ads-look-real/), the practical takeaway is the same: AI is the production tool, human strategy is the competitive advantage, and proper workflow documentation protects both.
+For brands building [AI creative workflows](/blog/blog-ai-creative-workflow/) or wondering [how to make AI ads look real](/blog/blog-how-to-make-ai-ads-look-real/), the practical takeaway is the same: AI is the production tool, human strategy is the competitive advantage, and proper workflow documentation protects both. For a data-driven comparison of when to use AI vs human-created content, see [AI vs human ad creative results](/blog/blog-ai-vs-human-ad-creative-results/). And for UGC-specific rights questions, our [usage rights guide](/blog/blog-ugc-usage-rights-explained/) covers the contract terms you need.
 
 ## Work With OKAD
 

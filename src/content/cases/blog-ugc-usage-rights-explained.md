@@ -149,7 +149,7 @@ Before signing any creator or agency contract, confirm these items in writing:
 
 Getting these answers before production starts costs nothing. Getting them after a winning ad expires costs everything.
 
-For a detailed breakdown of how [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/) factor in usage rights, and how [whitelisting](/blog/blog-ugc-whitelisting-guide/) works as a rights extension, see those respective guides.
+For a detailed breakdown of how [UGC creator rates](/blog/blog-ugc-creator-rates-pricing/) factor in usage rights, and how [whitelisting](/blog/blog-ugc-whitelisting-guide/) works as a rights extension, see those respective guides. If you are using AI tools in your creative pipeline, [who owns AI-generated ads](/blog/blog-who-owns-ai-generated-ads/) covers the copyright and IP questions specific to AI content. And for a full breakdown of what agencies charge and what should be included, see our [UGC agency fee breakdown](/blog/blog-ugc-agency-fee-breakdown/).
 
 ## Work With OKAD
 

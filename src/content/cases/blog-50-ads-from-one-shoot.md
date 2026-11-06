@@ -189,7 +189,7 @@ One shoot day can produce 50+ ad variations if you plan for multiplication from 
 
 Shoot modular components. Build a combination matrix. Multiply through hook swaps, format remixes, and re-edits. Layer in AI for static visuals. That is the system that turns one production day into months of testable creative.
 
-If you want to see this system in action, our [zero-shoot production guide](/blog/blog-zero-shoot-production/) covers the extreme end — brands producing entire campaigns without any new shoots at all.
+If you want to see this system in action, our [zero-shoot production guide](/blog/blog-zero-shoot-production/) covers the extreme end — brands producing entire campaigns without any new shoots at all. To figure out the right volume for your ad spend, see [how many UGC videos you need per month](/blog/blog-how-many-ugc-videos-per-month/).
 
 ## Work With OKAD
 

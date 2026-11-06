@@ -107,7 +107,7 @@ Restaurants face a creative challenge that most brands do not: the product chang
 
 The solution is a repeatable production system, not one-off shoots. Develop templates for each of the three formats. When a new menu item launches, slot it into the existing templates: one spotlight shot, one creator reaction, one promotional angle. Total production time per new item: 2 to 3 hours, not 2 to 3 days.
 
-For multi-location restaurants, centralize creative production. One creative team produces the master assets, then each location adds local elements: the specific address, local delivery platform links, and location-specific promotions. This scales a [creative strategy](/blog/blog-ad-creative-strategy/) across 10 or 100 locations without 10 or 100 separate production efforts.
+For multi-location restaurants, centralize creative production. One creative team produces the master assets, then each location adds local elements: the specific address, local delivery platform links, and location-specific promotions. This scales a [creative strategy](/blog/blog-ad-creative-strategy/) across 10 or 100 locations without 10 or 100 separate production efforts. Our guide to [localizing ad creatives](/blog/blog-localizing-ad-creatives/) covers this centralized production model in depth — it works the same way for restaurant chains as it does for beauty services like [multi-location salons](/blog/blog-ai-ads-for-salons-beauty-services/).
 
 The same impulse-purchase testing methodology that works for premium retail applies to QSR — fast [creative rotation](/blog/blog-creative-testing-for-dtc/), clear CTAs, strong visuals in the first frame.
 

@@ -195,7 +195,7 @@ A system means: research informs the brief, the brief drives modular production,
 
 Guessing means: produce some ads, launch them, hope they work, panic when they stop, start over. Every campaign resets to zero.
 
-Build the system. The guides linked throughout this page cover every phase in operational detail. Start with the brief, build toward modular production, and let the data guide everything after that.
+Build the system. The guides linked throughout this page cover every phase in operational detail. Start with the brief, build toward modular production, and let the data guide everything after that. If you are deciding between [static ads and video](/blog/blog-static-ads-vs-video-what-to-test-first/), start with statics to validate angles before committing video budget.
 
 ## Work With OKAD
 

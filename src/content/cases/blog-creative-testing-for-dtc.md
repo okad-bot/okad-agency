@@ -174,7 +174,7 @@ Once you have winning hooks, systematically test:
 
 The creative testing framework feeds directly into your scaling strategy. For a complete guide on increasing spend without killing returns, read our [guide to scaling ad campaigns without killing ROAS](/blog/blog-how-to-scale-ad-campaigns-roas/).
 
-The pattern: test small, find winners, scale spend, monitor for fatigue, refresh creative, test again. DTC brands that run this cycle weekly grow faster than those who produce one hero video per quarter and hope for the best.
+The pattern: test small, find winners, scale spend, monitor for fatigue, refresh creative, test again. DTC brands that run this cycle weekly grow faster than those who produce one hero video per quarter and hope for the best. For the metrics that determine whether a creative is a winner, see [what counts as a winning ad](/blog/blog-what-counts-as-winning-ad/). And when your winners inevitably fatigue, our guide on [why winning ads stop working](/blog/blog-why-winning-ads-stop-working/) covers the causes and the production pipeline that prevents gaps.
 
 Need help producing the volume of creative variations this framework requires? [See our production pricing](/pricing/) or explore the [DTC video ads playbook](/blog/blog-dtc-video-ads-guide/) for format-specific guidance.
 

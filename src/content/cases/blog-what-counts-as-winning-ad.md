@@ -111,7 +111,7 @@ This happens because of three overlapping effects:
 
 The solution is not a bigger budget on one ad. It is more winning ads running simultaneously across segmented audiences. Five ads spending $100/day each will almost always outperform one ad spending $500/day — because each ad reaches its optimal audience slice without the compounding effects described above.
 
-For a deeper breakdown of the scaling decay problem and specific fixes, see our guide on [why winning ads stop working when you scale](/blog/blog-why-winning-ads-stop-working/).
+For a deeper breakdown of the scaling decay problem and specific fixes, see our guide on [why winning ads stop working when you scale](/blog/blog-why-winning-ads-stop-working/). And if you are still deciding between [static ads and video](/blog/blog-static-ads-vs-video-what-to-test-first/), knowing what counts as a winner in each format will change how you allocate your testing budget. For the AI vs human creative debate, see [how AI and human ad creative compare on results](/blog/blog-ai-vs-human-ad-creative-results/).
 
 ## How OKAD Tracks Creative Performance
 

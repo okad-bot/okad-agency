@@ -138,7 +138,7 @@ Start with this testing structure:
 
 **Ongoing:** Produce 3-5 new hook variations per week on the winning format. Test a new feature or use case every two weeks. Replace fatigued creatives based on [ad fatigue signals](/blog/blog-ad-fatigue-prevention/) — rising CPI, declining hook rate, frequency above 3.
 
-This systematic approach is exactly how OKAD runs [creative testing cycles](/blog/blog-creative-testing-methodology/) for app clients — isolating one variable at a time so every test produces actionable data.
+This systematic approach is exactly how OKAD runs [creative testing cycles](/blog/blog-creative-testing-methodology/) for app clients — isolating one variable at a time so every test produces actionable data. For mobile games specifically, our [mobile game ad creative guide](/blog/blog-mobile-game-ad-creative/) covers the faster-paced testing cadence that gaming requires. Understanding [what counts as a winning ad](/blog/blog-what-counts-as-winning-ad/) at your price point helps you set the right CPI thresholds for kill/scale decisions.
 
 ## How OKAD Produces App Demo Ads
 

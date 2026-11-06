@@ -102,7 +102,7 @@ The approach:
 
 **Phase 2: Build the waterfall.** For each winning angle, produce 5-8 variations — hook swaps, creator swaps, format remixes. This gives the account enough creative depth to [scale without fatigue](/blog/blog-how-to-scale-ad-campaigns-roas/).
 
-**Phase 3: Maintain the pipeline.** Deliver new creative batches every 2 weeks. Each batch includes both variations on proven angles (safe volume) and experimental new angles (future winners). The ratio is typically 70% proven, 30% experimental.
+**Phase 3: Maintain the pipeline.** Deliver new creative batches every 2 weeks. Each batch includes both variations on proven angles (safe volume) and experimental new angles (future winners). The ratio is typically 70% proven, 30% experimental. To calculate the right volume for your spend level, see [how many UGC videos you need per month](/blog/blog-how-many-ugc-videos-per-month/). And understanding [what counts as a winning ad](/blog/blog-what-counts-as-winning-ad/) helps you set the kill/scale thresholds that keep the pipeline efficient.
 
 ![OKAD produced 12 variations for a longevity supplement brand — when the lead creative fatigued at $500/day after 3 weeks, 3 replacement variations outperformed the original](/images/cases/covers/okad-case-14-longevity-supplement.webp)
 

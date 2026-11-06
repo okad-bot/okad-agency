@@ -130,7 +130,7 @@ Calculate two numbers:
 
 If the agency is within 20% of your freelancer total cost, the agency is almost certainly the better choice — because that 20% buys you strategy, consistency, and time back for your team to focus on growth, not production management.
 
-For a complete pricing breakdown of both models, see our [creative agency pricing guide](/blog/blog-creative-agency-pricing-guide/). For the outsource vs in-house decision, read our [outsourcing framework](/blog/blog-outsource-creative-strategy-agency/). And for high-volume production strategies, our [high-volume UGC production guide](/blog/blog-high-volume-ugc-production/) covers the systems that make scale possible.
+For a complete pricing breakdown of both models, see our [creative agency pricing guide](/blog/blog-creative-agency-pricing-guide/). For the outsource vs in-house decision, read our [outsourcing framework](/blog/blog-outsource-creative-strategy-agency/). And for high-volume production strategies, our [high-volume UGC production guide](/blog/blog-high-volume-ugc-production/) covers the systems that make scale possible. If you are comparing specific platforms, our [Biddyco alternatives guide](/blog/blog-biddyco-alternatives/) ranks the five main options. For a line-by-line breakdown of what agencies charge, see our [UGC agency fee breakdown](/blog/blog-ugc-agency-fee-breakdown/).
 
 ## Work With OKAD
 

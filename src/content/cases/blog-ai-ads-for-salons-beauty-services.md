@@ -154,7 +154,7 @@ A realistic budget for multi-location beauty content production:
 
 Compare this to traditional production: one professional shoot per location at $1,000 each would cost $160,000 for the network — and produce static assets that fatigue in weeks. The AI + UGC model costs $30,000-$60,000 annually and produces fresh creative continuously.
 
-The [localization approach](/blog/blog-localizing-ad-creatives/) scales linearly: adding a new location costs the price of adapting existing templates, not producing new content from scratch.
+The [localization approach](/blog/blog-localizing-ad-creatives/) scales linearly: adding a new location costs the price of adapting existing templates, not producing new content from scratch. For realistic delivery timelines at different production volumes, see our [UGC production timeline guide](/blog/blog-ugc-production-timeline/). And for premium beauty brands selling [high-ticket products](/blog/blog-high-ticket-product-video-ads/), the funnel strategy requires a different creative approach than service-based ads.
 
 ![OKAD produced UGC and AI-enhanced ad creative for a skincare brand — the same template-based approach works across multiple salon locations](/images/cases/covers/okad-case-15-breakout-aid.webp)
 

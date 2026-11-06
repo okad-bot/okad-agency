@@ -149,6 +149,8 @@ Rush delivery compresses the standard timeline to 5-7 business days for video an
 
 Rush delivery works best when the brand has clear direction and existing assets. It does not work well for brands that need extensive strategy or are producing their first-ever ad campaign.
 
+To figure out whether your production cadence matches your needs, see our guide on [how many UGC videos you need per month](/blog/blog-how-many-ugc-videos-per-month/) based on ad spend and testing velocity. And if you are deciding between one reliable creator versus a diverse roster, [one creator or many](/blog/blog-one-creator-or-many-ugc/) covers the tradeoffs.
+
 ## How OKAD Manages Timeline
 
 ![For Dating.com, OKAD delivers new UGC creator batches every 2 weeks on an ongoing retainer — the first batch took 3 weeks, every batch since takes 7-10 days](/images/cases/covers/okad-case-08-dating-com.webp)

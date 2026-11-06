@@ -149,6 +149,8 @@ If you are reading this, you have probably outgrown Biddyco or are hitting its l
 
 The brands that scale fastest are usually the ones that stop treating UGC as a commodity (cheapest video wins) and start treating it as a performance channel (best-performing creative wins). That shift is what moves a brand from a marketplace to an agency.
 
+For a transparent breakdown of what full-service agencies actually charge, see our [UGC agency fee guide](/blog/blog-ugc-agency-fee-breakdown/). And if you are already spending $500+ per video without seeing results, [here is why that happens](/blog/blog-paying-500-per-ugc-video-not-working/) — the problem is usually the system around the video, not the video itself.
+
 ## Work With OKAD
 
 OKAD handles UGC production as part of a full [creative strategy](/blog/blog-what-is-ugc-agency/) service — research, scripting, creator matching, production, editing, and performance optimization in one retainer. No per-video surprises. No platform fees.

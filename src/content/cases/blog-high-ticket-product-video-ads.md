@@ -161,7 +161,7 @@ Realistic benchmarks for high-ticket products on Meta (€500-€1,000 range):
 
 The ROI math that justifies high CPAs: if your product sells for €700 with a 50% margin, a €150 CPA still delivers a 2.3x ROAS on first purchase. If the average customer buys twice over their lifetime, the effective ROAS doubles.
 
-High-ticket brands that track only first-purchase ROAS consistently underspend on acquisition. The ones that factor in [lifetime value and repeat purchase rates](/blog/blog-creative-testing-for-dtc/) can afford higher CPAs and outbid competitors for the best audiences.
+High-ticket brands that track only first-purchase ROAS consistently underspend on acquisition. The ones that factor in [lifetime value and repeat purchase rates](/blog/blog-creative-testing-for-dtc/) can afford higher CPAs and outbid competitors for the best audiences. Knowing [what counts as a winning ad](/blog/blog-what-counts-as-winning-ad/) at these price points is critical — the metrics look different from DTC impulse buys. And for brands deciding between [one creator or a diverse roster](/blog/blog-one-creator-or-many-ugc/), the high-ticket answer is almost always multiple creators matched to your buyer persona.
 
 ![OKAD produced UGC testimonial and product video ads for a premium fragrance retailer — longer-form creative drove 4x higher ROAS than short product clips](/images/cases/covers/okad-case-07-fragstore.webp)
 

@@ -220,7 +220,7 @@ SaaS advertising at scale is a design systems problem, not a creative inspiratio
 
 Flipsystem's approach — 100+ creatives, scalable design system, 5-10 variations per segment, 3-5 week production cycles — is not exceptional. It is what effective SaaS advertising looks like. If your campaign is running on fewer than 20 variations, you are not just under-producing — you are under-testing, under-learning, and under-performing.
 
-Build the system. The creative follows.
+Build the system. The creative follows. For app-specific formats like screen recording and hands-on demos, our [app demo UGC ads guide](/blog/blog-app-demo-ugc-ads/) covers the three formats that drive the lowest CPI.
 
 ## Work With OKAD
 

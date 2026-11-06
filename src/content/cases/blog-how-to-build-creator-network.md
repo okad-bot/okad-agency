@@ -173,7 +173,7 @@ The key insight from networks like SpicyCubes (38 ambassadors) and CoupleJoy (16
 
 Start with 3 creators and a group chat. End with 50 creators and a production system. The path between those two points is built one phase at a time.
 
-For the specific formats and hooks that work best on creator accounts, see our [TikTok content formats guide](/blog/blog-best-tiktok-content-formats-brand-accounts/). If you are setting up the accounts themselves, start with our [TikTok account setup guide](/blog/blog-how-to-post-tiktok-from-outside-us/) and [warm-up protocol](/blog/blog-how-to-warm-up-tiktok-account/).
+For the specific formats and hooks that work best on creator accounts, see our [TikTok content formats guide](/blog/blog-best-tiktok-content-formats-brand-accounts/). If you are setting up the accounts themselves, start with our [TikTok account setup guide](/blog/blog-how-to-post-tiktok-from-outside-us/) and [warm-up protocol](/blog/blog-how-to-warm-up-tiktok-account/). For international sourcing across 40+ countries, see our guide to [finding UGC creators by country](/blog/blog-find-ugc-creators-by-country/). And for the one-creator vs roster decision, [one creator or many](/blog/blog-one-creator-or-many-ugc/) covers the tradeoffs at different production volumes.
 
 ## Work With OKAD
 

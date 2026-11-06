@@ -168,6 +168,8 @@ For a broader comparison of agency models and pricing structures, our [UGC agenc
 
 The smartest path for most brands: start with a test package to validate the agency relationship, then upgrade to a retainer once you have data proving the creative converts.
 
+If you are comparing specific platforms and agencies, our [Biddyco alternatives guide](/blog/blog-biddyco-alternatives/) breaks down the five main options. And if your current per-video spend feels too high for the results you are getting, read [why paying $500 per UGC video might not be working](/blog/blog-paying-500-per-ugc-video-not-working/) — the problem is usually the system, not the price.
+
 ## Work With OKAD
 
 OKAD bundles creative strategy, production, and testing into one retainer — no separate strategy fees, no hidden add-ons, perpetual usage rights included. Start with a test package or go straight to a monthly plan.

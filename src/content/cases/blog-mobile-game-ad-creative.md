@@ -141,7 +141,7 @@ The studios winning in mobile game advertising in 2026 are not the ones with the
 
 A single brilliant creative is worth 3 to 7 days of good performance. A creative system that produces one winner per week is worth an entire year of sustained growth. Build the system, and the winners take care of themselves.
 
-For brands applying [creative testing methodology](/blog/blog-creative-testing-methodology/) from other industries to gaming, the principles are the same — test systematically, kill fast, scale winners, replace before fatigue. The only difference is speed. Everything in gaming happens 5 to 10x faster than in e-commerce.
+For brands applying [creative testing methodology](/blog/blog-creative-testing-methodology/) from other industries to gaming, the principles are the same — test systematically, kill fast, scale winners, replace before fatigue. The only difference is speed. Everything in gaming happens 5 to 10x faster than in e-commerce. For app-specific creative formats, our [app demo UGC ads guide](/blog/blog-app-demo-ugc-ads/) covers screen recording, hands-on, and split-screen formats. And understanding [why winning ads stop working](/blog/blog-why-winning-ads-stop-working/) helps you plan replacement creative before fatigue hits.
 
 ## Work With OKAD
 

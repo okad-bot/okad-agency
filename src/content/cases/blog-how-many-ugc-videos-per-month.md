@@ -155,6 +155,8 @@ Start with the table. Calculate your minimum. Build a production pipeline that m
 
 The brands that get this right do not run out of ads. They run out of budget to spend on the winners they keep finding.
 
+For a full breakdown of what agencies charge at each volume tier, see our [UGC agency fee breakdown](/blog/blog-ugc-agency-fee-breakdown/). If your per-video costs feel too high for the results, [why paying $500 per UGC video is not working](/blog/blog-paying-500-per-ugc-video-not-working/) diagnoses the common causes. And to understand realistic delivery timelines at each volume level, see our [UGC production timeline guide](/blog/blog-ugc-production-timeline/).
+
 ## Work With OKAD
 
 OKAD delivers creative strategy and ad production as one service — from research and briefs to tested, scaling creatives. No per-asset pricing surprises. No retainer lock-in.

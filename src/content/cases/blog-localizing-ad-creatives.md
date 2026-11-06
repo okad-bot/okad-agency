@@ -157,7 +157,7 @@ When [Olga Kad](https://www.linkedin.com/in/o-kad) and the [OKAD](https://okad.a
 
 This is why [usage rights](/blog/blog-ugc-creator-rates-pricing/) and raw file access matter: when you own the raw footage with perpetual rights, localizing a winning ad for a new market costs $30-200 instead of $300-500 for a full reshoot. OKAD includes perpetual rights and raw files by default for exactly this reason.
 
-For brands scaling across markets, our [high-volume UGC production](/blog/blog-high-volume-ugc-production/) process is designed to handle localization as a production step, not an afterthought.
+For brands scaling across markets, our [high-volume UGC production](/blog/blog-high-volume-ugc-production/) process is designed to handle localization as a production step, not an afterthought. The same hub-and-spoke approach applies to [multi-location beauty brands](/blog/blog-ai-ads-for-salons-beauty-services/) and [restaurant chains](/blog/blog-restaurant-ad-creative-testing/) — centralized creative production with per-location adaptation.
 
 ## Work With OKAD
 
