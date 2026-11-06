@@ -597,3 +597,91 @@
   .okh .tl li:last-child .wk{color:var(--dew)}
   .okh .tl li:last-child .tx{color:var(--stage-soft)}
 }
+
+/* ---------- what I make: four services ---------- */
+.okh #services{padding-top:72px}
+.okh .svc4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:36px}
+.okh .sv{border-radius:28px;padding:24px;display:flex;flex-direction:column;gap:12px;min-width:0;background:var(--card)}
+.okh .sv.mint{background:var(--mint)} .okh .sv.lav{background:var(--lav)} .okh .sv.peach{background:var(--peach)} .okh .sv.lilac{background:var(--lilac)}
+.okh .sv-n{font-family:var(--hand);font-size:1.7rem;line-height:.8}
+.okh .sv h3{font-family:var(--display);font-weight:400;text-transform:uppercase;font-size:1.75rem;line-height:.95}
+.okh .sv p{font-size:.95rem;color:#2e2e2a;line-height:1.45}
+.okh .sv-price{margin-top:auto;display:flex;flex-direction:column;gap:2px;padding-top:8px}
+.okh .sv-price b{font-family:var(--display);font-style:italic;font-weight:400;font-size:2.6rem;line-height:.9}
+.okh .sv-price span{font-size:.85rem;color:#3d3d39}
+.okh .sv-cases{display:flex;flex-direction:column;gap:4px;border-top:1px solid rgba(17,17,17,.15);padding-top:10px}
+.okh .sv-cases a{font-size:.88rem;font-weight:600;color:#111;text-decoration:none}
+.okh .sv-cases a:hover{text-decoration:underline}
+.okh .svc-note{margin-top:16px;font-size:.92rem;color:var(--soft);max-width:72ch}
+@media (max-width:1000px){ .okh .svc4{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:640px){ .okh .svc4{grid-template-columns:minmax(0,1fr)} .okh #services{padding-top:48px} }
+
+/* ---------- first test: options list ---------- */
+.okh .o-pick{font-weight:600;font-size:.95rem;margin-top:2px}
+.okh .offer ul.o-opts{gap:8px}
+.okh .offer ul.o-opts li{padding-left:28px}
+.okh .offer ul.o-opts b{font-family:var(--display);font-style:italic;font-weight:400;font-size:1.45rem;margin-right:4px;line-height:1}
+
+/* ---------- FAQ ---------- */
+.okh #faq h2{margin-bottom:28px}
+.okh .faq{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start}
+.okh .faq details{border:1.5px solid var(--rule);border-radius:20px;padding:16px 20px;background:var(--paper)}
+.okh .faq summary{cursor:pointer;font-weight:600;font-size:1.02rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.okh .faq summary::-webkit-details-marker{display:none}
+.okh .faq summary::after{content:"+";font-family:var(--display);font-size:1.6rem;line-height:.8}
+.okh .faq details[open] summary::after{content:"−"}
+.okh .faq p{margin-top:10px;color:var(--soft);font-size:.95rem;line-height:1.5}
+@media (max-width:760px){ .okh .faq{grid-template-columns:minmax(0,1fr)} }
+
+/* ---------- rail: real case covers ---------- */
+.okh .vcard img.vc-cover{aspect-ratio:16/10;object-fit:cover;background:#111}
+
+/* ---------- how we start: three steps ---------- */
+.okh .offers.steps3{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}
+.okh .offer.organic{background:var(--card)}
+.okh .offer.organic .o-top .hand{color:var(--ink)}
+.okh .offer .o-price b{white-space:nowrap}
+.okh .steps3 .o-price b{font-size:3.2rem}
+.okh .steps3 .offer.program .o-price b{font-size:3.2rem}
+.okh .offer .o-top .hand{font-size:1.6rem}
+@media (max-width:1100px){ .okh .offers.steps3{grid-template-columns:minmax(0,1fr);max-width:620px} }
+
+/* ---------- founder: story, process, team ---------- */
+.okh .founder{align-items:start}
+.okh .founder .f-kick{color:var(--stage-soft);display:block;margin-bottom:10px}
+.okh .founder .f-story p{color:var(--stage-ink);opacity:.9;font-size:1.05rem;line-height:1.55;max-width:62ch;margin-top:18px}
+.okh .founder .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}
+.okh .founder .f-grid>div{border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:18px 20px}
+.okh .founder .f-grid b{display:block;font-family:var(--hand);font-weight:400;font-size:1.8rem;line-height:.9;color:var(--dew);margin-bottom:10px}
+.okh .founder .f-how ol{margin:0;padding-left:20px;display:grid;gap:6px;color:var(--stage-ink);font-size:.95rem}
+.okh .founder .f-team p{color:var(--stage-soft);font-size:.95rem}
+.okh .founder .f-team ul{list-style:none;margin:10px 0;padding:0;display:grid;gap:8px;font-size:.95rem;color:var(--stage-soft)}
+.okh .founder .f-team li span{display:block;color:var(--stage-ink);font-weight:600}
+.okh .founder .f-small{margin-top:4px;font-size:.88rem}
+@media (max-width:760px){ .okh .founder .f-grid{grid-template-columns:minmax(0,1fr)} }
+
+/* founder: story as a path */
+.okh .founder .f-path{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;counter-reset:fp}
+.okh .founder .f-path li{position:relative;padding:18px 16px 0 0;border-top:1px solid rgba(255,255,255,.22);color:var(--stage-soft);font-size:.92rem;line-height:1.45}
+.okh .founder .f-path li::before{content:"";position:absolute;top:-6px;left:0;width:11px;height:11px;border-radius:50%;background:var(--dew)}
+.okh .founder .f-path li:last-child::before{box-shadow:0 0 0 5px rgba(238,251,110,.25)}
+.okh .founder .f-path li span{display:block;color:var(--stage-ink);font-weight:600;margin-bottom:4px}
+@media (max-width:900px){
+  .okh .founder .f-path{grid-template-columns:minmax(0,1fr);gap:14px}
+  .okh .founder .f-path li{border-top:0;border-left:1px solid rgba(255,255,255,.22);padding:0 0 0 18px}
+  .okh .founder .f-path li::before{top:4px;left:-6px}
+}
+.okh .founder .f-path li b.f-hi{color:var(--dew);font-weight:600}
+
+/* ---------- blog: author byline + box ---------- */
+.okh .post-meta a.by{display:inline-flex;align-items:center;gap:8px;color:inherit;text-decoration:none;font-weight:600}
+.okh .post-meta a.by img{width:28px;height:28px;border-radius:50%;object-fit:cover;border:2px solid var(--dew)}
+.okh .post-meta a.by:hover{text-decoration:underline}
+.okh .author-box{display:grid;grid-template-columns:88px minmax(0,1fr);gap:20px;align-items:start;margin:32px 0 0;padding:24px;border:1px solid var(--rule);border-radius:24px;background:var(--card)}
+.okh .author-box img{width:88px;height:88px;border-radius:50%;object-fit:cover;border:3px solid var(--dew)}
+.okh .author-box .hand{font-size:1.5rem;line-height:1;display:block}
+.okh .author-box h3{font-family:var(--display);text-transform:uppercase;font-weight:400;font-size:1.7rem;line-height:1;margin:2px 0 8px}
+.okh .author-box p{font-size:.98rem;line-height:1.5;margin:0}
+.okh .author-box .ab-links{display:flex;flex-wrap:wrap;gap:14px;margin-top:12px;font-weight:600;font-size:.92rem}
+.okh .author-box .ab-links a{color:inherit}
+@media (max-width:560px){ .okh .author-box{grid-template-columns:minmax(0,1fr)} .okh .author-box img{width:64px;height:64px} }

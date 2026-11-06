@@ -9,28 +9,44 @@ const CASE3 = '/cases/ad-re-edits-five-brands';
 const CASE4 = '/cases/by-okad-camera-roll-creators';
 
 const C = '/images/cases';
-// group: paid = paid social ads, footage = ads from existing footage, organic = organic reach
+// group: niches, space-separated (apps, health, ecom, dating)
 const videoWork = [
-  { group: 'paid', href: '/cases/lookalikey-ugc-ads', layout: 'chat', pics: [`${C}/lookalikey-ugc-ads/img-12.jpg`, `${C}/ad-re-edits-five-brands/ad/v/cbrain.mp4`], tags: ['Paid ads', 'Meta'], title: 'Lookalikey: ROAS up to 2.2 on the first test' },
-  { group: 'paid', href: '/cases/supplement-brand-ugc-ad-testing', layout: 'trio', pics: [`${C}/supplement-brand-ugc-ad-testing/sm/face.jpg`, `${C}/supplement-brand-ugc-ad-testing/sm/gel.jpg`, `${C}/supplement-brand-ugc-ad-testing/sm/sixth.jpg`], tags: ['Paid ads', 'Supplements'], title: '16 creator videos, 48 ads to test' },
-  { group: 'paid', href: '/cases/longevity-supplement-story-ads', layout: 'trio', pics: [`${C}/longevity-supplement-story-ads/lg/r0.jpg`, `${C}/longevity-supplement-story-ads/lg/l3c.jpg`, `${C}/longevity-supplement-story-ads/lg/p0.jpg`], tags: ['Paid ads', 'EN + DE'], title: '68 ads. Story before product' },
-  { group: 'paid', href: '/cases/case-uprest', img: '/images/thumbs/case-uprest.webp', tags: ['Paid ads', 'B2B'], title: 'UpRest: €2.75 per lead' },
-  { group: 'footage', href: '/cases/zentoes-walmart-launch-ads', layout: 'duo', pics: [`${C}/zentoes-walmart-launch-ads/img-11.jpg`, `${C}/zentoes-walmart-launch-ads/img-05.jpg`], tags: ['From your footage', 'Retail'], title: 'ZenToes: a Walmart launch, no new shoot' },
-  { group: 'footage', href: '/cases/ad-re-edits-five-brands', layout: 'trio', pics: [`${C}/ad-re-edits-five-brands/ad/m1.jpg`, `${C}/ad-re-edits-five-brands/ad/r1.jpg`, `${C}/ad-re-edits-five-brands/ad/t2.jpg`], tags: ['From your footage', '5 brands'], title: '~80 ads from old folders' },
-  { group: 'organic', href: '/cases/your-christian-date-broll-content', layout: 'trio', pics: [`${C}/your-christian-date-broll-content/ycd/church1.jpg`, `${C}/your-christian-date-broll-content/ycd/vat1.jpg`, `${C}/your-christian-date-broll-content/ycd/rend1.jpg`], tags: ['Organic', 'Dating app'], title: '800K views on one Reel' },
-  { group: 'organic', href: '/cases/drawing-app-faceless-ugc', layout: 'feed', pics: [`${C}/drawing-app-faceless-ugc/grid01.jpg`, `${C}/drawing-app-faceless-ugc/grid02.jpg`, `${C}/drawing-app-faceless-ugc/grid05.jpg`, `${C}/drawing-app-faceless-ugc/grid08.jpg`, `${C}/drawing-app-faceless-ugc/grid10.jpg`, `${C}/drawing-app-faceless-ugc/grid11.jpg`], tags: ['Organic', 'iPad app'], title: '1.5M views, 2,000 sign-ups' },
-  { group: 'organic', href: '/cases/fragstore-content-factory', layout: 'trio', pics: [`${C}/fragstore-content-factory/fs/doombox.jpg`, `${C}/fragstore-content-factory/fs/green2.jpg`, `${C}/fragstore-content-factory/fs/turtle1.jpg`], tags: ['Organic', 'E-com'], title: 'Fragstore: 48.9K views in 3 weeks' },
-  { group: 'organic', href: '/cases/smalltalk2me-social-content', layout: 'trio', pics: [`${C}/smalltalk2me-social-content/st/b1.jpg`, `${C}/smalltalk2me-social-content/st/c2.jpg`, `${C}/smalltalk2me-social-content/st/c4.jpg`], tags: ['Organic', 'EdTech'], title: '24K views, 849 saves on one tip' },
-  { group: 'organic', href: '/cases/dating-com-creator-content', layout: 'feed', pics: [`${C}/dating-com-creator-content/img-01.jpg`, `${C}/dating-com-creator-content/img-02.jpg`, `${C}/dating-com-creator-content/img-03.jpg`, `${C}/dating-com-creator-content/img-05.jpg`, `${C}/dating-com-creator-content/img-09.jpg`, `${C}/dating-com-creator-content/img-12.jpg`], tags: ['Organic', 'Dating 40+'], title: 'Dating.com: 60+ videos for 40+' },
-  { group: 'paid', href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/thumbs/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.webp', tags: ['Paid ads', 'Statics'], title: 'AI static ads: 3x CTR' },
-  { group: 'organic', href: '/cases/organic-video-content-1m-views', img: '/images/thumbs/fgyKKr3g1dPjydOItu6UTCo3k8.webp', tags: ['Organic', 'Digital'], title: '1M+ views: dating & EdTech' },
+  { group: 'ecom', href: '/cases/lookalikey-ugc-ads', cover: '/images/covers/okad-case-10-lookalikey.webp', tags: ['Paid ads', 'Gift cards'], title: 'Lookalikey: ROAS up to 2.2 on the first test' },
+  { group: 'health', href: '/cases/supplement-brand-ugc-ad-testing', cover: '/images/covers/okad-case-11-supplement-brand.webp', tags: ['Paid ads', 'Supplements'], title: '16 creator videos, 48 ads to test' },
+  { group: 'ecom health', href: '/cases/zentoes-walmart-launch-ads', cover: '/images/covers/okad-case-09-zentoes.webp', tags: ['Re-edits', 'Retail'], title: 'ZenToes: a Walmart launch, no new shoot' },
+  { group: 'ecom', href: '/cases/baby-furniture-ai-product-visuals', cover: '/images/covers/okad-case-13-dadada-baby.webp', tags: ['AI statics', 'Furniture'], title: 'Nursery ads without a nursery shoot' },
+  { group: 'dating', href: '/cases/your-christian-date-broll-content', cover: '/images/covers/okad-case-02-your-christian-date.webp', tags: ['Organic', 'Dating app'], title: '800K views on one Reel' },
+  { group: 'ecom', href: '/cases/fragstore-content-factory', cover: '/images/covers/okad-case-07-fragstore.webp', tags: ['Organic', 'Toy store'], title: 'Fragstore: 48.9K views in 3 weeks' },
+  { group: 'apps', href: '/cases/smalltalk2me-social-content', cover: '/images/covers/okad-case-06-smalltalk2me.webp', tags: ['Organic', 'EdTech'], title: '24K views, 849 saves on one tip' },
+  { group: 'dating', href: '/cases/dating-com-creator-content', cover: '/images/covers/okad-case-08-dating-com.webp', tags: ['Organic', 'Dating 40+'], title: 'Dating.com: 60+ videos for 40+' },
+  { group: 'health', href: '/cases/longevity-supplement-story-ads', layout: 'trio', pics: [`${C}/longevity-supplement-story-ads/lg/r0.jpg`, `${C}/longevity-supplement-story-ads/lg/l3c.jpg`, `${C}/longevity-supplement-story-ads/lg/p0.jpg`], tags: ['Paid ads', 'EN + DE'], title: '68 ads. Story before product' },
+  { group: 'ecom health dating', href: '/cases/ad-re-edits-five-brands', layout: 'trio', pics: [`${C}/ad-re-edits-five-brands/ad/m1.jpg`, `${C}/ad-re-edits-five-brands/ad/r1.jpg`, `${C}/ad-re-edits-five-brands/ad/t2.jpg`], tags: ['Re-edits', '5 brands'], title: '~80 ads from old folders' },
+  { group: 'apps', href: '/cases/case-uprest', img: '/images/thumbs/case-uprest.webp', tags: ['Paid ads', 'B2B'], title: 'UpRest: €2.75 per lead' },
+  { group: 'ecom apps', href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/thumbs/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.webp', tags: ['AI statics', 'DTC'], title: 'AI static ads: 3x CTR' },
   // Women's health / Milamend case is live in /cases but hidden from the homepage on purpose
 ];
 const groups = [
   ['all', 'All'],
-  ['paid', 'Paid ads'],
-  ['footage', 'From your footage'],
-  ['organic', 'Organic reach'],
+  ['apps', 'Apps & SaaS'],
+  ['health', 'Health & supplements'],
+  ['ecom', 'E-com & products'],
+  ['dating', 'Dating'],
+];
+
+const services = [
+  { n: '01', c: 'mint', t: 'Re-edits from your footage', p: 'New hooks, new order and new sound on clips you already have. The fastest way to fresh ads.', price: 'from $50', unit: 'per ad', cases: [['Five brands, zero new shoots', '/cases/ad-re-edits-five-brands'], ['ZenToes Walmart launch', '/cases/zentoes-walmart-launch-ads']] },
+  { n: '02', c: 'lav', t: 'New UGC with creators', p: 'Scripts, casting from 600+ vetted creators, filming and editing, with 3 to 5 hooks per video.', price: 'from $100', unit: 'per video, creator included', cases: [['AI app: −35% per customer', '/cases/creative-testing-ai-app-meta-ads'], ['Lookalikey', '/cases/lookalikey-ugc-ads']] },
+  { n: '03', c: 'peach', t: 'AI video', p: 'AI UGC, animation and product videos when there is no footage yet, or when you need volume fast.', price: 'from $200', unit: 'per video', cases: [['AI ad creatives: 3x CTR', '/cases/high-converting-video-ads-for-dtc-brands'], ['Gut health story ads', '/cases/gut-health-brand-story-ads']] },
+  { n: '04', c: 'lilac', t: 'Static ads', p: 'Statics and carousels from your photos, reviews and AI visuals, built in sets to test angles.', price: 'from $50', unit: 'per static', cases: [['Nursery ads without a shoot', '/cases/baby-furniture-ai-product-visuals'], ['Statics for apps', '/cases/static-ad-creatives-digital-products']] },
+];
+
+const faqs = [
+  ['Do you have a team?', 'Yes, a small one. I do the strategy, every script and a big part of the editing myself. Two people help me: one runs UGC casting from our 600+ creators, the other does graphics and AI generation.'],
+  ['Are creator fees included?', 'Yes. The price per video already includes the creator.'],
+  ['Do you run the ads?', "No. I make the ads and the testing plan. You or your media buyer launch them, and I use the results to plan the next batch."],
+  ['Is it AI or real people?', 'Both. Before we start I tell you which videos are AI and which are filmed by creators.'],
+  ['What if I don’t like a script?', 'You approve every script before anyone films or edits, and one round of edits is included in every batch.'],
+  ['Can I show this to my team?', 'Yes. The pricing page has all packages and prices on one page you can forward.'],
 ];
 
 const principles = [
@@ -101,16 +117,16 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
             <h1>We make video ads, test them and scale <span class="cap">the ones that sell</span></h1>
             <p class="lead">Research, scripts, 600+ vetted creators, native formats and a data loop after every batch. One team, end to end.</p>
             <div class="row">
-              <a class="btn" href="#offer">Order 10 videos · $500</a>
+              <a class="btn" href="#offer">Start a test · from $1,000</a>
               <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
             </div>
             <p class="alt-link">Need a website or a brand? <a href="#design">Our design studio →</a></p>
           </div>
           <div class="collage" aria-label="Frames from our ads">
             <span class="note hand hn">real frames from our ads <Fragment set:html={arrowR} /></span>
-            <figure class="ph"><video poster="/images/cases/ad-re-edits-five-brands/ad/v/cai.jpg" autoplay muted loop playsinline preload="metadata" aria-label="AI app ad creative"><source src="/images/cases/ad-re-edits-five-brands/ad/v/cai.mp4" type="video/mp4" /></video></figure>
-            <figure class="ph"><video poster="/images/cases/ad-re-edits-five-brands/ad/v/cflags.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Ad re-edit creative"><source src="/images/cases/ad-re-edits-five-brands/ad/v/cflags.mp4" type="video/mp4" /></video></figure>
-            <figure class="ph"><video poster="/images/cases/longevity-supplement-story-ads/lg/v/robert.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Creator UGC video"><source src="/images/cases/longevity-supplement-story-ads/lg/v/robert.mp4" type="video/mp4" /></video></figure>
+            <figure class="ph"><video poster="/videos/hero-todo.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Creator writing a to-do list, then before and after headshots"><source src="/videos/hero-todo.webm" type="video/webm" /><source src="/videos/hero-todo.mp4" type="video/mp4" /></video></figure>
+            <figure class="ph"><video poster="/videos/hero-ranking.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Good, better, best ranking ad"><source src="/videos/hero-ranking.webm" type="video/webm" /><source src="/videos/hero-ranking.mp4" type="video/mp4" /></video></figure>
+            <figure class="ph"><video poster="/videos/hero-facetime.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Creator talking to camera with a mug"><source src="/videos/hero-facetime.webm" type="video/webm" /><source src="/videos/hero-facetime.mp4" type="video/mp4" /></video></figure>
             <a class="sticker" href={CASE1}>
               <b>160+</b>
               <span>video ads for one AI app in four months<small>Case 01 · read →</small></span>
@@ -125,6 +141,30 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           <a href={CASE4}><b>5,471</b><span>creators asked to join after one reel of mine (81.8K views)</span></a>
         </div>
         <p class="nda">Most of my clients work under NDA, so most of their numbers stay private. These are the ones I can share.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES: what I make -->
+    <section class="sec tight" id="services">
+      <div class="w">
+        <div class="head">
+          <div class="t">
+            <span class="kick">Four kinds of ads, one testing plan</span>
+            <h2>What I <span class="cap g">make</span></h2>
+          </div>
+        </div>
+        <div class="svc4">
+          {services.map((x) => (
+            <div class={`sv ${x.c}`}>
+              <span class="sv-n">{x.n}</span>
+              <h3>{x.t}</h3>
+              <p>{x.p}</p>
+              <div class="sv-price"><b>{x.price}</b><span>{x.unit}</span></div>
+              <div class="sv-cases">{x.cases.map(([l, h]) => <a href={h}>{l} →</a>)}</div>
+            </div>
+          ))}
+        </div>
+        <p class="svc-note">I make the ads and the testing plan. I don't run ad accounts: you or your media buyer launch them, and I use the results to plan the next batch.</p>
       </div>
     </section>
 
@@ -217,11 +257,11 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
                 <div class="tags"><span>Ads from your footage</span><span>5 brands</span><span>TikTok · Meta · Snap</span></div>
               </div>
               <h3>Five brands. <span class="cap w">Zero new shoots.</span></h3>
-              <p>Every brand that runs ads has a folder nobody touches. I cut new ads from it: new hooks, new order, new sound. This is exactly what the $500 starter is.</p>
+              <p>Every brand that runs ads has a folder nobody touches. I cut new ads from it: new hooks, new order, new sound. You can start exactly like this with the first test.</p>
               <div class="fk">
                 <div><b>~80</b><span>new ads from old footage</span></div>
                 <div><b>0</b><span>creators booked</span></div>
-                <div><b>5</b><span>business days for the first 10</span></div>
+                <div><b>20</b><span>re-edits fit in the first test</span></div>
               </div>
               <div class="go">
                 <a class="btn" href={CASE3}>Read the case →</a>
@@ -271,17 +311,19 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       <!-- more cases, filter by what the client needed -->
       <div class="w" style="margin-top:72px">
         <div class="rail-head">
-          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)">More <span class="cap y">cases</span> by goal</h2>
+          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)">More cases <span class="cap y">in your niche</span></h2>
           <div class="rail-nav"><button type="button" data-rail="vw" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="vw" data-dir="1" aria-label="Next">→</button></div>
         </div>
-        <div class="chips cfilt" role="group" aria-label="Filter cases by goal">
-          {groups.map(([k, l], i) => <button type="button" class={`chip${i === 0 ? ' on' : ''}`} data-g={k} aria-pressed={i === 0 ? 'true' : 'false'}>{l} <i>{k === 'all' ? videoWork.length : videoWork.filter((c) => c.group === k).length}</i></button>)}
+        <div class="chips cfilt" role="group" aria-label="Filter cases by niche">
+          {groups.map(([k, l], i) => <button type="button" class={`chip${i === 0 ? ' on' : ''}`} data-g={k} aria-pressed={i === 0 ? 'true' : 'false'}>{l} <i>{k === 'all' ? videoWork.length : videoWork.filter((c) => c.group.split(' ').includes(k)).length}</i></button>)}
         </div>
       </div>
       <div class="rail" id="vw">
         {videoWork.map((c) => (
           <a class="vcard" href={c.href} data-group={c.group}>
-            {c.pics
+            {c.cover
+              ? <img class="vc-cover" src={c.cover} alt={c.title} loading="lazy" decoding="async" />
+              : c.pics
               ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => src.endsWith('.mp4') ? <video data-lazy poster={src.replace('.mp4', '.jpg')} muted loop playsinline preload="none" aria-hidden="true"><source data-src={src.replace('.mp4', '.webm')} type="video/webm" /><source data-src={src} type="video/mp4" /></video> : <img src={src} alt="" loading="lazy" decoding="async" />)}</div>
               : <img src={c.img} alt={c.title} loading="lazy" decoding="async" />}
             <div class="b"><div class="tags">{c.tags.map((t) => <span>{t}</span>)}</div><h4>{c.title}</h4></div>
@@ -295,32 +337,46 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       <div class="w">
         <div class="head">
           <div class="t">
-            <span class="kick">Start small, see how we work, then go big</span>
-            <h2>Two ways to <span class="cap y">start</span></h2>
+            <span class="kick">Most clients start with a test, then move to a monthly plan</span>
+            <h2>How we <span class="cap y">start</span></h2>
           </div>
         </div>
-        <div class="offers">
+        <div class="offers steps3">
           <div class="offer starter">
-            <div class="o-top"><span class="hand">no call needed</span><span class="o-tag">Starter</span></div>
-            <h3>10 ready-to-run videos</h3>
-            <div class="o-price"><b>$500</b><span>ready in 5 business days</span></div>
-            <ul>
-              <li>A testing plan for your account</li>
-              <li>10 videos, AI or from our creator library</li>
-              <li>Ready to launch on Meta and TikTok</li>
+            <div class="o-top"><span class="hand">step 1 · no call needed</span><span class="o-tag">Test</span></div>
+            <h3>Find what works</h3>
+            <div class="o-price"><b>from $1,000</b><span>testing plan and scripts included</span></div>
+            <p class="o-pick">Pick one, or mix them:</p>
+            <ul class="o-opts">
+              <li><b>20</b> re-edited ads from your footage</li>
+              <li><b>8</b> new UGC videos with creators</li>
+              <li><b>3 to 5</b> AI videos</li>
+              <li><b>20</b> static ads</li>
+              <li><b>10 + 10</b> re-edits and statics</li>
             </ul>
-            <a class="btn" href="#contact">Order 10 videos</a>
+            <a class="btn" href="#contact">Start a test</a>
           </div>
           <div class="offer program">
-            <div class="o-top"><span class="hand">for bigger volume</span><span class="o-tag">Monthly plan</span></div>
-            <h3>Testing at volume</h3>
-            <div class="o-price"><b>$2,500+</b><span>per month · ~$100 per custom video</span></div>
+            <div class="o-top"><span class="hand">step 2 · after the test</span><span class="o-tag">Monthly testing</span></div>
+            <h3>Scale the winners</h3>
+            <div class="o-price"><b>from $2,500</b><span>per month · the more videos, the lower the price per video</span></div>
             <ul>
-              <li>Strategy, scripts, casting, filming, editing</li>
-              <li>Cheaper per video at volume</li>
-              <li>AI and B-roll videos cost less</li>
+              <li>A new batch every month, planned from your results</li>
+              <li>Any mix: re-edits, new UGC, AI videos, statics</li>
+              <li>New angles and hooks, winners re-cut in new versions</li>
             </ul>
-            <a class="btn dew" href="#contact">Book a call</a>
+            <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+          </div>
+          <div class="offer organic">
+            <div class="o-top"><span class="hand">or · for social growth</span><span class="o-tag">Organic content</span></div>
+            <h3>Grow accounts, not only ads</h3>
+            <div class="o-price"><b>from $2,500</b><span>per month · scoped on a call</span></div>
+            <ul>
+              <li>Daily videos for TikTok, Instagram and YouTube</li>
+              <li>Faceless and creator accounts run for your brand</li>
+              <li>Weekly review of what gets views and saves</li>
+            </ul>
+            <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
           </div>
         </div>
         <div class="assure">
@@ -412,20 +468,58 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       </div>
     </section>
 
+    <!-- FAQ -->
+    <section class="sec tight" id="faq">
+      <div class="w">
+        <h2>Questions people ask <span class="cap p">on calls</span></h2>
+        <div class="faq">
+          {faqs.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
+        </div>
+      </div>
+    </section>
+
     <!-- FOUNDER / CONTACT -->
     <section class="sec" id="contact">
       <div class="w">
         <div class="founder">
           <img class="av" src="/images/thumbs/olga.webp" width="180" height="180" alt="Olga Kad Miller" />
           <div>
-            <blockquote>“I review every brief and write the <span class="cap">strategy</span> myself.”</blockquote>
-            <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD</p>
+            <span class="kick f-kick">Who's behind OKAD</span>
+            <blockquote>“I'm a creative <span class="cap">strategist</span> who still makes ads with my own hands.”</blockquote>
+            <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD · Lisbon</p>
+            <ol class="f-path">
+              <li><span>Design studio</span>200+ websites, brands and static ads. I did the visuals, the copy and the ideas myself.</li>
+              <li><span>Then the ad accounts</span>I wanted to know what happened after launch, so I started reading results and planning what to make next.</li>
+              <li><span>My own ads, my own face</span>I ran ads for my own products, posted 3 videos a day and filmed UGC ads myself. Many of my videos passed <b class="f-hi">1M views</b>.</li>
+              <li><span>Now</span>10,000+ ads and posts for 100+ brands, from AI apps and dating apps to supplements and retail.</li>
+            </ol>
+            <div class="f-grid">
+              <div class="f-how">
+                <b>What I do myself</b>
+                <ol>
+                  <li>Read your reviews, comments and ad history.</li>
+                  <li>Write the testing plan and every script.</li>
+                  <li>Edit a big part of the videos with my own hands.</li>
+                  <li>Check every ad before you see it, then plan the next batch from results.</li>
+                </ol>
+              </div>
+              <div class="f-team">
+                <b>Who helps me</b>
+                <p>A team of two, both very strong at what they do:</p>
+                <ul>
+                  <li><span>UGC casting</span> finds and manages creators from our 600+ list</li>
+                  <li><span>Graphics and AI</span> statics, AI generation and visuals</li>
+                </ul>
+                <p class="f-small">You always talk to me, not to an account manager.</p>
+              </div>
+            </div>
             <div class="row">
               <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
               <button type="button" class="btn ghost copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button>
               <a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a>
+              <a class="btn ghost" href="https://www.instagram.com/by.okad/" target="_blank" rel="noopener">@by.okad</a>
             </div>
-                      </div>
+          </div>
         </div>
       </div>
     </section>
@@ -451,7 +545,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
   </div>
 
   <div class="okh mbar" id="mbar" hidden>
-    <a class="btn" href="#offer">10 videos · $500</a>
+    <a class="btn" href="#offer">Test from $1,000</a>
     <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
   </div>
 
@@ -473,7 +567,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
     chips.forEach((c) => c.addEventListener('click', () => {
       const g = c.dataset.g;
       chips.forEach((x) => { const on = x === c; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); });
-      vcards.forEach((v) => { v.hidden = g !== 'all' && v.dataset.group !== g; });
+      vcards.forEach((v) => { v.hidden = g !== 'all' && !(v.dataset.group || '').split(' ').includes(g!); });
       document.getElementById('vw')?.scrollTo({ left: 0 });
     }));
     // below-the-fold clips load and play only when they scroll into view
