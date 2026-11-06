@@ -173,7 +173,7 @@ The key to this scale was not just producing more videos -- it was systematic cr
 
 A UGC agency is a production and strategy partner that turns the messy, time-consuming process of creator-driven ad content into a repeatable system. The value is not just in the videos themselves -- it is in the creative strategy, quality control, and testing infrastructure that makes those videos perform as ads.
 
-The brands getting the most from UGC in 2026 are not the ones with the biggest budgets. They are the ones producing and testing at a pace their competitors cannot match. Whether you build that capability in-house or partner with an agency depends on your volume, team, and growth targets. For most brands scaling past $5K/month in ad spend, an agency is the faster path to [high-volume UGC production](/blog/blog-high-volume-ugc-production/) that actually moves performance metrics.
+The brands getting the most from UGC in 2026 are not the ones with the biggest budgets. They are the ones producing and testing at a pace their competitors cannot match. Whether you build that capability in-house or partner with an agency depends on your volume, team, and growth targets. For most brands scaling past $5K/month in ad spend, an agency is the faster path to [high-volume UGC production](/blog/blog-high-volume-ugc-production/) that actually moves performance metrics. For a transparent look at what agencies charge and what each fee covers, see our [UGC agency fee breakdown](/blog/blog-ugc-agency-fee-breakdown/). And for realistic delivery timelines from brief to live ad, our [UGC production timeline guide](/blog/blog-ugc-production-timeline/) covers what to expect.
 
 ## Work With OKAD
 

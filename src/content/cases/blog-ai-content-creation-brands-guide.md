@@ -275,7 +275,7 @@ These ranges reflect total production cost including visual system development, 
 
 **Week 4: Measurement and scale.** Publish content, measure against baseline metrics (engagement rate, CPA, impressions). Compare AI content performance to existing content. Expand production volume based on results.
 
-The brands that get the most value from AI content creation treat it as infrastructure — a production system that improves over time — rather than a one-off experiment. If you are weighing the [in-house vs agency](/blog/blog-inhouse-vs-agency-ai-creative/) decision for AI creative production, our comparison guide breaks down the trade-offs. The visual system, prompt libraries, and key frame templates built in the first month become assets that reduce cost and increase quality for every subsequent piece of content.
+The brands that get the most value from AI content creation treat it as infrastructure — a production system that improves over time — rather than a one-off experiment. If you are weighing the [in-house vs agency](/blog/blog-inhouse-vs-agency-ai-creative/) decision for AI creative production, our comparison guide breaks down the trade-offs. The visual system, prompt libraries, and key frame templates built in the first month become assets that reduce cost and increase quality for every subsequent piece of content. For a data-driven comparison of AI vs human results across different formats and budgets, see [AI vs human ad creative results](/blog/blog-ai-vs-human-ad-creative-results/).
 
 ## Work With OKAD
 

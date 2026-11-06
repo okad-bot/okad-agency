@@ -124,7 +124,7 @@ The best-performing video ads combine multiple hook elements:
 
 This three-layer stack addresses different viewer attention modes simultaneously. Some viewers respond to visual motion, others to text, others to spoken words. The stack catches all three.
 
-Hook rate is not a vanity metric. It is the most actionable number in video marketing because it measures the one moment where you win or lose the viewer. We saw this principle in action in our [AI app Meta ads case study](/cases/creative-testing-ai-app-meta-ads/), where hook-level testing drove the largest performance gains. Every percentage point improvement translates directly to more people receiving your message — and every improvement to your opening technique compounds across every video you create afterward.
+Hook rate is not a vanity metric. It is the most actionable number in video marketing because it measures the one moment where you win or lose the viewer. We saw this principle in action in our [AI app Meta ads case study](/cases/creative-testing-ai-app-meta-ads/), where hook-level testing drove the largest performance gains. Every percentage point improvement translates directly to more people receiving your message — and every improvement to your opening technique compounds across every video you create afterward. Hook rate is one of the key metrics in determining [what counts as a winning ad](/blog/blog-what-counts-as-winning-ad/) — along with hold rate, CTR, and CPA.
 
 ## Work With OKAD
 

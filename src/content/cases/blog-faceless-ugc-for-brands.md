@@ -186,7 +186,7 @@ The smart approach: use faceless UGC for volume and testing, on-camera UGC for h
 5. Measure hook rate, retention, and CPA
 6. If faceless matches or beats existing creative, scale production
 
-The brands winning the creative volume game in 2026 have figured out that not every video needs a face. The ones still struggling are the ones paying $300 per talking-head video and wondering why they cannot test fast enough. See our [faceless UGC format examples](/blog/blog-faceless-ugc-examples/) for the 12 specific formats that drive the most views, or check [our pricing](/pricing/) for production costs.
+The brands winning the creative volume game in 2026 have figured out that not every video needs a face. The ones still struggling are the ones paying $300 per talking-head video and wondering why they cannot test fast enough. See our [faceless UGC format examples](/blog/blog-faceless-ugc-examples/) for the 12 specific formats that drive the most views, or check [our pricing](/pricing/) for production costs. For the broader AI vs human creative question, [AI vs human ad creative results](/blog/blog-ai-vs-human-ad-creative-results/) covers where each approach wins.
 
 ## Work With OKAD
 

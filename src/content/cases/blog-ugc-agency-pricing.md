@@ -155,7 +155,7 @@ At scale, creative is your bottleneck. You need a production partner who can mat
 
 Match your pricing model to your volume and commitment level. If you are producing fewer than 10 videos per month, start with per-video or project pricing. Once you consistently need 10+ videos, a retainer will save money and improve quality through a dedicated team that knows your brand.
 
-For a detailed breakdown of what UGC agencies do and how they operate, see our guide on [what a UGC agency is](/blog/blog-what-is-ugc-agency/). Ready to talk numbers for your specific needs? Check our [pricing page](/pricing/) for current rates.
+For a detailed breakdown of what UGC agencies do and how they operate, see our guide on [what a UGC agency is](/blog/blog-what-is-ugc-agency/). For a line-by-line breakdown of what each fee covers, see our [UGC agency fee breakdown](/blog/blog-ugc-agency-fee-breakdown/). And if your current per-video spend feels too high for the results, [why paying $500 per UGC video is not working](/blog/blog-paying-500-per-ugc-video-not-working/) diagnoses the common causes. Ready to talk numbers for your specific needs? Check our [pricing page](/pricing/) for current rates.
 
 ## Work With OKAD
 
