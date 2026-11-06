@@ -900,7 +900,7 @@ section[aria-label="Clients"]{padding-block:40px 8px}
 .okh .partner-row span:last-child{color:var(--soft);font-size:.95rem}
 @media (max-width:640px){
   .okh .res-kick{margin-top:28px;font-size:.82rem}
-  section[aria-label="Clients"]{padding-block:28px 0}
+  section[aria-label="Clients"]{padding-block:28px 20px}
   .okh .why-box{padding:20px 18px}
   .okh .partner-row{gap:10px;padding:14px 16px}
   .okh .partner-row img{height:36px}
