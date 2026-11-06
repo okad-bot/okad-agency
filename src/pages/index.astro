@@ -70,12 +70,6 @@ const wall = [
   { v: '/videos/hero-facetime', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
 ];
 
-const why = [
-  ['2 to 3 weeks', 'Most ads burn out this fast. After that you pay more for the same customer.'],
-  ['30+ a month', 'Meta now rewards many different ads, not one perfect video. Few teams can make that many.'],
-  ['Days, not weeks', 'A shoot takes weeks. Re-edits, AI and statics are ready in days.'],
-];
-
 const testSteps = [
   ['Day 1', 'Brief', 'You send your product, footage and ad results. Or I find your ads in the Meta ad library.'],
   ['Days 2 to 3', 'Plan and scripts', 'I read your reviews and competitors, write the test plan and every script. You approve.'],
@@ -203,18 +197,6 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       <div class="logos">
         <div class="lt">
           {[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="eager" decoding="async" height="26" />)}
-        </div>
-      </div>
-    </section>
-
-    <!-- WHY NOW -->
-    <section class="sec tight" id="why">
-      <div class="w">
-        <div class="why-box">
-        <h2>Why you need <span class="cap y">more ads</span> than before</h2>
-        <div class="why3">
-          {why.map(([b, p]) => <div><b>{b}</b><p>{p}</p></div>)}
-        </div>
         </div>
       </div>
     </section>
