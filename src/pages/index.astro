@@ -67,7 +67,7 @@ const wall = [
   { v: '/cases/ai-jewelry-content/assets/video/d_4', poster: '/cases/ai-jewelry-content/assets/img/img-09.jpg', t: 'AI video', c: 'Jewelry brand', h: AI_JEWELRY },
   { v: '/images/cases/ad-re-edits-five-brands/ad/v/cbrain', t: 'Re-edit', c: 'Supplement brand', h: CASE3 },
   { v: '/images/cases/longevity-supplement-story-ads/lg/v/robert', t: 'Story ad', c: 'Longevity brand', h: '/cases/longevity-supplement-story-ads' },
-  { v: '/videos/case1-laptop', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
+  { v: '/videos/hero-facetime', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
 ];
 
 const why = [
@@ -187,22 +187,22 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           </div>
         </div>
 
+        <p class="res-kick">Numbers I can share. Most of my clients work under NDA.</p>
         <div class="strip res-strip">
           <a href={CASE1}><b>−35%</b><span>cost per customer for an AI app</span></a>
           <a href={CASE_LK}><b>2.2</b><span>ROAS for Lookalikey on the first test</span></a>
           <a href={CASE4}><b>5,471</b><span>sign-ups from organic posts, $0 on ads</span></a>
           <a href={CASE2}><b>1.5M</b><span>organic views and 2,000 app sign-ups</span></a>
         </div>
-        <p class="nda">Most of my clients work under NDA. These are the numbers I can share.</p>
       </div>
     </section>
 
     <!-- LOGOS -->
     <section aria-label="Clients">
-      <div class="logos-cap"><span class="kick">Trusted by 100+ brands</span><a class="p-mini" href="https://influee.co" target="_blank" rel="noopener"><img src="/images/partners/influee-badge.webp" alt="Influee Official Partner" width="1270" height="492" loading="lazy" /></a></div>
+      <div class="logos-cap"><span class="kick">Brands I have made ads for</span></div>
       <div class="logos">
         <div class="lt">
-          {[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="lazy" />)}
+          {[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="eager" decoding="async" height="26" />)}
         </div>
       </div>
     </section>
@@ -210,9 +210,11 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
     <!-- WHY NOW -->
     <section class="sec tight" id="why">
       <div class="w">
-        <div class="t"><span class="kick">Why you need more ads than before</span></div>
+        <div class="why-box">
+        <h2>Why you need <span class="cap y">more ads</span> than before</h2>
         <div class="why3">
           {why.map(([b, p]) => <div><b>{b}</b><p>{p}</p></div>)}
+        </div>
         </div>
       </div>
     </section>
@@ -486,7 +488,7 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
           <div class="offer starter">
             <div class="o-top"><span class="hand">step 1 · no call needed</span><span class="o-tag">Test</span></div>
             <h3>Find what works</h3>
-            <div class="o-price"><b>from $1,000</b><span>test plan and scripts included · first batch in 5 business days</span></div>
+            <div class="o-price"><b>from $1,000</b><span>test plan and scripts included<br />first batch in 5 business days</span></div>
             <p class="o-pick">Pick one, or mix them:</p>
             <ul class="o-opts">
               <li><b>20</b> re-edited ads from your footage</li>
@@ -558,6 +560,17 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
             <figcaption>{img.startsWith('/') ? <img src={img} alt="" loading="lazy" /> : logoFor(img) ? <img class="logo-av" src={logoFor(img)} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{n.split(' ').map((w) => w[0]).join('').slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
           </figure>
         ))}
+      </div>
+    </section>
+
+    <!-- PARTNER -->
+    <section class="sec tight" id="partners">
+      <div class="w">
+        <a class="partner-row" href="https://influee.co" target="_blank" rel="noopener">
+          <span class="kick">Partner</span>
+          <img src="/images/partners/influee-badge.webp" alt="Influee Official Partner" width="1270" height="492" loading="lazy" style="height:48px;width:auto;max-width:none" />
+          <span>I'm an official partner of Influee, a UGC creator platform.</span>
+        </a>
       </div>
     </section>
 
