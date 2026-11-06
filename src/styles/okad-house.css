@@ -886,3 +886,62 @@
   .okh .hello .hand{font-size:1.6rem}
   .okh .hello span span{font-size:.8rem}
 }
+
+/* v9: clearer grouping under the hero */
+.okh .res-kick{font-size:.9rem;color:var(--soft);margin:44px 0 10px}
+.okh .res-kick + .strip{margin-top:0}
+.okh .logos-cap{justify-content:center;margin:0 0 16px}
+section[aria-label="Clients"]{padding-block:40px 8px}
+.okh .why-box{background:var(--card);border-radius:var(--r);padding:32px}
+.okh .why-box h2{font-size:clamp(1.9rem,3.6vw,2.9rem);margin-bottom:6px}
+.okh .why-box .why3{margin-top:18px}
+.okh .partner-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap;border:1.5px solid var(--rule);border-radius:var(--r);padding:16px 22px;color:var(--ink);text-decoration:none}
+.okh .partner-row img{height:44px;width:auto}
+.okh .partner-row span:last-child{color:var(--soft);font-size:.95rem}
+@media (max-width:640px){
+  .okh .res-kick{margin-top:28px;font-size:.82rem}
+  section[aria-label="Clients"]{padding-block:28px 0}
+  .okh .why-box{padding:20px 18px}
+  .okh .partner-row{gap:10px;padding:14px 16px}
+  .okh .partner-row img{height:36px}
+}
+
+/* v9: easier reading on phones */
+@media (max-width:640px){
+  .okh p,.okh li{color:#3a3a37}
+  /* case headlines: no outline effect, plain heavy caps */
+  .okh .fcase h3 .cap{text-shadow:none!important;color:inherit!important;padding:0}
+  .okh .fcase h3{font-size:2rem;line-height:1}
+  .okh .fcase .tags span{font-size:.66rem;padding:4px 9px}
+  .okh .fcase p{font-size:.98rem}
+  .okh .fk b{font-size:1.7rem}
+  .okh .fk span{font-size:.82rem;color:#e9e9e4}
+  /* offer cards: one reading rhythm */
+  .okh .o-top .hand{font-family:var(--body);font-size:.78rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;line-height:1.2;color:inherit}
+  .okh .o-price span{font-size:.88rem;line-height:1.4}
+  .okh .o-opts{gap:8px}
+  .okh .o-opts li{font-size:1rem;line-height:1.35;align-items:baseline}
+  .okh .o-opts b{font-family:var(--body)!important;font-style:normal!important;font-weight:700!important;font-size:1rem!important;margin-right:2px}
+  .okh .o-note{font-size:.85rem;padding-inline:0}
+  /* services */
+  .okh .sv h3{font-size:1.7rem}
+  .okh .sv-price b{font-size:2.4rem}
+}
+@media (max-width:640px){
+  .okh .offer .o-top .hand{font-family:var(--body);font-size:.76rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;line-height:1.2}
+  .okh .offer.program .o-top .hand{color:var(--dew)}
+}
+.okh #partners{padding-bottom:12px}
+.okh .partner-row img{height:44px!important;width:auto!important}
+@media (max-width:640px){ .okh .partner-row img{height:38px!important} }
+.okh #design{margin-top:20px}
+/* v10 fix: dark cards keep light text on phones */
+@media (max-width:640px){
+  .okh .founder p,.okh .founder li{color:var(--stage-soft)}
+  .okh .founder .f-path li span,.okh .founder .f-team li span{color:var(--stage-ink)}
+  .okh .offer.program p,.okh .offer.program li{color:var(--stage-ink)}
+  .okh .fcase .tags span{font-size:.72rem}
+  .okh .ph .ph-tag{font-size:.7rem}
+  .okh .svc-chips a{font-size:.74rem}
+  .okh .kick{color:#4d4d49}
+}
