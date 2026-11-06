@@ -4,7 +4,7 @@ description: "SmallTalk2Me is an AI app for practicing English: IELTS speaking, 
 type: case
 date: 2025-06-30
 lang: en
-cover: "/images/cases/smalltalk2me-social-content/st/b1.jpg"
+cover: "/images/cases/covers/okad-case-06-smalltalk2me.webp"
 coverAlt: "Frames from the 24K views on one tip case"
 ---
 

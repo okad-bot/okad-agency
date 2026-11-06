@@ -4,7 +4,7 @@ description: "Your Christian Date is a dating app for Christians. Instead of buy
 type: case
 date: 2026-03-31
 lang: en
-cover: "/images/cases/your-christian-date-broll-content/ycd/church1.jpg"
+cover: "/images/cases/covers/okad-case-02-your-christian-date.webp"
 coverAlt: "Frames from the 800K views on one Reel case"
 ---
 

@@ -4,7 +4,7 @@ description: "Fragstore sells figures, statues and gaming merch from a store in 
 type: case
 date: 2025-12-20
 lang: en
-cover: "/images/cases/fragstore-content-factory/fs/doombox.jpg"
+cover: "/images/cases/covers/okad-case-07-fragstore.webp"
 coverAlt: "Frames from the 48 case"
 ---
 

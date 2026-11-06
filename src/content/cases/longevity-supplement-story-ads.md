@@ -4,7 +4,7 @@ description: "A European brand launched a daily longevity drink for people 40 an
 type: case
 date: 2025-12-31
 lang: en
-cover: "/images/cases/longevity-supplement-story-ads/lg/l3a.jpg"
+cover: "/images/cases/covers/okad-case-14-longevity-supplement.webp"
 coverAlt: "Frames from the 68 ads case"
 ---
 

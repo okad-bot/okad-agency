@@ -4,7 +4,7 @@ description: "A US supplement brand sells a daily gel for gut, skin and energy, 
 type: case
 date: 2026-05-31
 lang: en
-cover: "/images/cases/supplement-brand-ugc-ad-testing/sm/face.jpg"
+cover: "/images/cases/covers/okad-case-11-supplement-brand.webp"
 coverAlt: "Frames from the 16 creator videos case"
 ---
 

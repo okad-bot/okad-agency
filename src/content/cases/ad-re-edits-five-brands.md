@@ -4,7 +4,7 @@ description: "Every brand that has run ads for a year has a folder of creator vi
 type: case
 date: 2026-09-30
 lang: en
-cover: "/images/cases/ad-re-edits-five-brands/ad/r1.jpg"
+cover: "/images/cases/covers/okad-case-21-ad-re-edits.webp"
 coverAlt: "Frames from the Five brands case"
 ---
 
