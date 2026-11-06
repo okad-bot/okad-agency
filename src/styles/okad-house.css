@@ -220,7 +220,7 @@
 }
 @media (max-width:640px){
   .okh{font-size:16px}
-  .okh .sec{padding-block:64px}
+  .okh .sec{padding-block:40px}
   .okh .collage{padding-top:12px}
   .okh .collage .note{display:none}
   .okh .sticker{position:relative;left:auto;bottom:auto;margin-top:8px;max-width:none;grid-column:1 / -1}
