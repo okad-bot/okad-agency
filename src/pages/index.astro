@@ -1,636 +1,349 @@
 ---
 import Base from '../layouts/Base.astro';
-import '../styles/okad-house.css';
+import '../styles/okad-home2.css';
+import fs from 'node:fs';
 
 const CALL = 'https://calendly.com/okad_calls/first';
+const EMAIL = 'olga@okad.agency';
 const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
 const CASE2 = '/cases/drawing-app-faceless-ugc';
 const CASE3 = '/cases/ad-re-edits-five-brands';
 const CASE4 = '/cases/by-okad-camera-roll-creators';
 const CASE_LK = '/cases/lookalikey-ugc-ads';
+const ZENTOES = '/cases/zentoes-walmart-launch-ads';
 const AI_BOOK = '/cases/ai-book-trailers/';
 const PROTEIN = '/cases/protein-pouch-ugc-ads/';
 const AI_SHUGGLE = '/cases/shuggle-ai-video/';
 const AI_JEWELRY = '/cases/ai-jewelry-content/';
-// "no call needed": the test starts by email until a Stripe link exists. Swap TEST_LINK for the Stripe URL later.
-const TEST_LINK = 'mailto:olga@okad.agency?subject=' + encodeURIComponent('First test') + '&body=' + encodeURIComponent('Brand and website:\nWhat to test (re-edits, UGC, AI videos, statics):\nLink to your ads (Meta ad library is fine):\nMonthly ad spend:\n');
-// newsletter: paste the signup form URL (Beehiiv, Kit, Substack...) to show an email field. Empty = follow links.
-const NEWSLETTER_ACTION = '';
+const COV = '/images/cases/covers/okad-cover-';
 
-const C = '/images/cases';
-// group: niches, space-separated (apps, health, ecom, dating)
-const videoWork = [
-  { group: 'health ecom', href: '/cases/protein-pouch-ugc-ads/', cover: '/images/cases/covers/okad-case-22-protein-pouch.webp', tags: ['UGC ads', 'Protein'], title: 'Protein, ranked by how easy it is: 10 videos, 13 cuts' },
-  { group: 'ai', href: AI_BOOK, cover: '/images/cases/covers/okad-case-23-ai-book-trailers.webp', tags: ['AI video', 'Book publisher'], title: 'AI book trailers: 12K+ likes on six posts' },
-  { group: 'ai ecom', href: AI_JEWELRY, cover: '/images/cases/covers/okad-case-25-ai-jewelry.webp', tags: ['AI content', 'Fine jewelry'], title: '12 posts and 6 videos a month, no photoshoots' },
-  { group: 'ai apps', href: AI_SHUGGLE, cover: '/images/cases/covers/okad-case-24-shuggle-ai-video.webp', tags: ['AI video', 'Shuggle'], title: 'Two people, one awkward dance, no actors' },
-  { group: 'apps', href: CASE2, cover: '/images/cases/covers/okad-case-03-drawing-app.webp', tags: ['Faceless UGC', 'iPad app'], title: '1.5M organic views, zero faces on camera' },
-  { group: 'health', href: '/cases/supplement-brand-ugc-ad-testing', cover: '/images/cases/covers/okad-case-11-supplement-brand.webp', tags: ['Paid ads', 'Supplements'], title: '16 creator videos, 48 ads to test' },
-  { group: 'ecom health', href: '/cases/zentoes-walmart-launch-ads', cover: '/images/cases/covers/okad-case-09-zentoes.webp', tags: ['Re-edits', 'Retail'], title: 'ZenToes: a Walmart launch, no new shoot' },
-  { group: 'ecom', href: '/cases/baby-furniture-ai-product-visuals', cover: '/images/cases/covers/okad-case-13-dadada-baby.webp', tags: ['AI statics', 'Furniture'], title: 'Nursery ads without a nursery shoot' },
-  { group: 'dating', href: '/cases/your-christian-date-broll-content', cover: '/images/cases/covers/okad-case-02-your-christian-date.webp', tags: ['Organic', 'Dating app'], title: '800K views on one Reel' },
-  { group: 'ecom', href: '/cases/fragstore-content-factory', cover: '/images/cases/covers/okad-case-07-fragstore.webp', tags: ['Organic', 'Toy store'], title: 'Fragstore: 48.9K views in 3 weeks' },
-  { group: 'apps', href: '/cases/smalltalk2me-social-content', cover: '/images/cases/covers/okad-case-06-smalltalk2me.webp', tags: ['Organic', 'EdTech'], title: '24K views, 849 saves on one tip' },
-  { group: 'dating', href: '/cases/dating-com-creator-content', cover: '/images/cases/covers/okad-case-08-dating-com.webp', tags: ['Organic', 'Dating 40+'], title: 'Dating.com: 60+ videos for 40+' },
-  { group: 'health', href: '/cases/longevity-supplement-story-ads', cover: '/images/cases/covers/okad-case-14-longevity-supplement.webp', tags: ['Paid ads', 'EN + DE'], title: '68 ads. Story before product' },
-  { group: 'ecom health dating', href: '/cases/ad-re-edits-five-brands', cover: '/images/cases/covers/okad-case-21-ad-re-edits.webp', tags: ['Re-edits', '5 brands'], title: '~80 ads from old folders' },
-  { group: 'apps', href: '/cases/case-uprest', img: '/images/thumbs/case-uprest.webp', tags: ['Paid ads', 'B2B'], title: 'UpRest: €2.75 per lead' },
-  { group: 'ecom apps', href: '/cases/high-converting-video-ads-for-dtc-brands', img: '/images/thumbs/j1iBjvbPI3bC6gVlOIvjMvQ0Oos.webp', tags: ['AI statics', 'DTC'], title: 'AI static ads: 3x CTR' },
-  // Women's health / Milamend case is live in /cases but hidden from the homepage on purpose
-];
-const groups = [
-  ['all', 'All'],
-  ['ai', 'AI video'],
-  ['apps', 'Apps & SaaS'],
-  ['health', 'Health & supplements'],
-  ['ecom', 'E-com & products'],
-  ['dating', 'Dating'],
-];
+const mail = (subject: string, body: string) => 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+const PLAN = mail('Plan for my brand', 'Brand and website:\nWhat you sell and to whom:\nLink to your ads or accounts:\nAny footage you already have:\n');
+// swap TEST for the Stripe payment link once it exists
+const TEST = mail('$1,000 test', 'Brand and website:\nWhat to test (re-edits, UGC, AI videos, statics, or not sure):\nLink to your ads (Meta ad library is fine):\n');
+const ORGANIC = mail('Organic content plan', 'App or brand and website:\nWhere you post (Instagram, TikTok...):\nLinks to your accounts:\nAny footage you already have:\n');
+const PRODUCTION = mail('Production only', 'Brand and website:\nWhat you need and how many:\nYour plan or brief:\n');
+const AGENCY = mail('White-label ads', 'Agency and website:\nWhat your clients need:\nHow many videos a month:\n');
 
-const services = [
-  { n: '01', c: 'mint', t: 'Re-edits from your footage', p: 'New hooks, new order and new sound on clips you already have. The fastest way to fresh ads.', price: 'from $50', unit: 'per ad', cases: [['Five brands, zero new shoots', '/cases/ad-re-edits-five-brands'], ['ZenToes Walmart launch', '/cases/zentoes-walmart-launch-ads']] },
-  { n: '02', c: 'lav', t: 'New UGC with creators', p: 'Scripts, casting from 3,000+ creators, filming and editing. 3 to 5 hooks per video.', price: 'from $100', unit: 'per video, creator included', cases: [['AI app: −35% per customer', '/cases/creative-testing-ai-app-meta-ads'], ['Lookalikey', '/cases/lookalikey-ugc-ads'], ['Protein pouch: 13 cuts', PROTEIN]] },
-  { n: '03', c: 'peach', t: 'AI video', p: 'AI UGC, animation and product videos when there is no footage yet, or when you need volume fast.', price: 'from $200', unit: 'per video', cases: [['AI book trailers: 12K+ likes', AI_BOOK], ['Jewelry content, no shoots', AI_JEWELRY], ['Shuggle: no actors', AI_SHUGGLE]] },
-  { n: '04', c: 'lilac', t: 'Static ads', p: 'Statics and carousels from your photos, reviews and AI visuals, made in sets.', price: 'from $50', unit: 'per static', cases: [['Nursery ads without a shoot', '/cases/baby-furniture-ai-product-visuals'], ['AI statics: 3x CTR', '/cases/high-converting-video-ads-for-dtc-brands']] },
-];
-
-const strategy = { price: 'from $500', unit: 'for one test, up to 30 ads · from $2,500 for a month or longer', p: 'A deep look at your ad account, your competitors and your reviews, and a plan of which ads to make and test first. The test and monthly plans already include a test plan and scripts.' };
-
+// hero rail: first six were picked for the first screen, the rest follow
 const wall = [
-  { v: '/cases/ai-book-trailers/assets/video/b_v1', poster: '/cases/ai-book-trailers/assets/img/img-01.jpg', t: 'AI video', c: 'Book publisher', h: AI_BOOK },
-  { v: '/videos/rail-lookalikey', t: 'UGC', c: 'Lookalikey', h: CASE_LK, webm: true },
-  { v: '/images/cases/ad-re-edits-five-brands/ad/v/cflags', t: 'Re-edit', c: 'Gut health brand', h: CASE3 },
-  { v: '/videos/case2-cream', t: 'Re-edit', c: 'ZenToes', h: '/cases/zentoes-walmart-launch-ads', webm: true },
-  { v: '/cases/shuggle-ai-video/assets/video/s_gala', poster: '/cases/shuggle-ai-video/assets/img/img-02.jpg', t: 'AI video', c: 'Shuggle', h: AI_SHUGGLE },
-  { v: '/images/cases/longevity-supplement-story-ads/lg/v/party', t: 'Story ad', c: 'Longevity brand', h: '/cases/longevity-supplement-story-ads' },
-  { v: '/videos/hero-todo', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
-  { v: '/cases/ai-jewelry-content/assets/video/d_4', poster: '/cases/ai-jewelry-content/assets/img/img-09.jpg', t: 'AI video', c: 'Jewelry brand', h: AI_JEWELRY },
-  { v: '/images/cases/ad-re-edits-five-brands/ad/v/cbrain', t: 'Re-edit', c: 'Supplement brand', h: CASE3 },
-  { v: '/images/cases/longevity-supplement-story-ads/lg/v/robert', t: 'Story ad', c: 'Longevity brand', h: '/cases/longevity-supplement-story-ads' },
   { v: '/videos/hero-facetime', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
+  { v: '/videos/case2-cream', t: 'Re-edit', c: 'ZenToes', h: ZENTOES, webm: true },
+  { v: '/videos/rail-lookalikey', t: 'UGC', c: 'Lookalikey', h: CASE_LK, webm: true },
+  { v: '/images/cases/longevity-supplement-story-ads/lg/v/athletes', t: 'Story ad', c: 'Longevity brand', h: '/cases/longevity-supplement-story-ads' },
+  { v: '/videos/hero-ugc', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
+  { v: '/cases/ai-jewelry-content/assets/video/d_6', t: 'AI video', c: 'Jewelry brand', h: AI_JEWELRY },
+  { v: '/cases/ai-book-trailers/assets/video/b_v1', poster: '/cases/ai-book-trailers/assets/img/img-01.jpg', t: 'AI video', c: 'Book publisher', h: AI_BOOK },
+  { v: '/images/cases/ad-re-edits-five-brands/ad/v/cflags', t: 'Re-edit', c: 'Gut health brand', h: CASE3 },
+  { v: '/cases/shuggle-ai-video/assets/video/s_gala', poster: '/cases/shuggle-ai-video/assets/img/img-02.jpg', t: 'AI video', c: 'Shuggle', h: AI_SHUGGLE },
+  { v: '/videos/hero-todo', t: 'UGC', c: 'AI headshot app', h: CASE1, webm: true },
+  { v: '/images/cases/ad-re-edits-five-brands/ad/v/cbrain', t: 'Re-edit', c: 'Supplement brand', h: CASE3 },
 ];
 
-const testSteps = [
-  ['Day 1', 'Brief', 'You send your product, footage and ad results. Or I find your ads in the Meta ad library.'],
-  ['Days 2 to 3', 'Plan and scripts', 'I read your reviews and competitors, write the test plan and every script. You approve.'],
-  ['Day 5', 'First batch', 'Re-edits, AI videos and statics are ready. UGC with creators takes 2 to 3 weeks, because they need your product first.'],
-  ['After 7 to 14 days', 'Next batch', 'You launch and share the results. I keep what works, drop what doesn\'t and plan the next batch.'],
+const stats = [
+  ['−35%', 'cost per customer, AI app', CASE1],
+  ['2.2', 'ROAS on the first test, Lookalikey', CASE_LK],
+  ['5,471', 'sign-ups from organic, $0 on ads', CASE4],
+  ['1.5M', 'organic views, iPad app', CASE2],
+];
+
+const make = [
+  ['Re-edits', 'From your old footage', 'New hooks, order and sound. Ready in days.'],
+  ['UGC', 'Real people, 3,000+ creators', 'When buyers need to see someone use it.'],
+  ['AI video', 'No footage, no shoot', 'When you need volume fast or a scene nobody can film. Not plastic: see the jewelry case.'],
+  ['Statics', 'Images and carousels', 'When your product sells with a picture.'],
+];
+
+const cases = [
+  { c: 'lime', href: CASE1, img: COV + 'ai-headshot-app.webp', fmt: 'UGC', tags: ['case 01', 'Consumer AI app'], h: 'From 2 videos that ever worked <em>to 160+ ads</em> in four months', p: 'Scripts from research, matched creators, native formats. Sales picked the winners.' },
+  { c: 'mint', href: CASE_LK, img: COV + 'lookalikey.webp', fmt: 'UGC', tags: ['case 02', 'Lookalikey · gift cards'], h: 'Their ads explained the feature. <em>Mine show what happens next.</em>', p: 'First test: 3 creators, 3 videos each, no word "AI" in any script. A family hooked on one card became the winner.' },
+  { c: 'lav', href: CASE4, img: COV + 'by-okad.webp', fmt: 'Organic', tags: ['case 03', 'My own account'], h: 'Old clips from my camera roll. <em>5,471 sign-ups, $0 on ads.</em>', p: 'I tested on my own account what I sell to clients: no new shoots, borrowed formats, offers tested like hooks.' },
+];
+const moreCases = [
+  { href: CASE3, img: COV + 'ad-re-edits.webp', fmt: 'Re-edits' },
+  { href: AI_JEWELRY, img: '/cases/ai-jewelry-content/assets/img/cover.jpg', fmt: 'AI content' },
+  { href: ZENTOES, img: COV + 'zentoes.webp', fmt: 'Re-edits + statics' },
+  { href: PROTEIN, img: COV + 'protein-pouch.webp', fmt: 'UGC' },
+  { href: AI_BOOK, img: '/cases/ai-book-trailers/assets/img/cover.jpg', fmt: 'AI video' },
+  { href: AI_SHUGGLE, img: '/cases/shuggle-ai-video/assets/img/cover.jpg', fmt: 'AI video' },
+];
+
+const testOpts = [
+  ['You have old footage', '20 re-edits'],
+  ['You need real people', '5 UGC videos'],
+  ['No footage, need it fast', '3 to 5 AI videos'],
+  ['You sell with images', '20 static ads'],
+];
+const testDays = [
+  ['Day 1', 'You send a link and any footage'],
+  ['Day 2 to 3', 'I send the test plan and scripts'],
+  ['Day 5', 'First ads ready. UGC: 2 to 3 weeks'],
+  ['Then', 'You launch, I tell you what to make next'],
+];
+
+// Real client quotes. Never edit the wording.
+const quotes = [
+  ["Olga has been great to work with. She's reliable, collaborative, and incredibly responsive to feedback. The quality of her work is outstanding.", 'Michele Laikowski', 'Assistant Director Digital Marketing, Kensington Publishing', 'AI video · book publisher'],
+  ["Creator B content has performed the best, especially 'I created one card and now my whole family is obsessed'. We're currently running at a 1.96 ROAS, recently hitting more towards 2.20 ROAS.", 'Spencer Herron', 'Lookalikey', 'UGC ads · first test'],
+  ["The videos, especially the Three Split Screen concept, performed really well, and we're still leveraging them in our campaigns today.", 'Lina Lin', 'Athena Club', 'UGC ads'],
+  ['Very happy with the video produced by OKAD. It helped us increase our creative output, and communication was smooth throughout.', 'Maxime Lenzlinger', 'Co-founder, VUE SWISS', 'Video ads'],
+  ["I really like that we've anchored every video clearly in our three pillars. From my side, this direction is solid and consistent with how we want STIGA to show up.", 'Karl Inde', 'STIGA', 'Video'],
+  ['Let me re-iterate how much we enjoy and appreciate the quality of your work, but more importantly, your sense of urgency when you know things are time-sensitive. We are so lucky to have you :)', 'Varun Godha', 'Diamondere', 'AI content'],
+  ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', 'Agency partner'],
 ];
 
 const faqs = [
-  ['How fast do I get the first ads?', 'Re-edits, AI videos and statics in 5 business days. UGC with creators takes 2 to 3 weeks, because we send them your product first.'],
-  ['Do you have a team?', 'Yes, a small one. I do the strategy, every script and a big part of the editing myself. Two people help me: one runs UGC casting from our 3,000+ creators, the other does graphics and AI generation.'],
-  ['Are creator fees included?', 'Yes, the price per video includes the creator.'],
-  ['Who owns the ads?', 'You do. Run them on any paid channel. If you want Spark or partnership ads from a creator\'s account, I arrange it with the creator.'],
-  ['Do you run the ads?', "No, I make the ads and the test plan. You or your media buyer launch them. If you don't have one, I'll show you how to set up the test and can recommend a media buyer."],
-  ['How do I pay?', 'The test is paid upfront. Monthly plans are paid month by month, with no long contract.'],
-  ['Which languages?', 'Any. I have made ads in English, German and many other languages, with native creators.'],
-  ['Is it AI or real people?', 'Both. Before we start I tell you which videos are AI and which are filmed by creators.'],
-  ['What if I don’t like a script?', 'You approve every script before anyone films or edits, and one round of edits is included in every batch.'],
-  ['What if nothing works?', 'Then we know which angles don\'t sell. The next batch tests new ones, and I re-cut the best ads with new hooks first, because that is the cheapest next test.'],
+  ['Can we work without a call?', "Yes. Send me a link to your product and any footage. I reply by email with what I'd test first."],
+  ['How fast do I get the first ads?', 'First ads in 5 business days. UGC with new creators takes 2 to 3 weeks.'],
+  ['What if nothing works?', 'Some ads will lose, that\'s what a test is for. At the start I ask how bold you want to go: safer ideas built on what already works for you and your competitors, or new ideas that can win big or flop. At minimum you get a tested answer. At best, a new winner. Tests need enough volume, so I plan them with enough ads.'],
+  ['Where are your creators?', 'In every big market: the US, UK, Europe, the Middle East, Asia and more. Any age, look and background. Any language.'],
+  ['Are creator fees included?', 'No, they come on top and depend on the brief. I tell you the full price before we start.'],
+  ['Do you run the ads?', 'No, your team or media buyer runs them. I read the results and plan the next batch.'],
+  ['Can I cancel the monthly plan?', "Yes, any time with one month's notice."],
+  ['How do I pay?', '100% upfront for each test or month.'],
+  ['What is the smallest order?', 'The $1,000 test. For ads without strategy, Production only starts at $2,500 a month.'],
 ];
 
-const principles = [
-  ['3–5', 'Variations per ad', 'We shoot one ad and cut 3–5 versions with different hooks to test.'],
-  ['3,000+', 'Vetted creators', "Our own creators. You don't search. We match and brief them."],
-  ['Hook → CTA', 'Script first', 'Every video has a written script before anyone hits record.'],
-  ['AI + human', 'Creative direction', 'We use AI to move faster, but a person decides what to make.'],
-  ['1 team', 'Zero handoffs', 'The same people write the script, pick the creator and edit the video.'],
-  ['CTR · ROAS', 'Data in every brief', 'Before the next batch, we look at what actually performed.'],
-  ['Scroll-stop', 'Design first', "If it doesn't catch the eye in the feed, it doesn't work."],
-];
-
-const steps = [
-  ['Week 1', 'Research', 'Reviews, comments, ad history'],
-  ['Week 2', 'Test plan', '50–70 ideas you approve'],
-  ['Week 2', 'Scripts & casting', 'Hooks and matched creators'],
-  ['Weeks 3–4', 'Production', 'Native videos, 9:16 + 4:5'],
-  ['Weeks 5–6', 'Results', 'Scale, fix or stop each video'],
-];
-
-const design = [
-  { href: '/cases/case-jumpman', img: '/images/thumbs/case-jumpman.webp', tags: ['Branding'], title: 'Jumpman, Paris', text: 'Brand identity for a Paris cardio studio.' },
-  { href: '/cases/case-jumpman-website-main', img: '/images/thumbs/case-jumpman-website-main.webp', tags: ['Web', 'Framer'], title: 'Jumpman website', text: 'Doubled B2C bookings in the first month.' },
-  { href: '/cases/case-jardins-etretat-redesign-main', img: '/images/thumbs/case-jardins-etretat-redesign-main.webp', tags: ['Web', 'Framer'], title: "Jardins d'Étretat", text: 'Website redesign for a French venue.' },
-  { href: '/cases/case-lingoculture', img: '/images/thumbs/case-lingoculture.webp', tags: ['Pitch deck'], title: 'LingoCulture', text: 'Partner deck for a French learning platform.' },
-  { href: '/cases/case-ckx', img: '/images/thumbs/case-ckx.webp', tags: ['UX/UI', 'Framer'], title: 'ChainKeyX', text: 'Bento-style website for a DeFi startup.' },
-  { href: '/cases/case-innowomen-branding', img: '/images/thumbs/case-innowomen-branding.webp', tags: ['Branding'], title: 'In a Woman', text: 'Branding for a women-in-tech accelerator.' },
-];
-
-// Real client quotes from email. Ask each client before publishing.
-const quotes = [
-  ["Creator B content has performed the best, especially 'I created one card and now my whole family is obsessed'. We're currently running at a 1.96 ROAS, recently hitting more towards 2.20 ROAS.", 'Spencer Herron', 'Lookalikey · first test, 3 videos per creator', 'lookalikey'],
-  ["The videos, especially the Three Split Screen concept, performed really well, and we're still leveraging them in our campaigns today.", 'Lina Lin', 'Athena Club', 'athena-club'],
-  ['Very happy with the video produced by OKAD. It helped us increase our creative output, and communication was smooth throughout.', 'Maxime Lenzlinger', 'Co-founder, VUE SWISS', '/images/9yQb8hBXfQCe1f6JkqCRMnt4AKs.jpeg'],
-  ["I really like that we've anchored every video clearly in our three pillars. From my side, this direction is solid and consistent with how we want STIGA to show up.", 'Karl Inde', 'STIGA', 'stiga'],
-  ['The final result exceeded my expectations. The structure was clear, the content was well-aligned with the brand tone.', 'Kristina Hr.', 'Marketing, Mushroom genetics', '/images/mkinoi0MbzI3iMzkSDbgPOq2GI.png'],
-  ['Let me re-iterate how much we enjoy and appreciate the quality of your work, but more importantly, your sense of urgency when you know things are time-sensitive. We are so lucky to have you :)', 'Varun Godha', 'Diamondere', 'diamondere'],
-  ["You're the best team I've ever worked with. You are professional, organized, creative, and kind.", 'Claire Ginn', 'Founder, YPM Agency', '/images/LaQrt95uuBqxdIKPQ5u3sWttcvc.png'],
-  // removed from the homepage: Paula (VUE SWISS, no surname), Michele L. (no result in the quote)
-];
-
-const videos = [
-  ['-UTQ0HyGE80', 'High-converting UGC video ad system'],
-  ['6ww6ykmc2Pw', 'How to create static ads: 4 elements every ad needs'],
-];
-
-import fs from 'node:fs';
-// client logos: drop PNG/SVG files into public/logos/clients/ and they join the marquee automatically
 const clientLogos = fs.existsSync('public/logos/clients') ? fs.readdirSync('public/logos/clients').filter((f) => /\.(png|svg|webp)$/i.test(f)).sort().map((f) => `/logos/clients/${f}`) : [];
 const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/logo-${i}.png`)];
-const logoFor = (slug: string) => clientLogos.find((l) => l.split('/').pop()!.replace(/\.\w+$/, '') === slug) ?? '';
-const hasWave = fs.existsSync('public/videos/olga-wave.mp4');
-const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria-hidden="true"><path d="M4 6 C 26 0, 44 14, 46 40"/><path d="M38 33 L46 42 L51 31"/></svg>';
 ---
 
-<Base title="OKAD · Video and static ads for DTC brands and apps" description="Fresh ads, fast, with a strategist behind each one: re-edits, UGC, AI videos and statics. First test from $1,000. 100+ brands, 10,000+ ads.">
+<Base title="OKAD · Ads and organic content, tested every month" description="Fresh ads, fast, with a strategist behind every one: UGC, AI video, re-edits and statics. Monthly creative testing from $4,000 or a $1,000 test. 100+ brands, 10,000+ ads.">
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'ProfessionalService', name: 'OKAD', url: 'https://okad.agency/', email: 'olga@okad.agency', founder: { '@type': 'Person', name: 'Olga Kad Miller', sameAs: ['https://www.linkedin.com/in/o-kad/', 'https://www.instagram.com/by.okad/'] }, areaServed: 'Worldwide', address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' }, priceRange: '$50 to $2,500+' })} />
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'ProfessionalService', name: 'OKAD', url: 'https://okad.agency/', email: EMAIL, founder: { '@type': 'Person', name: 'Olga Kad Miller', sameAs: ['https://www.linkedin.com/in/o-kad/', 'https://www.instagram.com/by.okad/'] }, areaServed: 'Worldwide', address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' }, priceRange: '$1,000 to $7,000+' })} />
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) })} />
   </Fragment>
 
-  <div class="okh">
-
-    <!-- HERO: video first -->
-    <section class="khero">
+  <div class="k2">
+    <!-- HERO -->
+    <section class="khero2" id="ads">
       <div class="w">
-        <div class="hero-grid">
-          <div class="stack">
-            <div class="svc-chips" aria-label="What I make"><a href="#services">UGC</a><a href="#services">AI video</a><a href="#services">Re-edits</a><a href="#services">Static ads</a></div>
-            <h1>Fresh ads, fast. <span class="cap">A strategist behind every one.</span></h1>
-            <p class="lead">Video and static ads for brands and apps: re-edits of your footage, UGC with 3,000+ creators, AI video and statics. Every ad is planned and scripted before anyone films.</p>
-            <a class="hello" href="#contact">
-              {hasWave
-                ? <video class="hello-av" src="/videos/olga-wave.mp4" poster="/images/thumbs/olga.webp" autoplay muted loop playsinline aria-label="Olga waving"></video>
-                : <img class="hello-av" src="/images/thumbs/olga.webp" width="56" height="56" alt="Olga Kad Miller" />}
-              <span><b class="hand">Hi, I'm Olga</b><span>creative strategist · 10,000+ ads for 100+ brands</span></span>
-            </a>
-            <div class="row">
-              <a class="btn" href="#offer">Start a test<span class="m-hide"> · from $1,000</span></a>
-              <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
-            </div>
-          </div>
-          <div class="collage" aria-label="Frames from our ads">
-            <span class="note hand hn">real frames from our ads <Fragment set:html={arrowR} /></span>
-            <figure class="ph"><video poster="/videos/hero-reedit.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Re-edited ad from brand footage: POV, your husband steals your foot cream"><source src="/videos/hero-reedit.webm" type="video/webm" /><source src="/videos/hero-reedit.mp4" type="video/mp4" /></video><figcaption class="ph-tag">Re-edit</figcaption></figure>
-            <figure class="ph"><video poster="/videos/hero-ugc.jpg" autoplay muted loop playsinline preload="metadata" aria-label="UGC ad with a creator: good, better, best"><source src="/videos/hero-ugc.webm" type="video/webm" /><source src="/videos/hero-ugc.mp4" type="video/mp4" /></video><figcaption class="ph-tag">UGC</figcaption></figure>
-            <figure class="ph"><video poster="/videos/hero-ai.jpg" autoplay muted loop playsinline preload="metadata" aria-label="AI video ad: glowing gut inside a 3D body"><source src="/videos/hero-ai.mp4" type="video/mp4" /></video><figcaption class="ph-tag">AI video</figcaption></figure>
-            <a class="sticker" href={CASE1}>
-              <b>160+</b>
-              <span>video ads for one AI app in four months<small>Case 01 · read →</small></span>
-            </a>
-          </div>
+        <div class="chips" aria-label="What I make"><a href="#make">UGC</a><a href="#make">AI video</a><a href="#make">Re-edits</a><a href="#make">Static ads</a></div>
+        <h1>Fresh ads, <span class="circ">fast.</span> <span class="cap">A <mark>strategist</mark> behind every one.</span></h1>
+        <p class="lead">New ads and organic content every month, tested, with a clear answer on what to make next.</p>
+        <div class="btns">
+          <a class="btn" href={PLAN}>Get a plan</a>
+          <a class="btn line" href="#test">$1,000 test</a>
         </div>
-
-        <p class="res-kick">Numbers I can share. Most of my clients work under NDA.</p>
-        <div class="strip res-strip">
-          <a href={CASE1}><b>−35%</b><span>cost per customer for an AI app</span></a>
-          <a href={CASE_LK}><b>2.2</b><span>ROAS for Lookalikey on the first test</span></a>
-          <a href={CASE4}><b>5,471</b><span>sign-ups from organic posts, $0 on ads</span></a>
-          <a href={CASE2}><b>1.5M</b><span>organic views and 2,000 app sign-ups</span></a>
+        <p class="micro">Send me a link. I reply within 24 hours with what I'd test first. No call needed. <a href={'mailto:' + EMAIL}>{EMAIL}</a></p>
+        <div class="rail-top">
+          <span>Tap a video for sound</span>
+          <span class="rnav"><button type="button" data-rail="wl" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="wl" data-dir="1" aria-label="Next">→</button></span>
         </div>
       </div>
-    </section>
-
-    <!-- LOGOS -->
-    <section aria-label="Clients">
-      <div class="logos-cap"><span class="kick">I have delivered results for brands like</span></div>
-      <div class="logos">
-        <div class="lt">
-          {[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="eager" decoding="async" height="26" />)}
-        </div>
-      </div>
-    </section>
-
-    <!-- WATCH THE ADS -->
-    <section class="sec tight" id="ads">
-      <div class="w">
-        <div class="rail-head">
-          <div class="t">
-            <span class="kick">Tap a video for sound</span>
-            <h2>Watch the <span class="cap y">ads</span></h2>
-          </div>
-          <div class="rail-nav"><button type="button" data-rail="wl" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="wl" data-dir="1" aria-label="Next">→</button></div>
-        </div>
-      </div>
-      <div class="rail wall" id="wl">
-        {wall.map((x) => (
+      <div class="wall" id="wl">
+        {wall.map((x, i) => (
           <figure class="wv">
             <div class="ph">
-              <video data-lazy poster={x.poster ?? `${x.v}.jpg`} muted loop playsinline preload="none" aria-label={`${x.t} ad for ${x.c}`}>
+              <video data-lazy poster={x.poster ?? `${x.v}.jpg`} muted loop playsinline preload={i < 4 ? 'metadata' : 'none'} aria-label={`${x.t} ad for ${x.c}`}>
                 {x.webm && <source data-src={`${x.v}.webm`} type="video/webm" />}
                 <source data-src={`${x.v}.mp4`} type="video/mp4" />
               </video>
-              <span class="ph-tag">{x.t}</span>
+              <span class="tag">{x.t}</span>
               <span class="snd" aria-hidden="true">sound off</span>
             </div>
-            <figcaption><a href={x.h}>{x.c} →</a></figcaption>
+            <a href={x.h}>{x.c} →</a>
           </figure>
         ))}
       </div>
     </section>
 
-    <!-- SERVICES: what I make -->
-    <section class="sec tight" id="services">
+    <!-- NUMBERS + LOGOS -->
+    <section class="sec">
       <div class="w">
-        <div class="head">
-          <div class="t">
-            <span class="kick">Prices per piece, so you can plan your budget</span>
-            <h2>What I <span class="cap g">make</span></h2>
-          </div>
-        </div>
-        <div class="svc4">
-          {services.map((x) => (
-            <div class={`sv ${x.c}`}>
-              <span class="sv-n">{x.n}</span>
-              <h3>{x.t}</h3>
-              <p>{x.p}</p>
-              <div class="sv-price"><b>{x.price}</b><span>{x.unit}</span></div>
-              <div class="sv-cases">{x.cases.map(([l, h]) => <a href={h}>{l} →</a>)}</div>
-            </div>
-          ))}
-        </div>
-        <div class="strat">
-          <div><span class="sv-n">05</span><h3>Strategy</h3><p>{strategy.p}</p></div>
-          <div class="sv-price"><b>{strategy.price}</b><span>{strategy.unit}</span></div>
-        </div>
+        <p class="small">Numbers I can share. Most clients are under NDA.</p>
+        <div class="nums">{stats.map(([b, s, h]) => <a href={h}><b>{b}</b><span>{s}</span></a>)}</div>
+      </div>
+      <p class="small center">Brands I have made ads for</p>
+      <div class="logos"><div class="lt">{[...logos, ...logos].map((src, i) => <img src={src} alt="" aria-hidden={i >= logos.length ? 'true' : undefined} loading="eager" decoding="async" height="26" />)}</div></div>
+    </section>
+
+    <!-- WHAT I MAKE -->
+    <section class="sec" id="make"><span id="services"></span>
+      <div class="w narrow">
+        <p class="eyebrow">Any mix, every month</p>
+        <h2>What I <em>make</em></h2>
+        <div class="mk">{make.map(([t, b, p]) => <div><i>{t}</i><p><b>{b}</b>{p}</p></div>)}</div>
+        <div class="inmonth"><b>~50 ads</b><span>in a $4,000 month with strategy and scripts. For example: 10 UGC, 20 re-edits, 20 statics</span></div>
       </div>
     </section>
 
     <!-- CASES -->
     <section class="sec" id="cases">
       <div class="w">
-        <div class="head">
-          <div class="t">
-            <span class="kick">Real ad accounts, real numbers</span>
-            <h2>Selected <span class="cap g">cases</span></h2>
-          </div>
-          <a class="btn ghost" href="/cases">All cases →</a>
+        <p class="eyebrow">Real ad accounts, real numbers</p>
+        <h2>Selected <em>cases</em></h2>
+        <p class="niche">Ads for apps, supplements, beauty, fashion, dating, books, electronics and more.</p>
+        <div class="cases">
+          {cases.map((x) => (
+            <a class={`case ${x.c}`} href={x.href}>
+              <img src={x.img} alt="" loading="lazy" width="1500" height="1200" />
+              <div class="tags"><span class="fmt">{x.fmt}</span>{x.tags.map((t) => <span>{t}</span>)}</div>
+              <h3 set:html={x.h} />
+              <p>{x.p}</p>
+              <span class="btn">Read the case →</span>
+            </a>
+          ))}
         </div>
-
-        <div class="fcases">
-          <!-- CASE 01 -->
-          <article class="fcase">
-            <a class="fcase-link" href={CASE1} aria-label="Read the case: 160+ ads for a consumer AI app"></a>
-            <div class="info">
-              <div class="meta">
-                <span class="num">case 01</span>
-                <div class="tags"><span>Creative testing</span><span>Consumer AI app</span><span>Meta ads · US</span></div>
-              </div>
-              <h3>From 2 videos that ever worked <span class="cap w">to 160+ ads</span> in four months</h3>
-              <p>Scripts from research, matched creators, native formats. Sales picked the winners.</p>
-              <div class="fk">
-                <div><b>160<em>+</em></b><span>video ads delivered</span></div>
-                <div><b>−35<em>%</em></b><span>cost per customer vs account average</span></div>
-                <div><b><em>#</em>1</b><span>biggest budget of ~770 ads went to our video</span></div>
-              </div>
-              <div class="go">
-                <a class="btn" href={CASE1}>Read the case →</a>
-                <span class="kick">11 chapters · client anonymised</span>
-              </div>
-            </div>
-            <div class="cov cov-stack" aria-hidden="true">
-              <span class="note hand hn">160+ of these <Fragment set:html={arrowR} /></span>
-              <figure class="ph c-main"><img src="/images/cases/ai-app-designed/img-02.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph c-l"><img src="/images/cases/ai-app-designed/img-29.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph c-r"><img src="/images/cases/ai-app-designed/img-23.jpg" alt="" loading="lazy" /></figure>
-              <span class="chip-v">−35% cost per customer</span>
-            </div>
-          </article>
-
-          <!-- CASE 04: Lookalikey -->
-          <article class="fcase mint">
-            <a class="fcase-link" href={CASE_LK} aria-label="Read the case: Lookalikey UGC ads"></a>
-            <div class="info">
-              <div class="meta">
-                <span class="num">case 02</span>
-                <div class="tags"><span>UGC ads</span><span>Lookalikey · gift cards</span><span>Meta · UK and US</span></div>
-              </div>
-              <h3>Their ads explained the feature. <span class="cap w">Mine show what happens next.</span></h3>
-              <p>The first test: 3 creators, 3 videos each, no word "AI" in any script. The video about a whole family hooked on one card became the winner.</p>
-              <div class="fk">
-                <div><b>2.2</b><span>ROAS on the first test</span></div>
-                <div><b>9</b><span>UGC videos from 3 creators</span></div>
-                <div><b>0</b><span>times the word "AI" is said</span></div>
-              </div>
-              <div class="go">
-                <a class="btn" href={CASE_LK}>Read the case →</a>
-                <span class="kick">UK and US · first test</span>
-              </div>
-            </div>
-            <div class="cov cov-cover" aria-hidden="true">
-              <img src="/images/cases/covers/okad-case-10-lookalikey.webp" alt="" loading="lazy" />
-              <span class="chip-v">2.2 ROAS, first test</span>
-            </div>
-          </article>
-
-          <!-- CASE: my own account (by.okad) -->
-          <article class="fcase lav">
-            <a class="fcase-link" href={CASE4} aria-label="Read the case: 5,471 sign-ups from organic posts"></a>
-            <div class="info">
-              <div class="meta">
-                <span class="num">case 03</span>
-                <div class="tags"><span>My own account</span><span>@by.okad</span><span>Organic · $0 ads</span></div>
-              </div>
-              <h3>Old clips from my camera roll. <span class="cap w">5,471 sign-ups, $0 on ads.</span></h3>
-              <p>I tested on my own account what I sell to clients: no new shoots, borrowed formats, offers tested like hooks. The posts brought 5,471 people into my service without a cent on ads.</p>
-              <div class="fk">
-                <div><b>5,471</b><span>sign-ups from organic posts</span></div>
-                <div><b>81.8<em>K</em></b><span>views on the best reel</span></div>
-                <div><b>$0</b><span>ad spend</span></div>
-              </div>
-              <div class="go">
-                <a class="btn" href={CASE4}>Read the case →</a>
-                <span class="kick">by.okad · my own test</span>
-              </div>
-            </div>
-            <div class="cov cov-stack" aria-hidden="true">
-              <span class="note hand hn">from my camera roll <Fragment set:html={arrowR} /></span>
-              <figure class="ph c-main"><img src="/images/cases/by-okad-camera-roll-creators/hire_818k.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph c-l"><img src="/images/cases/by-okad-camera-roll-creators/hire_mirror.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph c-r"><img src="/images/cases/by-okad-camera-roll-creators/hire_robot.jpg" alt="" loading="lazy" /></figure>
-              <span class="chip-v">5,471 sign-ups, $0 ads</span>
-            </div>
-          </article>
-
-          <!-- CASE 03 -->
-          <article class="fcase peach">
-            <a class="fcase-link" href={CASE3} aria-label="Read the case: new ads for five brands from existing footage"></a>
-            <div class="info">
-              <div class="meta">
-                <span class="num">case 04</span>
-                <div class="tags"><span>Ads from your footage</span><span>5 brands</span><span>TikTok · Meta · Snap</span></div>
-              </div>
-              <h3>Five brands. <span class="cap w">Zero new shoots.</span></h3>
-              <p>Every brand that runs ads has a folder nobody touches. I cut new ads from it: new hooks, new order, new sound. You can start exactly like this with the first test.</p>
-              <div class="fk">
-                <div><b>~80</b><span>new ads from old footage</span></div>
-                <div><b>0</b><span>creators booked</span></div>
-                <div><b>20</b><span>re-edits fit in the first test</span></div>
-              </div>
-              <div class="go">
-                <a class="btn" href={CASE3}>Read the case →</a>
-                <span class="kick">Skincare · dating · career · pets · gut health</span>
-              </div>
-            </div>
-            <div class="cov cov-stack" aria-hidden="true">
-              <span class="note hand hn">same footage, new ads <Fragment set:html={arrowR} /></span>
-              <figure class="ph c-main"><video data-lazy poster="/images/cases/ad-re-edits-five-brands/ad/v/cflags.jpg" muted loop playsinline preload="none" aria-hidden="true"><source data-src="/images/cases/ad-re-edits-five-brands/ad/v/cflags.mp4" type="video/mp4" /></video></figure>
-              <figure class="ph c-l"><img src="/images/cases/ad-re-edits-five-brands/ad/m1.jpg" alt="" loading="lazy" /></figure>
-              <figure class="ph c-r"><img src="/images/cases/ad-re-edits-five-brands/ad/t2.jpg" alt="" loading="lazy" /></figure>
-              <span class="chip-v">~80 ads, 0 shoots</span>
-            </div>
-          </article>
-
-        </div>
+        <p class="small">More cases, swipe →</p>
       </div>
-
-      <!-- more cases, filter by what the client needed -->
-      <div class="w" style="margin-top:72px">
-        <div class="rail-head">
-          <h2 style="font-size:clamp(1.9rem,3.6vw,2.9rem)">More cases <span class="cap y">in your niche</span></h2>
-          <div class="rail-nav"><button type="button" data-rail="vw" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="vw" data-dir="1" aria-label="Next">→</button></div>
-        </div>
-        <div class="chips cfilt" role="group" aria-label="Filter cases by niche">
-          {groups.map(([k, l], i) => <button type="button" class={`chip${i === 0 ? ' on' : ''}`} data-g={k} aria-pressed={i === 0 ? 'true' : 'false'}>{l} <i>{k === 'all' ? videoWork.length : videoWork.filter((c) => c.group.split(' ').includes(k)).length}</i></button>)}
-        </div>
-      </div>
-      <div class="rail" id="vw">
-        {videoWork.map((c) => (
-          <a class="vcard" href={c.href} data-group={c.group} style={c.ratio ? `--vr:${c.ratio}` : undefined}>
-            {c.cover
-              ? <img class="vc-cover" src={c.cover} alt={c.title} loading="lazy" decoding="async" />
-              : c.pics
-              ? <div class={`vcov v-${c.layout}`}>{c.pics.map((src) => src.endsWith('.mp4') ? <video data-lazy poster={src.replace('.mp4', '.jpg')} muted loop playsinline preload="none" aria-hidden="true"><source data-src={src.replace('.mp4', '.webm')} type="video/webm" /><source data-src={src} type="video/mp4" /></video> : <img src={src} alt="" loading="lazy" decoding="async" />)}</div>
-              : <img src={c.img} alt={c.title} loading="lazy" decoding="async" />}
-            <div class="b"><div class="tags">{c.tags.map((t) => <span>{t}</span>)}</div><h4>{c.title}</h4></div>
-          </a>
-        ))}
+      <div class="crail">
+        {moreCases.map((x) => <a href={x.href}><img src={x.img} alt="" loading="lazy" /><span class="fmt">{x.fmt}</span></a>)}
+        <a class="all" href="/cases/">All cases →</a>
       </div>
     </section>
 
-    <!-- FOUNDER / CONTACT -->
+    <!-- TEST PLAN -->
+    <section class="sec" id="plan">
+      <div class="w narrow">
+        <p class="eyebrow">What you get before a single ad is made</p>
+        <h2>A real <em>test plan</em></h2>
+        <div class="plan" aria-hidden="true">
+          <img src="/images/test-plan/plan-1.jpg" alt="" loading="lazy" class="p1" />
+          <img src="/images/test-plan/plan-2.jpg" alt="" loading="lazy" class="p2" />
+          <img src="/images/test-plan/plan-3.jpg" alt="" loading="lazy" class="p3" />
+          <span class="lock">Client details hidden</span>
+        </div>
+        <ul class="ticks"><li>Which angles I test first, and why</li><li>What each ad checks: hook, format or audience</li><li>The copy for every ad</li><li>How to spot the winner in your ad account</li></ul>
+        <figure class="q">
+          <blockquote>"This is super, exactly the type of research and detail I was after to validate why to proceed with each test and how to track and identify the winning variable easily."</blockquote>
+          <figcaption><b>Thomas G.</b>Founder, UK socks brand</figcaption>
+        </figure>
+        <a class="btn full" href={PLAN}>Get a plan for your brand</a>
+      </div>
+    </section>
+
+    <!-- HOW WE WORK -->
+    <section class="sec" id="work"><span id="offer"></span><span id="how"></span>
+      <div class="w">
+        <div class="why narrow"><b>2 to 3 weeks</b>That's how fast most ads burn out. After that you pay more for the same customer, so new ones need to keep coming.</div>
+        <p class="eyebrow">Pick the way that fits you</p>
+        <h2>How we <em>work</em></h2>
+        <div class="ways">
+          <div class="card dark">
+            <p class="step">Monthly creative testing</p>
+            <h3>New ads every month</h3>
+            <p class="price">$4,000 to $7,000+ <span>/ month</span></p>
+            <p class="fit">For brands and apps that spend on ads every month and need fresh ones that sell.</p>
+            <div class="tiers">
+              <div><p class="tt">Core</p><p class="p">$4,000</p><p>About 50 ads a month, any mix</p></div>
+              <div><p class="tt">Scale</p><p class="p">$7,000+</p><p>About 100 ads a month, more UGC</p></div>
+            </div>
+            <p class="note">UGC creator fees on top.</p>
+            <ul class="ticks"><li>Strategy, test plan and every script</li><li>New hooks on the ads that work</li><li>I read your results after every batch and plan the next one</li></ul>
+            <a class="btn dew full" href={PLAN}>Get a plan for your brand</a>
+            <a class="link" href={CALL} target="_blank" rel="noopener">or book a call</a>
+          </div>
+
+          <div class="card dewc" id="test">
+            <p class="step">Not sure yet?</p>
+            <h3>Start with one test</h3>
+            <p class="price">$1,000 <span>one time</span></p>
+            <p class="fit">I pick the format for your situation:</p>
+            <div class="opts">{testOpts.map(([s, o]) => <div><span>{s}</span><b>{o}</b></div>)}</div>
+            <p class="note">UGC creator fees on top.</p>
+            <div class="days">{testDays.map(([d, t]) => <p><b>{d}</b>{t}</p>)}</div>
+            <p class="credit">Liked the results? Your first month starts right after the test.</p>
+            <a class="btn full" href={TEST}>Start with a test</a>
+          </div>
+
+          <div class="card path">
+            <p class="step">Organic content</p>
+            <h3>For apps and new brands</h3>
+            <p class="price">from $2,500 <span>/ month</span></p>
+            <p class="fit">A content plan, scripts, and Reels and TikToks from your footage, creators or AI. Starting from zero is fine. What works in organic becomes your first ads.</p>
+            <a class="btn line full" href={ORGANIC}>Get an organic plan</a>
+          </div>
+
+          <div class="card path">
+            <p class="step">Production only</p>
+            <h3>You bring the plan</h3>
+            <p class="price">from $2,500 <span>/ month</span></p>
+            <p class="fit">No strategy, just the ads you ask for.</p>
+            <div class="pp"><span>Re-edits</span><b>from $50</b><span>UGC with creators</span><b>from $100 + creator fee</b><span>AI video</span><b>from $200</b><span>Static ads</span><b>from $50</b></div>
+            <a class="btn line full" href={PRODUCTION}>Order ads</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ME -->
     <section class="sec" id="contact">
-      <div class="w">
-        <div class="founder">
-          <img class="av" src="/images/thumbs/olga.webp" width="180" height="180" alt="Olga Kad Miller" />
-          <div>
-            <span class="kick f-kick">Who's behind OKAD</span>
-            <blockquote>“I'm a creative <span class="cap">strategist</span> who still makes ads with my own hands.”</blockquote>
-            <p class="who"><span class="hand">Olga Kad Miller</span>Founder, OKAD · Lisbon</p>
-            <ol class="f-path">
-              <li><span>Design studio</span>200+ websites, brands and static ads. I did the visuals, the copy and the ideas myself.</li>
-              <li><span>Then the ad accounts</span>I wanted to know what happened after launch, so I started reading results and planning what to make next.</li>
-              <li><span>My own ads, my own face</span>I ran ads for my own products, posted 3 videos a day and filmed UGC ads myself. Many of my videos passed <b class="f-hi">1M views</b>, and my own posts brought 5,471 sign-ups with $0 on ads. <a class="f-link" href={CASE4}>See how →</a></li>
-              <li><span>Now</span>10,000+ ads and posts for 100+ brands: AI apps, dating, supplements, retail.</li>
-            </ol>
-            <details class="f-more" open>
-              <summary>How I work and who helps me</summary>
-            <div class="f-grid">
-              <div class="f-how">
-                <b>What I do myself</b>
-                <ol>
-                  <li>Read your reviews, comments and ad history.</li>
-                  <li>Write the test plan and every script.</li>
-                  <li>Edit a big part of the videos with my own hands.</li>
-                  <li>Check every ad, then plan the next batch.</li>
-                </ol>
-              </div>
-              <div class="f-team">
-                <b>Who helps me</b>
-                <p>A team of two, both very strong at what they do:</p>
-                <ul>
-                  <li><span>UGC casting</span> finds and manages creators from our 3,000+ list</li>
-                  <li><span>Graphics and AI</span> statics, AI generation and visuals</li>
-                </ul>
-                <p class="f-small">You always talk to me, not a manager.</p>
-              </div>
-            </div>
-            </details>
-            <div class="row">
-              <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
-              <button type="button" class="btn ghost copy-email" data-email="olga@okad.agency" title="Click to copy">olga@okad.agency</button>
-              <a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a>
-              <a class="btn ghost" href="https://www.instagram.com/by.okad/" target="_blank" rel="noopener">@by.okad</a>
-            </div>
-          </div>
+      <div class="w narrow">
+        <div class="me">
+          <div class="top"><img src="/images/thumbs/olga.webp" width="64" height="64" alt="Olga Kad Miller" /><div><p class="hand">Olga Kad Miller</p><p class="role">Founder, OKAD · Lisbon</p></div></div>
+          <h3>I'm a creative strategist who still makes ads with my own hands</h3>
+          <ul class="ticks"><li>10,000+ ads and posts for 100+ brands</li><li>Many of my own videos passed 1M views</li><li>I edit a big part of the ads myself</li></ul>
+          <p class="team">I lead the strategy and write every script. Editors, a designer and 3,000+ creators make the ads with me. You always talk to me.</p>
+          <a class="btn dew full" href={PLAN}>Get a plan for your brand</a>
+          <p class="link"><a href={CALL} target="_blank" rel="noopener">or book a call</a> · <a href={'mailto:' + EMAIL}>{EMAIL}</a></p>
+          <p class="soc"><a href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/by.okad/" target="_blank" rel="noopener">@by.okad</a><a href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener">YouTube</a></p>
         </div>
       </div>
     </section>
 
-    <!-- OFFER: three ways to start -->
-    <section class="sec tight" id="offer">
+    <!-- QUOTES -->
+    <section class="sec">
       <div class="w">
-        <div class="head">
-          <div class="t">
-            <span class="kick">Most clients start with a test, then go monthly</span>
-            <h2>How to <span class="cap y">start</span></h2>
-          </div>
-        </div>
-        <div class="offers steps3">
-          <div class="offer starter">
-            <div class="o-top"><span class="hand">step 1 · no call needed</span><span class="o-tag">Test</span></div>
-            <h3>Find what works</h3>
-            <div class="o-price"><b>from $1,000</b><span>test plan and scripts included<br />first batch in 5 business days</span></div>
-            <p class="o-pick">Pick one, or mix them:</p>
-            <ul class="o-opts">
-              <li><b>20</b> re-edited ads from your footage</li>
-              <li><b>10</b> new UGC videos with creators</li>
-              <li><b>3 to 5</b> AI videos</li>
-              <li><b>20</b> static ads</li>
-              <li><b>10 + 10</b> re-edits and statics</li>
-            </ul>
-            <a class="btn" href={TEST_LINK}>Start a test</a>
-            <p class="o-note">Email me your brand and the mix. I reply with the plan and the invoice.</p>
-          </div>
-          <div class="offer program">
-            <div class="o-top"><span class="hand">step 2 · after the test</span><span class="o-tag">Monthly testing</span></div>
-            <h3>Scale the winners</h3>
-            <div class="o-price"><b>from $2,500</b><span>per month · the more videos, the lower the price per video</span></div>
-            <ul>
-              <li>A new batch every month, planned from your results</li>
-              <li>Any mix: re-edits, UGC, AI videos, statics</li>
-              <li>New angles and hooks, winners re-cut in new versions</li>
-            </ul>
-            <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
-          </div>
-          <div class="offer organic">
-            <div class="o-top"><span class="hand">or · for social growth</span><span class="o-tag">Organic content</span></div>
-            <h3>Grow accounts, not only ads</h3>
-            <div class="o-price"><b>from $2,500</b><span>per month · scoped on a call</span></div>
-            <ul>
-              <li>Daily videos for TikTok, Reels and Shorts</li>
-              <li>Faceless and creator accounts run for your brand</li>
-              <li>A weekly review of views and saves</li>
-            </ul>
-            <a class="btn ghost" href={CALL} target="_blank" rel="noopener">Book a call</a>
-          </div>
-        </div>
-        <div class="assure">
-          <div><b>You approve every script</b><span>before anyone films or edits.</span></div>
-          <div><b>Nothing goes live</b><span>without your OK.</span></div>
-          <div><b>One round of edits</b><span>is included in every batch.</span></div>
-        </div>
+        <h2>What clients <em>say</em></h2>
+        <p class="small">Swipe for more →</p>
       </div>
-    </section>
-
-    <!-- HOW A TEST RUNS -->
-    <section class="sec tight" id="how">
-      <div class="w">
-        <div class="t" style="display:grid;gap:10px">
-          <span class="kick">You don't need to know ads. You need someone who tests them.</span>
-          <h2>How a test <span class="cap g">runs</span></h2>
-        </div>
-        <ol class="tl tl4">
-          {testSteps.map(([wk, b, p]) => <li><span class="wk">{wk}</span><b>{b}</b><span class="tx">{p}</span></li>)}
-        </ol>
-        <p class="how-note">Every video gets 3 to 5 hooks to test. AI makes us faster, but a person decides what to make.</p>
+      <div class="qrail">
+        {quotes.map(([q, n, r, s]) => <figure class="q"><p class="src">{s}</p><blockquote>"{q}"</blockquote><figcaption><b>{n}</b>{r}</figcaption></figure>)}
       </div>
-    </section>
-
-    <!-- TESTIMONIALS -->
-    <section class="sec tight">
-      <div class="w">
-        <div class="rail-head">
-          <h2>What clients <span class="cap p">say</span></h2>
-          <div class="rail-nav"><button type="button" data-rail="tq" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="tq" data-dir="1" aria-label="Next">→</button></div>
-        </div>
-      </div>
-      <div class="rail" id="tq">
-        {quotes.map(([q, n, r, img]) => (
-          <figure class="tcard">
-            <blockquote>“{q}”</blockquote>
-            <figcaption>{img.startsWith('/') ? <img src={img} alt="" loading="lazy" /> : logoFor(img) ? <img class="logo-av" src={logoFor(img)} alt="" loading="lazy" /> : <span class="ini" aria-hidden="true">{n.split(' ').map((w) => w[0]).join('').slice(0, 2)}</span>}<div><b>{n}</b><span>{r}</span></div></figcaption>
-          </figure>
-        ))}
-      </div>
-    </section>
-
-    <!-- PARTNER -->
-    <section class="sec tight" id="partners">
-      <div class="w">
-        <a class="partner-row" href="https://influee.co" target="_blank" rel="noopener">
-          <span class="kick">Partner</span>
-          <img src="/images/partners/influee-badge.webp" alt="Influee Official Partner" width="1270" height="492" loading="lazy" style="height:48px;width:auto;max-width:none" />
-          <span>I'm an official partner of Influee, a UGC creator platform.</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- DESIGN STUDIO: one line -->
-    <section class="sec tight" id="design">
-      <div class="w">
-        <a class="dline" href="/design"><span class="hand">where OKAD started</span><span>Need a website or a brand? 200+ websites and brands designed.</span><b>Design studio →</b></a>
-      </div>
+      <div class="w"><p class="partner">Official partner of <img src="/images/partners/influee-badge.webp" alt="Influee" height="22" loading="lazy" /></p></div>
     </section>
 
     <!-- FAQ -->
-    <section class="sec tight" id="faq">
-      <div class="w">
-        <h2>Questions people ask <span class="cap p">on calls</span></h2>
-        <div class="faq">
-          {faqs.map(([q, a]) => <details><summary>{q}</summary><p>{a}</p></details>)}
-        </div>
+    <section class="sec" id="faq">
+      <div class="w narrow">
+        <h2>Questions</h2>
+        <div class="faq">{faqs.map(([q, a], i) => <details open={i < 3}><summary>{q}</summary><p>{a}</p></details>)}</div>
       </div>
     </section>
 
-    <!-- NOT READY YET -->
-    <section class="sec tight" id="follow">
-      <div class="w">
-        <div class="nry">
-          <div>
-            <span class="hand">not ready yet?</span>
-            <h2>Watch how I take <span class="cap y">ads apart</span></h2>
-            <p>Twice a month I break down ad accounts spending $1M+ and organic accounts that took off: hooks, formats, what to copy.</p>
-          </div>
-          {NEWSLETTER_ACTION
-            ? <form class="nl" action={NEWSLETTER_ACTION} method="post" target="_blank"><input type="email" name="email" required placeholder="you@brand.com" aria-label="Email" /><button class="btn" type="submit">Get the teardowns</button></form>
-            : <div class="row"><a class="btn" href="https://www.instagram.com/by.okad/" target="_blank" rel="noopener">@by.okad on Instagram</a><a class="btn ghost" href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener">YouTube</a><a class="btn ghost" href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a></div>}
+    <!-- END -->
+    <section class="sec">
+      <div class="w narrow">
+        <div class="end">
+          <h2>Get a plan <em>for your brand</em></h2>
+          <p>Send me a link to your product. I reply with what I'd test first.</p>
+          <a class="btn full" href={PLAN}>Get a plan</a>
+          <p class="link"><a href={CALL} target="_blank" rel="noopener">or book a call</a> · <a href={'mailto:' + EMAIL}>{EMAIL}</a></p>
         </div>
+        <p class="foot">Need a website or a brand? <a href="/design">Design studio →</a><br />Agency? I make white-label UGC and AI video. <a href={AGENCY}>Email me →</a></p>
       </div>
     </section>
-
   </div>
 
-  <div class="okh mbar" id="mbar" hidden>
-    <a class="btn" href="#offer">Test from $1,000</a>
-    <a class="btn dew" href={CALL} target="_blank" rel="noopener">Book a call</a>
+  <div class="k2 mbar" id="mbar" hidden>
+    <a class="btn" href={PLAN}>Get a plan</a>
+    <a class="btn dew" href="#test">$1,000 test</a>
   </div>
 
   <script>
-    if (matchMedia('(max-width:640px)').matches) document.querySelectorAll('details.f-more').forEach((d) => d.removeAttribute('open'));
-
-    // respect reduced motion: stop the looping clips, the poster frame stays
-    if (matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      document.querySelectorAll<HTMLVideoElement>('.okh video[autoplay]').forEach((v) => { v.removeAttribute('autoplay'); v.pause(); });
-    }
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
     const mbar = document.getElementById('mbar');
     if (mbar) {
       mbar.hidden = false;
-      const onScroll = () => mbar.classList.toggle('on', window.scrollY > 500);
+      const onScroll = () => mbar.classList.toggle('on', window.scrollY > 600);
       onScroll();
       window.addEventListener('scroll', onScroll, { passive: true });
     }
-    // video wall: tap for sound, only one plays with sound
-    document.querySelectorAll<HTMLElement>('.okh .wall .ph').forEach((ph) => {
+    // hero rail starts nudged left so it reads as scrollable
+    const wl = document.getElementById('wl');
+    if (wl && matchMedia('(max-width:700px)').matches) requestAnimationFrame(() => { wl.scrollLeft = 44; });
+    // tap for sound, one video with sound at a time
+    document.querySelectorAll<HTMLElement>('.k2 .wall .ph').forEach((ph) => {
       ph.addEventListener('click', () => {
         const v = ph.querySelector('video')!;
         const turnOn = v.muted;
-        document.querySelectorAll<HTMLVideoElement>('.okh .wall video').forEach((o) => { o.muted = true; o.closest('.ph')?.classList.remove('on'); });
+        document.querySelectorAll<HTMLVideoElement>('.k2 .wall video').forEach((o) => { o.muted = true; o.closest('.ph')?.classList.remove('on'); });
         if (turnOn) { v.muted = false; v.play().catch(() => {}); ph.classList.add('on'); }
       });
     });
-    // case filter chips
-    const chips = document.querySelectorAll<HTMLButtonElement>('.okh .cfilt .chip');
-    const vcards = document.querySelectorAll<HTMLElement>('.okh #vw .vcard');
-    chips.forEach((c) => c.addEventListener('click', () => {
-      const g = c.dataset.g;
-      chips.forEach((x) => { const on = x === c; x.classList.toggle('on', on); x.setAttribute('aria-pressed', String(on)); });
-      vcards.forEach((v) => { v.hidden = g !== 'all' && !(v.dataset.group || '').split(' ').includes(g!); });
-      document.getElementById('vw')?.scrollTo({ left: 0 });
-    }));
-    // below-the-fold clips load and play only when they scroll into view
-    const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const lazy = document.querySelectorAll<HTMLVideoElement>('.okh video[data-lazy]');
+    // videos load and play only in view
+    const lazy = document.querySelectorAll<HTMLVideoElement>('.k2 video[data-lazy]');
     const startVid = (v: HTMLVideoElement) => {
       if (!v.dataset.loaded) {
         v.querySelectorAll<HTMLSourceElement>('source[data-src]').forEach((s) => { s.src = s.dataset.src!; });
@@ -645,13 +358,12 @@ const arrowR = '<svg class="arr" width="54" height="48" viewBox="0 0 54 48" aria
       }), { rootMargin: '200px' });
       lazy.forEach((v) => io.observe(v));
     } else lazy.forEach(startVid);
-    document.querySelectorAll<HTMLButtonElement>('.okh [data-rail]').forEach((b) => {
+    document.querySelectorAll<HTMLButtonElement>('.k2 [data-rail]').forEach((b) => {
       b.addEventListener('click', () => {
         const rail = document.getElementById(b.dataset.rail!);
         if (!rail) return;
         const card = rail.firstElementChild as HTMLElement | null;
-        const step = card ? card.offsetWidth + 14 : 320;
-        rail.scrollBy({ left: Number(b.dataset.dir) * step, behavior: 'smooth' });
+        rail.scrollBy({ left: Number(b.dataset.dir) * (card ? card.offsetWidth + 10 : 300), behavior: 'smooth' });
       });
     });
   </script>
