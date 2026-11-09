@@ -15,6 +15,7 @@ const cases = defineCollection({
     topic: z.string().optional(),
     hook: z.string().optional(), // short question shown on guide cards
     startHere: z.number().optional(),
+    url: z.string().optional(),
     faqs: z.array(z.object({
       q: z.string(),
       a: z.string(),

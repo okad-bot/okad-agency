@@ -97,7 +97,7 @@ const design = cases.filter(c => !usedIds.has(c.id));
     <section data-category="ugc" style="max-width:1100px;margin:0 auto;padding:0 24px 48px">
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:20px">
         {featured.map(c => (
-          <a href={`/cases/${c.id}`} style="display:block;border-radius:16px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
+          <a href={c.data.url ?? `/cases/${c.id}`} style="display:block;border-radius:16px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
             <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
             <div style="padding:20px 24px">
               <h3 style="font-size:18px;font-weight:600;margin-bottom:8px;letter-spacing:-0.2px">{c.data.title}</h3>
@@ -113,7 +113,7 @@ const design = cases.filter(c => !usedIds.has(c.id));
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">Latest <span class="cap g">cases</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {latest.map(c => (
-          <a href={`/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
+          <a href={c.data.url ?? `/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
             <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
             <div style="padding:16px 20px">
               <h3 style="font-size:15px;font-weight:600;margin-bottom:6px">{c.data.title}</h3>
@@ -129,7 +129,7 @@ const design = cases.filter(c => !usedIds.has(c.id));
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">UGC & <span class="cap y">video ads</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {ugc.map(c => (
-          <a href={`/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
+          <a href={c.data.url ?? `/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
             <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
             <div style="padding:16px 20px">
               <h3 style="font-size:15px;font-weight:600;margin-bottom:6px">{c.data.title}</h3>
@@ -145,7 +145,7 @@ const design = cases.filter(c => !usedIds.has(c.id));
       <h2 style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:24px">Design & <span class="cap p">branding</span></h2>
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         {design.map(c => (
-          <a href={`/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
+          <a href={c.data.url ?? `/cases/${c.id}`} style="display:block;border-radius:14px;overflow:hidden;border:1px solid var(--border,#e6e6e6);transition:box-shadow .2s;text-decoration:none;color:inherit" class="case-card-hover">
             <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block" />
             <div style="padding:16px 20px">
               <h3 style="font-size:15px;font-weight:600;margin-bottom:6px">{c.data.title}</h3>

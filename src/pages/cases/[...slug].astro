@@ -5,7 +5,7 @@ import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const cases = await getCollection('cases');
   return cases
-    .filter(c => c.data.type !== 'blog')
+    .filter(c => c.data.type !== 'blog' && !c.data.url)
     .map(entry => ({
       params: { slug: entry.id },
       props: { entry },
@@ -82,7 +82,7 @@ const faqSchema = faqs.length > 0 ? {
 
     <div class="case-cta">
       <h2>Like this work?</h2>
-      <p>Let's discuss your project — we'll prepare a strategy and estimate within 48 hours.</p>
+      <p>Let's talk about your ads. I'll look at what you run now and tell you what I'd test first.</p>
       <a href="https://calendly.com/okad_calls/first" class="btn" target="_blank" rel="noopener">Book a Call</a>
     </div>
   </article>
@@ -92,7 +92,7 @@ const faqSchema = faqs.length > 0 ? {
       <h2>See Also</h2>
       <div class="related-grid">
         {related.map(c => (
-          <a href={`/cases/${c.id}`} class="related-card">
+          <a href={c.data.url ?? `/cases/${c.id}`} class="related-card">
             {c.data.cover && <img src={c.data.cover} alt={c.data.coverAlt || c.data.title} loading="lazy" />}
             <h3>{c.data.title}</h3>
           </a>
