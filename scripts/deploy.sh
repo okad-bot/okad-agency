@@ -37,6 +37,8 @@ rsync -a --delete \
   --exclude='cases/datemyage-dating-app-scripts/' \
   --exclude='cases/swiss-skincare-high-volume-ads/' \
   --exclude='cases/tipaw-dog-supplement-story-ads/' \
+  --exclude='cases/community-app-launch-ads-upvote/' \
+  --exclude='cases/myproteene/' \
   --exclude='images/cases/covers/' \
   --exclude='.git' \
   "$SRC/" "$DEPLOY/"
