@@ -21,9 +21,9 @@ const AI_JEWELRY = '/cases/ai-jewelry-content/';
 const COV = '/images/cases/covers/okad-cover-';
 
 const mail = (subject: string, body: string) => 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-const BRIEF = mail('Brief: what would you test?', 'Brand and website:\nWhat you sell and to whom:\nLinks to your ads or accounts (Meta ad library is fine):\nFootage you already have (Drive or Dropbox link):\nWhat you need: monthly ads / $1,000 test / organic / not sure\n');
+const BRIEF = mail('Brief: what would you test?', 'Brand and website:\nWhat you sell and to whom:\nLinks to your ads or accounts (Meta ad library is fine):\nFootage you already have (Drive or Dropbox link):\nWhat you need: monthly ads / $2,500 test / organic / not sure\n');
 // swap TEST for the Stripe payment link once it exists
-const TEST = mail('$1,000 test', 'Brand and website:\nWhat to test (re-edits, UGC, AI videos, statics, or not sure):\nLink to your ads (Meta ad library is fine):\n');
+const TEST = mail('$2,500 test', 'Brand and website:\nWhat to test (re-edits, UGC, AI videos, statics, or not sure):\nLink to your ads (Meta ad library is fine):\n');
 const ORGANIC = mail('Organic content plan', 'App or brand and website:\nWhere you post (Instagram, TikTok...):\nLinks to your accounts:\nAny footage you already have:\n');
 const PRODUCTION = mail('Production only', 'Brand and website:\nWhat you need and how many:\nYour plan or brief:\n');
 const AGENCY = mail('White-label ads', 'Agency and website:\nWhat your clients need:\nHow many videos a month:\n');
@@ -104,16 +104,16 @@ const faqs = [
   ['Do you run the ads?', 'No, your team or media buyer runs them. I read the results and plan the next batch.'],
   ['Can I cancel the monthly plan?', "Yes, any time with one month's notice."],
   ['How do I pay?', '100% upfront for each test or month.'],
-  ['What is the smallest order?', 'The $1,000 test. For ads without strategy, Production only starts at $2,500 a month.'],
+  ['What is the smallest order?', 'The $2,500 test. For ads without strategy, Production only starts at $2,500 a month.'],
 ];
 
 const clientLogos = fs.existsSync('public/logos/clients') ? fs.readdirSync('public/logos/clients').filter((f) => /\.(png|svg|webp)$/i.test(f)).sort().map((f) => `/logos/clients/${f}`) : [];
 const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/logo-${i}.png`)];
 ---
 
-<Base title="OKAD · Ads and organic content, tested every month" description="Fresh ads, fast, with a strategist behind every one: UGC, AI video, re-edits and statics. Monthly creative testing from $4,000 or a $1,000 test. 100+ brands, 10,000+ ads.">
+<Base title="OKAD · Ads and organic content, tested every month" description="Fresh ads, fast, with a strategist behind every one: UGC, AI video, re-edits and statics. Monthly creative testing from $5,000 or a $2,500 test. 100+ brands, 10,000+ ads.">
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'ProfessionalService', name: 'OKAD', url: 'https://okad.agency/', email: EMAIL, founder: { '@type': 'Person', name: 'Olga Kad Miller', sameAs: ['https://www.linkedin.com/in/o-kad/', 'https://www.instagram.com/by.okad/'] }, areaServed: 'Worldwide', address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' }, priceRange: '$1,000 to $7,000+' })} />
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'ProfessionalService', name: 'OKAD', url: 'https://okad.agency/', email: EMAIL, founder: { '@type': 'Person', name: 'Olga Kad Miller', sameAs: ['https://www.linkedin.com/in/o-kad/', 'https://www.instagram.com/by.okad/'] }, areaServed: 'Worldwide', address: { '@type': 'PostalAddress', addressLocality: 'Lisbon', addressCountry: 'PT' }, priceRange: '$2,500 to $10,000+' })} />
     <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) })} />
   </Fragment>
 
@@ -167,7 +167,7 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
         <p class="eyebrow">Any mix, every month</p>
         <h2>What I <em>make</em></h2>
         <div class="mk">{make.map(([t, b, p]) => <div><i>{t}</i><p><b>{b}</b>{p}</p></div>)}</div>
-        <div class="inmonth"><b>~50 ads</b><span>in a $4,000 month with strategy and scripts. For example: 10 UGC, 20 re-edits, 20 statics</span></div>
+        <div class="inmonth"><b>~50 ads</b><span>in a $5,000 month with strategy and scripts. For example: 10 UGC, 20 re-edits, 20 statics</span></div>
       </div>
     </section>
 
@@ -226,23 +226,23 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
           <div class="card dark">
             <p class="step">Monthly creative testing</p>
             <h3>New ads every month</h3>
-            <p class="price">$4,000 to $7,000+ <span>/ month</span></p>
+            <p class="price">$5,000 to $7,500+ <span>/ month</span></p>
             <p class="fit">For brands and apps that spend on ads every month and need fresh ones that sell.</p>
             <div class="tiers">
-              <div><p class="tt">Core</p><p class="p">$4,000</p><p>About 50 ads a month, any mix</p></div>
-              <div><p class="tt">Scale</p><p class="p">$7,000+</p><p>About 100 ads a month, more UGC</p></div>
+              <div><p class="tt">Core</p><p class="p">$5,000</p><p>About 50 ads a month, any mix</p></div>
+              <div><p class="tt">Scale</p><p class="p">$7,500+</p><p>About 100 ads a month, more UGC</p></div>
             </div>
             <p class="note">UGC creator fees on top.</p>
             <ul class="ticks"><li>Strategy, test plan and every script</li><li>New hooks on the ads that work</li><li>I read your results after every batch and plan the next one</li></ul>
             <a class="btn dew full" href={CALL} target="_blank" rel="noopener">Book a call</a>
-            <a class="link" href="#test">or start with a $1,000 test</a>
+            <a class="link" href="#test">or start with a $2,500 test</a>
             <p class="copy dk"><button type="button" class="cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button></p>
           </div>
 
           <div class="card dewc" id="test">
             <p class="step">Not sure yet?</p>
             <h3>Start with one test</h3>
-            <p class="price">$1,000 <span>one time</span></p>
+            <p class="price">$2,500 <span>one time</span></p>
             <p class="fit">I pick the format for your situation:</p>
             <div class="opts">{testOpts.map(([s, o]) => <div><span>{s}</span><b>{o}</b></div>)}</div>
             <p class="note">UGC creator fees on top.</p>
@@ -255,7 +255,7 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
           <div class="card path">
             <p class="step">Organic content</p>
             <h3>For apps and new brands</h3>
-            <p class="price">from $2,500 <span>/ month</span></p>
+            <p class="price">from $3,500 <span>/ month</span></p>
             <p class="fit">A content plan, scripts, and Reels and TikToks from your footage, creators or AI. Starting from zero is fine. What works in organic becomes your first ads.</p>
             <a class="btn line full" href={CALL} target="_blank" rel="noopener">Book a call</a>
           </div>
@@ -265,7 +265,7 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
             <h3>You bring the plan</h3>
             <p class="price">from $2,500 <span>/ month</span></p>
             <p class="fit">No strategy, just the ads you ask for.</p>
-            <div class="pp"><span>Re-edits</span><b>from $50</b><span>UGC with creators</span><b>from $100 + creator fee</b><span>AI video</span><b>from $200</b><span>Static ads</span><b>from $50</b></div>
+            <div class="pp"><span>Re-edits</span><b>from $75</b><span>UGC with creators</span><b>from $150 + creator fee</b><span>AI video</span><b>from $300</b><span>Static ads</span><b>from $75</b></div>
             <a class="btn line full" href={CALL} target="_blank" rel="noopener">Book a call</a>
           </div>
         </div>
@@ -337,7 +337,7 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
                 <legend>What do you need?</legend>
                 <div class="pick">
                   <label><input type="radio" name="need" value="Monthly ads" required /><span>Monthly ads</span></label>
-                  <label><input type="radio" name="need" value="$1,000 test" /><span>$1,000 test</span></label>
+                  <label><input type="radio" name="need" value="$2,500 test" /><span>$2,500 test</span></label>
                   <label><input type="radio" name="need" value="Organic" /><span>Organic</span></label>
                   <label><input type="radio" name="need" value="Not sure" /><span>Not sure</span></label>
                 </div>
