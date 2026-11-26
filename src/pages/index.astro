@@ -6,7 +6,7 @@ import fs from 'node:fs';
 const CALL = 'https://calendly.com/okad_calls/first';
 // Brief form ("Without a call"). Paste the endpoint of your form service here (Formspree, Basin, Getform, Web3Forms...).
 // Empty = the form opens an email with everything filled in, so it works before the service is connected.
-const FORM_ACTION = 'https://okad.cc/api/okad-brief/submit';
+const FORM_ACTION = '';
 const EMAIL = 'olga@okad.agency';
 const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
 const CASE2 = '/cases/drawing-app-faceless-ugc';
@@ -321,40 +321,10 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
           </div>
           <div class="way nocall">
             <p class="step">Without a call</p>
-            <h3>Send me a brief</h3>
-            <ol>
-              <li><b>You fill in</b> the short brief below.</li>
-              <li><b>Within 24 business hours</b> I reply with what I'd test first and the price.</li>
-              <li><b>You pay</b> by link and I start. First ads in 5 business days.</li>
-            </ol>
-            <form class="brief" id="brief" action={FORM_ACTION || undefined} method="post" data-action={FORM_ACTION}>
-              <input type="hidden" name="_subject" value="New brief from okad.agency" />
-              <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
-              <label>Your name<input type="text" name="name" required autocomplete="name" /></label>
-              <label>Email<input type="email" name="email" required autocomplete="email" /></label>
-              <label>Your website or product<input type="text" name="website" required placeholder="brand.com" inputmode="url" /></label>
-              <fieldset>
-                <legend>What do you need?</legend>
-                <div class="pick">
-                  <label><input type="radio" name="need" value="Monthly ads" required /><span>Monthly ads</span></label>
-                  <label><input type="radio" name="need" value="$2,500 test" /><span>$2,500 test</span></label>
-                  <label><input type="radio" name="need" value="Organic" /><span>Organic</span></label>
-                  <label><input type="radio" name="need" value="Not sure" /><span>Not sure</span></label>
-                </div>
-              </fieldset>
-              <label>Your ads or accounts <i>optional</i><input type="text" name="ads" placeholder="Meta ad library, Instagram, TikTok links" /></label>
-              <label>Footage you already have <i>optional</i><input type="text" name="footage" placeholder="Drive or Dropbox link" /></label>
-              <label>Anything else <i>optional</i><textarea name="notes" rows="3"></textarea></label>
-              <button class="btn full" type="submit">Send the brief</button>
-              <p class="err" hidden>Something went wrong. Email me at {EMAIL} instead.</p>
-            </form>
-            <div class="sent" id="sent" hidden>
-              <p class="step">Got it</p>
-              <h3>Thanks, I'll reply within 24 business hours</h3>
-              <p>With what I'd test first and the price. Want to talk instead?</p>
-              <a class="btn full" href={CALL} target="_blank" rel="noopener">Book a call</a>
-            </div>
-            <p class="copy">Rather email? <button type="button" class="cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button></p>
+            <h3>Email me</h3>
+            <p>Tell me about your product and what you need. I'll reply within 24 business hours with what I'd test first and the price.</p>
+            <a class="btn full" href={`mailto:${EMAIL}?subject=New%20project`}>Email me</a>
+            <p class="copy">Or copy: <button type="button" class="cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button></p>
           </div>
         </div>
         <p class="foot">Need a website or a brand? <a href="/design">Design studio →</a><br />Agency? I make white-label UGC and AI video. <a href={AGENCY}>Email me →</a></p>
@@ -364,7 +334,7 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
 
   <div class="k2 mbar" id="mbar" hidden>
     <a class="btn" href={CALL} target="_blank" rel="noopener">Book a call</a>
-    <a class="btn dew" href="#brief">Fill in a brief</a>
+    <a class="btn dew" href={`mailto:${EMAIL}?subject=New%20project`}>Email me</a>
   </div>
 
   <script>
