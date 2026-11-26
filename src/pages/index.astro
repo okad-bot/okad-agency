@@ -4,9 +4,6 @@ import '../styles/okad-home2.css';
 import fs from 'node:fs';
 
 const CALL = 'https://calendly.com/okad_calls/first';
-// Brief form ("Without a call"). Paste the endpoint of your form service here (Formspree, Basin, Getform, Web3Forms...).
-// Empty = the form opens an email with everything filled in, so it works before the service is connected.
-const FORM_ACTION = '';
 const EMAIL = 'olga@okad.agency';
 const CASE1 = '/cases/creative-testing-ai-app-meta-ads';
 const CASE2 = '/cases/drawing-app-faceless-ugc';
@@ -21,7 +18,6 @@ const AI_JEWELRY = '/cases/ai-jewelry-content/';
 const COV = '/images/cases/covers/okad-cover-';
 
 const mail = (subject: string, body: string) => 'mailto:' + EMAIL + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-const BRIEF = mail('Brief: what would you test?', 'Brand and website:\nWhat you sell and to whom:\nLinks to your ads or accounts (Meta ad library is fine):\nFootage you already have (Drive or Dropbox link):\nWhat you need: monthly ads / $2,500 test / organic / not sure\n');
 // swap TEST for the Stripe payment link once it exists
 const TEST = mail('$2,500 test', 'Brand and website:\nWhat to test (re-edits, UGC, AI videos, statics, or not sure):\nLink to your ads (Meta ad library is fine):\n');
 const ORGANIC = mail('Organic content plan', 'App or brand and website:\nWhere you post (Instagram, TikTok...):\nLinks to your accounts:\nAny footage you already have:\n');
@@ -96,7 +92,7 @@ const quotes = [
 ];
 
 const faqs = [
-  ['Can we work without a call?', "Yes. Fill in the short brief at the bottom of this page. Within 24 business hours I reply with what I'd test first and the price. You pay by link and I start."],
+  ['Can we work without a call?', "Yes. Email me at olga@okad.agency. Within 24 business hours I reply with what I'd test first and the price. You pay by link and I start."],
   ['How fast do I get the first ads?', 'First ads in 5 business days. UGC with new creators takes 2 to 3 weeks.'],
   ['What if nothing works?', 'Some ads will lose, that\'s what a test is for. At the start I ask how bold you want to go: safer ideas built on what already works for you and your competitors, or new ideas that can win big or flop. At minimum you get a tested answer. At best, a new winner. Tests need enough volume, so I plan them with enough ads.'],
   ['Where are your creators?', 'In every big market: the US, UK, Europe, the Middle East, Asia and more. Any age, look and background. Any language.'],
@@ -126,9 +122,8 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
         <p class="lead">New ads and organic content every month, tested, with a clear answer on what to make next.</p>
         <div class="btns">
           <a class="btn" href={CALL} target="_blank" rel="noopener">Book a call</a>
-          <a class="btn line" href="#brief">Fill in a brief</a>
+          <button type="button" class="btn line cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button>
         </div>
-        <p class="micro mail">Or email me: <button type="button" class="cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button></p>
         <div class="rail-top">
           <span>Tap a video for sound</span>
           <span class="rnav"><button type="button" data-rail="wl" data-dir="-1" aria-label="Previous">←</button><button type="button" data-rail="wl" data-dir="1" aria-label="Next">→</button></span>
@@ -281,7 +276,6 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
           <ul class="ticks"><li>10,000+ ads and posts for 100+ brands</li><li>Many of my own videos passed 1M views</li><li>I edit a big part of the ads myself</li></ul>
           <p class="team">I lead the strategy and write every script. Editors, a designer and 3,000+ creators make the ads with me. You always talk to me.</p>
           <a class="btn dew full" href={CALL} target="_blank" rel="noopener">Book a call</a>
-          <a class="link" href="#brief">or fill in a brief</a>
           <p class="copy dk"><button type="button" class="cp" data-copy={EMAIL}>{EMAIL} <span>copy</span></button></p>
           <p class="soc"><a href="https://www.linkedin.com/in/o-kad/" target="_blank" rel="noopener">LinkedIn</a><a href="https://www.instagram.com/by.okad/" target="_blank" rel="noopener">@by.okad</a><a href="https://www.youtube.com/@okad_agency" target="_blank" rel="noopener">YouTube</a></p>
         </div>
@@ -361,26 +355,6 @@ const logos = [...clientLogos, ...Array.from({ length: 19 }, (_, i) => `/logos/l
     document.querySelectorAll<HTMLButtonElement>('.k2 [data-copy]').forEach((b) => b.addEventListener('click', () => {
       navigator.clipboard?.writeText(b.dataset.copy!).then(() => { const t = b.querySelector('span'); if (t) { t.textContent = 'copied'; setTimeout(() => (t.textContent = 'copy'), 2000); } }).catch(() => {});
     }));
-    // brief form: sends to FORM_ACTION when set, otherwise opens an email with the answers
-    const brief = document.getElementById('brief') as HTMLFormElement | null;
-    brief?.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const fd = new FormData(brief);
-      if (fd.get('_gotcha')) return;
-      const action = brief.dataset.action;
-      const done = () => { brief.hidden = true; const s = document.getElementById('sent'); if (s) s.hidden = false; };
-      if (!action) {
-        const lines = [['Name', 'name'], ['Email', 'email'], ['Website', 'website'], ['Need', 'need'], ['Ads or accounts', 'ads'], ['Footage', 'footage'], ['Notes', 'notes']].map(([l, k]) => `${l}: ${fd.get(k) || ''}`).join('\n');
-        location.href = 'mailto:olga@okad.agency?subject=' + encodeURIComponent('Brief from ' + (fd.get('name') || 'okad.agency')) + '&body=' + encodeURIComponent(lines);
-        done(); return;
-      }
-      const btn = brief.querySelector('button[type=submit]') as HTMLButtonElement; btn.disabled = true; btn.textContent = 'Sending...';
-      try {
-        const r = await fetch(action, { method: 'POST', body: fd, headers: { Accept: 'application/json' } });
-        if (!r.ok) throw new Error();
-        done();
-      } catch { btn.disabled = false; btn.textContent = 'Send the brief'; (brief.querySelector('.err') as HTMLElement).hidden = false; }
-    });
     // videos load and play only in view
     const lazy = document.querySelectorAll<HTMLVideoElement>('.k2 video[data-lazy]');
     const startVid = (v: HTMLVideoElement) => {

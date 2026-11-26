@@ -228,32 +228,6 @@
 .k2 .cp{background:none;border:0;padding:0;font:inherit;font-weight:700;color:var(--ink);cursor:pointer}
 .k2 .cp span{font-weight:600;font-size:11px;background:var(--card);border-radius:99px;padding:2px 7px;margin-left:2px}
 @media (min-width:701px){.k2 .two{grid-template-columns:1fr 1fr;align-items:stretch}}
-/* brief form */
-.k2 .brief{display:grid;gap:12px;margin-top:14px;border-top:1px solid var(--line);padding-top:14px}
-.k2 .brief label{display:grid;gap:5px;font-size:13.5px;font-weight:600}
-.k2 .brief label i{font-style:normal;font-weight:400;color:var(--soft);font-size:12px}
-.k2 .brief input[type=text],.k2 .brief input[type=email],.k2 .brief textarea{font:inherit;font-size:16px;font-weight:400;border:1.3px solid #cfcfca;border-radius:12px;padding:11px 12px;background:#fff;color:var(--ink);width:100%;resize:vertical}
-.k2 .brief input:focus,.k2 .brief textarea:focus{outline:none;border-color:var(--ink);box-shadow:0 0 0 3px var(--dew)}
-.k2 .brief fieldset{border:0;padding:0;margin:0}
-.k2 .brief legend{font-size:13.5px;font-weight:600;margin-bottom:6px;padding:0}
-.k2 .pick{display:grid;grid-template-columns:1fr 1fr;gap:6px}
-.k2 .pick label{display:block;font-weight:500}
-.k2 .pick input{position:absolute;opacity:0;pointer-events:none}
-.k2 .pick span{display:block;text-align:center;border:1.3px solid #cfcfca;border-radius:99px;padding:9px 6px;font-size:14px;cursor:pointer}
-.k2 .pick input:checked+span{background:var(--ink);color:var(--dew);border-color:var(--ink)}
-.k2 .pick input:focus-visible+span{box-shadow:0 0 0 3px var(--dew)}
-.k2 .brief .btn{margin-top:4px;cursor:pointer;font:inherit;font-weight:600;font-size:15.5px}
-.k2 .hp{position:absolute;left:-9999px;width:1px;height:1px}
-.k2 .err{font-size:13px;color:#b42318}
-.k2 .sent{margin-top:14px;background:var(--dew);border-radius:18px;padding:18px}
-.k2 .sent h3{font-size:26px;margin:6px 0}
-.k2 .sent p{font-size:14.5px}
-.k2 .brief[hidden],.k2 .sent[hidden]{display:none}
-.k2 .brief>label{display:block}
-.k2 .brief>label input,.k2 .brief>label textarea{display:block;margin-top:5px}
-.k2 .brief>label i{margin-left:4px}
 .k2 [id]{scroll-margin-top:84px}
-.k2 .micro.mail{margin-top:10px}
-.k2 .micro .cp{font-size:12.5px}
 .k2 .copy.dk,.k2 .copy.dk .cp{color:#f4f4f0}
 .k2 .copy.dk .cp span{background:rgba(255,255,255,.15);color:#f4f4f0}
